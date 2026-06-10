@@ -38,6 +38,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 API_BASE = "https://api.football-data.org/v4"
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
+ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
+ESPN_SUMMARY_CAP = 30   # max match summaries to pull per run
 DETAIL_FETCH_CAP = 25      # max match-detail requests per run
 DETAIL_FETCH_PAUSE = 6.5   # seconds between requests (free tier: 10/min)
 
@@ -183,6 +185,144 @@ def fetch_espn_extras(index):
     return out
 
 
+# ------------------------------------------------- ESPN match-stats enrichment
+
+ESPN_STAT_MAP = {
+    "possessionPct": "ball_possession",
+    "totalShots": "shots",
+    "shotsOnTarget": "shots_on_goal",
+    "wonCorners": "corner_kicks",
+    "foulsCommitted": "fouls",
+    "offsides": "offsides",
+    "saves": "saves",
+    "yellowCards": "yellow_cards",
+    "redCards": "red_cards",
+    "totalPasses": "passes",
+    "passPct": "pass_accuracy",
+    "totalCrosses": "crosses",
+    "totalLongBalls": "long_balls",
+}
+
+
+def espn_get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read())
+
+
+def espn_event_map(dates, index):
+    """{(utc date, {home,away} codes): espn event id} for the given match dates."""
+    if not dates:
+        return {}
+    out = {}
+    days = sorted(dates)
+    cur = datetime.strptime(days[0], "%Y-%m-%d") - timedelta(days=1)
+    last = datetime.strptime(days[-1], "%Y-%m-%d") + timedelta(days=1)
+    while cur <= last:
+        end = min(cur + timedelta(days=6), last)
+        try:
+            data = espn_get(f"{ESPN_SCOREBOARD}?dates={cur:%Y%m%d}-{end:%Y%m%d}")
+        except Exception as e:
+            print(f"  ESPN scoreboard fetch failed ({e})")
+            cur = end + timedelta(days=1)
+            continue
+        for e in data.get("events", []):
+            c = (e.get("competitions") or [{}])[0]
+            comps = c.get("competitors") or []
+            home = next((t for t in comps if t.get("homeAway") == "home"), None)
+            away = next((t for t in comps if t.get("homeAway") == "away"), None)
+            hc = resolve_team(index, (home or {}).get("team"))
+            ac = resolve_team(index, (away or {}).get("team"))
+            if hc and ac:
+                out[(e.get("date") or "")[:10], frozenset((hc, ac))] = e.get("id")
+        cur = end + timedelta(days=1)
+    return out
+
+
+def merge_espn_summary(ent, summary, index):
+    """Fold ESPN boxscore stats / rosters / game info into a cached match detail."""
+    side_by_code = {ent["home"].get("code"): ent["home"], ent["away"].get("code"): ent["away"]}
+
+    for t in (summary.get("boxscore") or {}).get("teams") or []:
+        side = side_by_code.get(resolve_team(index, t.get("team")))
+        if not side:
+            continue
+        stats = side.setdefault("stats", {})
+        for st in t.get("statistics") or []:
+            key = ESPN_STAT_MAP.get(st.get("name"))
+            if not key:
+                continue
+            try:
+                num = float(st.get("displayValue"))
+            except (TypeError, ValueError):
+                continue
+            if st["name"] == "passPct" and num <= 1:
+                num *= 100
+            stats.setdefault(key, int(num) if num == int(num) else round(num, 1))
+
+    for r in summary.get("rosters") or []:
+        side = side_by_code.get(resolve_team(index, r.get("team")))
+        if not side:
+            continue
+        if not side.get("formation"):
+            side["formation"] = r.get("formation")
+        if not side.get("lineup"):
+            def pl(p):
+                return {"name": (p.get("athlete") or {}).get("displayName", "?"),
+                        "position": (p.get("position") or {}).get("displayName"),
+                        "shirt": p.get("jersey")}
+            entries = r.get("roster") or []
+            starters = sorted((p for p in entries if p.get("starter")),
+                              key=lambda p: int(p.get("formationPlace") or 99))
+            side["lineup"] = [pl(p) for p in starters]
+            side["bench"] = [pl(p) for p in entries if not p.get("starter")]
+
+    info = summary.get("gameInfo") or {}
+    ent["venue"] = ent.get("venue") or (info.get("venue") or {}).get("fullName")
+    ent["attendance"] = ent.get("attendance") or info.get("attendance")
+    if not ent.get("referee"):
+        officials = info.get("officials") or []
+        if officials:
+            ent["referee"] = (officials[0] or {}).get("displayName")
+
+
+def enrich_details_espn(cache, matches_resolved, index):
+    """Free, keyless second source: fill stats/lineups football-data doesn't provide."""
+    todo = [(m, ch, ca) for m, ch, ca in matches_resolved
+            if m["status"] == "FINISHED" and ch and ca and m.get("id")
+            and not cache.get(str(m["id"]), {}).get("espn")]
+    if not todo:
+        return
+    emap = espn_event_map({m["utcDate"][:10] for m, _, _ in todo}, index)
+    fetched = 0
+    for m, ch, ca in todo:
+        if fetched >= ESPN_SUMMARY_CAP:
+            print(f"  ESPN summary cap reached; {len(todo) - fetched} left for next run")
+            break
+        eid = emap.get((m["utcDate"][:10], frozenset((ch, ca))))
+        if not eid:
+            continue
+        try:
+            if fetched:
+                time.sleep(0.5)
+            summary = espn_get(f"{ESPN_SUMMARY}?event={eid}")
+            fetched += 1
+        except Exception as e:
+            print(f"  ESPN summary {eid} failed ({e}); skipping")
+            continue
+        ent = cache.setdefault(str(m["id"]), {
+            "status": "FINISHED", "fd": False, "venue": None, "attendance": None,
+            "referee": None, "goals": [], "bookings": [], "substitutions": [], "penalties": [],
+            "home": {"code": ch, "formation": None, "coach": None,
+                     "lineup": [], "bench": [], "stats": {}},
+            "away": {"code": ca, "formation": None, "coach": None,
+                     "lineup": [], "bench": [], "stats": {}},
+        })
+        merge_espn_summary(ent, summary, index)
+        ent["espn"] = True
+    print(f"  ESPN enrichment: {fetched} match summaries merged")
+
+
 # ---------------------------------------------------------------- match detail
 
 def extract_side(api_team, index):
@@ -238,11 +378,15 @@ def update_details(token, matches_resolved, index):
     cache_path = ROOT / "docs/details.json"
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
 
+    def needs_fetch(m):
+        c = cache.get(str(m["id"]), {})
+        return not (c.get("fd") and c.get("status") == "FINISHED")
+
     candidates = [
         m for m, ch, ca in matches_resolved
         if ch and ca and m.get("id")
         and m["status"] in ("FINISHED", "IN_PLAY", "PAUSED")
-        and cache.get(str(m["id"]), {}).get("status") != "FINISHED"
+        and needs_fetch(m)
     ]
     candidates.sort(key=lambda m: m["utcDate"], reverse=True)
     todo = candidates[:DETAIL_FETCH_CAP]
@@ -271,10 +415,29 @@ def update_details(token, matches_resolved, index):
         except Exception as e:
             print(f"  detail fetch {m['id']} failed ({e}); skipping")
             continue
-        cache[str(m["id"])] = extract_detail(detail, index)
+        new = extract_detail(detail, index)
+        new["fd"] = True
+        old = cache.get(str(m["id"]))
+        if old and old.get("espn"):
+            # keep ESPN-sourced stats/lineups that football-data doesn't have
+            for side_key in ("home", "away"):
+                ns, os_ = new[side_key], old.get(side_key) or {}
+                for k, v in (os_.get("stats") or {}).items():
+                    ns.setdefault("stats", {}).setdefault(k, v)
+                if not ns.get("lineup"):
+                    ns["lineup"], ns["bench"] = os_.get("lineup") or [], os_.get("bench") or []
+                if not ns.get("formation"):
+                    ns["formation"] = os_.get("formation")
+                if not ns.get("coach"):
+                    ns["coach"] = os_.get("coach")
+            for k in ("venue", "attendance", "referee"):
+                if not new.get(k):
+                    new[k] = old.get(k)
+            new["espn"] = True
+        cache[str(m["id"])] = new
 
-    cache_path.write_text(json.dumps(cache, ensure_ascii=False) + "\n")
     print(f"  match details cached: {len(cache)} matches ({len(todo)} fetched this run)")
+    return cache
 
 
 # ---------------------------------------------------------------- group tables
@@ -408,6 +571,10 @@ def _demo_side(code, possession):
             "shots": 6 + possession // 6,
             "shots_on_goal": 2 + possession // 15,
             "corner_kicks": 2 + possession // 12,
+            "passes": 280 + possession * 5,
+            "pass_accuracy": 68 + possession // 4,
+            "crosses": 8 + possession // 10,
+            "long_balls": 70 - possession // 3,
             "fouls": 16 - possession // 8,
             "offsides": 1 + possession // 30,
             "saves": 3,
@@ -660,7 +827,9 @@ def main():
 
     # Match details, top scorers, odds
     if mode == "live":
-        update_details(token, matches_resolved, index)
+        cache = update_details(token, matches_resolved, index)
+        enrich_details_espn(cache, matches_resolved, index)
+        (ROOT / "docs/details.json").write_text(json.dumps(cache, ensure_ascii=False) + "\n")
         scorers = fetch_scorers(token, index, teams_by_code, owner)
         extras = fetch_espn_extras(index)
     elif mode == "demo":

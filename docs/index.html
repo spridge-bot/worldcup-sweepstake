@@ -296,8 +296,10 @@ function renderLeaderboard(d) {
 /* ---------------- match centre ---------------- */
 const STAT_ROWS = [
   ['ball_possession', 'Possession %'], ['shots', 'Shots'], ['shots_on_goal', 'On target'],
-  ['corner_kicks', 'Corners'], ['fouls', 'Fouls'], ['offsides', 'Offsides'],
-  ['saves', 'Saves'], ['yellow_cards', 'Yellow cards'], ['red_cards', 'Red cards'],
+  ['corner_kicks', 'Corners'], ['passes', 'Passes'], ['pass_accuracy', 'Pass accuracy %'],
+  ['crosses', 'Crosses'], ['long_balls', 'Long balls'], ['fouls', 'Fouls'],
+  ['offsides', 'Offsides'], ['saves', 'Saves'],
+  ['yellow_cards', 'Yellow cards'], ['red_cards', 'Red cards'],
 ];
 
 function statBars(h, a) {

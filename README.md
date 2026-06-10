@@ -88,8 +88,15 @@ Run with `--offline` to reset back to a blank slate, or with a real
 
 | Source | What it provides | Key needed? |
 |---|---|---|
-| [football-data.org](https://www.football-data.org) | Results, fixtures, stages (drives all scoring), match detail: goalscorers, cards, subs, line-ups, stats where available | Free key (10 req/min) |
-| ESPN public API | Live 1X2 + over/under odds (DraftKings) and recent form for upcoming fixtures | None |
+| [football-data.org](https://www.football-data.org) | Results, fixtures, stages (drives all scoring), match detail: goalscorers, cards, subs, line-ups | Free key (10 req/min) |
+| ESPN public API (scoreboard) | Live 1X2 + over/under odds (DraftKings) and recent form for upcoming fixtures | None |
+| ESPN public API (summary) | Deep match stats (possession, shots, passes, pass accuracy, crosses, long balls, corners, fouls, saves...), full line-ups with formations, venue/attendance/referee — merged into every finished match | None |
+
+To check whether an **API-Football** (api-sports.io) free key is worth adding:
+sign up at [dashboard.api-football.com/register](https://dashboard.api-football.com/register),
+then run `API_FOOTBALL_KEY=yourkey python3 scripts/test_api_football.py` — it
+reports whether your key can see World Cup 2026 (free plans usually exclude
+the current season).
 
 Match details are rate-limited, so `docs/details.json` fills in incrementally —
 the newest 25 un-detailed matches are fetched per run and cached forever.
