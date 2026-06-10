@@ -1,0 +1,18 @@
+{
+  "win": 3,
+  "draw": 1,
+  "shootout_loss": 1,
+  "goal": 1,
+  "clean_sheet": 1,
+  "upset_win_per_tier_gap": 4,
+  "upset_draw_per_tier_gap": 2,
+  "multipliers": {"1": 1.0, "2": 1.5, "3": 2.0},
+  "progression": {
+    "LAST_32": 4,
+    "LAST_16": 6,
+    "QUARTER_FINALS": 8,
+    "SEMI_FINALS": 10,
+    "FINAL": 12,
+    "CHAMPION": 15
+  }
+}

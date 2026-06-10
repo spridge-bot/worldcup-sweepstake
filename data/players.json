@@ -1,0 +1,172 @@
+{
+  "players": [
+    {
+      "name": "Player 1",
+      "teams": [
+        "AUS",
+        "KSA"
+      ]
+    },
+    {
+      "name": "Player 2",
+      "teams": [
+        "ENG",
+        "IRQ"
+      ]
+    },
+    {
+      "name": "Player 3",
+      "teams": [
+        "BRA",
+        "JPN"
+      ]
+    },
+    {
+      "name": "Player 4",
+      "teams": [
+        "EGY",
+        "HAI"
+      ]
+    },
+    {
+      "name": "Player 5",
+      "teams": [
+        "BEL",
+        "SUI"
+      ]
+    },
+    {
+      "name": "Player 6",
+      "teams": [
+        "SEN",
+        "CIV"
+      ]
+    },
+    {
+      "name": "Player 7",
+      "teams": [
+        "CRO",
+        "ECU"
+      ]
+    },
+    {
+      "name": "Player 8",
+      "teams": [
+        "ESP",
+        "GHA"
+      ]
+    },
+    {
+      "name": "Player 9",
+      "teams": [
+        "USA",
+        "QAT"
+      ]
+    },
+    {
+      "name": "Player 10",
+      "teams": [
+        "NOR",
+        "NZL"
+      ]
+    },
+    {
+      "name": "Player 11",
+      "teams": [
+        "MEX",
+        "CZE"
+      ]
+    },
+    {
+      "name": "Player 12",
+      "teams": [
+        "MAR",
+        "SCO"
+      ]
+    },
+    {
+      "name": "Player 13",
+      "teams": [
+        "SWE",
+        "CUW"
+      ]
+    },
+    {
+      "name": "Player 14",
+      "teams": [
+        "NED",
+        "KOR"
+      ]
+    },
+    {
+      "name": "Player 15",
+      "teams": [
+        "POR",
+        "AUT"
+      ]
+    },
+    {
+      "name": "Player 16",
+      "teams": [
+        "URU",
+        "JOR"
+      ]
+    },
+    {
+      "name": "Player 17",
+      "teams": [
+        "GER",
+        "UZB"
+      ]
+    },
+    {
+      "name": "Player 18",
+      "teams": [
+        "TUR",
+        "CPV"
+      ]
+    },
+    {
+      "name": "Player 19",
+      "teams": [
+        "FRA",
+        "COD"
+      ]
+    },
+    {
+      "name": "Player 20",
+      "teams": [
+        "COL",
+        "IRN"
+      ]
+    },
+    {
+      "name": "Player 21",
+      "teams": [
+        "ARG",
+        "BIH"
+      ]
+    },
+    {
+      "name": "Player 22",
+      "teams": [
+        "ALG",
+        "RSA"
+      ]
+    },
+    {
+      "name": "Player 23",
+      "teams": [
+        "PAN",
+        "PAR"
+      ]
+    },
+    {
+      "name": "Player 24",
+      "teams": [
+        "CAN",
+        "TUN"
+      ]
+    }
+  ]
+}

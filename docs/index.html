@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Cup 2026 Sweepstake</title>
+<style>
+  :root {
+    --bg: #0d1421; --card: #16203a; --card2: #1c2a4a; --line: #2a3a5f;
+    --text: #e8edf7; --dim: #8fa0bf; --accent: #4fc3f7; --gold: #ffd166;
+    --green: #4ade80; --red: #f87171;
+    --t1: #4fc3f7; --t2: #b39ddb; --t3: #ffd166;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 16px; }
+  header { text-align: center; padding: 24px 0 8px; }
+  header h1 { font-size: 1.7rem; letter-spacing: .5px; }
+  header .sub { color: var(--dim); font-size: .85rem; margin-top: 6px; }
+  .banner { background: var(--card2); border: 1px solid var(--line); border-radius: 10px;
+            padding: 10px 14px; margin: 14px 0; font-size: .85rem; color: var(--gold);
+            text-align: center; display: none; }
+  nav { display: flex; gap: 8px; justify-content: center; margin: 18px 0; flex-wrap: wrap; }
+  nav button { background: var(--card); color: var(--dim); border: 1px solid var(--line);
+               border-radius: 999px; padding: 8px 18px; font-size: .9rem; cursor: pointer; }
+  nav button.active { background: var(--accent); color: #082032; border-color: var(--accent);
+                      font-weight: 600; }
+  section { display: none; } section.active { display: block; }
+  table { width: 100%; border-collapse: collapse; background: var(--card);
+          border-radius: 12px; overflow: hidden; }
+  th, td { padding: 10px 12px; text-align: left; font-size: .9rem; }
+  th { background: var(--card2); color: var(--dim); font-size: .75rem;
+       text-transform: uppercase; letter-spacing: .5px; }
+  tr:not(:last-child) td { border-bottom: 1px solid var(--line); }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .total { font-weight: 700; color: var(--gold); }
+  .rank { color: var(--dim); width: 2.2em; }
+  .top1 td { background: rgba(255, 209, 102, .08); }
+  .mv-up { color: var(--green); font-size: .8rem; }
+  .mv-down { color: var(--red); font-size: .8rem; }
+  .mv-flat { color: var(--dim); font-size: .8rem; }
+  .today-pos { color: var(--green); font-weight: 600; }
+  .chip { display: inline-flex; align-items: center; gap: 4px; background: var(--card2);
+          border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px;
+          font-size: .8rem; margin: 2px 3px 2px 0; white-space: nowrap; }
+  .chip.out { opacity: .45; text-decoration: line-through; }
+  .chip.champion { border-color: var(--gold); color: var(--gold); }
+  .tier { font-size: .65rem; font-weight: 700; border-radius: 4px; padding: 1px 4px; }
+  .tier.t1 { background: var(--t1); color: #082032; }
+  .tier.t2 { background: var(--t2); color: #082032; }
+  .tier.t3 { background: var(--t3); color: #082032; }
+  .day { margin-bottom: 22px; }
+  .day h3 { color: var(--dim); font-size: .85rem; text-transform: uppercase;
+            letter-spacing: 1px; margin-bottom: 10px; }
+  .match { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+           padding: 12px 14px; margin-bottom: 10px; }
+  .match .stage { color: var(--dim); font-size: .72rem; text-transform: uppercase;
+                  letter-spacing: .5px; margin-bottom: 6px; }
+  .scoreline { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px;
+               align-items: center; }
+  .scoreline .t { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .scoreline .t.away { justify-content: flex-end; text-align: right; }
+  .scoreline .score { font-size: 1.25rem; font-weight: 700; white-space: nowrap; }
+  .pts { display: flex; justify-content: space-between; margin-top: 8px;
+         font-size: .8rem; color: var(--dim); }
+  .pts b { color: var(--green); }
+  .owner { color: var(--dim); font-size: .75rem; }
+  .rules { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+           padding: 18px 20px; line-height: 1.65; font-size: .92rem; }
+  .rules h3 { margin: 14px 0 6px; color: var(--accent); font-size: 1rem; }
+  .rules h3:first-child { margin-top: 0; }
+  .rules li { margin-left: 20px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+            margin-bottom: 8px; }
+  summary { padding: 10px 14px; cursor: pointer; display: flex; align-items: center;
+            gap: 8px; flex-wrap: wrap; }
+  summary .grow { flex: 1; }
+  .events { padding: 0 14px 12px; }
+  .events div { display: flex; justify-content: space-between; font-size: .82rem;
+                color: var(--dim); padding: 3px 0; border-top: 1px dashed var(--line); }
+  .empty { text-align: center; color: var(--dim); padding: 40px 0; }
+  footer { text-align: center; color: var(--dim); font-size: .75rem; padding: 24px 0; }
+  @media (max-width: 600px) {
+    th, td { padding: 8px 6px; font-size: .8rem; }
+    .hide-sm { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🏆 World Cup 2026 Sweepstake</h1>
+    <div class="sub" id="updated">Loading…</div>
+  </header>
+  <div class="banner" id="banner"></div>
+
+  <nav>
+    <button data-tab="leaderboard" class="active">Leaderboard</button>
+    <button data-tab="results">Results</button>
+    <button data-tab="teams">Teams</button>
+    <button data-tab="rules">Rules</button>
+  </nav>
+
+  <section id="leaderboard" class="active"></section>
+  <section id="results"></section>
+  <section id="teams"></section>
+  <section id="rules"></section>
+
+  <footer>Scores update automatically every few hours · tiers ×1 / ×1.5 / ×2</footer>
+</div>
+
+<script>
+const $ = sel => document.querySelector(sel);
+
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('nav button').forEach(x => x.classList.remove('active'));
+  document.querySelectorAll('section').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  $('#' + b.dataset.tab).classList.add('active');
+});
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = n => (n % 1 === 0 ? n.toFixed(0) : n.toFixed(1));
+
+function chip(team) {
+  const cls = team.status === 'out' ? ' out' : team.status === 'champion' ? ' champion' : '';
+  return `<span class="chip${cls}">${team.flag} ${esc(team.name)}
+          <span class="tier t${team.tier}">T${team.tier}</span></span>`;
+}
+
+function movement(mv) {
+  if (mv > 0) return `<span class="mv-up">▲${mv}</span>`;
+  if (mv < 0) return `<span class="mv-down">▼${-mv}</span>`;
+  return `<span class="mv-flat">–</span>`;
+}
+
+function renderLeaderboard(d) {
+  const rows = d.players.map(p => {
+    const teams = p.teams.map(c => chip(d.teams[c])).join(' ');
+    const today = p.today > 0 ? `<span class="today-pos">+${fmt(p.today)}</span>`
+                : p.today < 0 ? fmt(p.today) : '<span class="mv-flat">–</span>';
+    return `<tr class="${p.rank === 1 && p.total > 0 ? 'top1' : ''}">
+      <td class="rank num">${p.rank}</td>
+      <td>${movement(p.movement)}</td>
+      <td><b>${esc(p.name)}</b></td>
+      <td>${teams}</td>
+      <td class="num">${today}</td>
+      <td class="num total">${fmt(p.total)}</td></tr>`;
+  }).join('');
+  $('#leaderboard').innerHTML = `<table>
+    <tr><th>#</th><th></th><th>Player</th><th>Teams</th>
+    <th class="num">Latest</th><th class="num">Total</th></tr>${rows}</table>`;
+}
+
+function renderResults(d) {
+  if (!d.results.length) {
+    $('#results').innerHTML = '<div class="empty">No results yet — first match is on 11 June 2026.</div>';
+    return;
+  }
+  const byDay = {};
+  d.results.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
+  const side = (t, away) => `<div class="t${away ? ' away' : ''}">
+      ${away ? '' : t.flag + ' '}<span><b>${esc(t.name)}</b>
+      <span class="tier t${t.tier}">T${t.tier}</span></span>${away ? ' ' + t.flag : ''}</div>`;
+  const ownerOf = c => d.teams[c].owner ? esc(d.teams[c].owner) : '—';
+  let html = '';
+  for (const day of Object.keys(byDay).sort().reverse()) {
+    const cards = byDay[day].map(r => `<div class="match">
+      <div class="stage">${esc(r.stage)}</div>
+      <div class="scoreline">${side(r.home, false)}
+        <div class="score">${r.home.goals} – ${r.away.goals}${esc(r.note)}</div>
+        ${side(r.away, true)}</div>
+      <div class="pts">
+        <span>${ownerOf(r.home.code)} <b>+${fmt(r.home.points)}</b></span>
+        <span><b>+${fmt(r.away.points)}</b> ${ownerOf(r.away.code)}</span>
+      </div></div>`).join('');
+    const date = new Date(day + 'T12:00:00Z').toLocaleDateString(undefined,
+      { weekday: 'long', day: 'numeric', month: 'long' });
+    html += `<div class="day"><h3>${date}</h3>${cards}</div>`;
+  }
+  if (d.upcoming.length) {
+    const ups = d.upcoming.map(u => {
+      const when = new Date(u.utc).toLocaleString(undefined,
+        { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+      return `<div class="match"><div class="stage">${esc(u.stage)} · ${when}</div>
+        <div class="scoreline">
+          <div class="t">${u.home.flag} <b>${esc(u.home.name)}</b></div>
+          <div class="score">vs</div>
+          <div class="t away"><b>${esc(u.away.name)}</b> ${u.away.flag}</div></div>
+        <div class="pts"><span>${esc(u.home.owner || '—')}</span>
+        <span>${esc(u.away.owner || '—')}</span></div></div>`;
+    }).join('');
+    html += `<div class="day"><h3>Coming up</h3>${ups}</div>`;
+  }
+  $('#results').innerHTML = html;
+}
+
+function renderTeams(d) {
+  const teams = Object.values(d.teams).sort((a, b) => b.total - a.total || a.fifa_rank - b.fifa_rank);
+  const rows = teams.map(t => {
+    const evs = t.events.map(e =>
+      `<div><span>${e.date} · ${esc(e.desc)}</span><span>+${fmt(e.points)}</span></div>`).join('')
+      || '<div><span>No points yet</span><span></span></div>';
+    const status = t.status === 'champion' ? ' 🏆' : t.status === 'out' ? ' ❌' : '';
+    return `<details><summary>
+      <span>${t.flag} <b>${esc(t.name)}</b>${status}</span>
+      <span class="tier t${t.tier}">T${t.tier} ×${t.multiplier}</span>
+      <span class="owner">FIFA #${t.fifa_rank} · ${esc(t.owner || 'unassigned')}</span>
+      <span class="grow"></span>
+      <span class="owner">${t.won}W ${t.drawn}D ${t.lost}L</span>
+      <span class="total">${fmt(t.total)}</span>
+    </summary><div class="events">${evs}</div></details>`;
+  }).join('');
+  $('#teams').innerHTML = rows;
+}
+
+function renderRules(d) {
+  const s = d.scoring;
+  $('#rules').innerHTML = `<div class="rules">
+    <h3>The draw</h3>
+    <p>48 teams ranked by FIFA world ranking, split into three tiers of 16.
+    Each of the 24 players drew two teams from different tiers.</p>
+    <h3>Underdog multiplier</h3>
+    <p>Every point a team earns is multiplied by its tier:
+    <b>Tier 1 ×${s.multipliers["1"]}</b>, <b>Tier 2 ×${s.multipliers["2"]}</b>,
+    <b>Tier 3 ×${s.multipliers["3"]}</b>. A minnow's win is worth double a giant's.</p>
+    <h3>Match points (before multiplier)</h3>
+    <ul>
+      <li>Win: <b>${s.win}</b> · Draw: <b>${s.draw}</b> · Losing a penalty shootout
+          still counts as a draw: <b>${s.shootout_loss}</b></li>
+      <li>Each goal scored: <b>${s.goal}</b> · Clean sheet: <b>${s.clean_sheet}</b></li>
+      <li><b>Upset bonus:</b> beat a higher-tier team for <b>+${s.upset_win_per_tier_gap}</b>
+          per tier gap (a Tier 3 side beating a Tier 1 giant = +${s.upset_win_per_tier_gap * 2}).
+          Holding them to a draw earns <b>+${s.upset_draw_per_tier_gap}</b> per tier gap.</li>
+    </ul>
+    <h3>Progression bonuses (before multiplier)</h3>
+    <ul>
+      <li>Reach the Round of 32: <b>+${s.progression.LAST_32}</b></li>
+      <li>Round of 16: <b>+${s.progression.LAST_16}</b> · Quarter-final:
+          <b>+${s.progression.QUARTER_FINALS}</b> · Semi-final: <b>+${s.progression.SEMI_FINALS}</b></li>
+      <li>Reach the final: <b>+${s.progression.FINAL}</b> · Win the World Cup:
+          <b>+${s.progression.CHAMPION}</b></li>
+    </ul>
+    <p style="margin-top:10px">Example: New Zealand (Tier 3) beat Argentina (Tier 1) 2–1.
+    That's ${s.win} for the win + ${s.goal * 2} for goals + ${s.upset_win_per_tier_gap * 2} upset
+    bonus = ${s.win + s.goal * 2 + s.upset_win_per_tier_gap * 2} × 2 =
+    <b>${(s.win + s.goal * 2 + s.upset_win_per_tier_gap * 2) * 2} points</b>. Dreams are alive.</p>
+  </div>`;
+}
+
+fetch('data.json?t=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    const when = new Date(d.generated_at).toLocaleString();
+    $('#updated').textContent = `Last updated ${when}` +
+      (d.latest_day ? ` · latest results from ${d.latest_day}` : '');
+    if (d.mode !== 'live') {
+      $('#banner').style.display = 'block';
+      $('#banner').textContent = d.mode === 'demo'
+        ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
+        : 'Waiting for the tournament to start — results will appear here automatically.';
+    }
+    renderLeaderboard(d); renderResults(d); renderTeams(d); renderRules(d);
+  })
+  .catch(() => { $('#updated').textContent = 'Could not load data.json — run scripts/update_scores.py first.'; });
+</script>
+</body>
+</html>
