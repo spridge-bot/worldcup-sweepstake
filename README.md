@@ -84,6 +84,22 @@ python3 -m http.server -d docs 8000       # open http://localhost:8000
 Run with `--offline` to reset back to a blank slate, or with a real
 `FOOTBALL_DATA_TOKEN=... python3 scripts/update_scores.py` for live data.
 
+## Data sources
+
+| Source | What it provides | Key needed? |
+|---|---|---|
+| [football-data.org](https://www.football-data.org) | Results, fixtures, stages (drives all scoring), match detail: goalscorers, cards, subs, line-ups, stats where available | Free key (10 req/min) |
+| ESPN public API | Live 1X2 + over/under odds (DraftKings) and recent form for upcoming fixtures | None |
+
+Match details are rate-limited, so `docs/details.json` fills in incrementally —
+the newest 25 un-detailed matches are fetched per run and cached forever.
+
+Alternatives if you ever want to switch: **API-Football** (api-sports.io, free
+100 req/day, very rich stats/lineups/odds), **The Odds API**
+(the-odds-api.com, free 500 credits/month, multi-bookmaker odds),
+**TheSportsDB** (free, thinner data). ESPN's API is unofficial — if it ever
+changes shape, odds/form quietly disappear but scoring is unaffected.
+
 ## Notes
 
 - Scores are recomputed from the full match list on every run, so the system

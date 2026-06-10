@@ -109,6 +109,21 @@
                  padding: 2px 16px 8px; color: var(--dim); font-size: .76rem; }
   .goalscorers div { max-width: 48%; }
   .goalscorers div.away { text-align: right; margin-left: auto; }
+  /* odds + form */
+  .oddsrow { display: flex; justify-content: center; align-items: center; gap: 8px;
+             padding: 8px 14px 10px; flex-wrap: wrap; }
+  .odd { background: #04150b; border: 1px solid var(--line2); border-radius: 8px;
+         padding: 4px 10px; font-size: .8rem; font-variant-numeric: tabular-nums; }
+  .odd b { color: var(--accent); margin-right: 5px; font-size: .7rem; }
+  .odd .val { font-weight: 700; }
+  .oddmeta { color: var(--dim); font-size: .68rem; }
+  .form { display: inline-flex; gap: 2px; margin-left: 6px; vertical-align: middle; }
+  .form i { font-style: normal; font-size: .58rem; font-weight: 800; width: 13px;
+            height: 13px; line-height: 13px; text-align: center; border-radius: 3px;
+            color: #04150b; }
+  .form .W { background: var(--green); }
+  .form .D { background: #9ca3af; }
+  .form .L { background: var(--red); }
   .ptsrow { display: flex; justify-content: space-between; padding: 8px 14px;
             border-top: 1px dashed var(--line); font-size: .8rem; color: var(--dim); }
   .ptsrow b { color: var(--green); }
@@ -414,21 +429,31 @@ function renderResults(d) {
     html += `<div class="day"><h3>${date}</h3>${cards}</div>`;
   }
   if (d.upcoming.length) {
+    const form = f => !f ? '' : `<span class="form">${[...f].slice(-5).map(c =>
+      `<i class="${c}">${c}</i>`).join('')}</span>`;
     const ups = d.upcoming.map(u => {
       const when = new Date(u.utc).toLocaleString(undefined,
         { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
       const stageLabel = [u.stage, u.group].filter(Boolean).join(' · ');
+      const o = u.odds;
+      const oddsRow = o ? `<div class="oddsrow">
+          <span class="odd"><b>1</b><span class="val">${o.home ?? '–'}</span></span>
+          <span class="odd"><b>X</b><span class="val">${o.draw ?? '–'}</span></span>
+          <span class="odd"><b>2</b><span class="val">${o.away ?? '–'}</span></span>
+          ${o.over_under != null ? `<span class="odd"><b>O/U</b><span class="val">${o.over_under}</span></span>` : ''}
+          <span class="oddmeta">odds: ${esc(o.provider)}</span>
+        </div>` : '';
       return `<div class="match"><div class="head"><span>${esc(stageLabel)}</span>
         <span>${when}</span></div>
         <div class="scoreline">
           <div class="t"><span class="flag">${u.home.flag}</span>
-            <span><span class="nm">${esc(u.home.name)}</span><br>
+            <span><span class="nm">${esc(u.home.name)}</span>${form(u.home.form)}<br>
             <span class="own">${esc(u.home.owner || '')}</span></span></div>
           <div class="scorebox">vs</div>
           <div class="t away"><span class="flag">${u.away.flag}</span>
-            <span><span class="nm">${esc(u.away.name)}</span><br>
+            <span><span class="nm">${esc(u.away.name)}</span>${form(u.away.form)}<br>
             <span class="own">${esc(u.away.owner || '')}</span></span></div>
-        </div></div>`;
+        </div>${oddsRow}</div>`;
     }).join('');
     html += `<div class="day"><h3>Coming up</h3>${ups}</div>`;
   }

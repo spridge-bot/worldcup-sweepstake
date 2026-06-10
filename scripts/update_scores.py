@@ -32,11 +32,12 @@ import unicodedata
 import urllib.error
 import urllib.request
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 API_BASE = "https://api.football-data.org/v4"
+ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 DETAIL_FETCH_CAP = 25      # max match-detail requests per run
 DETAIL_FETCH_PAUSE = 6.5   # seconds between requests (free tier: 10/min)
 
@@ -78,7 +79,8 @@ def resolve_team(index, api_team):
         return None
     if isinstance(api_team, str):
         return index.get(normalize(api_team))
-    for key in (api_team.get("name"), api_team.get("shortName"), api_team.get("tla")):
+    for field in ("name", "shortName", "tla", "displayName", "shortDisplayName", "abbreviation"):
+        key = api_team.get(field)
         if key and normalize(key) in index:
             return index[normalize(key)]
     return None
@@ -112,6 +114,72 @@ def fetch_scorers(token, index, teams_by_code, owner):
             "goals": s.get("goals") or 0,
             "assists": s.get("assists") or 0,
         })
+    return out
+
+
+# ---------------------------------------------------------------- odds (ESPN)
+
+def american_to_decimal(american):
+    """-240 -> 1.42, +750 -> 8.50 (decimal odds are easier to read)."""
+    try:
+        v = int(str(american).replace("+", ""))
+    except (TypeError, ValueError):
+        return None
+    if v == 0:
+        return None
+    if v < 0:
+        return round(1 + 100 / abs(v), 2)
+    return round(1 + v / 100, 2)
+
+
+def fetch_espn_extras(index):
+    """Odds + recent form for upcoming fixtures from ESPN's public scoreboard API.
+
+    Free, no key needed. Returns {(date, {home,away} codes): {odds, form}}.
+    Fails soft — the sweepstake works fine without it.
+    """
+    start = datetime.now(timezone.utc)
+    rng = f"{start:%Y%m%d}-{start + timedelta(days=10):%Y%m%d}"
+    try:
+        req = urllib.request.Request(f"{ESPN_SCOREBOARD}?dates={rng}",
+                                     headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+    except Exception as e:
+        print(f"  ESPN odds fetch failed ({e}); skipping")
+        return {}
+
+    out = {}
+    for e in data.get("events", []):
+        c = (e.get("competitions") or [{}])[0]
+        comps = c.get("competitors") or []
+        home = next((t for t in comps if t.get("homeAway") == "home"), None)
+        away = next((t for t in comps if t.get("homeAway") == "away"), None)
+        if not home or not away:
+            continue
+        hc = resolve_team(index, home.get("team"))
+        ac = resolve_team(index, away.get("team"))
+        if not hc or not ac:
+            continue
+        entry = {"form": {hc: home.get("form"), ac: away.get("form")}}
+        odds = (c.get("odds") or [{}])[0]
+        ml = odds.get("moneyline") or {}
+
+        def closing(side):
+            return american_to_decimal((((ml.get(side) or {}).get("close")) or {}).get("odds"))
+
+        h, a = closing("home"), closing("away")
+        draw_ml = (odds.get("drawOdds") or {}).get("moneyLine")
+        d = american_to_decimal(draw_ml) if draw_ml is not None else None
+        if h or a or d:
+            entry["odds"] = {
+                "home": h, "draw": d, "away": a,
+                "over_under": odds.get("overUnder"),
+                "provider": (odds.get("provider") or {}).get("displayName") or "DraftKings",
+            }
+        out[(e.get("date") or "")[:10], frozenset((hc, ac))] = entry
+    found = sum(1 for v in out.values() if "odds" in v)
+    print(f"  ESPN: odds for {found} of {len(out)} upcoming fixtures")
     return out
 
 
@@ -286,7 +354,27 @@ def demo_matches():
         m(104, "2026-06-12", "GROUP_D", "USA", "Paraguay", 3, 0, "HOME_TEAM"),
         m(105, "2026-06-12", "GROUP_E", "Japan", "Germany", 2, 1, "HOME_TEAM"),
         m(106, "2026-06-12", "GROUP_F", "France", "Ghana", 4, 0, "HOME_TEAM"),
+        {"id": 107, "utcDate": "2026-06-13T16:00:00Z", "status": "TIMED",
+         "stage": "GROUP_STAGE", "group": "GROUP_G",
+         "homeTeam": {"name": "England"}, "awayTeam": {"name": "Croatia"}, "score": {}},
+        {"id": 108, "utcDate": "2026-06-13T19:00:00Z", "status": "TIMED",
+         "stage": "GROUP_STAGE", "group": "GROUP_H",
+         "homeTeam": {"name": "Brazil"}, "awayTeam": {"name": "Morocco"}, "score": {}},
     ]
+
+
+DEMO_EXTRAS = {
+    ("2026-06-13", frozenset(("ENG", "CRO"))): {
+        "odds": {"home": 2.1, "draw": 3.3, "away": 3.6, "over_under": 2.5,
+                 "provider": "DraftKings"},
+        "form": {"ENG": "WWWDW", "CRO": "WDWLW"},
+    },
+    ("2026-06-13", frozenset(("BRA", "MAR"))): {
+        "odds": {"home": 1.85, "draw": 3.5, "away": 4.2, "over_under": 2.5,
+                 "provider": "DraftKings"},
+        "form": {"BRA": "WWDWW", "MAR": "WWWWD"},
+    },
+}
 
 
 DEMO_SURNAMES = ["Smith", "García", "Müller", "Silva", "Rossi", "Dubois", "Yamada", "Kim",
@@ -570,18 +658,22 @@ def main():
     status = compute_status(matches_resolved, teams_by_code)
     groups = compute_groups(matches_resolved, teams_by_code, owner)
 
-    # Match details + top scorers
+    # Match details, top scorers, odds
     if mode == "live":
         update_details(token, matches_resolved, index)
         scorers = fetch_scorers(token, index, teams_by_code, owner)
+        extras = fetch_espn_extras(index)
     elif mode == "demo":
+        finished_demo = [(m, ch, ca) for m, ch, ca in matches_resolved if m["status"] == "FINISHED"]
         (ROOT / "docs/details.json").write_text(
-            json.dumps(demo_details(matches_resolved, teams_by_code), ensure_ascii=False) + "\n")
+            json.dumps(demo_details(finished_demo, teams_by_code), ensure_ascii=False) + "\n")
         scorers = [{**s, "flag": teams_by_code[s["team"]]["flag"],
                     "owner": owner.get(s["team"])} for s in DEMO_SCORERS]
+        extras = DEMO_EXTRAS
     else:
         (ROOT / "docs/details.json").write_text("{}\n")
         scorers = []
+        extras = {}
 
     # Per-team totals and W/D/L records
     team_out = {}
@@ -646,14 +738,17 @@ def main():
     upcoming = []
     for m, ch, ca in matches_resolved:
         if m["status"] in ("SCHEDULED", "TIMED") and ch and ca:
+            extra = extras.get((m["utcDate"][:10], frozenset((ch, ca))), {})
+            form = extra.get("form") or {}
             upcoming.append({
                 "utc": m["utcDate"],
                 "stage": STAGE_LABELS.get(m["stage"], m["stage"]),
                 "group": (m.get("group") or "").replace("_", " ").title() or None,
+                "odds": extra.get("odds"),
                 "home": {"name": teams_by_code[ch]["name"], "flag": teams_by_code[ch]["flag"],
-                         "owner": owner.get(ch)},
+                         "owner": owner.get(ch), "form": form.get(ch)},
                 "away": {"name": teams_by_code[ca]["name"], "flag": teams_by_code[ca]["flag"],
-                         "owner": owner.get(ca)},
+                         "owner": owner.get(ca), "form": form.get(ca)},
             })
     upcoming.sort(key=lambda u: u["utc"])
 

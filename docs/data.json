@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-10T21:12:54+00:00",
- "mode": "demo",
- "latest_day": "2026-06-12",
+ "generated_at": "2026-06-10T21:19:12+00:00",
+ "mode": "offline",
+ "latest_day": null,
  "scoring": {
   "win": 3,
   "draw": 1,
@@ -26,105 +26,6 @@
  },
  "players": [
   {
-   "name": "Player 10",
-   "teams": [
-    "NOR",
-    "NZL"
-   ],
-   "total": 26.0,
-   "today": 26.0,
-   "rank": 1,
-   "movement": 3
-  },
-  {
-   "name": "Player 3",
-   "teams": [
-    "BRA",
-    "JPN"
-   ],
-   "total": 13.5,
-   "today": 13.5,
-   "rank": 2,
-   "movement": 2
-  },
-  {
-   "name": "Player 4",
-   "teams": [
-    "EGY",
-    "HAI"
-   ],
-   "total": 12.0,
-   "today": 0.0,
-   "rank": 3,
-   "movement": -2
-  },
-  {
-   "name": "Player 19",
-   "teams": [
-    "FRA",
-    "COD"
-   ],
-   "total": 8.0,
-   "today": 8.0,
-   "rank": 4,
-   "movement": 0
-  },
-  {
-   "name": "Player 9",
-   "teams": [
-    "USA",
-    "QAT"
-   ],
-   "total": 7.0,
-   "today": 7.0,
-   "rank": 5,
-   "movement": -1
-  },
-  {
-   "name": "Player 11",
-   "teams": [
-    "MEX",
-    "CZE"
-   ],
-   "total": 6.0,
-   "today": 0.0,
-   "rank": 6,
-   "movement": -4
-  },
-  {
-   "name": "Player 5",
-   "teams": [
-    "BEL",
-    "SUI"
-   ],
-   "total": 2.0,
-   "today": 0.0,
-   "rank": 7,
-   "movement": -4
-  },
-  {
-   "name": "Player 17",
-   "teams": [
-    "GER",
-    "UZB"
-   ],
-   "total": 1.0,
-   "today": 1.0,
-   "rank": 8,
-   "movement": -4
-  },
-  {
-   "name": "Player 21",
-   "teams": [
-    "ARG",
-    "BIH"
-   ],
-   "total": 1.0,
-   "today": 1.0,
-   "rank": 8,
-   "movement": -4
-  },
-  {
    "name": "Player 1",
    "teams": [
     "AUS",
@@ -132,8 +33,30 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 10",
+   "teams": [
+    "NOR",
+    "NZL"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 11",
+   "teams": [
+    "MEX",
+    "CZE"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 12",
@@ -143,8 +66,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 13",
@@ -154,8 +77,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 14",
@@ -165,8 +88,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 15",
@@ -176,8 +99,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 16",
@@ -187,8 +110,19 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 17",
+   "teams": [
+    "GER",
+    "UZB"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 18",
@@ -198,8 +132,19 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 19",
+   "teams": [
+    "FRA",
+    "COD"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 2",
@@ -209,8 +154,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 20",
@@ -220,8 +165,19 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 21",
+   "teams": [
+    "ARG",
+    "BIH"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 22",
@@ -231,8 +187,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 23",
@@ -242,8 +198,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 24",
@@ -253,8 +209,41 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 3",
+   "teams": [
+    "BRA",
+    "JPN"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 4",
+   "teams": [
+    "EGY",
+    "HAI"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 5",
+   "teams": [
+    "BEL",
+    "SUI"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 6",
@@ -264,8 +253,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 7",
@@ -275,8 +264,8 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Player 8",
@@ -286,8 +275,19 @@
    ],
    "total": 0.0,
    "today": 0.0,
-   "rank": 10,
-   "movement": -6
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Player 9",
+   "teams": [
+    "USA",
+    "QAT"
+   ],
+   "total": 0.0,
+   "today": 0.0,
+   "rank": 1,
+   "movement": 0
   }
  ],
  "teams": {
@@ -300,20 +300,14 @@
    "multiplier": 1.0,
    "owner": "Player 21",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "gf": 1,
-   "ga": 2,
-   "total": 1.0,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "1 goal",
-     "points": 1.0
-    }
-   ]
+   "lost": 0,
+   "gf": 0,
+   "ga": 0,
+   "total": 0.0,
+   "events": []
   },
   "ESP": {
    "code": "ESP",
@@ -342,30 +336,14 @@
    "multiplier": 1.0,
    "owner": "Player 19",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 4,
+   "gf": 0,
    "ga": 0,
-   "total": 8.0,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "Win",
-     "points": 3.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "4 goals",
-     "points": 4.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "Clean sheet",
-     "points": 1.0
-    }
-   ]
+   "total": 0.0,
+   "events": []
   },
   "ENG": {
    "code": "ENG",
@@ -466,25 +444,14 @@
    "multiplier": 1.0,
    "owner": "Player 5",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
-   "total": 2.0,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "Draw",
-     "points": 1.0
-    },
-    {
-     "date": "2026-06-11",
-     "desc": "1 goal",
-     "points": 1.0
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0.0,
+   "events": []
   },
   "GER": {
    "code": "GER",
@@ -495,20 +462,14 @@
    "multiplier": 1.0,
    "owner": "Player 17",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "gf": 1,
-   "ga": 2,
-   "total": 1.0,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "1 goal",
-     "points": 1.0
-    }
-   ]
+   "lost": 0,
+   "gf": 0,
+   "ga": 0,
+   "total": 0.0,
+   "events": []
   },
   "CRO": {
    "code": "CRO",
@@ -555,30 +516,14 @@
    "multiplier": 1.0,
    "owner": "Player 11",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 2,
+   "gf": 0,
    "ga": 0,
-   "total": 6.0,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "Win",
-     "points": 3.0
-    },
-    {
-     "date": "2026-06-11",
-     "desc": "2 goals",
-     "points": 2.0
-    },
-    {
-     "date": "2026-06-11",
-     "desc": "Clean sheet",
-     "points": 1.0
-    }
-   ]
+   "total": 0.0,
+   "events": []
   },
   "SEN": {
    "code": "SEN",
@@ -625,30 +570,14 @@
    "multiplier": 1.0,
    "owner": "Player 9",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 3,
+   "gf": 0,
    "ga": 0,
-   "total": 7.0,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "Win",
-     "points": 3.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "3 goals",
-     "points": 3.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "Clean sheet",
-     "points": 1.0
-    }
-   ]
+   "total": 0.0,
+   "events": []
   },
   "JPN": {
    "code": "JPN",
@@ -659,30 +588,14 @@
    "multiplier": 1.5,
    "owner": "Player 3",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 2,
-   "ga": 1,
-   "total": 13.5,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "Win",
-     "points": 4.5
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "2 goals",
-     "points": 3.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "Upset! Beat a Tier 1 team",
-     "points": 6.0
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0.0,
+   "events": []
   },
   "SUI": {
    "code": "SUI",
@@ -963,12 +876,12 @@
    "multiplier": 2.0,
    "owner": "Player 23",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 0,
    "gf": 0,
-   "ga": 3,
+   "ga": 0,
    "total": 0.0,
    "events": []
   },
@@ -1089,12 +1002,12 @@
    "multiplier": 2.0,
    "owner": "Player 22",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 0,
    "gf": 0,
-   "ga": 2,
+   "ga": 0,
    "total": 0.0,
    "events": []
   },
@@ -1179,12 +1092,12 @@
    "multiplier": 2.0,
    "owner": "Player 8",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 0,
    "gf": 0,
-   "ga": 4,
+   "ga": 0,
    "total": 0.0,
    "events": []
   },
@@ -1215,30 +1128,14 @@
    "multiplier": 2.0,
    "owner": "Player 4",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
-   "total": 12.0,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "Draw",
-     "points": 2.0
-    },
-    {
-     "date": "2026-06-11",
-     "desc": "1 goal",
-     "points": 2.0
-    },
-    {
-     "date": "2026-06-11",
-     "desc": "Held a Tier 1 team",
-     "points": 8.0
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0.0,
+   "events": []
   },
   "NZL": {
    "code": "NZL",
@@ -1249,451 +1146,18 @@
    "multiplier": 2.0,
    "owner": "Player 10",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 2,
-   "ga": 1,
-   "total": 26.0,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "Win",
-     "points": 6.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "2 goals",
-     "points": 4.0
-    },
-    {
-     "date": "2026-06-12",
-     "desc": "Upset! Beat a Tier 1 team",
-     "points": 16.0
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0.0,
+   "events": []
   }
  },
- "results": [
-  {
-   "id": 103,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "NZL",
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "tier": 3,
-    "goals": 2,
-    "points": 26.0
-   },
-   "away": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "tier": 1,
-    "goals": 1,
-    "points": 1.0
-   }
-  },
-  {
-   "id": 104,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "note": "",
-   "home": {
-    "code": "USA",
-    "name": "USA",
-    "flag": "🇺🇸",
-    "tier": 1,
-    "goals": 3,
-    "points": 7.0
-   },
-   "away": {
-    "code": "PAR",
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "tier": 3,
-    "goals": 0,
-    "points": 0.0
-   }
-  },
-  {
-   "id": 105,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "note": "",
-   "home": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "tier": 2,
-    "goals": 2,
-    "points": 13.5
-   },
-   "away": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "tier": 1,
-    "goals": 1,
-    "points": 1.0
-   }
-  },
-  {
-   "id": 106,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "note": "",
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "tier": 1,
-    "goals": 4,
-    "points": 8.0
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "tier": 3,
-    "goals": 0,
-    "points": 0.0
-   }
-  },
-  {
-   "id": 101,
-   "date": "2026-06-11",
-   "utc": "2026-06-11T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "note": "",
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "tier": 1,
-    "goals": 2,
-    "points": 6.0
-   },
-   "away": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "tier": 3,
-    "goals": 0,
-    "points": 0.0
-   }
-  },
-  {
-   "id": 102,
-   "date": "2026-06-11",
-   "utc": "2026-06-11T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "note": "",
-   "home": {
-    "code": "HAI",
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "tier": 3,
-    "goals": 1,
-    "points": 12.0
-   },
-   "away": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "tier": 1,
-    "goals": 1,
-    "points": 2.0
-   }
-  }
- ],
+ "results": [],
  "upcoming": [],
- "groups": [
-  {
-   "name": "Group A",
-   "rows": [
-    {
-     "group": "Group A",
-     "code": "MEX",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 2,
-     "ga": 0,
-     "pts": 3,
-     "gd": 2,
-     "name": "Mexico",
-     "flag": "🇲🇽",
-     "tier": 1,
-     "owner": "Player 11"
-    },
-    {
-     "group": "Group A",
-     "code": "RSA",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 2,
-     "pts": 0,
-     "gd": -2,
-     "name": "South Africa",
-     "flag": "🇿🇦",
-     "tier": 3,
-     "owner": "Player 22"
-    }
-   ]
-  },
-  {
-   "name": "Group B",
-   "rows": [
-    {
-     "group": "Group B",
-     "code": "BEL",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 1,
-     "gd": 0,
-     "name": "Belgium",
-     "flag": "🇧🇪",
-     "tier": 1,
-     "owner": "Player 5"
-    },
-    {
-     "group": "Group B",
-     "code": "HAI",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 1,
-     "gd": 0,
-     "name": "Haiti",
-     "flag": "🇭🇹",
-     "tier": 3,
-     "owner": "Player 4"
-    }
-   ]
-  },
-  {
-   "name": "Group C",
-   "rows": [
-    {
-     "group": "Group C",
-     "code": "NZL",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 2,
-     "ga": 1,
-     "pts": 3,
-     "gd": 1,
-     "name": "New Zealand",
-     "flag": "🇳🇿",
-     "tier": 3,
-     "owner": "Player 10"
-    },
-    {
-     "group": "Group C",
-     "code": "ARG",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 0,
-     "gd": -1,
-     "name": "Argentina",
-     "flag": "🇦🇷",
-     "tier": 1,
-     "owner": "Player 21"
-    }
-   ]
-  },
-  {
-   "name": "Group D",
-   "rows": [
-    {
-     "group": "Group D",
-     "code": "USA",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 3,
-     "ga": 0,
-     "pts": 3,
-     "gd": 3,
-     "name": "USA",
-     "flag": "🇺🇸",
-     "tier": 1,
-     "owner": "Player 9"
-    },
-    {
-     "group": "Group D",
-     "code": "PAR",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 3,
-     "pts": 0,
-     "gd": -3,
-     "name": "Paraguay",
-     "flag": "🇵🇾",
-     "tier": 3,
-     "owner": "Player 23"
-    }
-   ]
-  },
-  {
-   "name": "Group E",
-   "rows": [
-    {
-     "group": "Group E",
-     "code": "JPN",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 2,
-     "ga": 1,
-     "pts": 3,
-     "gd": 1,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Player 3"
-    },
-    {
-     "group": "Group E",
-     "code": "GER",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 0,
-     "gd": -1,
-     "name": "Germany",
-     "flag": "🇩🇪",
-     "tier": 1,
-     "owner": "Player 17"
-    }
-   ]
-  },
-  {
-   "name": "Group F",
-   "rows": [
-    {
-     "group": "Group F",
-     "code": "FRA",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 4,
-     "ga": 0,
-     "pts": 3,
-     "gd": 4,
-     "name": "France",
-     "flag": "🇫🇷",
-     "tier": 1,
-     "owner": "Player 19"
-    },
-    {
-     "group": "Group F",
-     "code": "GHA",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 4,
-     "pts": 0,
-     "gd": -4,
-     "name": "Ghana",
-     "flag": "🇬🇭",
-     "tier": 3,
-     "owner": "Player 8"
-    }
-   ]
-  }
- ],
- "scorers": [
-  {
-   "player": "K. Mbappé",
-   "team": "FRA",
-   "goals": 2,
-   "assists": 1,
-   "flag": "🇫🇷",
-   "owner": "Player 19"
-  },
-  {
-   "player": "C. Wood",
-   "team": "NZL",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇿",
-   "owner": "Player 10"
-  },
-  {
-   "player": "T. Kubo",
-   "team": "JPN",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇯🇵",
-   "owner": "Player 3"
-  },
-  {
-   "player": "C. Pulisic",
-   "team": "USA",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇺🇸",
-   "owner": "Player 9"
-  },
-  {
-   "player": "H. Lozano",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Player 11"
-  },
-  {
-   "player": "D. Duranville",
-   "team": "HAI",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇭🇹",
-   "owner": "Player 4"
-  }
- ]
+ "groups": [],
+ "scorers": []
 }
