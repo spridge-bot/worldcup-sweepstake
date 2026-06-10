@@ -9,6 +9,12 @@ Usage:
 Get a free API token at https://www.football-data.org/client/register
 (the free tier includes the FIFA World Cup).
 
+Outputs:
+    docs/data.json     leaderboard, results, group tables, top scorers
+    docs/details.json  per-match detail (goals, cards, subs, lineups, stats),
+                       built up incrementally across runs because the free API
+                       tier allows 10 requests/minute.
+
 Scoring (see data/scoring.json for the tunable numbers):
   Every point a team earns is multiplied by its tier multiplier
   (Tier 1 x1, Tier 2 x1.5, Tier 3 x2), so underdogs climb fast.
@@ -21,14 +27,18 @@ Scoring (see data/scoring.json for the tunable numbers):
 import json
 import os
 import sys
+import time
 import unicodedata
+import urllib.error
 import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-API_URL = "https://api.football-data.org/v4/competitions/WC/matches"
+API_BASE = "https://api.football-data.org/v4"
+DETAIL_FETCH_CAP = 25      # max match-detail requests per run
+DETAIL_FETCH_PAUSE = 6.5   # seconds between requests (free tier: 10/min)
 
 KNOCKOUT_STAGES = ["LAST_32", "LAST_16", "QUARTER_FINALS", "SEMI_FINALS", "THIRD_PLACE", "FINAL"]
 STAGE_LABELS = {
@@ -66,39 +76,303 @@ def resolve_team(index, api_team):
     """Map an API team object to our 3-letter code, or None (e.g. TBD placeholders)."""
     if not api_team:
         return None
+    if isinstance(api_team, str):
+        return index.get(normalize(api_team))
     for key in (api_team.get("name"), api_team.get("shortName"), api_team.get("tla")):
         if key and normalize(key) in index:
             return index[normalize(key)]
     return None
 
 
-def fetch_matches(token):
-    req = urllib.request.Request(API_URL, headers={"X-Auth-Token": token})
+def fetch_json(url, token):
+    req = urllib.request.Request(url, headers={"X-Auth-Token": token})
     with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read())["matches"]
+        return json.loads(resp.read())
 
+
+def fetch_matches(token):
+    return fetch_json(f"{API_BASE}/competitions/WC/matches", token)["matches"]
+
+
+def fetch_scorers(token, index, teams_by_code, owner):
+    """Golden Boot standings — one cheap request, fail soft."""
+    try:
+        data = fetch_json(f"{API_BASE}/competitions/WC/scorers?limit=15", token)
+    except Exception as e:
+        print(f"  scorers fetch failed ({e}); skipping")
+        return []
+    out = []
+    for s in data.get("scorers", []):
+        code = resolve_team(index, s.get("team"))
+        out.append({
+            "player": s.get("player", {}).get("name", "?"),
+            "team": code,
+            "flag": teams_by_code[code]["flag"] if code else "",
+            "owner": owner.get(code) if code else None,
+            "goals": s.get("goals") or 0,
+            "assists": s.get("assists") or 0,
+        })
+    return out
+
+
+# ---------------------------------------------------------------- match detail
+
+def extract_side(api_team, index):
+    return {
+        "code": resolve_team(index, api_team),
+        "formation": api_team.get("formation"),
+        "coach": (api_team.get("coach") or {}).get("name"),
+        "lineup": [{"name": p.get("name"), "position": p.get("position"),
+                    "shirt": p.get("shirtNumber")} for p in api_team.get("lineup") or []],
+        "bench": [{"name": p.get("name"), "position": p.get("position"),
+                   "shirt": p.get("shirtNumber")} for p in api_team.get("bench") or []],
+        "stats": api_team.get("statistics") or {},
+    }
+
+
+def extract_detail(d, index):
+    referee = next((r.get("name") for r in d.get("referees") or []
+                    if r.get("role") in (None, "REFEREE")), None)
+    return {
+        "status": d.get("status"),
+        "venue": d.get("venue"),
+        "attendance": d.get("attendance"),
+        "referee": referee,
+        "goals": [{
+            "minute": g.get("minute"), "injury": g.get("injuryTime"),
+            "team": resolve_team(index, g.get("team")),
+            "scorer": (g.get("scorer") or {}).get("name", "?"),
+            "assist": (g.get("assist") or {}).get("name"),
+            "type": g.get("type"),
+        } for g in d.get("goals") or []],
+        "bookings": [{
+            "minute": b.get("minute"), "team": resolve_team(index, b.get("team")),
+            "player": (b.get("player") or {}).get("name", "?"),
+            "card": b.get("card"),
+        } for b in d.get("bookings") or []],
+        "substitutions": [{
+            "minute": s.get("minute"), "team": resolve_team(index, s.get("team")),
+            "out": (s.get("playerOut") or {}).get("name", "?"),
+            "in": (s.get("playerIn") or {}).get("name", "?"),
+        } for s in d.get("substitutions") or []],
+        "penalties": [{
+            "team": resolve_team(index, p.get("team")),
+            "player": (p.get("player") or {}).get("name", "?"),
+            "scored": p.get("scored"),
+        } for p in d.get("penalties") or []],
+        "home": extract_side(d.get("homeTeam") or {}, index),
+        "away": extract_side(d.get("awayTeam") or {}, index),
+    }
+
+
+def update_details(token, matches_resolved, index):
+    """Fetch per-match detail for recent matches, throttled, into docs/details.json."""
+    cache_path = ROOT / "docs/details.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+
+    candidates = [
+        m for m, ch, ca in matches_resolved
+        if ch and ca and m.get("id")
+        and m["status"] in ("FINISHED", "IN_PLAY", "PAUSED")
+        and cache.get(str(m["id"]), {}).get("status") != "FINISHED"
+    ]
+    candidates.sort(key=lambda m: m["utcDate"], reverse=True)
+    todo = candidates[:DETAIL_FETCH_CAP]
+    if len(candidates) > DETAIL_FETCH_CAP:
+        print(f"  detail backlog: {len(candidates)} matches, fetching newest "
+              f"{DETAIL_FETCH_CAP} this run (the rest next run)")
+
+    for i, m in enumerate(todo):
+        if i:
+            time.sleep(DETAIL_FETCH_PAUSE)
+        url = f"{API_BASE}/matches/{m['id']}"
+        try:
+            detail = fetch_json(url, token)
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                print("  rate limited; waiting 65s...")
+                time.sleep(65)
+                try:
+                    detail = fetch_json(url, token)
+                except Exception as e2:
+                    print(f"  giving up on details this run ({e2})")
+                    break
+            else:
+                print(f"  detail fetch {m['id']} failed ({e}); skipping")
+                continue
+        except Exception as e:
+            print(f"  detail fetch {m['id']} failed ({e}); skipping")
+            continue
+        cache[str(m["id"])] = extract_detail(detail, index)
+
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False) + "\n")
+    print(f"  match details cached: {len(cache)} matches ({len(todo)} fetched this run)")
+
+
+# ---------------------------------------------------------------- group tables
+
+def compute_groups(matches_resolved, teams_by_code, owner):
+    """Build group tables locally from the fixture list (no extra API calls)."""
+    members = defaultdict(set)
+    rows = {}
+    for m, ch, ca in matches_resolved:
+        if m.get("stage") != "GROUP_STAGE" or not m.get("group"):
+            continue
+        gname = m["group"].replace("_", " ").title()
+        for code in (ch, ca):
+            if code:
+                members[gname].add(code)
+
+    for gname, codes in members.items():
+        for code in codes:
+            rows[code] = {"group": gname, "code": code, "p": 0, "w": 0, "d": 0,
+                          "l": 0, "gf": 0, "ga": 0, "pts": 0}
+
+    for m, ch, ca in matches_resolved:
+        if m.get("stage") != "GROUP_STAGE" or m["status"] != "FINISHED" or not ch or not ca:
+            continue
+        hg, ag = match_goals(m["score"])
+        for code, gf, ga in ((ch, hg, ag), (ca, ag, hg)):
+            if code not in rows:
+                continue
+            r = rows[code]
+            r["p"] += 1
+            r["gf"] += gf
+            r["ga"] += ga
+            if gf > ga:
+                r["w"] += 1
+                r["pts"] += 3
+            elif gf == ga:
+                r["d"] += 1
+                r["pts"] += 1
+            else:
+                r["l"] += 1
+
+    groups = []
+    for gname in sorted(members):
+        table = sorted((rows[c] for c in members[gname]),
+                       key=lambda r: (-r["pts"], -(r["gf"] - r["ga"]), -r["gf"],
+                                      teams_by_code[r["code"]]["name"]))
+        groups.append({"name": gname, "rows": [{
+            **r, "gd": r["gf"] - r["ga"],
+            "name": teams_by_code[r["code"]]["name"],
+            "flag": teams_by_code[r["code"]]["flag"],
+            "tier": teams_by_code[r["code"]]["tier"],
+            "owner": owner.get(r["code"]),
+        } for r in table]})
+    return groups
+
+
+# ---------------------------------------------------------------- demo fixtures
 
 def demo_matches():
     """A fake first two matchdays so you can preview how scoring plays out."""
-    def m(date, stage, home, away, hg, ag, winner, duration="REGULAR"):
+    def m(mid, date, group, home, away, hg, ag, winner, duration="REGULAR"):
         return {
+            "id": mid,
             "utcDate": f"{date}T18:00:00Z",
             "status": "FINISHED",
-            "stage": stage,
+            "stage": "GROUP_STAGE",
+            "group": group,
             "homeTeam": {"name": home},
             "awayTeam": {"name": away},
             "score": {"winner": winner, "duration": duration,
                       "fullTime": {"home": hg, "away": ag}},
         }
     return [
-        m("2026-06-11", "GROUP_STAGE", "Mexico", "South Africa", 2, 0, "HOME_TEAM"),
-        m("2026-06-11", "GROUP_STAGE", "Haiti", "Belgium", 1, 1, "DRAW"),
-        m("2026-06-12", "GROUP_STAGE", "New Zealand", "Argentina", 2, 1, "HOME_TEAM"),
-        m("2026-06-12", "GROUP_STAGE", "USA", "Paraguay", 3, 0, "HOME_TEAM"),
-        m("2026-06-12", "GROUP_STAGE", "Japan", "Germany", 2, 1, "HOME_TEAM"),
-        m("2026-06-12", "GROUP_STAGE", "France", "Ghana", 4, 0, "HOME_TEAM"),
+        m(101, "2026-06-11", "GROUP_A", "Mexico", "South Africa", 2, 0, "HOME_TEAM"),
+        m(102, "2026-06-11", "GROUP_B", "Haiti", "Belgium", 1, 1, "DRAW"),
+        m(103, "2026-06-12", "GROUP_C", "New Zealand", "Argentina", 2, 1, "HOME_TEAM"),
+        m(104, "2026-06-12", "GROUP_D", "USA", "Paraguay", 3, 0, "HOME_TEAM"),
+        m(105, "2026-06-12", "GROUP_E", "Japan", "Germany", 2, 1, "HOME_TEAM"),
+        m(106, "2026-06-12", "GROUP_F", "France", "Ghana", 4, 0, "HOME_TEAM"),
     ]
 
+
+DEMO_SURNAMES = ["Smith", "García", "Müller", "Silva", "Rossi", "Dubois", "Yamada", "Kim",
+                 "Diallo", "Okafor", "Novak", "Jansen", "Costa", "Petrov", "Hansen", "Moreau",
+                 "Ricci", "Vargas", "Tanaka", "Mensah", "Keita", "Ali", "Hussein", "Park",
+                 "Berg", "Olsen", "Castro", "Lopez", "Schmidt", "Weber", "Fischer", "Sato",
+                 "Suzuki", "Traoré", "Cissé", "Ndiaye", "Fernandes", "Pereira", "Santos", "Ramírez"]
+
+
+def _demo_names(code, count, salt=0):
+    base = sum(ord(c) for c in code) + salt
+    return [f"{chr(65 + (base + i) % 26)}. {DEMO_SURNAMES[(base + i * 3) % len(DEMO_SURNAMES)]}"
+            for i in range(count)]
+
+
+def _demo_side(code, possession):
+    positions = ["Goalkeeper", "Right-Back", "Centre-Back", "Centre-Back", "Left-Back",
+                 "Defensive Midfield", "Central Midfield", "Central Midfield",
+                 "Right Winger", "Centre-Forward", "Left Winger"]
+    names = _demo_names(code, 11)
+    bench = _demo_names(code, 5, salt=17)
+    return {
+        "code": code,
+        "formation": "4-3-3",
+        "coach": _demo_names(code, 1, salt=29)[0],
+        "lineup": [{"name": n, "position": p, "shirt": i + 1}
+                   for i, (n, p) in enumerate(zip(names, positions))],
+        "bench": [{"name": n, "position": None, "shirt": 12 + i} for i, n in enumerate(bench)],
+        "stats": {
+            "ball_possession": possession,
+            "shots": 6 + possession // 6,
+            "shots_on_goal": 2 + possession // 15,
+            "corner_kicks": 2 + possession // 12,
+            "fouls": 16 - possession // 8,
+            "offsides": 1 + possession // 30,
+            "saves": 3,
+            "yellow_cards": 1 if possession >= 50 else 2,
+            "red_cards": 0,
+        },
+    }
+
+
+def demo_details(matches_resolved, teams_by_code):
+    details = {}
+    for m, ch, ca in matches_resolved:
+        hg, ag = match_goals(m["score"])
+        # favourites (lower tier number) dominate the ball
+        th, ta = teams_by_code[ch]["tier"], teams_by_code[ca]["tier"]
+        poss_home = 50 + (ta - th) * 12
+        home, away = _demo_side(ch, poss_home), _demo_side(ca, 100 - poss_home)
+        goals, bookings, subs = [], [], []
+        for side, n in ((home, hg), (away, ag)):
+            base = sum(ord(c) for c in side["code"])
+            for i in range(n):
+                goals.append({"minute": 9 + base % 7 + i * 23, "injury": None,
+                              "team": side["code"],
+                              "scorer": side["lineup"][9 - (i % 3)]["name"],
+                              "assist": side["lineup"][6 + (i % 3)]["name"],
+                              "type": "PENALTY" if (base + i) % 5 == 0 else "REGULAR"})
+            bookings.append({"minute": 30 + base % 25, "team": side["code"],
+                             "player": side["lineup"][5]["name"], "card": "YELLOW"})
+            for j, mins in enumerate((61, 74, 85)):
+                subs.append({"minute": mins, "team": side["code"],
+                             "out": side["lineup"][8 - j]["name"],
+                             "in": side["bench"][j]["name"]})
+        details[str(m["id"])] = {
+            "status": "FINISHED", "venue": "Estadio Azteca, Mexico City",
+            "attendance": 87523, "referee": "F. Rapallini",
+            "goals": sorted(goals, key=lambda g: g["minute"]),
+            "bookings": bookings, "substitutions": sorted(subs, key=lambda s: s["minute"]),
+            "penalties": [], "home": home, "away": away,
+        }
+    return details
+
+
+DEMO_SCORERS = [
+    {"player": "K. Mbappé", "team": "FRA", "goals": 2, "assists": 1},
+    {"player": "C. Wood", "team": "NZL", "goals": 2, "assists": 0},
+    {"player": "T. Kubo", "team": "JPN", "goals": 1, "assists": 1},
+    {"player": "C. Pulisic", "team": "USA", "goals": 1, "assists": 1},
+    {"player": "H. Lozano", "team": "MEX", "goals": 1, "assists": 0},
+    {"player": "D. Duranville", "team": "HAI", "goals": 1, "assists": 0},
+]
+
+
+# ---------------------------------------------------------------- scoring core
 
 def match_goals(score):
     """Goals over regulation + extra time (penalty shootout goals don't count)."""
@@ -152,8 +426,7 @@ def score_match(match, code_home, code_away, teams_by_code, cfg, events):
                             f"Held a Tier {tier[opp]} team"))
 
         for value, desc in pts:
-            events[code].append({"date": date, "points": value, "desc": desc,
-                                 "kind": "match", "match_id": id(match)})
+            events[code].append({"date": date, "points": value, "desc": desc, "kind": "match"})
         per_team_match_pts[code] = sum(v for v, _ in pts)
     return per_team_match_pts
 
@@ -248,8 +521,8 @@ def main():
         for code in p.get("teams", []):
             owner[code] = p["name"]
 
+    token = os.environ.get("FOOTBALL_DATA_TOKEN")
     if mode == "live":
-        token = os.environ.get("FOOTBALL_DATA_TOKEN")
         if not token:
             sys.exit("Set FOOTBALL_DATA_TOKEN (free key: https://www.football-data.org/client/register)\n"
                      "or run with --offline / --demo.")
@@ -277,12 +550,13 @@ def main():
         note = ""
         if pens:
             p = m["score"].get("penalties")
-            shootout = f" ({p['home']}-{p['away']} pens)" if p else " (decided on penalties)"
-            note = shootout
+            note = f" ({p['home']}-{p['away']} pens)" if p else " (pens)"
         results.append({
+            "id": m.get("id"),
             "date": m["utcDate"][:10],
             "utc": m["utcDate"],
             "stage": STAGE_LABELS.get(m["stage"], m["stage"]),
+            "group": (m.get("group") or "").replace("_", " ").title() or None,
             "note": note,
             "home": {"code": ch, "name": teams_by_code[ch]["name"], "flag": teams_by_code[ch]["flag"],
                      "tier": teams_by_code[ch]["tier"], "goals": hg,
@@ -294,6 +568,20 @@ def main():
 
     add_progression_events(matches_resolved, teams_by_code, cfg, events)
     status = compute_status(matches_resolved, teams_by_code)
+    groups = compute_groups(matches_resolved, teams_by_code, owner)
+
+    # Match details + top scorers
+    if mode == "live":
+        update_details(token, matches_resolved, index)
+        scorers = fetch_scorers(token, index, teams_by_code, owner)
+    elif mode == "demo":
+        (ROOT / "docs/details.json").write_text(
+            json.dumps(demo_details(matches_resolved, teams_by_code), ensure_ascii=False) + "\n")
+        scorers = [{**s, "flag": teams_by_code[s["team"]]["flag"],
+                    "owner": owner.get(s["team"])} for s in DEMO_SCORERS]
+    else:
+        (ROOT / "docs/details.json").write_text("{}\n")
+        scorers = []
 
     # Per-team totals and W/D/L records
     team_out = {}
@@ -361,6 +649,7 @@ def main():
             upcoming.append({
                 "utc": m["utcDate"],
                 "stage": STAGE_LABELS.get(m["stage"], m["stage"]),
+                "group": (m.get("group") or "").replace("_", " ").title() or None,
                 "home": {"name": teams_by_code[ch]["name"], "flag": teams_by_code[ch]["flag"],
                          "owner": owner.get(ch)},
                 "away": {"name": teams_by_code[ca]["name"], "flag": teams_by_code[ca]["flag"],
@@ -377,6 +666,8 @@ def main():
         "teams": team_out,
         "results": sorted(results, key=lambda r: r["utc"], reverse=True),
         "upcoming": upcoming[:12],
+        "groups": groups,
+        "scorers": scorers,
     }
     (ROOT / "docs/data.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
     print(f"Wrote docs/data.json ({mode} mode): {len(results)} finished matches, "
