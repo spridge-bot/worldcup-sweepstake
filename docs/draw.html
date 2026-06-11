@@ -298,6 +298,14 @@ async function boot() {
     ? '🟢 Shared draw — everyone on this page sees the same spins, live.'
     : '⚪️ Solo mode — spins only show on this screen.';
   $('#stage').after(note);
+  if (!SHARED) {
+    try {
+      const t = await fetch('tunnel.json?t=' + Date.now()).then(r => r.ok ? r.json() : null);
+      if (t?.url) note.innerHTML += `<br>👉 The real shared draw runs at
+        <a class="back" href="${t.url}/draw.html">${t.url.replace('https://', '')}/draw.html</a>
+        — use that link so everyone sees the same wheel.`;
+    } catch {}
+  }
 }
 boot().catch(() => { $('#stage').innerHTML = '<div class="sub">Could not load data.json — start the site first.</div>'; });
 </script>

@@ -1062,6 +1062,14 @@ def main():
         else:
             cache_path = ROOT / "docs/details.json"
             cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+        # drop cached matches that aren't in the real fixture list (demo leftovers,
+        # changed ids) — but never on a partial fetch, that would wipe good data
+        valid_ids = {str(m["id"]) for m, _, _ in matches_resolved if m.get("id")}
+        if len(valid_ids) > 50:
+            stale = set(cache) - valid_ids
+            if stale:
+                cache = {k: v for k, v in cache.items() if k in valid_ids}
+                print(f"  purged {len(stale)} stale cached match entries")
         merge_espn_match_info(cache, matches_resolved, espn_info)
         enrich_details_espn(cache, matches_resolved, index, emap=espn_emap)
         extras = fetch_espn_extras(index)

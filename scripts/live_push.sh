@@ -25,11 +25,20 @@ if /usr/bin/python3 -c 'import json,sys; sys.exit(0 if json.load(open("docs/data
   echo "started live watcher"
 fi
 
+# publish the mini's public tunnel URL (changes when the tunnel restarts) so the
+# stable GitHub Pages site can always point people at the live room
+TUNNEL_URL=$(ssh -o ConnectTimeout=5 macmini \
+  "grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com' worldcup-sweepstake/logs/tunnel.log 2>/dev/null | tail -1")
+if [ -n "$TUNNEL_URL" ]; then
+  printf '{"url": "%s"}\n' "$TUNNEL_URL" > docs/tunnel.json
+  echo "tunnel: $TUNNEL_URL"
+fi
+
 rsync -a --delete --exclude '.DS_Store' --exclude '*.tmp' --exclude 'logs' --exclude 'var' \
       --exclude '.venv-pitch' --exclude 'output' ./ macmini:worldcup-sweepstake/ \
   && echo "rsync -> macmini OK" || echo "rsync -> macmini FAILED (is it on?)"
 
-git add docs/data.json docs/details.json docs/sofascore.json docs/img 2>/dev/null
+git add docs/data.json docs/details.json docs/sofascore.json docs/tunnel.json docs/img 2>/dev/null
 if ! git diff --cached --quiet; then
   git commit -q -m "Live update $(date -u '+%FT%TZ')"
   git push -q origin main 2>&1 | tail -1 \

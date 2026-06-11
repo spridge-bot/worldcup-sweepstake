@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T21:23:13+00:00",
+ "generated_at": "2026-06-11T21:30:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-11",
  "scoring": {
@@ -2939,89 +2939,32 @@
     "flag": "",
     "owner": null
    }
+  },
+  {
+   "id": 760517,
+   "utc": "2026-07-19T19:00:00Z",
+   "stage": "FINAL",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "MetLife Stadium",
+   "home": {
+    "code": null,
+    "name": "Semifinal 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Semifinal 2 Winner",
+    "flag": "",
+    "owner": null
+   }
   }
  ],
  "scorers": [
-  {
-   "player": "S. Rossi",
-   "team": "FRA",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Pari"
-  },
-  {
-   "player": "G. Hansen",
-   "team": "USA",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇺🇸",
-   "owner": "George"
-  },
-  {
-   "player": "H. Vargas",
-   "team": "USA",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇺🇸",
-   "owner": "George"
-  },
-  {
-   "player": "Q. Santos",
-   "team": "FRA",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇫🇷",
-   "owner": "Pari"
-  },
-  {
-   "player": "R. García",
-   "team": "FRA",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇫🇷",
-   "owner": "Pari"
-  },
-  {
-   "player": "G. Ricci",
-   "team": "JPN",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇯🇵",
-   "owner": "Glancy"
-  },
-  {
-   "player": "H. Mensah",
-   "team": "JPN",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇯🇵",
-   "owner": "Glancy"
-  },
-  {
-   "player": "I. Keita",
-   "team": "USA",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇺🇸",
-   "owner": "George"
-  },
-  {
-   "player": "I. Tanaka",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Rich"
-  },
-  {
-   "player": "J. Ali",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Rich"
-  },
   {
    "player": "Julián Quiñones",
    "team": "MEX",
@@ -3031,36 +2974,12 @@
    "owner": "Rich"
   },
   {
-   "player": "L. Pereira",
-   "team": "HAI",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇭🇹",
-   "owner": "Willo"
-  },
-  {
-   "player": "M. Santos",
-   "team": "BEL",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇧🇪",
-   "owner": "Willo"
-  },
-  {
    "player": "Raúl Jiménez",
    "team": "MEX",
    "goals": 1,
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Rich"
-  },
-  {
-   "player": "S. Schmidt",
-   "team": "NZL",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇳🇿",
-   "owner": "Dubs"
   }
  ]
 }
