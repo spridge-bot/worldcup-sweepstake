@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T22:01:00+00:00",
+ "generated_at": "2026-06-11T22:06:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-11",
  "scoring": {
@@ -2980,6 +2980,26 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Rich"
+  }
+ ],
+ "fairplay": [
+  {
+   "code": "RSA",
+   "name": "South Africa",
+   "flag": "🇿🇦",
+   "owner": "Pari",
+   "yellow": 2,
+   "red": 2,
+   "pts": 10
+  },
+  {
+   "code": "MEX",
+   "name": "Mexico",
+   "flag": "🇲🇽",
+   "owner": "Rich",
+   "yellow": 1,
+   "red": 1,
+   "pts": 5
   }
  ]
 }
