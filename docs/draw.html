@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Draw Night — World Cup 2026 Sweepstake</title>
+<title>The Draw — World Cup 2026 Sweepstake</title>
 <style>
   :root {
     --bg0: #050d08; --bg1: #0a1f12; --card: #0e2417; --card2: #143020;
@@ -89,7 +89,7 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="kick">United 2026 · Draw Night</div>
+    <div class="kick">United 2026 · The Draw</div>
     <h1>🎡 The Sweepstake Draw</h1>
     <div class="sub">Three spins per the rules: everyone gets one Tier&nbsp;1 giant,
       one Tier&nbsp;2 contender, one Tier&nbsp;3 underdog.
@@ -108,8 +108,10 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const TIER_NAMES = {1: 'Tier 1 — The Giants', 2: 'Tier 2 — The Contenders', 3: 'Tier 3 — The Underdogs'};
 
 let TEAMS = {}, PLAYERS = [], pools = {}, assignments = {}, round = 1;
-// shared mode: when served by scripts/serve.py, every viewer sees the same draw
-let SHARED = false, lastSeq = 0, busy = false;
+// shared mode transports: the mini's /api/draw when served by scripts/serve.py,
+// otherwise a public ntfy.sh relay topic — works straight from GitHub Pages.
+const NTFY = 'https://ntfy.sh/wc26-sweepstake-draw-spridge-k7q4x9';
+let SHARED = false, TRANSPORT = null, lastSeq = 0, busy = false;
 const CID = Math.random().toString(36).slice(2);
 const queue = [];
 
@@ -123,11 +125,15 @@ function shuffle(a) {
 
 async function broadcast(ev) {
   if (!SHARED) return;
+  const payload = JSON.stringify({ ...ev, origin: CID });
   try {
-    const r = await fetch('/api/draw', { method: 'POST',
-      body: JSON.stringify({ ...ev, origin: CID }) });
-    const j = await r.json();
-    lastSeq = Math.max(lastSeq, j.seq || 0);
+    if (TRANSPORT === 'api') {
+      const r = await fetch('/api/draw', { method: 'POST', body: payload });
+      const j = await r.json();
+      lastSeq = Math.max(lastSeq, j.seq || 0);
+    } else if (TRANSPORT === 'ntfy') {
+      await fetch(NTFY, { method: 'POST', body: payload });
+    }
   } catch {}
 }
 
@@ -278,11 +284,13 @@ async function boot() {
   for (const t of [1, 2, 3]) pools[t] = Object.values(TEAMS)
     .filter(x => x.tier === t).map(x => x.code);
 
-  // shared mode? (needs scripts/serve.py — solo mode otherwise, e.g. GitHub Pages)
+  // shared mode: prefer the local API (mini), otherwise the public relay —
+  // which makes the draw shared even straight from GitHub Pages
   try {
     const r = await fetch('/api/draw');
     if (r.ok) {
       SHARED = true;
+      TRANSPORT = 'api';
       const j = await r.json();
       for (const ev of j.events || []) {          // fast-forward history
         lastSeq = Math.max(lastSeq, ev.seq);
@@ -291,6 +299,27 @@ async function boot() {
       setInterval(poll, 1200);
     }
   } catch {}
+  if (!TRANSPORT) {
+    try {
+      const es = new EventSource(NTFY + '/sse?since=12h');
+      let settle;
+      es.onmessage = e => {
+        let m, ev;
+        try { m = JSON.parse(e.data); ev = JSON.parse(m.message); } catch { return; }
+        if (ev.origin === CID) return;
+        if ((Date.now() / 1000 - (m.time || 0)) < 20) {   // fresh: animate it
+          queue.push(ev);
+          drainQueue();
+        } else {                                          // history: fast-forward
+          applyEvent(ev, false);
+          clearTimeout(settle);
+          settle = setTimeout(renderRound, 300);
+        }
+      };
+      SHARED = true;
+      TRANSPORT = 'ntfy';
+    } catch {}
+  }
   renderRound();
   const note = document.createElement('div');
   note.className = 'sub';
@@ -298,14 +327,6 @@ async function boot() {
     ? '🟢 Shared draw — everyone on this page sees the same spins, live.'
     : '⚪️ Solo mode — spins only show on this screen.';
   $('#stage').after(note);
-  if (!SHARED) {
-    try {
-      const t = await fetch('tunnel.json?t=' + Date.now()).then(r => r.ok ? r.json() : null);
-      if (t?.url) note.innerHTML += `<br>👉 The real shared draw runs at
-        <a class="back" href="${t.url}/draw.html">${t.url.replace('https://', '')}/draw.html</a>
-        — use that link so everyone sees the same wheel.`;
-    } catch {}
-  }
 }
 boot().catch(() => { $('#stage').innerHTML = '<div class="sub">Could not load data.json — start the site first.</div>'; });
 </script>

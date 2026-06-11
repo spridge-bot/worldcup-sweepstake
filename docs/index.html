@@ -323,7 +323,6 @@
     <div class="sub" id="updated">Loading…</div>
   </header>
   <div class="banner" id="banner"></div>
-  <div class="banner" id="fastlink" style="border-color:var(--line2);color:var(--accent)"></div>
   <div id="live"></div>
 
   <nav>
@@ -335,7 +334,7 @@
     <button data-tab="teams">Teams</button>
     <button data-tab="scorers">Golden Boot</button>
     <button data-tab="rules">Rules</button>
-    <a class="navlink" href="draw.html">🎡 Draw Night</a>
+    <a class="navlink" href="draw.html">🎡 The Draw</a>
   </nav>
 
   <section id="leaderboard" class="active"></section>
@@ -1035,18 +1034,8 @@ function loadAll() {
     fetch('data.json?t=' + Date.now()).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
     fetch('details.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch('sofascore.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-    fetch('tunnel.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-    fetch('/api/draw?since=999999999').then(r => r.ok).catch(() => false),
-  ]).then(([d, det, sofa, tunnel, hasApi]) => {
+  ]).then(([d, det, sofa]) => {
     DETAILS = det || {}; SOFA = sofa || {};
-    // static hosting (GitHub Pages) lags a few minutes and can't host the
-    // shared draw — point visitors at the live room when a tunnel is up
-    const fl = $('#fastlink');
-    if (!hasApi && tunnel?.url && !location.href.startsWith(tunnel.url)) {
-      fl.style.display = 'block';
-      fl.innerHTML = `⚡ Faster live scores + the shared Draw Night room:
-        <a href="${esc(tunnel.url)}" style="color:var(--gold)">${esc(tunnel.url.replace('https://', ''))}</a>`;
-    } else { fl.style.display = 'none'; }
     const when = new Date(d.generated_at).toLocaleString();
     $('#updated').textContent = `Last updated ${when}` +
       (d.latest_day ? ` · latest results from ${d.latest_day}` : '');
