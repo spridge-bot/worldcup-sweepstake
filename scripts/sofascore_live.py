@@ -45,6 +45,10 @@ WINDOW_FWD_H = 12     # and ones kicking off soon (line-ups confirm ~1h before)
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 SOFA_BASES = ["https://api.sofavpn.com", "https://www.sofascore.com", "https://api.sofascore.com"]
 WC_TOURNAMENT_ID = 16
+# real-time channel to the public site: each watch cycle pushes the live score,
+# clock, feed and stats here; index.html subscribes over SSE (GitHub Pages only
+# refreshes on git pushes, which are capped — this sidesteps that entirely)
+NTFY_LIVE = "https://ntfy.sh/wc26-sweepstake-live-spridge-k7q4x9"
 
 try:
     from datafc.utils._client import SofascoreClient
@@ -537,6 +541,39 @@ def espn_quick_scores():
         print("  patched live scores in data.json")
 
 
+def _ntfy_post(body):
+    try:
+        req = urllib.request.Request(NTFY_LIVE, data=body.encode("utf-8"), method="POST")
+        urllib.request.urlopen(req, timeout=10)
+    except Exception as e:
+        print(f"  live relay publish failed ({e})")
+
+
+def publish_live_updates(out, prev_live_ids, live_ids):
+    """Push fresh live data to the relay so the public page updates in ~20s."""
+    try:
+        data = json.loads((DOCS / "data.json").read_text())
+    except Exception:
+        return
+    by_id = {m["id"]: m for m in data.get("live") or []}
+    for mid in live_ids:
+        m = by_id.get(mid)
+        if not m:
+            continue
+        ent = out.get(str(mid), {})
+        payload = {"id": mid, "live": m,
+                   "incidents": (ent.get("incidents") or [])[-8:],
+                   "stats": ent.get("stats")}
+        body = json.dumps(payload, ensure_ascii=False)
+        if len(body) > 3900:                      # ntfy message cap
+            payload["incidents"] = (payload["incidents"] or [])[-3:]
+            payload["stats"] = None
+            body = json.dumps(payload, ensure_ascii=False)
+        _ntfy_post(body)
+    for mid in prev_live_ids - live_ids:
+        _ntfy_post(json.dumps({"id": mid, "ended": True}))
+
+
 def mirror_to_mini():
     subprocess.run(
         ["rsync", "-a", "--exclude", ".DS_Store", "--exclude", "*.tmp",
@@ -580,11 +617,15 @@ def watch(interval):
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
     idle_passes = 0
+    prev_live_ids = set()
     while True:
         cycle_start = time.time()
         espn_quick_scores()
         targets, variants, teams, live_ids = load_targets()
         if not live_ids:
+            if prev_live_ids:
+                publish_live_updates(out, prev_live_ids, set())
+                prev_live_ids = set()
             idle_passes += 1
             if idle_passes >= 3:        # give a just-finished match time to settle
                 print("No live matches; watcher exiting.")
@@ -594,6 +635,8 @@ def watch(interval):
             find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True)
             write_out(out)
             mirror_to_mini()
+            publish_live_updates(out, prev_live_ids, live_ids)
+            prev_live_ids = set(live_ids)
         time.sleep(max(5, interval - (time.time() - cycle_start)))
 
 

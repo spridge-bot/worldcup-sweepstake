@@ -1249,6 +1249,31 @@ function loadAll() {
   });
 }
 loadAll().catch(() => { $('#updated').textContent = 'Could not load data.json — run scripts/update_scores.py first.'; });
+
+// real-time live-score relay: the match watcher publishes every ~20s during
+// games, so even the static public site updates near-instantly while a match
+// is on — no waiting for the next git push.
+try {
+  new EventSource('https://ntfy.sh/wc26-sweepstake-live-spridge-k7q4x9/sse').onmessage = e => {
+    try {
+      const m = JSON.parse(e.data), p = JSON.parse(m.message);
+      if (!LAST_D || (Date.now() / 1000 - (m.time || 0)) > 90) return;
+      const cur = LAST_D.live = LAST_D.live || [];
+      const i = cur.findIndex(x => x.id === p.id);
+      if (p.ended) {
+        if (i >= 0) { cur.splice(i, 1); loadAll().catch(() => {}); }
+        return;
+      }
+      if (!p.live) return;
+      if (i >= 0) cur[i] = p.live; else cur.unshift(p.live);
+      const s = SOFA[String(p.id)] = SOFA[String(p.id)] || {};
+      if (p.incidents) s.incidents = p.incidents;
+      if (p.stats) s.stats = p.stats;
+      LAST_D.generated_at = new Date((m.time || 0) * 1000).toISOString();
+      renderLive(LAST_D);
+    } catch {}
+  };
+} catch {}
 </script>
 </body>
 </html>
