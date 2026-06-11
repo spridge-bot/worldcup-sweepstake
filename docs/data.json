@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T19:01:46+00:00",
+ "generated_at": "2026-06-11T19:21:52+00:00",
  "mode": "live",
  "latest_day": null,
  "scoring": {
@@ -1032,31 +1032,6 @@
  "results": [],
  "upcoming": [
   {
-   "id": 760415,
-   "utc": "2026-06-11T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "odds": {
-    "home": 1.43,
-    "draw": 4.3,
-    "away": 8.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Rich",
-    "form": "WWWDD"
-   },
-   "away": {
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Pari",
-    "form": "WDLDL"
-   }
-  },
-  {
    "id": 760414,
    "utc": "2026-06-12T02:00:00Z",
    "stage": "Group stage",
@@ -1329,6 +1304,31 @@
     "flag": "🇹🇳",
     "owner": "JVR",
     "form": "LLDWL"
+   }
+  },
+  {
+   "id": 760428,
+   "utc": "2026-06-15T16:00:00Z",
+   "stage": "Group stage",
+   "group": "Group H",
+   "odds": {
+    "home": 1.08,
+    "draw": 12.0,
+    "away": 26.0,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Dubs",
+    "form": "WDDWD"
+   },
+   "away": {
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "owner": "Brando",
+    "form": "WWLLL"
    }
   }
  ],
