@@ -243,7 +243,7 @@
   <section id="scorers"></section>
   <section id="rules"></section>
 
-  <footer>SCORES UPDATE AUTOMATICALLY · TIER MULTIPLIERS ×1 / ×1.5 / ×2</footer>
+  <footer>SCORES UPDATE AUTOMATICALLY · GROUP POSITION 5·3·1·0 · KNOCKOUT WINS 2·3·4·5·6</footer>
 </div>
 
 <script>
@@ -418,10 +418,10 @@ function renderResults(d) {
         ${side(r.away, d.teams[r.away.code].owner, true)}
       </div>
       ${scorerSummary(r)}
-      <div class="ptsrow">
+      ${r.home.points == null ? '' : `<div class="ptsrow">
         <span>${esc(d.teams[r.home.code].owner || '—')} <b>+${fmt(r.home.points)}</b></span>
         <span><b>+${fmt(r.away.points)}</b> ${esc(d.teams[r.away.code].owner || '—')}</span>
-      </div>
+      </div>`}
       <button class="mc-btn" data-mid="${r.id}">Match centre ▾</button>
       <div class="mc" id="mc-${r.id}"></div>
     </div>`;
@@ -495,7 +495,8 @@ function renderGroups(d) {
   }).join('');
   $('#groups').innerHTML = `<div class="groupgrid">${tables}</div>
     <p style="color:var(--dim);font-size:.75rem;margin-top:12px;text-align:center">
-    Top two in each group qualify automatically; the eight best third-placed teams also advance.</p>`;
+    Top two in each group qualify automatically; the eight best third-placed teams also advance.
+    Group position = sweepstake points: 1st 5 · 2nd 3 · 3rd 1 · 4th 0.</p>`;
 }
 
 /* ---------------- teams ---------------- */
@@ -508,7 +509,7 @@ function renderTeams(d) {
     const status = t.status === 'champion' ? ' 🏆' : t.status === 'out' ? ' ❌' : '';
     return `<details class="teamcard"><summary>
       <span>${t.flag} <b>${esc(t.name)}</b>${status}</span>
-      <span class="tier t${t.tier}">T${t.tier} ×${t.multiplier}</span>
+      <span class="tier t${t.tier}">T${t.tier}</span>
       <span class="owner">FIFA #${t.fifa_rank} · ${esc(t.owner || 'unassigned')}</span>
       <span class="grow"></span>
       <span class="owner">${t.won}W ${t.drawn}D ${t.lost}L</span>
@@ -538,36 +539,37 @@ function renderScorers(d) {
 
 /* ---------------- rules ---------------- */
 function renderRules(d) {
-  const s = d.scoring;
+  const s = d.scoring, gp = s.group_position, ko = s.knockout_win;
+  const maxTotal = +gp["1"] + ko.LAST_32 + ko.LAST_16 + ko.QUARTER_FINALS + ko.SEMI_FINALS + ko.FINAL;
   $('#rules').innerHTML = `<div class="rules">
     <h3>The draw</h3>
-    <p>48 teams ranked by FIFA world ranking, split into three tiers of 16.
-    Each of the 24 players drew two teams from different tiers.</p>
-    <h3>Underdog multiplier</h3>
-    <p>Every point a team earns is multiplied by its tier:
-    <b>Tier 1 ×${s.multipliers["1"]}</b>, <b>Tier 2 ×${s.multipliers["2"]}</b>,
-    <b>Tier 3 ×${s.multipliers["3"]}</b>. A minnow's win is worth double a giant's.</p>
-    <h3>Match points (before multiplier)</h3>
+    <p>48 teams ranked by FIFA world ranking, split into three tiers of 16
+    (Tier 1 = ranks 1–16, Tier 2 = 17–32, Tier 3 = 33–48). Each of the 16
+    players drew <b>one team from every tier</b> — a favourite, a mid-ranker
+    and an underdog. That balance is the whole system: every point counts the
+    same for everyone, no multipliers.</p>
+    <h3>Group stage — finishing position</h3>
     <ul>
-      <li>Win: <b>${s.win}</b> · Draw: <b>${s.draw}</b> · Losing a penalty shootout
-          still counts as a draw: <b>${s.shootout_loss}</b></li>
-      <li>Each goal scored: <b>${s.goal}</b> · Clean sheet: <b>${s.clean_sheet}</b></li>
-      <li><b>Upset bonus:</b> beat a higher-tier team for <b>+${s.upset_win_per_tier_gap}</b>
-          per tier gap (a Tier 3 side beating a Tier 1 giant = +${s.upset_win_per_tier_gap * 2}).
-          Holding them to a draw earns <b>+${s.upset_draw_per_tier_gap}</b> per tier gap.</li>
+      <li>1st in the group: <b>${gp["1"]} pts</b></li>
+      <li>2nd: <b>${gp["2"]} pts</b></li>
+      <li>3rd: <b>${gp["3"]} pt</b></li>
+      <li>4th: <b>${gp["4"]}</b></li>
     </ul>
-    <h3>Progression bonuses (before multiplier)</h3>
+    <p>The average team banks about 2.25 points here. Positions are scored
+    <b>live</b> as group games finish — marked "(live)" on the Teams tab —
+    and lock in once all six games in the group are played.</p>
+    <h3>Knockout — points per tie won</h3>
     <ul>
-      <li>Reach the Round of 32: <b>+${s.progression.LAST_32}</b></li>
-      <li>Round of 16: <b>+${s.progression.LAST_16}</b> · Quarter-final:
-          <b>+${s.progression.QUARTER_FINALS}</b> · Semi-final: <b>+${s.progression.SEMI_FINALS}</b></li>
-      <li>Reach the final: <b>+${s.progression.FINAL}</b> · Win the World Cup:
-          <b>+${s.progression.CHAMPION}</b></li>
+      <li>Win your Round of 32 tie: <b>+${ko.LAST_32}</b></li>
+      <li>Round of 16: <b>+${ko.LAST_16}</b> · Quarter-final: <b>+${ko.QUARTER_FINALS}</b>
+          · Semi-final: <b>+${ko.SEMI_FINALS}</b></li>
+      <li>Win the final: <b>+${ko.FINAL}</b></li>
     </ul>
-    <p style="margin-top:10px">Example: New Zealand (Tier 3) beat Argentina (Tier 1) 2–1.
-    That's ${s.win} for the win + ${s.goal * 2} for goals + ${s.upset_win_per_tier_gap * 2} upset
-    bonus = ${s.win + s.goal * 2 + s.upset_win_per_tier_gap * 2} × 2 =
-    <b>${(s.win + s.goal * 2 + s.upset_win_per_tier_gap * 2) * 2} points</b>. Dreams are alive.</p>
+    <p>Winning a penalty shootout counts as winning the tie. The third-place
+    play-off carries no points.</p>
+    <p style="margin-top:10px">A perfect run — top the group, then win every
+    knockout game to the title — is worth <b>${maxTotal} points</b> from one team.
+    Your three teams' totals add together.</p>
   </div>`;
 }
 

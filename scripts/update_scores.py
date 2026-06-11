@@ -16,13 +16,13 @@ Outputs:
                        tier allows 10 requests/minute.
 
 Scoring (see data/scoring.json for the tunable numbers):
-  Every point a team earns is multiplied by its tier multiplier
-  (Tier 1 x1, Tier 2 x1.5, Tier 3 x2), so underdogs climb fast.
-  - Win 3 / Draw 1 (losing a penalty shootout counts as a draw)
-  - +1 per goal scored, +1 clean sheet
-  - Upset bonus: beat a team from a higher tier: +4 per tier gap
-    (draw with one: +2 per tier gap)
-  - Progression: reach R32 +4, R16 +6, QF +8, SF +10, Final +12, win it all +15
+  Balance comes from the draw (each player holds one team from each tier),
+  so points are flat — no multipliers.
+  - Group stage: finish 1st in your group 5, 2nd 3, 3rd 1, 4th 0.
+    Positions are scored LIVE as group games finish and lock in when the
+    group completes (the average team earns ~2.25 points).
+  - Knockout: win your Round-of-32 tie 2, R16 3, QF 4, SF 5, the final 6.
+    Shootout wins count as wins. (Third-place play-off carries no points.)
 """
 import json
 import os
@@ -640,85 +640,62 @@ def match_goals(score):
     return (ft.get("home") or 0, ft.get("away") or 0)
 
 
-def score_match(match, code_home, code_away, teams_by_code, cfg, events):
-    """Append point events (pre-multiplier) for both teams of a finished match."""
-    date = match["utcDate"][:10]
-    score = match["score"]
-    hg, ag = match_goals(score)
-    winner = score.get("winner")
-    pens = score.get("duration") == "PENALTY_SHOOTOUT"
-    tier = {c: teams_by_code[c]["tier"] for c in (code_home, code_away)}
-
-    per_team_match_pts = {}
-    for code, opp, gf, ga, is_home in (
-        (code_home, code_away, hg, ag, True),
-        (code_away, code_home, ag, hg, False),
-    ):
-        pts = []
-        won = winner == ("HOME_TEAM" if is_home else "AWAY_TEAM")
-        drew = winner == "DRAW"
-        lost_shootout = pens and not won
-
-        if won:
-            pts.append((cfg["win"], "Win" + (" (on penalties)" if pens else "")))
-        elif drew:
-            pts.append((cfg["draw"], "Draw"))
-        elif lost_shootout:
-            pts.append((cfg["shootout_loss"], "Penalty shootout loss (counts as draw)"))
-
-        if gf:
-            pts.append((cfg["goal"] * gf, f"{gf} goal{'s' if gf > 1 else ''}"))
-        if ga == 0:
-            pts.append((cfg["clean_sheet"], "Clean sheet"))
-
-        gap = tier[code] - tier[opp]  # positive => this team is the underdog
-        if gap > 0:
-            if won:
-                pts.append((cfg["upset_win_per_tier_gap"] * gap,
-                            f"Upset! Beat a Tier {tier[opp]} team"))
-            elif drew or lost_shootout:
-                pts.append((cfg["upset_draw_per_tier_gap"] * gap,
-                            f"Held a Tier {tier[opp]} team"))
-
-        for value, desc in pts:
-            events[code].append({"date": date, "points": value, "desc": desc, "kind": "match"})
-        per_team_match_pts[code] = sum(v for v, _ in pts)
-    return per_team_match_pts
+ORDINALS = {1: "1st", 2: "2nd", 3: "3rd", 4: "4th"}
 
 
-def add_progression_events(matches_resolved, teams_by_code, cfg, events):
-    """Award stage-reached bonuses, dated by the team's first match in that stage."""
-    first_in_stage = {}  # (code, stage) -> date
-    final = None
+def add_group_position_events(groups, matches_resolved, cfg, events):
+    """Score group-stage positions live: 1st 5, 2nd 3, 3rd 1, 4th 0.
+
+    Positions are provisional while the group is in play and final once all
+    6 group matches have finished. Events are dated by the team's most recent
+    group match so the leaderboard's 'Latest' delta and movement arrows work.
+    """
+    last_date = {}                       # code -> date of latest finished group match
+    finished_per_group = defaultdict(int)
     for m, ch, ca in matches_resolved:
-        stage = m["stage"]
-        if stage == "FINAL":
-            final = (m, ch, ca)
-        if stage not in cfg["progression"]:
+        if m.get("stage") != "GROUP_STAGE" or m["status"] != "FINISHED":
             continue
+        if m.get("group"):
+            finished_per_group[m["group"].replace("_", " ").title()] += 1
         for code in (ch, ca):
             if code:
-                key = (code, stage)
-                date = m["utcDate"][:10]
-                if key not in first_in_stage or date < first_in_stage[key]:
-                    first_in_stage[key] = date
+                last_date[code] = max(last_date.get(code, ""), m["utcDate"][:10])
 
-    for (code, stage), date in first_in_stage.items():
-        events[code].append({
-            "date": date, "points": cfg["progression"][stage],
-            "desc": f"Reached the {STAGE_LABELS[stage]}", "kind": "progression",
-        })
-
-    if final and final[0]["status"] == "FINISHED":
-        m, ch, ca = final
-        winner = m["score"].get("winner")
-        champ = ch if winner == "HOME_TEAM" else ca if winner == "AWAY_TEAM" else None
-        if champ:
-            events[champ].append({
-                "date": m["utcDate"][:10], "points": cfg["progression"]["CHAMPION"],
-                "desc": "WORLD CHAMPIONS", "kind": "progression",
+    for g in groups:
+        done = finished_per_group.get(g["name"], 0) >= 6  # 4 teams = 6 matches
+        for pos, row in enumerate(g["rows"], 1):
+            if row["p"] == 0:        # no points until you've kicked a ball
+                continue
+            pts = cfg["group_position"].get(str(pos), 0)
+            if pts <= 0:
+                continue
+            desc = f"{ORDINALS[pos]} in {g['name']}" + ("" if done else " (live)")
+            events[row["code"]].append({
+                "date": last_date.get(row["code"], ""), "points": pts,
+                "desc": desc, "kind": "group",
             })
-            teams_by_code[champ]["_champion"] = True
+
+
+def add_knockout_events(matches_resolved, teams_by_code, cfg, events):
+    """Award points for winning each knockout tie (shootout wins count)."""
+    for m, ch, ca in matches_resolved:
+        stage = m.get("stage")
+        pts = cfg["knockout_win"].get(stage)
+        if not pts or m["status"] != "FINISHED" or not ch or not ca:
+            continue
+        winner = m["score"].get("winner")
+        win_code = ch if winner == "HOME_TEAM" else ca if winner == "AWAY_TEAM" else None
+        if not win_code:
+            continue
+        pens = m["score"].get("duration") == "PENALTY_SHOOTOUT"
+        if stage == "FINAL":
+            desc = "WORLD CHAMPIONS" + (" (on penalties)" if pens else "")
+            teams_by_code[win_code]["_champion"] = True
+        else:
+            desc = f"Won {STAGE_LABELS[stage]} tie" + (" (on penalties)" if pens else "")
+        events[win_code].append({
+            "date": m["utcDate"][:10], "points": pts, "desc": desc, "kind": "knockout",
+        })
 
 
 def compute_status(matches_resolved, teams_by_code):
@@ -794,18 +771,24 @@ def main():
 
     events = defaultdict(list)
     results = []
-    multiplier = {c: cfg["multipliers"][str(teams_by_code[c]["tier"])] for c in teams_by_code}
 
     for m, ch, ca in matches_resolved:
         if m["status"] != "FINISHED" or not ch or not ca:
             continue
-        raw_pts = score_match(m, ch, ca, teams_by_code, cfg, events)
         hg, ag = match_goals(m["score"])
         pens = m["score"].get("duration") == "PENALTY_SHOOTOUT"
         note = ""
         if pens:
             p = m["score"].get("penalties")
             note = f" ({p['home']}-{p['away']} pens)" if p else " (pens)"
+        # Direct match points only exist for knockout ties; group games move
+        # the group table instead (scored as positions, see scoring.json).
+        kw = cfg["knockout_win"].get(m["stage"])
+        winner = m["score"].get("winner")
+        hpts = apts = None
+        if kw:
+            hpts = kw if winner == "HOME_TEAM" else 0
+            apts = kw if winner == "AWAY_TEAM" else 0
         results.append({
             "id": m.get("id"),
             "date": m["utcDate"][:10],
@@ -814,16 +797,15 @@ def main():
             "group": (m.get("group") or "").replace("_", " ").title() or None,
             "note": note,
             "home": {"code": ch, "name": teams_by_code[ch]["name"], "flag": teams_by_code[ch]["flag"],
-                     "tier": teams_by_code[ch]["tier"], "goals": hg,
-                     "points": round(raw_pts[ch] * multiplier[ch], 1)},
+                     "tier": teams_by_code[ch]["tier"], "goals": hg, "points": hpts},
             "away": {"code": ca, "name": teams_by_code[ca]["name"], "flag": teams_by_code[ca]["flag"],
-                     "tier": teams_by_code[ca]["tier"], "goals": ag,
-                     "points": round(raw_pts[ca] * multiplier[ca], 1)},
+                     "tier": teams_by_code[ca]["tier"], "goals": ag, "points": apts},
         })
 
-    add_progression_events(matches_resolved, teams_by_code, cfg, events)
-    status = compute_status(matches_resolved, teams_by_code)
     groups = compute_groups(matches_resolved, teams_by_code, owner)
+    add_group_position_events(groups, matches_resolved, cfg, events)
+    add_knockout_events(matches_resolved, teams_by_code, cfg, events)
+    status = compute_status(matches_resolved, teams_by_code)
 
     # Match details, top scorers, odds
     if mode == "live":
@@ -848,7 +830,7 @@ def main():
     team_out = {}
     for code, t in teams_by_code.items():
         evs = sorted(events[code], key=lambda e: e["date"])
-        total = round(sum(e["points"] for e in evs) * multiplier[code], 1)
+        total = sum(e["points"] for e in evs)
         played = [r for r in results if code in (r["home"]["code"], r["away"]["code"])]
         won = drawn = lost = gf = ga = 0
         for r in played:
@@ -862,13 +844,11 @@ def main():
                 drawn += 1
         team_out[code] = {
             "code": code, "name": t["name"], "flag": t["flag"], "tier": t["tier"],
-            "fifa_rank": t["fifa_rank"], "multiplier": multiplier[code],
+            "fifa_rank": t["fifa_rank"],
             "owner": owner.get(code), "status": status[code],
             "played": len(played), "won": won, "drawn": drawn, "lost": lost,
             "gf": gf, "ga": ga, "total": total,
-            "events": [{"date": e["date"],
-                        "desc": e["desc"],
-                        "points": round(e["points"] * multiplier[code], 1)}
+            "events": [{"date": e["date"], "desc": e["desc"], "points": e["points"]}
                        for e in sorted(evs, key=lambda e: e["date"], reverse=True)],
         }
 
@@ -877,12 +857,12 @@ def main():
     latest_day = finished_dates[-1] if finished_dates else None
 
     def player_total(p, before=None):
-        tot = 0.0
+        tot = 0
         for code in p.get("teams", []):
             for e in events[code]:
                 if before is None or e["date"] < before:
-                    tot += e["points"] * multiplier[code]
-        return round(tot, 1)
+                    tot += e["points"]
+        return tot
 
     totals_now = {p["name"]: player_total(p) for p in players}
     totals_before = {p["name"]: player_total(p, before=latest_day) for p in players} \

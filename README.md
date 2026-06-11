@@ -1,16 +1,16 @@
 # World Cup 2026 Sweepstake
 
 A self-updating sweepstake tracker for the 2026 FIFA World Cup: 48 teams,
-24 players, underdog-friendly scoring, and a leaderboard webpage that
-refreshes itself every few hours via GitHub Actions + GitHub Pages.
+16 players × 3 teams each, balanced flat scoring, and a leaderboard webpage
+that refreshes itself every few hours via GitHub Actions + GitHub Pages.
 
 ## How it works
 
 - `data/teams.json` — the 48 qualified teams with their pre-tournament FIFA
   ranking, split into three tiers of 16 (Tier 1 = ranks 1–16, etc.).
-- `data/players.json` — your 24 players and their drawn teams.
-- `scripts/draw.py` — runs the draw: every player gets 2 teams from two
-  *different* tiers (8 players get T1+T2, 8 get T1+T3, 8 get T2+T3).
+- `data/players.json` — your 16 players and their drawn teams.
+- `scripts/draw.py` — runs the draw: every player gets one team from EACH
+  tier (a favourite, a mid-ranker and an underdog).
 - `scripts/update_scores.py` — pulls results from football-data.org, scores
   every finished match, and writes `docs/data.json`.
 - `docs/index.html` — the leaderboard page (works as a plain static file).
@@ -19,28 +19,31 @@ refreshes itself every few hours via GitHub Actions + GitHub Pages.
 
 ## Scoring
 
-Every point a team earns is **multiplied by its tier**: Tier 1 ×1,
-Tier 2 ×1.5, Tier 3 ×2 — so a plucky minnow can out-earn a giant.
+Balance comes from the draw — every player holds one team from each tier —
+so the points are flat and simple, no multipliers.
 
-| Event | Points (before multiplier) |
+| Event | Points |
 |---|---|
-| Win (incl. shootout win) | 3 |
-| Draw / losing a shootout | 1 |
-| Each goal scored | 1 |
-| Clean sheet | 1 |
-| **Upset bonus** — beating a higher-tier team | +4 per tier gap |
-| Upset draw — holding a higher-tier team | +2 per tier gap |
-| Reach R32 / R16 / QF / SF / Final | +4 / +6 / +8 / +10 / +12 |
-| Win the World Cup | +15 |
+| Finish 1st in your group | 5 |
+| Finish 2nd | 3 |
+| Finish 3rd | 1 |
+| Finish 4th | 0 |
+| Win your Round of 32 tie | +2 |
+| Win in the Round of 16 | +3 |
+| Win your quarter-final | +4 |
+| Win your semi-final | +5 |
+| Win the final | +6 |
 
-Example: a Tier 3 team beats a Tier 1 team 2–1 → (3 + 2 + 8) × 2 = **26 pts**.
-All numbers are tunable in `data/scoring.json` (change them *before* the
-tournament starts — every run recomputes from scratch, so mid-tournament
-changes rewrite history).
+The average team earns ~2.25 points in the group stage; a champion banks a
+maximum of 25 (5 + 2 + 3 + 4 + 5 + 6). Group positions are scored *live* as
+games finish and lock in when the group completes. Shootout wins count as
+wins; the third-place play-off carries no points. All numbers are tunable in
+`data/scoring.json` (change them *before* the tournament starts — every run
+recomputes from scratch, so mid-tournament changes rewrite history).
 
 ## Setup (one-time, ~10 minutes)
 
-1. **Name your players** — edit the 24 names in `data/players.json`.
+1. **Name your players** — edit the 16 names in `data/players.json`.
 
 2. **Run the draw** (optionally with a seed so it's reproducible/auditable):
 

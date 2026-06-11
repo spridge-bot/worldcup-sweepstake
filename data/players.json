@@ -1,169 +1,129 @@
 {
   "players": [
     {
-      "name": "Player 1",
+      "name": "Ruggy",
       "teams": [
+        "ENG",
         "AUS",
         "KSA"
       ]
     },
     {
-      "name": "Player 2",
+      "name": "Glancy",
       "teams": [
-        "ENG",
+        "BRA",
+        "JPN",
         "IRQ"
       ]
     },
     {
-      "name": "Player 3",
+      "name": "Willo",
       "teams": [
-        "BRA",
-        "JPN"
-      ]
-    },
-    {
-      "name": "Player 4",
-      "teams": [
+        "BEL",
         "EGY",
         "HAI"
       ]
     },
     {
-      "name": "Player 5",
-      "teams": [
-        "BEL",
-        "SUI"
-      ]
-    },
-    {
-      "name": "Player 6",
+      "name": "Jen",
       "teams": [
         "SEN",
-        "CIV"
-      ]
-    },
-    {
-      "name": "Player 7",
-      "teams": [
-        "CRO",
-        "ECU"
-      ]
-    },
-    {
-      "name": "Player 8",
-      "teams": [
-        "ESP",
+        "SUI",
         "GHA"
       ]
     },
     {
-      "name": "Player 9",
+      "name": "Fergs",
       "teams": [
-        "USA",
+        "CRO",
+        "CIV",
         "QAT"
       ]
     },
     {
-      "name": "Player 10",
+      "name": "Dubs",
       "teams": [
-        "NOR",
+        "ESP",
+        "ECU",
         "NZL"
       ]
     },
     {
-      "name": "Player 11",
+      "name": "George",
       "teams": [
-        "MEX",
-        "CZE"
-      ]
-    },
-    {
-      "name": "Player 12",
-      "teams": [
-        "MAR",
+        "USA",
+        "NOR",
         "SCO"
       ]
     },
     {
-      "name": "Player 13",
+      "name": "Rich",
       "teams": [
-        "SWE",
+        "MEX",
+        "CZE",
         "CUW"
       ]
     },
     {
-      "name": "Player 14",
+      "name": "Barry",
       "teams": [
-        "NED",
-        "KOR"
-      ]
-    },
-    {
-      "name": "Player 15",
-      "teams": [
-        "POR",
-        "AUT"
-      ]
-    },
-    {
-      "name": "Player 16",
-      "teams": [
-        "URU",
+        "MAR",
+        "SWE",
         "JOR"
       ]
     },
     {
-      "name": "Player 17",
+      "name": "Spridge",
       "teams": [
-        "GER",
+        "NED",
+        "KOR",
         "UZB"
       ]
     },
     {
-      "name": "Player 18",
+      "name": "Brando",
       "teams": [
-        "TUR",
+        "POR",
+        "AUT",
         "CPV"
       ]
     },
     {
-      "name": "Player 19",
+      "name": "Nona",
       "teams": [
-        "FRA",
+        "URU",
+        "TUR",
         "COD"
       ]
     },
     {
-      "name": "Player 20",
+      "name": "Dipen",
       "teams": [
-        "COL",
-        "IRN"
-      ]
-    },
-    {
-      "name": "Player 21",
-      "teams": [
-        "ARG",
+        "GER",
+        "IRN",
         "BIH"
       ]
     },
     {
-      "name": "Player 22",
+      "name": "Pari",
       "teams": [
+        "FRA",
         "ALG",
         "RSA"
       ]
     },
     {
-      "name": "Player 23",
+      "name": "Emily",
       "teams": [
+        "COL",
         "PAN",
         "PAR"
       ]
     },
     {
-      "name": "Player 24",
+      "name": "JVR",
       "teams": [
+        "ARG",
         "CAN",
         "TUN"
       ]
