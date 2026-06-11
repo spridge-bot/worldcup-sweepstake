@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T21:17:25+00:00",
+ "generated_at": "2026-06-11T21:23:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-11",
  "scoring": {
@@ -1076,9 +1076,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 2.6,
+    "home": 2.65,
     "draw": 3.05,
-    "away": 3.05,
+    "away": 3.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2936,29 +2936,6 @@
    "away": {
     "code": null,
     "name": "Quarterfinal 4 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760517,
-   "utc": "2026-07-19T19:00:00Z",
-   "stage": "FINAL",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "MetLife Stadium",
-   "home": {
-    "code": null,
-    "name": "Semifinal 1 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Semifinal 2 Winner",
     "flag": "",
     "owner": null
    }
