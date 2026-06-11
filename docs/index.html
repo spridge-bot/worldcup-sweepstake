@@ -189,7 +189,8 @@
   .group .gname { background: var(--card2); color: var(--gold); font-weight: 800;
                   letter-spacing: 1px; text-transform: uppercase; font-size: .74rem;
                   padding: 8px 10px; }
-  .group .q td { border-left: 3px solid var(--accent); }
+  .group .q td { background: rgba(54,217,124,.06); }
+  .group .q td:last-child { color: var(--accent); }
   .livedot { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
              background: #ff4444; animation: pulse 1.2s infinite; vertical-align: middle; }
   tr.liverow td { background: rgba(255,68,68,.05); }
@@ -232,11 +233,8 @@
   .feed .inc .who { color: var(--dim); font-size: .74rem; }
   .pitchimg { width: 100%; display: block; border-radius: 10px; margin-top: 10px; }
   .pitchwrap { padding: 0 14px 12px; }
-  .tracker { width: 100%; height: 316px; border: 0; border-radius: 10px;
-             background: #04150b; display: block; }
-  .trackerwrap { padding: 8px 14px 2px; }
-  .trackerwrap .credit { color: var(--dim); font-size: .64rem; text-align: right;
-                         padding-top: 2px; }
+  .lastev { margin: 8px 14px 0; padding: 7px 12px; background: rgba(54,217,124,.07);
+            border: 1px solid var(--line); border-radius: 9px; font-size: .82rem; }
   @media (max-width: 720px) { .livegrid { grid-template-columns: 1fr; }
     .livegrid .right { border-left: none; border-top: 1px solid var(--line); } }
 
@@ -422,20 +420,46 @@ function lineupBlock(id, home, away, label) {
 }
 
 function tickClock(clock, detail, generatedAt) {
-  // the feed clock goes stale between refreshes — estimate forward client-side
+  // Show the feed clock as-is while data is fresh (the watcher refreshes it
+  // every ~25s); only estimate forward when data goes stale, and cap the
+  // estimate so devices with skewed clocks can't drift apart.
   const m = /^(\d+)/.exec(clock || '');
   if (!m || /HT|half/i.test(detail || '')) return clock || detail || '';
-  const elapsed = Math.floor((Date.now() - new Date(generatedAt).getTime()) / 60000);
-  if (elapsed <= 0) return clock;
-  return `~${parseInt(m[1], 10) + elapsed}'`;
+  const elapsed = (Date.now() - new Date(generatedAt).getTime()) / 60000;
+  if (elapsed < 1.5) return clock;
+  return `~${parseInt(m[1], 10) + Math.min(Math.round(elapsed), 6)}'`;
+}
+
+function momentumChart(s, homeName, awayName) {
+  const pts = s?.momentum;
+  if (!pts?.length) return '';
+  const maxMin = Math.max(90, ...pts.map(p => p.m));
+  const bars = pts.map(p => {
+    const x = (p.m / maxMin) * 300;
+    const h = Math.min(Math.abs(p.v), 100) * 0.36;
+    return `<rect x="${(x - 1.4).toFixed(1)}" y="${p.v > 0 ? (40 - h).toFixed(1) : 40}"
+      width="2.8" height="${h.toFixed(1)}" rx="1"
+      fill="${p.v > 0 ? '#36d97c' : '#f5c542'}" opacity=".85"/>`;
+  }).join('');
+  const goals = (s.incidents || []).filter(i => i.type === 'goal').map(g => {
+    const x = (((g.minute || 0) + (g.addedTime || 0) * 0.1) / maxMin) * 300;
+    return `<circle cx="${x.toFixed(1)}" cy="${g.team === 'home' ? 5 : 75}" r="3.6"
+      fill="#fff" stroke="#04150b" stroke-width="1"/>`;
+  }).join('');
+  return `<h4>Attack momentum</h4>
+    <svg viewBox="0 0 300 80" style="width:100%;display:block;background:rgba(0,0,0,.18);border-radius:8px"
+      preserveAspectRatio="none">
+      <line x1="0" y1="40" x2="300" y2="40" stroke="rgba(255,255,255,.18)"/>
+      ${bars}${goals}
+    </svg>
+    <div style="display:flex;justify-content:space-between;font-size:.68rem;color:var(--dim);margin-top:3px">
+      <span>▲ ${esc(homeName)} pressure</span><span>goals ⚪︎</span>
+      <span>${esc(awayName)} pressure ▼</span></div>`;
 }
 
 function renderLive(d) {
   const el = $('#live');
   if (!d.live?.length) { el.innerHTML = ''; return; }
-  // keep tracker iframes alive across re-renders — reloading them flickers
-  const savedTrackers = {};
-  el.querySelectorAll('iframe.tracker').forEach(f => { savedTrackers[f.dataset.sid] = f; });
   el.innerHTML = d.live.map(m => {
     const s = SOFA[String(m.id)];
     const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
@@ -445,9 +469,11 @@ function renderLive(d) {
         <span class="own">${esc(t.owner || '')}</span></span></div>`;
     const pitch = s?.pitch ? `<div class="pitchwrap">
         <img class="pitchimg" src="${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
-    const tracker = s?.sofa_id ? `<div class="trackerwrap">
-        <div class="trackerslot" data-sid="${esc(s.sofa_id)}"></div>
-        <div class="credit">live ball tracker · Sofascore</div></div>` : '';
+    const shotmap = s?.shotmap_img ? `<div class="pitchwrap">
+        <img class="pitchimg" src="${s.shotmap_img}?t=${Date.now()}" alt="shot map"></div>` : '';
+    const lastInc = [...(s?.incidents || [])].reverse()
+      .find(i => ['goal', 'card', 'substitution', 'period', 'varDecision'].includes(i.type));
+    const lastEv = lastInc ? `<div class="lastev">${liveIncidents({ incidents: [lastInc] })}</div>` : '';
     return `<div class="livewrap">
       <span class="live-badge"><span class="dot"></span> LIVE
         <span class="clock">${esc(tickClock(m.clock, m.status_detail, d.generated_at))}</span></span>
@@ -462,28 +488,18 @@ function renderLive(d) {
               <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
               ${side(m.away, true)}
             </div>
-            ${tracker}
+            ${lastEv}
             ${oddsBar(m.odds, true)}
             ${lineupBlock(m.id, m.home, m.away)}
             ${pitch}
+            ${shotmap}
+            ${s?.momentum ? `<div style="padding:2px 16px 6px">${momentumChart(s, m.home.name, m.away.name)}</div>` : ''}
             ${s?.stats ? `<div style="padding:2px 16px 10px">${statBars(s.stats.home, s.stats.away)}</div>` : ''}
           </div>
           <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
         </div>
       </div></div>`;
   }).join('');
-  el.querySelectorAll('.trackerslot').forEach(slot => {
-    const sid = slot.dataset.sid;
-    let f = savedTrackers[sid];
-    if (!f) {
-      f = document.createElement('iframe');
-      f.className = 'tracker';
-      f.scrolling = 'no';
-      f.dataset.sid = sid;
-      f.src = `https://www.sofascore.com/api/v1/event/${sid}/live-match-tracker/en/invert-teams/false`;
-    }
-    slot.appendChild(f);
-  });
 }
 
 /* ---------------- podium ---------------- */
@@ -553,9 +569,14 @@ function renderBracket(d) {
 
 /* ---------------- match centre ---------------- */
 const STAT_ROWS = [
-  ['ball_possession', 'Possession %'], ['shots', 'Shots'], ['shots_on_goal', 'On target'],
-  ['corner_kicks', 'Corners'], ['passes', 'Passes'], ['pass_accuracy', 'Pass accuracy %'],
-  ['crosses', 'Crosses'], ['long_balls', 'Long balls'], ['fouls', 'Fouls'],
+  ['ball_possession', 'Possession %'], ['xg', 'Expected goals (xG)'],
+  ['big_chances', 'Big chances'], ['shots', 'Shots'], ['shots_on_goal', 'On target'],
+  ['shots_off_goal', 'Off target'], ['blocked_shots', 'Blocked shots'],
+  ['woodwork', 'Hit woodwork'], ['corner_kicks', 'Corners'], ['free_kicks', 'Free kicks'],
+  ['passes', 'Passes'], ['pass_accuracy', 'Pass accuracy %'],
+  ['crosses', 'Crosses'], ['long_balls', 'Long balls'], ['tackles', 'Tackles'],
+  ['interceptions', 'Interceptions'], ['clearances', 'Clearances'],
+  ['throw_ins', 'Throw-ins'], ['fouls', 'Fouls'],
   ['offsides', 'Offsides'], ['saves', 'Saves'],
   ['yellow_cards', 'Yellow cards'], ['red_cards', 'Red cards'],
 ];
@@ -736,10 +757,16 @@ function matchCentre(r, d) {
   const pitchImg = sofa?.pitch
     ? `<h4>Average positions</h4><img class="pitchimg" src="${sofa.pitch}" alt="average positions">`
     : '';
+  const shotImg = sofa?.shotmap_img
+    ? `<h4>Shot map</h4><img class="pitchimg" src="${sofa.shotmap_img}" alt="shot map">`
+    : '';
   const recap = recapText(r, det, d);
   return `${recap ? `<h4>Match report</h4><div class="recap">${esc(recap)}</div>` : ''}
     ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
-    ${statBars(det.home?.stats, det.away?.stats)}
+    ${momentumChart(sofa, r.home.name, r.away.name)}
+    ${statBars({ ...(sofa?.stats?.home || {}), ...(det.home?.stats || {}) },
+               { ...(sofa?.stats?.away || {}), ...(det.away?.stats || {}) })}
+    ${shotImg}
     ${pitchImg}
     ${timeline(det, flagOf)}
     ${lu}`;

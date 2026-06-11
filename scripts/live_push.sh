@@ -21,7 +21,7 @@ git pull --rebase --autostash -X theirs origin main 2>&1 | tail -1 \
 if /usr/bin/python3 -c 'import json,sys; sys.exit(0 if json.load(open("docs/data.json")).get("live") else 1)' \
    && ! pgrep -f "sofascore_live.py --watch" >/dev/null; then
   mkdir -p logs
-  nohup /usr/bin/python3 scripts/sofascore_live.py --watch 25 >> logs/watch.log 2>&1 &
+  nohup /usr/bin/python3 scripts/sofascore_live.py --watch 20 >> logs/watch.log 2>&1 &
   echo "started live watcher"
 fi
 

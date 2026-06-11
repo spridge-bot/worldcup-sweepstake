@@ -1,29 +1,31 @@
 #!/usr/bin/env python3
 """Sofascore live layer: minute-by-minute incidents, confirmed line-ups,
-live match stats and average player positions, rendered onto an aerial
-pitch with mplsoccer.
+live match stats, attack momentum, shotmaps (with xG) and average player
+positions, rendered onto aerial pitches with mplsoccer.
 
-Uses ScraperFC's bundled botasaurus browser. Sofascore's API challenges
-direct requests, so we load the real match pages and harvest the JSON
-responses the page itself fetches (incidents / lineups / statistics /
-average-positions).
+Data access, fastest first:
+  1. Direct API calls through datafc's curl_cffi client (Chrome TLS
+     impersonation) against the Sofascore mirrors — sub-second per endpoint.
+  2. Browser harvesting via ScraperFC's botasaurus stack: load the real match
+     page and capture the JSON the page fetches. Slow but nearly unblockable.
 
 Modes:
     sofascore_live.py             one pass over matches near now
-    sofascore_live.py --watch 45  stay running while matches are live:
-                                  every ~45s re-harvest positions/stats/
-                                  incidents, patch the live score in
-                                  data.json, redraw the pitch and mirror
-                                  docs/ to the Mac mini. Exits when no
+    sofascore_live.py --watch 20  stay running while matches are live:
+                                  refresh everything every ~20s, patch the
+                                  live score in data.json, redraw pitches and
+                                  mirror docs/ to the Mac mini. Exits when no
                                   match is live.
 
 Outputs:
     docs/sofascore.json        {espn_match_id: {incidents, lineups, stats,
-                                positions, pitch, sofa_id, updated}}
-    docs/img/pitch_<id>.png    aerial average-position pitch view (mplsoccer)
+                                momentum, shots, positions, pitch, shotmap_img,
+                                sofa_id, updated}}
+    docs/img/pitch_<id>.png    average-positions pitch (mplsoccer)
+    docs/img/shots_<id>.png    shotmap, marker size = xG (mplsoccer)
 
-Fails soft: any missing dependency or blocked request leaves the existing
-files untouched.
+Fails soft everywhere: a blocked source or missing dependency just means
+that piece of data is skipped this run.
 """
 import json
 import re
@@ -41,17 +43,52 @@ IMG = DOCS / "img"
 WINDOW_BACK_H = 8     # cover matches that finished earlier today
 WINDOW_FWD_H = 12     # and ones kicking off soon (line-ups confirm ~1h before)
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
+SOFA_BASES = ["https://api.sofavpn.com", "https://www.sofascore.com", "https://api.sofascore.com"]
+WC_TOURNAMENT_ID = 16
+
+try:
+    from datafc.utils._client import SofascoreClient
+    HAVE_API = True
+except ImportError:
+    HAVE_API = False
 
 try:
     from botasaurus.browser import browser, Driver
+    HAVE_BROWSER = True
 except ImportError:
-    sys.exit("ScraperFC/botasaurus not installed — pip3 install ScraperFC mplsoccer")
+    HAVE_BROWSER = False
+
+if not HAVE_API and not HAVE_BROWSER:
+    sys.exit("Install at least one data path: pip3 install datafc  (or ScraperFC)")
 
 
 def normalize(name):
     name = unicodedata.normalize("NFKD", str(name))
     return "".join(c for c in name.lower() if c.isalpha())
 
+
+# --------------------------------------------------------------- API access
+
+_client = None
+
+
+def sofa_get(path):
+    """GET a Sofascore API path, trying each mirror. Raises on total failure."""
+    global _client
+    if _client is None:
+        _client = SofascoreClient(rate_limit=4.0)
+    last = None
+    for base in SOFA_BASES:
+        try:
+            return _client.get(f"{base}/api/v1{path}")
+        except Exception as e:
+            last = e
+            if "404" in str(e):       # endpoint exists, data doesn't — stop here
+                break
+    raise last
+
+
+# ----------------------------------------------------------- target matching
 
 def load_targets():
     """Matches near now from our own data.json: {frozenset(codes): espn_id}."""
@@ -61,7 +98,6 @@ def load_targets():
     for code, t in data["teams"].items():
         variants[code] = {normalize(t["name"]), normalize(code)}
         name_to_code[normalize(t["name"])] = code
-    # teams.json aliases give better slug matching (e.g. cote-divoire)
     for t in json.loads((ROOT / "data/teams.json").read_text())["teams"]:
         variants[t["code"]].update(normalize(a) for a in t.get("aliases", []))
 
@@ -84,73 +120,122 @@ def load_targets():
     return targets, variants, data["teams"], live_ids
 
 
-def slug_to_codes(slug, variants):
-    """'mexico-south-africa' -> ('MEX', 'RSA') using team name variants."""
-    s = normalize(slug.replace("-", ""))
-    for ca, va in variants.items():
-        for a in sorted(va, key=len, reverse=True):
-            if a and s.startswith(a):
-                rest = s[len(a):]
-                for cb, vb in variants.items():
-                    if cb != ca and rest in vb:
-                        return ca, cb
-    return None, None
+def code_for(name, variants):
+    n = normalize(name)
+    for code, vs in variants.items():
+        if n in vs:
+            return code
+    return None
 
 
-@browser(headless=True, output=None, create_error_logs=False, reuse_driver=True,
-         block_images_and_css=True)
-def discover_links(driver: Driver, data):
-    links = set()
-    for url in data["urls"]:
+def api_find_matches(targets, variants):
+    """{espn_id: (sofa_event_id, (home_code, away_code))} via the schedule API."""
+    found = {}
+    today = datetime.now(timezone.utc)
+    for day in (today, today + timedelta(days=1)):
         try:
-            driver.get(url)
-            driver.sleep(4)
-            found = driver.run_js(
-                "return JSON.stringify([...document.querySelectorAll("
-                "'a[href*=\"/football/match/\"]')].map(a => a.href))")
-            links.update(json.loads(found))
+            events = sofa_get(f"/sport/football/scheduled-events/{day:%Y-%m-%d}").get("events", [])
         except Exception as e:
-            print(f"  discover {url} failed ({e})")
-    return sorted(links)
-
-
-@browser(headless=True, output=None, create_error_logs=False, reuse_driver=True,
-         block_images_and_css=True)
-def capture_match(driver: Driver, job):
-    """Open a match page and harvest the API JSON the page fetches."""
-    import base64
-    url = job["url"] if isinstance(job, dict) else job
-    quick = bool(isinstance(job, dict) and job.get("quick"))
-    hits = {}
-
-    def handler(request_id, response, event):
-        if "/api/v1/event/" in response.url:
-            hits[request_id] = response.url
-
-    driver.after_response_received(handler)
-    driver.get(url)
-    driver.sleep(3 if quick else 7)
-    for frac in (0.4, 0.8):    # average-positions loads when scrolled into view
-        driver.run_js(f"window.scrollTo(0, document.body.scrollHeight*{frac})")
-        driver.sleep(1.5 if quick else 2)
-    out = {}
-    for rid, u in list(hits.items()):
-        key = u.split("/api/v1/")[1].split("?")[0]
-        short = next((k for k in ("incidents", "lineups", "average-positions", "statistics")
-                      if key.endswith(k)), None)
-        if not short or short in out:
+            print(f"  schedule {day:%Y-%m-%d} failed ({e})")
             continue
-        try:
-            r = driver.collect_response(rid)
-            c = r.content
-            if c and r.is_base_64:
-                c = base64.b64decode(c).decode("utf-8", "replace")
-            if c:
-                out[short] = json.loads(c)
-        except Exception:
-            pass
-    return out
+        for e in events:
+            ut = ((e.get("tournament") or {}).get("uniqueTournament") or {})
+            if ut.get("id") != WC_TOURNAMENT_ID:
+                continue
+            hc = code_for((e.get("homeTeam") or {}).get("name", ""), variants)
+            ac = code_for((e.get("awayTeam") or {}).get("name", ""), variants)
+            espn_id = targets.get(frozenset((hc, ac))) if hc and ac else None
+            if espn_id and espn_id not in found:
+                found[espn_id] = (str(e["id"]), (hc, ac))
+    return found
 
+
+# ------------------------------------------------------------ browser fallback
+
+if HAVE_BROWSER:
+    @browser(headless=True, output=None, create_error_logs=False, reuse_driver=True,
+             block_images_and_css=True)
+    def discover_links(driver: Driver, data):
+        links = set()
+        for url in data["urls"]:
+            try:
+                driver.get(url)
+                driver.sleep(4)
+                found = driver.run_js(
+                    "return JSON.stringify([...document.querySelectorAll("
+                    "'a[href*=\"/football/match/\"]')].map(a => a.href))")
+                links.update(json.loads(found))
+            except Exception as e:
+                print(f"  discover {url} failed ({e})")
+        return sorted(links)
+
+    @browser(headless=True, output=None, create_error_logs=False, reuse_driver=True,
+             block_images_and_css=True)
+    def capture_match(driver: Driver, job):
+        """Open a match page and harvest the API JSON the page fetches."""
+        import base64
+        url = job["url"] if isinstance(job, dict) else job
+        quick = bool(isinstance(job, dict) and job.get("quick"))
+        hits = {}
+
+        def handler(request_id, response, event):
+            if "/api/v1/event/" in response.url:
+                hits[request_id] = response.url
+
+        driver.after_response_received(handler)
+        driver.get(url)
+        driver.sleep(3 if quick else 7)
+        for frac in (0.4, 0.8):    # lazy sections load when scrolled into view
+            driver.run_js(f"window.scrollTo(0, document.body.scrollHeight*{frac})")
+            driver.sleep(1.5 if quick else 2)
+        out = {}
+        for rid, u in list(hits.items()):
+            key = u.split("/api/v1/")[1].split("?")[0]
+            short = next((k for k in ("incidents", "lineups", "average-positions",
+                                      "statistics", "graph", "shotmap")
+                          if key.endswith(k)), None)
+            if not short or short in out:
+                continue
+            try:
+                r = driver.collect_response(rid)
+                c = r.content
+                if c and r.is_base_64:
+                    c = base64.b64decode(c).decode("utf-8", "replace")
+                if c:
+                    out[short] = json.loads(c)
+            except Exception:
+                pass
+        return out
+
+    def slug_to_codes(slug, variants):
+        s = normalize(slug.replace("-", ""))
+        for ca, va in variants.items():
+            for a in sorted(va, key=len, reverse=True):
+                if a and s.startswith(a):
+                    rest = s[len(a):]
+                    for cb, vb in variants.items():
+                        if cb != ca and rest in vb:
+                            return ca, cb
+        return None, None
+
+    def browser_find_matches(targets, variants):
+        """{espn_id: (link, (codeA, codeB))} from the live/date pages."""
+        today = datetime.now(timezone.utc)
+        urls = ["https://www.sofascore.com/football/livescore",
+                f"https://www.sofascore.com/football/{today:%Y-%m-%d}"]
+        found = {}
+        for link in discover_links({"urls": urls}):
+            m = re.search(r"/football/match/([a-z0-9-]+)/[A-Za-z]+#id:(\d+)", link or "")
+            if not m:
+                continue
+            ca, cb = slug_to_codes(m.group(1), variants)
+            espn_id = targets.get(frozenset((ca, cb))) if ca and cb else None
+            if espn_id and espn_id not in found:
+                found[espn_id] = (link, (ca, cb))
+        return found
+
+
+# ----------------------------------------------------------------- parsers
 
 def parse_incidents(raw):
     out = []
@@ -194,13 +279,23 @@ def parse_lineups(raw):
 
 SOFA_STAT_MAP = {
     "Ball possession": "ball_possession",
+    "Expected goals": "xg",
+    "Big chances": "big_chances",
     "Total shots": "shots",
     "Shots on target": "shots_on_goal",
+    "Shots off target": "shots_off_goal",
+    "Blocked shots": "blocked_shots",
+    "Hit woodwork": "woodwork",
     "Corner kicks": "corner_kicks",
+    "Free kicks": "free_kicks",
     "Fouls": "fouls",
     "Passes": "passes",
     "Long balls": "long_balls",
     "Crosses": "crosses",
+    "Tackles": "tackles",
+    "Interceptions": "interceptions",
+    "Clearances": "clearances",
+    "Throw-ins": "throw_ins",
     "Offsides": "offsides",
     "Yellow cards": "yellow_cards",
     "Red cards": "red_cards",
@@ -227,6 +322,29 @@ def parse_statistics(raw):
     return out if (out["home"] or out["away"]) else None
 
 
+def parse_momentum(raw):
+    """Attack momentum: [{m: minute, v: -100..100}] — positive = home pressure."""
+    pts = [{"m": round(p.get("minute", 0), 1), "v": p.get("value", 0)}
+           for p in raw.get("graphPoints") or raw.get("graph") or []
+           if p.get("minute") is not None]
+    return pts or None
+
+
+def parse_shots(raw):
+    out = []
+    for s in raw.get("shotmap") or []:
+        c = s.get("playerCoordinates") or {}
+        out.append({
+            "player": (s.get("player") or {}).get("shortName"),
+            "team": "home" if s.get("isHome") else "away",
+            "type": s.get("shotType"),               # goal / save / miss / block / post
+            "xg": round(s["xg"], 2) if s.get("xg") is not None else None,
+            "x": c.get("x"), "y": c.get("y"),
+            "minute": s.get("time"),
+        })
+    return out or None
+
+
 def parse_positions(raw):
     out = {}
     for side in ("home", "away"):
@@ -240,8 +358,10 @@ def parse_positions(raw):
     return out
 
 
-def draw_pitch(path, home, away, positions):
-    """Render via render_pitch.py in the mplsoccer venv (needs Python >= 3.10)."""
+# ------------------------------------------------------------------ rendering
+
+def render(mode, path, home, away, payload):
+    """Render a pitch PNG via render_pitch.py in the mplsoccer venv (>=3.10)."""
     import os
     import tempfile
 
@@ -250,23 +370,20 @@ def draw_pitch(path, home, away, positions):
                   sys.executable]
     py = next((c for c in candidates if c and Path(c).exists()), None)
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
-        json.dump(positions, f)
+        json.dump(payload, f)
         tmp = f.name
     try:
         subprocess.run([py, str(ROOT / "scripts/render_pitch.py"), tmp, str(path),
-                        home, away], check=True, capture_output=True, timeout=120)
+                        home, away, mode], check=True, capture_output=True, timeout=120)
     finally:
         os.unlink(tmp)
 
 
-def harvest(link, espn_id, codes, teams, out, quick=False):
-    """Capture one match page into the sofascore.json dict. Returns captured keys."""
+def apply_payloads(ent, payloads, espn_id, codes, teams):
+    """Fold raw endpoint payloads into a sofascore.json entry."""
     ca, cb = codes
-    payloads = capture_match({"url": link, "quick": quick})
-    ent = out.get(str(espn_id), {})
-    sofa_id = re.search(r"#id:(\d+)", link)
-    ent.update({"sofa_id": sofa_id.group(1) if sofa_id else None,
-                "updated": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    home = teams.get(ca, {}).get("name", ca)
+    away = teams.get(cb, {}).get("name", cb)
     if payloads.get("incidents"):
         ent["incidents"] = parse_incidents(payloads["incidents"])
     if payloads.get("lineups"):
@@ -275,37 +392,100 @@ def harvest(link, espn_id, codes, teams, out, quick=False):
         stats = parse_statistics(payloads["statistics"])
         if stats:
             ent["stats"] = stats
+    if payloads.get("graph"):
+        momentum = parse_momentum(payloads["graph"])
+        if momentum:
+            ent["momentum"] = momentum
+    if payloads.get("shotmap"):
+        shots = parse_shots(payloads["shotmap"])
+        if shots:
+            ent["shots"] = shots
+            img = IMG / f"shots_{espn_id}.png"
+            try:
+                render("shots", img, home, away, {"shots": shots})
+                ent["shotmap_img"] = f"img/shots_{espn_id}.png"
+            except Exception as e:
+                print(f"  shotmap render failed ({e})")
     if payloads.get("average-positions"):
         pos = parse_positions(payloads["average-positions"])
         if pos.get("home") or pos.get("away"):
             ent["positions"] = pos
             img = IMG / f"pitch_{espn_id}.png"
             try:
-                draw_pitch(img, teams.get(ca, {}).get("name", ca),
-                           teams.get(cb, {}).get("name", cb), pos)
+                render("positions", img, home, away, pos)
                 ent["pitch"] = f"img/pitch_{espn_id}.png"
             except Exception as e:
                 print(f"  pitch render failed ({e})")
+    return [k for k in ("incidents", "lineups", "stats", "momentum", "shots",
+                        "positions", "pitch") if ent.get(k)]
+
+
+API_ENDPOINTS = {
+    "incidents": "incidents",
+    "lineups": "lineups",
+    "statistics": "statistics",
+    "graph": "graph",
+    "shotmap": "shotmap",
+    "average-positions": "average-positions",
+}
+
+
+def harvest_api(espn_id, sofa_id, codes, teams, out):
+    payloads = {}
+    for short, ep in API_ENDPOINTS.items():
+        try:
+            payloads[short] = sofa_get(f"/event/{sofa_id}/{ep}")
+        except Exception:
+            pass
+    ent = out.get(str(espn_id), {})
+    ent.update({"sofa_id": str(sofa_id),
+                "updated": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    got = apply_payloads(ent, payloads, espn_id, codes, teams)
     out[str(espn_id)] = ent
-    return [k for k in ("incidents", "lineups", "stats", "positions", "pitch") if ent.get(k)]
+    return got
 
 
-def find_matches(targets, variants):
-    """Map Sofascore match links to our ESPN ids. {espn_id: (link, (codeA, codeB))}"""
-    today = datetime.now(timezone.utc)
-    urls = ["https://www.sofascore.com/football/livescore",
-            f"https://www.sofascore.com/football/{today:%Y-%m-%d}"]
-    found = {}
-    for link in discover_links({"urls": urls}):
-        m = re.search(r"/football/match/([a-z0-9-]+)/[A-Za-z]+#id:(\d+)", link or "")
-        if not m:
-            continue
-        ca, cb = slug_to_codes(m.group(1), variants)
-        espn_id = targets.get(frozenset((ca, cb))) if ca and cb else None
-        if espn_id and espn_id not in found:
-            found[espn_id] = (link, (ca, cb))
-    return found
+def harvest_browser(link, espn_id, codes, teams, out, quick=False):
+    payloads = capture_match({"url": link, "quick": quick})
+    ent = out.get(str(espn_id), {})
+    sofa_id = re.search(r"#id:(\d+)", link)
+    ent.update({"sofa_id": sofa_id.group(1) if sofa_id else None,
+                "updated": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    got = apply_payloads(ent, payloads, espn_id, codes, teams)
+    out[str(espn_id)] = ent
+    return got
 
+
+def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False):
+    """Try the fast API path; fall back to the browser. Returns set harvested."""
+    done = set()
+    if HAVE_API:
+        try:
+            found = api_find_matches(targets, variants)
+        except Exception as e:
+            print(f"  API discovery failed ({e})")
+            found = {}
+        for espn_id, (sofa_id, codes) in found.items():
+            if only_ids is not None and espn_id not in only_ids:
+                continue
+            got = harvest_api(espn_id, sofa_id, codes, teams, out)
+            print(f"  [api] match {espn_id}: {', '.join(got) or 'nothing yet'}")
+            done.add(espn_id)
+    wanted = set(targets.values()) if only_ids is None else set(only_ids)
+    missing = wanted - done
+    if missing and HAVE_BROWSER:
+        print(f"  browser fallback for {len(missing)} match(es)")
+        found = browser_find_matches(targets, variants)
+        for espn_id, (link, codes) in found.items():
+            if espn_id not in missing:
+                continue
+            got = harvest_browser(link, espn_id, codes, teams, out, quick=quick)
+            print(f"  [browser] match {espn_id}: {', '.join(got) or 'nothing yet'}")
+            done.add(espn_id)
+    return done
+
+
+# ------------------------------------------------------------ live score patch
 
 def espn_quick_scores():
     """One cheap ESPN call: patch score/clock for the live matches in data.json."""
@@ -368,31 +548,30 @@ def write_out(out):
     (DOCS / "sofascore.json").write_text(json.dumps(out, ensure_ascii=False) + "\n")
 
 
+# ------------------------------------------------------------------- modes
+
 def main():
     targets, variants, teams, _ = load_targets()
     if not targets:
         print("No matches within the live window; nothing to do.")
         return
-    print(f"Looking for {len(targets)} match(es) on Sofascore...")
-    found = find_matches(targets, variants)
+    print(f"Harvesting {len(targets)} match(es) "
+          f"({'API-first' if HAVE_API else 'browser only'})...")
     sofa_path = DOCS / "sofascore.json"
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
-    for espn_id, (link, codes) in found.items():
-        print(f"  {link.split('/match/')[1].split('/')[0]} -> match {espn_id}")
-        got = harvest(link, espn_id, codes, teams, out)
-        print(f"    captured: {', '.join(got) or 'nothing yet'}")
+    find_and_harvest(targets, variants, teams, out)
     write_out(out)
     print(f"Wrote docs/sofascore.json ({len(out)} matches)")
 
 
 def watch(interval):
     """Stay running while matches are live; refresh every `interval` seconds."""
-    print(f"Watch mode: refreshing live matches every ~{interval}s")
+    print(f"Watch mode: refreshing live matches every ~{interval}s "
+          f"({'API-first' if HAVE_API else 'browser only'})")
     sofa_path = DOCS / "sofascore.json"
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
-    found = {}
     idle_passes = 0
     while True:
         cycle_start = time.time()
@@ -405,14 +584,7 @@ def watch(interval):
                 break
         else:
             idle_passes = 0
-            if any(mid not in found for mid in live_ids):
-                found = find_matches(targets, variants)
-            for mid in live_ids:
-                if mid not in found:
-                    continue
-                link, codes = found[mid]
-                got = harvest(link, mid, codes, teams, out, quick=True)
-                print(f"  [{datetime.now():%H:%M:%S}] match {mid}: {', '.join(got)}")
+            find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True)
             write_out(out)
             mirror_to_mini()
         time.sleep(max(5, interval - (time.time() - cycle_start)))
@@ -421,7 +593,7 @@ def watch(interval):
 if __name__ == "__main__":
     if "--watch" in sys.argv:
         idx = sys.argv.index("--watch")
-        secs = int(sys.argv[idx + 1]) if len(sys.argv) > idx + 1 and sys.argv[idx + 1].isdigit() else 45
+        secs = int(sys.argv[idx + 1]) if len(sys.argv) > idx + 1 and sys.argv[idx + 1].isdigit() else 20
         watch(secs)
     else:
         main()
