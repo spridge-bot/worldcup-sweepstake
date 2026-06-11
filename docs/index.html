@@ -190,6 +190,9 @@
                   letter-spacing: 1px; text-transform: uppercase; font-size: .74rem;
                   padding: 8px 10px; }
   .group .q td { border-left: 3px solid var(--accent); }
+  .livedot { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+             background: #ff4444; animation: pulse 1.2s infinite; vertical-align: middle; }
+  tr.liverow td { background: rgba(255,68,68,.05); }
   .group td.teamcell { white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
                        max-width: 130px; }
 
@@ -229,6 +232,11 @@
   .feed .inc .who { color: var(--dim); font-size: .74rem; }
   .pitchimg { width: 100%; display: block; border-radius: 10px; margin-top: 10px; }
   .pitchwrap { padding: 0 14px 12px; }
+  .tracker { width: 100%; height: 316px; border: 0; border-radius: 10px;
+             background: #04150b; display: block; }
+  .trackerwrap { padding: 8px 14px 2px; }
+  .trackerwrap .credit { color: var(--dim); font-size: .64rem; text-align: right;
+                         padding-top: 2px; }
   @media (max-width: 720px) { .livegrid { grid-template-columns: 1fr; }
     .livegrid .right { border-left: none; border-top: 1px solid var(--line); } }
 
@@ -413,9 +421,21 @@ function lineupBlock(id, home, away, label) {
   </details>`;
 }
 
+function tickClock(clock, detail, generatedAt) {
+  // the feed clock goes stale between refreshes — estimate forward client-side
+  const m = /^(\d+)/.exec(clock || '');
+  if (!m || /HT|half/i.test(detail || '')) return clock || detail || '';
+  const elapsed = Math.floor((Date.now() - new Date(generatedAt).getTime()) / 60000);
+  if (elapsed <= 0) return clock;
+  return `~${parseInt(m[1], 10) + elapsed}'`;
+}
+
 function renderLive(d) {
   const el = $('#live');
   if (!d.live?.length) { el.innerHTML = ''; return; }
+  // keep tracker iframes alive across re-renders — reloading them flickers
+  const savedTrackers = {};
+  el.querySelectorAll('iframe.tracker').forEach(f => { savedTrackers[f.dataset.sid] = f; });
   el.innerHTML = d.live.map(m => {
     const s = SOFA[String(m.id)];
     const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
@@ -425,9 +445,12 @@ function renderLive(d) {
         <span class="own">${esc(t.owner || '')}</span></span></div>`;
     const pitch = s?.pitch ? `<div class="pitchwrap">
         <img class="pitchimg" src="${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
+    const tracker = s?.sofa_id ? `<div class="trackerwrap">
+        <div class="trackerslot" data-sid="${esc(s.sofa_id)}"></div>
+        <div class="credit">live ball tracker · Sofascore</div></div>` : '';
     return `<div class="livewrap">
       <span class="live-badge"><span class="dot"></span> LIVE
-        <span class="clock">${esc(m.clock || '')}</span> ${esc(m.status_detail || '')}</span>
+        <span class="clock">${esc(tickClock(m.clock, m.status_detail, d.generated_at))}</span></span>
       <div class="livecard">
         <div class="head" style="display:flex;justify-content:space-between;gap:10px;
           padding:10px 14px 0;color:var(--dim);font-size:.7rem;text-transform:uppercase;
@@ -439,14 +462,28 @@ function renderLive(d) {
               <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
               ${side(m.away, true)}
             </div>
+            ${tracker}
             ${oddsBar(m.odds, true)}
             ${lineupBlock(m.id, m.home, m.away)}
             ${pitch}
+            ${s?.stats ? `<div style="padding:2px 16px 10px">${statBars(s.stats.home, s.stats.away)}</div>` : ''}
           </div>
           <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
         </div>
       </div></div>`;
   }).join('');
+  el.querySelectorAll('.trackerslot').forEach(slot => {
+    const sid = slot.dataset.sid;
+    let f = savedTrackers[sid];
+    if (!f) {
+      f = document.createElement('iframe');
+      f.className = 'tracker';
+      f.scrolling = 'no';
+      f.dataset.sid = sid;
+      f.src = `https://www.sofascore.com/api/v1/event/${sid}/live-match-tracker/en/invert-teams/false`;
+    }
+    slot.appendChild(f);
+  });
 }
 
 /* ---------------- podium ---------------- */
@@ -800,10 +837,11 @@ function renderGroups(d) {
     $('#groups').innerHTML = '<div class="empty">Group tables appear once the fixtures load.</div>';
     return;
   }
+  const anyLive = d.groups.some(g => g.rows.some(r => r.live));
   const tables = d.groups.map(g => {
-    const rows = g.rows.map((r, i) => `<tr class="${i < 2 ? 'q' : ''}">
+    const rows = g.rows.map((r, i) => `<tr class="${i < 2 ? 'q' : ''}${r.live ? ' liverow' : ''}">
       <td class="rank num">${i + 1}</td>
-      <td class="teamcell">${r.flag} <b>${esc(r.name)}</b><br>
+      <td class="teamcell">${r.flag} <b>${esc(r.name)}</b> ${r.live ? '<span class="livedot"></span>' : ''}<br>
         <span class="owner">${esc(r.owner || '')}</span></td>
       <td class="num">${r.p}</td>
       <td class="num hide-sm">${r.w}-${r.d}-${r.l}</td>
@@ -815,7 +853,11 @@ function renderGroups(d) {
       <th class="num hide-sm">W-D-L</th><th class="num">GD</th><th class="num">Pts</th></tr>
       ${rows}</table></div>`;
   }).join('');
-  $('#groups').innerHTML = `<div class="groupgrid">${tables}</div>
+  $('#groups').innerHTML = `${anyLive ? `<p style="color:#ff7b7b;font-size:.78rem;
+    text-align:center;margin-bottom:12px"><span class="livedot"></span>
+    Tables are <b>as it stands</b> — matches in play count at the current score
+    and finalise at full-time.</p>` : ''}
+    <div class="groupgrid">${tables}</div>
     <p style="color:var(--dim);font-size:.75rem;margin-top:12px;text-align:center">
     Top two in each group qualify automatically; the eight best third-placed teams also advance.
     Group position = sweepstake points: 1st 5 · 2nd 3 · 3rd 1 · 4th 0.</p>`;
@@ -916,7 +958,7 @@ function loadAll() {
     renderLive(d); renderLeaderboard(d); renderPodium(d); renderResults(d); renderGroups(d);
     renderBracket(d); renderTeams(d); renderScorers(d); renderRules(d);
     // keep the page fresh while a match is on
-    if (d.live?.length && !liveTimer) liveTimer = setInterval(loadAll, 60000);
+    if (d.live?.length && !liveTimer) liveTimer = setInterval(loadAll, 15000);
     if (!d.live?.length && liveTimer) { clearInterval(liveTimer); liveTimer = null; }
   });
 }

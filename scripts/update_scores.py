@@ -674,7 +674,10 @@ def update_details(token, matches_resolved, index):
 # ---------------------------------------------------------------- group tables
 
 def compute_groups(matches_resolved, teams_by_code, owner):
-    """Build group tables locally from the fixture list (no extra API calls)."""
+    """Build group tables locally from the fixture list (no extra API calls).
+
+    In-play matches count at their CURRENT score — the table is always
+    'as it stands'; it self-corrects at full-time on the next run."""
     members = defaultdict(set)
     rows = {}
     for m, ch, ca in matches_resolved:
@@ -688,11 +691,13 @@ def compute_groups(matches_resolved, teams_by_code, owner):
     for gname, codes in members.items():
         for code in codes:
             rows[code] = {"group": gname, "code": code, "p": 0, "w": 0, "d": 0,
-                          "l": 0, "gf": 0, "ga": 0, "pts": 0}
+                          "l": 0, "gf": 0, "ga": 0, "pts": 0, "live": False}
 
     for m, ch, ca in matches_resolved:
-        if m.get("stage") != "GROUP_STAGE" or m["status"] != "FINISHED" or not ch or not ca:
+        if m.get("stage") != "GROUP_STAGE" or not ch or not ca \
+                or m["status"] not in ("FINISHED", "IN_PLAY", "PAUSED"):
             continue
+        in_play = m["status"] != "FINISHED"
         hg, ag = match_goals(m["score"])
         for code, gf, ga in ((ch, hg, ag), (ca, ag, hg)):
             if code not in rows:
@@ -701,6 +706,8 @@ def compute_groups(matches_resolved, teams_by_code, owner):
             r["p"] += 1
             r["gf"] += gf
             r["ga"] += ga
+            if in_play:
+                r["live"] = True
             if gf > ga:
                 r["w"] += 1
                 r["pts"] += 3
@@ -881,12 +888,13 @@ def add_group_position_events(groups, matches_resolved, cfg, events):
     6 group matches have finished. Events are dated by the team's most recent
     group match so the leaderboard's 'Latest' delta and movement arrows work.
     """
-    last_date = {}                       # code -> date of latest finished group match
+    last_date = {}                       # code -> date of latest counted group match
     finished_per_group = defaultdict(int)
     for m, ch, ca in matches_resolved:
-        if m.get("stage") != "GROUP_STAGE" or m["status"] != "FINISHED":
+        if m.get("stage") != "GROUP_STAGE" \
+                or m["status"] not in ("FINISHED", "IN_PLAY", "PAUSED"):
             continue
-        if m.get("group"):
+        if m["status"] == "FINISHED" and m.get("group"):
             finished_per_group[m["group"].replace("_", " ").title()] += 1
         for code in (ch, ca):
             if code:

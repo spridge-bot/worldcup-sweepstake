@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T20:18:06+00:00",
+ "generated_at": "2026-06-11T20:42:56+00:00",
  "mode": "live",
  "latest_day": null,
  "scoring": {
@@ -19,6 +19,18 @@
  },
  "players": [
   {
+   "name": "Rich",
+   "teams": [
+    "MEX",
+    "CZE",
+    "CUW"
+   ],
+   "total": 5,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
    "name": "Barry",
    "teams": [
     "MAR",
@@ -27,7 +39,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -39,7 +51,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -51,7 +63,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -63,7 +75,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -75,7 +87,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -87,7 +99,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -99,7 +111,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -111,7 +123,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -123,7 +135,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -135,7 +147,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -147,7 +159,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -159,19 +171,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
-   "movement": 0
-  },
-  {
-   "name": "Rich",
-   "teams": [
-    "MEX",
-    "CZE",
-    "CUW"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -183,7 +183,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -195,7 +195,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   },
   {
@@ -207,7 +207,7 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 1,
+   "rank": 2,
    "movement": 0
   }
  ],
@@ -430,8 +430,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-11",
+     "desc": "1st in Group A (live)",
+     "points": 5
+    }
+   ]
   },
   "SEN": {
    "code": "SEN",
@@ -1035,8 +1041,8 @@
    "utc": "2026-06-11T19:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "52'",
-   "status_detail": "52'",
+   "clock": "76'",
+   "status_detail": "76'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 1.43,
@@ -1050,7 +1056,7 @@
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Rich",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "RSA",
@@ -1370,6 +1376,23 @@
    "rows": [
     {
      "group": "Group A",
+     "code": "MEX",
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 2,
+     "ga": 0,
+     "pts": 3,
+     "live": true,
+     "gd": 2,
+     "name": "Mexico",
+     "flag": "🇲🇽",
+     "tier": 1,
+     "owner": "Rich"
+    },
+    {
+     "group": "Group A",
      "code": "CZE",
      "p": 0,
      "w": 0,
@@ -1378,43 +1401,12 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Czechia",
      "flag": "🇨🇿",
      "tier": 2,
      "owner": "Rich"
-    },
-    {
-     "group": "Group A",
-     "code": "MEX",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "gd": 0,
-     "name": "Mexico",
-     "flag": "🇲🇽",
-     "tier": 1,
-     "owner": "Rich"
-    },
-    {
-     "group": "Group A",
-     "code": "RSA",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "gd": 0,
-     "name": "South Africa",
-     "flag": "🇿🇦",
-     "tier": 3,
-     "owner": "Pari"
     },
     {
      "group": "Group A",
@@ -1426,11 +1418,29 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "South Korea",
      "flag": "🇰🇷",
      "tier": 2,
      "owner": "Spridge"
+    },
+    {
+     "group": "Group A",
+     "code": "RSA",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 2,
+     "pts": 0,
+     "live": true,
+     "gd": -2,
+     "name": "South Africa",
+     "flag": "🇿🇦",
+     "tier": 3,
+     "owner": "Pari"
     }
    ]
   },
@@ -1447,6 +1457,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
@@ -1463,6 +1474,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Canada",
      "flag": "🇨🇦",
@@ -1479,6 +1491,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Qatar",
      "flag": "🇶🇦",
@@ -1495,6 +1508,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Switzerland",
      "flag": "🇨🇭",
@@ -1516,6 +1530,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Brazil",
      "flag": "🇧🇷",
@@ -1532,6 +1547,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Haiti",
      "flag": "🇭🇹",
@@ -1548,6 +1564,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Morocco",
      "flag": "🇲🇦",
@@ -1564,6 +1581,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -1585,6 +1603,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Australia",
      "flag": "🇦🇺",
@@ -1601,6 +1620,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Paraguay",
      "flag": "🇵🇾",
@@ -1617,6 +1637,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Türkiye",
      "flag": "🇹🇷",
@@ -1633,6 +1654,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "USA",
      "flag": "🇺🇸",
@@ -1654,6 +1676,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Curaçao",
      "flag": "🇨🇼",
@@ -1670,6 +1693,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Ecuador",
      "flag": "🇪🇨",
@@ -1686,6 +1710,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Germany",
      "flag": "🇩🇪",
@@ -1702,6 +1727,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
@@ -1723,6 +1749,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Japan",
      "flag": "🇯🇵",
@@ -1739,6 +1766,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Netherlands",
      "flag": "🇳🇱",
@@ -1755,6 +1783,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Sweden",
      "flag": "🇸🇪",
@@ -1771,6 +1800,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Tunisia",
      "flag": "🇹🇳",
@@ -1792,6 +1822,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Belgium",
      "flag": "🇧🇪",
@@ -1808,6 +1839,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Egypt",
      "flag": "🇪🇬",
@@ -1824,6 +1856,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Iran",
      "flag": "🇮🇷",
@@ -1840,6 +1873,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "New Zealand",
      "flag": "🇳🇿",
@@ -1861,6 +1895,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Cabo Verde",
      "flag": "🇨🇻",
@@ -1877,6 +1912,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
@@ -1893,6 +1929,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Spain",
      "flag": "🇪🇸",
@@ -1909,6 +1946,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Uruguay",
      "flag": "🇺🇾",
@@ -1930,6 +1968,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "France",
      "flag": "🇫🇷",
@@ -1946,6 +1985,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Iraq",
      "flag": "🇮🇶",
@@ -1962,6 +2002,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Norway",
      "flag": "🇳🇴",
@@ -1978,6 +2019,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Senegal",
      "flag": "🇸🇳",
@@ -1999,6 +2041,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Algeria",
      "flag": "🇩🇿",
@@ -2015,6 +2058,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Argentina",
      "flag": "🇦🇷",
@@ -2031,6 +2075,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Austria",
      "flag": "🇦🇹",
@@ -2047,6 +2092,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Jordan",
      "flag": "🇯🇴",
@@ -2068,6 +2114,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Colombia",
      "flag": "🇨🇴",
@@ -2084,6 +2131,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "DR Congo",
      "flag": "🇨🇩",
@@ -2100,6 +2148,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Portugal",
      "flag": "🇵🇹",
@@ -2116,6 +2165,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
@@ -2137,6 +2187,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Croatia",
      "flag": "🇭🇷",
@@ -2153,6 +2204,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -2169,6 +2221,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Ghana",
      "flag": "🇬🇭",
@@ -2185,6 +2238,7 @@
      "gf": 0,
      "ga": 0,
      "pts": 0,
+     "live": false,
      "gd": 0,
      "name": "Panama",
      "flag": "🇵🇦",
@@ -3015,20 +3069,20 @@
    "owner": "Willo"
   },
   {
+   "player": "Raúl Jiménez",
+   "team": "MEX",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇲🇽",
+   "owner": "Rich"
+  },
+  {
    "player": "S. Schmidt",
    "team": "NZL",
    "goals": 1,
    "assists": 0,
    "flag": "🇳🇿",
    "owner": "Dubs"
-  },
-  {
-   "player": "T. Dubois",
-   "team": "ARG",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇦🇷",
-   "owner": "JVR"
   }
  ]
 }
