@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T19:21:52+00:00",
+ "generated_at": "2026-06-11T20:01:24+00:00",
  "mode": "live",
  "latest_day": null,
  "scoring": {
@@ -1029,6 +1029,38 @@
    "events": []
   }
  },
+ "live": [
+  {
+   "id": 760415,
+   "utc": "2026-06-11T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group A",
+   "clock": "45'+4'",
+   "status_detail": "HT",
+   "venue": "Estadio Banorte",
+   "odds": {
+    "home": 1.43,
+    "draw": 4.3,
+    "away": 8.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Rich",
+    "goals": 1
+   },
+   "away": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "owner": "Pari",
+    "goals": 0
+   }
+  }
+ ],
  "results": [],
  "upcoming": [
   {
@@ -1062,9 +1094,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.83,
+    "home": 1.87,
     "draw": 3.55,
-    "away": 4.6,
+    "away": 4.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2959,6 +2991,14 @@
    "owner": "Rich"
   },
   {
+   "player": "Julián Quiñones",
+   "team": "MEX",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇲🇽",
+   "owner": "Rich"
+  },
+  {
    "player": "L. Pereira",
    "team": "HAI",
    "goals": 1,
@@ -2989,14 +3029,6 @@
    "assists": 0,
    "flag": "🇦🇷",
    "owner": "JVR"
-  },
-  {
-   "player": "T. Sato",
-   "team": "NZL",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇳🇿",
-   "owner": "Dubs"
   }
  ]
 }

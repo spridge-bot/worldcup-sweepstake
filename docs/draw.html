@@ -108,6 +108,10 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const TIER_NAMES = {1: 'Tier 1 — The Giants', 2: 'Tier 2 — The Contenders', 3: 'Tier 3 — The Underdogs'};
 
 let TEAMS = {}, PLAYERS = [], pools = {}, assignments = {}, round = 1;
+// shared mode: when served by scripts/serve.py, every viewer sees the same draw
+let SHARED = false, lastSeq = 0, busy = false;
+const CID = Math.random().toString(36).slice(2);
+const queue = [];
 
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
@@ -115,6 +119,68 @@ function shuffle(a) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+async function broadcast(ev) {
+  if (!SHARED) return;
+  try {
+    const r = await fetch('/api/draw', { method: 'POST',
+      body: JSON.stringify({ ...ev, origin: CID }) });
+    const j = await r.json();
+    lastSeq = Math.max(lastSeq, j.seq || 0);
+  } catch {}
+}
+
+async function flashReveal(player, team) {
+  const reveal = $('#reveal');
+  if (!reveal) return;
+  const pool = pools[round] || Object.keys(TEAMS);
+  for (let f = 0; f < 14; f++) {
+    const fake = pool[Math.floor(Math.random() * pool.length)];
+    reveal.innerHTML = `<div class="line flashing"><span class="who">${esc(player)}</span>
+      draws… <span class="team">${TEAMS[fake].flag} ${esc(TEAMS[fake].name)}</span></div>`;
+    await sleep(45 + f * 14);
+  }
+  reveal.innerHTML = `<div class="line lock"><span class="who">${esc(player)}</span>
+    draws <span class="team">${TEAMS[team].flag} ${esc(TEAMS[team].name)}!</span></div>`;
+}
+
+async function applyEvent(ev, animate) {
+  if (ev.type === 'reset') { assignments = {}; round = 1; renderRound(); }
+  else if (ev.type === 'spin') {
+    if (animate && $('#wheel')) {
+      $('#spin')?.setAttribute('disabled', '');
+      $('#wheel').style.transform = `rotate(${1440 + Math.floor(Math.random() * 360)}deg)`;
+      await sleep(3300);
+    }
+  } else if (ev.type === 'lock') {
+    if (animate) { await flashReveal(ev.player, ev.team); await sleep(700); }
+    (assignments[ev.player] = assignments[ev.player] || []).push(ev.team);
+    if (animate) renderPicks();
+  } else if (ev.type === 'round') {
+    round = ev.round;
+    if (animate) renderRound();
+  }
+}
+
+async function drainQueue() {
+  if (busy) return;
+  busy = true;
+  while (queue.length) await applyEvent(queue.shift(), true);
+  busy = false;
+}
+
+async function poll() {
+  try {
+    const r = await fetch('/api/draw?since=' + lastSeq);
+    if (!r.ok) return;
+    const j = await r.json();
+    for (const ev of j.events || []) {
+      lastSeq = Math.max(lastSeq, ev.seq);
+      if (ev.origin !== CID) queue.push(ev);
+    }
+    drainQueue();
+  } catch {}
 }
 
 function renderRound() {
@@ -133,7 +199,7 @@ function renderRound() {
     ${done ? `<div class="done-actions">
       <button id="copy">📋 Copy results</button>
       <button id="dl">⬇️ Download players.json</button>
-      <button onclick="location.reload()">🔁 Re-run the whole draw</button>
+      <button id="rerun">🔁 Re-run the whole draw</button>
     </div>
     <div class="sub">Send the file (or copied text) to the organiser — drop it in as
       <b>data/players.json</b> and the leaderboard picks it up on the next update.</div>` : ''}
@@ -156,6 +222,7 @@ function renderPicks() {
 async function spin() {
   const btn = $('#spin');
   btn.disabled = true;
+  broadcast({ type: 'spin', round });
   const wheel = $('#wheel');
   const turns = 1440 + Math.floor(Math.random() * 360);
   wheel.style.transform = `rotate(${turns}deg)`;
@@ -166,22 +233,15 @@ async function spin() {
   const reveal = $('#reveal');
   for (let i = 0; i < order.length; i++) {
     const player = order[i], team = pool[i];
-    // flash random team names before locking
-    const flashes = 14;
-    for (let f = 0; f < flashes; f++) {
-      const fake = pool[Math.floor(Math.random() * pool.length)];
-      reveal.innerHTML = `<div class="line flashing"><span class="who">${esc(player)}</span>
-        draws… <span class="team">${TEAMS[fake].flag} ${esc(TEAMS[fake].name)}</span></div>`;
-      await sleep(45 + f * 14);
-    }
-    reveal.innerHTML = `<div class="line lock"><span class="who">${esc(player)}</span>
-      draws <span class="team">${TEAMS[team].flag} ${esc(TEAMS[team].name)}!</span></div>`;
+    await flashReveal(player, team);
     (assignments[player] = assignments[player] || []).push(team);
     renderPicks();
+    broadcast({ type: 'lock', player, team });
     await sleep(900);
   }
   reveal.innerHTML = `<div class="line lock">That's ${TIER_NAMES[round].split(' — ')[0]} done! 👏</div>`;
   round += 1;
+  broadcast({ type: 'round', round });
   await sleep(1400);
   renderRound();
 }
@@ -205,15 +265,41 @@ function wireDone() {
     a.download = 'players.json';
     a.click();
   };
+  $('#rerun').onclick = async () => {
+    if (SHARED) { try { await fetch('/api/draw/reset', { method: 'POST' }); } catch {} }
+    location.reload();
+  };
 }
 
-fetch('data.json?t=' + Date.now()).then(r => r.json()).then(d => {
+async function boot() {
+  const d = await fetch('data.json?t=' + Date.now()).then(r => r.json());
   TEAMS = d.teams;
   PLAYERS = d.players.map(p => p.name);
   for (const t of [1, 2, 3]) pools[t] = Object.values(TEAMS)
     .filter(x => x.tier === t).map(x => x.code);
+
+  // shared mode? (needs scripts/serve.py — solo mode otherwise, e.g. GitHub Pages)
+  try {
+    const r = await fetch('/api/draw');
+    if (r.ok) {
+      SHARED = true;
+      const j = await r.json();
+      for (const ev of j.events || []) {          // fast-forward history
+        lastSeq = Math.max(lastSeq, ev.seq);
+        await applyEvent(ev, false);
+      }
+      setInterval(poll, 1200);
+    }
+  } catch {}
   renderRound();
-}).catch(() => { $('#stage').innerHTML = '<div class="sub">Could not load data.json — start the site first.</div>'; });
+  const note = document.createElement('div');
+  note.className = 'sub';
+  note.textContent = SHARED
+    ? '🟢 Shared draw — everyone on this page sees the same spins, live.'
+    : '⚪️ Solo mode — spins only show on this screen.';
+  $('#stage').after(note);
+}
+boot().catch(() => { $('#stage').innerHTML = '<div class="sub">Could not load data.json — start the site first.</div>'; });
 </script>
 </body>
 </html>

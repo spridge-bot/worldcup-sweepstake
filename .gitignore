@@ -1,0 +1,6 @@
+.venv-pitch/
+logs/
+var/
+output/
+__pycache__/
+.DS_Store

@@ -490,6 +490,8 @@ def fetch_espn_matches(index):
                 "venue": (c.get("venue") or {}).get("fullName"),
                 "attendance": c.get("attendance") or None,
                 "odds": parse_espn_odds(c),
+                "clock": (e.get("status") or {}).get("displayClock"),
+                "status_detail": state.get("shortDetail") or state.get("detail"),
                 "goals": goals, "bookings": bookings, "penalties": pens,
             }
             if hc and ac:
@@ -1137,6 +1139,30 @@ def main():
         })
     players_out.sort(key=lambda p: (p["rank"], p["name"]))
 
+    # In-play matches get their own hero section at the top of the page
+    live = []
+    for m, ch, ca in matches_resolved:
+        if m["status"] not in ("IN_PLAY", "PAUSED") or not ch or not ca:
+            continue
+        hg, ag = match_goals(m["score"])
+        mi = espn_info.get(m.get("id"), {})
+        ent = cache.get(str(m.get("id")), {})
+        live.append({
+            "id": m.get("id"),
+            "utc": m["utcDate"],
+            "stage": STAGE_LABELS.get(m["stage"], m["stage"]),
+            "group": (m.get("group") or "").replace("_", " ").title() or None,
+            "clock": mi.get("clock"),
+            "status_detail": mi.get("status_detail") or ("Half-time" if m["status"] == "PAUSED" else "Live"),
+            "venue": mi.get("venue") or ent.get("venue"),
+            "odds": ent.get("odds"),
+            "home": {"code": ch, "name": teams_by_code[ch]["name"], "flag": teams_by_code[ch]["flag"],
+                     "owner": owner.get(ch), "goals": hg},
+            "away": {"code": ca, "name": teams_by_code[ca]["name"], "flag": teams_by_code[ca]["flag"],
+                     "owner": owner.get(ca), "goals": ag},
+        })
+    live.sort(key=lambda u: u["utc"], reverse=True)
+
     upcoming = []
     for m, ch, ca in matches_resolved:
         if m["status"] in ("SCHEDULED", "TIMED") and ch and ca:
@@ -1194,6 +1220,7 @@ def main():
         "scoring": cfg,
         "players": players_out,
         "teams": team_out,
+        "live": live,
         "results": sorted(results, key=lambda r: r["utc"], reverse=True),
         "upcoming": upcoming[:12],
         "groups": groups,

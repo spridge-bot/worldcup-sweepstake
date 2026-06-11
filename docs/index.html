@@ -203,6 +203,35 @@
   .events div { display: flex; justify-content: space-between; font-size: .82rem;
                 color: var(--dim); padding: 3px 0; border-top: 1px dashed var(--line); }
 
+  /* live hero */
+  .livewrap { margin: 14px 0 4px; }
+  .live-badge { display: inline-flex; align-items: center; gap: 7px; background: #2a0a0a;
+                color: #ff7b7b; border: 1px solid #7a2727; border-radius: 999px;
+                padding: 3px 13px; font-size: .7rem; font-weight: 800; letter-spacing: 2px; }
+  .live-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #ff4444;
+                     animation: pulse 1.2s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .2; } }
+  .livecard { background: linear-gradient(135deg, #143424, #0e2417 65%);
+              border: 1px solid var(--line2); border-radius: 16px; margin-top: 10px;
+              overflow: hidden; box-shadow: 0 0 36px rgba(54,217,124,.12); }
+  .livecard .clock { color: var(--accent); font-weight: 800; font-variant-numeric: tabular-nums; }
+  .livegrid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 0; }
+  .livegrid .left { padding: 4px 0 10px; }
+  .livegrid .right { border-left: 1px solid var(--line); padding: 12px 14px;
+                     max-height: 460px; overflow-y: auto; }
+  .livegrid .right h4 { color: var(--accent); font-size: .7rem; text-transform: uppercase;
+                        letter-spacing: 2px; margin-bottom: 8px; }
+  .feed .inc { display: flex; gap: 9px; padding: 5px 0; font-size: .82rem; align-items: baseline;
+               border-bottom: 1px dashed rgba(255,255,255,.06); }
+  .feed .inc .min { color: var(--accent); font-weight: 800; min-width: 2.9em; text-align: right;
+                    font-variant-numeric: tabular-nums; }
+  .feed .inc.big { background: rgba(54,217,124,.07); border-radius: 6px; padding: 6px 6px; }
+  .feed .inc .who { color: var(--dim); font-size: .74rem; }
+  .pitchimg { width: 100%; display: block; border-radius: 10px; margin-top: 10px; }
+  .pitchwrap { padding: 0 14px 12px; }
+  @media (max-width: 720px) { .livegrid { grid-template-columns: 1fr; }
+    .livegrid .right { border-left: none; border-top: 1px solid var(--line); } }
+
   /* podium */
   .podium-stage { display: flex; align-items: flex-end; justify-content: center; gap: 14px;
                   margin: 34px 0 8px; }
@@ -236,6 +265,13 @@
   .btie .tbd { color: var(--dim); font-style: italic; }
   .btie .when { color: var(--dim); font-size: .66rem; margin-top: 4px; }
 
+  /* confirmed line-ups toggle */
+  details.lu { border-top: 1px dashed var(--line); }
+  details.lu summary { color: var(--accent); font-size: .75rem; font-weight: 700;
+                       letter-spacing: 1px; text-transform: uppercase; padding: 9px 14px;
+                       cursor: pointer; text-align: center; list-style-position: inside; }
+  details.lu .lineups { padding: 4px 16px 14px; }
+
   /* match report */
   .recap { background: rgba(54,217,124,.05); border-left: 3px solid var(--accent);
            border-radius: 0 8px 8px 0; padding: 10px 14px; font-size: .86rem;
@@ -268,6 +304,7 @@
     <div class="sub" id="updated">Loading…</div>
   </header>
   <div class="banner" id="banner"></div>
+  <div id="live"></div>
 
   <nav>
     <button data-tab="leaderboard" class="active">Leaderboard</button>
@@ -295,7 +332,7 @@
 
 <script>
 const $ = sel => document.querySelector(sel);
-let DETAILS = {};
+let DETAILS = {}, SOFA = {};
 
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('nav button').forEach(x => x.classList.remove('active'));
@@ -338,6 +375,78 @@ function renderLeaderboard(d) {
   $('#leaderboard').innerHTML = `<table>
     <tr><th>#</th><th></th><th>Player</th><th>Teams</th>
     <th class="num">Latest</th><th class="num">Total</th></tr>${rows}</table>`;
+}
+
+/* ---------------- live hero ---------------- */
+function liveIncidents(s) {
+  if (!s?.incidents?.length) return '<div class="inc"><span class="min"></span><span class="who">Waiting for the first events…</span></div>';
+  return [...s.incidents].reverse().map(i => {
+    const min = i.minute != null ? `${i.minute}${i.addedTime ? '+' + i.addedTime : ''}'` : '';
+    let icon = '·', txt = esc(i.text || i.class || i.type || ''), big = false;
+    if (i.type === 'goal') {
+      big = true; icon = '⚽';
+      txt = `<b>GOAL!</b> ${esc(i.player || '')}` +
+        (i.class === 'penalty' ? ' (pen)' : i.class === 'ownGoal' ? ' (og)' : '') +
+        (i.assist ? ` <span class="who">assist: ${esc(i.assist)}</span>` : '') +
+        (i.homeScore != null ? ` <b>${i.homeScore}–${i.awayScore}</b>` : '');
+    } else if (i.type === 'card') {
+      icon = (i.class === 'red' || i.class === 'yellowRed') ? '🟥' : '🟨';
+      txt = esc(i.player || '');
+    } else if (i.type === 'substitution') {
+      icon = '🔁';
+      txt = `<span style="color:var(--green)">${esc(i.in || '')}</span>
+        <span class="who">for</span> <span style="color:var(--red)">${esc(i.out || '')}</span>`;
+    } else if (i.type === 'period') { icon = '⏱'; big = true; txt = `<b>${esc(i.text || '')}</b>`;
+    } else if (i.type === 'injuryTime') { icon = '⏱'; txt = `+${i.length ?? ''} min added`;
+    } else if (i.type === 'varDecision') { icon = '📺'; txt = `VAR: ${esc(i.text || i.class || '')}`; }
+    return `<div class="inc${big ? ' big' : ''}"><span class="min">${min}</span><span>${icon} ${txt}</span></div>`;
+  }).join('');
+}
+
+function lineupBlock(id, home, away, label) {
+  const s = SOFA[String(id)], det = DETAILS[String(id)];
+  const lus = (det?.home?.lineup?.length || det?.away?.lineup?.length)
+    ? { home: det.home, away: det.away, confirmed: true } : s?.lineups;
+  if (!lus?.confirmed || !(lus.home?.lineup?.length || lus.away?.lineup?.length)) return '';
+  return `<details class="lu"><summary>📋 ${label || 'Confirmed line-ups'}</summary>
+    <div class="lineups">${lineupSide(lus.home, home)}${lineupSide(lus.away, away)}</div>
+  </details>`;
+}
+
+function renderLive(d) {
+  const el = $('#live');
+  if (!d.live?.length) { el.innerHTML = ''; return; }
+  el.innerHTML = d.live.map(m => {
+    const s = SOFA[String(m.id)];
+    const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
+    const side = (t, away) => `<div class="t${away ? ' away' : ''}">
+        <span class="flag">${t.flag}</span>
+        <span><span class="nm">${esc(t.name)}</span><br>
+        <span class="own">${esc(t.owner || '')}</span></span></div>`;
+    const pitch = s?.pitch ? `<div class="pitchwrap">
+        <img class="pitchimg" src="${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
+    return `<div class="livewrap">
+      <span class="live-badge"><span class="dot"></span> LIVE
+        <span class="clock">${esc(m.clock || '')}</span> ${esc(m.status_detail || '')}</span>
+      <div class="livecard">
+        <div class="head" style="display:flex;justify-content:space-between;gap:10px;
+          padding:10px 14px 0;color:var(--dim);font-size:.7rem;text-transform:uppercase;
+          letter-spacing:1px"><span>${esc(stageLabel)}</span><span>${esc(m.venue || '')}</span></div>
+        <div class="livegrid">
+          <div class="left">
+            <div class="scoreline">
+              ${side(m.home, false)}
+              <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
+              ${side(m.away, true)}
+            </div>
+            ${oddsBar(m.odds, true)}
+            ${lineupBlock(m.id, m.home, m.away)}
+            ${pitch}
+          </div>
+          <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
+        </div>
+      </div></div>`;
+  }).join('');
 }
 
 /* ---------------- podium ---------------- */
@@ -509,7 +618,7 @@ function recapText(r, det, d) {
   const o = r.odds;
   if (winner && o) {
     const wOdds = winner === r.home ? o.home : o.away;
-    if (wOdds >= 3) s.push(`A real upset — they had kicked off at ${wOdds} to win.`);
+    if (wOdds >= 3) s.push(`A real upset — they had kicked off at ${toFrac(wOdds)} to win.`);
   }
   // sentence 3-4: the goals
   if (goals.length) {
@@ -548,13 +657,28 @@ function recapText(r, det, d) {
   return s.join(' ');
 }
 
+// decimal -> traditional fractional odds (nearest bookmaker price: 2/5, 7/5, 4/1...)
+const FRACS = ['1/20','1/10','1/8','1/6','1/5','2/9','1/4','2/7','3/10','1/3','4/11','2/5',
+  '4/9','1/2','8/15','4/7','8/13','2/3','8/11','4/5','5/6','10/11','1/1','11/10','6/5','5/4',
+  '11/8','7/5','3/2','13/8','7/4','15/8','2/1','9/4','5/2','11/4','3/1','10/3','7/2','4/1',
+  '9/2','5/1','11/2','6/1','13/2','7/1','15/2','8/1','17/2','9/1','10/1','11/1','12/1','14/1',
+  '16/1','18/1','20/1','25/1','33/1','40/1','50/1','66/1','100/1']
+  .map(f => { const [n, d] = f.split('/').map(Number); return { f, v: n / d }; });
+
+function toFrac(dec) {
+  if (dec == null) return '–';
+  const v = dec - 1;
+  let best = FRACS[0];
+  for (const c of FRACS) if (Math.abs(c.v - v) < Math.abs(best.v - v)) best = c;
+  return best.f === '1/1' ? 'Evens' : best.f;
+}
+
 function oddsBar(o, closing) {
   if (!o) return '';
   return `<div class="oddsrow">
-      <span class="odd"><b>1</b><span class="val">${o.home ?? '–'}</span></span>
-      <span class="odd"><b>X</b><span class="val">${o.draw ?? '–'}</span></span>
-      <span class="odd"><b>2</b><span class="val">${o.away ?? '–'}</span></span>
-      ${o.over_under != null ? `<span class="odd"><b>O/U</b><span class="val">${o.over_under}</span></span>` : ''}
+      <span class="odd"><b>Win</b><span class="val">${toFrac(o.home)}</span></span>
+      <span class="odd"><b>Draw</b><span class="val">${toFrac(o.draw)}</span></span>
+      <span class="odd"><b>Win</b><span class="val">${toFrac(o.away)}</span></span>
       <span class="oddmeta">${closing ? 'pre-match odds' : 'odds'}: ${esc(o.provider)}</span>
     </div>`;
 }
@@ -565,14 +689,21 @@ function matchCentre(r, d) {
   const flagOf = code => d.teams[code]?.flag || '';
   const meta = [det.venue, det.attendance ? det.attendance.toLocaleString() + ' fans' : null,
                 det.referee ? 'Referee: ' + det.referee : null].filter(Boolean).join(' · ');
-  const lu = (det.home?.lineup?.length || det.away?.lineup?.length)
+  const sofa = SOFA[String(r.id)];
+  const sides = (det.home?.lineup?.length || det.away?.lineup?.length)
+    ? det : (sofa?.lineups?.home?.lineup?.length ? sofa.lineups : null);
+  const lu = sides
     ? `<h4>Line-ups</h4><div class="lineups">
-        ${lineupSide(det.home, d.teams[r.home.code])}${lineupSide(det.away, d.teams[r.away.code])}</div>`
+        ${lineupSide(sides.home, d.teams[r.home.code])}${lineupSide(sides.away, d.teams[r.away.code])}</div>`
+    : '';
+  const pitchImg = sofa?.pitch
+    ? `<h4>Average positions</h4><img class="pitchimg" src="${sofa.pitch}" alt="average positions">`
     : '';
   const recap = recapText(r, det, d);
   return `${recap ? `<h4>Match report</h4><div class="recap">${esc(recap)}</div>` : ''}
     ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
     ${statBars(det.home?.stats, det.away?.stats)}
+    ${pitchImg}
     ${timeline(det, flagOf)}
     ${lu}`;
 }
@@ -646,7 +777,7 @@ function renderResults(d) {
           <div class="t away"><span class="flag">${u.away.flag}</span>
             <span><span class="nm">${esc(u.away.name)}</span>${form(u.away.form)}<br>
             <span class="own">${esc(u.away.owner || '')}</span></span></div>
-        </div>${oddsRow}</div>`;
+        </div>${oddsRow}${lineupBlock(u.id, u.home, u.away)}</div>`;
     }).join('');
     html += `<div class="day"><h3>Coming up</h3>${ups}</div>`;
   }
@@ -765,23 +896,31 @@ function renderRules(d) {
 }
 
 /* ---------------- boot ---------------- */
-Promise.all([
-  fetch('data.json?t=' + Date.now()).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-  fetch('details.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-]).then(([d, det]) => {
-  DETAILS = det || {};
-  const when = new Date(d.generated_at).toLocaleString();
-  $('#updated').textContent = `Last updated ${when}` +
-    (d.latest_day ? ` · latest results from ${d.latest_day}` : '');
-  if (d.mode !== 'live') {
-    $('#banner').style.display = 'block';
-    $('#banner').textContent = d.mode === 'demo'
-      ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
-      : 'Waiting for the tournament to start — results will appear here automatically.';
-  }
-  renderLeaderboard(d); renderPodium(d); renderResults(d); renderGroups(d);
-  renderBracket(d); renderTeams(d); renderScorers(d); renderRules(d);
-}).catch(() => { $('#updated').textContent = 'Could not load data.json — run scripts/update_scores.py first.'; });
+let liveTimer = null;
+function loadAll() {
+  return Promise.all([
+    fetch('data.json?t=' + Date.now()).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch('details.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch('sofascore.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  ]).then(([d, det, sofa]) => {
+    DETAILS = det || {}; SOFA = sofa || {};
+    const when = new Date(d.generated_at).toLocaleString();
+    $('#updated').textContent = `Last updated ${when}` +
+      (d.latest_day ? ` · latest results from ${d.latest_day}` : '');
+    if (d.mode !== 'live') {
+      $('#banner').style.display = 'block';
+      $('#banner').textContent = d.mode === 'demo'
+        ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
+        : 'Waiting for the tournament to start — results will appear here automatically.';
+    }
+    renderLive(d); renderLeaderboard(d); renderPodium(d); renderResults(d); renderGroups(d);
+    renderBracket(d); renderTeams(d); renderScorers(d); renderRules(d);
+    // keep the page fresh while a match is on
+    if (d.live?.length && !liveTimer) liveTimer = setInterval(loadAll, 60000);
+    if (!d.live?.length && liveTimer) { clearInterval(liveTimer); liveTimer = null; }
+  });
+}
+loadAll().catch(() => { $('#updated').textContent = 'Could not load data.json — run scripts/update_scores.py first.'; });
 </script>
 </body>
 </html>
