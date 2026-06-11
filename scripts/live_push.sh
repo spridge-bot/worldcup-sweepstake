@@ -25,7 +25,7 @@ if /usr/bin/python3 -c 'import json,sys; sys.exit(0 if json.load(open("docs/data
   echo "started live watcher"
 fi
 
-rsync -a --delete --exclude '.DS_Store' --exclude 'logs' --exclude 'var' \
+rsync -a --delete --exclude '.DS_Store' --exclude '*.tmp' --exclude 'logs' --exclude 'var' \
       --exclude '.venv-pitch' --exclude 'output' ./ macmini:worldcup-sweepstake/ \
   && echo "rsync -> macmini OK" || echo "rsync -> macmini FAILED (is it on?)"
 

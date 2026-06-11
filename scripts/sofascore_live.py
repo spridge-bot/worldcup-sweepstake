@@ -533,19 +533,26 @@ def espn_quick_scores():
     if changed:
         data["live"] = still_live
         data["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+        atomic_write(path, json.dumps(data, indent=1, ensure_ascii=False) + "\n")
         print("  patched live scores in data.json")
 
 
 def mirror_to_mini():
     subprocess.run(
-        ["rsync", "-a", "--exclude", ".DS_Store",
+        ["rsync", "-a", "--exclude", ".DS_Store", "--exclude", "*.tmp",
          str(DOCS) + "/", "macmini:worldcup-sweepstake/docs/"],
         capture_output=True, timeout=60)
 
 
+def atomic_write(path, text):
+    """A reader (or the web server) must never see a half-written file."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text)
+    tmp.replace(path)
+
+
 def write_out(out):
-    (DOCS / "sofascore.json").write_text(json.dumps(out, ensure_ascii=False) + "\n")
+    atomic_write(DOCS / "sofascore.json", json.dumps(out, ensure_ascii=False) + "\n")
 
 
 # ------------------------------------------------------------------- modes

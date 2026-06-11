@@ -68,6 +68,13 @@ def load_json(rel):
     return json.loads((ROOT / rel).read_text())
 
 
+def write_json(path, obj, indent=None):
+    """Atomic write: a reader (or the web server) never sees a half-written file."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(obj, indent=indent, ensure_ascii=False) + "\n")
+    tmp.replace(path)
+
+
 def build_team_index(teams):
     index = {}
     for t in teams:
@@ -1066,7 +1073,7 @@ def main():
             if ex.get("odds") and not cache.get(str(m["id"]), {}).get("odds"):
                 ent = cache.setdefault(str(m["id"]), detail_skeleton(ch, ca, m["status"]))
                 ent["odds"] = ex["odds"]
-        (ROOT / "docs/details.json").write_text(json.dumps(cache, ensure_ascii=False) + "\n")
+        write_json(ROOT / "docs/details.json", cache)
         scorers = (fetch_scorers(token, index, teams_by_code, owner) if token
                    else scorers_from_details(cache, teams_by_code, owner))
     elif mode == "demo":
@@ -1075,13 +1082,13 @@ def main():
         for i, ent in enumerate(cache.values()):
             ent["odds"] = {"home": 1.5 + (i % 4) * 0.45, "draw": 3.4, "away": 2.2 + (i % 5),
                            "over_under": 2.5, "provider": "DraftKings"}
-        (ROOT / "docs/details.json").write_text(json.dumps(cache, ensure_ascii=False) + "\n")
+        write_json(ROOT / "docs/details.json", cache)
         scorers = [{**s, "flag": teams_by_code[s["team"]]["flag"],
                     "owner": owner.get(s["team"])} for s in DEMO_SCORERS]
         extras = DEMO_EXTRAS
     else:
         cache = {}
-        (ROOT / "docs/details.json").write_text("{}\n")
+        write_json(ROOT / "docs/details.json", {})
         scorers = []
         extras = {}
 
@@ -1235,7 +1242,7 @@ def main():
         "bracket": bracket,
         "scorers": scorers,
     }
-    (ROOT / "docs/data.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+    write_json(ROOT / "docs/data.json", out, indent=1)
     print(f"Wrote docs/data.json ({mode} mode): {len(results)} finished matches, "
           f"latest matchday {latest_day or 'n/a'}")
 
