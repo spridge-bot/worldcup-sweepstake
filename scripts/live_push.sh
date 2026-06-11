@@ -17,6 +17,14 @@ git pull --rebase --autostash -X theirs origin main 2>&1 | tail -1 \
 /usr/bin/python3 scripts/update_scores.py 2>&1 | tail -2
 /usr/bin/python3 scripts/sofascore_live.py 2>&1 | grep -vE "NotOpenSSL|warnings.warn" | tail -3
 
+# while matches are in play, run the fast watcher (~25s refresh); it exits at FT
+if /usr/bin/python3 -c 'import json,sys; sys.exit(0 if json.load(open("docs/data.json")).get("live") else 1)' \
+   && ! pgrep -f "sofascore_live.py --watch" >/dev/null; then
+  mkdir -p logs
+  nohup /usr/bin/python3 scripts/sofascore_live.py --watch 25 >> logs/watch.log 2>&1 &
+  echo "started live watcher"
+fi
+
 rsync -a --delete --exclude '.DS_Store' --exclude 'logs' --exclude 'var' \
       --exclude '.venv-pitch' --exclude 'output' ./ macmini:worldcup-sweepstake/ \
   && echo "rsync -> macmini OK" || echo "rsync -> macmini FAILED (is it on?)"
