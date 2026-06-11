@@ -235,6 +235,19 @@
   .pitchwrap { padding: 0 14px 12px; }
   .lastev { margin: 8px 14px 0; padding: 7px 12px; background: rgba(54,217,124,.07);
             border: 1px solid var(--line); border-radius: 9px; font-size: .82rem; }
+  /* compact match-day tiles: played (greyed) + next kick-off */
+  .tilerow { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 2px; }
+  .tile { flex: 1; min-width: 250px; background: var(--card); border: 1px solid var(--line);
+          border-radius: 12px; padding: 10px 14px; font-size: .86rem; cursor: pointer;
+          display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .tile:hover { border-color: var(--line2); }
+  .tile .score { font-weight: 900; font-variant-numeric: tabular-nums; }
+  .tile .label { color: var(--dim); font-size: .68rem; letter-spacing: 1.5px;
+                 text-transform: uppercase; white-space: nowrap; }
+  .tile.done { opacity: .5; filter: grayscale(.65); }
+  .tile.done:hover { opacity: .85; filter: grayscale(.2); }
+  .tile.next { border-color: var(--line2); box-shadow: 0 0 20px rgba(54,217,124,.08); }
+  .tile.next .label { color: var(--accent); }
   @media (max-width: 720px) { .livegrid { grid-template-columns: 1fr; }
     .livegrid .right { border-left: none; border-top: 1px solid var(--line); } }
 
@@ -457,9 +470,48 @@ function momentumChart(s, homeName, awayName) {
       <span>${esc(awayName)} pressure ▼</span></div>`;
 }
 
+function countdown(ms) {
+  if (ms <= 0) return 'kicking off…';
+  const h = Math.floor(ms / 3600e3), m = Math.round((ms % 3600e3) / 60000);
+  return 'in ' + (h ? `${h}h ${m}m` : `${m}m`);
+}
+
+function matchDayTiles(d) {
+  const now = Date.now();
+  const tiles = [];
+  // games already played today -> compressed, greyed out
+  (d.results || [])
+    .filter(r => now - new Date(r.utc).getTime() < 9 * 3600e3)
+    .slice(0, 3)
+    .forEach(r => tiles.push(`<div class="tile done" data-go="results">
+      <span>${r.home.flag} ${esc(r.home.name)}
+        <span class="score">${r.home.goals}–${r.away.goals}</span>
+        ${esc(r.away.name)} ${r.away.flag}</span>
+      <span class="label">FT · played${r.note ? esc(r.note) : ''}</span></div>`));
+  // the next game, with kick-off time and countdown
+  if (!d.live?.length) {
+    const next = (d.upcoming || [])[0];
+    if (next) {
+      const ko = new Date(next.utc);
+      const when = ko.toLocaleString(undefined,
+        { weekday: 'short', hour: '2-digit', minute: '2-digit' });
+      tiles.push(`<div class="tile next" data-go="results">
+        <span>${next.home.flag} ${esc(next.home.name)} <span class="score">v</span>
+          ${esc(next.away.name)} ${next.away.flag}</span>
+        <span class="label">next · ${when} · ${countdown(ko - now)}</span></div>`);
+    }
+  }
+  return tiles.length ? `<div class="tilerow">${tiles.join('')}</div>` : '';
+}
+
 function renderLive(d) {
   const el = $('#live');
-  if (!d.live?.length) { el.innerHTML = ''; return; }
+  const tiles = matchDayTiles(d);
+  if (!d.live?.length) {
+    el.innerHTML = tiles;
+    wireTiles();
+    return;
+  }
   el.innerHTML = d.live.map(m => {
     const s = SOFA[String(m.id)];
     const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
@@ -499,7 +551,15 @@ function renderLive(d) {
           <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
         </div>
       </div></div>`;
-  }).join('');
+  }).join('') + tiles;
+  wireTiles();
+}
+
+function wireTiles() {
+  document.querySelectorAll('.tile[data-go]').forEach(t => t.onclick = () => {
+    document.querySelector(`nav button[data-tab="${t.dataset.go}"]`)?.click();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 }
 
 /* ---------------- podium ---------------- */
@@ -965,7 +1025,10 @@ function renderRules(d) {
 }
 
 /* ---------------- boot ---------------- */
-let liveTimer = null;
+let liveTimer = null, kickoffTimer = null, LAST_D = null;
+// keep the countdown ticking without refetching
+setInterval(() => { if (LAST_D && !LAST_D.live?.length) renderLive(LAST_D); }, 30000);
+
 function loadAll() {
   return Promise.all([
     fetch('data.json?t=' + Date.now()).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
@@ -984,9 +1047,19 @@ function loadAll() {
     }
     renderLive(d); renderLeaderboard(d); renderPodium(d); renderResults(d); renderGroups(d);
     renderBracket(d); renderTeams(d); renderScorers(d); renderRules(d);
+    LAST_D = d;
     // keep the page fresh while a match is on
     if (d.live?.length && !liveTimer) liveTimer = setInterval(loadAll, 15000);
     if (!d.live?.length && liveTimer) { clearInterval(liveTimer); liveTimer = null; }
+    // wake up at the next kick-off so the hero expands into the live view by itself
+    clearTimeout(kickoffTimer);
+    if (!d.live?.length) {
+      const next = (d.upcoming || [])[0];
+      if (next) {
+        const ms = new Date(next.utc).getTime() - Date.now();
+        kickoffTimer = setTimeout(loadAll, ms > 0 ? Math.min(ms + 45000, 3600e3) : 60000);
+      }
+    }
   });
 }
 loadAll().catch(() => { $('#updated').textContent = 'Could not load data.json — run scripts/update_scores.py first.'; });

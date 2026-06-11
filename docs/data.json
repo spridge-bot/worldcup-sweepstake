@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-11T21:00:05+00:00",
+ "generated_at": "2026-06-11T21:12:17+00:00",
  "mode": "live",
- "latest_day": null,
+ "latest_day": "2026-06-11",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -26,7 +26,7 @@
     "CUW"
    ],
    "total": 5,
-   "today": 0,
+   "today": 5,
    "rank": 1,
    "movement": 0
   },
@@ -40,7 +40,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -52,7 +52,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dipen",
@@ -64,7 +64,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -76,7 +76,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -88,7 +88,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -100,7 +100,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "George",
@@ -112,7 +112,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -124,7 +124,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "JVR",
@@ -136,7 +136,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -148,7 +148,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Nona",
@@ -160,7 +160,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -172,7 +172,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -184,7 +184,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -196,7 +196,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -208,7 +208,7 @@
    "total": 0,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   }
  ],
  "teams": {
@@ -424,11 +424,11 @@
    "fifa_rank": 14,
    "owner": "Rich",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 2,
    "ga": 0,
    "total": 5,
    "events": [
@@ -889,12 +889,12 @@
    "fifa_rank": 51,
    "owner": "Pari",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 2,
    "total": 0,
    "events": []
   },
@@ -1035,39 +1035,40 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760415,
+   "date": "2026-06-11",
    "utc": "2026-06-11T19:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "90'+3'",
-   "status_detail": "90'+3'",
-   "venue": "Estadio Banorte",
+   "note": "",
+   "home": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.43,
     "draw": 4.3,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Rich",
-    "goals": 2
-   },
-   "away": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Pari",
-    "goals": 0
    }
   }
  ],
- "results": [],
  "upcoming": [
   {
    "id": 760414,
@@ -1075,9 +1076,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 2.65,
+    "home": 2.6,
     "draw": 3.05,
-    "away": 3.0,
+    "away": 3.05,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1384,7 +1385,7 @@
      "gf": 2,
      "ga": 0,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "Mexico",
      "flag": "🇲🇽",
@@ -1435,7 +1436,7 @@
      "gf": 0,
      "ga": 2,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "South Africa",
      "flag": "🇿🇦",
