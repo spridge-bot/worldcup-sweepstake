@@ -39,6 +39,9 @@ ROOT = Path(__file__).resolve().parent.parent
 API_BASE = "https://api.football-data.org/v4"
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
+ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings"
+WC_START = datetime(2026, 6, 11)
+WC_END = datetime(2026, 7, 19)
 ESPN_SUMMARY_CAP = 30   # max match summaries to pull per run
 DETAIL_FETCH_CAP = 25      # max match-detail requests per run
 DETAIL_FETCH_PAUSE = 6.5   # seconds between requests (free tier: 10/min)
@@ -134,6 +137,26 @@ def american_to_decimal(american):
     return round(1 + v / 100, 2)
 
 
+def parse_espn_odds(comp):
+    """1X2 + over/under decimal odds from an ESPN competition object, or None."""
+    odds = (comp.get("odds") or [None])[0] or {}
+    ml = odds.get("moneyline") or {}
+
+    def closing(side):
+        return american_to_decimal((((ml.get(side) or {}).get("close")) or {}).get("odds"))
+
+    h, a = closing("home"), closing("away")
+    draw_ml = (odds.get("drawOdds") or {}).get("moneyLine")
+    d = american_to_decimal(draw_ml) if draw_ml is not None else None
+    if not (h or a or d):
+        return None
+    return {
+        "home": h, "draw": d, "away": a,
+        "over_under": odds.get("overUnder"),
+        "provider": (odds.get("provider") or {}).get("displayName") or "DraftKings",
+    }
+
+
 def fetch_espn_extras(index):
     """Odds + recent form for upcoming fixtures from ESPN's public scoreboard API.
 
@@ -143,10 +166,7 @@ def fetch_espn_extras(index):
     start = datetime.now(timezone.utc)
     rng = f"{start:%Y%m%d}-{start + timedelta(days=10):%Y%m%d}"
     try:
-        req = urllib.request.Request(f"{ESPN_SCOREBOARD}?dates={rng}",
-                                     headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
+        data = espn_get(f"{ESPN_SCOREBOARD}?dates={rng}")
     except Exception as e:
         print(f"  ESPN odds fetch failed ({e}); skipping")
         return {}
@@ -164,21 +184,9 @@ def fetch_espn_extras(index):
         if not hc or not ac:
             continue
         entry = {"form": {hc: home.get("form"), ac: away.get("form")}}
-        odds = (c.get("odds") or [{}])[0]
-        ml = odds.get("moneyline") or {}
-
-        def closing(side):
-            return american_to_decimal((((ml.get(side) or {}).get("close")) or {}).get("odds"))
-
-        h, a = closing("home"), closing("away")
-        draw_ml = (odds.get("drawOdds") or {}).get("moneyLine")
-        d = american_to_decimal(draw_ml) if draw_ml is not None else None
-        if h or a or d:
-            entry["odds"] = {
-                "home": h, "draw": d, "away": a,
-                "over_under": odds.get("overUnder"),
-                "provider": (odds.get("provider") or {}).get("displayName") or "DraftKings",
-            }
+        odds = parse_espn_odds(c)
+        if odds:
+            entry["odds"] = odds
         out[(e.get("date") or "")[:10], frozenset((hc, ac))] = entry
     found = sum(1 for v in out.values() if "odds" in v)
     print(f"  ESPN: odds for {found} of {len(out)} upcoming fixtures")
@@ -286,14 +294,26 @@ def merge_espn_summary(ent, summary, index):
             ent["referee"] = (officials[0] or {}).get("displayName")
 
 
-def enrich_details_espn(cache, matches_resolved, index):
+def detail_skeleton(ch, ca, status="FINISHED"):
+    return {
+        "status": status, "fd": False, "venue": None, "attendance": None,
+        "referee": None, "goals": [], "bookings": [], "substitutions": [], "penalties": [],
+        "home": {"code": ch, "formation": None, "coach": None,
+                 "lineup": [], "bench": [], "stats": {}},
+        "away": {"code": ca, "formation": None, "coach": None,
+                 "lineup": [], "bench": [], "stats": {}},
+    }
+
+
+def enrich_details_espn(cache, matches_resolved, index, emap=None):
     """Free, keyless second source: fill stats/lineups football-data doesn't provide."""
     todo = [(m, ch, ca) for m, ch, ca in matches_resolved
             if m["status"] == "FINISHED" and ch and ca and m.get("id")
             and not cache.get(str(m["id"]), {}).get("espn")]
     if not todo:
         return
-    emap = espn_event_map({m["utcDate"][:10] for m, _, _ in todo}, index)
+    if emap is None:
+        emap = espn_event_map({m["utcDate"][:10] for m, _, _ in todo}, index)
     fetched = 0
     for m, ch, ca in todo:
         if fetched >= ESPN_SUMMARY_CAP:
@@ -310,17 +330,224 @@ def enrich_details_espn(cache, matches_resolved, index):
         except Exception as e:
             print(f"  ESPN summary {eid} failed ({e}); skipping")
             continue
-        ent = cache.setdefault(str(m["id"]), {
-            "status": "FINISHED", "fd": False, "venue": None, "attendance": None,
-            "referee": None, "goals": [], "bookings": [], "substitutions": [], "penalties": [],
-            "home": {"code": ch, "formation": None, "coach": None,
-                     "lineup": [], "bench": [], "stats": {}},
-            "away": {"code": ca, "formation": None, "coach": None,
-                     "lineup": [], "bench": [], "stats": {}},
-        })
+        ent = cache.setdefault(str(m["id"]), detail_skeleton(ch, ca))
         merge_espn_summary(ent, summary, index)
         ent["espn"] = True
     print(f"  ESPN enrichment: {fetched} match summaries merged")
+
+
+# ------------------------------------------- ESPN as full match source (no key)
+
+def espn_stage(slug):
+    s = (slug or "").lower()
+    if "group" in s:
+        return "GROUP_STAGE"
+    if "32" in s:
+        return "LAST_32"
+    if "16" in s:
+        return "LAST_16"
+    if "quarter" in s:
+        return "QUARTER_FINALS"
+    if "semi" in s:
+        return "SEMI_FINALS"
+    if "third" in s:
+        return "THIRD_PLACE"
+    if "final" in s:
+        return "FINAL"
+    return s.upper().replace("-", "_") or "GROUP_STAGE"
+
+
+def fetch_espn_groups(index):
+    """{team code: 'GROUP_A'} from the ESPN standings endpoint (free, keyless)."""
+    try:
+        data = espn_get(f"{ESPN_STANDINGS}?season=2026")
+    except Exception as e:
+        print(f"  ESPN standings fetch failed ({e})")
+        return {}
+    out = {}
+    for child in data.get("children", []):
+        gname = (child.get("name") or "").upper().replace(" ", "_")
+        for entry in (child.get("standings") or {}).get("entries", []):
+            code = resolve_team(index, entry.get("team"))
+            if code and gname:
+                out[code] = gname
+    print(f"  ESPN standings: group letters for {len(out)} teams")
+    return out
+
+
+def _espn_minute(clock):
+    """\"45'+7'\" -> (45, 7); \"23'\" -> (23, None)."""
+    parts = ((clock or {}).get("displayValue") or "").replace("'", " ").split("+")
+    try:
+        minute = int(parts[0].strip())
+    except (ValueError, IndexError):
+        return None, None
+    injury = None
+    if len(parts) > 1:
+        try:
+            injury = int(parts[1].strip())
+        except ValueError:
+            pass
+    return minute, injury
+
+
+def espn_key_events(comp, id_to_code):
+    """Goals / cards / shootout kicks from a scoreboard competition's details."""
+    goals, bookings, penalties = [], [], []
+    for det in comp.get("details") or []:
+        code = id_to_code.get((det.get("team") or {}).get("id"))
+        ath = det.get("athletesInvolved") or []
+        player = ath[0].get("displayName", "?") if ath else "?"
+        minute, injury = _espn_minute(det.get("clock"))
+        text = ((det.get("type") or {}).get("text") or "").lower()
+        if det.get("shootout"):
+            penalties.append({"team": code, "player": player, "scored": "scored" in text})
+        elif det.get("scoringPlay"):
+            goals.append({
+                "minute": minute, "injury": injury, "team": code,
+                "scorer": player,
+                "assist": ath[1].get("displayName") if len(ath) > 1 else None,
+                "type": ("OWN" if det.get("ownGoal")
+                         else "PENALTY" if det.get("penaltyKick") else "REGULAR"),
+            })
+        elif det.get("redCard") or det.get("yellowCard"):
+            bookings.append({"minute": minute, "team": code, "player": player,
+                             "card": "RED" if det.get("redCard") else "YELLOW"})
+    return goals, bookings, penalties
+
+
+def fetch_espn_matches(index):
+    """The whole tournament — schedule, live scores, key events, odds — from
+    ESPN's keyless API, mapped into football-data's match shape so the rest of
+    the pipeline doesn't care which source fed it.
+
+    Returns (matches, info) where info[match_id] carries venue/events/odds
+    for the details cache, plus an event map for the summary enrichment.
+    """
+    groups_of = fetch_espn_groups(index)
+    matches, info, emap = [], {}, {}
+    cur = WC_START
+    while cur <= WC_END:
+        end = min(cur + timedelta(days=6), WC_END)
+        try:
+            data = espn_get(f"{ESPN_SCOREBOARD}?dates={cur:%Y%m%d}-{end:%Y%m%d}")
+        except Exception as e:
+            print(f"  ESPN scoreboard fetch failed ({e})")
+            cur = end + timedelta(days=1)
+            continue
+        for e in data.get("events", []):
+            c = (e.get("competitions") or [{}])[0]
+            comps = c.get("competitors") or []
+            home = next((t for t in comps if t.get("homeAway") == "home"), None)
+            away = next((t for t in comps if t.get("homeAway") == "away"), None)
+            state = (e.get("status") or {}).get("type") or {}
+            if not home or not away or state.get("name") in ("STATUS_POSTPONED",
+                                                             "STATUS_CANCELED"):
+                continue
+            status = ("FINISHED" if state.get("state") == "post" and state.get("completed")
+                      else "IN_PLAY" if state.get("state") == "in" else "TIMED")
+            stage = espn_stage((e.get("season") or {}).get("slug"))
+            hc = resolve_team(index, home.get("team"))
+            ac = resolve_team(index, away.get("team"))
+            date = e.get("date") or ""
+            if len(date) == 17:                      # "2026-06-11T19:00Z"
+                date = date[:16] + ":00Z"
+
+            score = {}
+            if status != "TIMED":
+                try:
+                    hg, ag = int(home.get("score") or 0), int(away.get("score") or 0)
+                except (TypeError, ValueError):
+                    hg = ag = 0
+                score = {"duration": "REGULAR", "fullTime": {"home": hg, "away": ag}}
+                hs, as_ = home.get("shootoutScore"), away.get("shootoutScore")
+                if hs is not None and as_ is not None:
+                    score.update({
+                        "duration": "PENALTY_SHOOTOUT",
+                        "regularTime": {"home": hg, "away": ag},
+                        "extraTime": {"home": 0, "away": 0},
+                        "penalties": {"home": int(hs), "away": int(as_)},
+                    })
+                    if status == "FINISHED":
+                        score["winner"] = "HOME_TEAM" if int(hs) > int(as_) else "AWAY_TEAM"
+                elif status == "FINISHED":
+                    score["winner"] = ("HOME_TEAM" if hg > ag
+                                       else "AWAY_TEAM" if ag > hg else "DRAW")
+
+            mid = int(e["id"])
+            group = groups_of.get(hc) or groups_of.get(ac) if stage == "GROUP_STAGE" else None
+            matches.append({
+                "id": mid, "utcDate": date, "status": status, "stage": stage,
+                "group": group,
+                "homeTeam": {"name": (home.get("team") or {}).get("displayName")},
+                "awayTeam": {"name": (away.get("team") or {}).get("displayName")},
+                "score": score,
+            })
+            id_to_code = {(t.get("team") or {}).get("id"): resolve_team(index, t.get("team"))
+                          for t in comps}
+            goals, bookings, pens = espn_key_events(c, id_to_code)
+            info[mid] = {
+                "venue": (c.get("venue") or {}).get("fullName"),
+                "attendance": c.get("attendance") or None,
+                "odds": parse_espn_odds(c),
+                "goals": goals, "bookings": bookings, "penalties": pens,
+            }
+            if hc and ac:
+                emap[date[:10], frozenset((hc, ac))] = e.get("id")
+        cur = end + timedelta(days=1)
+    print(f"  ESPN source: {len(matches)} fixtures "
+          f"({sum(1 for m in matches if m['status'] == 'FINISHED')} finished)")
+    return matches, info, emap
+
+
+def merge_espn_match_info(cache, matches_resolved, info):
+    """Fold venue/odds/key events from the scoreboard into the details cache.
+
+    football-data remains authoritative where it has fetched a match (fd flag);
+    odds are kept regardless because no other source provides them."""
+    for m, ch, ca in matches_resolved:
+        mi = info.get(m.get("id"))
+        if not mi or not ch or not ca:
+            continue
+        has_content = (mi.get("odds") or mi.get("goals") or mi.get("bookings")
+                       or m["status"] in ("FINISHED", "IN_PLAY", "PAUSED"))
+        if not has_content:
+            continue
+        ent = cache.setdefault(str(m["id"]), detail_skeleton(ch, ca, m["status"]))
+        if mi.get("odds") and not ent.get("odds"):
+            ent["odds"] = mi["odds"]
+        ent["venue"] = ent.get("venue") or mi.get("venue")
+        ent["attendance"] = ent.get("attendance") or mi.get("attendance")
+        if not ent.get("fd"):
+            ent["status"] = m["status"]
+            for key in ("goals", "bookings", "penalties"):
+                if mi.get(key):
+                    ent[key] = mi[key]
+
+
+def scorers_from_details(cache, teams_by_code, owner):
+    """Golden Boot table built from cached goal events (keyless fallback)."""
+    tally = {}
+    for ent in cache.values():
+        for g in ent.get("goals") or []:
+            if g.get("type") == "OWN":
+                continue
+            if g.get("scorer") and g["scorer"] != "?":
+                t = tally.setdefault((g["scorer"], g.get("team")),
+                                     {"player": g["scorer"], "team": g.get("team"),
+                                      "goals": 0, "assists": 0})
+                t["goals"] += 1
+            if g.get("assist"):
+                t = tally.setdefault((g["assist"], g.get("team")),
+                                     {"player": g["assist"], "team": g.get("team"),
+                                      "goals": 0, "assists": 0})
+                t["assists"] += 1
+    out = sorted(tally.values(), key=lambda s: (-s["goals"], -s["assists"], s["player"]))[:15]
+    for s in out:
+        team = teams_by_code.get(s["team"])
+        s["flag"] = team["flag"] if team else ""
+        s["owner"] = owner.get(s["team"])
+    return out
 
 
 # ---------------------------------------------------------------- match detail
@@ -418,6 +645,8 @@ def update_details(token, matches_resolved, index):
         new = extract_detail(detail, index)
         new["fd"] = True
         old = cache.get(str(m["id"]))
+        if old and old.get("odds"):
+            new["odds"] = old["odds"]   # odds only ever come from ESPN; keep them
         if old and old.get("espn"):
             # keep ESPN-sourced stats/lineups that football-data doesn't have
             for side_key in ("home", "away"):
@@ -754,11 +983,13 @@ def main():
             owner[code] = p["name"]
 
     token = os.environ.get("FOOTBALL_DATA_TOKEN")
+    espn_info, espn_emap = {}, None
     if mode == "live":
-        if not token:
-            sys.exit("Set FOOTBALL_DATA_TOKEN (free key: https://www.football-data.org/client/register)\n"
-                     "or run with --offline / --demo.")
-        matches = fetch_matches(token)
+        if token:
+            matches = fetch_matches(token)
+        else:
+            print("No FOOTBALL_DATA_TOKEN — using ESPN's keyless API as the live source.")
+            matches, espn_info, espn_emap = fetch_espn_matches(index)
     elif mode == "demo":
         matches = demo_matches()
     else:
@@ -809,22 +1040,44 @@ def main():
 
     # Match details, top scorers, odds
     if mode == "live":
-        cache = update_details(token, matches_resolved, index)
-        enrich_details_espn(cache, matches_resolved, index)
-        (ROOT / "docs/details.json").write_text(json.dumps(cache, ensure_ascii=False) + "\n")
-        scorers = fetch_scorers(token, index, teams_by_code, owner)
+        if token:
+            cache = update_details(token, matches_resolved, index)
+        else:
+            cache_path = ROOT / "docs/details.json"
+            cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+        merge_espn_match_info(cache, matches_resolved, espn_info)
+        enrich_details_espn(cache, matches_resolved, index, emap=espn_emap)
         extras = fetch_espn_extras(index)
+        # remember pre-match odds so they're still shown after full-time
+        for m, ch, ca in matches_resolved:
+            if not (ch and ca and m.get("id")):
+                continue
+            ex = extras.get((m["utcDate"][:10], frozenset((ch, ca))), {})
+            if ex.get("odds") and not cache.get(str(m["id"]), {}).get("odds"):
+                ent = cache.setdefault(str(m["id"]), detail_skeleton(ch, ca, m["status"]))
+                ent["odds"] = ex["odds"]
+        (ROOT / "docs/details.json").write_text(json.dumps(cache, ensure_ascii=False) + "\n")
+        scorers = (fetch_scorers(token, index, teams_by_code, owner) if token
+                   else scorers_from_details(cache, teams_by_code, owner))
     elif mode == "demo":
         finished_demo = [(m, ch, ca) for m, ch, ca in matches_resolved if m["status"] == "FINISHED"]
-        (ROOT / "docs/details.json").write_text(
-            json.dumps(demo_details(finished_demo, teams_by_code), ensure_ascii=False) + "\n")
+        cache = demo_details(finished_demo, teams_by_code)
+        for i, ent in enumerate(cache.values()):
+            ent["odds"] = {"home": 1.5 + (i % 4) * 0.45, "draw": 3.4, "away": 2.2 + (i % 5),
+                           "over_under": 2.5, "provider": "DraftKings"}
+        (ROOT / "docs/details.json").write_text(json.dumps(cache, ensure_ascii=False) + "\n")
         scorers = [{**s, "flag": teams_by_code[s["team"]]["flag"],
                     "owner": owner.get(s["team"])} for s in DEMO_SCORERS]
         extras = DEMO_EXTRAS
     else:
+        cache = {}
         (ROOT / "docs/details.json").write_text("{}\n")
         scorers = []
         extras = {}
+
+    # Pre-match odds belong on every match card, finished or not
+    for r in results:
+        r["odds"] = cache.get(str(r["id"]), {}).get("odds")
 
     # Per-team totals and W/D/L records
     team_out = {}
@@ -890,16 +1143,49 @@ def main():
             extra = extras.get((m["utcDate"][:10], frozenset((ch, ca))), {})
             form = extra.get("form") or {}
             upcoming.append({
+                "id": m.get("id"),
                 "utc": m["utcDate"],
                 "stage": STAGE_LABELS.get(m["stage"], m["stage"]),
                 "group": (m.get("group") or "").replace("_", " ").title() or None,
-                "odds": extra.get("odds"),
+                "odds": extra.get("odds") or cache.get(str(m.get("id")), {}).get("odds"),
                 "home": {"name": teams_by_code[ch]["name"], "flag": teams_by_code[ch]["flag"],
                          "owner": owner.get(ch), "form": form.get(ch)},
                 "away": {"name": teams_by_code[ca]["name"], "flag": teams_by_code[ca]["flag"],
                          "owner": owner.get(ca), "form": form.get(ca)},
             })
     upcoming.sort(key=lambda u: u["utc"])
+
+    # Knockout bracket — includes unresolved ties ("Group A Winner" etc.)
+    bracket = []
+    for m, ch, ca in matches_resolved:
+        if m["stage"] not in KNOCKOUT_STAGES:
+            continue
+
+        def bside(code, raw):
+            if code:
+                t = teams_by_code[code]
+                return {"code": code, "name": t["name"], "flag": t["flag"],
+                        "owner": owner.get(code)}
+            return {"code": None, "name": (raw or {}).get("name") or "TBD",
+                    "flag": "", "owner": None}
+
+        finished = m["status"] == "FINISHED"
+        hg, ag = match_goals(m["score"]) if finished else (None, None)
+        winner = m["score"].get("winner") if finished else None
+        note = ""
+        if finished and m["score"].get("duration") == "PENALTY_SHOOTOUT":
+            p = m["score"].get("penalties")
+            note = f"{p['home']}-{p['away']} pens" if p else "pens"
+        bracket.append({
+            "id": m.get("id"), "utc": m["utcDate"], "stage": m["stage"],
+            "status": m["status"], "hg": hg, "ag": ag, "note": note,
+            "winner": ch if winner == "HOME_TEAM" else ca if winner == "AWAY_TEAM" else None,
+            "venue": espn_info.get(m.get("id"), {}).get("venue")
+                     or cache.get(str(m.get("id")), {}).get("venue"),
+            "home": bside(ch, m.get("homeTeam")),
+            "away": bside(ca, m.get("awayTeam")),
+        })
+    bracket.sort(key=lambda b: b["utc"])
 
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -911,6 +1197,7 @@ def main():
         "results": sorted(results, key=lambda r: r["utc"], reverse=True),
         "upcoming": upcoming[:12],
         "groups": groups,
+        "bracket": bracket,
         "scorers": scorers,
     }
     (ROOT / "docs/data.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")

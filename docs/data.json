@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-11T18:43:18+00:00",
- "mode": "demo",
- "latest_day": "2026-06-12",
+ "generated_at": "2026-06-11T19:01:46+00:00",
+ "mode": "live",
+ "latest_day": null,
  "scoring": {
   "group_position": {
    "1": 5,
@@ -19,25 +19,37 @@
  },
  "players": [
   {
-   "name": "Pari",
+   "name": "Barry",
    "teams": [
-    "FRA",
-    "ALG",
-    "RSA"
+    "MAR",
+    "SWE",
+    "JOR"
    ],
-   "total": 8,
-   "today": 5,
+   "total": 0,
+   "today": 0,
    "rank": 1,
-   "movement": 2
+   "movement": 0
   },
   {
-   "name": "Willo",
+   "name": "Brando",
    "teams": [
-    "BEL",
-    "EGY",
-    "HAI"
+    "POR",
+    "AUT",
+    "CPV"
    ],
-   "total": 8,
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Dipen",
+   "teams": [
+    "GER",
+    "IRN",
+    "BIH"
+   ],
+   "total": 0,
    "today": 0,
    "rank": 1,
    "movement": 0
@@ -49,58 +61,10 @@
     "ECU",
     "NZL"
    ],
-   "total": 5,
-   "today": 5,
-   "rank": 3,
-   "movement": 1
-  },
-  {
-   "name": "George",
-   "teams": [
-    "USA",
-    "NOR",
-    "SCO"
-   ],
-   "total": 5,
-   "today": 5,
-   "rank": 3,
-   "movement": 1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "BRA",
-    "JPN",
-    "IRQ"
-   ],
-   "total": 5,
-   "today": 5,
-   "rank": 3,
-   "movement": 1
-  },
-  {
-   "name": "Rich",
-   "teams": [
-    "MEX",
-    "CZE",
-    "CUW"
-   ],
-   "total": 5,
+   "total": 0,
    "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Dipen",
-   "teams": [
-    "GER",
-    "IRN",
-    "BIH"
-   ],
-   "total": 3,
-   "today": 3,
-   "rank": 7,
-   "movement": -3
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -109,58 +73,10 @@
     "PAN",
     "PAR"
    ],
-   "total": 3,
-   "today": 3,
-   "rank": 7,
-   "movement": -3
-  },
-  {
-   "name": "JVR",
-   "teams": [
-    "ARG",
-    "CAN",
-    "TUN"
-   ],
-   "total": 3,
-   "today": 3,
-   "rank": 7,
-   "movement": -3
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "SEN",
-    "SUI",
-    "GHA"
-   ],
-   "total": 3,
-   "today": 3,
-   "rank": 7,
-   "movement": -3
-  },
-  {
-   "name": "Barry",
-   "teams": [
-    "MAR",
-    "SWE",
-    "JOR"
-   ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": -7
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "POR",
-    "AUT",
-    "CPV"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 11,
-   "movement": -7
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -171,8 +87,56 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": -7
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "USA",
+    "NOR",
+    "SCO"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Glancy",
+   "teams": [
+    "BRA",
+    "JPN",
+    "IRQ"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "JVR",
+   "teams": [
+    "ARG",
+    "CAN",
+    "TUN"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Jen",
+   "teams": [
+    "SEN",
+    "SUI",
+    "GHA"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Nona",
@@ -183,8 +147,32 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": -7
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Pari",
+   "teams": [
+    "FRA",
+    "ALG",
+    "RSA"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Rich",
+   "teams": [
+    "MEX",
+    "CZE",
+    "CUW"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -195,8 +183,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": -7
+   "rank": 1,
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -207,8 +195,20 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": -7
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Willo",
+   "teams": [
+    "BEL",
+    "EGY",
+    "HAI"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
   }
  ],
  "teams": {
@@ -220,20 +220,14 @@
    "fifa_rank": 1,
    "owner": "JVR",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "gf": 1,
-   "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "2nd in Group C (live)",
-     "points": 3
-    }
-   ]
+   "lost": 0,
+   "gf": 0,
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "ESP": {
    "code": "ESP",
@@ -260,20 +254,14 @@
    "fifa_rank": 3,
    "owner": "Pari",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 4,
+   "gf": 0,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "1st in Group F (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "ENG": {
    "code": "ENG",
@@ -368,20 +356,14 @@
    "fifa_rank": 9,
    "owner": "Willo",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "1st in Group B (live)",
-     "points": 5
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "GER": {
    "code": "GER",
@@ -391,20 +373,14 @@
    "fifa_rank": 10,
    "owner": "Dipen",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "gf": 1,
-   "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "2nd in Group E (live)",
-     "points": 3
-    }
-   ]
+   "lost": 0,
+   "gf": 0,
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "CRO": {
    "code": "CRO",
@@ -448,20 +424,14 @@
    "fifa_rank": 14,
    "owner": "Rich",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 2,
+   "gf": 0,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "1st in Group A (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "SEN": {
    "code": "SEN",
@@ -505,20 +475,14 @@
    "fifa_rank": 17,
    "owner": "George",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 3,
+   "gf": 0,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "1st in Group D (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "JPN": {
    "code": "JPN",
@@ -528,20 +492,14 @@
    "fifa_rank": 18,
    "owner": "Glancy",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 2,
-   "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "1st in Group E (live)",
-     "points": 5
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "SUI": {
    "code": "SUI",
@@ -806,20 +764,14 @@
    "fifa_rank": 40,
    "owner": "Emily",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 0,
    "gf": 0,
-   "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "2nd in Group D (live)",
-     "points": 3
-    }
-   ]
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "SCO": {
    "code": "SCO",
@@ -931,20 +883,14 @@
    "fifa_rank": 51,
    "owner": "Pari",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 0,
    "gf": 0,
-   "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "2nd in Group A (live)",
-     "points": 3
-    }
-   ]
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "KSA": {
    "code": "KSA",
@@ -1022,20 +968,14 @@
    "fifa_rank": 56,
    "owner": "Jen",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 0,
    "gf": 0,
-   "ga": 4,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "2nd in Group F (live)",
-     "points": 3
-    }
-   ]
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "CUW": {
    "code": "CUW",
@@ -1062,20 +1002,14 @@
    "fifa_rank": 58,
    "owner": "Willo",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-11",
-     "desc": "2nd in Group B (live)",
-     "points": 3
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0,
+   "events": []
   },
   "NZL": {
    "code": "NZL",
@@ -1085,201 +1019,152 @@
    "fifa_rank": 59,
    "owner": "Dubs",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 0,
+   "won": 0,
    "drawn": 0,
    "lost": 0,
-   "gf": 2,
-   "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-12",
-     "desc": "1st in Group C (live)",
-     "points": 5
-    }
-   ]
+   "gf": 0,
+   "ga": 0,
+   "total": 0,
+   "events": []
   }
  },
- "results": [
-  {
-   "id": 103,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "NZL",
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "tier": 3,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   }
-  },
-  {
-   "id": 104,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "note": "",
-   "home": {
-    "code": "USA",
-    "name": "USA",
-    "flag": "🇺🇸",
-    "tier": 1,
-    "goals": 3,
-    "points": null
-   },
-   "away": {
-    "code": "PAR",
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   }
-  },
-  {
-   "id": 105,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "note": "",
-   "home": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "tier": 2,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   }
-  },
-  {
-   "id": 106,
-   "date": "2026-06-12",
-   "utc": "2026-06-12T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "note": "",
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "tier": 1,
-    "goals": 4,
-    "points": null
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   }
-  },
-  {
-   "id": 101,
-   "date": "2026-06-11",
-   "utc": "2026-06-11T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "note": "",
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "tier": 1,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   }
-  },
-  {
-   "id": 102,
-   "date": "2026-06-11",
-   "utc": "2026-06-11T18:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "note": "",
-   "home": {
-    "code": "HAI",
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   }
-  }
- ],
+ "results": [],
  "upcoming": [
   {
-   "utc": "2026-06-13T16:00:00Z",
+   "id": 760415,
+   "utc": "2026-06-11T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": "Group A",
    "odds": {
-    "home": 2.1,
-    "draw": 3.3,
-    "away": 3.6,
+    "home": 1.43,
+    "draw": 4.3,
+    "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
    "home": {
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Ruggy",
-    "form": "WWWDW"
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Rich",
+    "form": "WWWDD"
    },
    "away": {
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Fergs",
-    "form": "WDWLW"
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "owner": "Pari",
+    "form": "WDLDL"
    }
   },
   {
+   "id": 760414,
+   "utc": "2026-06-12T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group A",
+   "odds": {
+    "home": 2.7,
+    "draw": 3.05,
+    "away": 2.95,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "owner": "Spridge",
+    "form": "WWLLW"
+   },
+   "away": {
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "owner": "Rich",
+    "form": "WWWWW"
+   }
+  },
+  {
+   "id": 760416,
+   "utc": "2026-06-12T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group B",
+   "odds": {
+    "home": 1.83,
+    "draw": 3.55,
+    "away": 4.6,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "owner": "JVR",
+    "form": "DWDDW"
+   },
+   "away": {
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "owner": "Dipen",
+    "form": "DDWWD"
+   }
+  },
+  {
+   "id": 760417,
+   "utc": "2026-06-13T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "odds": {
+    "home": 1.91,
+    "draw": 3.45,
+    "away": 4.2,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "George",
+    "form": "LWLLW"
+   },
+   "away": {
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Emily",
+    "form": "WLWWL"
+   }
+  },
+  {
+   "id": 760420,
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": "Group B",
    "odds": {
-    "home": 1.85,
-    "draw": 3.5,
-    "away": 4.2,
+    "home": 13.0,
+    "draw": 6.5,
+    "away": 1.24,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "owner": "Fergs",
+    "form": "DLLWD"
+   },
+   "away": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Jen",
+    "form": "DWDLD"
+   }
+  },
+  {
+   "id": 760419,
+   "utc": "2026-06-13T22:00:00Z",
+   "stage": "Group stage",
+   "group": "Group C",
+   "odds": {
+    "home": 1.69,
+    "draw": 3.75,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1287,13 +1172,163 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "Glancy",
-    "form": "WWDWW"
+    "form": "WWWLD"
    },
    "away": {
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Barry",
+    "form": "DWWWD"
+   }
+  },
+  {
+   "id": 760418,
+   "utc": "2026-06-14T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group C",
+   "odds": {
+    "home": 6.0,
+    "draw": 4.2,
+    "away": 1.57,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Haiti",
+    "flag": "🇭🇹",
+    "owner": "Willo",
+    "form": "LWDLW"
+   },
+   "away": {
+    "name": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "owner": "George",
+    "form": "WWLLW"
+   }
+  },
+  {
+   "id": 760421,
+   "utc": "2026-06-14T04:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "odds": {
+    "home": 5.25,
+    "draw": 3.85,
+    "away": 1.69,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Ruggy",
+    "form": "DLWWL"
+   },
+   "away": {
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "owner": "Nona",
     "form": "WWWWD"
+   }
+  },
+  {
+   "id": 760422,
+   "utc": "2026-06-14T17:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "odds": {
+    "home": 1.03,
+    "draw": 16.0,
+    "away": 29.0,
+    "over_under": 4.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "owner": "Dipen",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Curaçao",
+    "flag": "🇨🇼",
+    "owner": "Rich",
+    "form": "WLLLD"
+   }
+  },
+  {
+   "id": 760425,
+   "utc": "2026-06-14T20:00:00Z",
+   "stage": "Group stage",
+   "group": "Group F",
+   "odds": {
+    "home": 2.0,
+    "draw": 3.45,
+    "away": 3.6,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "owner": "Spridge",
+    "form": "WLDWW"
+   },
+   "away": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Glancy",
+    "form": "WWWWW"
+   }
+  },
+  {
+   "id": 760423,
+   "utc": "2026-06-14T23:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "odds": {
+    "home": 3.6,
+    "draw": 2.85,
+    "away": 2.45,
+    "over_under": 1.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "owner": "Fergs",
+    "form": "WWWLW"
+   },
+   "away": {
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "owner": "Dubs",
+    "form": "WWDDW"
+   }
+  },
+  {
+   "id": 760424,
+   "utc": "2026-06-15T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group F",
+   "odds": {
+    "home": 1.91,
+    "draw": 3.45,
+    "away": 4.3,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "owner": "Barry",
+    "form": "DLWWD"
+   },
+   "away": {
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "owner": "JVR",
+    "form": "LLDWL"
    }
   }
  ],
@@ -1303,15 +1338,31 @@
    "rows": [
     {
      "group": "Group A",
-     "code": "MEX",
-     "p": 1,
-     "w": 1,
+     "code": "CZE",
+     "p": 0,
+     "w": 0,
      "d": 0,
      "l": 0,
-     "gf": 2,
+     "gf": 0,
      "ga": 0,
-     "pts": 3,
-     "gd": 2,
+     "pts": 0,
+     "gd": 0,
+     "name": "Czechia",
+     "flag": "🇨🇿",
+     "tier": 2,
+     "owner": "Rich"
+    },
+    {
+     "group": "Group A",
+     "code": "MEX",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
      "name": "Mexico",
      "flag": "🇲🇽",
      "tier": 1,
@@ -1320,18 +1371,34 @@
     {
      "group": "Group A",
      "code": "RSA",
-     "p": 1,
+     "p": 0,
      "w": 0,
      "d": 0,
-     "l": 1,
+     "l": 0,
      "gf": 0,
-     "ga": 2,
+     "ga": 0,
      "pts": 0,
-     "gd": -2,
+     "gd": 0,
      "name": "South Africa",
      "flag": "🇿🇦",
      "tier": 3,
      "owner": "Pari"
+    },
+    {
+     "group": "Group A",
+     "code": "KOR",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "South Korea",
+     "flag": "🇰🇷",
+     "tier": 2,
+     "owner": "Spridge"
     }
    ]
   },
@@ -1340,35 +1407,67 @@
    "rows": [
     {
      "group": "Group B",
-     "code": "BEL",
-     "p": 1,
+     "code": "BIH",
+     "p": 0,
      "w": 0,
-     "d": 1,
+     "d": 0,
      "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 1,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
      "gd": 0,
-     "name": "Belgium",
-     "flag": "🇧🇪",
-     "tier": 1,
-     "owner": "Willo"
+     "name": "Bosnia and Herzegovina",
+     "flag": "🇧🇦",
+     "tier": 3,
+     "owner": "Dipen"
     },
     {
      "group": "Group B",
-     "code": "HAI",
-     "p": 1,
+     "code": "CAN",
+     "p": 0,
      "w": 0,
-     "d": 1,
+     "d": 0,
      "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 1,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
      "gd": 0,
-     "name": "Haiti",
-     "flag": "🇭🇹",
+     "name": "Canada",
+     "flag": "🇨🇦",
+     "tier": 2,
+     "owner": "JVR"
+    },
+    {
+     "group": "Group B",
+     "code": "QAT",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Qatar",
+     "flag": "🇶🇦",
      "tier": 3,
-     "owner": "Willo"
+     "owner": "Fergs"
+    },
+    {
+     "group": "Group B",
+     "code": "SUI",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Switzerland",
+     "flag": "🇨🇭",
+     "tier": 2,
+     "owner": "Jen"
     }
    ]
   },
@@ -1377,191 +1476,6 @@
    "rows": [
     {
      "group": "Group C",
-     "code": "NZL",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 2,
-     "ga": 1,
-     "pts": 3,
-     "gd": 1,
-     "name": "New Zealand",
-     "flag": "🇳🇿",
-     "tier": 3,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group C",
-     "code": "ARG",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 0,
-     "gd": -1,
-     "name": "Argentina",
-     "flag": "🇦🇷",
-     "tier": 1,
-     "owner": "JVR"
-    }
-   ]
-  },
-  {
-   "name": "Group D",
-   "rows": [
-    {
-     "group": "Group D",
-     "code": "USA",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 3,
-     "ga": 0,
-     "pts": 3,
-     "gd": 3,
-     "name": "USA",
-     "flag": "🇺🇸",
-     "tier": 1,
-     "owner": "George"
-    },
-    {
-     "group": "Group D",
-     "code": "PAR",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 3,
-     "pts": 0,
-     "gd": -3,
-     "name": "Paraguay",
-     "flag": "🇵🇾",
-     "tier": 3,
-     "owner": "Emily"
-    }
-   ]
-  },
-  {
-   "name": "Group E",
-   "rows": [
-    {
-     "group": "Group E",
-     "code": "JPN",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 2,
-     "ga": 1,
-     "pts": 3,
-     "gd": 1,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group E",
-     "code": "GER",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 0,
-     "gd": -1,
-     "name": "Germany",
-     "flag": "🇩🇪",
-     "tier": 1,
-     "owner": "Dipen"
-    }
-   ]
-  },
-  {
-   "name": "Group F",
-   "rows": [
-    {
-     "group": "Group F",
-     "code": "FRA",
-     "p": 1,
-     "w": 1,
-     "d": 0,
-     "l": 0,
-     "gf": 4,
-     "ga": 0,
-     "pts": 3,
-     "gd": 4,
-     "name": "France",
-     "flag": "🇫🇷",
-     "tier": 1,
-     "owner": "Pari"
-    },
-    {
-     "group": "Group F",
-     "code": "GHA",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 4,
-     "pts": 0,
-     "gd": -4,
-     "name": "Ghana",
-     "flag": "🇬🇭",
-     "tier": 3,
-     "owner": "Jen"
-    }
-   ]
-  },
-  {
-   "name": "Group G",
-   "rows": [
-    {
-     "group": "Group G",
-     "code": "CRO",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "gd": 0,
-     "name": "Croatia",
-     "flag": "🇭🇷",
-     "tier": 1,
-     "owner": "Fergs"
-    },
-    {
-     "group": "Group G",
-     "code": "ENG",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "gd": 0,
-     "name": "England",
-     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "tier": 1,
-     "owner": "Ruggy"
-    }
-   ]
-  },
-  {
-   "name": "Group H",
-   "rows": [
-    {
-     "group": "Group H",
      "code": "BRA",
      "p": 0,
      "w": 0,
@@ -1577,7 +1491,23 @@
      "owner": "Glancy"
     },
     {
-     "group": "Group H",
+     "group": "Group C",
+     "code": "HAI",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Haiti",
+     "flag": "🇭🇹",
+     "tier": 3,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group C",
      "code": "MAR",
      "p": 0,
      "w": 0,
@@ -1591,37 +1521,1373 @@
      "flag": "🇲🇦",
      "tier": 1,
      "owner": "Barry"
+    },
+    {
+     "group": "Group C",
+     "code": "SCO",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Scotland",
+     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "tier": 3,
+     "owner": "George"
+    }
+   ]
+  },
+  {
+   "name": "Group D",
+   "rows": [
+    {
+     "group": "Group D",
+     "code": "AUS",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Australia",
+     "flag": "🇦🇺",
+     "tier": 2,
+     "owner": "Ruggy"
+    },
+    {
+     "group": "Group D",
+     "code": "PAR",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Paraguay",
+     "flag": "🇵🇾",
+     "tier": 3,
+     "owner": "Emily"
+    },
+    {
+     "group": "Group D",
+     "code": "TUR",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Türkiye",
+     "flag": "🇹🇷",
+     "tier": 2,
+     "owner": "Nona"
+    },
+    {
+     "group": "Group D",
+     "code": "USA",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "USA",
+     "flag": "🇺🇸",
+     "tier": 1,
+     "owner": "George"
+    }
+   ]
+  },
+  {
+   "name": "Group E",
+   "rows": [
+    {
+     "group": "Group E",
+     "code": "CUW",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Curaçao",
+     "flag": "🇨🇼",
+     "tier": 3,
+     "owner": "Rich"
+    },
+    {
+     "group": "Group E",
+     "code": "ECU",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Ecuador",
+     "flag": "🇪🇨",
+     "tier": 2,
+     "owner": "Dubs"
+    },
+    {
+     "group": "Group E",
+     "code": "GER",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Germany",
+     "flag": "🇩🇪",
+     "tier": 1,
+     "owner": "Dipen"
+    },
+    {
+     "group": "Group E",
+     "code": "CIV",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Ivory Coast",
+     "flag": "🇨🇮",
+     "tier": 2,
+     "owner": "Fergs"
+    }
+   ]
+  },
+  {
+   "name": "Group F",
+   "rows": [
+    {
+     "group": "Group F",
+     "code": "JPN",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Japan",
+     "flag": "🇯🇵",
+     "tier": 2,
+     "owner": "Glancy"
+    },
+    {
+     "group": "Group F",
+     "code": "NED",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Netherlands",
+     "flag": "🇳🇱",
+     "tier": 1,
+     "owner": "Spridge"
+    },
+    {
+     "group": "Group F",
+     "code": "SWE",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Sweden",
+     "flag": "🇸🇪",
+     "tier": 2,
+     "owner": "Barry"
+    },
+    {
+     "group": "Group F",
+     "code": "TUN",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Tunisia",
+     "flag": "🇹🇳",
+     "tier": 3,
+     "owner": "JVR"
+    }
+   ]
+  },
+  {
+   "name": "Group G",
+   "rows": [
+    {
+     "group": "Group G",
+     "code": "BEL",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Belgium",
+     "flag": "🇧🇪",
+     "tier": 1,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group G",
+     "code": "EGY",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Egypt",
+     "flag": "🇪🇬",
+     "tier": 2,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group G",
+     "code": "IRN",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Iran",
+     "flag": "🇮🇷",
+     "tier": 2,
+     "owner": "Dipen"
+    },
+    {
+     "group": "Group G",
+     "code": "NZL",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "New Zealand",
+     "flag": "🇳🇿",
+     "tier": 3,
+     "owner": "Dubs"
+    }
+   ]
+  },
+  {
+   "name": "Group H",
+   "rows": [
+    {
+     "group": "Group H",
+     "code": "CPV",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Cabo Verde",
+     "flag": "🇨🇻",
+     "tier": 3,
+     "owner": "Brando"
+    },
+    {
+     "group": "Group H",
+     "code": "KSA",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Saudi Arabia",
+     "flag": "🇸🇦",
+     "tier": 3,
+     "owner": "Ruggy"
+    },
+    {
+     "group": "Group H",
+     "code": "ESP",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Spain",
+     "flag": "🇪🇸",
+     "tier": 1,
+     "owner": "Dubs"
+    },
+    {
+     "group": "Group H",
+     "code": "URU",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Uruguay",
+     "flag": "🇺🇾",
+     "tier": 1,
+     "owner": "Nona"
+    }
+   ]
+  },
+  {
+   "name": "Group I",
+   "rows": [
+    {
+     "group": "Group I",
+     "code": "FRA",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "France",
+     "flag": "🇫🇷",
+     "tier": 1,
+     "owner": "Pari"
+    },
+    {
+     "group": "Group I",
+     "code": "IRQ",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Iraq",
+     "flag": "🇮🇶",
+     "tier": 3,
+     "owner": "Glancy"
+    },
+    {
+     "group": "Group I",
+     "code": "NOR",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Norway",
+     "flag": "🇳🇴",
+     "tier": 2,
+     "owner": "George"
+    },
+    {
+     "group": "Group I",
+     "code": "SEN",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Senegal",
+     "flag": "🇸🇳",
+     "tier": 1,
+     "owner": "Jen"
+    }
+   ]
+  },
+  {
+   "name": "Group J",
+   "rows": [
+    {
+     "group": "Group J",
+     "code": "ALG",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Algeria",
+     "flag": "🇩🇿",
+     "tier": 2,
+     "owner": "Pari"
+    },
+    {
+     "group": "Group J",
+     "code": "ARG",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Argentina",
+     "flag": "🇦🇷",
+     "tier": 1,
+     "owner": "JVR"
+    },
+    {
+     "group": "Group J",
+     "code": "AUT",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Austria",
+     "flag": "🇦🇹",
+     "tier": 2,
+     "owner": "Brando"
+    },
+    {
+     "group": "Group J",
+     "code": "JOR",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Jordan",
+     "flag": "🇯🇴",
+     "tier": 3,
+     "owner": "Barry"
+    }
+   ]
+  },
+  {
+   "name": "Group K",
+   "rows": [
+    {
+     "group": "Group K",
+     "code": "COL",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Colombia",
+     "flag": "🇨🇴",
+     "tier": 1,
+     "owner": "Emily"
+    },
+    {
+     "group": "Group K",
+     "code": "COD",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "DR Congo",
+     "flag": "🇨🇩",
+     "tier": 3,
+     "owner": "Nona"
+    },
+    {
+     "group": "Group K",
+     "code": "POR",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Portugal",
+     "flag": "🇵🇹",
+     "tier": 1,
+     "owner": "Brando"
+    },
+    {
+     "group": "Group K",
+     "code": "UZB",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Uzbekistan",
+     "flag": "🇺🇿",
+     "tier": 3,
+     "owner": "Spridge"
+    }
+   ]
+  },
+  {
+   "name": "Group L",
+   "rows": [
+    {
+     "group": "Group L",
+     "code": "CRO",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Croatia",
+     "flag": "🇭🇷",
+     "tier": 1,
+     "owner": "Fergs"
+    },
+    {
+     "group": "Group L",
+     "code": "ENG",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "England",
+     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "tier": 1,
+     "owner": "Ruggy"
+    },
+    {
+     "group": "Group L",
+     "code": "GHA",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Ghana",
+     "flag": "🇬🇭",
+     "tier": 3,
+     "owner": "Jen"
+    },
+    {
+     "group": "Group L",
+     "code": "PAN",
+     "p": 0,
+     "w": 0,
+     "d": 0,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 0,
+     "gd": 0,
+     "name": "Panama",
+     "flag": "🇵🇦",
+     "tier": 2,
+     "owner": "Emily"
     }
    ]
   }
  ],
+ "bracket": [
+  {
+   "id": 760486,
+   "utc": "2026-06-28T19:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "SoFi Stadium",
+   "home": {
+    "code": null,
+    "name": "Group A 2nd Place",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group B 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760487,
+   "utc": "2026-06-29T17:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "NRG Stadium",
+   "home": {
+    "code": null,
+    "name": "Group C Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group F 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760489,
+   "utc": "2026-06-29T20:30:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Gillette Stadium",
+   "home": {
+    "code": null,
+    "name": "Group E Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group A/B/C/D/F",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760488,
+   "utc": "2026-06-30T01:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Estadio BBVA",
+   "home": {
+    "code": null,
+    "name": "Group F Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group C 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760490,
+   "utc": "2026-06-30T17:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "AT&T Stadium",
+   "home": {
+    "code": null,
+    "name": "Group E 2nd Place",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group I 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760492,
+   "utc": "2026-06-30T21:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "MetLife Stadium",
+   "home": {
+    "code": null,
+    "name": "Group I Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group C/D/F/G/H",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760491,
+   "utc": "2026-07-01T01:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Estadio Banorte",
+   "home": {
+    "code": null,
+    "name": "Group A Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group C/E/F/H/I",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760495,
+   "utc": "2026-07-01T16:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Mercedes-Benz Stadium",
+   "home": {
+    "code": null,
+    "name": "Group L Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group E/H/I/J/K",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760493,
+   "utc": "2026-07-01T20:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Lumen Field",
+   "home": {
+    "code": null,
+    "name": "Group G Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group A/E/H/I/J",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760494,
+   "utc": "2026-07-02T00:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Levi's Stadium",
+   "home": {
+    "code": null,
+    "name": "Group D Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group B/E/F/I/J",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760497,
+   "utc": "2026-07-02T19:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "SoFi Stadium",
+   "home": {
+    "code": null,
+    "name": "Group H Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group J 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760496,
+   "utc": "2026-07-02T23:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "BMO Field",
+   "home": {
+    "code": null,
+    "name": "Group K 2nd Place",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group L 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760498,
+   "utc": "2026-07-03T03:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "BC Place",
+   "home": {
+    "code": null,
+    "name": "Group B Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group E/F/G/I/J",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760499,
+   "utc": "2026-07-03T18:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "AT&T Stadium",
+   "home": {
+    "code": null,
+    "name": "Group D 2nd Place",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group G 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760500,
+   "utc": "2026-07-03T22:00:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Hard Rock Stadium",
+   "home": {
+    "code": null,
+    "name": "Group J Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Group H 2nd Place",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760501,
+   "utc": "2026-07-04T01:30:00Z",
+   "stage": "LAST_32",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "GEHA Field at Arrowhead Stadium",
+   "home": {
+    "code": null,
+    "name": "Group K Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Third Place Group D/E/I/J/L",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760502,
+   "utc": "2026-07-04T17:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "NRG Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 32 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 3 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760503,
+   "utc": "2026-07-04T21:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Lincoln Financial Field",
+   "home": {
+    "code": null,
+    "name": "Round of 32 2 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 5 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760504,
+   "utc": "2026-07-05T20:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "MetLife Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 32 4 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 6 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760505,
+   "utc": "2026-07-06T00:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Estadio Banorte",
+   "home": {
+    "code": null,
+    "name": "Round of 32 7 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 8 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760506,
+   "utc": "2026-07-06T19:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "AT&T Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 32 11 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 12 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760507,
+   "utc": "2026-07-07T00:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Lumen Field",
+   "home": {
+    "code": null,
+    "name": "Round of 32 9 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 10 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760509,
+   "utc": "2026-07-07T16:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Mercedes-Benz Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 32 14 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 16 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760508,
+   "utc": "2026-07-07T20:00:00Z",
+   "stage": "LAST_16",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "BC Place",
+   "home": {
+    "code": null,
+    "name": "Round of 32 13 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 32 15 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760510,
+   "utc": "2026-07-09T20:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Gillette Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 2 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760511,
+   "utc": "2026-07-10T19:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "SoFi Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 5 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 6 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760512,
+   "utc": "2026-07-11T21:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Hard Rock Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 3 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 4 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760513,
+   "utc": "2026-07-12T01:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "GEHA Field at Arrowhead Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 7 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 8 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760514,
+   "utc": "2026-07-14T19:00:00Z",
+   "stage": "SEMI_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "AT&T Stadium",
+   "home": {
+    "code": null,
+    "name": "Quarterfinal 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Quarterfinal 2 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760515,
+   "utc": "2026-07-15T19:00:00Z",
+   "stage": "SEMI_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Mercedes-Benz Stadium",
+   "home": {
+    "code": null,
+    "name": "Quarterfinal 3 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Quarterfinal 4 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760517,
+   "utc": "2026-07-19T19:00:00Z",
+   "stage": "FINAL",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "MetLife Stadium",
+   "home": {
+    "code": null,
+    "name": "Semifinal 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Semifinal 2 Winner",
+    "flag": "",
+    "owner": null
+   }
+  }
+ ],
  "scorers": [
   {
-   "player": "K. Mbappé",
+   "player": "S. Rossi",
    "team": "FRA",
    "goals": 2,
-   "assists": 1,
+   "assists": 0,
    "flag": "🇫🇷",
    "owner": "Pari"
   },
   {
-   "player": "C. Wood",
-   "team": "NZL",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇿",
-   "owner": "Dubs"
-  },
-  {
-   "player": "T. Kubo",
-   "team": "JPN",
-   "goals": 1,
-   "assists": 1,
-   "flag": "🇯🇵",
-   "owner": "Glancy"
-  },
-  {
-   "player": "C. Pulisic",
+   "player": "G. Hansen",
    "team": "USA",
    "goals": 1,
    "assists": 1,
@@ -1629,7 +2895,55 @@
    "owner": "George"
   },
   {
-   "player": "H. Lozano",
+   "player": "H. Vargas",
+   "team": "USA",
+   "goals": 1,
+   "assists": 1,
+   "flag": "🇺🇸",
+   "owner": "George"
+  },
+  {
+   "player": "Q. Santos",
+   "team": "FRA",
+   "goals": 1,
+   "assists": 1,
+   "flag": "🇫🇷",
+   "owner": "Pari"
+  },
+  {
+   "player": "R. García",
+   "team": "FRA",
+   "goals": 1,
+   "assists": 1,
+   "flag": "🇫🇷",
+   "owner": "Pari"
+  },
+  {
+   "player": "G. Ricci",
+   "team": "JPN",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇯🇵",
+   "owner": "Glancy"
+  },
+  {
+   "player": "H. Mensah",
+   "team": "JPN",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇯🇵",
+   "owner": "Glancy"
+  },
+  {
+   "player": "I. Keita",
+   "team": "USA",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇺🇸",
+   "owner": "George"
+  },
+  {
+   "player": "I. Tanaka",
    "team": "MEX",
    "goals": 1,
    "assists": 0,
@@ -1637,12 +2951,52 @@
    "owner": "Rich"
   },
   {
-   "player": "D. Duranville",
+   "player": "J. Ali",
+   "team": "MEX",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇲🇽",
+   "owner": "Rich"
+  },
+  {
+   "player": "L. Pereira",
    "team": "HAI",
    "goals": 1,
    "assists": 0,
    "flag": "🇭🇹",
    "owner": "Willo"
+  },
+  {
+   "player": "M. Santos",
+   "team": "BEL",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇧🇪",
+   "owner": "Willo"
+  },
+  {
+   "player": "S. Schmidt",
+   "team": "NZL",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇳🇿",
+   "owner": "Dubs"
+  },
+  {
+   "player": "T. Dubois",
+   "team": "ARG",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇦🇷",
+   "owner": "JVR"
+  },
+  {
+   "player": "T. Sato",
+   "team": "NZL",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇳🇿",
+   "owner": "Dubs"
   }
  ]
 }

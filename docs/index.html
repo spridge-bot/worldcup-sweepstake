@@ -52,6 +52,10 @@
                font-weight: 600; transition: all .15s; }
   nav button:hover { border-color: var(--accent); color: var(--text); }
   nav button.active { background: var(--accent); color: #04150b; border-color: var(--accent); }
+  nav a.navlink { background: var(--card); color: var(--gold); border: 1px solid var(--line);
+                  border-radius: 999px; padding: 8px 16px; font-size: .85rem;
+                  font-weight: 600; text-decoration: none; }
+  nav a.navlink:hover { border-color: var(--gold); }
   section { display: none; } section.active { display: block; }
 
   /* ---- tables ---- */
@@ -199,6 +203,44 @@
   .events div { display: flex; justify-content: space-between; font-size: .82rem;
                 color: var(--dim); padding: 3px 0; border-top: 1px dashed var(--line); }
 
+  /* podium */
+  .podium-stage { display: flex; align-items: flex-end; justify-content: center; gap: 14px;
+                  margin: 34px 0 8px; }
+  .pod { text-align: center; flex: 1; max-width: 230px; }
+  .pod .medal { font-size: 2.3rem; }
+  .pod .who { font-weight: 900; font-size: 1.08rem; margin: 2px 0; }
+  .pod .pts { color: var(--gold); font-weight: 800; margin-bottom: 4px; }
+  .pod .flags { font-size: 1.25rem; margin-bottom: 10px; letter-spacing: 2px; }
+  .pod .block { border-radius: 12px 12px 0 0; display: flex; align-items: center;
+                justify-content: center; font-size: 2.1rem; font-weight: 900; color: #04150b;
+                box-shadow: 0 -6px 24px rgba(0,0,0,.35) inset; }
+  .pod.p1 .block { height: 150px; background: linear-gradient(180deg, #f7cf5a, #b8902a); }
+  .pod.p2 .block { height: 110px; background: linear-gradient(180deg, #dde4e8, #97a2a9); }
+  .pod.p3 .block { height: 84px;  background: linear-gradient(180deg, #e2a65f, #a96f33); }
+  .podium-note { text-align: center; color: var(--dim); font-size: .78rem; margin-top: 14px; }
+
+  /* knockout bracket */
+  .bracket { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 12px;
+             -webkit-overflow-scrolling: touch; }
+  .bcol { min-width: 218px; display: flex; flex-direction: column;
+          justify-content: space-around; gap: 10px; }
+  .bcol h4 { color: var(--accent); text-transform: uppercase; font-size: .7rem;
+             letter-spacing: 1.5px; text-align: center; }
+  .btie { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+          padding: 8px 10px; font-size: .8rem; }
+  .btie.done { background: linear-gradient(180deg, var(--card2), var(--card)); }
+  .btie .row { display: flex; justify-content: space-between; gap: 6px; padding: 2px 0; }
+  .btie .row .tn { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .btie .row.win .tn { font-weight: 800; color: var(--accent); }
+  .btie .row .sc { font-weight: 800; font-variant-numeric: tabular-nums; }
+  .btie .tbd { color: var(--dim); font-style: italic; }
+  .btie .when { color: var(--dim); font-size: .66rem; margin-top: 4px; }
+
+  /* match report */
+  .recap { background: rgba(54,217,124,.05); border-left: 3px solid var(--accent);
+           border-radius: 0 8px 8px 0; padding: 10px 14px; font-size: .86rem;
+           line-height: 1.55; margin-bottom: 6px; }
+
   .rules { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
            padding: 20px 22px; line-height: 1.65; font-size: .92rem; }
   .rules h3 { margin: 16px 0 6px; color: var(--accent); font-size: 1rem;
@@ -229,16 +271,21 @@
 
   <nav>
     <button data-tab="leaderboard" class="active">Leaderboard</button>
+    <button data-tab="podium">Podium</button>
     <button data-tab="results">Matches</button>
     <button data-tab="groups">Groups</button>
+    <button data-tab="bracket">Bracket</button>
     <button data-tab="teams">Teams</button>
     <button data-tab="scorers">Golden Boot</button>
     <button data-tab="rules">Rules</button>
+    <a class="navlink" href="draw.html">🎡 Draw Night</a>
   </nav>
 
   <section id="leaderboard" class="active"></section>
+  <section id="podium"></section>
   <section id="results"></section>
   <section id="groups"></section>
+  <section id="bracket"></section>
   <section id="teams"></section>
   <section id="scorers"></section>
   <section id="rules"></section>
@@ -291,6 +338,71 @@ function renderLeaderboard(d) {
   $('#leaderboard').innerHTML = `<table>
     <tr><th>#</th><th></th><th>Player</th><th>Teams</th>
     <th class="num">Latest</th><th class="num">Total</th></tr>${rows}</table>`;
+}
+
+/* ---------------- podium ---------------- */
+function renderPodium(d) {
+  const scored = d.players.filter(p => p.total > 0);
+  if (!scored.length) {
+    $('#podium').innerHTML = '<div class="empty">The podium appears once the first points are scored.</div>';
+    return;
+  }
+  const byRank = r => d.players.filter(p => p.rank === r);
+  const pods = [];
+  for (const [rank, cls, medal] of [[2, 'p2', '🥈'], [1, 'p1', '🥇'], [3, 'p3', '🥉']]) {
+    const ps = byRank(rank);
+    if (!ps.length) continue;
+    pods.push(`<div class="pod ${cls}">
+      <div class="medal">${medal}</div>
+      ${ps.map(p => `<div class="who">${esc(p.name)}</div>
+        <div class="pts">${fmt(p.total)} pts</div>
+        <div class="flags">${p.teams.map(c => d.teams[c].flag).join(' ')}</div>`).join('')}
+      <div class="block">${rank}</div>
+    </div>`);
+  }
+  $('#podium').innerHTML = `<div class="podium-stage">${pods.join('')}</div>
+    <div class="podium-note">Current standings — updated automatically after every matchday.
+    ${d.latest_day ? `Latest results: ${d.latest_day}.` : ''}</div>`;
+}
+
+/* ---------------- knockout bracket ---------------- */
+const BRACKET_COLS = [
+  ['LAST_32', 'Round of 32'], ['LAST_16', 'Round of 16'],
+  ['QUARTER_FINALS', 'Quarter-finals'], ['SEMI_FINALS', 'Semi-finals'],
+  ['FINAL', 'Final'],
+];
+
+function renderBracket(d) {
+  if (!d.bracket?.length) {
+    $('#bracket').innerHTML = '<div class="empty">The knockout bracket appears once the schedule loads.</div>';
+    return;
+  }
+  const tieSide = (t, goals, isWin) => `<div class="row${isWin ? ' win' : ''}">
+      <span class="tn ${t.code ? '' : 'tbd'}">${t.flag ? t.flag + ' ' : ''}${esc(t.name)}${
+        t.owner ? ` <span class="owner">· ${esc(t.owner)}</span>` : ''}</span>
+      <span class="sc">${goals ?? ''}</span></div>`;
+  const cols = BRACKET_COLS.map(([stage, label]) => {
+    const ties = d.bracket.filter(b => b.stage === stage);
+    if (!ties.length) return '';
+    const cards = ties.map(b => {
+      const done = b.status === 'FINISHED';
+      const when = done ? (b.note || 'FT')
+        : new Date(b.utc).toLocaleString(undefined, { day: 'numeric', month: 'short',
+            hour: '2-digit', minute: '2-digit' });
+      return `<div class="btie${done ? ' done' : ''}">
+        ${tieSide(b.home, b.hg, done && b.winner === b.home.code)}
+        ${tieSide(b.away, b.ag, done && b.winner === b.away.code)}
+        <div class="when">${esc(when)}${b.venue ? ' · ' + esc(b.venue) : ''}</div>
+      </div>`;
+    }).join('');
+    return `<div class="bcol"><h4>${label}</h4>${cards}</div>`;
+  }).join('');
+  const champ = Object.values(d.teams).find(t => t.status === 'champion');
+  $('#bracket').innerHTML = `${champ ? `<div class="banner" style="display:block">
+      🏆 ${champ.flag} ${esc(champ.name)} are WORLD CHAMPIONS — ${esc(champ.owner || '')}</div>` : ''}
+    <div class="bracket">${cols}</div>
+    <p style="color:var(--dim);font-size:.75rem;text-align:center;margin-top:8px">
+    The route to the final — winners move one column right. Scroll sideways on mobile.</p>`;
 }
 
 /* ---------------- match centre ---------------- */
@@ -364,6 +476,89 @@ function lineupSide(side, team) {
   </div>`;
 }
 
+function recapText(r, det, d) {
+  const hg = r.home.goals, ag = r.away.goals;
+  const goals = (det?.goals || []).filter(g => g.minute != null).sort((a, b) => a.minute - b.minute);
+  let winner = hg > ag ? r.home : ag > hg ? r.away : null;
+  let loser = winner === r.home ? r.away : winner === r.away ? r.home : null;
+  let pensBit = '';
+  if (!winner && r.note && det?.penalties?.length) {
+    const sc = {};
+    det.penalties.forEach(p => { if (p.scored) sc[p.team] = (sc[p.team] || 0) + 1; });
+    const hw = (sc[r.home.code] || 0) > (sc[r.away.code] || 0);
+    winner = hw ? r.home : r.away;
+    loser = hw ? r.away : r.home;
+    pensBit = ` ${sc[winner.code] || 0}–${sc[loser.code] || 0} on penalties after a ${hg}–${ag} draw`;
+  }
+  const s = [];
+  // sentence 1: the result
+  let first;
+  if (pensBit) first = `${winner.name} held their nerve to beat ${loser.name}${pensBit}`;
+  else if (!winner) first = hg === 0 ? `${r.home.name} and ${r.away.name} played out a goalless draw`
+    : `${r.home.name} and ${r.away.name} shared the points in a ${hg}–${ag} draw`;
+  else {
+    const ws = Math.max(hg, ag), ls = Math.min(hg, ag), diff = ws - ls;
+    const verb = diff >= 4 ? 'demolished' : diff === 3 ? 'thrashed'
+               : diff === 2 ? 'eased past' : ws + ls >= 3 ? 'edged' : 'beat';
+    first = `${winner.name} ${verb} ${loser.name} ${ws}–${ls}`;
+  }
+  if (det?.venue) first += ` at ${det.venue}`;
+  if (det?.attendance) first += ` in front of ${Number(det.attendance).toLocaleString()} fans`;
+  s.push(first + '.');
+  // sentence 2: an upset?
+  const o = r.odds;
+  if (winner && o) {
+    const wOdds = winner === r.home ? o.home : o.away;
+    if (wOdds >= 3) s.push(`A real upset — they had kicked off at ${wOdds} to win.`);
+  }
+  // sentence 3-4: the goals
+  if (goals.length) {
+    const g0 = goals[0];
+    const scorerTeam = d.teams[g0.team]?.name || '';
+    s.push(`${g0.scorer} opened the scoring for ${scorerTeam} on ${g0.minute}'` +
+           (g0.type === 'PENALTY' ? ' from the spot' : g0.type === 'OWN' ? ' (an own goal)' : '') + '.');
+    if (winner && goals.length > 1) {
+      // did the winner trail at any point?
+      let h = 0, a = 0, trailed = false;
+      goals.forEach(g => {
+        if (g.team === r.home.code) h++; else if (g.team === r.away.code) a++;
+        const wAhead = winner === r.home ? h - a : a - h;
+        if (wAhead < 0) trailed = true;
+      });
+      const last = goals[goals.length - 1];
+      if (trailed) s.push(`${winner.name} came from behind, ${last.scorer} completing the turnaround on ${last.minute}'.`);
+      else if (last.team === winner.code && Math.abs(hg - ag) === 1 && !pensBit)
+        s.push(`${last.scorer} struck the decisive goal on ${last.minute}'.`);
+    }
+    const counts = {};
+    goals.forEach(g => { if (g.type !== 'OWN') counts[g.scorer] = (counts[g.scorer] || 0) + 1; });
+    const multi = Object.entries(counts).find(([, n]) => n >= 2);
+    if (multi) s.push(`${multi[0]} finished with ${multi[1] === 2 ? 'a brace' : 'a hat-trick'}.`);
+  }
+  // sentence 5: red cards
+  const reds = (det?.bookings || []).filter(b => b.card === 'RED' || b.card === 'YELLOW_RED');
+  if (reds.length) s.push(reds.map(b =>
+    `${b.player} (${d.teams[b.team]?.name || ''}) was sent off on ${b.minute}'`).join('; ') + '.');
+  // sentence 6: possession flavour
+  const hp = det?.home?.stats?.ball_possession, ap = det?.away?.stats?.ball_possession;
+  if (hp != null && ap != null && Math.max(hp, ap) >= 62) {
+    const dom = hp > ap ? r.home : r.away;
+    s.push(`${dom.name} dominated the ball with ${Math.max(hp, ap)}% possession.`);
+  }
+  return s.join(' ');
+}
+
+function oddsBar(o, closing) {
+  if (!o) return '';
+  return `<div class="oddsrow">
+      <span class="odd"><b>1</b><span class="val">${o.home ?? '–'}</span></span>
+      <span class="odd"><b>X</b><span class="val">${o.draw ?? '–'}</span></span>
+      <span class="odd"><b>2</b><span class="val">${o.away ?? '–'}</span></span>
+      ${o.over_under != null ? `<span class="odd"><b>O/U</b><span class="val">${o.over_under}</span></span>` : ''}
+      <span class="oddmeta">${closing ? 'pre-match odds' : 'odds'}: ${esc(o.provider)}</span>
+    </div>`;
+}
+
 function matchCentre(r, d) {
   const det = DETAILS[String(r.id)];
   if (!det) return '<div class="meta">Detailed match data not available yet — it appears a few hours after kick-off.</div>';
@@ -374,7 +569,9 @@ function matchCentre(r, d) {
     ? `<h4>Line-ups</h4><div class="lineups">
         ${lineupSide(det.home, d.teams[r.home.code])}${lineupSide(det.away, d.teams[r.away.code])}</div>`
     : '';
-  return `${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
+  const recap = recapText(r, det, d);
+  return `${recap ? `<h4>Match report</h4><div class="recap">${esc(recap)}</div>` : ''}
+    ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
     ${statBars(det.home?.stats, det.away?.stats)}
     ${timeline(det, flagOf)}
     ${lu}`;
@@ -418,6 +615,7 @@ function renderResults(d) {
         ${side(r.away, d.teams[r.away.code].owner, true)}
       </div>
       ${scorerSummary(r)}
+      ${oddsBar(r.odds, true)}
       ${r.home.points == null ? '' : `<div class="ptsrow">
         <span>${esc(d.teams[r.home.code].owner || '—')} <b>+${fmt(r.home.points)}</b></span>
         <span><b>+${fmt(r.away.points)}</b> ${esc(d.teams[r.away.code].owner || '—')}</span>
@@ -437,14 +635,7 @@ function renderResults(d) {
       const when = new Date(u.utc).toLocaleString(undefined,
         { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
       const stageLabel = [u.stage, u.group].filter(Boolean).join(' · ');
-      const o = u.odds;
-      const oddsRow = o ? `<div class="oddsrow">
-          <span class="odd"><b>1</b><span class="val">${o.home ?? '–'}</span></span>
-          <span class="odd"><b>X</b><span class="val">${o.draw ?? '–'}</span></span>
-          <span class="odd"><b>2</b><span class="val">${o.away ?? '–'}</span></span>
-          ${o.over_under != null ? `<span class="odd"><b>O/U</b><span class="val">${o.over_under}</span></span>` : ''}
-          <span class="oddmeta">odds: ${esc(o.provider)}</span>
-        </div>` : '';
+      const oddsRow = oddsBar(u.odds, false);
       return `<div class="match"><div class="head"><span>${esc(stageLabel)}</span>
         <span>${when}</span></div>
         <div class="scoreline">
@@ -588,8 +779,8 @@ Promise.all([
       ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
       : 'Waiting for the tournament to start — results will appear here automatically.';
   }
-  renderLeaderboard(d); renderResults(d); renderGroups(d);
-  renderTeams(d); renderScorers(d); renderRules(d);
+  renderLeaderboard(d); renderPodium(d); renderResults(d); renderGroups(d);
+  renderBracket(d); renderTeams(d); renderScorers(d); renderRules(d);
 }).catch(() => { $('#updated').textContent = 'Could not load data.json — run scripts/update_scores.py first.'; });
 </script>
 </body>

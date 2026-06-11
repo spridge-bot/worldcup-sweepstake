@@ -89,11 +89,17 @@ Run with `--offline` to reset back to a blank slate, or with a real
 
 ## Data sources
 
+**No API key is required.** Without `FOOTBALL_DATA_TOKEN` the updater runs
+entirely on ESPN's keyless public API: full real schedule, group letters,
+live scores, goalscorers/cards, odds, stats and line-ups. Adding a free
+football-data.org key upgrades the goal/card/sub timelines and the official
+Golden Boot feed.
+
 | Source | What it provides | Key needed? |
 |---|---|---|
-| [football-data.org](https://www.football-data.org) | Results, fixtures, stages (drives all scoring), match detail: goalscorers, cards, subs, line-ups | Free key (10 req/min) |
-| ESPN public API (scoreboard) | Live 1X2 + over/under odds (DraftKings) and recent form for upcoming fixtures | None |
+| ESPN public API (scoreboard + standings) | Real groups & full schedule, live scores, key events (goals/cards/shootouts), 1X2 + over/under odds (DraftKings), recent form, venues | None |
 | ESPN public API (summary) | Deep match stats (possession, shots, passes, pass accuracy, crosses, long balls, corners, fouls, saves...), full line-ups with formations, venue/attendance/referee — merged into every finished match | None |
+| [football-data.org](https://www.football-data.org) | Optional upgrade: official results/stages, richer match detail (subs, referee, official scorer feed) | Free key (10 req/min) |
 
 To check whether an **API-Football** (api-sports.io) free key is worth adding:
 sign up at [dashboard.api-football.com/register](https://dashboard.api-football.com/register),
