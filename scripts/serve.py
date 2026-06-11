@@ -48,6 +48,16 @@ class Handler(SimpleHTTPRequestHandler):
         if "/api/" in (args[0] if args else "") or "404" in str(args[1:2]):
             super().log_message(fmt, *args)
 
+    def end_headers(self):
+        # phones cache the page hard and keep showing removed features —
+        # force revalidation for HTML, keep short caching for data/images
+        path = self.path.split("?")[0]
+        if path.endswith((".html", "/")):
+            self.send_header("Cache-Control", "no-cache")
+        elif path.endswith((".json", ".png")):
+            self.send_header("Cache-Control", "max-age=15")
+        super().end_headers()
+
     def _json(self, obj, code=200):
         body = json.dumps(obj).encode()
         self.send_response(code)
