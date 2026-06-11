@@ -160,7 +160,7 @@ async function applyEvent(ev, animate) {
       await sleep(3300);
     }
   } else if (ev.type === 'lock') {
-    if (animate) { await flashReveal(ev.player, ev.team); await sleep(700); }
+    if (animate) { await flashReveal(ev.player, ev.team); await sleep(2400); }
     (assignments[ev.player] = assignments[ev.player] || []).push(ev.team);
     if (animate) renderPicks();
   } else if (ev.type === 'round') {
@@ -243,7 +243,7 @@ async function spin() {
     (assignments[player] = assignments[player] || []).push(team);
     renderPicks();
     broadcast({ type: 'lock', player, team });
-    await sleep(900);
+    await sleep(2600);   // hold the name + team on screen so it sinks in
   }
   reveal.innerHTML = `<div class="line lock">That's ${TIER_NAMES[round].split(' — ')[0]} done! 👏</div>`;
   round += 1;
