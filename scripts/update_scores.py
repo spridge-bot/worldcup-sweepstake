@@ -1130,6 +1130,30 @@ def main():
                        for e in sorted(evs, key=lambda e: e["date"], reverse=True)],
         }
 
+    # Fair Play table — most cards = worst (yellow 1, second yellow 3, red 4)
+    fairplay = {}
+    for r in results:
+        ent = cache.get(str(r["id"]), {})
+        for b in ent.get("bookings") or []:
+            code = b.get("team")
+            if code not in teams_by_code:
+                continue
+            fp = fairplay.setdefault(code, {"yellow": 0, "red": 0, "pts": 0})
+            card = (b.get("card") or "YELLOW").upper()
+            if card == "YELLOW_RED":
+                fp["red"] += 1
+                fp["pts"] += 3
+            elif card == "RED":
+                fp["red"] += 1
+                fp["pts"] += 4
+            else:
+                fp["yellow"] += 1
+                fp["pts"] += 1
+    fairplay_rows = sorted(
+        ({"code": c, "name": teams_by_code[c]["name"], "flag": teams_by_code[c]["flag"],
+          "owner": owner.get(c), **v} for c, v in fairplay.items()),
+        key=lambda x: (-x["pts"], -x["red"], -x["yellow"], x["name"]))
+
     # Player totals, plus "latest matchday" delta and movement
     finished_dates = sorted({r["date"] for r in results})
     latest_day = finished_dates[-1] if finished_dates else None
@@ -1249,6 +1273,7 @@ def main():
         "groups": groups,
         "bracket": bracket,
         "scorers": scorers,
+        "fairplay": fairplay_rows,
     }
     write_json(ROOT / "docs/data.json", out, indent=1)
     print(f"Wrote docs/data.json ({mode} mode): {len(results)} finished matches, "

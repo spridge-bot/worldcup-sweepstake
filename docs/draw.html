@@ -3,87 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#03110a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%A1%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <title>The Draw — World Cup 2026 Sweepstake</title>
 <style>
   :root {
-    --bg0: #050d08; --bg1: #0a1f12; --card: #0e2417; --card2: #143020;
-    --line: #1f4630; --line2: #2a5a3e;
-    --text: #eef5ef; --dim: #8fb39d; --accent: #36d97c; --gold: #f5c542;
-    --t1: #5ec8f8; --t2: #c5a3ff; --t3: #f5c542;
+    --bg0: #03110a; --bg1: #062013; --card: #0b2818; --card2: #103420;
+    --glass: rgba(11, 40, 24, .72);
+    --line: rgba(110, 231, 168, .13); --line2: rgba(110, 231, 168, .32);
+    --text: #f2f8f3; --dim: #88af96; --accent: #3ef08b; --gold: #f7c948;
+    --t1: #62c9ff; --t2: #c9a6ff; --t3: #f7c948;
+    --disp: "Bebas Neue", "Archivo", sans-serif;
   }
-  * { box-sizing: border-box; margin: 0; }
+  * { box-sizing: border-box; margin: 0; -webkit-tap-highlight-color: transparent; }
   body {
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+    font-family: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background:
-      repeating-linear-gradient(90deg, rgba(255,255,255,.012) 0 90px, rgba(0,0,0,.05) 90px 180px),
-      linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 40%, #081a0e 100%);
+      radial-gradient(800px 460px at 50% -10%, rgba(62, 240, 139, .15), transparent 60%),
+      repeating-linear-gradient(90deg, rgba(255,255,255,.014) 0 110px, rgba(0,0,0,.06) 110px 220px),
+      linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 45%, #051a0e 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 16px; text-align: center; }
-  header { padding: 26px 0 4px; }
-  header .kick { color: var(--accent); font-size: .72rem; font-weight: 700;
-                 letter-spacing: 4px; text-transform: uppercase; }
-  h1 { font-size: clamp(1.5rem, 5vw, 2.2rem); font-weight: 900; text-transform: uppercase;
-       letter-spacing: 1px; margin: 4px 0 2px; text-shadow: 0 2px 12px rgba(54,217,124,.25); }
-  .sub { color: var(--dim); font-size: .85rem; margin-bottom: 18px; }
+  body::after {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 999;
+    opacity: .05; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 16px; text-align: center; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  header { padding: 30px 0 4px; animation: rise .7s ease both; }
+  header .kick { color: var(--gold); font-size: .74rem; font-weight: 700;
+                 letter-spacing: 6px; text-transform: uppercase; }
+  h1 { font-family: var(--disp); font-size: clamp(2.2rem, 7vw, 3.4rem); font-weight: 400;
+       text-transform: uppercase; letter-spacing: 3px; margin: 6px 0 2px; line-height: 1;
+       background: linear-gradient(180deg, #fff 30%, #b9e6c8 75%, #6fcb91 100%);
+       -webkit-background-clip: text; background-clip: text; color: transparent;
+       filter: drop-shadow(0 4px 22px rgba(62, 240, 139, .28)); }
+  .sub { color: var(--dim); font-size: .86rem; margin-bottom: 18px; line-height: 1.6; }
   a.back { color: var(--accent); font-size: .8rem; text-decoration: none; }
+  a.back:hover { text-decoration: underline; }
 
-  .tier-banner { display: inline-block; font-weight: 900; letter-spacing: 2px;
-                 text-transform: uppercase; font-size: 1rem; border-radius: 999px;
-                 padding: 8px 22px; margin: 10px 0 18px; color: #04150b; }
-  .tier-banner.t1 { background: var(--t1); } .tier-banner.t2 { background: var(--t2); }
-  .tier-banner.t3 { background: var(--t3); }
+  .tier-banner { display: inline-block; font-family: var(--disp); font-weight: 400;
+                 letter-spacing: 3px; text-transform: uppercase; font-size: 1.25rem;
+                 border-radius: 999px; padding: 8px 26px 6px; margin: 10px 0 18px;
+                 color: #03150b; box-shadow: 0 8px 30px rgba(0,0,0,.35);
+                 animation: rise .5s ease both; }
+  .tier-banner.t1 { background: linear-gradient(180deg, #8ed9ff, var(--t1)); }
+  .tier-banner.t2 { background: linear-gradient(180deg, #ddc6ff, var(--t2)); }
+  .tier-banner.t3 { background: linear-gradient(180deg, #ffe084, var(--t3)); }
 
   /* the wheel */
-  .wheelbox { position: relative; width: 270px; height: 270px; margin: 6px auto 20px; }
-  .wheel { width: 100%; height: 100%; border-radius: 50%; border: 6px solid var(--line2);
-           background: conic-gradient(#36d97c 0 30deg, #0e2417 30deg 60deg, #5ec8f8 60deg 90deg,
-             #0e2417 90deg 120deg, #f5c542 120deg 150deg, #0e2417 150deg 180deg,
-             #36d97c 180deg 210deg, #0e2417 210deg 240deg, #c5a3ff 240deg 270deg,
-             #0e2417 270deg 300deg, #f5c542 300deg 330deg, #0e2417 330deg 360deg);
-           box-shadow: 0 0 40px rgba(54,217,124,.18), inset 0 0 30px rgba(0,0,0,.5);
+  .wheelbox { position: relative; width: 280px; height: 280px; margin: 8px auto 22px;
+              animation: rise .6s .1s ease both; }
+  .wheel { width: 100%; height: 100%; border-radius: 50%; border: 7px solid #1d4a2f;
+           background: conic-gradient(#3ef08b 0 30deg, #0b2818 30deg 60deg, #62c9ff 60deg 90deg,
+             #0b2818 90deg 120deg, #f7c948 120deg 150deg, #0b2818 150deg 180deg,
+             #3ef08b 180deg 210deg, #0b2818 210deg 240deg, #c9a6ff 240deg 270deg,
+             #0b2818 270deg 300deg, #f7c948 300deg 330deg, #0b2818 330deg 360deg);
+           box-shadow: 0 0 60px rgba(62, 240, 139, .22), 0 24px 60px rgba(0,0,0,.5),
+                       inset 0 0 40px rgba(0,0,0,.55);
            transition: transform 3.2s cubic-bezier(.12,.65,.18,1); }
-  .wheel .hub { position: absolute; inset: 50%; width: 92px; height: 92px;
-                transform: translate(-50%, -50%); background: #04150b;
-                border: 3px solid var(--line2); border-radius: 50%; display: flex;
-                align-items: center; justify-content: center; font-size: 2.4rem; }
-  .pointer { position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
-             font-size: 1.7rem; z-index: 2; filter: drop-shadow(0 2px 4px rgba(0,0,0,.6)); }
+  .wheel .hub { position: absolute; inset: 50%; width: 96px; height: 96px;
+                transform: translate(-50%, -50%); background: radial-gradient(circle at 35% 30%, #0a2818, #03150b);
+                border: 3px solid #1d4a2f; border-radius: 50%; display: flex;
+                align-items: center; justify-content: center; font-size: 2.5rem;
+                box-shadow: 0 6px 22px rgba(0,0,0,.6); }
+  .pointer { position: absolute; top: -16px; left: 50%; transform: translateX(-50%);
+             font-size: 1.8rem; z-index: 2; filter: drop-shadow(0 3px 6px rgba(0,0,0,.6)); }
 
-  button.spin { background: var(--accent); color: #04150b; font-weight: 900;
-                font-size: 1.05rem; letter-spacing: 2px; text-transform: uppercase;
-                border: none; border-radius: 999px; padding: 14px 38px; cursor: pointer;
-                box-shadow: 0 4px 24px rgba(54,217,124,.35); transition: transform .1s; }
-  button.spin:hover { transform: scale(1.04); }
-  button.spin:disabled { opacity: .35; cursor: default; transform: none; }
+  button.spin { background: linear-gradient(180deg, #46ff97, #25c96c); color: #03150b;
+                font-family: var(--disp); font-weight: 400; font-size: 1.35rem;
+                letter-spacing: 3px; text-transform: uppercase;
+                border: none; border-radius: 999px; padding: 14px 44px 12px; cursor: pointer;
+                box-shadow: 0 6px 30px rgba(62, 240, 139, .4); transition: transform .12s, box-shadow .12s; }
+  button.spin:hover { transform: scale(1.05); box-shadow: 0 8px 40px rgba(62, 240, 139, .55); }
+  button.spin:disabled { opacity: .3; cursor: default; transform: none; box-shadow: none; }
 
   /* flashing reveal */
-  .reveal { min-height: 64px; margin: 18px auto 8px; max-width: 560px; }
-  .reveal .line { font-size: clamp(1.1rem, 4vw, 1.6rem); font-weight: 900; }
+  .reveal { min-height: 70px; margin: 20px auto 8px; max-width: 600px; }
+  .reveal .line { font-family: var(--disp); font-size: clamp(1.5rem, 5vw, 2.2rem);
+                  letter-spacing: 1.5px; }
   .reveal .line .who { color: var(--gold); }
   .reveal .line .team { color: var(--accent); }
   .reveal .line.flashing .team { color: var(--dim); }
-  .reveal .lock { animation: pop .45s ease; }
-  @keyframes pop { 0% { transform: scale(.6); opacity: 0; }
+  .reveal .lock { animation: pop .5s cubic-bezier(.2, 1.6, .4, 1); }
+  @keyframes pop { 0% { transform: scale(.5); opacity: 0; }
                    70% { transform: scale(1.12); } 100% { transform: scale(1); } }
 
   /* results grid */
-  .picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
-           gap: 8px; margin: 18px 0; text-align: left; }
-  .pick { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-          padding: 8px 12px; font-size: .82rem; animation: pop .4s ease; }
-  .pick b { display: block; color: var(--gold); }
+  .picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+           gap: 9px; margin: 20px 0; text-align: left; }
+  .pick { background: var(--glass); border: 1px solid var(--line); border-radius: 12px;
+          padding: 10px 13px; font-size: .82rem; animation: pop .4s ease;
+          backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+  .pick b { display: block; color: var(--gold); font-family: var(--disp); font-size: 1.05rem;
+            letter-spacing: 1.5px; }
   .pick .t { white-space: nowrap; }
-  .done-actions { margin: 22px 0; display: flex; gap: 10px; justify-content: center;
-                  flex-wrap: wrap; }
-  .done-actions button { background: var(--card); color: var(--text); border: 1px solid
-                         var(--line2); border-radius: 999px; padding: 10px 20px;
-                         font-size: .85rem; font-weight: 700; cursor: pointer; }
-  .done-actions button:hover { border-color: var(--accent); color: var(--accent); }
-  .confetti { font-size: 2rem; letter-spacing: 8px; margin: 8px 0; }
-  footer { color: var(--dim); font-size: .72rem; padding: 26px 0; letter-spacing: 1px; }
+  .done-actions { margin: 24px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .done-actions button { background: var(--glass); color: var(--text); border: 1px solid
+                         var(--line2); border-radius: 999px; padding: 12px 22px;
+                         font-size: .86rem; font-weight: 700; cursor: pointer;
+                         font-family: inherit; transition: all .15s; }
+  .done-actions button:hover { border-color: var(--accent); color: var(--accent);
+                               box-shadow: 0 4px 20px rgba(62, 240, 139, .2); }
+  .confetti { font-size: 2.2rem; letter-spacing: 10px; margin: 10px 0;
+              animation: pop .7s cubic-bezier(.2, 1.6, .4, 1); }
+  footer { color: var(--dim); font-size: .68rem; padding: 30px 0; letter-spacing: 2.4px; }
+  @media (max-width: 480px) {
+    .wheelbox { width: 235px; height: 235px; }
+    .picks { grid-template-columns: 1fr 1fr; }
+  }
 </style>
 </head>
 <body>
