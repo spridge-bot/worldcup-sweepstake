@@ -64,7 +64,8 @@
            background: conic-gradient(#3ef08b 0 30deg, #0b2818 30deg 60deg, #62c9ff 60deg 90deg,
              #0b2818 90deg 120deg, #f7c948 120deg 150deg, #0b2818 150deg 180deg,
              #3ef08b 180deg 210deg, #0b2818 210deg 240deg, #c9a6ff 240deg 270deg,
-             #0b2818 270deg 300deg, #f7c948 300deg 330deg, #0b2818 330deg 360deg);
+             #0b2818 270deg 300deg, #f7c948 300deg 330deg, #0b2818 330deg 351deg,
+             #ffffff 351deg 360deg);
            box-shadow: 0 0 60px rgba(62, 240, 139, .22), 0 24px 60px rgba(0,0,0,.5),
                        inset 0 0 40px rgba(0,0,0,.55);
            transition: transform 3.2s cubic-bezier(.12,.65,.18,1); }
@@ -189,9 +190,10 @@ async function applyEvent(ev, animate) {
   if (ev.type === 'reset') { assignments = {}; round = 1; renderRound(); }
   else if (ev.type === 'spin') {
     if (animate && $('#wheel')) {
-      $('#spin')?.setAttribute('disabled', '');
+      const b = $('#spin');
+      if (b) { b.disabled = true; b.textContent = '🎡 Spinning…'; }
       $('#wheel').style.transform = `rotate(${1440 + Math.floor(Math.random() * 360)}deg)`;
-      await sleep(3300);
+      await sleep(1700);
     }
   } else if (ev.type === 'lock') {
     if (animate) { await flashReveal(ev.player, ev.team); await sleep(2400); }
@@ -262,11 +264,12 @@ function renderPicks() {
 async function spin() {
   const btn = $('#spin');
   btn.disabled = true;
+  btn.textContent = '🎡 Spinning…';
   broadcast({ type: 'spin', round });
   const wheel = $('#wheel');
   const turns = 1440 + Math.floor(Math.random() * 360);
   wheel.style.transform = `rotate(${turns}deg)`;
-  await sleep(3300);
+  await sleep(1700);   // start the reveals while the wheel is still turning
 
   const pool = shuffle([...pools[round]]);
   const order = shuffle([...PLAYERS]);

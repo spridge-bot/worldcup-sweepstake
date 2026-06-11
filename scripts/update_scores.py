@@ -1269,7 +1269,7 @@ def main():
         "teams": team_out,
         "live": live,
         "results": sorted(results, key=lambda r: r["utc"], reverse=True),
-        "upcoming": upcoming[:12],
+        "upcoming": upcoming,
         "groups": groups,
         "bracket": bracket,
         "scorers": scorers,

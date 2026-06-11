@@ -149,6 +149,16 @@
               box-shadow: inset 0 2px 12px rgba(0,0,0,.6), 0 0 22px rgba(62,240,139,.08); }
   .scorebox small { font-size: .6rem; color: var(--dim); display: block; text-align: center;
                     font-weight: 600; font-family: "Archivo", sans-serif; letter-spacing: 1px; }
+  /* the human rivalry: owner v owner front and centre */
+  .scorebox.duel { display: flex; flex-direction: column; align-items: center; gap: 1px;
+                   font-size: 1.15rem; letter-spacing: 1.5px; color: var(--gold);
+                   padding: 7px 16px 6px; line-height: 1.05; }
+  .scorebox.duel small { font-size: .58rem; color: var(--dim); letter-spacing: 2.5px;
+                         text-transform: uppercase; }
+  .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
+               letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
+  .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
+                 letter-spacing: 2px; padding: 0 7px; }
   .goalscorers { display: flex; justify-content: space-between; gap: 12px;
                  padding: 2px 18px 8px; color: var(--dim); font-size: .76rem; }
   .goalscorers div { max-width: 48%; }
@@ -460,6 +470,11 @@ function chip(team) {
           <span class="tier t${team.tier}">T${team.tier}</span></span>`;
 }
 
+function duelStrip(a, b) {
+  if (!a && !b) return '';
+  return `<div class="duelstrip">${esc(a || '—')}<i>v</i>${esc(b || '—')}</div>`;
+}
+
 function movement(mv) {
   if (mv > 0) return `<span class="mv-up">▲${mv}</span>`;
   if (mv < 0) return `<span class="mv-down">▼${-mv}</span>`;
@@ -626,6 +641,7 @@ function renderLive(d) {
           letter-spacing:1px"><span>${esc(stageLabel)}</span><span>${esc(m.venue || '')}</span></div>
         <div class="livegrid">
           <div class="left">
+            ${duelStrip(m.home.owner, m.away.owner)}
             <div class="scoreline">
               ${side(m.home, false)}
               <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
@@ -662,7 +678,7 @@ function renderPodium(d) {
   }
   const byRank = r => d.players.filter(p => p.rank === r);
   const pods = [];
-  for (const [rank, cls, medal] of [[2, 'p2', '🥈'], [1, 'p1', '🥇'], [3, 'p3', '🥉']]) {
+  for (const [rank, cls, medal] of [[1, 'p1', '🥇'], [2, 'p2', '🥈'], [3, 'p3', '🥉']]) {
     const ps = byRank(rank);
     if (!ps.length) continue;
     pods.push(`<div class="pod ${cls}">
@@ -988,6 +1004,7 @@ function renderResults(d) {
       const stageLabel = [r.stage, r.group].filter(Boolean).join(' · ');
       return `<div class="match">
       <div class="head"><span>${esc(stageLabel)}</span><span></span></div>
+      ${duelStrip(d.teams[r.home.code].owner, d.teams[r.away.code].owner)}
       <div class="scoreline">
         ${side(r.home, d.teams[r.home.code].owner, false)}
         <div class="scorebox">${r.home.goals} – ${r.away.goals}
@@ -1011,24 +1028,47 @@ function renderResults(d) {
   if (d.upcoming.length) {
     const form = f => !f ? '' : `<span class="form">${[...f].slice(-5).map(c =>
       `<i class="${c}">${c}</i>`).join('')}</span>`;
-    const ups = d.upcoming.map(u => {
-      const when = new Date(u.utc).toLocaleString(undefined,
-        { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+    const upCard = u => {
+      const when = new Date(u.utc).toLocaleTimeString(undefined,
+        { hour: '2-digit', minute: '2-digit' });
       const stageLabel = [u.stage, u.group].filter(Boolean).join(' · ');
       const oddsRow = oddsBar(u.odds, false);
       return `<div class="match"><div class="head"><span>${esc(stageLabel)}</span>
-        <span>${when}</span></div>
+        <span>⏱ ${when}</span></div>
         <div class="scoreline">
           <div class="t"><span class="flag">${u.home.flag}</span>
             <span><span class="nm">${esc(u.home.name)}</span>${form(u.home.form)}<br>
             <span class="own">${esc(u.home.owner || '')}</span></span></div>
-          <div class="scorebox">vs</div>
+          ${u.home.owner || u.away.owner
+            ? `<div class="scorebox duel"><span>${esc(u.home.owner || '—')}</span>
+               <small>versus</small><span>${esc(u.away.owner || '—')}</span></div>`
+            : '<div class="scorebox">vs</div>'}
           <div class="t away"><span class="flag">${u.away.flag}</span>
             <span><span class="nm">${esc(u.away.name)}</span>${form(u.away.form)}<br>
             <span class="own">${esc(u.away.owner || '')}</span></span></div>
         </div>${oddsRow}${lineupBlock(u.id, u.home, u.away)}</div>`;
-    }).join('');
-    html += `<div class="day"><h3>Coming up</h3>${ups}</div>`;
+    };
+    // one clearly-labelled block per day — easy to scroll the whole schedule
+    const upByDay = {};
+    d.upcoming.forEach(u => { const k = u.utc.slice(0, 10); (upByDay[k] = upByDay[k] || []).push(u); });
+    const days = Object.keys(upByDay).sort();
+    days.forEach((day, i) => {
+      const date = new Date(day + 'T12:00:00Z').toLocaleDateString(undefined,
+        { weekday: 'long', day: 'numeric', month: 'long' });
+      const n = upByDay[day].length;
+      html += `<div class="day" ${i === 0 ? 'id="upcoming"' : ''}>
+        <h3>${i === 0 ? '📅 Coming up · ' : '📅 '}${date}
+          <span style="color:var(--dim);font-family:Archivo,sans-serif;font-size:.68rem;
+            letter-spacing:1px">${n} match${n > 1 ? 'es' : ''}</span></h3>
+        ${upByDay[day].map(upCard).join('')}</div>`;
+    });
+  }
+  if (d.results.length && d.upcoming.length) {
+    html = `<div style="display:flex;gap:8px;justify-content:center;margin-bottom:16px">
+      <a href="#results" onclick="window.scrollTo({top:0,behavior:'smooth'});return false"
+        class="chip" style="text-decoration:none;color:var(--text)">⏪ Results</a>
+      <a href="#upcoming" class="chip" style="text-decoration:none;color:var(--text)">📅 Fixtures</a>
+    </div>` + html;
   }
   $('#results').innerHTML = html;
 
