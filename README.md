@@ -1,16 +1,17 @@
 # World Cup 2026 Sweepstake
 
 A self-updating sweepstake tracker for the 2026 FIFA World Cup: 48 teams,
-16 players × 3 teams each, balanced flat scoring, and a leaderboard webpage
+12 players × 4 teams each, balanced flat scoring, and a leaderboard webpage
 that refreshes itself every few hours via GitHub Actions + GitHub Pages.
 
 ## How it works
 
 - `data/teams.json` — the 48 qualified teams with their pre-tournament FIFA
-  ranking, split into three tiers of 16 (Tier 1 = ranks 1–16, etc.).
-- `data/players.json` — your 16 players and their drawn teams.
-- `scripts/draw.py` — runs the draw: every player gets one team from EACH
-  tier (a favourite, a mid-ranker and an underdog).
+  ranking, split into four pots of 12 (Pot 1 = the top 12, Pot 2 = 13th–24th,
+  Pot 3 = 25th–36th, Pot 4 = 37th–48th).
+- `data/players.json` — the 12 players and their drawn teams.
+- The draw is run live on `docs/draw.html` (one team from each pot per player);
+  `scripts/draw.py` is the offline/CLI equivalent.
 - `scripts/update_scores.py` — pulls results from football-data.org, scores
   every finished match, and writes `docs/data.json`.
 - `docs/index.html` — the leaderboard page (works as a plain static file).
@@ -19,7 +20,7 @@ that refreshes itself every few hours via GitHub Actions + GitHub Pages.
 
 ## Scoring
 
-Balance comes from the draw — every player holds one team from each tier —
+Balance comes from the draw — every player holds one team from each pot —
 so the points are flat and simple, no multipliers.
 
 | Event | Points |
@@ -43,7 +44,7 @@ recomputes from scratch, so mid-tournament changes rewrite history).
 
 ## Setup (one-time, ~10 minutes)
 
-1. **Name your players** — edit the 16 names in `data/players.json`.
+1. **Name your players** — edit the 12 names in `data/players.json`.
 
 2. **Run the draw** (optionally with a seed so it's reproducible/auditable):
 
