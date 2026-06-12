@@ -363,6 +363,9 @@
   .pod .who { font-family: var(--disp); font-size: 1.5rem; letter-spacing: 1.5px; margin: 10px 0 0; }
   .pod .pts { color: var(--gold); font-weight: 800; margin: 1px 0 3px; }
   .pod .flags { font-size: 1.3rem; letter-spacing: 3px; margin-bottom: 8px; }
+  .pod .podteams { display: flex; flex-direction: column; align-items: center; gap: 2px;
+                   font-size: .76rem; color: var(--dim); margin-bottom: 8px; line-height: 1.4; }
+  .pod .podteams .pt { white-space: nowrap; }
   .pod .block { border-radius: 14px; display: flex; flex-direction: column; align-items: center;
                 justify-content: center; gap: 0; font-family: var(--disp); font-size: 2.4rem;
                 line-height: 1; color: #03150b; position: relative; overflow: hidden;
@@ -727,7 +730,8 @@ function renderPodium(d) {
       <div class="block"><span class="medal">${medal}</span><span>${rank}${rank === 1 ? 'st' : rank === 2 ? 'nd' : 'rd'}</span></div>
       ${ps.map(p => `<div class="who">${esc(p.name)}</div>
         <div class="pts">${fmt(p.total)} pts</div>
-        <div class="flags">${p.teams.map(c => d.teams[c].flag).join(' ')}</div>`).join('')}
+        <div class="podteams">${p.teams.map(c =>
+          `<span class="pt">${d.teams[c].flag} ${esc(d.teams[c].name)}</span>`).join('')}</div>`).join('')}
     </div>`);
   }
   $('#podium').innerHTML = `<div class="podium-stage">${pods.join('')}</div>
