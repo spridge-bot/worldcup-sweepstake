@@ -335,6 +335,16 @@ async function boot() {
   const per = Math.ceil(ranked.length / ROUNDS);
   for (let p = 1; p <= ROUNDS; p++) pools[p] = ranked.slice((p - 1) * per, p * per);
 
+  // if the draw is already done, show the authoritative final result straight
+  // from data.json — no wheel, no relay replay that could get out of sync
+  if (d.players.length && d.players.every(p => (p.teams || []).length >= ROUNDS)) {
+    assignments = {};
+    for (const p of d.players) assignments[p.name] = p.teams.slice();
+    round = ROUNDS + 1;
+    renderRound();
+    return;
+  }
+
   // shared mode: prefer the local API (mini), otherwise the public relay —
   // which makes the draw shared even straight from GitHub Pages
   try {
