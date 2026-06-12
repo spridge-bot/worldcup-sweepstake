@@ -106,6 +106,21 @@
   .pick b { display: block; color: var(--gold); font-family: var(--disp); font-size: 1.05rem;
             letter-spacing: 1.5px; }
   .pick .t { white-space: nowrap; }
+  /* final-draw board (shown once the draw is complete) */
+  .fgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+           gap: 12px; margin: 22px 0; text-align: left; }
+  .fcard { background: var(--glass); border: 1px solid var(--line2); border-radius: 14px;
+           padding: 14px 16px; backdrop-filter: blur(8px); animation: pop .4s ease; }
+  .fname { font-family: var(--disp); font-size: 1.3rem; letter-spacing: 1.5px;
+           color: var(--gold); margin-bottom: 8px; }
+  .frow { display: flex; align-items: center; gap: 9px; padding: 3px 0; }
+  .ppot { font-size: .58rem; font-weight: 800; letter-spacing: 1px; color: var(--accent);
+          border: 1px solid var(--line2); border-radius: 6px; padding: 2px 6px; min-width: 46px;
+          text-align: center; }
+  .pteam { font-size: .92rem; font-weight: 600; }
+  a.navlink { display: inline-block; color: var(--accent); text-decoration: none;
+              font-weight: 700; font-size: .9rem; border: 1px solid var(--line2);
+              border-radius: 999px; padding: 11px 22px; }
   .done-actions { margin: 24px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
   .done-actions button { background: var(--glass); color: var(--text); border: 1px solid
                          var(--line2); border-radius: 999px; padding: 12px 22px;
@@ -325,6 +340,22 @@ function wireDone() {
   };
 }
 
+function renderFinalDraw() {
+  const potOf = c => { for (let p = 1; p <= ROUNDS; p++) if (pools[p].includes(c)) return p; return '?'; };
+  const cards = PLAYERS.map(name => {
+    const teams = (assignments[name] || []).slice().sort((a, b) => potOf(a) - potOf(b));
+    const rows = teams.map(c => `<div class="frow"><span class="ppot">POT ${potOf(c)}</span>
+      <span class="pteam">${TEAMS[c].flag} ${esc(TEAMS[c].name)}</span></div>`).join('');
+    return `<div class="fcard"><div class="fname">${esc(name)}</div>${rows}</div>`;
+  }).join('');
+  $('#stage').innerHTML = `
+    <div class="tier-banner t4" style="background:var(--gold)">🏆 The Draw — Final</div>
+    <div class="sub">Every player drew one team from each of the four FIFA-ranking pots
+      (top&nbsp;12 · 13–24 · 25–36 · 37–48). 48 teams, no repeats.</div>
+    <div class="fgrid">${cards}</div>
+    <div class="done-actions"><a class="navlink" href="index.html">→ View the live leaderboard</a></div>`;
+}
+
 async function boot() {
   const d = await fetch('data.json?t=' + Date.now()).then(r => r.json());
   TEAMS = d.teams;
@@ -340,8 +371,7 @@ async function boot() {
   if (d.players.length && d.players.every(p => (p.teams || []).length >= ROUNDS)) {
     assignments = {};
     for (const p of d.players) assignments[p.name] = p.teams.slice();
-    round = ROUNDS + 1;
-    renderRound();
+    renderFinalDraw();
     return;
   }
 
