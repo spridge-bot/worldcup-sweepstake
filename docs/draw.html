@@ -56,6 +56,7 @@
   .tier-banner.t1 { background: linear-gradient(180deg, #8ed9ff, var(--t1)); }
   .tier-banner.t2 { background: linear-gradient(180deg, #ddc6ff, var(--t2)); }
   .tier-banner.t3 { background: linear-gradient(180deg, #ffe084, var(--t3)); }
+  .tier-banner.t4 { background: linear-gradient(180deg, #ffb27a, var(--gold)); }
 
   /* the wheel */
   .wheelbox { position: relative; width: 280px; height: 280px; margin: 8px auto 22px;
@@ -126,8 +127,8 @@
   <header>
     <div class="kick">United 2026 · The Draw</div>
     <h1>🎡 The Sweepstake Draw</h1>
-    <div class="sub">Three spins per the rules: everyone gets one Tier&nbsp;1 giant,
-      one Tier&nbsp;2 contender, one Tier&nbsp;3 underdog.
+    <div class="sub">Four spins: everyone draws one team from each of the four pots —
+      a giant, a contender, a challenger and an underdog. No team drawn twice.
       <br><a class="back" href="index.html">← back to the leaderboard</a></div>
   </header>
 
@@ -140,7 +141,8 @@
 const $ = sel => document.querySelector(sel);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-const TIER_NAMES = {1: 'Tier 1 — The Giants', 2: 'Tier 2 — The Contenders', 3: 'Tier 3 — The Underdogs'};
+const TIER_NAMES = {1: 'Pot 1 — The Giants', 2: 'Pot 2 — The Contenders', 3: 'Pot 3 — The Challengers', 4: 'Pot 4 — The Underdogs'};
+const ROUNDS = 4;
 
 let TEAMS = {}, PLAYERS = [], pools = {}, assignments = {}, round = 1;
 // shared mode transports: the mini's /api/draw when served by scripts/serve.py,
@@ -226,7 +228,7 @@ async function poll() {
 }
 
 function renderRound() {
-  const done = round > 3;
+  const done = round > ROUNDS;
   $('#stage').innerHTML = `
     ${done ? `<div class="confetti">🎉 🏆 🎉</div>
       <div class="tier-banner t3" style="background:var(--gold)">The draw is complete!</div>`
@@ -271,7 +273,9 @@ async function spin() {
   wheel.style.transform = `rotate(${turns}deg)`;
   await sleep(1700);   // start the reveals while the wheel is still turning
 
-  const pool = shuffle([...pools[round]]);
+  // hard guard: never hand out a team already drawn anywhere in this draw
+  const used = new Set(Object.values(assignments).flat());
+  const pool = shuffle([...pools[round]].filter(c => !used.has(c)));
   const order = shuffle([...PLAYERS]);
   const reveal = $('#reveal');
   for (let i = 0; i < order.length; i++) {
@@ -318,8 +322,11 @@ async function boot() {
   const d = await fetch('data.json?t=' + Date.now()).then(r => r.json());
   TEAMS = d.teams;
   PLAYERS = d.players.map(p => p.name);
-  for (const t of [1, 2, 3]) pools[t] = Object.values(TEAMS)
-    .filter(x => x.tier === t).map(x => x.code);
+  // four pots of equal size, split by FIFA ranking (giants -> underdogs)
+  const ranked = Object.values(TEAMS)
+    .sort((a, b) => (a.fifa_rank || 999) - (b.fifa_rank || 999)).map(x => x.code);
+  const per = Math.ceil(ranked.length / ROUNDS);
+  for (let p = 1; p <= ROUNDS; p++) pools[p] = ranked.slice((p - 1) * per, p * per);
 
   // shared mode: prefer the local API (mini), otherwise the public relay —
   // which makes the draw shared even straight from GitHub Pages
