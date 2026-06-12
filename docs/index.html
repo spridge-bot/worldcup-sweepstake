@@ -166,6 +166,24 @@
                       letter-spacing: .5px; color: var(--dim); font-weight: 600; margin-top: 2px; }
   .battle .bp.away { text-align: right; }
   .battle .bvs { color: var(--accent); font-size: .8rem; font-weight: 800; letter-spacing: 1px; }
+  /* fixture filter dropdown + odds-based points projection */
+  .fxctl { display: flex; justify-content: center; margin: 4px 0 14px; }
+  .fxctl label { color: var(--dim); font-size: .8rem; font-weight: 600; display: flex;
+                 align-items: center; gap: 8px; }
+  .fxctl select { background: var(--card2); color: var(--text); border: 1px solid var(--line2);
+                  border-radius: 999px; padding: 8px 14px; font: inherit; font-size: .85rem;
+                  font-weight: 700; cursor: pointer; }
+  .projcard { background: linear-gradient(180deg, rgba(62,240,139,.07), rgba(62,240,139,.02));
+              border: 1px solid var(--line2); border-radius: 16px; padding: 16px 18px; margin: 0 0 18px; }
+  .projhead { font-family: var(--disp); font-size: 1.35rem; letter-spacing: 1px; color: var(--text); }
+  .projhead b { color: var(--accent); }
+  .projsub { color: var(--dim); font-size: .72rem; margin: 4px 0 12px; line-height: 1.5; }
+  .projtbl { width: 100%; border-collapse: collapse; font-size: .85rem; }
+  .projtbl th { text-align: left; color: var(--dim); font-size: .68rem; text-transform: uppercase;
+                letter-spacing: 1px; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  .projtbl td { padding: 8px; border-bottom: 1px solid var(--line); }
+  .projtbl td b { color: var(--gold); }
+  .projtbl tr:last-child td { border-bottom: none; }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -997,13 +1015,84 @@ function scorerSummary(r) {
 }
 
 /* ---------------- matches tab ---------------- */
+let fixtureFilter = 'all';
+
+// Project final group standings assuming results follow the odds (or FIFA
+// ranking where no odds have been posted yet). Returns { byCode: {pos, pts, group} }.
+function projectGroups(d) {
+  const nameToCode = {};
+  for (const c in d.teams) nameToCode[d.teams[c].name] = c;
+  const st = {};                       // code -> running {pts, gd, gf, group}
+  (d.groups || []).forEach(g => g.rows.forEach(r =>
+    st[r.code] = { pts: r.pts, gd: r.gd, gf: r.gf, group: r.group || g.name }));
+  (d.upcoming || []).forEach(u => {
+    if (u.stage !== 'Group stage') return;
+    const hc = nameToCode[u.home.name], ac = nameToCode[u.away.name];
+    if (!hc || !ac || !st[hc] || !st[ac]) return;
+    const o = u.odds || {};
+    let win;
+    if (o.home && o.draw && o.away) {
+      win = (o.home <= o.draw && o.home <= o.away) ? 'home'
+          : (o.away <= o.draw && o.away <= o.home) ? 'away' : 'draw';
+    } else {                            // no odds yet -> better FIFA rank is favoured
+      win = (d.teams[hc].fifa_rank || 999) <= (d.teams[ac].fifa_rank || 999) ? 'home' : 'away';
+    }
+    if (win === 'home') { st[hc].pts += 3; st[hc].gd += 1; st[hc].gf += 1; st[ac].gd -= 1; }
+    else if (win === 'away') { st[ac].pts += 3; st[ac].gd += 1; st[ac].gf += 1; st[hc].gd -= 1; }
+    else { st[hc].pts += 1; st[ac].pts += 1; }
+  });
+  const groups = {};
+  for (const c in st) (groups[st[c].group] = groups[st[c].group] || []).push(c);
+  const sp = d.scoring.group_position, byCode = {};
+  for (const g in groups) {
+    groups[g].sort((a, b) => st[b].pts - st[a].pts || st[b].gd - st[a].gd || st[b].gf - st[a].gf)
+      .forEach((c, i) => { byCode[c] = { pos: i + 1, pts: sp[String(i + 1)] || 0, group: g }; });
+  }
+  return { byCode };
+}
+
+function projectionPanel(d, player, P) {
+  const ORD = ['1st', '2nd', '3rd', '4th'];
+  const codes = Object.keys(d.teams).filter(c => d.teams[c].owner === player);
+  const cur = (d.players.find(p => p.name === player) || {}).total || 0;
+  let projTotal = 0;
+  const rows = codes
+    .sort((a, b) => (P.byCode[a]?.pos || 9) - (P.byCode[b]?.pos || 9))
+    .map(c => {
+      const t = d.teams[c], pr = P.byCode[c];
+      const pts = pr ? pr.pts : 0; projTotal += pts;
+      const finish = pr ? (ORD[pr.pos - 1] || pr.pos + 'th') : '—';
+      return `<tr><td>${t.flag} ${esc(t.name)}</td>
+        <td class="hide-sm">${esc(pr ? pr.group : '')}</td>
+        <td>${finish}</td><td><b>+${pts}</b></td></tr>`;
+    }).join('');
+  return `<div class="projcard">
+    <div class="projhead">${esc(player)} — projected <b>${projTotal} pts</b> if results follow the odds</div>
+    <div class="projsub">Group-stage projection. Currently on ${cur} pt${cur === 1 ? '' : 's'}.
+      Games without posted odds fall back to FIFA ranking; knockout points aren't scheduled yet.</div>
+    <table class="projtbl">
+      <thead><tr><th>Team</th><th class="hide-sm">Group</th><th>Proj. finish</th><th>Pts</th></tr></thead>
+      <tbody>${rows}</tbody></table>
+  </div>`;
+}
+
 function renderResults(d) {
   if (!d.results.length && !d.upcoming.length) {
     $('#results').innerHTML = '<div class="empty">No results yet — first match is on 11 June 2026.</div>';
     return;
   }
+  const FILT = fixtureFilter;
+  const inFilter = m => FILT === 'all' || m.home.owner === FILT || m.away.owner === FILT;
+  const fResults = (d.results || []).filter(inFilter);
+  const fUpcoming = (d.upcoming || []).filter(inFilter);
+  const controls = `<div class="fxctl"><label>Show fixtures for
+    <select id="fxfilter">
+      <option value="all"${FILT === 'all' ? ' selected' : ''}>Everyone</option>
+      ${d.players.map(p => `<option value="${esc(p.name)}"${FILT === p.name ? ' selected' : ''}>${esc(p.name)}</option>`).join('')}
+    </select></label></div>`;
+  const projPanel = FILT === 'all' ? '' : projectionPanel(d, FILT, projectGroups(d));
   const byDay = {};
-  d.results.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
+  fResults.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
   const side = (t, owner, away) => `<div class="t${away ? ' away' : ''}">
       <span class="flag">${t.flag}</span>
       <span><span class="nm">${esc(t.name)}</span>
@@ -1036,7 +1125,7 @@ function renderResults(d) {
       { weekday: 'long', day: 'numeric', month: 'long' });
     html += `<div class="day"><h3>${date}</h3>${cards}</div>`;
   }
-  if (d.upcoming.length) {
+  if (fUpcoming.length) {
     const form = f => !f ? '' : `<span class="form">${[...f].slice(-5).map(c =>
       `<i class="${c}">${c}</i>`).join('')}</span>`;
     const upCard = u => {
@@ -1067,7 +1156,7 @@ function renderResults(d) {
     };
     // one clearly-labelled block per day — easy to scroll the whole schedule
     const upByDay = {};
-    d.upcoming.forEach(u => { const k = u.utc.slice(0, 10); (upByDay[k] = upByDay[k] || []).push(u); });
+    fUpcoming.forEach(u => { const k = u.utc.slice(0, 10); (upByDay[k] = upByDay[k] || []).push(u); });
     const days = Object.keys(upByDay).sort();
     days.forEach((day, i) => {
       const date = new Date(day + 'T12:00:00Z').toLocaleDateString(undefined,
@@ -1080,14 +1169,20 @@ function renderResults(d) {
         ${upByDay[day].map(upCard).join('')}</div>`;
     });
   }
-  if (d.results.length && d.upcoming.length) {
+  if (fResults.length && fUpcoming.length) {
     html = `<div style="display:flex;gap:8px;justify-content:center;margin-bottom:16px">
       <a href="#results" onclick="window.scrollTo({top:0,behavior:'smooth'});return false"
         class="chip" style="text-decoration:none;color:var(--text)">⏪ Results</a>
       <a href="#upcoming" class="chip" style="text-decoration:none;color:var(--text)">📅 Fixtures</a>
     </div>` + html;
   }
-  $('#results').innerHTML = html;
+  if (!fResults.length && !fUpcoming.length) {
+    html = `<div class="empty">No fixtures for ${esc(FILT)} found.</div>`;
+  }
+  $('#results').innerHTML = controls + projPanel + html;
+
+  const sel = $('#fxfilter');
+  if (sel) sel.onchange = () => { fixtureFilter = sel.value; renderResults(d); };
 
   document.querySelectorAll('.mc-btn').forEach(btn => btn.onclick = () => {
     const panel = $('#mc-' + btn.dataset.mid);
