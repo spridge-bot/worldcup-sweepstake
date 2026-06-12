@@ -190,6 +190,11 @@
   .champ .cflag { font-size: 2.4rem; line-height: 1; }
   .champ b { font-family: var(--disp); font-size: 1.5rem; letter-spacing: 1px; }
   .champ small { display: block; color: var(--dim); font-size: .7rem; margin-top: 3px; }
+  .proj-intro { color: var(--dim); font-size: .8rem; line-height: 1.55; margin: 6px 0 16px;
+                max-width: 680px; }
+  .proj-deep { color: var(--accent); font-size: .72rem; }
+  .projtbl.big td, .projtbl.big th { padding: 10px 8px; }
+  .projtbl.big tbody tr:first-child td { color: var(--gold); }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -461,6 +466,7 @@
   <nav>
     <button data-tab="leaderboard" class="active">Leaderboard</button>
     <button data-tab="podium">Podium</button>
+    <button data-tab="projection">🔮 Projection</button>
     <button data-tab="results">Matches</button>
     <button data-tab="groups">Groups</button>
     <button data-tab="bracket">Bracket</button>
@@ -473,6 +479,7 @@
 
   <section id="leaderboard" class="active"></section>
   <section id="podium"></section>
+  <section id="projection"></section>
   <section id="results"></section>
   <section id="groups"></section>
   <section id="bracket"></section>
@@ -1169,6 +1176,55 @@ function tournamentPanel(d, T) {
   </div>`;
 }
 
+function renderProjection(d) {
+  if (!d.players || !d.players.length) {
+    $('#projection').innerHTML = '<div class="empty">Projection appears once the draw and fixtures load.</div>';
+    return;
+  }
+  const T = projectTournament(d);
+  const champ = T.champion ? d.teams[T.champion] : null;
+  const ru = T.runnerUp ? d.teams[T.runnerUp] : null;
+  const ABBR = { LAST_32: 'R32', LAST_16: 'R16', QUARTER_FINALS: 'QF', SEMI_FINALS: 'SF', FINAL: 'final' };
+  const ORDER = ['LAST_32', 'LAST_16', 'QUARTER_FINALS', 'SEMI_FINALS', 'FINAL'];
+  const deepest = name => {
+    const codes = Object.keys(d.teams).filter(c => d.teams[c].owner === name);
+    let best = null, bestRank = -1;
+    codes.forEach(c => {
+      const run = T.koRun[c] || [], last = run[run.length - 1], r = last ? ORDER.indexOf(last) : -1;
+      if (r > bestRank) { bestRank = r; best = { code: c, stage: last }; }
+    });
+    if (!best || bestRank < 0) return '<span class="proj-deep">no team past the group stage</span>';
+    const champ = best.code === T.champion;
+    return `<span class="proj-deep">${d.teams[best.code].flag} ${esc(d.teams[best.code].name)} —
+      ${champ ? '🏆 champions' : 'reach the ' + (ABBR[best.stage] || '')}</span>`;
+  };
+  const curRank = {};
+  d.players.slice().sort((a, b) => (b.total || 0) - (a.total || 0)).forEach((p, i) => curRank[p.name] = i + 1);
+  const standings = d.players.map(p => ({ name: p.name, cur: p.total || 0, ...T.playerTotals[p.name] }))
+    .sort((a, b) => b.total - a.total || b.ko - a.ko);
+  const rows = standings.map((s, i) => {
+    const mv = curRank[s.name] - (i + 1);
+    const move = mv > 0 ? `<span style="color:var(--accent)">▲${mv}</span>`
+      : mv < 0 ? `<span style="color:#ff6b6b">▼${-mv}</span>` : '<span style="color:var(--dim)">–</span>';
+    return `<tr><td>${i + 1}</td>
+      <td><b>${esc(s.name)}</b><br>${deepest(s.name)}</td>
+      <td class="hide-sm">${s.cur}</td><td class="hide-sm">${s.group}</td><td class="hide-sm">${s.ko}</td>
+      <td><b>${s.total}</b></td><td>${move}</td></tr>`;
+  }).join('');
+  $('#projection').innerHTML = `
+    <div class="proj-intro">How the table could finish if every remaining game goes the way of the
+      bookmakers' odds — and FIFA ranking where no odds are posted yet. Knockout ties assume the
+      higher‑ranked side advances. It recomputes automatically as real results land, so expect upsets
+      to shake it up.</div>
+    ${champ ? `<div class="champ"><span class="cflag">${champ.flag}</span>
+      <span>🏆 <b>${esc(champ.name)}</b> projected champions${champ.owner ? ` — <span style="color:var(--gold)">${esc(champ.owner)}</span>'s pick` : ''}
+      ${ru ? `<small>beating ${ru.flag} ${esc(ru.name)} in the final</small>` : ''}</span></div>` : ''}
+    <table class="projtbl big">
+      <thead><tr><th>#</th><th>Player · projected best run</th><th class="hide-sm">Now</th>
+        <th class="hide-sm">Grp</th><th class="hide-sm">KO</th><th>Proj</th><th>±</th></tr></thead>
+      <tbody>${rows}</tbody></table>`;
+}
+
 function renderResults(d) {
   if (!d.results.length && !d.upcoming.length) {
     $('#results').innerHTML = '<div class="empty">No results yet — first match is on 11 June 2026.</div>';
@@ -1437,7 +1493,7 @@ function loadAll() {
         ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
         : 'Waiting for the tournament to start — results will appear here automatically.';
     }
-    renderLive(d); renderLeaderboard(d); renderPodium(d); renderResults(d); renderGroups(d);
+    renderLive(d); renderLeaderboard(d); renderPodium(d); renderProjection(d); renderResults(d); renderGroups(d);
     renderBracket(d); renderTeams(d); renderScorers(d); renderFairplay(d); renderRules(d);
     LAST_D = d;
     // keep the page fresh while a match is on
