@@ -195,6 +195,22 @@
   .proj-deep { color: var(--accent); font-size: .72rem; }
   .projtbl.big td, .projtbl.big th { padding: 10px 8px; }
   .projtbl.big tbody tr:first-child td { color: var(--gold); }
+  /* compact projection tile (Matches tab) — click to drill down */
+  .projtile { background: linear-gradient(180deg, rgba(62,240,139,.07), rgba(62,240,139,.02));
+              border: 1px solid var(--line2); border-radius: 14px; margin: 0 0 18px; overflow: hidden; }
+  .projtile > summary { list-style: none; cursor: pointer; display: flex; align-items: center;
+                        gap: 10px; padding: 14px 16px; user-select: none; }
+  .projtile > summary::-webkit-details-marker { display: none; }
+  .projtile .pt-ico { font-size: 1.4rem; line-height: 1; }
+  .projtile .pt-main { flex: 1; font-size: .9rem; color: var(--text); line-height: 1.4; }
+  .projtile .pt-main b { color: var(--accent); }
+  .projtile .pt-cta { color: var(--dim); font-size: .66rem; font-weight: 800; letter-spacing: 1px;
+                      text-transform: uppercase; white-space: nowrap; }
+  .projtile[open] > summary .pt-cta { color: var(--accent); }
+  .projtile[open] > summary .pt-cta::after { content: ""; }
+  .projtile[open] .pt-cta { font-size: 0; }
+  .projtile[open] .pt-cta::before { content: "close ▴"; font-size: .66rem; }
+  .projtile .projbody { padding: 0 16px 14px; }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -1160,24 +1176,35 @@ function projectionPanel(d, player, T) {
   </div>`;
 }
 
+let projOpen = false;
+
 function tournamentPanel(d, T) {
   const champ = T.champion ? d.teams[T.champion] : null;
   const ru = T.runnerUp ? d.teams[T.runnerUp] : null;
   const standings = d.players.map(p => ({ name: p.name, ...T.playerTotals[p.name] }))
     .sort((a, b) => b.total - a.total);
+  const leader = standings[0];
   const rows = standings.map((s, i) => `<tr><td>${i + 1}</td><td>${esc(s.name)}</td>
     <td class="hide-sm">${s.group}</td><td class="hide-sm">${s.ko}</td><td><b>${s.total}</b></td></tr>`).join('');
-  return `<div class="projcard">
-    <div class="projhead">🔮 Projected tournament</div>
-    ${champ ? `<div class="champ"><span class="cflag">${champ.flag}</span>
-      <span>🏆 <b>${esc(champ.name)}</b> to lift the trophy${champ.owner ? ` — <span style="color:var(--gold)">${esc(champ.owner)}</span>'s pick` : ''}
-      ${ru ? `<small>projected to beat ${ru.flag} ${esc(ru.name)} in the final</small>` : ''}</span></div>` : ''}
-    <div class="projsub">If every remaining game follows the bookies' odds (FIFA ranking where none posted).
-      Knockout ties: better FIFA-ranked side advances. Recomputed automatically as results come in.</div>
-    <table class="projtbl">
-      <thead><tr><th>#</th><th>Player</th><th class="hide-sm">Grp</th><th class="hide-sm">KO</th><th>Proj. total</th></tr></thead>
-      <tbody>${rows}</tbody></table>
-  </div>`;
+  return `<details class="projtile"${projOpen ? ' open' : ''}>
+    <summary>
+      <span class="pt-ico">🔮</span>
+      <span class="pt-main">Projected ${champ ? `${champ.flag} <b>${esc(champ.name)}</b> champions` : 'tournament'}${
+        leader ? ` · 🏆 <b>${esc(leader.name)}</b> leads on ${leader.total}` : ''}</span>
+      <span class="pt-cta">tap to drill in ▾</span>
+    </summary>
+    <div class="projbody">
+      <div class="projsub">If every remaining game follows the bookies' odds (FIFA ranking where none posted).
+        Knockout ties: better FIFA-ranked side advances. Full breakdown on the
+        <a href="#" onclick="document.querySelector('nav button[data-tab=projection]').click();return false">Projection tab</a>.</div>
+      ${champ ? `<div class="champ"><span class="cflag">${champ.flag}</span>
+        <span>🏆 <b>${esc(champ.name)}</b> to lift the trophy${champ.owner ? ` — <span style="color:var(--gold)">${esc(champ.owner)}</span>'s pick` : ''}
+        ${ru ? `<small>projected to beat ${ru.flag} ${esc(ru.name)} in the final</small>` : ''}</span></div>` : ''}
+      <table class="projtbl">
+        <thead><tr><th>#</th><th>Player</th><th class="hide-sm">Grp</th><th class="hide-sm">KO</th><th>Proj. total</th></tr></thead>
+        <tbody>${rows}</tbody></table>
+    </div>
+  </details>`;
 }
 
 function renderProjection(d) {
@@ -1337,6 +1364,8 @@ function renderResults(d) {
 
   const sel = $('#fxfilter');
   if (sel) sel.onchange = () => { fixtureFilter = sel.value; renderResults(d); };
+  const tile = $('#results .projtile');
+  if (tile) tile.addEventListener('toggle', () => { projOpen = tile.open; });
 
   document.querySelectorAll('.mc-btn').forEach(btn => btn.onclick = () => {
     const panel = $('#mc-' + btn.dataset.mid);
