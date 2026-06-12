@@ -184,6 +184,12 @@
   .projtbl td { padding: 8px; border-bottom: 1px solid var(--line); }
   .projtbl td b { color: var(--gold); }
   .projtbl tr:last-child td { border-bottom: none; }
+  .champ { display: flex; align-items: center; gap: 14px; margin: 6px 0 12px; padding: 12px 14px;
+           background: linear-gradient(180deg, rgba(247,201,72,.12), rgba(247,201,72,.03));
+           border: 1px solid var(--line2); border-radius: 14px; font-size: 1rem; }
+  .champ .cflag { font-size: 2.4rem; line-height: 1; }
+  .champ b { font-family: var(--disp); font-size: 1.5rem; letter-spacing: 1px; }
+  .champ small { display: block; color: var(--dim); font-size: .7rem; margin-top: 3px; }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -1017,8 +1023,8 @@ function scorerSummary(r) {
 /* ---------------- matches tab ---------------- */
 let fixtureFilter = 'all';
 
-// Project final group standings assuming results follow the odds (or FIFA
-// ranking where no odds have been posted yet). Returns { byCode: {pos, pts, group} }.
+// Project final group tables assuming results follow the odds (or FIFA ranking
+// where no odds are posted yet). Returns running standings + finishing positions.
 function projectGroups(d) {
   const nameToCode = {};
   for (const c in d.teams) nameToCode[d.teams[c].name] = c;
@@ -1048,30 +1054,117 @@ function projectGroups(d) {
     groups[g].sort((a, b) => st[b].pts - st[a].pts || st[b].gd - st[a].gd || st[b].gf - st[a].gf)
       .forEach((c, i) => { byCode[c] = { pos: i + 1, pts: sp[String(i + 1)] || 0, group: g }; });
   }
-  return { byCode };
+  return { byCode, st, groups };
 }
 
-function projectionPanel(d, player, P) {
+// Walk the whole tournament: resolve qualifiers from the group projection, then
+// play out the bracket (better FIFA rank advances) to a theoretical champion.
+function projectTournament(d) {
+  const G = projectGroups(d);
+  const { st, groups } = G;
+  const better = (a, b) => (d.teams[a]?.fifa_rank || 999) <= (d.teams[b]?.fifa_rank || 999) ? a : b;
+  const letter = g => (g || '').replace('Group ', '').trim();
+
+  const winnerOf = {}, secondOf = {}, thirds = [];
+  for (const g in groups) {
+    const L = letter(g);
+    winnerOf[L] = groups[g][0];
+    secondOf[L] = groups[g][1];
+    if (groups[g][2]) thirds.push({ code: groups[g][2], L });
+  }
+  thirds.sort((a, b) => st[b.code].pts - st[a.code].pts || st[b.code].gd - st[a.code].gd
+    || st[b.code].gf - st[a.code].gf);
+  const thirdPool = thirds.slice(0, 8);        // 8 best third-placed teams advance
+
+  const kw = d.scoring.knockout_win, koPts = {}, koRun = {};
+  const award = (code, stage) => {
+    koPts[code] = (koPts[code] || 0) + (kw[stage] || 0);
+    (koRun[code] = koRun[code] || []).push(stage);
+  };
+  const STAGES = ['LAST_32', 'LAST_16', 'QUARTER_FINALS', 'SEMI_FINALS', 'FINAL'];
+  const byStage = {};
+  STAGES.forEach(s => byStage[s] = (d.bracket || []).filter(b => b.stage === s));
+  const won = { LAST_32: [], LAST_16: [], QUARTER_FINALS: [], SEMI_FINALS: [] };
+
+  const slot = name => {
+    let m;
+    if (m = name.match(/Group ([A-L]) Winner/)) return winnerOf[m[1]];
+    if (m = name.match(/Group ([A-L]) 2nd Place/)) return secondOf[m[1]];
+    if (m = name.match(/Third Place Group ([A-L/]+)/)) {
+      const allowed = m[1].split('/');
+      const i = thirdPool.findIndex(t => allowed.includes(t.L));
+      const pick = i >= 0 ? thirdPool.splice(i, 1)[0] : thirdPool.shift();
+      return pick ? pick.code : null;
+    }
+    if (m = name.match(/Round of 32 (\d+) Winner/)) return won.LAST_32[+m[1] - 1];
+    if (m = name.match(/Round of 16 (\d+) Winner/)) return won.LAST_16[+m[1] - 1];
+    if (m = name.match(/Quarterfinal (\d+) Winner/)) return won.QUARTER_FINALS[+m[1] - 1];
+    if (m = name.match(/Semifinal (\d+) Winner/)) return won.SEMI_FINALS[+m[1] - 1];
+    return null;
+  };
+
+  let champion = null, runnerUp = null;
+  STAGES.forEach(stage => byStage[stage].forEach(b => {
+    const h = slot(b.home.name), a = slot(b.away.name);
+    const w = (h && a) ? better(h, a) : (h || a);
+    if (w) award(w, stage);
+    if (stage === 'FINAL') { champion = w; runnerUp = w === h ? a : h; }
+    else won[stage].push(w);
+  }));
+
+  const playerTotals = {};
+  d.players.forEach(p => playerTotals[p.name] = { group: 0, ko: 0, total: 0 });
+  for (const c in d.teams) {
+    const o = d.teams[c].owner; if (!o || !playerTotals[o]) continue;
+    const gp = G.byCode[c] ? G.byCode[c].pts : 0, kp = koPts[c] || 0;
+    playerTotals[o].group += gp; playerTotals[o].ko += kp; playerTotals[o].total += gp + kp;
+  }
+  return { G, koPts, koRun, champion, runnerUp, playerTotals };
+}
+
+function projectionPanel(d, player, T) {
   const ORD = ['1st', '2nd', '3rd', '4th'];
   const codes = Object.keys(d.teams).filter(c => d.teams[c].owner === player);
   const cur = (d.players.find(p => p.name === player) || {}).total || 0;
-  let projTotal = 0;
+  const pt = T.playerTotals[player] || { group: 0, ko: 0, total: 0 };
   const rows = codes
-    .sort((a, b) => (P.byCode[a]?.pos || 9) - (P.byCode[b]?.pos || 9))
+    .sort((a, b) => (T.G.byCode[a]?.pos || 9) - (T.G.byCode[b]?.pos || 9))
     .map(c => {
-      const t = d.teams[c], pr = P.byCode[c];
-      const pts = pr ? pr.pts : 0; projTotal += pts;
+      const t = d.teams[c], pr = T.G.byCode[c];
+      const gp = pr ? pr.pts : 0, run = (T.koRun[c] || []).length;
       const finish = pr ? (ORD[pr.pos - 1] || pr.pos + 'th') : '—';
+      const ko = run ? `wins ${run} KO tie${run > 1 ? 's' : ''} (+${T.koPts[c]})`
+        : (pr && pr.pos <= 2 ? 'out in R32' : '—');
       return `<tr><td>${t.flag} ${esc(t.name)}</td>
         <td class="hide-sm">${esc(pr ? pr.group : '')}</td>
-        <td>${finish}</td><td><b>+${pts}</b></td></tr>`;
+        <td>${finish}</td><td class="hide-sm">${ko}</td><td><b>${gp + (T.koPts[c] || 0)}</b></td></tr>`;
     }).join('');
   return `<div class="projcard">
-    <div class="projhead">${esc(player)} — projected <b>${projTotal} pts</b> if results follow the odds</div>
-    <div class="projsub">Group-stage projection. Currently on ${cur} pt${cur === 1 ? '' : 's'}.
-      Games without posted odds fall back to FIFA ranking; knockout points aren't scheduled yet.</div>
+    <div class="projhead">${esc(player)} — projected <b>${pt.total} pts</b> if results follow the odds</div>
+    <div class="projsub">Group ${pt.group} + knockout ${pt.ko}. Currently on ${cur} pt${cur === 1 ? '' : 's'}.
+      Odds where posted, otherwise FIFA ranking; recomputed as the tournament progresses.</div>
     <table class="projtbl">
-      <thead><tr><th>Team</th><th class="hide-sm">Group</th><th>Proj. finish</th><th>Pts</th></tr></thead>
+      <thead><tr><th>Team</th><th class="hide-sm">Group</th><th>Finish</th><th class="hide-sm">Knockout</th><th>Pts</th></tr></thead>
+      <tbody>${rows}</tbody></table>
+  </div>`;
+}
+
+function tournamentPanel(d, T) {
+  const champ = T.champion ? d.teams[T.champion] : null;
+  const ru = T.runnerUp ? d.teams[T.runnerUp] : null;
+  const standings = d.players.map(p => ({ name: p.name, ...T.playerTotals[p.name] }))
+    .sort((a, b) => b.total - a.total);
+  const rows = standings.map((s, i) => `<tr><td>${i + 1}</td><td>${esc(s.name)}</td>
+    <td class="hide-sm">${s.group}</td><td class="hide-sm">${s.ko}</td><td><b>${s.total}</b></td></tr>`).join('');
+  return `<div class="projcard">
+    <div class="projhead">🔮 Projected tournament</div>
+    ${champ ? `<div class="champ"><span class="cflag">${champ.flag}</span>
+      <span>🏆 <b>${esc(champ.name)}</b> to lift the trophy${champ.owner ? ` — <span style="color:var(--gold)">${esc(champ.owner)}</span>'s pick` : ''}
+      ${ru ? `<small>projected to beat ${ru.flag} ${esc(ru.name)} in the final</small>` : ''}</span></div>` : ''}
+    <div class="projsub">If every remaining game follows the bookies' odds (FIFA ranking where none posted).
+      Knockout ties: better FIFA-ranked side advances. Recomputed automatically as results come in.</div>
+    <table class="projtbl">
+      <thead><tr><th>#</th><th>Player</th><th class="hide-sm">Grp</th><th class="hide-sm">KO</th><th>Proj. total</th></tr></thead>
       <tbody>${rows}</tbody></table>
   </div>`;
 }
@@ -1090,7 +1183,8 @@ function renderResults(d) {
       <option value="all"${FILT === 'all' ? ' selected' : ''}>Everyone</option>
       ${d.players.map(p => `<option value="${esc(p.name)}"${FILT === p.name ? ' selected' : ''}>${esc(p.name)}</option>`).join('')}
     </select></label></div>`;
-  const projPanel = FILT === 'all' ? '' : projectionPanel(d, FILT, projectGroups(d));
+  const T = projectTournament(d);
+  const projPanel = FILT === 'all' ? tournamentPanel(d, T) : projectionPanel(d, FILT, T);
   const byDay = {};
   fResults.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
   const side = (t, owner, away) => `<div class="t${away ? ' away' : ''}">
@@ -1292,11 +1386,11 @@ function renderRules(d) {
   const maxTotal = +gp["1"] + ko.LAST_32 + ko.LAST_16 + ko.QUARTER_FINALS + ko.SEMI_FINALS + ko.FINAL;
   $('#rules').innerHTML = `<div class="rules">
     <h3>The draw</h3>
-    <p>48 teams ranked by FIFA world ranking, split into three tiers of 16
-    (Tier 1 = ranks 1–16, Tier 2 = 17–32, Tier 3 = 33–48). Each of the 16
-    players drew <b>one team from every tier</b> — a favourite, a mid-ranker
-    and an underdog. That balance is the whole system: every point counts the
-    same for everyone, no multipliers.</p>
+    <p>48 teams ranked by FIFA world ranking, split into <b>four pots of 12</b>
+    (Pot 1 = the top 12, Pot 2 = 13th–24th, Pot 3 = 25th–36th, Pot 4 = 37th–48th).
+    Each of the <b>12 players</b> drew <b>one team from every pot</b> — four teams
+    spanning a giant, a contender, a challenger and an underdog. That balance is
+    the whole system: every point counts the same for everyone, no multipliers.</p>
     <h3>Group stage — finishing position</h3>
     <ul>
       <li>1st in the group: <b>${gp["1"]} pts</b></li>
@@ -1318,7 +1412,7 @@ function renderRules(d) {
     play-off carries no points.</p>
     <p style="margin-top:10px">A perfect run — top the group, then win every
     knockout game to the title — is worth <b>${maxTotal} points</b> from one team.
-    Your three teams' totals add together.</p>
+    Your four teams' totals add together.</p>
   </div>`;
 }
 
