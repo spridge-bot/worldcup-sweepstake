@@ -1,16 +1,112 @@
 {
   "players": [
-    { "name": "Glancy", "teams": [] },
-    { "name": "Ruggy", "teams": [] },
-    { "name": "Dipen", "teams": [] },
-    { "name": "Pari", "teams": [] },
-    { "name": "Spridge", "teams": [] },
-    { "name": "Fergs", "teams": [] },
-    { "name": "Dubs", "teams": [] },
-    { "name": "George", "teams": [] },
-    { "name": "Emily", "teams": [] },
-    { "name": "Jen", "teams": [] },
-    { "name": "Willo", "teams": [] },
-    { "name": "Brando", "teams": [] }
+    {
+      "name": "Glancy",
+      "teams": [
+        "GER",
+        "AUS",
+        "NOR",
+        "JOR"
+      ]
+    },
+    {
+      "name": "Ruggy",
+      "teams": [
+        "COL",
+        "KOR",
+        "ALG",
+        "QAT"
+      ]
+    },
+    {
+      "name": "Dipen",
+      "teams": [
+        "POR",
+        "MEX",
+        "CAN",
+        "RSA"
+      ]
+    },
+    {
+      "name": "Pari",
+      "teams": [
+        "BEL",
+        "URU",
+        "TUN",
+        "UZB"
+      ]
+    },
+    {
+      "name": "Spridge",
+      "teams": [
+        "FRA",
+        "IRN",
+        "SWE",
+        "BIH"
+      ]
+    },
+    {
+      "name": "Fergs",
+      "teams": [
+        "ARG",
+        "SEN",
+        "PAR",
+        "CUW"
+      ]
+    },
+    {
+      "name": "Dubs",
+      "teams": [
+        "CRO",
+        "TUR",
+        "PAN",
+        "CPV"
+      ]
+    },
+    {
+      "name": "George",
+      "teams": [
+        "BRA",
+        "AUT",
+        "SCO",
+        "GHA"
+      ]
+    },
+    {
+      "name": "Emily",
+      "teams": [
+        "NED",
+        "SUI",
+        "CZE",
+        "IRQ"
+      ]
+    },
+    {
+      "name": "Jen",
+      "teams": [
+        "ESP",
+        "JPN",
+        "CIV",
+        "HAI"
+      ]
+    },
+    {
+      "name": "Willo",
+      "teams": [
+        "MAR",
+        "USA",
+        "COD",
+        "NZL"
+      ]
+    },
+    {
+      "name": "Brando",
+      "teams": [
+        "ENG",
+        "ECU",
+        "EGY",
+        "KSA"
+      ]
+    }
   ]
 }
