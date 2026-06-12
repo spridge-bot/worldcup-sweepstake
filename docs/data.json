@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-12T14:52:47+00:00",
+ "generated_at": "2026-06-12T15:20:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-12",
  "scoring": {
@@ -19,196 +19,100 @@
  },
  "players": [
   {
-   "name": "Rich",
-   "teams": [
-    "MEX",
-    "CZE",
-    "CUW"
-   ],
-   "total": 6,
-   "today": 1,
+   "name": "Brando",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Dipen",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Dubs",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Emily",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Fergs",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Glancy",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Jen",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Pari",
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Ruggy",
+   "teams": [],
+   "total": 0,
+   "today": 0,
    "rank": 1,
    "movement": 0
   },
   {
    "name": "Spridge",
-   "teams": [
-    "NED",
-    "KOR",
-    "UZB"
-   ],
-   "total": 3,
-   "today": 3,
-   "rank": 2,
+   "teams": [],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
    "movement": 0
   },
   {
-   "name": "Barry",
-   "teams": [
-    "MAR",
-    "SWE",
-    "JOR"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "POR",
-    "AUT",
-    "CPV"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Dipen",
-   "teams": [
-    "GER",
-    "IRN",
-    "BIH"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "ESP",
-    "ECU",
-    "NZL"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "COL",
-    "PAN",
-    "PAR"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Fergs",
-   "teams": [
-    "CRO",
-    "CIV",
-    "QAT"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "George",
-   "teams": [
-    "USA",
-    "NOR",
-    "SCO"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "BRA",
-    "JPN",
-    "IRQ"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "JVR",
-   "teams": [
-    "ARG",
-    "CAN",
-    "TUN"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "SEN",
-    "SUI",
-    "GHA"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Nona",
-   "teams": [
-    "URU",
-    "TUR",
-    "COD"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Pari",
-   "teams": [
-    "FRA",
-    "ALG",
-    "RSA"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Ruggy",
-   "teams": [
-    "ENG",
-    "AUS",
-    "KSA"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
    "name": "Willo",
-   "teams": [
-    "BEL",
-    "EGY",
-    "HAI"
-   ],
+   "teams": [],
    "total": 0,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 1,
+   "movement": 0
   }
  ],
  "teams": {
@@ -218,7 +122,7 @@
    "flag": "🇦🇷",
    "tier": 1,
    "fifa_rank": 1,
-   "owner": "JVR",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -235,7 +139,7 @@
    "flag": "🇪🇸",
    "tier": 1,
    "fifa_rank": 2,
-   "owner": "Dubs",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -252,7 +156,7 @@
    "flag": "🇫🇷",
    "tier": 1,
    "fifa_rank": 3,
-   "owner": "Pari",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -269,7 +173,7 @@
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "tier": 1,
    "fifa_rank": 4,
-   "owner": "Ruggy",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -286,7 +190,7 @@
    "flag": "🇵🇹",
    "tier": 1,
    "fifa_rank": 5,
-   "owner": "Brando",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -303,7 +207,7 @@
    "flag": "🇧🇷",
    "tier": 1,
    "fifa_rank": 6,
-   "owner": "Glancy",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -320,7 +224,7 @@
    "flag": "🇲🇦",
    "tier": 1,
    "fifa_rank": 7,
-   "owner": "Barry",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -337,7 +241,7 @@
    "flag": "🇳🇱",
    "tier": 1,
    "fifa_rank": 8,
-   "owner": "Spridge",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -354,7 +258,7 @@
    "flag": "🇧🇪",
    "tier": 1,
    "fifa_rank": 9,
-   "owner": "Willo",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -371,7 +275,7 @@
    "flag": "🇩🇪",
    "tier": 1,
    "fifa_rank": 10,
-   "owner": "Dipen",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -388,7 +292,7 @@
    "flag": "🇭🇷",
    "tier": 1,
    "fifa_rank": 11,
-   "owner": "Fergs",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -405,7 +309,7 @@
    "flag": "🇨🇴",
    "tier": 1,
    "fifa_rank": 13,
-   "owner": "Emily",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -422,7 +326,7 @@
    "flag": "🇲🇽",
    "tier": 1,
    "fifa_rank": 14,
-   "owner": "Rich",
+   "owner": null,
    "status": "alive",
    "played": 1,
    "won": 1,
@@ -445,7 +349,7 @@
    "flag": "🇸🇳",
    "tier": 1,
    "fifa_rank": 15,
-   "owner": "Jen",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -462,7 +366,7 @@
    "flag": "🇺🇾",
    "tier": 1,
    "fifa_rank": 16,
-   "owner": "Nona",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -479,7 +383,7 @@
    "flag": "🇺🇸",
    "tier": 1,
    "fifa_rank": 17,
-   "owner": "George",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -496,7 +400,7 @@
    "flag": "🇯🇵",
    "tier": 2,
    "fifa_rank": 18,
-   "owner": "Glancy",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -513,7 +417,7 @@
    "flag": "🇨🇭",
    "tier": 2,
    "fifa_rank": 19,
-   "owner": "Jen",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -530,7 +434,7 @@
    "flag": "🇮🇷",
    "tier": 2,
    "fifa_rank": 20,
-   "owner": "Dipen",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -547,7 +451,7 @@
    "flag": "🇹🇷",
    "tier": 2,
    "fifa_rank": 22,
-   "owner": "Nona",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -564,7 +468,7 @@
    "flag": "🇪🇨",
    "tier": 2,
    "fifa_rank": 23,
-   "owner": "Dubs",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -581,7 +485,7 @@
    "flag": "🇦🇹",
    "tier": 2,
    "fifa_rank": 24,
-   "owner": "Brando",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -598,7 +502,7 @@
    "flag": "🇰🇷",
    "tier": 2,
    "fifa_rank": 25,
-   "owner": "Spridge",
+   "owner": null,
    "status": "alive",
    "played": 1,
    "won": 1,
@@ -621,7 +525,7 @@
    "flag": "🇦🇺",
    "tier": 2,
    "fifa_rank": 27,
-   "owner": "Ruggy",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -638,7 +542,7 @@
    "flag": "🇩🇿",
    "tier": 2,
    "fifa_rank": 28,
-   "owner": "Pari",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -655,7 +559,7 @@
    "flag": "🇪🇬",
    "tier": 2,
    "fifa_rank": 29,
-   "owner": "Willo",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -672,7 +576,7 @@
    "flag": "🇨🇦",
    "tier": 2,
    "fifa_rank": 30,
-   "owner": "JVR",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -689,7 +593,7 @@
    "flag": "🇳🇴",
    "tier": 2,
    "fifa_rank": 31,
-   "owner": "George",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -706,7 +610,7 @@
    "flag": "🇨🇮",
    "tier": 2,
    "fifa_rank": 33,
-   "owner": "Fergs",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -723,7 +627,7 @@
    "flag": "🇵🇦",
    "tier": 2,
    "fifa_rank": 34,
-   "owner": "Emily",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -740,7 +644,7 @@
    "flag": "🇸🇪",
    "tier": 2,
    "fifa_rank": 38,
-   "owner": "Barry",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -757,7 +661,7 @@
    "flag": "🇨🇿",
    "tier": 2,
    "fifa_rank": 39,
-   "owner": "Rich",
+   "owner": null,
    "status": "alive",
    "played": 1,
    "won": 0,
@@ -780,7 +684,7 @@
    "flag": "🇵🇾",
    "tier": 3,
    "fifa_rank": 40,
-   "owner": "Emily",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -797,7 +701,7 @@
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
    "tier": 3,
    "fifa_rank": 42,
-   "owner": "George",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -814,7 +718,7 @@
    "flag": "🇨🇩",
    "tier": 3,
    "fifa_rank": 45,
-   "owner": "Nona",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -831,7 +735,7 @@
    "flag": "🇹🇳",
    "tier": 3,
    "fifa_rank": 46,
-   "owner": "JVR",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -848,7 +752,7 @@
    "flag": "🇺🇿",
    "tier": 3,
    "fifa_rank": 48,
-   "owner": "Spridge",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -865,7 +769,7 @@
    "flag": "🇮🇶",
    "tier": 3,
    "fifa_rank": 49,
-   "owner": "Glancy",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -882,7 +786,7 @@
    "flag": "🇶🇦",
    "tier": 3,
    "fifa_rank": 50,
-   "owner": "Fergs",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -899,7 +803,7 @@
    "flag": "🇿🇦",
    "tier": 3,
    "fifa_rank": 51,
-   "owner": "Pari",
+   "owner": null,
    "status": "alive",
    "played": 1,
    "won": 0,
@@ -916,7 +820,7 @@
    "flag": "🇸🇦",
    "tier": 3,
    "fifa_rank": 52,
-   "owner": "Ruggy",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -933,7 +837,7 @@
    "flag": "🇯🇴",
    "tier": 3,
    "fifa_rank": 53,
-   "owner": "Barry",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -950,7 +854,7 @@
    "flag": "🇧🇦",
    "tier": 3,
    "fifa_rank": 54,
-   "owner": "Dipen",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -967,7 +871,7 @@
    "flag": "🇨🇻",
    "tier": 3,
    "fifa_rank": 55,
-   "owner": "Brando",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -984,7 +888,7 @@
    "flag": "🇬🇭",
    "tier": 3,
    "fifa_rank": 56,
-   "owner": "Jen",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -1001,7 +905,7 @@
    "flag": "🇨🇼",
    "tier": 3,
    "fifa_rank": 57,
-   "owner": "Rich",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -1018,7 +922,7 @@
    "flag": "🇭🇹",
    "tier": 3,
    "fifa_rank": 58,
-   "owner": "Willo",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -1035,7 +939,7 @@
    "flag": "🇳🇿",
    "tier": 3,
    "fifa_rank": 59,
-   "owner": "Dubs",
+   "owner": null,
    "status": "alive",
    "played": 0,
    "won": 0,
@@ -1128,13 +1032,13 @@
    "home": {
     "name": "Canada",
     "flag": "🇨🇦",
-    "owner": "JVR",
+    "owner": null,
     "form": "DWDDW"
    },
    "away": {
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
-    "owner": "Dipen",
+    "owner": null,
     "form": "DDWWD"
    }
   },
@@ -1153,13 +1057,13 @@
    "home": {
     "name": "USA",
     "flag": "🇺🇸",
-    "owner": "George",
+    "owner": null,
     "form": "LWLLW"
    },
    "away": {
     "name": "Paraguay",
     "flag": "🇵🇾",
-    "owner": "Emily",
+    "owner": null,
     "form": "WLWWL"
    }
   },
@@ -1178,13 +1082,13 @@
    "home": {
     "name": "Qatar",
     "flag": "🇶🇦",
-    "owner": "Fergs",
+    "owner": null,
     "form": "DLLWD"
    },
    "away": {
     "name": "Switzerland",
     "flag": "🇨🇭",
-    "owner": "Jen",
+    "owner": null,
     "form": "DWDLD"
    }
   },
@@ -1203,13 +1107,13 @@
    "home": {
     "name": "Brazil",
     "flag": "🇧🇷",
-    "owner": "Glancy",
+    "owner": null,
     "form": "WWWLD"
    },
    "away": {
     "name": "Morocco",
     "flag": "🇲🇦",
-    "owner": "Barry",
+    "owner": null,
     "form": "DWWWD"
    }
   },
@@ -1228,13 +1132,13 @@
    "home": {
     "name": "Haiti",
     "flag": "🇭🇹",
-    "owner": "Willo",
+    "owner": null,
     "form": "LWDLW"
    },
    "away": {
     "name": "Scotland",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "owner": "George",
+    "owner": null,
     "form": "WWLLW"
    }
   },
@@ -1253,13 +1157,13 @@
    "home": {
     "name": "Australia",
     "flag": "🇦🇺",
-    "owner": "Ruggy",
+    "owner": null,
     "form": "DLWWL"
    },
    "away": {
     "name": "Türkiye",
     "flag": "🇹🇷",
-    "owner": "Nona",
+    "owner": null,
     "form": "WWWWD"
    }
   },
@@ -1278,13 +1182,13 @@
    "home": {
     "name": "Germany",
     "flag": "🇩🇪",
-    "owner": "Dipen",
+    "owner": null,
     "form": "WWWWW"
    },
    "away": {
     "name": "Curaçao",
     "flag": "🇨🇼",
-    "owner": "Rich",
+    "owner": null,
     "form": "WLLLD"
    }
   },
@@ -1303,13 +1207,13 @@
    "home": {
     "name": "Netherlands",
     "flag": "🇳🇱",
-    "owner": "Spridge",
+    "owner": null,
     "form": "WLDWW"
    },
    "away": {
     "name": "Japan",
     "flag": "🇯🇵",
-    "owner": "Glancy",
+    "owner": null,
     "form": "WWWWW"
    }
   },
@@ -1328,13 +1232,13 @@
    "home": {
     "name": "Ivory Coast",
     "flag": "🇨🇮",
-    "owner": "Fergs",
+    "owner": null,
     "form": "WWWLW"
    },
    "away": {
     "name": "Ecuador",
     "flag": "🇪🇨",
-    "owner": "Dubs",
+    "owner": null,
     "form": "WWDDW"
    }
   },
@@ -1353,13 +1257,13 @@
    "home": {
     "name": "Sweden",
     "flag": "🇸🇪",
-    "owner": "Barry",
+    "owner": null,
     "form": "DLWWD"
    },
    "away": {
     "name": "Tunisia",
     "flag": "🇹🇳",
-    "owner": "JVR",
+    "owner": null,
     "form": "LLDWL"
    }
   },
@@ -1378,13 +1282,13 @@
    "home": {
     "name": "Spain",
     "flag": "🇪🇸",
-    "owner": "Dubs",
+    "owner": null,
     "form": "WDDWD"
    },
    "away": {
     "name": "Cabo Verde",
     "flag": "🇨🇻",
-    "owner": "Brando",
+    "owner": null,
     "form": "WWLLL"
    }
   },
@@ -1403,13 +1307,13 @@
    "home": {
     "name": "Belgium",
     "flag": "🇧🇪",
-    "owner": "Willo",
+    "owner": null,
     "form": "WWDWW"
    },
    "away": {
     "name": "Egypt",
     "flag": "🇪🇬",
-    "owner": "Willo",
+    "owner": null,
     "form": "LWDWL"
    }
   },
@@ -1428,13 +1332,13 @@
    "home": {
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
-    "owner": "Ruggy",
+    "owner": null,
     "form": "DWLLL"
    },
    "away": {
     "name": "Uruguay",
     "flag": "🇺🇾",
-    "owner": "Nona",
+    "owner": null,
     "form": "DDLDW"
    }
   },
@@ -1453,13 +1357,13 @@
    "home": {
     "name": "Iran",
     "flag": "🇮🇷",
-    "owner": "Dipen",
+    "owner": null,
     "form": "WWWLL"
    },
    "away": {
     "name": "New Zealand",
     "flag": "🇳🇿",
-    "owner": "Dubs",
+    "owner": null,
     "form": "LLWLL"
    }
   },
@@ -1478,13 +1382,13 @@
    "home": {
     "name": "France",
     "flag": "🇫🇷",
-    "owner": "Pari",
+    "owner": null,
     "form": "WLWWW"
    },
    "away": {
     "name": "Senegal",
     "flag": "🇸🇳",
-    "owner": "Jen",
+    "owner": null,
     "form": "DLWWW"
    }
   },
@@ -1503,13 +1407,13 @@
    "home": {
     "name": "Iraq",
     "flag": "🇮🇶",
-    "owner": "Glancy",
+    "owner": null,
     "form": "LDWWW"
    },
    "away": {
     "name": "Norway",
     "flag": "🇳🇴",
-    "owner": "George",
+    "owner": null,
     "form": "DWDLW"
    }
   },
@@ -1528,13 +1432,13 @@
    "home": {
     "name": "Argentina",
     "flag": "🇦🇷",
-    "owner": "JVR",
+    "owner": null,
     "form": "WWWWW"
    },
    "away": {
     "name": "Algeria",
     "flag": "🇩🇿",
-    "owner": "Pari",
+    "owner": null,
     "form": "WWDWL"
    }
   },
@@ -1553,13 +1457,13 @@
    "home": {
     "name": "Austria",
     "flag": "🇦🇹",
-    "owner": "Brando",
+    "owner": null,
     "form": "WWWDW"
    },
    "away": {
     "name": "Jordan",
     "flag": "🇯🇴",
-    "owner": "Barry",
+    "owner": null,
     "form": "LLDDD"
    }
   },
@@ -1578,13 +1482,13 @@
    "home": {
     "name": "Portugal",
     "flag": "🇵🇹",
-    "owner": "Brando",
+    "owner": null,
     "form": "WWWDW"
    },
    "away": {
     "name": "DR Congo",
     "flag": "🇨🇩",
-    "owner": "Nona",
+    "owner": null,
     "form": "LDWWL"
    }
   },
@@ -1603,13 +1507,13 @@
    "home": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Ruggy",
+    "owner": null,
     "form": "WWLDW"
    },
    "away": {
     "name": "Croatia",
     "flag": "🇭🇷",
-    "owner": "Fergs",
+    "owner": null,
     "form": "WLLWW"
    }
   },
@@ -1628,13 +1532,13 @@
    "home": {
     "name": "Ghana",
     "flag": "🇬🇭",
-    "owner": "Jen",
+    "owner": null,
     "form": "DLLLL"
    },
    "away": {
     "name": "Panama",
     "flag": "🇵🇦",
-    "owner": "Emily",
+    "owner": null,
     "form": "DWLWD"
    }
   },
@@ -1653,13 +1557,13 @@
    "home": {
     "name": "Uzbekistan",
     "flag": "🇺🇿",
-    "owner": "Spridge",
+    "owner": null,
     "form": "LLWWD"
    },
    "away": {
     "name": "Colombia",
     "flag": "🇨🇴",
-    "owner": "Emily",
+    "owner": null,
     "form": "WWLLW"
    }
   },
@@ -1678,13 +1582,13 @@
    "home": {
     "name": "Czechia",
     "flag": "🇨🇿",
-    "owner": "Rich",
+    "owner": null,
     "form": "LWWWW"
    },
    "away": {
     "name": "South Africa",
     "flag": "🇿🇦",
-    "owner": "Pari",
+    "owner": null,
     "form": "LWDLD"
    }
   },
@@ -1703,13 +1607,13 @@
    "home": {
     "name": "Switzerland",
     "flag": "🇨🇭",
-    "owner": "Jen",
+    "owner": null,
     "form": "DWDLD"
    },
    "away": {
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
-    "owner": "Dipen",
+    "owner": null,
     "form": "DDWWD"
    }
   },
@@ -1728,13 +1632,13 @@
    "home": {
     "name": "Canada",
     "flag": "🇨🇦",
-    "owner": "JVR",
+    "owner": null,
     "form": "DWDDW"
    },
    "away": {
     "name": "Qatar",
     "flag": "🇶🇦",
-    "owner": "Fergs",
+    "owner": null,
     "form": "DLLWD"
    }
   },
@@ -1753,13 +1657,13 @@
    "home": {
     "name": "Mexico",
     "flag": "🇲🇽",
-    "owner": "Rich",
+    "owner": null,
     "form": "WWWWD"
    },
    "away": {
     "name": "South Korea",
     "flag": "🇰🇷",
-    "owner": "Spridge",
+    "owner": null,
     "form": "WWWLL"
    }
   },
@@ -1778,13 +1682,13 @@
    "home": {
     "name": "USA",
     "flag": "🇺🇸",
-    "owner": "George",
+    "owner": null,
     "form": "LWLLW"
    },
    "away": {
     "name": "Australia",
     "flag": "🇦🇺",
-    "owner": "Ruggy",
+    "owner": null,
     "form": "DLWWL"
    }
   },
@@ -1803,13 +1707,13 @@
    "home": {
     "name": "Scotland",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "owner": "George",
+    "owner": null,
     "form": "WWLLW"
    },
    "away": {
     "name": "Morocco",
     "flag": "🇲🇦",
-    "owner": "Barry",
+    "owner": null,
     "form": "DWWWD"
    }
   },
@@ -1828,13 +1732,13 @@
    "home": {
     "name": "Brazil",
     "flag": "🇧🇷",
-    "owner": "Glancy",
+    "owner": null,
     "form": "WWWLD"
    },
    "away": {
     "name": "Haiti",
     "flag": "🇭🇹",
-    "owner": "Willo",
+    "owner": null,
     "form": "LWDLW"
    }
   },
@@ -1853,13 +1757,13 @@
    "home": {
     "name": "Türkiye",
     "flag": "🇹🇷",
-    "owner": "Nona",
+    "owner": null,
     "form": "WWWWD"
    },
    "away": {
     "name": "Paraguay",
     "flag": "🇵🇾",
-    "owner": "Emily",
+    "owner": null,
     "form": "WLWWL"
    }
   },
@@ -1878,13 +1782,13 @@
    "home": {
     "name": "Netherlands",
     "flag": "🇳🇱",
-    "owner": "Spridge",
+    "owner": null,
     "form": "WLDWW"
    },
    "away": {
     "name": "Sweden",
     "flag": "🇸🇪",
-    "owner": "Barry",
+    "owner": null,
     "form": "DLWWD"
    }
   },
@@ -1903,13 +1807,13 @@
    "home": {
     "name": "Germany",
     "flag": "🇩🇪",
-    "owner": "Dipen",
+    "owner": null,
     "form": "WWWWW"
    },
    "away": {
     "name": "Ivory Coast",
     "flag": "🇨🇮",
-    "owner": "Fergs",
+    "owner": null,
     "form": "WWWLW"
    }
   },
@@ -1928,13 +1832,13 @@
    "home": {
     "name": "Ecuador",
     "flag": "🇪🇨",
-    "owner": "Dubs",
+    "owner": null,
     "form": "WWDDW"
    },
    "away": {
     "name": "Curaçao",
     "flag": "🇨🇼",
-    "owner": "Rich",
+    "owner": null,
     "form": "WLLLD"
    }
   },
@@ -1953,13 +1857,13 @@
    "home": {
     "name": "Tunisia",
     "flag": "🇹🇳",
-    "owner": "JVR",
+    "owner": null,
     "form": "LLDWL"
    },
    "away": {
     "name": "Japan",
     "flag": "🇯🇵",
-    "owner": "Glancy",
+    "owner": null,
     "form": "WWWWW"
    }
   },
@@ -1978,13 +1882,13 @@
    "home": {
     "name": "Spain",
     "flag": "🇪🇸",
-    "owner": "Dubs",
+    "owner": null,
     "form": "WDDWD"
    },
    "away": {
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
-    "owner": "Ruggy",
+    "owner": null,
     "form": "DWLLL"
    }
   },
@@ -2003,13 +1907,13 @@
    "home": {
     "name": "Belgium",
     "flag": "🇧🇪",
-    "owner": "Willo",
+    "owner": null,
     "form": "WWDWW"
    },
    "away": {
     "name": "Iran",
     "flag": "🇮🇷",
-    "owner": "Dipen",
+    "owner": null,
     "form": "WWWLL"
    }
   },
@@ -2028,13 +1932,13 @@
    "home": {
     "name": "Uruguay",
     "flag": "🇺🇾",
-    "owner": "Nona",
+    "owner": null,
     "form": "DDLDW"
    },
    "away": {
     "name": "Cabo Verde",
     "flag": "🇨🇻",
-    "owner": "Brando",
+    "owner": null,
     "form": "WWLLL"
    }
   },
@@ -2053,13 +1957,13 @@
    "home": {
     "name": "New Zealand",
     "flag": "🇳🇿",
-    "owner": "Dubs",
+    "owner": null,
     "form": "LLWLL"
    },
    "away": {
     "name": "Egypt",
     "flag": "🇪🇬",
-    "owner": "Willo",
+    "owner": null,
     "form": "LWDWL"
    }
   },
@@ -2078,13 +1982,13 @@
    "home": {
     "name": "Argentina",
     "flag": "🇦🇷",
-    "owner": "JVR",
+    "owner": null,
     "form": "WWWWW"
    },
    "away": {
     "name": "Austria",
     "flag": "🇦🇹",
-    "owner": "Brando",
+    "owner": null,
     "form": "WWWDW"
    }
   },
@@ -2103,13 +2007,13 @@
    "home": {
     "name": "France",
     "flag": "🇫🇷",
-    "owner": "Pari",
+    "owner": null,
     "form": "WLWWW"
    },
    "away": {
     "name": "Iraq",
     "flag": "🇮🇶",
-    "owner": "Glancy",
+    "owner": null,
     "form": "LDWWW"
    }
   },
@@ -2128,13 +2032,13 @@
    "home": {
     "name": "Norway",
     "flag": "🇳🇴",
-    "owner": "George",
+    "owner": null,
     "form": "DWDLW"
    },
    "away": {
     "name": "Senegal",
     "flag": "🇸🇳",
-    "owner": "Jen",
+    "owner": null,
     "form": "DLWWW"
    }
   },
@@ -2153,13 +2057,13 @@
    "home": {
     "name": "Jordan",
     "flag": "🇯🇴",
-    "owner": "Barry",
+    "owner": null,
     "form": "LLDDD"
    },
    "away": {
     "name": "Algeria",
     "flag": "🇩🇿",
-    "owner": "Pari",
+    "owner": null,
     "form": "WWDWL"
    }
   },
@@ -2178,13 +2082,13 @@
    "home": {
     "name": "Portugal",
     "flag": "🇵🇹",
-    "owner": "Brando",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Uzbekistan",
     "flag": "🇺🇿",
-    "owner": "Spridge",
+    "owner": null,
     "form": null
    }
   },
@@ -2203,13 +2107,13 @@
    "home": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Ruggy",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Ghana",
     "flag": "🇬🇭",
-    "owner": "Jen",
+    "owner": null,
     "form": null
    }
   },
@@ -2228,13 +2132,13 @@
    "home": {
     "name": "Panama",
     "flag": "🇵🇦",
-    "owner": "Emily",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Croatia",
     "flag": "🇭🇷",
-    "owner": "Fergs",
+    "owner": null,
     "form": null
    }
   },
@@ -2253,13 +2157,13 @@
    "home": {
     "name": "Colombia",
     "flag": "🇨🇴",
-    "owner": "Emily",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "DR Congo",
     "flag": "🇨🇩",
-    "owner": "Nona",
+    "owner": null,
     "form": null
    }
   },
@@ -2278,13 +2182,13 @@
    "home": {
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
-    "owner": "Dipen",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Qatar",
     "flag": "🇶🇦",
-    "owner": "Fergs",
+    "owner": null,
     "form": null
    }
   },
@@ -2303,13 +2207,13 @@
    "home": {
     "name": "Switzerland",
     "flag": "🇨🇭",
-    "owner": "Jen",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Canada",
     "flag": "🇨🇦",
-    "owner": "JVR",
+    "owner": null,
     "form": null
    }
   },
@@ -2328,13 +2232,13 @@
    "home": {
     "name": "Morocco",
     "flag": "🇲🇦",
-    "owner": "Barry",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Haiti",
     "flag": "🇭🇹",
-    "owner": "Willo",
+    "owner": null,
     "form": null
    }
   },
@@ -2353,13 +2257,13 @@
    "home": {
     "name": "Scotland",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "owner": "George",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Brazil",
     "flag": "🇧🇷",
-    "owner": "Glancy",
+    "owner": null,
     "form": null
    }
   },
@@ -2378,13 +2282,13 @@
    "home": {
     "name": "Czechia",
     "flag": "🇨🇿",
-    "owner": "Rich",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Mexico",
     "flag": "🇲🇽",
-    "owner": "Rich",
+    "owner": null,
     "form": null
    }
   },
@@ -2403,13 +2307,13 @@
    "home": {
     "name": "South Africa",
     "flag": "🇿🇦",
-    "owner": "Pari",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "South Korea",
     "flag": "🇰🇷",
-    "owner": "Spridge",
+    "owner": null,
     "form": null
    }
   },
@@ -2428,13 +2332,13 @@
    "home": {
     "name": "Curaçao",
     "flag": "🇨🇼",
-    "owner": "Rich",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Ivory Coast",
     "flag": "🇨🇮",
-    "owner": "Fergs",
+    "owner": null,
     "form": null
    }
   },
@@ -2453,13 +2357,13 @@
    "home": {
     "name": "Ecuador",
     "flag": "🇪🇨",
-    "owner": "Dubs",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Germany",
     "flag": "🇩🇪",
-    "owner": "Dipen",
+    "owner": null,
     "form": null
    }
   },
@@ -2478,13 +2382,13 @@
    "home": {
     "name": "Japan",
     "flag": "🇯🇵",
-    "owner": "Glancy",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Sweden",
     "flag": "🇸🇪",
-    "owner": "Barry",
+    "owner": null,
     "form": null
    }
   },
@@ -2503,13 +2407,13 @@
    "home": {
     "name": "Tunisia",
     "flag": "🇹🇳",
-    "owner": "JVR",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Netherlands",
     "flag": "🇳🇱",
-    "owner": "Spridge",
+    "owner": null,
     "form": null
    }
   },
@@ -2528,13 +2432,13 @@
    "home": {
     "name": "Paraguay",
     "flag": "🇵🇾",
-    "owner": "Emily",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Australia",
     "flag": "🇦🇺",
-    "owner": "Ruggy",
+    "owner": null,
     "form": null
    }
   },
@@ -2553,13 +2457,13 @@
    "home": {
     "name": "Türkiye",
     "flag": "🇹🇷",
-    "owner": "Nona",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "USA",
     "flag": "🇺🇸",
-    "owner": "George",
+    "owner": null,
     "form": null
    }
   },
@@ -2578,13 +2482,13 @@
    "home": {
     "name": "Norway",
     "flag": "🇳🇴",
-    "owner": "George",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "France",
     "flag": "🇫🇷",
-    "owner": "Pari",
+    "owner": null,
     "form": null
    }
   },
@@ -2603,13 +2507,13 @@
    "home": {
     "name": "Senegal",
     "flag": "🇸🇳",
-    "owner": "Jen",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Iraq",
     "flag": "🇮🇶",
-    "owner": "Glancy",
+    "owner": null,
     "form": null
    }
   },
@@ -2628,13 +2532,13 @@
    "home": {
     "name": "Cabo Verde",
     "flag": "🇨🇻",
-    "owner": "Brando",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
-    "owner": "Ruggy",
+    "owner": null,
     "form": null
    }
   },
@@ -2653,13 +2557,13 @@
    "home": {
     "name": "Uruguay",
     "flag": "🇺🇾",
-    "owner": "Nona",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Spain",
     "flag": "🇪🇸",
-    "owner": "Dubs",
+    "owner": null,
     "form": null
    }
   },
@@ -2678,13 +2582,13 @@
    "home": {
     "name": "Egypt",
     "flag": "🇪🇬",
-    "owner": "Willo",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Iran",
     "flag": "🇮🇷",
-    "owner": "Dipen",
+    "owner": null,
     "form": null
    }
   },
@@ -2703,13 +2607,13 @@
    "home": {
     "name": "New Zealand",
     "flag": "🇳🇿",
-    "owner": "Dubs",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Belgium",
     "flag": "🇧🇪",
-    "owner": "Willo",
+    "owner": null,
     "form": null
    }
   },
@@ -2728,13 +2632,13 @@
    "home": {
     "name": "Croatia",
     "flag": "🇭🇷",
-    "owner": "Fergs",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Ghana",
     "flag": "🇬🇭",
-    "owner": "Jen",
+    "owner": null,
     "form": null
    }
   },
@@ -2753,13 +2657,13 @@
    "home": {
     "name": "Panama",
     "flag": "🇵🇦",
-    "owner": "Emily",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Ruggy",
+    "owner": null,
     "form": null
    }
   },
@@ -2778,13 +2682,13 @@
    "home": {
     "name": "Colombia",
     "flag": "🇨🇴",
-    "owner": "Emily",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Portugal",
     "flag": "🇵🇹",
-    "owner": "Brando",
+    "owner": null,
     "form": null
    }
   },
@@ -2803,13 +2707,13 @@
    "home": {
     "name": "DR Congo",
     "flag": "🇨🇩",
-    "owner": "Nona",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Uzbekistan",
     "flag": "🇺🇿",
-    "owner": "Spridge",
+    "owner": null,
     "form": null
    }
   },
@@ -2828,13 +2732,13 @@
    "home": {
     "name": "Algeria",
     "flag": "🇩🇿",
-    "owner": "Pari",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Austria",
     "flag": "🇦🇹",
-    "owner": "Brando",
+    "owner": null,
     "form": null
    }
   },
@@ -2853,13 +2757,13 @@
    "home": {
     "name": "Jordan",
     "flag": "🇯🇴",
-    "owner": "Barry",
+    "owner": null,
     "form": null
    },
    "away": {
     "name": "Argentina",
     "flag": "🇦🇷",
-    "owner": "JVR",
+    "owner": null,
     "form": null
    }
   }
@@ -2883,7 +2787,7 @@
      "name": "Mexico",
      "flag": "🇲🇽",
      "tier": 1,
-     "owner": "Rich"
+     "owner": null
     },
     {
      "group": "Group A",
@@ -2900,7 +2804,7 @@
      "name": "South Korea",
      "flag": "🇰🇷",
      "tier": 2,
-     "owner": "Spridge"
+     "owner": null
     },
     {
      "group": "Group A",
@@ -2917,7 +2821,7 @@
      "name": "Czechia",
      "flag": "🇨🇿",
      "tier": 2,
-     "owner": "Rich"
+     "owner": null
     },
     {
      "group": "Group A",
@@ -2934,7 +2838,7 @@
      "name": "South Africa",
      "flag": "🇿🇦",
      "tier": 3,
-     "owner": "Pari"
+     "owner": null
     }
    ]
   },
@@ -2956,7 +2860,7 @@
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
      "tier": 3,
-     "owner": "Dipen"
+     "owner": null
     },
     {
      "group": "Group B",
@@ -2973,7 +2877,7 @@
      "name": "Canada",
      "flag": "🇨🇦",
      "tier": 2,
-     "owner": "JVR"
+     "owner": null
     },
     {
      "group": "Group B",
@@ -2990,7 +2894,7 @@
      "name": "Qatar",
      "flag": "🇶🇦",
      "tier": 3,
-     "owner": "Fergs"
+     "owner": null
     },
     {
      "group": "Group B",
@@ -3007,7 +2911,7 @@
      "name": "Switzerland",
      "flag": "🇨🇭",
      "tier": 2,
-     "owner": "Jen"
+     "owner": null
     }
    ]
   },
@@ -3029,7 +2933,7 @@
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
-     "owner": "Glancy"
+     "owner": null
     },
     {
      "group": "Group C",
@@ -3046,7 +2950,7 @@
      "name": "Haiti",
      "flag": "🇭🇹",
      "tier": 3,
-     "owner": "Willo"
+     "owner": null
     },
     {
      "group": "Group C",
@@ -3063,7 +2967,7 @@
      "name": "Morocco",
      "flag": "🇲🇦",
      "tier": 1,
-     "owner": "Barry"
+     "owner": null
     },
     {
      "group": "Group C",
@@ -3080,7 +2984,7 @@
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "tier": 3,
-     "owner": "George"
+     "owner": null
     }
    ]
   },
@@ -3102,7 +3006,7 @@
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
-     "owner": "Ruggy"
+     "owner": null
     },
     {
      "group": "Group D",
@@ -3119,7 +3023,7 @@
      "name": "Paraguay",
      "flag": "🇵🇾",
      "tier": 3,
-     "owner": "Emily"
+     "owner": null
     },
     {
      "group": "Group D",
@@ -3136,7 +3040,7 @@
      "name": "Türkiye",
      "flag": "🇹🇷",
      "tier": 2,
-     "owner": "Nona"
+     "owner": null
     },
     {
      "group": "Group D",
@@ -3153,7 +3057,7 @@
      "name": "USA",
      "flag": "🇺🇸",
      "tier": 1,
-     "owner": "George"
+     "owner": null
     }
    ]
   },
@@ -3175,7 +3079,7 @@
      "name": "Curaçao",
      "flag": "🇨🇼",
      "tier": 3,
-     "owner": "Rich"
+     "owner": null
     },
     {
      "group": "Group E",
@@ -3192,7 +3096,7 @@
      "name": "Ecuador",
      "flag": "🇪🇨",
      "tier": 2,
-     "owner": "Dubs"
+     "owner": null
     },
     {
      "group": "Group E",
@@ -3209,7 +3113,7 @@
      "name": "Germany",
      "flag": "🇩🇪",
      "tier": 1,
-     "owner": "Dipen"
+     "owner": null
     },
     {
      "group": "Group E",
@@ -3226,7 +3130,7 @@
      "name": "Ivory Coast",
      "flag": "🇨🇮",
      "tier": 2,
-     "owner": "Fergs"
+     "owner": null
     }
    ]
   },
@@ -3248,7 +3152,7 @@
      "name": "Japan",
      "flag": "🇯🇵",
      "tier": 2,
-     "owner": "Glancy"
+     "owner": null
     },
     {
      "group": "Group F",
@@ -3265,7 +3169,7 @@
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
-     "owner": "Spridge"
+     "owner": null
     },
     {
      "group": "Group F",
@@ -3282,7 +3186,7 @@
      "name": "Sweden",
      "flag": "🇸🇪",
      "tier": 2,
-     "owner": "Barry"
+     "owner": null
     },
     {
      "group": "Group F",
@@ -3299,7 +3203,7 @@
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
-     "owner": "JVR"
+     "owner": null
     }
    ]
   },
@@ -3321,7 +3225,7 @@
      "name": "Belgium",
      "flag": "🇧🇪",
      "tier": 1,
-     "owner": "Willo"
+     "owner": null
     },
     {
      "group": "Group G",
@@ -3338,7 +3242,7 @@
      "name": "Egypt",
      "flag": "🇪🇬",
      "tier": 2,
-     "owner": "Willo"
+     "owner": null
     },
     {
      "group": "Group G",
@@ -3355,7 +3259,7 @@
      "name": "Iran",
      "flag": "🇮🇷",
      "tier": 2,
-     "owner": "Dipen"
+     "owner": null
     },
     {
      "group": "Group G",
@@ -3372,7 +3276,7 @@
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
-     "owner": "Dubs"
+     "owner": null
     }
    ]
   },
@@ -3394,7 +3298,7 @@
      "name": "Cabo Verde",
      "flag": "🇨🇻",
      "tier": 3,
-     "owner": "Brando"
+     "owner": null
     },
     {
      "group": "Group H",
@@ -3411,7 +3315,7 @@
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
      "tier": 3,
-     "owner": "Ruggy"
+     "owner": null
     },
     {
      "group": "Group H",
@@ -3428,7 +3332,7 @@
      "name": "Spain",
      "flag": "🇪🇸",
      "tier": 1,
-     "owner": "Dubs"
+     "owner": null
     },
     {
      "group": "Group H",
@@ -3445,7 +3349,7 @@
      "name": "Uruguay",
      "flag": "🇺🇾",
      "tier": 1,
-     "owner": "Nona"
+     "owner": null
     }
    ]
   },
@@ -3467,7 +3371,7 @@
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
-     "owner": "Pari"
+     "owner": null
     },
     {
      "group": "Group I",
@@ -3484,7 +3388,7 @@
      "name": "Iraq",
      "flag": "🇮🇶",
      "tier": 3,
-     "owner": "Glancy"
+     "owner": null
     },
     {
      "group": "Group I",
@@ -3501,7 +3405,7 @@
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
-     "owner": "George"
+     "owner": null
     },
     {
      "group": "Group I",
@@ -3518,7 +3422,7 @@
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
-     "owner": "Jen"
+     "owner": null
     }
    ]
   },
@@ -3540,7 +3444,7 @@
      "name": "Algeria",
      "flag": "🇩🇿",
      "tier": 2,
-     "owner": "Pari"
+     "owner": null
     },
     {
      "group": "Group J",
@@ -3557,7 +3461,7 @@
      "name": "Argentina",
      "flag": "🇦🇷",
      "tier": 1,
-     "owner": "JVR"
+     "owner": null
     },
     {
      "group": "Group J",
@@ -3574,7 +3478,7 @@
      "name": "Austria",
      "flag": "🇦🇹",
      "tier": 2,
-     "owner": "Brando"
+     "owner": null
     },
     {
      "group": "Group J",
@@ -3591,7 +3495,7 @@
      "name": "Jordan",
      "flag": "🇯🇴",
      "tier": 3,
-     "owner": "Barry"
+     "owner": null
     }
    ]
   },
@@ -3613,7 +3517,7 @@
      "name": "Colombia",
      "flag": "🇨🇴",
      "tier": 1,
-     "owner": "Emily"
+     "owner": null
     },
     {
      "group": "Group K",
@@ -3630,7 +3534,7 @@
      "name": "DR Congo",
      "flag": "🇨🇩",
      "tier": 3,
-     "owner": "Nona"
+     "owner": null
     },
     {
      "group": "Group K",
@@ -3647,7 +3551,7 @@
      "name": "Portugal",
      "flag": "🇵🇹",
      "tier": 1,
-     "owner": "Brando"
+     "owner": null
     },
     {
      "group": "Group K",
@@ -3664,7 +3568,7 @@
      "name": "Uzbekistan",
      "flag": "🇺🇿",
      "tier": 3,
-     "owner": "Spridge"
+     "owner": null
     }
    ]
   },
@@ -3686,7 +3590,7 @@
      "name": "Croatia",
      "flag": "🇭🇷",
      "tier": 1,
-     "owner": "Fergs"
+     "owner": null
     },
     {
      "group": "Group L",
@@ -3703,7 +3607,7 @@
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
      "tier": 1,
-     "owner": "Ruggy"
+     "owner": null
     },
     {
      "group": "Group L",
@@ -3720,7 +3624,7 @@
      "name": "Ghana",
      "flag": "🇬🇭",
      "tier": 3,
-     "owner": "Jen"
+     "owner": null
     },
     {
      "group": "Group L",
@@ -3737,7 +3641,7 @@
      "name": "Panama",
      "flag": "🇵🇦",
      "tier": 2,
-     "owner": "Emily"
+     "owner": null
     }
    ]
   }
@@ -4464,7 +4368,7 @@
    "goals": 1,
    "assists": 0,
    "flag": "🇰🇷",
-   "owner": "Spridge"
+   "owner": null
   },
   {
    "player": "Julián Quiñones",
@@ -4472,7 +4376,7 @@
    "goals": 1,
    "assists": 0,
    "flag": "🇲🇽",
-   "owner": "Rich"
+   "owner": null
   },
   {
    "player": "Ladislav Krejcí",
@@ -4480,7 +4384,7 @@
    "goals": 1,
    "assists": 0,
    "flag": "🇨🇿",
-   "owner": "Rich"
+   "owner": null
   },
   {
    "player": "Oh Hyeon-Gyu",
@@ -4488,7 +4392,7 @@
    "goals": 1,
    "assists": 0,
    "flag": "🇰🇷",
-   "owner": "Spridge"
+   "owner": null
   },
   {
    "player": "Raúl Jiménez",
@@ -4496,7 +4400,7 @@
    "goals": 1,
    "assists": 0,
    "flag": "🇲🇽",
-   "owner": "Rich"
+   "owner": null
   }
  ],
  "fairplay": [
@@ -4504,7 +4408,7 @@
    "code": "RSA",
    "name": "South Africa",
    "flag": "🇿🇦",
-   "owner": "Pari",
+   "owner": null,
    "yellow": 2,
    "red": 2,
    "pts": 10
@@ -4513,7 +4417,7 @@
    "code": "MEX",
    "name": "Mexico",
    "flag": "🇲🇽",
-   "owner": "Rich",
+   "owner": null,
    "yellow": 1,
    "red": 1,
    "pts": 5
@@ -4522,7 +4426,7 @@
    "code": "KOR",
    "name": "South Korea",
    "flag": "🇰🇷",
-   "owner": "Spridge",
+   "owner": null,
    "yellow": 1,
    "red": 0,
    "pts": 1

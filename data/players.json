@@ -1,132 +1,16 @@
 {
   "players": [
-    {
-      "name": "Ruggy",
-      "teams": [
-        "ENG",
-        "AUS",
-        "KSA"
-      ]
-    },
-    {
-      "name": "Glancy",
-      "teams": [
-        "BRA",
-        "JPN",
-        "IRQ"
-      ]
-    },
-    {
-      "name": "Willo",
-      "teams": [
-        "BEL",
-        "EGY",
-        "HAI"
-      ]
-    },
-    {
-      "name": "Jen",
-      "teams": [
-        "SEN",
-        "SUI",
-        "GHA"
-      ]
-    },
-    {
-      "name": "Fergs",
-      "teams": [
-        "CRO",
-        "CIV",
-        "QAT"
-      ]
-    },
-    {
-      "name": "Dubs",
-      "teams": [
-        "ESP",
-        "ECU",
-        "NZL"
-      ]
-    },
-    {
-      "name": "George",
-      "teams": [
-        "USA",
-        "NOR",
-        "SCO"
-      ]
-    },
-    {
-      "name": "Rich",
-      "teams": [
-        "MEX",
-        "CZE",
-        "CUW"
-      ]
-    },
-    {
-      "name": "Barry",
-      "teams": [
-        "MAR",
-        "SWE",
-        "JOR"
-      ]
-    },
-    {
-      "name": "Spridge",
-      "teams": [
-        "NED",
-        "KOR",
-        "UZB"
-      ]
-    },
-    {
-      "name": "Brando",
-      "teams": [
-        "POR",
-        "AUT",
-        "CPV"
-      ]
-    },
-    {
-      "name": "Nona",
-      "teams": [
-        "URU",
-        "TUR",
-        "COD"
-      ]
-    },
-    {
-      "name": "Dipen",
-      "teams": [
-        "GER",
-        "IRN",
-        "BIH"
-      ]
-    },
-    {
-      "name": "Pari",
-      "teams": [
-        "FRA",
-        "ALG",
-        "RSA"
-      ]
-    },
-    {
-      "name": "Emily",
-      "teams": [
-        "COL",
-        "PAN",
-        "PAR"
-      ]
-    },
-    {
-      "name": "JVR",
-      "teams": [
-        "ARG",
-        "CAN",
-        "TUN"
-      ]
-    }
+    { "name": "Glancy", "teams": [] },
+    { "name": "Ruggy", "teams": [] },
+    { "name": "Dipen", "teams": [] },
+    { "name": "Pari", "teams": [] },
+    { "name": "Spridge", "teams": [] },
+    { "name": "Fergs", "teams": [] },
+    { "name": "Dubs", "teams": [] },
+    { "name": "George", "teams": [] },
+    { "name": "Emily", "teams": [] },
+    { "name": "Jen", "teams": [] },
+    { "name": "Willo", "teams": [] },
+    { "name": "Brando", "teams": [] }
   ]
 }
