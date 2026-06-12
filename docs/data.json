@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-12T02:39:54+00:00",
+ "generated_at": "2026-06-12T05:03:38+00:00",
  "mode": "live",
- "latest_day": "2026-06-11",
+ "latest_day": "2026-06-12",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -25,8 +25,8 @@
     "CZE",
     "CUW"
    ],
-   "total": 8,
-   "today": 8,
+   "total": 6,
+   "today": 1,
    "rank": 1,
    "movement": 0
   },
@@ -37,10 +37,10 @@
     "KOR",
     "UZB"
    ],
-   "total": 1,
-   "today": 1,
+   "total": 3,
+   "today": 3,
    "rank": 2,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Barry",
@@ -52,7 +52,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -64,7 +64,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Dipen",
@@ -76,7 +76,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -88,7 +88,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -100,7 +100,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -112,7 +112,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "George",
@@ -124,7 +124,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -136,7 +136,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "JVR",
@@ -148,7 +148,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -160,7 +160,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Nona",
@@ -172,7 +172,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -184,7 +184,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -196,7 +196,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -208,7 +208,7 @@
    "total": 0,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   }
  ],
  "teams": {
@@ -600,18 +600,18 @@
    "fifa_rank": 25,
    "owner": "Spridge",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 1,
+   "gf": 2,
+   "ga": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-12",
-     "desc": "3rd in Group A (live)",
-     "points": 1
+     "desc": "2nd in Group A (live)",
+     "points": 3
     }
    ]
   },
@@ -759,18 +759,18 @@
    "fifa_rank": 39,
    "owner": "Rich",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 3,
+   "lost": 1,
+   "gf": 1,
+   "ga": 2,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-12",
-     "desc": "2nd in Group A (live)",
-     "points": 3
+     "desc": "3rd in Group A (live)",
+     "points": 1
     }
    ]
   },
@@ -1047,39 +1047,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760414,
+   "date": "2026-06-12",
    "utc": "2026-06-12T02:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "39'",
-   "status_detail": "39'",
-   "venue": "Estadio Akron",
+   "note": "",
+   "home": {
+    "code": "KOR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "CZE",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 2.7,
     "draw": 3.05,
     "away": 2.95,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "KOR",
-    "name": "South Korea",
-    "flag": "🇰🇷",
-    "owner": "Spridge",
-    "goals": 0
-   },
-   "away": {
-    "code": "CZE",
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "owner": "Rich",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760415,
    "date": "2026-06-11",
@@ -1119,9 +1119,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.87,
-    "draw": 3.55,
-    "away": 4.5,
+    "home": 1.83,
+    "draw": 3.5,
+    "away": 4.6,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1144,9 +1144,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.95,
-    "draw": 3.4,
-    "away": 4.1,
+    "home": 2.05,
+    "draw": 3.35,
+    "away": 3.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1544,9 +1544,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.32,
+    "home": 1.34,
     "draw": 5.5,
-    "away": 9.5,
+    "away": 9.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1619,9 +1619,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 2.1,
-    "draw": 3.45,
-    "away": 3.6,
+    "home": 2.15,
+    "draw": 3.4,
+    "away": 3.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1679,7 +1679,7 @@
     "name": "Czechia",
     "flag": "🇨🇿",
     "owner": "Rich",
-    "form": "WWWWW"
+    "form": "LWWWW"
    },
    "away": {
     "name": "South Africa",
@@ -1744,9 +1744,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 1.87,
-    "draw": 3.55,
-    "away": 4.3,
+    "home": 2.0,
+    "draw": 3.4,
+    "away": 4.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1760,7 +1760,7 @@
     "name": "South Korea",
     "flag": "🇰🇷",
     "owner": "Spridge",
-    "form": "WWLLW"
+    "form": "WWWLL"
    }
   },
   {
@@ -2887,37 +2887,37 @@
     },
     {
      "group": "Group A",
-     "code": "CZE",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Czechia",
-     "flag": "🇨🇿",
-     "tier": 2,
-     "owner": "Rich"
-    },
-    {
-     "group": "Group A",
      "code": "KOR",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
+     "gf": 2,
+     "ga": 1,
+     "pts": 3,
+     "live": false,
+     "gd": 1,
      "name": "South Korea",
      "flag": "🇰🇷",
      "tier": 2,
      "owner": "Spridge"
+    },
+    {
+     "group": "Group A",
+     "code": "CZE",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 2,
+     "pts": 0,
+     "live": false,
+     "gd": -1,
+     "name": "Czechia",
+     "flag": "🇨🇿",
+     "tier": 2,
+     "owner": "Rich"
     },
     {
      "group": "Group A",
@@ -4459,12 +4459,36 @@
  ],
  "scorers": [
   {
+   "player": "Hwang In-Beom",
+   "team": "KOR",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇰🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Julián Quiñones",
    "team": "MEX",
    "goals": 1,
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Rich"
+  },
+  {
+   "player": "Ladislav Krejcí",
+   "team": "CZE",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇨🇿",
+   "owner": "Rich"
+  },
+  {
+   "player": "Oh Hyeon-Gyu",
+   "team": "KOR",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇰🇷",
+   "owner": "Spridge"
   },
   {
    "player": "Raúl Jiménez",
@@ -4493,6 +4517,15 @@
    "yellow": 1,
    "red": 1,
    "pts": 5
+  },
+  {
+   "code": "KOR",
+   "name": "South Korea",
+   "flag": "🇰🇷",
+   "owner": "Spridge",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
   }
  ]
 }

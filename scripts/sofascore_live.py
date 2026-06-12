@@ -575,10 +575,13 @@ def publish_live_updates(out, prev_live_ids, live_ids):
 
 
 def mirror_to_mini():
-    subprocess.run(
-        ["rsync", "-a", "--exclude", ".DS_Store", "--exclude", "*.tmp",
-         str(DOCS) + "/", "macmini:worldcup-sweepstake/docs/"],
-        capture_output=True, timeout=60)
+    try:
+        subprocess.run(
+            ["rsync", "-a", "--exclude", ".DS_Store", "--exclude", "*.tmp",
+             str(DOCS) + "/", "macmini:worldcup-sweepstake/docs/"],
+            capture_output=True, timeout=60)
+    except Exception as e:
+        print(f"  mirror to mini failed ({e}); continuing")
 
 
 def atomic_write(path, text):
