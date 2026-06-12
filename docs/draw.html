@@ -191,6 +191,7 @@ async function flashReveal(player, team) {
 async function applyEvent(ev, animate) {
   if (ev.type === 'reset') { assignments = {}; round = 1; renderRound(); }
   else if (ev.type === 'spin') {
+    if (ev.round === 1) { assignments = {}; renderPicks(); }   // fresh draw — wipe prior picks
     if (animate && $('#wheel')) {
       const b = $('#spin');
       if (b) { b.disabled = true; b.textContent = '🎡 Spinning…'; }
@@ -255,6 +256,7 @@ function renderRound() {
 
 function renderPicks() {
   const grid = $('#picks');
+  if (!grid) return;
   grid.innerHTML = PLAYERS.map(p => {
     const teams = assignments[p] || [];
     if (!teams.length) return '';
@@ -267,6 +269,7 @@ async function spin() {
   const btn = $('#spin');
   btn.disabled = true;
   btn.textContent = '🎡 Spinning…';
+  if (round === 1) { assignments = {}; renderPicks(); }   // fresh draw — wipe prior picks
   broadcast({ type: 'spin', round });
   const wheel = $('#wheel');
   const turns = 1440 + Math.floor(Math.random() * 360);
@@ -313,8 +316,12 @@ function wireDone() {
     a.click();
   };
   $('#rerun').onclick = async () => {
-    if (SHARED) { try { await fetch('/api/draw/reset', { method: 'POST' }); } catch {} }
-    location.reload();
+    await broadcast({ type: 'reset' });                 // tell every watcher to start over (api or ntfy)
+    if (TRANSPORT === 'api') { try { await fetch('/api/draw/reset', { method: 'POST' }); } catch {} }
+    queue.length = 0;
+    assignments = {};
+    round = 1;
+    renderRound();
   };
 }
 
