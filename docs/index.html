@@ -155,6 +155,17 @@
                    padding: 7px 16px 6px; line-height: 1.05; }
   .scorebox.duel small { font-size: .58rem; color: var(--dim); letter-spacing: 2.5px;
                          text-transform: uppercase; }
+  /* prominent player-vs-player battle banner on each upcoming fixture */
+  .battle { display: flex; align-items: center; justify-content: center; gap: 14px;
+            margin: 2px 0 12px; padding: 7px 12px; border-radius: 999px;
+            background: linear-gradient(180deg, rgba(247,201,72,.10), rgba(247,201,72,.03));
+            border: 1px solid var(--line2); }
+  .battle .bp { font-family: var(--disp); font-size: 1.25rem; letter-spacing: 1.5px;
+                color: var(--gold); line-height: 1; }
+  .battle .bp small { display: block; font-family: "Archivo", sans-serif; font-size: .6rem;
+                      letter-spacing: .5px; color: var(--dim); font-weight: 600; margin-top: 2px; }
+  .battle .bp.away { text-align: right; }
+  .battle .bvs { color: var(--accent); font-size: .8rem; font-weight: 800; letter-spacing: 1px; }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -1033,8 +1044,14 @@ function renderResults(d) {
         { hour: '2-digit', minute: '2-digit' });
       const stageLabel = [u.stage, u.group].filter(Boolean).join(' · ');
       const oddsRow = oddsBar(u.odds, false);
+      const ho = u.home.owner, ao = u.away.owner;
+      const battle = (ho || ao) ? `<div class="battle">
+        <span class="bp">${esc(ho || '—')}<small>${esc(u.home.name)}</small></span>
+        <span class="bvs">🆚</span>
+        <span class="bp away">${esc(ao || '—')}<small>${esc(u.away.name)}</small></span></div>` : '';
       return `<div class="match"><div class="head"><span>${esc(stageLabel)}</span>
         <span>⏱ ${when}</span></div>
+        ${battle}
         <div class="scoreline">
           <div class="t"><span class="flag">${u.home.flag}</span>
             <span><span class="nm">${esc(u.home.name)}</span>${form(u.home.form)}<br>
