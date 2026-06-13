@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T22:47:57+00:00",
+ "generated_at": "2026-06-13T22:48:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4672,10 +4672,18 @@
  ],
  "news": [
   {
+   "headline": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
+   "desc": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
+   "link": "https://www.espn.com/video/clip/_/id/49053884/fans-copacabana-beach-celebrate-brazil-equalizer-vs-morocco",
+   "published": "2026-06-13T22:47:00Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_Fans_on_Copacabana_Beach_celebrate_Brazils_equalizer_vs_Morocco_20260613_GLOBAL_F/dm_260613_COM_SOC_News_Fans_on_Copacabana_Beach_celebrate_Brazils_equalizer_vs_Morocco_20260613_GLOBAL_F.jpg"
+  },
+  {
    "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
    "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
-   "published": "2026-06-13T22:38:01Z",
+   "published": "2026-06-13T22:46:51Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672597_1296x729_16-9.jpg"
   },
@@ -4710,14 +4718,6 @@
    "published": "2026-06-13T21:52:54Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Analysis_How_Qatar_earned_their_first_ever_World_Cup_point_20260613_GLOBAL_FIFA_WORLD_C/dm_260613_COM_SOC_Analysis_How_Qatar_earned_their_first_ever_World_Cup_point_20260613_GLOBAL_FIFA_WORLD_C.jpg"
-  },
-  {
-   "headline": "South Africa's silver Adidas jackets developed with Manchester United, Arsenal players",
-   "desc": "",
-   "link": "https://www.espn.com/espn/story/_/id/49053046/south-africa-silver-adidas-jackets-developed-manchester-united-arsenal-players",
-   "published": "2026-06-13T21:26:30Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672557_1296x729_16-9.jpg"
   }
  ]
 }
