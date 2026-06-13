@@ -105,8 +105,18 @@ def load_targets():
     for t in json.loads((ROOT / "data/teams.json").read_text())["teams"]:
         variants[t["code"]].update(normalize(a) for a in t.get("aliases", []))
 
+    # matches that already have a captured attack-momentum graph, so finished
+    # games still missing it keep getting retried (Sofascore can lag, and old
+    # matches otherwise fall out of the time window before momentum lands)
+    try:
+        have_momentum = {int(k) for k, v in
+                         json.loads((DOCS / "sofascore.json").read_text()).items() if v.get("momentum")}
+    except Exception:
+        have_momentum = set()
+
     now = datetime.now(timezone.utc)
     targets = {}
+    result_ids = {r["id"] for r in (data.get("results") or []) if r.get("id")}
     rows = (list(data.get("live") or []) + list(data.get("results") or [])
             + list(data.get("upcoming") or []))
     for r in rows:
@@ -114,7 +124,9 @@ def load_targets():
         if not utc or not r.get("id"):
             continue
         when = datetime.fromisoformat(utc.replace("Z", "+00:00"))
-        if not (now - timedelta(hours=WINDOW_BACK_H) <= when <= now + timedelta(hours=WINDOW_FWD_H)):
+        in_window = now - timedelta(hours=WINDOW_BACK_H) <= when <= now + timedelta(hours=WINDOW_FWD_H)
+        retry_momentum = r["id"] in result_ids and r["id"] not in have_momentum
+        if not in_window and not retry_momentum:
             continue
         hc = r["home"].get("code") or name_to_code.get(normalize(r["home"]["name"]))
         ac = r["away"].get("code") or name_to_code.get(normalize(r["away"]["name"]))
@@ -597,17 +609,41 @@ def write_out(out):
 
 # ------------------------------------------------------------------- modes
 
+def backfill_momentum(out):
+    """Fetch attack-momentum directly via stored sofa_id for finished matches that
+    are missing it — discovery can't find old games on Sofascore's current pages."""
+    if not HAVE_API:
+        return
+    try:
+        result_ids = {r["id"] for r in
+                      json.loads((DOCS / "data.json").read_text()).get("results") or [] if r.get("id")}
+    except Exception:
+        return
+    for espn_id, ent in list(out.items()):
+        if ent.get("momentum") or not ent.get("sofa_id"):
+            continue
+        try:
+            if int(espn_id) not in result_ids:
+                continue
+            mom = parse_momentum(sofa_get(f"/event/{ent['sofa_id']}/graph"))
+        except Exception:
+            continue
+        if mom:
+            ent["momentum"] = mom
+            ent["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            print(f"  [backfill] momentum for match {espn_id}: {len(mom)} pts")
+
+
 def main():
     targets, variants, teams, _ = load_targets()
-    if not targets:
-        print("No matches within the live window; nothing to do.")
-        return
-    print(f"Harvesting {len(targets)} match(es) "
-          f"({'API-first' if HAVE_API else 'browser only'})...")
     sofa_path = DOCS / "sofascore.json"
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
-    find_and_harvest(targets, variants, teams, out)
+    if targets:
+        print(f"Harvesting {len(targets)} match(es) "
+              f"({'API-first' if HAVE_API else 'browser only'})...")
+        find_and_harvest(targets, variants, teams, out)
+    backfill_momentum(out)
     write_out(out)
     print(f"Wrote docs/sofascore.json ({len(out)} matches)")
 
