@@ -214,6 +214,25 @@
   .projtile[open] .pt-cta { font-size: 0; }
   .projtile[open] .pt-cta::before { content: "close ▴"; font-size: .66rem; }
   .projtile .projbody { padding: 0 16px 14px; }
+  /* news feed */
+  .newsh { color: var(--accent); font-family: var(--disp); font-size: 1.05rem; letter-spacing: 3px;
+           text-transform: uppercase; margin: 20px 0 12px; }
+  .newsh:first-child { margin-top: 4px; }
+  .ncard { background: var(--glass); border: 1px solid var(--line); border-radius: 14px;
+           padding: 12px 14px; margin-bottom: 10px; }
+  .ncard.live { border-color: rgba(255,107,107,.45); box-shadow: 0 0 22px rgba(255,107,107,.08); }
+  .nhead { display: flex; justify-content: space-between; align-items: center; gap: 8px;
+           font-size: .68rem; color: var(--dim); text-transform: uppercase; letter-spacing: 1px;
+           margin-bottom: 9px; }
+  .nkind { font-weight: 800; color: var(--accent); }
+  .ncard.live .nkind { color: #ff6b6b; }
+  .nteams { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; }
+  .nteams .nt { font-weight: 700; font-size: .92rem; line-height: 1.3; }
+  .nteams .nt.away { text-align: right; }
+  .nsc { font-family: var(--disp); font-size: 1.4rem; letter-spacing: 1px; white-space: nowrap; }
+  .ntag { color: var(--gold); font-size: .68rem; font-weight: 700; display: block; }
+  .ngoals { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 9px; padding-top: 9px;
+            border-top: 1px solid var(--line); font-size: .75rem; color: var(--dim); }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -494,6 +513,7 @@
     <button data-tab="leaderboard" class="active">Leaderboard</button>
     <button data-tab="podium">Podium</button>
     <button data-tab="projection">🔮 Projection</button>
+    <button data-tab="news">📰 News</button>
     <button data-tab="results">Matches</button>
     <button data-tab="groups">Groups</button>
     <button data-tab="bracket">Bracket</button>
@@ -507,6 +527,7 @@
   <section id="leaderboard" class="active"></section>
   <section id="podium"></section>
   <section id="projection"></section>
+  <section id="news"></section>
   <section id="results"></section>
   <section id="groups"></section>
   <section id="bracket"></section>
@@ -1272,6 +1293,42 @@ function renderProjection(d) {
       <tbody>${rows}</tbody></table>`;
 }
 
+/* ---------------- news ---------------- */
+function renderNews(d) {
+  const today = d.latest_day || '';
+  const ownerOf = t => t.owner || d.teams[t.code]?.owner || '';
+  const ot = t => { const o = ownerOf(t); return o ? `<span class="ntag">${esc(o)}</span>` : ''; };
+  const goals = id => {
+    const inc = (typeof SOFA === 'object' && SOFA[id] && SOFA[id].incidents) || [];
+    const g = inc.filter(i => i.type === 'goal');
+    return g.length ? `<div class="ngoals">${g.map(x =>
+      `<span>⚽ ${x.minute != null ? x.minute + "'" : ''} ${esc(x.player || '')}</span>`).join('')}</div>` : '';
+  };
+  const when = utc => { try { return new Date(utc).toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' }); } catch { return ''; } };
+  const card = (kind, m, badge) => {
+    const h = m.home, a = m.away;
+    const hs = h.goals != null ? h.goals : '', as = a.goals != null ? a.goals : '';
+    const score = (hs !== '' || as !== '') ? `${hs}–${as}` : 'v';
+    return `<div class="ncard ${kind}">
+      <div class="nhead"><span class="nkind">${badge}</span>
+        <span class="nstage">${esc([m.stage, m.group].filter(Boolean).join(' · '))}</span></div>
+      <div class="nteams"><span class="nt">${h.flag} ${esc(h.name)} ${ot(h)}</span>
+        <b class="nsc">${score}</b>
+        <span class="nt away">${a.flag} ${esc(a.name)} ${ot(a)}</span></div>
+      ${goals(m.id)}</div>`;
+  };
+  const live = (d.live || []).map(m => card('live', m, `🔴 LIVE${m.minute != null ? ' ' + m.minute + "'" : ''}`));
+  const results = (d.results || []).slice().sort((a, b) => (b.utc || '').localeCompare(a.utc || ''))
+    .map(r => card('ft', r, '✅ Full time'));
+  const soon = (d.upcoming || []).filter(u => (u.utc || '').slice(0, 10) === today)
+    .sort((a, b) => (a.utc || '').localeCompare(b.utc || ''))
+    .map(u => card('soon', u, '📅 ' + when(u.utc)));
+  const sect = (title, arr) => arr.length ? `<h3 class="newsh">${title}</h3>${arr.join('')}` : '';
+  const body = sect('🔴 Live now', live) + sect('✅ Latest results', results) + sect('📅 Coming up today', soon);
+  $('#news').innerHTML = body ||
+    '<div class="empty">News will appear here as games kick off through the day.</div>';
+}
+
 function renderResults(d) {
   if (!d.results.length && !d.upcoming.length) {
     $('#results').innerHTML = '<div class="empty">No results yet — first match is on 11 June 2026.</div>';
@@ -1535,7 +1592,7 @@ function loadAll() {
         ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
         : 'Waiting for the tournament to start — results will appear here automatically.';
     }
-    renderLive(d); renderLeaderboard(d); renderPodium(d); renderProjection(d); renderResults(d); renderGroups(d);
+    renderLive(d); renderLeaderboard(d); renderPodium(d); renderProjection(d); renderNews(d); renderResults(d); renderGroups(d);
     renderBracket(d); renderTeams(d); renderScorers(d); renderFairplay(d); renderRules(d);
     LAST_D = d;
     // keep the page fresh while a match is on
