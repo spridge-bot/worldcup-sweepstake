@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T22:04:02+00:00",
+ "generated_at": "2026-06-13T22:05:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -32,6 +32,32 @@
    "movement": 0
   },
   {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 8,
+   "today": 8,
+   "rank": 1,
+   "movement": 4
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 3,
+   "movement": 2
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -41,21 +67,8 @@
    ],
    "total": 5,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 5,
-   "today": 5,
-   "rank": 2,
-   "movement": 3
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -67,8 +80,8 @@
    ],
    "total": 4,
    "today": 1,
-   "rank": 4,
-   "movement": -1
+   "rank": 5,
+   "movement": -2
   },
   {
    "name": "Emily",
@@ -80,8 +93,8 @@
    ],
    "total": 1,
    "today": 0,
-   "rank": 5,
-   "movement": -1
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -93,8 +106,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   },
   {
    "name": "Dubs",
@@ -106,8 +119,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -119,21 +132,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   },
   {
    "name": "Glancy",
@@ -145,8 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   },
   {
    "name": "Jen",
@@ -158,8 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   }
  ],
  "teams": {
@@ -275,8 +275,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-13",
+     "desc": "1st in Group C (live)",
+     "points": 5
+    }
+   ]
   },
   "MAR": {
    "code": "MAR",
@@ -292,8 +298,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-13",
+     "desc": "2nd in Group C (live)",
+     "points": 3
+    }
+   ]
   },
   "NED": {
    "code": "NED",
@@ -1035,7 +1047,38 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760419,
+   "utc": "2026-06-13T22:00:00Z",
+   "stage": "Group stage",
+   "group": "Group C",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "MetLife Stadium",
+   "odds": {
+    "home": 1.69,
+    "draw": 3.75,
+    "away": 5.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "goals": 0
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760420,
@@ -1194,31 +1237,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760419,
-   "utc": "2026-06-13T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "odds": {
-    "home": 1.67,
-    "draw": 3.65,
-    "away": 5.75,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "form": "WWWLD"
-   },
-   "away": {
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "form": "DWWWD"
-   }
-  },
   {
    "id": 760418,
    "utc": "2026-06-14T01:00:00Z",
@@ -3023,19 +3041,36 @@
     {
      "group": "Group C",
      "code": "BRA",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
      "owner": "George"
+    },
+    {
+     "group": "Group C",
+     "code": "MAR",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 1,
+     "live": true,
+     "gd": 0,
+     "name": "Morocco",
+     "flag": "🇲🇦",
+     "tier": 1,
+     "owner": "Willo"
     },
     {
      "group": "Group C",
@@ -3053,23 +3088,6 @@
      "flag": "🇭🇹",
      "tier": 3,
      "owner": "Jen"
-    },
-    {
-     "group": "Group C",
-     "code": "MAR",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Morocco",
-     "flag": "🇲🇦",
-     "tier": 1,
-     "owner": "Willo"
     },
     {
      "group": "Group C",
@@ -4646,20 +4664,20 @@
  ],
  "news": [
   {
+   "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
+   "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
+   "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
+   "published": "2026-06-13T22:04:48Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0610/r1670839_1296x729_16-9.jpg"
+  },
+  {
    "headline": "England land in Kansas City for World Cup base camp",
    "desc": "England land in Kansas City for World Cup base camp",
    "link": "https://www.espn.com/video/clip/_/id/49053412/england-land-kansas-city-world-cup-base-camp",
    "published": "2026-06-13T21:56:56Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
-  },
-  {
-   "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
-   "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
-   "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
-   "published": "2026-06-13T21:53:35Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0610/r1670839_1296x729_16-9.jpg"
   },
   {
    "headline": "How Qatar earned their first ever World Cup point",
