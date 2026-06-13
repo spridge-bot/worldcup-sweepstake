@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T14:42:52+00:00",
+ "generated_at": "2026-06-13T14:44:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4600,6 +4600,14 @@
  ],
  "news": [
   {
+   "headline": "Can Haiti pull off an upset vs. Scotland?",
+   "desc": "",
+   "link": "https://www.espn.com/video/clip/_/id/49050376/can-haiti-pull-upset-vs-scotland",
+   "published": "2026-06-13T14:41:03Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_ANALYSIS_Can_Haiti_pull_off_an_upset_vs_Scotland_2026_6_13/dm_260613_COM_SOC_ANALYSIS_Can_Haiti_pull_off_an_upset_vs_Scotland_2026_6_13.jpg"
+  },
+  {
    "headline": "Does Brazil have the star power to win the World Cup?",
    "desc": "",
    "link": "https://www.espn.com/video/clip/_/id/49050125/does-brazil-star-power-win-world-cup",
@@ -4638,14 +4646,6 @@
    "published": "2026-06-13T12:46:07Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Brazil vs Morocco - Let Brazil get distracted by Neymar circus, Morocco must ignore it",
-   "desc": "Morocco's World Cup opener against Brazil on Saturday is one of the most intriguing and hotly anticipated games of the group stage.",
-   "link": "https://www.espn.com/espn/story/_/id/49047657/brazil-vs-morocco-let-brazil-get-distracted-neymar-circus-morocco-ignore-it",
-   "published": "2026-06-13T12:34:37Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672264_1296x729_16-9.jpg"
   }
  ]
 }
