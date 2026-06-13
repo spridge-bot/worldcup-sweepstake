@@ -761,9 +761,9 @@ function renderLive(d) {
         <span><span class="nm">${esc(t.name)}</span><br>
         <span class="own">${esc(t.owner || '')}</span></span></div>`;
     const pitch = s?.pitch ? `<div class="pitchwrap">
-        <img class="pitchimg" src="${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
+        <img class="pitchimg" src="${RAW}${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
     const shotmap = s?.shotmap_img ? `<div class="pitchwrap">
-        <img class="pitchimg" src="${s.shotmap_img}?t=${Date.now()}" alt="shot map"></div>` : '';
+        <img class="pitchimg" src="${RAW}${s.shotmap_img}?t=${Date.now()}" alt="shot map"></div>` : '';
     const lastInc = [...(s?.incidents || [])].reverse()
       .find(i => ['goal', 'card', 'substitution', 'period', 'varDecision'].includes(i.type));
     const lastEv = lastInc ? `<div class="lastev">${liveIncidents({ incidents: [lastInc] })}</div>` : '';
@@ -1094,10 +1094,10 @@ function matchCentre(r, d) {
         ${lineupSide(sides.home, d.teams[r.home.code], cmap)}${lineupSide(sides.away, d.teams[r.away.code], cmap)}</div>`
     : '';
   const pitchImg = sofa?.pitch
-    ? `<h4>Average positions</h4><img class="pitchimg" src="${sofa.pitch}" alt="average positions">`
+    ? `<h4>Average positions</h4><img class="pitchimg" src="${RAW}${sofa.pitch}" alt="average positions">`
     : '';
   const shotImg = sofa?.shotmap_img
-    ? `<h4>Shot map</h4><img class="pitchimg" src="${sofa.shotmap_img}" alt="shot map">`
+    ? `<h4>Shot map</h4><img class="pitchimg" src="${RAW}${sofa.shotmap_img}" alt="shot map">`
     : '';
   const recap = recapText(r, det, d);
   return `${recap ? `<h4>Match report</h4><div class="recap">${esc(recap)}</div>` : ''}
