@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T21:55:56+00:00",
+ "generated_at": "2026-06-13T21:57:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4646,6 +4646,14 @@
  ],
  "news": [
   {
+   "headline": "England land in Kansas City for World Cup base camp",
+   "desc": "England land in Kansas City for World Cup base camp",
+   "link": "https://www.espn.com/video/clip/_/id/49053412/england-land-kansas-city-world-cup-base-camp",
+   "published": "2026-06-13T21:56:56Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
+  },
+  {
    "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
    "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
@@ -4684,14 +4692,6 @@
    "published": "2026-06-13T21:54:26Z",
    "type": "Recap",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672559_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "England met with warm welcome as they arrive at Kansas City World Cup base",
-   "desc": "",
-   "link": "https://www.espn.com/soccer/story/_/id/49052842/england-kansas-city-world-cup-base",
-   "published": "2026-06-13T21:06:31Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672548_1296x729_16-9.jpg"
   }
  ]
 }
