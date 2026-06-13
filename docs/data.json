@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T20:08:39+00:00",
+ "generated_at": "2026-06-13T20:09:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4620,6 +4620,14 @@
  ],
  "news": [
   {
+   "headline": "Japan 'came here to win the World Cup, not fun' - Yukinari Sugawara",
+   "desc": "Japan wingback Yukinari Sugawara has reiterated that his team are at the World Cup not just to participate, but to win it.",
+   "link": "https://www.espn.com/soccer/story/_/id/49052272/japan-came-here-win-world-cup-not-fun-yukinari-sugawara",
+   "published": "2026-06-13T20:07:50Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672486_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
    "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
@@ -4658,14 +4666,6 @@
    "published": "2026-06-13T18:20:41Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_INTERVIEW_Martinez_excited_as_Portugal_arrive_in_USA_2026_6_13/dm_260613_COM_SOC_INTERVIEW_Martinez_excited_as_Portugal_arrive_in_USA_2026_6_13.jpg"
-  },
-  {
-   "headline": "Neymar will be on bench for Brazil vs. Morocco but won't play, Ancelotti confirms",
-   "desc": "Neymar will be on the bench for Brazil vs. Morocco on Saturday but won't be playing.",
-   "link": "https://www.espn.com/soccer/story/_/id/49051589/neymar-bench-brazil-vs-morocco-wont-play",
-   "published": "2026-06-13T18:43:17Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672450_1296x729_16-9.jpg"
   }
  ]
 }
