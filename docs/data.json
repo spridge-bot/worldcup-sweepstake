@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-12T22:55:21+00:00",
+ "generated_at": "2026-06-13T04:58:36+00:00",
  "mode": "live",
- "latest_day": "2026-06-12",
+ "latest_day": "2026-06-13",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,7 +27,7 @@
     "RSA"
    ],
    "total": 8,
-   "today": 3,
+   "today": 0,
    "rank": 1,
    "movement": 0
   },
@@ -40,9 +40,22 @@
     "BIH"
    ],
    "total": 5,
-   "today": 5,
+   "today": 0,
    "rank": 2,
    "movement": 0
+  },
+  {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 2,
+   "movement": 3
   },
   {
    "name": "Ruggy",
@@ -53,8 +66,8 @@
     "QAT"
    ],
    "total": 3,
-   "today": 3,
-   "rank": 3,
+   "today": 0,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -66,9 +79,9 @@
     "IRQ"
    ],
    "total": 1,
-   "today": 1,
-   "rank": 4,
-   "movement": -2
+   "today": 0,
+   "rank": 5,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -80,8 +93,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -93,8 +106,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -106,8 +119,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "George",
@@ -119,8 +132,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -132,8 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -145,8 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -158,21 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 5,
-   "movement": -3
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 6,
+   "movement": -1
   }
  ],
  "teams": {
@@ -445,14 +445,20 @@
    "fifa_rank": 17,
    "owner": "Willo",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 0,
-   "events": []
+   "gf": 4,
+   "ga": 1,
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-13",
+     "desc": "1st in Group D (live)",
+     "points": 5
+    }
+   ]
   },
   "JPN": {
    "code": "JPN",
@@ -752,12 +758,12 @@
    "fifa_rank": 40,
    "owner": "Fergs",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "lost": 1,
+   "gf": 1,
+   "ga": 4,
    "total": 0,
    "events": []
   },
@@ -1026,6 +1032,37 @@
  "live": [],
  "results": [
   {
+   "id": 760417,
+   "date": "2026-06-13",
+   "utc": "2026-06-13T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "note": "",
+   "home": {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "tier": 1,
+    "goals": 4,
+    "points": null
+   },
+   "away": {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "odds": {
+    "home": 1.91,
+    "draw": 3.45,
+    "away": 4.2,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
    "id": 760416,
    "date": "2026-06-12",
    "utc": "2026-06-12T19:00:00Z",
@@ -1121,39 +1158,14 @@
  ],
  "upcoming": [
   {
-   "id": 760417,
-   "utc": "2026-06-13T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 2.1,
-    "draw": 3.15,
-    "away": 4.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "form": "LWLLW"
-   },
-   "away": {
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "form": "WLWWL"
-   }
-  },
-  {
    "id": 760420,
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 13.0,
+    "home": 14.0,
     "draw": 6.5,
-    "away": 1.24,
+    "away": 1.22,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1178,7 +1190,7 @@
    "odds": {
     "home": 1.67,
     "draw": 3.8,
-    "away": 5.5,
+    "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1202,8 +1214,8 @@
    "group": "Group C",
    "odds": {
     "home": 6.0,
-    "draw": 4.2,
-    "away": 1.57,
+    "draw": 4.3,
+    "away": 1.56,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1227,7 +1239,7 @@
    "group": "Group D",
    "odds": {
     "home": 5.0,
-    "draw": 3.8,
+    "draw": 3.85,
     "away": 1.71,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1751,9 +1763,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.77,
-    "draw": 3.95,
-    "away": 4.5,
+    "home": 1.57,
+    "draw": 4.5,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1761,7 +1773,7 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "form": "LWLLW"
+    "form": "WLWLL"
    },
    "away": {
     "name": "Australia",
@@ -1826,9 +1838,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.25,
-    "draw": 3.2,
-    "away": 3.45,
+    "home": 2.0,
+    "draw": 3.25,
+    "away": 4.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1842,7 +1854,7 @@
     "name": "Paraguay",
     "flag": "🇵🇾",
     "owner": "Fergs",
-    "form": "WLWWL"
+    "form": "LWLWW"
    }
   },
   {
@@ -2161,13 +2173,13 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "form": null
+    "form": "WWWDW"
    },
    "away": {
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "form": null
+    "form": "LLWWD"
    }
   },
   {
@@ -2186,13 +2198,13 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": null
+    "form": "WWLDW"
    },
    "away": {
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": null
+    "form": "DLLLL"
    }
   },
   {
@@ -2211,13 +2223,13 @@
     "name": "Panama",
     "flag": "🇵🇦",
     "owner": "Dubs",
-    "form": null
+    "form": "DWLWD"
    },
    "away": {
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": null
+    "form": "WLLWW"
    }
   },
   {
@@ -2236,13 +2248,13 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": null
+    "form": "WWLLW"
    },
    "away": {
     "name": "DR Congo",
     "flag": "🇨🇩",
     "owner": "Willo",
-    "form": null
+    "form": "LDWWL"
    }
   },
   {
@@ -3071,6 +3083,23 @@
    "rows": [
     {
      "group": "Group D",
+     "code": "USA",
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 4,
+     "ga": 1,
+     "pts": 3,
+     "live": false,
+     "gd": 3,
+     "name": "USA",
+     "flag": "🇺🇸",
+     "tier": 1,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group D",
      "code": "AUS",
      "p": 0,
      "w": 0,
@@ -3085,23 +3114,6 @@
      "flag": "🇦🇺",
      "tier": 2,
      "owner": "Glancy"
-    },
-    {
-     "group": "Group D",
-     "code": "PAR",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Paraguay",
-     "flag": "🇵🇾",
-     "tier": 3,
-     "owner": "Fergs"
     },
     {
      "group": "Group D",
@@ -3122,20 +3134,20 @@
     },
     {
      "group": "Group D",
-     "code": "USA",
-     "p": 0,
+     "code": "PAR",
+     "p": 1,
      "w": 0,
      "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 4,
      "pts": 0,
      "live": false,
-     "gd": 0,
-     "name": "USA",
-     "flag": "🇺🇸",
-     "tier": 1,
-     "owner": "Willo"
+     "gd": -3,
+     "name": "Paraguay",
+     "flag": "🇵🇾",
+     "tier": 3,
+     "owner": "Fergs"
     }
    ]
   },
@@ -4441,12 +4453,28 @@
  ],
  "scorers": [
   {
+   "player": "Folarin Balogun",
+   "team": "USA",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇺🇸",
+   "owner": "Willo"
+  },
+  {
    "player": "Cyle Larin",
    "team": "CAN",
    "goals": 1,
    "assists": 0,
    "flag": "🇨🇦",
    "owner": "Dipen"
+  },
+  {
+   "player": "Giovanni Reyna",
+   "team": "USA",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇺🇸",
+   "owner": "Willo"
   },
   {
    "player": "Hwang In-Beom",
@@ -4479,6 +4507,14 @@
    "assists": 0,
    "flag": "🇨🇿",
    "owner": "Emily"
+  },
+  {
+   "player": "Maurício",
+   "team": "PAR",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇵🇾",
+   "owner": "Fergs"
   },
   {
    "player": "Oh Hyeon-Gyu",
@@ -4517,6 +4553,15 @@
    "pts": 5
   },
   {
+   "code": "PAR",
+   "name": "Paraguay",
+   "flag": "🇵🇾",
+   "owner": "Fergs",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "BIH",
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
@@ -4539,6 +4584,15 @@
    "name": "South Korea",
    "flag": "🇰🇷",
    "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "USA",
+   "name": "USA",
+   "flag": "🇺🇸",
+   "owner": "Willo",
    "yellow": 1,
    "red": 0,
    "pts": 1
