@@ -782,6 +782,7 @@ function renderLive(d) {
               <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
               ${side(m.away, true)}
             </div>
+            ${scorerSummary(m)}
             ${lastEv}
             ${oddsBar(m.odds, true)}
             ${lineupBlock(m.id, m.home, m.away)}
