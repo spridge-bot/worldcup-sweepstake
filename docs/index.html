@@ -319,13 +319,30 @@
   .stat .lbls .l { font-weight: 700; min-width: 3em; }
   .stat .lbls .r { font-weight: 700; min-width: 3em; text-align: right; }
   .stat .lbls .c { color: var(--dim); font-size: .68rem; text-transform: uppercase; letter-spacing: 1.4px; }
-  .stat .bars { display: flex; gap: 3px; height: 6px; }
-  .stat .bars .h { background: linear-gradient(90deg, #25c96c, var(--accent));
-                   border-radius: 3px 0 0 3px; margin-left: auto; }
-  .stat .bars .a { background: linear-gradient(90deg, var(--gold), var(--gold-deep));
-                   border-radius: 0 3px 3px 0; }
-  .stat .half { flex: 1; display: flex; background: rgba(255,255,255,.04); border-radius: 3px; }
-  .stat .half.right .a { margin-right: auto; }
+  .stat .bar2 { display: flex; height: 7px; border-radius: 4px; overflow: hidden;
+                background: rgba(255,255,255,.06); }
+  .stat .bar2 .bh { background: linear-gradient(90deg, #1e9e57, var(--accent)); min-width: 2px; }
+  .stat .bar2 .ba { background: linear-gradient(90deg, var(--gold), var(--gold-deep));
+                    margin-left: auto; min-width: 2px; }
+  /* goal scorers shown under each team name */
+  .scoreline .t .tmscorers { display: block; margin-top: 6px; font-size: .72rem;
+                             color: var(--accent); line-height: 1.55; }
+  .scoreline .t.away .tmscorers { text-align: right; }
+  /* visual formation pitches */
+  .fmwrap { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px 14px 4px; }
+  .fmteam { font-size: .72rem; color: var(--accent); font-weight: 700; text-align: center; margin-bottom: 6px; }
+  .fmpitch { background: linear-gradient(180deg, #0c3a22, #0a2d1b); border: 1px solid var(--line2);
+             border-radius: 10px; padding: 12px 5px; display: flex; flex-direction: column;
+             justify-content: space-between; gap: 8px; min-height: 240px;
+             background-image: repeating-linear-gradient(180deg, transparent 0 23px, rgba(255,255,255,.035) 23px 46px); }
+  .fmrow { display: flex; justify-content: space-around; gap: 3px; }
+  .fmplr { display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 0; }
+  .fmdot { width: 23px; height: 23px; border-radius: 50%; background: rgba(62,240,139,.2);
+           border: 1px solid var(--line2); display: flex; align-items: center; justify-content: center;
+           font-size: .64rem; font-weight: 800; color: var(--text); }
+  .fmnm { font-size: .58rem; color: #cfe9d8; text-align: center; line-height: 1.05;
+          white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 58px; }
+  @media (max-width: 480px) { .fmnm { font-size: .52rem; } .fmdot { width: 20px; height: 20px; } }
 
   /* timeline */
   .tl { max-width: 560px; margin: 0 auto; }
@@ -662,13 +679,37 @@ function liveIncidents(s) {
   }).join('');
 }
 
+function shortName(n) {
+  const p = String(n || '').trim().split(/\s+/);
+  return p.length > 1 ? `${p[0][0]}. ${p.slice(1).join(' ')}` : (n || '');
+}
+
+function formationPitch(sideData) {
+  const lineup = sideData?.lineup || [], form = sideData?.formation;
+  if (lineup.length < 11 || !form) return '';
+  const counts = [1, ...String(form).split('-').map(n => parseInt(n, 10)).filter(Boolean)];
+  if (counts.reduce((a, b) => a + b, 0) !== 11) return '';
+  let i = 0;
+  const lines = counts.map(n => { const seg = lineup.slice(i, i + n); i += n; return seg; });
+  // GK at the bottom, attack at the top
+  const rows = [...lines].reverse().map(seg => `<div class="fmrow">${seg.map(p =>
+    `<div class="fmplr"><span class="fmdot">${esc(String(p.shirt ?? ''))}</span>
+      <span class="fmnm">${esc(shortName(p.name))}</span></div>`).join('')}</div>`).join('');
+  return `<div class="fmpitch">${rows}</div>`;
+}
+
 function lineupBlock(id, home, away, label) {
   const s = SOFA[String(id)], det = DETAILS[String(id)];
   const lus = (det?.home?.lineup?.length || det?.away?.lineup?.length)
     ? { home: det.home, away: det.away, confirmed: true } : s?.lineups;
   if (!lus?.confirmed || !(lus.home?.lineup?.length || lus.away?.lineup?.length)) return '';
   const cmap = cardMap(id);
-  return `<details class="lu"><summary>📋 ${label || 'Confirmed line-ups'}</summary>
+  const pitch = (formationPitch(lus.home) && formationPitch(lus.away)) ? `<div class="fmwrap">
+    <div class="fmcol"><div class="fmteam">${home.flag} ${esc(home.name)} · ${esc(lus.home.formation || '')}</div>${formationPitch(lus.home)}</div>
+    <div class="fmcol"><div class="fmteam">${away.flag} ${esc(away.name)} · ${esc(lus.away.formation || '')}</div>${formationPitch(lus.away)}</div>
+  </div>` : '';
+  return `<details class="lu"><summary>📋 ${label || 'Line-ups & formation'}</summary>
+    ${pitch}
     <div class="lineups">${lineupSide(lus.home, home, cmap)}${lineupSide(lus.away, away, cmap)}</div>
   </details>`;
 }
@@ -760,10 +801,17 @@ function renderLive(d) {
     const statHtml = s?.stats ? statBars(s.stats.home, s.stats.away)
       : (hasStats(det?.home?.stats) || hasStats(det?.away?.stats)) ? statBars(det.home.stats, det.away.stats) : '';
     const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
+    const goalsFor = code => {
+      const gs = (det?.goals || []).filter(g => g.team === code);
+      return gs.length ? `<span class="tmscorers">${gs.map(g =>
+        `⚽ ${esc(g.scorer)} ${g.minute || ''}'${g.type === 'OWN' ? ' (og)' : g.type === 'PENALTY' ? ' (p)' : ''}`)
+        .join('<br>')}</span>` : '';
+    };
     const side = (t, away) => `<div class="t${away ? ' away' : ''}">
         <span class="flag">${t.flag}</span>
         <span><span class="nm">${esc(t.name)}</span><br>
-        <span class="own">${esc(t.owner || '')}</span></span></div>`;
+        <span class="own">${esc(t.owner || '')}</span>
+        ${goalsFor(t.code)}</span></div>`;
     const pitch = s?.pitch ? `<div class="pitchwrap">
         <img class="pitchimg" src="${RAW}${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
     const shotmap = s?.shotmap_img ? `<div class="pitchwrap">
@@ -786,7 +834,6 @@ function renderLive(d) {
               <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
               ${side(m.away, true)}
             </div>
-            ${scorerSummary(m)}
             ${lastEv}
             ${oddsBar(m.odds, true)}
             ${lineupBlock(m.id, m.home, m.away)}
@@ -899,10 +946,8 @@ function statBars(h, a) {
     html += `<div class="stat">
       <div class="lbls"><span class="l">${H}</span><span class="c">${label}</span>
         <span class="r">${A}</span></div>
-      <div class="bars">
-        <div class="half"><div class="h" style="width:${(H / tot) * 100}%"></div></div>
-        <div class="half right"><div class="a" style="width:${(A / tot) * 100}%"></div></div>
-      </div></div>`;
+      <div class="bar2"><div class="bh" style="width:${(H / tot) * 100}%"></div>
+        <div class="ba" style="width:${(A / tot) * 100}%"></div></div></div>`;
   }
   return html ? `<h4>Match stats</h4>${html}` : '';
 }
