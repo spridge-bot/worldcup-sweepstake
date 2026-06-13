@@ -25,5 +25,35 @@ while true; do
     echo "[$(date -u '+%FT%TZ')] pushed ($(is_live && echo live || echo idle))"
   fi
 
-  if is_live; then sleep 18; else sleep 90; fi
+  # cadence: tight while live, and tighten automatically as the next kick-off
+  # nears so a starting match is picked up within seconds, not the idle gap
+  if is_live; then
+    sleep 18
+  else
+    nap=$(/usr/bin/python3 - <<'PY'
+import json
+from datetime import datetime, timezone
+try:
+    d = json.load(open("docs/data.json"))
+    now = datetime.now(timezone.utc)
+    secs = []
+    for u in d.get("upcoming") or []:
+        try:
+            k = datetime.fromisoformat(u["utc"].replace("Z", "+00:00"))
+            s = (k - now).total_seconds()
+            if s > -300:                 # future, plus just-passed (catch ESPN lag at KO)
+                secs.append(s)
+        except Exception:
+            pass
+    if not secs:
+        print(300)                       # nothing imminent -> relaxed idle
+    else:
+        s = min(secs)
+        print(10 if s <= 180 else min(int(s - 120), 300))  # poll hard near KO; else wake ~2m before
+except Exception:
+    print(60)
+PY
+)
+    sleep "${nap:-60}"
+  fi
 done
