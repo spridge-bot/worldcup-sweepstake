@@ -118,10 +118,14 @@
   .tier.t3 { background: var(--t3); color: #03150b; }
 
   /* ---- match cards ---- */
-  .day { margin-bottom: 30px; }
+  .day { margin-bottom: 26px; }
+  .day + .day { border-top: 1px solid var(--line2); padding-top: 4px; }
   .day h3 { color: var(--accent); font-family: var(--disp); font-size: 1.05rem; font-weight: 400;
-            text-transform: uppercase; letter-spacing: 3px; margin-bottom: 12px;
-            display: flex; align-items: center; gap: 12px; }
+            text-transform: uppercase; letter-spacing: 3px; margin: 0 0 12px;
+            display: flex; align-items: center; gap: 12px;
+            position: sticky; top: 0; z-index: 5; padding: 11px 6px 9px;
+            background: linear-gradient(180deg, var(--bg1) 78%, rgba(6,32,19,0));
+            -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
   .day h3::after { content: ""; flex: 1; height: 1px;
                    background: linear-gradient(90deg, var(--line2), transparent); }
   .match { background: linear-gradient(160deg, rgba(16,52,32,.85), var(--glass) 55%);
@@ -281,14 +285,19 @@
 
   /* groups */
   .groupgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
-  .group table { font-size: .82rem; }
-  .group th, .group td { padding: 7px 9px; font-size: .8rem; }
+  .group table { font-size: .82rem; table-layout: fixed; width: 100%; }
+  .group th, .group td { padding: 7px 6px; font-size: .8rem; }
+  .group th:nth-child(1), .group td:nth-child(1) { width: 30px; }
+  .group th:nth-child(3), .group td:nth-child(3) { width: 30px; }
+  .group th:nth-child(4), .group td:nth-child(4) { width: 60px; }
+  .group th:nth-child(5), .group td:nth-child(5) { width: 40px; }
+  .group th:nth-child(6), .group td:nth-child(6) { width: 44px; }
   .group .gname { background: linear-gradient(90deg, rgba(247,201,72,.14), rgba(16,52,32,.8) 65%);
                   color: var(--gold); font-family: var(--disp); font-size: .95rem; font-weight: 400;
                   letter-spacing: 3px; text-transform: uppercase; padding: 9px 12px; }
   .group .q td { background: rgba(62, 240, 139, .06); }
   .group .q td:last-child { color: var(--accent); }
-  .group td.teamcell { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 130px; }
+  .group td.teamcell { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .livedot { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
              background: #ff4444; animation: pulse 1.2s infinite; vertical-align: middle; }
   tr.liverow td { background: rgba(255, 68, 68, .05); }
@@ -508,6 +517,8 @@ document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('section').forEach(x => x.classList.remove('active'));
   b.classList.add('active');
   $('#' + b.dataset.tab).classList.add('active');
+  b.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -726,19 +737,21 @@ function renderPodium(d) {
     $('#podium').innerHTML = '<div class="empty">The podium appears once the first points are scored.</div>';
     return;
   }
-  const byRank = r => d.players.filter(p => p.rank === r);
-  const pods = [];
-  for (const [rank, cls, medal] of [[1, 'p1', '🥇'], [2, 'p2', '🥈'], [3, 'p3', '🥉']]) {
-    const ps = byRank(rank);
-    if (!ps.length) continue;
-    pods.push(`<div class="pod ${cls}">
-      <div class="block"><span class="medal">${medal}</span><span>${rank}${rank === 1 ? 'st' : rank === 2 ? 'nd' : 'rd'}</span></div>
+  // up to three podium tiers by distinct points total; a shared total = joint place
+  const totals = [...new Set(scored.map(p => p.total))].sort((a, b) => b - a).slice(0, 3);
+  const TIERS = [['p1', '🥇', '1st'], ['p2', '🥈', '2nd'], ['p3', '🥉', '3rd']];
+  const pods = totals.map((tot, i) => {
+    const ps = scored.filter(p => p.total === tot);
+    const [cls, medal, ord] = TIERS[i];
+    const label = ps.length > 1 ? `Joint ${ord}` : ord;
+    return `<div class="pod ${cls}">
+      <div class="block"><span class="medal">${medal}</span><span>${label}</span></div>
       ${ps.map(p => `<div class="who">${esc(p.name)}</div>
         <div class="pts">${fmt(p.total)} pts</div>
         <div class="podteams">${p.teams.map(c =>
           `<span class="pt">${d.teams[c].flag} ${esc(d.teams[c].name)}</span>`).join('')}</div>`).join('')}
-    </div>`);
-  }
+    </div>`;
+  });
   $('#podium').innerHTML = `<div class="podium-stage">${pods.join('')}</div>
     <div class="podium-note">Current standings — updated automatically after every matchday.
     ${d.latest_day ? `Latest results: ${d.latest_day}.` : ''}</div>`;
@@ -1259,8 +1272,7 @@ function renderResults(d) {
       <option value="all"${FILT === 'all' ? ' selected' : ''}>Everyone</option>
       ${d.players.map(p => `<option value="${esc(p.name)}"${FILT === p.name ? ' selected' : ''}>${esc(p.name)}</option>`).join('')}
     </select></label></div>`;
-  const T = projectTournament(d);
-  const projPanel = FILT === 'all' ? tournamentPanel(d, T) : projectionPanel(d, FILT, T);
+  const projPanel = '';   // projection lives on its own Projection tab now
   const byDay = {};
   fResults.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
   const side = (t, owner, away) => `<div class="t${away ? ' away' : ''}">
