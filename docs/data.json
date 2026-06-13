@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T19:56:29+00:00",
+ "generated_at": "2026-06-13T19:57:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1042,7 +1042,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "clock": "45'+6'",
-   "status_detail": "45'+6'",
+   "status_detail": "HT",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 13.0,
@@ -4623,7 +4623,7 @@
    "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
    "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-13T19:39:42Z",
+   "published": "2026-06-13T19:54:50Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
   },
@@ -4636,10 +4636,10 @@
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Raya_insists_he_will_respect_potential_bench_role_for_Spain_20260613_GLOBAL_FI/dm_260613_COM_SOC_Presser_Raya_insists_he_will_respect_potential_bench_role_for_Spain_20260613_GLOBAL_FI.jpg"
   },
   {
-   "headline": "FIFA 'reminded' Egypt to remove seven stars from badge on jerseys - EFA",
+   "headline": "FIFA asked Egypt to remove seven stars from kit months ago - EFA",
    "desc": "Egypt will play their FIFA World Cup matches in kits not bearing the stars commemorating their seven Africa Cup of Nations victories, following a reminder from FIFA, according to sources within the Egyptian Football Association.",
-   "link": "https://www.espn.com/espn/story/_/id/49052051/fifa-reminded-egypt-remove-seven-stars-badge-jerseys-efa",
-   "published": "2026-06-13T19:44:11Z",
+   "link": "https://www.espn.com/espn/story/_/id/49052051/fifa-asked-egypt-remove-seven-stars-kit-months-ago-efa",
+   "published": "2026-06-13T19:56:24Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672488_1296x729_16-9.jpg"
   },
