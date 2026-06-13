@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T15:10:02+00:00",
+ "generated_at": "2026-06-13T15:11:43+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4600,6 +4600,14 @@
  ],
  "news": [
   {
+   "headline": "Introducing every single Premier League player representing an African team at the FIFA World Cup",
+   "desc": "As ever, the Premier League is well represented across African national teams at the World Cup, with all but one of the content's 10 contenders featuring at least one player from the division.",
+   "link": "https://www.espn.com/espn/story/_/id/49026747/introducing-every-single-premier-league-player-representing-african-team-fifa-world-cup",
+   "published": "2026-06-13T15:09:59Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0516/r1658974_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Morocco's FIFA World Cup run could define Achraf Hakimi's legacy",
    "desc": "Fresh from another Champions League triumph with Paris Saint-Germain -- with the rightback returning from injury to excel in the final -- Hakimi is the captain of the most accomplished Morocco side ever assembled.",
    "link": "https://www.espn.com/espn/story/_/id/49034272/morocco-fifa-world-cup-run-define-achraf-hakimi-legacy",
@@ -4638,14 +4646,6 @@
    "published": "2026-06-13T13:59:28Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_ANALYSIS_Do_Brazil_have_the_star_power_to_win_the_World_Cup_2026_6_13/dm_260613_COM_SOC_ANALYSIS_Do_Brazil_have_the_star_power_to_win_the_World_Cup_2026_6_13.jpg"
-  },
-  {
-   "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
-   "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-13T13:57:59Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
   }
  ]
 }
