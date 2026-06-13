@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T20:53:29+00:00",
+ "generated_at": "2026-06-13T20:53:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4620,6 +4620,22 @@
  ],
  "news": [
   {
+   "headline": "How are Senegal fans feeling ahead of their matchup vs. France?",
+   "desc": "How are Senegal fans feeling ahead of their matchup vs. France?",
+   "link": "https://www.espn.com/video/clip/_/id/49052723/how-senegal-fans-feeling-ahead-their-matchup-vs-france",
+   "published": "2026-06-13T20:48:50Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_MAN_ON_THE_STREET/dm_260613_MAN_ON_THE_STREET.jpg"
+  },
+  {
+   "headline": "What makes the World Cup the World Cup?",
+   "desc": "What makes the World Cup the World Cup?",
+   "link": "https://www.espn.com/video/clip/_/id/49052678/what-makes-world-cup-world-cup",
+   "published": "2026-06-13T20:48:38Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_WORLD_CUP_INTERVIEW/dm_260613_WORLD_CUP_INTERVIEW.jpg"
+  },
+  {
    "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
    "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
@@ -4650,22 +4666,6 @@
    "published": "2026-06-13T19:36:49Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Raya_insists_he_will_respect_potential_bench_role_for_Spain_20260613_GLOBAL_FI/dm_260613_COM_SOC_Presser_Raya_insists_he_will_respect_potential_bench_role_for_Spain_20260613_GLOBAL_FI.jpg"
-  },
-  {
-   "headline": "FIFA asked Egypt to remove seven stars from kit months ago - EFA",
-   "desc": "Egypt will play their FIFA World Cup matches in kits not bearing the stars commemorating their seven Africa Cup of Nations victories, following a reminder from FIFA, according to sources within the Egyptian Football Association.",
-   "link": "https://www.espn.com/espn/story/_/id/49052051/fifa-asked-egypt-remove-seven-stars-kit-months-ago-efa",
-   "published": "2026-06-13T19:56:32Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672488_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "FIFA World Cup classic clashes - Greece 2-1 Ivory Coast - A Golden Generation's defining failure",
-   "desc": "Ivory Coast's Golden Generation should have been one of Africa's all-time great tournament teams. But is Greece 2-1 Ivory Coast in Fortaleza on 24 June 2014, the night when their excuses finally ran out.",
-   "link": "https://www.espn.com/espn/story/_/id/49051454/fifa-world-cup-classic-clashes-greece-2-1-ivory-coast-golden-generation-defining-failure",
-   "published": "2026-06-13T19:11:09Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672459_1296x729_16-9.jpg"
   }
  ]
 }
