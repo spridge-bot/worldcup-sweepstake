@@ -214,6 +214,21 @@
   .projtile[open] .pt-cta { font-size: 0; }
   .projtile[open] .pt-cta::before { content: "close ▴"; font-size: .66rem; }
   .projtile .projbody { padding: 0 16px 14px; }
+  /* compact podium banner atop the News screen */
+  .podstrip { display: flex; align-items: center; gap: 8px 18px; flex-wrap: wrap; cursor: pointer;
+              background: linear-gradient(90deg, rgba(247,201,72,.14), rgba(16,52,32,.55) 70%);
+              border: 1px solid var(--line2); border-radius: 14px; padding: 11px 15px; margin-bottom: 16px;
+              transition: border-color .15s; }
+  .podstrip:hover { border-color: var(--gold); }
+  .podstrip .pslabel { font-size: .64rem; text-transform: uppercase; letter-spacing: 2px;
+                       color: var(--dim); font-weight: 800; }
+  .podstrip .psc { display: flex; align-items: center; gap: 6px; }
+  .podstrip .pmed { font-size: 1.35rem; line-height: 1; }
+  .podstrip .pnm { font-weight: 700; font-size: .92rem; }
+  .podstrip .ppt { color: var(--gold); font-weight: 800; font-size: .85rem; }
+  .podstrip .psmore { margin-left: auto; color: var(--accent); font-size: .7rem; font-weight: 700;
+                      white-space: nowrap; }
+  @media (max-width: 480px) { .podstrip .psmore { display: none; } }
   /* news feed */
   .newsh { color: var(--accent); font-family: var(--disp); font-size: 1.05rem; letter-spacing: 3px;
            text-transform: uppercase; margin: 20px 0 12px; }
@@ -532,10 +547,10 @@
   <div id="live"></div>
 
   <nav>
-    <button data-tab="leaderboard" class="active">Leaderboard</button>
+    <button data-tab="leaderboard">Leaderboard</button>
     <button data-tab="podium">Podium</button>
     <button data-tab="projection">🔮 Projection</button>
-    <button data-tab="news">📰 News</button>
+    <button data-tab="news" class="active">📰 News</button>
     <button data-tab="results">Results</button>
     <button data-tab="fixtures">Fixtures</button>
     <button data-tab="groups">Groups</button>
@@ -547,10 +562,10 @@
     <a class="navlink" href="draw.html">🎡 The Draw</a>
   </nav>
 
-  <section id="leaderboard" class="active"></section>
+  <section id="leaderboard"></section>
   <section id="podium"></section>
   <section id="projection"></section>
-  <section id="news"></section>
+  <section id="news" class="active"></section>
   <section id="results"></section>
   <section id="fixtures"></section>
   <section id="groups"></section>
@@ -1419,7 +1434,22 @@ function renderNews(d) {
         <div class="ni-meta"><span>ESPN${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
   }).join('') : '';
 
-  $('#news').innerHTML = cards + newsHtml + soonHtml;
+  const scored = d.players.filter(p => p.total > 0);
+  let podStrip = '';
+  if (scored.length) {
+    const totals = [...new Set(scored.map(p => p.total))].sort((a, b) => b - a).slice(0, 3);
+    const MED = ['🥇', '🥈', '🥉'];
+    const cells = totals.map((tot, i) => {
+      const ps = scored.filter(p => p.total === tot);
+      return `<div class="psc"><span class="pmed">${MED[i]}</span>
+        <span class="pnm">${ps.map(p => esc(p.name)).join(' & ')}</span>
+        <span class="ppt">${fmt(tot)} pts</span></div>`;
+    }).join('');
+    podStrip = `<div class="podstrip" role="button" tabindex="0"
+      onclick="document.querySelector('nav button[data-tab=podium]').click()">
+      <span class="pslabel">🏆 Podium</span>${cells}<span class="psmore">full table →</span></div>`;
+  }
+  $('#news').innerHTML = podStrip + cards + newsHtml + soonHtml;
 }
 
 const teamOwner = (d, t) => t.owner || d.teams[t.code]?.owner || '';
