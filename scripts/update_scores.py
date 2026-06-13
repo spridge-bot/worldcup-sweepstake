@@ -40,6 +40,7 @@ API_BASE = "https://api.football-data.org/v4"
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
 ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings"
+ESPN_NEWS = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/news"
 WC_START = datetime(2026, 6, 11)
 WC_END = datetime(2026, 7, 19)
 ESPN_SUMMARY_CAP = 30   # max match summaries to pull per run
@@ -223,6 +224,36 @@ def espn_get(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read())
+
+
+def fetch_news(limit=12):
+    """Real team news / previews / injury stories from ESPN's keyless news feed.
+    Returns [{headline, desc, link, published, type, image}] — never fabricated."""
+    try:
+        data = espn_get(ESPN_NEWS)
+    except Exception as e:
+        print(f"  news fetch skipped: {e}")
+        return []
+    out = []
+    for a in (data.get("articles") or []):
+        links = a.get("links") or {}
+        web = (links.get("web") or {}).get("href") or (links.get("mobile") or {}).get("href")
+        images = a.get("images") or []
+        image = images[0].get("url") if images else None
+        headline = a.get("headline")
+        if not headline:
+            continue
+        out.append({
+            "headline": headline,
+            "desc": a.get("description") or "",
+            "link": web,
+            "published": a.get("published"),
+            "type": a.get("type"),
+            "image": image,
+        })
+        if len(out) >= limit:
+            break
+    return out
 
 
 def espn_event_map(dates, index):
@@ -1260,6 +1291,8 @@ def main():
         })
     bracket.sort(key=lambda b: b["utc"])
 
+    news = fetch_news() if "--offline" not in sys.argv else []
+
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "mode": mode,
@@ -1274,6 +1307,7 @@ def main():
         "bracket": bracket,
         "scorers": scorers,
         "fairplay": fairplay_rows,
+        "news": news,
     }
     write_json(ROOT / "docs/data.json", out, indent=1)
     print(f"Wrote docs/data.json ({mode} mode): {len(results)} finished matches, "

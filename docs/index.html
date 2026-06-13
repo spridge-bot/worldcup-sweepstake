@@ -244,6 +244,17 @@
              border-bottom: 1px solid var(--line); }
   .soonrow .st { color: var(--accent); font-weight: 700; min-width: 48px; }
   .soonrow .sm { flex: 1; }
+  .newsitem { display: flex; gap: 12px; align-items: flex-start; text-decoration: none; color: inherit;
+              background: var(--glass); border: 1px solid var(--line); border-radius: 14px;
+              padding: 11px 12px; margin-bottom: 9px; transition: border-color .15s; }
+  .newsitem:hover { border-color: var(--line2); }
+  .newsitem img { width: 76px; height: 56px; object-fit: cover; border-radius: 9px; flex: 0 0 auto; }
+  .ni-body { min-width: 0; }
+  .ni-head { font-weight: 700; font-size: .92rem; line-height: 1.25; }
+  .ni-desc { color: var(--dim); font-size: .78rem; margin-top: 4px; line-height: 1.4; }
+  .ni-meta { color: var(--dim); font-size: .64rem; text-transform: uppercase; letter-spacing: .6px;
+             margin-top: 7px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .ni-meta .ntag { display: inline; color: var(--gold); }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -1393,7 +1404,22 @@ function renderNews(d) {
       <span class="sm">${u.home.flag} ${esc(u.home.name)} v ${esc(u.away.name)} ${u.away.flag}</span>
       <span class="ntag">${esc(ownerOf(u.home) || '—')} v ${esc(ownerOf(u.away) || '—')}</span></div>`).join('') : '';
 
-  $('#news').innerHTML = cards + soonHtml;
+  const ago = iso => { try { const m = (Date.now() - Date.parse(iso)) / 60000;
+    return m < 60 ? Math.round(m) + 'm ago' : m < 1440 ? Math.round(m / 60) + 'h ago' : Math.round(m / 1440) + 'd ago'; } catch { return ''; } };
+  const mentioned = text => { for (const c in d.teams) { const t = d.teams[c];
+    if (t.name && text.includes(t.name)) return t; } return null; };
+  const newsHtml = (d.news && d.news.length) ? `<h3 class="newsh">🗞️ Team news &amp; previews</h3>` + d.news.map(a => {
+    const tm2 = mentioned((a.headline || '') + ' ' + (a.desc || ''));
+    const tag = tm2 && tm2.owner ? `<span class="ntag">${tm2.flag} ${esc(tm2.owner)}'s pick</span>` : '';
+    const href = a.link ? ` href="${esc(a.link)}" target="_blank" rel="noopener"` : '';
+    return `<a class="newsitem"${href}>
+      ${a.image ? `<img loading="lazy" src="${esc(a.image)}" alt="">` : ''}
+      <div class="ni-body"><div class="ni-head">${esc(a.headline)}</div>
+        ${a.desc ? `<div class="ni-desc">${esc(a.desc.slice(0, 140))}${a.desc.length > 140 ? '…' : ''}</div>` : ''}
+        <div class="ni-meta"><span>ESPN${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
+  }).join('') : '';
+
+  $('#news').innerHTML = cards + newsHtml + soonHtml;
 }
 
 const teamOwner = (d, t) => t.owner || d.teams[t.code]?.owner || '';
