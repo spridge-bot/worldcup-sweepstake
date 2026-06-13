@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T20:26:54+00:00",
+ "generated_at": "2026-06-13T20:27:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4620,6 +4620,14 @@
  ],
  "news": [
   {
+   "headline": "How many father-son duos have been in the FIFA World Cup?",
+   "desc": "Check out a list of every father-son duo that has played in the FIFA World Cup.",
+   "link": "https://www.espn.com/soccer/story/_/id/48847593/how-many-father-son-duos-the-fifa-world-cup",
+   "published": "2026-06-13T20:25:10Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2022/0317/r987687_608x342_16-9.jpg"
+  },
+  {
    "headline": "Japan 'came here to win the World Cup, not fun' - Yukinari Sugawara",
    "desc": "Japan wingback Yukinari Sugawara has reiterated that his team are at the World Cup not just to participate, but to win it.",
    "link": "https://www.espn.com/soccer/story/_/id/49052272/japan-came-here-win-world-cup-not-fun-yukinari-sugawara",
@@ -4658,14 +4666,6 @@
    "published": "2026-06-13T19:11:09Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672459_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Martinez excited as Portugal arrive in USA",
-   "desc": "",
-   "link": "https://www.espn.com/video/clip/_/id/49051647/martinez-excited-portugal-arrive-usa",
-   "published": "2026-06-13T18:20:41Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_INTERVIEW_Martinez_excited_as_Portugal_arrive_in_USA_2026_6_13/dm_260613_COM_SOC_INTERVIEW_Martinez_excited_as_Portugal_arrive_in_USA_2026_6_13.jpg"
   }
  ]
 }
