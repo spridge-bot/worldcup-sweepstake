@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T21:52:41+00:00",
+ "generated_at": "2026-06-13T21:54:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4649,9 +4649,17 @@
    "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
    "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
-   "published": "2026-06-13T21:41:37Z",
+   "published": "2026-06-13T21:53:35Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0610/r1670839_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "How Qatar earned their first ever World Cup point",
+   "desc": "How Qatar earned their first ever World Cup point",
+   "link": "https://www.espn.com/video/clip/_/id/49053368/how-qatar-earned-their-first-ever-world-cup-point",
+   "published": "2026-06-13T21:52:54Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Analysis_How_Qatar_earned_their_first_ever_World_Cup_point_20260613_GLOBAL_FIFA_WORLD_C/dm_260613_COM_SOC_Analysis_How_Qatar_earned_their_first_ever_World_Cup_point_20260613_GLOBAL_FIFA_WORLD_C.jpg"
   },
   {
    "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
@@ -4684,14 +4692,6 @@
    "published": "2026-06-13T21:06:31Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672548_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "How are Senegal fans feeling ahead of their matchup vs. France?",
-   "desc": "How are Senegal fans feeling ahead of their matchup vs. France?",
-   "link": "https://www.espn.com/video/clip/_/id/49052723/how-senegal-fans-feeling-ahead-their-matchup-vs-france",
-   "published": "2026-06-13T20:48:50Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_MAN_ON_THE_STREET/dm_260613_MAN_ON_THE_STREET.jpg"
   }
  ]
 }
