@@ -233,6 +233,17 @@
   .ntag { color: var(--gold); font-size: .68rem; font-weight: 700; display: block; }
   .ngoals { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 9px; padding-top: 9px;
             border-top: 1px solid var(--line); font-size: .75rem; color: var(--dim); }
+  .ncard.top { border-color: var(--gold); box-shadow: 0 0 28px rgba(247,201,72,.13); }
+  .topbadge { display: inline-block; background: var(--gold); color: #03150b; font-size: .6rem;
+              font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; border-radius: 999px;
+              padding: 3px 11px; margin-bottom: 9px; }
+  .story-head { font-family: var(--disp); font-size: 1.3rem; letter-spacing: .5px; line-height: 1.15;
+                margin: 2px 0 11px; }
+  .ncard.top .story-head { font-size: 1.6rem; color: #fff; }
+  .soonrow { display: flex; align-items: center; gap: 10px; padding: 9px 4px; font-size: .8rem;
+             border-bottom: 1px solid var(--line); }
+  .soonrow .st { color: var(--accent); font-weight: 700; min-width: 48px; }
+  .soonrow .sm { flex: 1; }
   .duelstrip { text-align: center; font-family: var(--disp); font-size: .92rem;
                letter-spacing: 2px; color: var(--gold); padding: 8px 14px 0; }
   .duelstrip i { font-style: normal; color: var(--dim); font-size: .7rem;
@@ -1296,37 +1307,91 @@ function renderProjection(d) {
 /* ---------------- news ---------------- */
 function renderNews(d) {
   const today = d.latest_day || '';
+  const rankOf = c => d.teams[c]?.fifa_rank || 99;
   const ownerOf = t => t.owner || d.teams[t.code]?.owner || '';
-  const ot = t => { const o = ownerOf(t); return o ? `<span class="ntag">${esc(o)}</span>` : ''; };
-  const goals = id => {
+  const goalsHtml = id => {
     const inc = (typeof SOFA === 'object' && SOFA[id] && SOFA[id].incidents) || [];
     const g = inc.filter(i => i.type === 'goal');
     return g.length ? `<div class="ngoals">${g.map(x =>
       `<span>⚽ ${x.minute != null ? x.minute + "'" : ''} ${esc(x.player || '')}</span>`).join('')}</div>` : '';
   };
-  const when = utc => { try { return new Date(utc).toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' }); } catch { return ''; } };
-  const card = (kind, m, badge) => {
+  const teamsHtml = m => {
     const h = m.home, a = m.away;
     const hs = h.goals != null ? h.goals : '', as = a.goals != null ? a.goals : '';
     const score = (hs !== '' || as !== '') ? `${hs}–${as}` : 'v';
-    return `<div class="ncard ${kind}">
-      <div class="nhead"><span class="nkind">${badge}</span>
-        <span class="nstage">${esc([m.stage, m.group].filter(Boolean).join(' · '))}</span></div>
-      <div class="nteams"><span class="nt">${h.flag} ${esc(h.name)} ${ot(h)}</span>
-        <b class="nsc">${score}</b>
-        <span class="nt away">${a.flag} ${esc(a.name)} ${ot(a)}</span></div>
-      ${goals(m.id)}</div>`;
+    const ot = t => { const o = ownerOf(t); return o ? `<span class="ntag">${esc(o)}</span>` : ''; };
+    return `<div class="nteams"><span class="nt">${h.flag} ${esc(h.name)} ${ot(h)}</span>
+      <b class="nsc">${score}</b>
+      <span class="nt away">${a.flag} ${esc(a.name)} ${ot(a)}</span></div>`;
   };
-  const live = (d.live || []).map(m => card('live', m, `🔴 LIVE${m.minute != null ? ' ' + m.minute + "'" : ''}`));
-  const results = (d.results || []).slice().sort((a, b) => (b.utc || '').localeCompare(a.utc || ''))
-    .map(r => card('ft', r, '✅ Full time'));
+  const recency = utc => { try { return Math.max(0, 14 - (Date.now() - Date.parse(utc)) / 3.6e6 * 0.6); } catch { return 0; } };
+  const big = (hg, ag) => `${Math.max(hg, ag)}–${Math.min(hg, ag)}`;
+  const stories = [];
+
+  // LIVE — always top of the pile
+  (d.live || []).forEach(m => {
+    const h = m.home, a = m.away, hg = h.goals ?? 0, ag = a.goals ?? 0;
+    let imp = 85 + (m.minute || 0) * 0.05, head = `${h.name} ${hg}–${ag} ${a.name}, live now`;
+    if (Math.abs(hg - ag) >= 3) { imp += 12; head = `${(hg > ag ? h : a).name} running riot — ${big(hg, ag)} and counting`; }
+    stories.push({ imp, icon: '🔴', kind: 'Live' + (m.minute != null ? ' ' + m.minute + "'" : ''),
+      stage: [m.stage, m.group].filter(Boolean).join(' · '), head, teams: teamsHtml(m), goals: goalsHtml(m.id), live: true });
+  });
+
+  // RESULTS — scored by how sensational they are
+  (d.results || []).forEach(r => {
+    const h = r.home, a = r.away, hg = h.goals, ag = a.goals;
+    if (hg == null || ag == null) return;
+    const margin = Math.abs(hg - ag), tot = hg + ag;
+    let imp = 18 + recency(r.utc), icon = '⚽', head;
+    const w = hg > ag ? h : ag > hg ? a : null, l = w ? (w === h ? a : h) : null;
+    if (!w) { head = `${h.name} and ${a.name} share the spoils in a ${hg}–${ag} draw`; imp += 4; }
+    else {
+      const up = rankOf(w.code) - rankOf(l.code);                 // +ve = lower-ranked side won
+      if (up >= 6) { icon = '🚨'; imp += 38 + Math.min(up, 40); head = `Shock! ${w.name} stun ${l.name} ${big(hg, ag)}`; }
+      else if (margin >= 3) { icon = '💥'; imp += 26; head = `${w.name} demolish ${l.name} ${big(hg, ag)}`; }
+      else if (margin === 1) { imp += 8; head = `${w.name} edge ${l.name} ${big(hg, ag)}`; }
+      else { imp += 6; head = `${w.name} see off ${l.name} ${big(hg, ag)}`; }
+      if (rankOf(l.code) <= 8) { imp += 22; if (icon === '⚽') icon = '😱'; }   // a giant falls
+    }
+    if (tot >= 5) { imp += 16; if (icon === '⚽') icon = '🔥'; }                 // goal-fest
+    const ow = w ? ownerOf(w) : '';
+    stories.push({ imp, icon, kind: 'Full time',
+      stage: [r.stage, r.group].filter(Boolean).join(' · ') + (ow ? ` · ${ow}'s pick` : ''),
+      head, teams: teamsHtml(r), goals: goalsHtml(r.id) });
+  });
+
+  // SWEEPSTAKE angle
+  const board = d.players.slice().sort((x, y) => y.total - x.total);
+  if (board[0] && board[0].total > 0) {
+    const top = board[0], joint = board.filter(p => p.total === top.total);
+    stories.push({ imp: 32, icon: '👑', kind: 'Sweepstake', stage: 'Overall standings',
+      head: joint.length > 1 ? `${joint.map(p => p.name).join(' & ')} share top spot on ${fmt(top.total)} pts`
+        : `${top.name} leads the sweepstake on ${fmt(top.total)} pts` });
+  }
+  const mover = board.filter(p => p.movement > 0).sort((x, y) => y.movement - x.movement)[0];
+  if (mover) stories.push({ imp: 22, icon: '📈', kind: 'Sweepstake', stage: 'Biggest riser',
+    head: `${mover.name} surges ${mover.movement} place${mover.movement > 1 ? 's' : ''} up the table` });
+
+  stories.sort((x, y) => y.imp - x.imp);
+  if (!stories.length) {
+    $('#news').innerHTML = '<div class="empty">News will appear here as games kick off through the day.</div>';
+    return;
+  }
+  const cards = stories.map((s, i) => `<div class="ncard${s.live ? ' live' : ''}${i === 0 ? ' top' : ''}">
+    ${i === 0 ? '<div class="topbadge">★ Top story</div>' : ''}
+    <div class="nhead"><span class="nkind">${s.icon} ${esc(s.kind)}</span><span class="nstage">${esc(s.stage)}</span></div>
+    <div class="story-head">${esc(s.head)}</div>
+    ${s.teams || ''}${s.goals || ''}</div>`).join('');
+
   const soon = (d.upcoming || []).filter(u => (u.utc || '').slice(0, 10) === today)
-    .sort((a, b) => (a.utc || '').localeCompare(b.utc || ''))
-    .map(u => card('soon', u, '📅 ' + when(u.utc)));
-  const sect = (title, arr) => arr.length ? `<h3 class="newsh">${title}</h3>${arr.join('')}` : '';
-  const body = sect('🔴 Live now', live) + sect('✅ Latest results', results) + sect('📅 Coming up today', soon);
-  $('#news').innerHTML = body ||
-    '<div class="empty">News will appear here as games kick off through the day.</div>';
+    .sort((x, y) => (x.utc || '').localeCompare(y.utc || ''));
+  const tm = utc => { try { return new Date(utc).toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' }); } catch { return ''; } };
+  const soonHtml = soon.length ? `<h3 class="newsh">📅 Still to come today</h3>` + soon.map(u =>
+    `<div class="soonrow"><span class="st">${tm(u.utc)}</span>
+      <span class="sm">${u.home.flag} ${esc(u.home.name)} v ${esc(u.away.name)} ${u.away.flag}</span>
+      <span class="ntag">${esc(ownerOf(u.home) || '—')} v ${esc(ownerOf(u.away) || '—')}</span></div>`).join('') : '';
+
+  $('#news').innerHTML = cards + soonHtml;
 }
 
 function renderResults(d) {
