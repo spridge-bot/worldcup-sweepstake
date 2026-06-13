@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T23:49:04+00:00",
+ "generated_at": "2026-06-13T23:57:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1053,8 +1053,8 @@
    "utc": "2026-06-13T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "84'",
-   "status_detail": "84'",
+   "clock": "90'+2'",
+   "status_detail": "90'+2'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.69,
@@ -1245,7 +1245,7 @@
    "odds": {
     "home": 6.0,
     "draw": 4.6,
-    "away": 1.51,
+    "away": 1.53,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4672,6 +4672,14 @@
  ],
  "news": [
   {
+   "headline": "How Eredivisie top scorer Ueda now has to plot Netherlands' downfall",
+   "desc": "Japan's Ayase Ueda has blossomed playing in the Dutch Eredivisie. He now has to hurt Netherlands' World Cup prospects.",
+   "link": "https://www.espn.com/soccer/story/_/id/49046353/how-eredivisie-top-scorer-ueda-now-plot-netherlands-downfall",
+   "published": "2026-06-13T23:52:35Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672207_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
    "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
@@ -4699,7 +4707,7 @@
    "headline": "Switzerland devastated as 'proud' Qatar win 1st World Cup point",
    "desc": "Qatar scored a stoppage-time goal to earn a shocking 1-1 draw with Group B favorites Switzerland on Saturday.",
    "link": "https://www.espn.com/soccer/story/_/id/49053969/switzerland-qatar-world-cup-2026",
-   "published": "2026-06-13T23:32:57Z",
+   "published": "2026-06-13T23:56:16Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672635_1296x729_16-9.jpg"
   },
@@ -4710,14 +4718,6 @@
    "published": "2026-06-13T22:48:16Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_Fans_on_Copacabana_Beach_celebrate_Brazils_equalizer_vs_Morocco_20260613_GLOBAL_F/dm_260613_COM_SOC_News_Fans_on_Copacabana_Beach_celebrate_Brazils_equalizer_vs_Morocco_20260613_GLOBAL_F.jpg"
-  },
-  {
-   "headline": "Kane: It's business time for England at the World Cup",
-   "desc": "Kane: It's business time for England at the World Cup",
-   "link": "https://www.espn.com/video/clip/_/id/49053591/business-england-world-cup",
-   "published": "2026-06-13T22:16:25Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Interview_Kane_Its_business_time_for_England_at_the_World_Cup_20260613_GLOBAL_FIFA_WOR/dm_260613_COM_SOC_Interview_Kane_Its_business_time_for_England_at_the_World_Cup_20260613_GLOBAL_FIFA_WOR.jpg"
   }
  ]
 }
