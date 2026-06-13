@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T18:50:29+00:00",
+ "generated_at": "2026-06-13T18:52:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1163,9 +1163,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 15.0,
+    "home": 16.0,
     "draw": 7.0,
-    "away": 1.2,
+    "away": 1.19,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4603,7 +4603,7 @@
    "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
    "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-13T18:24:46Z",
+   "published": "2026-06-13T18:50:53Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
   },
