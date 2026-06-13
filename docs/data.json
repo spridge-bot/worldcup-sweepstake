@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T21:06:52+00:00",
+ "generated_at": "2026-06-13T21:08:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4654,6 +4654,14 @@
    "image": "https://a.espncdn.com/photo/2026/0610/r1670839_1296x729_16-9.jpg"
   },
   {
+   "headline": "England met with warm welcome as they arrive at Kansas City World Cup base",
+   "desc": "",
+   "link": "https://www.espn.com/soccer/story/_/id/49052842/england-kansas-city-world-cup-base",
+   "published": "2026-06-13T21:06:31Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672548_1296x729_16-9.jpg"
+  },
+  {
    "headline": "How are Senegal fans feeling ahead of their matchup vs. France?",
    "desc": "How are Senegal fans feeling ahead of their matchup vs. France?",
    "link": "https://www.espn.com/video/clip/_/id/49052723/how-senegal-fans-feeling-ahead-their-matchup-vs-france",
@@ -4684,14 +4692,6 @@
    "published": "2026-06-13T20:25:10Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2022/0317/r987687_608x342_16-9.jpg"
-  },
-  {
-   "headline": "Japan 'came here to win the World Cup, not fun' - Yukinari Sugawara",
-   "desc": "Japan wingback Yukinari Sugawara has reiterated that his team are at the World Cup not just to participate, but to win it.",
-   "link": "https://www.espn.com/soccer/story/_/id/49052272/japan-came-here-win-world-cup-not-fun-yukinari-sugawara",
-   "published": "2026-06-13T20:07:50Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672486_1296x729_16-9.jpg"
   }
  ]
 }
