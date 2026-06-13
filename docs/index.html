@@ -1701,12 +1701,25 @@ function renderRules(d) {
 let liveTimer = null, kickoffTimer = null, LAST_D = null;
 // keep the countdown ticking without refetching
 setInterval(() => { if (LAST_D && !LAST_D.live?.length) renderLive(LAST_D); }, 30000);
+// always refetch on a baseline cadence so a page opened before kick-off still
+// picks up a match the moment it starts (the 15s fast timer takes over once live)
+setInterval(loadAll, 40000);
+
+// Fetch live data straight from the raw git CDN (fresh on every commit) instead
+// of GitHub Pages, whose build + 10-min CDN cache lags badly during live games.
+// Falls back to the Pages-relative copy if raw is unreachable.
+const RAW = 'https://raw.githubusercontent.com/spridge-bot/worldcup-sweepstake/main/docs/';
+function grab(name, optional) {
+  const bust = '?t=' + Date.now();
+  const go = url => fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  return go(RAW + name + bust).catch(() => go(name + bust)).catch(e => { if (optional) return {}; throw e; });
+}
 
 function loadAll() {
   return Promise.all([
-    fetch('data.json?t=' + Date.now()).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-    fetch('details.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-    fetch('sofascore.json?t=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    grab('data.json'),
+    grab('details.json', true),
+    grab('sofascore.json', true),
   ]).then(([d, det, sofa]) => {
     DETAILS = det || {}; SOFA = sofa || {};
     const when = new Date(d.generated_at).toLocaleString();
