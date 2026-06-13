@@ -304,7 +304,7 @@ def merge_espn_summary(ent, summary, index):
                 continue
             if st["name"] == "passPct" and num <= 1:
                 num *= 100
-            stats.setdefault(key, int(num) if num == int(num) else round(num, 1))
+            stats[key] = int(num) if num == int(num) else round(num, 1)   # update so live stats stay current
 
     for r in summary.get("rosters") or []:
         side = side_by_code.get(resolve_team(index, r.get("team")))
@@ -345,9 +345,12 @@ def detail_skeleton(ch, ca, status="FINISHED"):
 
 def enrich_details_espn(cache, matches_resolved, index, emap=None):
     """Free, keyless second source: fill stats/lineups football-data doesn't provide."""
+    live_statuses = ("IN_PLAY", "PAUSED")
     todo = [(m, ch, ca) for m, ch, ca in matches_resolved
-            if m["status"] == "FINISHED" and ch and ca and m.get("id")
-            and not cache.get(str(m["id"]), {}).get("espn")]
+            if ch and ca and m.get("id")
+            and (m["status"] in live_statuses                         # live: re-fetch every run
+                 or (m["status"] == "FINISHED"                        # finished: once
+                     and not cache.get(str(m["id"]), {}).get("espn")))]
     if not todo:
         return
     if emap is None:
@@ -368,9 +371,10 @@ def enrich_details_espn(cache, matches_resolved, index, emap=None):
         except Exception as e:
             print(f"  ESPN summary {eid} failed ({e}); skipping")
             continue
-        ent = cache.setdefault(str(m["id"]), detail_skeleton(ch, ca))
+        ent = cache.setdefault(str(m["id"]), detail_skeleton(ch, ca, m["status"]))
         merge_espn_summary(ent, summary, index)
-        ent["espn"] = True
+        if m["status"] == "FINISHED":
+            ent["espn"] = True   # mark done; live matches re-merge next cycle for fresh stats
     print(f"  ESPN enrichment: {fetched} match summaries merged")
 
 
