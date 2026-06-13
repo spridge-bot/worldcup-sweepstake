@@ -755,6 +755,10 @@ function renderLive(d) {
   }
   el.innerHTML = d.live.map(m => {
     const s = SOFA[String(m.id)];
+    const det = DETAILS[String(m.id)];
+    const hasStats = o => o && Object.keys(o).length;
+    const statHtml = s?.stats ? statBars(s.stats.home, s.stats.away)
+      : (hasStats(det?.home?.stats) || hasStats(det?.away?.stats)) ? statBars(det.home.stats, det.away.stats) : '';
     const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
     const side = (t, away) => `<div class="t${away ? ' away' : ''}">
         <span class="flag">${t.flag}</span>
@@ -789,7 +793,7 @@ function renderLive(d) {
             ${pitch}
             ${shotmap}
             ${s?.momentum ? `<div style="padding:2px 16px 6px">${momentumChart(s, m.home.name, m.away.name)}</div>` : ''}
-            ${s?.stats ? `<div style="padding:2px 16px 10px">${statBars(s.stats.home, s.stats.away)}</div>` : ''}
+            ${statHtml ? `<div style="padding:2px 16px 10px">${statHtml}</div>` : ''}
           </div>
           <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
         </div>
