@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T23:04:51+00:00",
+ "generated_at": "2026-06-13T23:05:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4672,6 +4672,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
+   "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
+   "published": "2026-06-13T23:04:35Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
    "desc": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
    "link": "https://www.espn.com/video/clip/_/id/49053884/fans-copacabana-beach-celebrate-brazil-equalizer-vs-morocco",
@@ -4686,14 +4694,6 @@
    "published": "2026-06-13T22:46:51Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672597_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
-   "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-13T22:38:02Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
   },
   {
    "headline": "Kane: It's business time for England at the World Cup",
