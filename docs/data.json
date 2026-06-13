@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T22:36:17+00:00",
+ "generated_at": "2026-06-13T22:36:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1047,8 +1047,8 @@
    "utc": "2026-06-13T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "31'",
-   "status_detail": "31'",
+   "clock": "32'",
+   "status_detail": "32'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.69,
@@ -4571,6 +4571,14 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Dipen"
+  },
+  {
+   "player": "Vinícius Júnior",
+   "team": "BRA",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
   }
  ],
  "fairplay": [
