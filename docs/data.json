@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T15:21:58+00:00",
+ "generated_at": "2026-06-13T15:23:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4600,6 +4600,14 @@
  ],
  "news": [
   {
+   "headline": "Chris Turner delivers epic Haiti vs. Scotland freestyle",
+   "desc": "",
+   "link": "https://www.espn.com/video/clip/_/id/49050624/chris-turner-delivers-epic-haiti-vs-scotland-freestyle",
+   "published": "2026-06-13T15:21:33Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_ANALYSIS_Chris_Turner_delivers_epic_Haiti_vs_Scotland_freestyle_2026_6_13/dm_260613_COM_SOC_ANALYSIS_Chris_Turner_delivers_epic_Haiti_vs_Scotland_freestyle_2026_6_13.jpg"
+  },
+  {
    "headline": "FIFA World Cup for Africa's teams - Fixtures, kick off times, news, socials, more",
    "desc": "The FIFA World Cup is here! It's a record-breaking 48-team tournament, with a 10-team African contingent -- the biggest contingent from the continent to date.",
    "link": "https://www.espn.com/espn/story/_/id/48974632/fifa-world-cup-africa-teams-fixtures-kick-s-news-socials-more",
@@ -4638,14 +4646,6 @@
    "published": "2026-06-13T14:45:56Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_ANALYSIS_James_Olley_explains_the_impact_of_Englands_kit_being_stolen_2026_6_13/dm_260613_COM_SOC_ANALYSIS_James_Olley_explains_the_impact_of_Englands_kit_being_stolen_2026_6_13.jpg"
-  },
-  {
-   "headline": "Can Haiti pull off an upset vs. Scotland?",
-   "desc": "",
-   "link": "https://www.espn.com/video/clip/_/id/49050376/can-haiti-pull-upset-vs-scotland",
-   "published": "2026-06-13T14:41:03Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_ANALYSIS_Can_Haiti_pull_off_an_upset_vs_Scotland_2026_6_13/dm_260613_COM_SOC_ANALYSIS_Can_Haiti_pull_off_an_upset_vs_Scotland_2026_6_13.jpg"
   }
  ]
 }
