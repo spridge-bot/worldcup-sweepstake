@@ -1164,8 +1164,8 @@
    "group": "Group B",
    "odds": {
     "home": 14.0,
-    "draw": 6.5,
-    "away": 1.22,
+    "draw": 7.0,
+    "away": 1.21,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1363,7 +1363,7 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.08,
+    "home": 1.09,
     "draw": 12.0,
     "away": 26.0,
     "over_under": 3.5,
@@ -1490,7 +1490,7 @@
    "odds": {
     "home": 14.0,
     "draw": 7.0,
-    "away": 1.21,
+    "away": 1.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1638,9 +1638,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 8.5,
+    "home": 9.0,
     "draw": 4.7,
-    "away": 1.4,
+    "away": 1.39,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1663,9 +1663,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 1.74,
-    "draw": 3.8,
-    "away": 5.0,
+    "home": 1.77,
+    "draw": 3.75,
+    "away": 4.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1739,8 +1739,8 @@
    "group": "Group A",
    "odds": {
     "home": 2.0,
-    "draw": 3.4,
-    "away": 4.0,
+    "draw": 3.35,
+    "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2138,9 +2138,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 6.5,
-    "draw": 4.3,
-    "away": 1.53,
+    "home": 7.0,
+    "draw": 4.4,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
