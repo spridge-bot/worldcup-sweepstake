@@ -525,7 +525,8 @@
     <button data-tab="podium">Podium</button>
     <button data-tab="projection">🔮 Projection</button>
     <button data-tab="news">📰 News</button>
-    <button data-tab="results">Matches</button>
+    <button data-tab="results">Results</button>
+    <button data-tab="fixtures">Fixtures</button>
     <button data-tab="groups">Groups</button>
     <button data-tab="bracket">Bracket</button>
     <button data-tab="teams">Teams</button>
@@ -540,6 +541,7 @@
   <section id="projection"></section>
   <section id="news"></section>
   <section id="results"></section>
+  <section id="fixtures"></section>
   <section id="groups"></section>
   <section id="bracket"></section>
   <section id="teams"></section>
@@ -708,7 +710,7 @@ function matchDayTiles(d) {
       const ko = new Date(next.utc);
       const when = ko.toLocaleString(undefined,
         { weekday: 'short', hour: '2-digit', minute: '2-digit' });
-      tiles.push(`<div class="tile next" data-go="results">
+      tiles.push(`<div class="tile next" data-go="fixtures">
         <span>${next.home.flag} ${esc(next.home.name)} <span class="score">v</span>
           ${esc(next.away.name)} ${next.away.flag}</span>
         <span class="label">next · ${when} · ${countdown(ko - now)}</span></div>`);
@@ -1394,63 +1396,93 @@ function renderNews(d) {
   $('#news').innerHTML = cards + soonHtml;
 }
 
-function renderResults(d) {
-  if (!d.results.length && !d.upcoming.length) {
-    $('#results').innerHTML = '<div class="empty">No results yet — first match is on 11 June 2026.</div>';
-    return;
-  }
-  const FILT = fixtureFilter;
-  const inFilter = m => FILT === 'all' || m.home.owner === FILT || m.away.owner === FILT;
-  const fResults = (d.results || []).filter(inFilter);
-  const fUpcoming = (d.upcoming || []).filter(inFilter);
-  const controls = `<div class="fxctl"><label>Show fixtures for
-    <select id="fxfilter">
-      <option value="all"${FILT === 'all' ? ' selected' : ''}>Everyone</option>
-      ${d.players.map(p => `<option value="${esc(p.name)}"${FILT === p.name ? ' selected' : ''}>${esc(p.name)}</option>`).join('')}
+const teamOwner = (d, t) => t.owner || d.teams[t.code]?.owner || '';
+function fixtureFilterBar(d, id) {
+  const F = fixtureFilter;
+  return `<div class="fxctl"><label>Show for
+    <select id="${id}">
+      <option value="all"${F === 'all' ? ' selected' : ''}>Everyone</option>
+      ${d.players.map(p => `<option value="${esc(p.name)}"${F === p.name ? ' selected' : ''}>${esc(p.name)}</option>`).join('')}
     </select></label></div>`;
-  const projPanel = '';   // projection lives on its own Projection tab now
-  const byDay = {};
-  fResults.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
-  const side = (t, owner, away) => `<div class="t${away ? ' away' : ''}">
-      <span class="flag">${t.flag}</span>
-      <span><span class="nm">${esc(t.name)}</span>
-      <span class="tier t${t.tier}">T${t.tier}</span><br>
-      <span class="own">${esc(owner || '')}</span></span></div>`;
+}
+function wireFixtureFilter(d, id) {
+  const sel = document.getElementById(id);
+  if (sel) sel.onchange = () => { fixtureFilter = sel.value; renderResults(d); renderFixtures(d); };
+}
+
+function renderResults(d) {
+  const FILT = fixtureFilter;
+  const inFilter = m => FILT === 'all' || teamOwner(d, m.home) === FILT || teamOwner(d, m.away) === FILT;
+  const fResults = (d.results || []).filter(inFilter);
+  const controls = fixtureFilterBar(d, 'rxfilter');
   let html = '';
-  for (const day of Object.keys(byDay).sort().reverse()) {
-    const cards = byDay[day].map(r => {
-      const stageLabel = [r.stage, r.group].filter(Boolean).join(' · ');
-      return `<div class="match">
-      <div class="head"><span>${esc(stageLabel)}</span><span></span></div>
-      ${duelStrip(d.teams[r.home.code].owner, d.teams[r.away.code].owner)}
-      <div class="scoreline">
-        ${side(r.home, d.teams[r.home.code].owner, false)}
-        <div class="scorebox">${r.home.goals} – ${r.away.goals}
-          ${r.note ? `<small>${esc(r.note)}</small>` : ''}</div>
-        ${side(r.away, d.teams[r.away.code].owner, true)}
-      </div>
-      ${scorerSummary(r)}
-      ${oddsBar(r.odds, true)}
-      ${r.home.points == null ? '' : `<div class="ptsrow">
-        <span>${esc(d.teams[r.home.code].owner || '—')} <b>+${fmt(r.home.points)}</b></span>
-        <span><b>+${fmt(r.away.points)}</b> ${esc(d.teams[r.away.code].owner || '—')}</span>
-      </div>`}
-      <button class="mc-btn" data-mid="${r.id}">Match centre ▾</button>
-      <div class="mc" id="mc-${r.id}"></div>
-    </div>`;
-    }).join('');
-    const date = new Date(day + 'T12:00:00Z').toLocaleDateString(undefined,
-      { weekday: 'long', day: 'numeric', month: 'long' });
-    html += `<div class="day"><h3>${date}</h3>${cards}</div>`;
+  if (!fResults.length) {
+    html = `<div class="empty">${(d.results || []).length
+      ? 'No results for ' + esc(FILT) + ' yet.'
+      : 'No results yet — the first match is on 11 June 2026.'}</div>`;
+  } else {
+    const side = (t, owner, away) => `<div class="t${away ? ' away' : ''}">
+        <span class="flag">${t.flag}</span>
+        <span><span class="nm">${esc(t.name)}</span>
+        <span class="tier t${t.tier}">T${t.tier}</span><br>
+        <span class="own">${esc(owner || '')}</span></span></div>`;
+    const byDay = {};
+    fResults.forEach(r => (byDay[r.date] = byDay[r.date] || []).push(r));
+    for (const day of Object.keys(byDay).sort().reverse()) {
+      const cards = byDay[day].map(r => {
+        const stageLabel = [r.stage, r.group].filter(Boolean).join(' · ');
+        return `<div class="match">
+        <div class="head"><span>${esc(stageLabel)}</span><span></span></div>
+        ${duelStrip(d.teams[r.home.code].owner, d.teams[r.away.code].owner)}
+        <div class="scoreline">
+          ${side(r.home, d.teams[r.home.code].owner, false)}
+          <div class="scorebox">${r.home.goals} – ${r.away.goals}
+            ${r.note ? `<small>${esc(r.note)}</small>` : ''}</div>
+          ${side(r.away, d.teams[r.away.code].owner, true)}
+        </div>
+        ${scorerSummary(r)}
+        ${oddsBar(r.odds, true)}
+        ${r.home.points == null ? '' : `<div class="ptsrow">
+          <span>${esc(d.teams[r.home.code].owner || '—')} <b>+${fmt(r.home.points)}</b></span>
+          <span><b>+${fmt(r.away.points)}</b> ${esc(d.teams[r.away.code].owner || '—')}</span>
+        </div>`}
+        <button class="mc-btn" data-mid="${r.id}">Match centre ▾</button>
+        <div class="mc" id="mc-${r.id}"></div>
+      </div>`;
+      }).join('');
+      const date = new Date(day + 'T12:00:00Z').toLocaleDateString(undefined,
+        { weekday: 'long', day: 'numeric', month: 'long' });
+      html += `<div class="day"><h3>${date}</h3>${cards}</div>`;
+    }
   }
-  if (fUpcoming.length) {
+  $('#results').innerHTML = controls + html;
+  wireFixtureFilter(d, 'rxfilter');
+  document.querySelectorAll('#results .mc-btn').forEach(btn => btn.onclick = () => {
+    const panel = $('#mc-' + btn.dataset.mid);
+    if (!panel.classList.contains('open') && !panel.innerHTML) {
+      const r = d.results.find(x => String(x.id) === btn.dataset.mid);
+      panel.innerHTML = matchCentre(r, d);
+    }
+    panel.classList.toggle('open');
+    btn.textContent = panel.classList.contains('open') ? 'Match centre ▴' : 'Match centre ▾';
+  });
+}
+
+function renderFixtures(d) {
+  const FILT = fixtureFilter;
+  const inFilter = m => FILT === 'all' || teamOwner(d, m.home) === FILT || teamOwner(d, m.away) === FILT;
+  const fUpcoming = (d.upcoming || []).filter(inFilter);
+  const controls = fixtureFilterBar(d, 'fxfilter');
+  let html = '';
+  if (!fUpcoming.length) {
+    html = `<div class="empty">${(d.upcoming || []).length
+      ? 'No upcoming fixtures for ' + esc(FILT) + '.' : 'No fixtures scheduled yet.'}</div>`;
+  } else {
     const form = f => !f ? '' : `<span class="form">${[...f].slice(-5).map(c =>
       `<i class="${c}">${c}</i>`).join('')}</span>`;
     const upCard = u => {
-      const when = new Date(u.utc).toLocaleTimeString(undefined,
-        { hour: '2-digit', minute: '2-digit' });
+      const when = new Date(u.utc).toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
       const stageLabel = [u.stage, u.group].filter(Boolean).join(' · ');
-      const oddsRow = oddsBar(u.odds, false);
       return `<div class="match"><div class="head"><span>${esc(stageLabel)}</span>
         <span>⏱ ${when}</span></div>
         <div class="scoreline">
@@ -1464,49 +1496,22 @@ function renderResults(d) {
           <div class="t away"><span class="flag">${u.away.flag}</span>
             <span><span class="nm">${esc(u.away.name)}</span>${form(u.away.form)}<br>
             <span class="own">${esc(u.away.owner || '')}</span></span></div>
-        </div>${oddsRow}${lineupBlock(u.id, u.home, u.away)}</div>`;
+        </div>${oddsBar(u.odds, false)}${lineupBlock(u.id, u.home, u.away)}</div>`;
     };
-    // one clearly-labelled block per day — easy to scroll the whole schedule
     const upByDay = {};
     fUpcoming.forEach(u => { const k = u.utc.slice(0, 10); (upByDay[k] = upByDay[k] || []).push(u); });
-    const days = Object.keys(upByDay).sort();
-    days.forEach((day, i) => {
+    Object.keys(upByDay).sort().forEach((day, i) => {
       const date = new Date(day + 'T12:00:00Z').toLocaleDateString(undefined,
         { weekday: 'long', day: 'numeric', month: 'long' });
       const n = upByDay[day].length;
-      html += `<div class="day" ${i === 0 ? 'id="upcoming"' : ''}>
-        <h3>${i === 0 ? '📅 Coming up · ' : '📅 '}${date}
+      html += `<div class="day"><h3>${i === 0 ? '📅 Next up · ' : '📅 '}${date}
           <span style="color:var(--dim);font-family:Archivo,sans-serif;font-size:.68rem;
             letter-spacing:1px">${n} match${n > 1 ? 'es' : ''}</span></h3>
         ${upByDay[day].map(upCard).join('')}</div>`;
     });
   }
-  if (fResults.length && fUpcoming.length) {
-    html = `<div style="display:flex;gap:8px;justify-content:center;margin-bottom:16px">
-      <a href="#results" onclick="window.scrollTo({top:0,behavior:'smooth'});return false"
-        class="chip" style="text-decoration:none;color:var(--text)">⏪ Results</a>
-      <a href="#upcoming" class="chip" style="text-decoration:none;color:var(--text)">📅 Fixtures</a>
-    </div>` + html;
-  }
-  if (!fResults.length && !fUpcoming.length) {
-    html = `<div class="empty">No fixtures for ${esc(FILT)} found.</div>`;
-  }
-  $('#results').innerHTML = controls + projPanel + html;
-
-  const sel = $('#fxfilter');
-  if (sel) sel.onchange = () => { fixtureFilter = sel.value; renderResults(d); };
-  const tile = $('#results .projtile');
-  if (tile) tile.addEventListener('toggle', () => { projOpen = tile.open; });
-
-  document.querySelectorAll('.mc-btn').forEach(btn => btn.onclick = () => {
-    const panel = $('#mc-' + btn.dataset.mid);
-    if (!panel.classList.contains('open') && !panel.innerHTML) {
-      const r = d.results.find(x => String(x.id) === btn.dataset.mid);
-      panel.innerHTML = matchCentre(r, d);
-    }
-    panel.classList.toggle('open');
-    btn.textContent = panel.classList.contains('open') ? 'Match centre ▴' : 'Match centre ▾';
-  });
+  $('#fixtures').innerHTML = controls + html;
+  wireFixtureFilter(d, 'fxfilter');
 }
 
 /* ---------------- groups ---------------- */
@@ -1657,7 +1662,7 @@ function loadAll() {
         ? '⚠️ DEMO DATA — these are fake results to preview the scoring.'
         : 'Waiting for the tournament to start — results will appear here automatically.';
     }
-    renderLive(d); renderLeaderboard(d); renderPodium(d); renderProjection(d); renderNews(d); renderResults(d); renderGroups(d);
+    renderLive(d); renderLeaderboard(d); renderPodium(d); renderProjection(d); renderNews(d); renderResults(d); renderFixtures(d); renderGroups(d);
     renderBracket(d); renderTeams(d); renderScorers(d); renderFairplay(d); renderRules(d);
     LAST_D = d;
     // keep the page fresh while a match is on
