@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T15:08:19+00:00",
+ "generated_at": "2026-06-13T15:10:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4600,6 +4600,14 @@
  ],
  "news": [
   {
+   "headline": "Morocco's FIFA World Cup run could define Achraf Hakimi's legacy",
+   "desc": "Fresh from another Champions League triumph with Paris Saint-Germain -- with the rightback returning from injury to excel in the final -- Hakimi is the captain of the most accomplished Morocco side ever assembled.",
+   "link": "https://www.espn.com/espn/story/_/id/49034272/morocco-fifa-world-cup-run-define-achraf-hakimi-legacy",
+   "published": "2026-06-13T15:08:14Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0611/r1671608_1296x729_16-9.jpg"
+  },
+  {
    "headline": "'The Moroccan Bellingham', 'The Egyptian Haaland' - Picking one wonderkid from Africa's World Cup teams",
    "desc": "Here's one pick for each of Africa's 10 contenders to potentially be the revelation of the World Cup.",
    "link": "https://www.espn.com/espn/story/_/id/49027523/the-moroccan-bellingham-egyptian-haaland-picking-one-wonderkid-africa-world-cup-teams",
@@ -4638,14 +4646,6 @@
    "published": "2026-06-13T13:57:59Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Qatar's semifinal  set the bar high for Morocco, and coach Mohamed Ouahbi cannot afford to disappoint",
-   "desc": "In Qatar, reactive football felt heroic as the Atlas Lions reached the semifinals. Three and a half years later, Morocco's aim must be to dominate rather than just survive.",
-   "link": "https://www.espn.com/espn/story/_/id/49041331/qatar-semifinal-set-bar-high-morocco-coach-mohamed-ouahbi-cannot-afford-disappoint",
-   "published": "2026-06-13T12:54:27Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1671925_1296x729_16-9.jpg"
   }
  ]
 }
