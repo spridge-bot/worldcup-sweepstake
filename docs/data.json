@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T19:10:27+00:00",
+ "generated_at": "2026-06-13T19:11:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1041,8 +1041,8 @@
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "5'",
-   "status_detail": "5'",
+   "clock": "6'",
+   "status_detail": "6'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 13.0,
