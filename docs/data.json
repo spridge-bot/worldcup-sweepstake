@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T22:30:43+00:00",
+ "generated_at": "2026-06-13T22:31:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1047,8 +1047,8 @@
    "utc": "2026-06-13T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "25'",
-   "status_detail": "25'",
+   "clock": "26'",
+   "status_detail": "26'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.69,
@@ -4658,6 +4658,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
+   "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
+   "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
+   "published": "2026-06-13T22:30:00Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672597_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Kane: It's business time for England at the World Cup",
    "desc": "Kane: It's business time for England at the World Cup",
    "link": "https://www.espn.com/video/clip/_/id/49053591/business-england-world-cup",
@@ -4672,14 +4680,6 @@
    "published": "2026-06-13T22:07:59Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
-   "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
-   "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
-   "published": "2026-06-13T22:04:48Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0610/r1670839_1296x729_16-9.jpg"
   },
   {
    "headline": "England land in Kansas City for World Cup base camp",
