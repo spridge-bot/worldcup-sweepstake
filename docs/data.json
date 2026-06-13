@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T19:37:17+00:00",
+ "generated_at": "2026-06-13T19:37:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1041,8 +1041,8 @@
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "32'",
-   "status_detail": "32'",
+   "clock": "33'",
+   "status_detail": "33'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 13.0,
@@ -4620,10 +4620,10 @@
  ],
  "news": [
   {
-   "headline": "Raya insists he will 'respect' potential bench role for Spain",
-   "desc": "Raya insists he will 'respect' potential bench role for Spain",
-   "link": "https://www.espn.com/video/clip/_/id/49052138/raya-insists-respect-potential-bench-role-spain",
-   "published": "2026-06-13T19:32:53Z",
+   "headline": "Raya to 'respect' potential bench role for Spain",
+   "desc": "Raya to 'respect' potential bench role for Spain",
+   "link": "https://www.espn.com/video/clip/_/id/49052138/raya-respect-potential-bench-role-spain",
+   "published": "2026-06-13T19:36:49Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Raya_insists_he_will_respect_potential_bench_role_for_Spain_20260613_GLOBAL_FI/dm_260613_COM_SOC_Presser_Raya_insists_he_will_respect_potential_bench_role_for_Spain_20260613_GLOBAL_FI.jpg"
   },
