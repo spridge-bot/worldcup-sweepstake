@@ -1708,7 +1708,7 @@ setInterval(loadAll, 40000);
 // Fetch live data straight from the raw git CDN (fresh on every commit) instead
 // of GitHub Pages, whose build + 10-min CDN cache lags badly during live games.
 // Falls back to the Pages-relative copy if raw is unreachable.
-const RAW = 'https://raw.githubusercontent.com/spridge-bot/worldcup-sweepstake/main/docs/';
+const RAW = 'https://raw.githubusercontent.com/spridge-bot/worldcup-sweepstake/live-data/docs/';
 function grab(name, optional) {
   const bust = '?t=' + Date.now();
   const go = url => fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
