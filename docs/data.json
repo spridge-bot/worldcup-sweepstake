@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T19:43:23+00:00",
+ "generated_at": "2026-06-13T19:56:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1041,8 +1041,8 @@
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "38'",
-   "status_detail": "38'",
+   "clock": "45'+6'",
+   "status_detail": "45'+6'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 13.0,
@@ -4639,7 +4639,7 @@
    "headline": "FIFA 'reminded' Egypt to remove seven stars from badge on jerseys - EFA",
    "desc": "Egypt will play their FIFA World Cup matches in kits not bearing the stars commemorating their seven Africa Cup of Nations victories, following a reminder from FIFA, according to sources within the Egyptian Football Association.",
    "link": "https://www.espn.com/espn/story/_/id/49052051/fifa-reminded-egypt-remove-seven-stars-badge-jerseys-efa",
-   "published": "2026-06-13T19:40:30Z",
+   "published": "2026-06-13T19:44:11Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672488_1296x729_16-9.jpg"
   },
