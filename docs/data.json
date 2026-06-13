@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T23:28:33+00:00",
+ "generated_at": "2026-06-13T23:28:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4688,6 +4688,14 @@
    "image": "https://a.espncdn.com/photo/2026/0613/r1672624_1296x729_16-9.jpg"
   },
   {
+   "headline": "Switzerland devastated as 'proud' Qatar win 1st World Cup point",
+   "desc": "Qatar scored a stoppage-time goal to earn a shocking 1-1 draw with Group B favorites Switzerland on Saturday.",
+   "link": "https://www.espn.com/soccer/story/_/id/49053969/switzerland-qatar-world-cup-2026",
+   "published": "2026-06-13T23:27:34Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672635_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
    "desc": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
    "link": "https://www.espn.com/video/clip/_/id/49053884/fans-copacabana-beach-celebrate-brazil-equalizer-vs-morocco",
@@ -4710,14 +4718,6 @@
    "published": "2026-06-13T22:16:25Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Interview_Kane_Its_business_time_for_England_at_the_World_Cup_20260613_GLOBAL_FIFA_WOR/dm_260613_COM_SOC_Interview_Kane_Its_business_time_for_England_at_the_World_Cup_20260613_GLOBAL_FIFA_WOR.jpg"
-  },
-  {
-   "headline": "England land in Kansas City for World Cup base camp",
-   "desc": "England land in Kansas City for World Cup base camp",
-   "link": "https://www.espn.com/video/clip/_/id/49053412/england-land-kansas-city-world-cup-base-camp",
-   "published": "2026-06-13T21:56:56Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
   }
  ]
 }
