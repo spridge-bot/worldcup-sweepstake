@@ -96,6 +96,16 @@
   table tr:hover td { background: rgba(62, 240, 139, .035); }
   td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .total { font-weight: 800; color: var(--gold); font-size: 1.02rem; }
+  /* leaderboard: teams folded under the player name so the score never scrolls off */
+  .lbtable { table-layout: fixed; width: 100%; }
+  .lbtable th:first-child, .lbtable td:first-child { width: 2.6em; }
+  .lbtable th.num:not(:first-child), .lbtable td.num:not(:first-child) { width: 3.4em; }
+  .lbtable td.pcell { white-space: normal; }
+  .pname { display: flex; align-items: center; gap: 8px; font-size: 1rem; }
+  .lbteams { display: flex; flex-wrap: wrap; gap: 3px 10px; margin-top: 5px; }
+  .lbteam { font-size: .72rem; color: var(--dim); white-space: nowrap; }
+  .lbteam.out { text-decoration: line-through; opacity: .55; }
+  .lbteam.champion { color: var(--gold); }
   .rank { color: var(--dim); width: 2.6em; font-family: var(--disp); font-size: 1.15rem;
           letter-spacing: 1px; }
   .top1 td { background: linear-gradient(90deg, rgba(247,201,72,.10), rgba(247,201,72,.03));
@@ -545,20 +555,24 @@ function movement(mv) {
 /* ---------------- leaderboard ---------------- */
 function renderLeaderboard(d) {
   const rows = d.players.map(p => {
-    const teams = p.teams.map(c => chip(d.teams[c])).join(' ');
+    const teams = p.teams.map(c => {
+      const t = d.teams[c];
+      const cls = t.status === 'out' ? ' out' : t.status === 'champion' ? ' champion' : '';
+      return `<span class="lbteam${cls}">${t.flag} ${esc(t.name)}</span>`;
+    }).join('');
     const today = p.today > 0 ? `<span class="today-pos">+${fmt(p.today)}</span>`
                 : p.today < 0 ? fmt(p.today) : '<span class="mv-flat">–</span>';
     const medal = p.total > 0 && MEDALS[p.rank] ? MEDALS[p.rank] + ' ' : '';
     return `<tr class="${p.rank === 1 && p.total > 0 ? 'top1' : ''}">
       <td class="rank num">${medal || p.rank}</td>
-      <td>${movement(p.movement)}</td>
-      <td><b>${esc(p.name)}</b></td>
-      <td>${teams}</td>
+      <td class="pcell">
+        <div class="pname"><b>${esc(p.name)}</b> ${movement(p.movement)}</div>
+        <div class="lbteams">${teams}</div></td>
       <td class="num">${today}</td>
       <td class="num total">${fmt(p.total)}</td></tr>`;
   }).join('');
-  $('#leaderboard').innerHTML = `<table>
-    <tr><th>#</th><th></th><th>Player</th><th>Teams</th>
+  $('#leaderboard').innerHTML = `<table class="lbtable">
+    <tr><th class="num">#</th><th>Player &amp; teams</th>
     <th class="num">Latest</th><th class="num">Total</th></tr>${rows}</table>`;
 }
 
