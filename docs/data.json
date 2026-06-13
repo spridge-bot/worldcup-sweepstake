@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T21:04:49+00:00",
+ "generated_at": "2026-06-13T21:05:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -485,12 +485,12 @@
    "fifa_rank": 19,
    "owner": "Emily",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 0,
    "events": []
   },
@@ -860,12 +860,12 @@
    "fifa_rank": 50,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 1,
    "events": [
     {
@@ -1035,39 +1035,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760420,
+   "date": "2026-06-13",
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+7'",
-   "status_detail": "90'+7'",
-   "venue": "Levi's Stadium",
+   "note": "",
+   "home": {
+    "code": "QAT",
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 13.0,
     "draw": 6.5,
     "away": 1.24,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "QAT",
-    "name": "Qatar",
-    "flag": "🇶🇦",
-    "owner": "Ruggy",
-    "goals": 1
-   },
-   "away": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760417,
    "date": "2026-06-13",
@@ -1710,7 +1710,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": "DWDLD"
+    "form": "DDWDL"
    },
    "away": {
     "name": "Bosnia and Herzegovina",
@@ -1741,7 +1741,7 @@
     "name": "Qatar",
     "flag": "🇶🇦",
     "owner": "Ruggy",
-    "form": "DLLWD"
+    "form": "DDLLW"
    }
   },
   {
@@ -2991,7 +2991,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Qatar",
      "flag": "🇶🇦",
@@ -3008,7 +3008,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Switzerland",
      "flag": "🇨🇭",
@@ -4608,10 +4608,28 @@
    "pts": 2
   },
   {
+   "code": "QAT",
+   "name": "Qatar",
+   "flag": "🇶🇦",
+   "owner": "Ruggy",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "KOR",
    "name": "South Korea",
    "flag": "🇰🇷",
    "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "SUI",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "owner": "Emily",
    "yellow": 1,
    "red": 0,
    "pts": 1
