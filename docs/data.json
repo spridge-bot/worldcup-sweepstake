@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13T20:47:30+00:00",
+ "generated_at": "2026-06-13T20:47:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1041,8 +1041,8 @@
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "80'",
-   "status_detail": "80'",
+   "clock": "81'",
+   "status_detail": "81'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 13.0,
@@ -1276,8 +1276,8 @@
    "group": "Group E",
    "odds": {
     "home": 1.03,
-    "draw": 16.0,
-    "away": 31.0,
+    "draw": 15.0,
+    "away": 29.0,
     "over_under": 4.5,
     "provider": "DraftKings"
    },
@@ -1300,9 +1300,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 1.95,
+    "home": 2.0,
     "draw": 3.5,
-    "away": 3.65,
+    "away": 3.55,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1325,7 +1325,7 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 3.6,
+    "home": 3.5,
     "draw": 2.85,
     "away": 2.45,
     "over_under": 1.5,
@@ -1351,8 +1351,8 @@
    "group": "Group F",
    "odds": {
     "home": 1.91,
-    "draw": 3.55,
-    "away": 4.3,
+    "draw": 3.5,
+    "away": 4.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1600,9 +1600,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.71,
-    "draw": 3.85,
-    "away": 4.8,
+    "home": 1.74,
+    "draw": 3.7,
+    "away": 5.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1775,8 +1775,8 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.56,
-    "draw": 4.3,
+    "home": 1.51,
+    "draw": 4.6,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1800,8 +1800,8 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 4.3,
-    "draw": 3.35,
+    "home": 4.1,
+    "draw": 3.45,
     "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1927,7 +1927,7 @@
    "odds": {
     "home": 1.2,
     "draw": 7.5,
-    "away": 13.0,
+    "away": 14.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2050,9 +2050,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 4.7,
-    "draw": 3.85,
-    "away": 1.77,
+    "home": 4.9,
+    "draw": 3.75,
+    "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2076,7 +2076,7 @@
    "group": "Group J",
    "odds": {
     "home": 1.62,
-    "draw": 4.0,
+    "draw": 3.9,
     "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2101,8 +2101,8 @@
    "group": "Group I",
    "odds": {
     "home": 1.12,
-    "draw": 9.0,
-    "away": 26.0,
+    "draw": 9.5,
+    "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2175,9 +2175,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.25,
+    "home": 1.26,
     "draw": 6.5,
-    "away": 12.0,
+    "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2226,8 +2226,8 @@
    "group": "Group L",
    "odds": {
     "home": 6.5,
-    "draw": 4.0,
-    "away": 1.56,
+    "draw": 4.1,
+    "away": 1.54,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
