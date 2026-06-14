@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T03:29:05+00:00",
+ "generated_at": "2026-06-14T03:34:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1280,9 +1280,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 5.25,
-    "draw": 3.7,
-    "away": 1.74,
+    "home": 5.5,
+    "draw": 3.75,
+    "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4645,15 +4645,6 @@
    "pts": 3
   },
   {
-   "code": "SCO",
-   "name": "Scotland",
-   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-   "owner": "George",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
    "code": "BRA",
    "name": "Brazil",
    "flag": "🇧🇷",
@@ -4727,10 +4718,10 @@
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
   },
   {
-   "headline": "World Cup Daily: Scotland defeat Haiti, Brazil fans take over NYC",
+   "headline": "World Cup Daily: Scotland defeat Haiti; Brazil fans take over NYC",
    "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-14T03:15:30Z",
+   "published": "2026-06-14T03:30:27Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672700_1296x729_16-9.jpg"
   },
