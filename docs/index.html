@@ -248,13 +248,19 @@
   .ntag { color: var(--gold); font-size: .68rem; font-weight: 700; display: block; }
   .ngoals { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 9px; padding-top: 9px;
             border-top: 1px solid var(--line); font-size: .75rem; color: var(--dim); }
-  .ncard.top { border-color: var(--gold); box-shadow: 0 0 28px rgba(247,201,72,.13); }
-  .topbadge { display: inline-block; background: var(--gold); color: #03150b; font-size: .6rem;
-              font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; border-radius: 999px;
-              padding: 3px 11px; margin-bottom: 9px; }
+  /* starred big results — gold border */
+  .ncard.big { border-color: var(--gold); box-shadow: 0 0 26px rgba(247,201,72,.14); }
+  /* sweepstake updates — distinct violet border so they stand out from match news */
+  .ncard.sweep { border-color: #b98cff; box-shadow: 0 0 24px rgba(185,140,255,.16);
+                 background: linear-gradient(180deg, rgba(185,140,255,.08), rgba(11,40,24,.4)); }
+  .nbadge { display: inline-block; font-size: .6rem; font-weight: 800; letter-spacing: 1.5px;
+            text-transform: uppercase; border-radius: 999px; padding: 3px 11px; margin-bottom: 9px; }
+  .bbig { background: var(--gold); color: #03150b; }
+  .bsweep { background: #b98cff; color: #1a0b33; }
+  .ncard.sweep .nkind { color: #d4b6ff; }
   .story-head { font-family: var(--disp); font-size: 1.3rem; letter-spacing: .5px; line-height: 1.15;
                 margin: 2px 0 11px; }
-  .ncard.top .story-head { font-size: 1.6rem; color: #fff; }
+  .ncard.big .story-head { color: #fff; }
   .soonrow { display: flex; align-items: center; gap: 10px; padding: 9px 4px; font-size: .8rem;
              border-bottom: 1px solid var(--line); }
   .soonrow .st { color: var(--accent); font-weight: 700; min-width: 48px; }
@@ -1403,64 +1409,71 @@ function renderNews(d) {
       <b class="nsc">${score}</b>
       <span class="nt away">${a.flag} ${esc(a.name)} ${ot(a)}</span></div>`;
   };
-  const recency = utc => { try { return Math.max(0, 14 - (Date.now() - Date.parse(utc)) / 3.6e6 * 0.6); } catch { return 0; } };
   const big = (hg, ag) => `${Math.max(hg, ag)}–${Math.min(hg, ag)}`;
-  const stories = [];
+  const matchStories = [], sweepStories = [];
 
-  // LIVE — always top of the pile
+  // LIVE — the most recent "game" of all (happening now)
   (d.live || []).forEach(m => {
     const h = m.home, a = m.away, hg = h.goals ?? 0, ag = a.goals ?? 0;
-    let imp = 85 + (m.minute || 0) * 0.05, head = `${h.name} ${hg}–${ag} ${a.name}, live now`;
-    if (Math.abs(hg - ag) >= 3) { imp += 12; head = `${(hg > ag ? h : a).name} running riot — ${big(hg, ag)} and counting`; }
-    stories.push({ imp, icon: '🔴', kind: 'Live' + (m.minute != null ? ' ' + m.minute + "'" : ''),
-      stage: [m.stage, m.group].filter(Boolean).join(' · '), head, teams: teamsHtml(m), goals: goalsHtml(m.id), live: true });
+    let head = `${h.name} ${hg}–${ag} ${a.name}, live now`, bigFlag = false;
+    if (Math.abs(hg - ag) >= 3) { head = `${(hg > ag ? h : a).name} running riot — ${big(hg, ag)} and counting`; bigFlag = true; }
+    matchStories.push({ time: Date.now() + 1e9, icon: '🔴', live: true, big: bigFlag,
+      kind: 'Live' + (m.minute != null ? ' ' + m.minute + "'" : ''),
+      stage: [m.stage, m.group].filter(Boolean).join(' · '), head, teams: teamsHtml(m), goals: goalsHtml(m.id) });
   });
 
-  // RESULTS — scored by how sensational they are
+  // RESULTS — newest first; the sensational ones get starred (but not reordered)
   (d.results || []).forEach(r => {
     const h = r.home, a = r.away, hg = h.goals, ag = a.goals;
     if (hg == null || ag == null) return;
     const margin = Math.abs(hg - ag), tot = hg + ag;
-    let imp = 18 + recency(r.utc), icon = '⚽', head;
+    let icon = '⚽', head, bigFlag = false;
     const w = hg > ag ? h : ag > hg ? a : null, l = w ? (w === h ? a : h) : null;
-    if (!w) { head = `${h.name} and ${a.name} share the spoils in a ${hg}–${ag} draw`; imp += 4; }
+    if (!w) { head = `${h.name} and ${a.name} share the spoils in a ${hg}–${ag} draw`; }
     else {
       const up = rankOf(w.code) - rankOf(l.code);                 // +ve = lower-ranked side won
-      if (up >= 6) { icon = '🚨'; imp += 38 + Math.min(up, 40); head = `Shock! ${w.name} stun ${l.name} ${big(hg, ag)}`; }
-      else if (margin >= 3) { icon = '💥'; imp += 26; head = `${w.name} demolish ${l.name} ${big(hg, ag)}`; }
-      else if (margin === 1) { imp += 8; head = `${w.name} edge ${l.name} ${big(hg, ag)}`; }
-      else { imp += 6; head = `${w.name} see off ${l.name} ${big(hg, ag)}`; }
-      if (rankOf(l.code) <= 8) { imp += 22; if (icon === '⚽') icon = '😱'; }   // a giant falls
+      if (up >= 6) { icon = '🚨'; head = `Shock! ${w.name} stun ${l.name} ${big(hg, ag)}`; bigFlag = true; }
+      else if (margin >= 3) { icon = '💥'; head = `${w.name} demolish ${l.name} ${big(hg, ag)}`; bigFlag = true; }
+      else if (margin === 1) { head = `${w.name} edge ${l.name} ${big(hg, ag)}`; }
+      else { head = `${w.name} see off ${l.name} ${big(hg, ag)}`; }
+      if (rankOf(l.code) <= 8) { if (icon === '⚽') icon = '😱'; bigFlag = true; }   // a giant falls
     }
-    if (tot >= 5) { imp += 16; if (icon === '⚽') icon = '🔥'; }                 // goal-fest
+    if (tot >= 5) { if (icon === '⚽') icon = '🔥'; bigFlag = true; }                 // goal-fest
     const ow = w ? ownerOf(w) : '';
-    stories.push({ imp, icon, kind: 'Full time',
+    matchStories.push({ time: Date.parse(r.utc) || 0, icon, big: bigFlag, kind: 'Full time',
       stage: [r.stage, r.group].filter(Boolean).join(' · ') + (ow ? ` · ${ow}'s pick` : ''),
       head, teams: teamsHtml(r), goals: goalsHtml(r.id) });
   });
 
-  // SWEEPSTAKE angle
+  matchStories.sort((x, y) => y.time - x.time);   // most recent game always leads
+
+  // SWEEPSTAKE updates — distinct bordered cards
   const board = d.players.slice().sort((x, y) => y.total - x.total);
   if (board[0] && board[0].total > 0) {
     const top = board[0], joint = board.filter(p => p.total === top.total);
-    stories.push({ imp: 32, icon: '👑', kind: 'Sweepstake', stage: 'Overall standings',
+    sweepStories.push({ icon: '👑', sweep: true, kind: 'Sweepstake', stage: 'Overall standings',
       head: joint.length > 1 ? `${joint.map(p => p.name).join(' & ')} share top spot on ${fmt(top.total)} pts`
         : `${top.name} leads the sweepstake on ${fmt(top.total)} pts` });
   }
   const mover = board.filter(p => p.movement > 0).sort((x, y) => y.movement - x.movement)[0];
-  if (mover) stories.push({ imp: 22, icon: '📈', kind: 'Sweepstake', stage: 'Biggest riser',
+  if (mover) sweepStories.push({ icon: '📈', sweep: true, kind: 'Sweepstake', stage: 'Biggest riser',
     head: `${mover.name} surges ${mover.movement} place${mover.movement > 1 ? 's' : ''} up the table` });
 
-  stories.sort((x, y) => y.imp - x.imp);
-  if (!stories.length) {
+  if (!matchStories.length && !sweepStories.length) {
     $('#news').innerHTML = '<div class="empty">News will appear here as games kick off through the day.</div>';
     return;
   }
-  const cards = stories.map((s, i) => `<div class="ncard${s.live ? ' live' : ''}${i === 0 ? ' top' : ''}">
-    ${i === 0 ? '<div class="topbadge">★ Top story</div>' : ''}
-    <div class="nhead"><span class="nkind">${s.icon} ${esc(s.kind)}</span><span class="nstage">${esc(s.stage)}</span></div>
-    <div class="story-head">${esc(s.head)}</div>
-    ${s.teams || ''}${s.goals || ''}</div>`).join('');
+  // most recent game leads, then sweepstake updates, then the rest of the games
+  const ordered = [...matchStories.slice(0, 1), ...sweepStories, ...matchStories.slice(1)];
+  const cards = ordered.map(s => {
+    const cls = `ncard${s.live ? ' live' : ''}${s.sweep ? ' sweep' : ''}${s.big ? ' big' : ''}`;
+    const badge = s.sweep ? '<div class="nbadge bsweep">🏆 Sweepstake update</div>'
+      : s.big ? '<div class="nbadge bbig">⭐ Big result</div>' : '';
+    return `<div class="${cls}">${badge}
+      <div class="nhead"><span class="nkind">${s.icon} ${esc(s.kind)}</span><span class="nstage">${esc(s.stage)}</span></div>
+      <div class="story-head">${s.big ? '⭐ ' : ''}${esc(s.head)}</div>
+      ${s.teams || ''}${s.goals || ''}</div>`;
+  }).join('');
 
   const soon = (d.upcoming || []).filter(u => (u.utc || '').slice(0, 10) === today)
     .sort((x, y) => (x.utc || '').localeCompare(y.utc || ''));
