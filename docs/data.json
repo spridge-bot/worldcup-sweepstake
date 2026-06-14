@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:04:10+00:00",
+ "generated_at": "2026-06-14T04:04:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "3'",
-   "status_detail": "3'",
+   "clock": "4'",
+   "status_detail": "4'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4737,20 +4737,20 @@
  ],
  "news": [
   {
+   "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
+   "desc": "",
+   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
+   "published": "2026-06-14T04:03:54Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672787_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
    "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
    "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
    "published": "2026-06-14T03:59:15Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672771_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
-   "desc": "",
-   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T03:54:39Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672778_1296x729_16-9.jpg"
   },
   {
    "headline": "Burley: Scotland will be hoping three points is enough for knockouts",
