@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T03:23:58+00:00",
+ "generated_at": "2026-06-14T03:29:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4719,6 +4719,14 @@
  ],
  "news": [
   {
+   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
+   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
+   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+   "published": "2026-06-14T03:24:28Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily: Scotland defeat Haiti, Brazil fans take over NYC",
    "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
@@ -4746,7 +4754,7 @@
    "headline": "Socceroos veterans dropped for Australia's World Cup opener",
    "desc": "Australia coach Tony Popovic has two massive gambles ahead of his side's opening fixture against Türkiye, dropping captain and 100-cap veteran Mathew Ryan and vice-captain Jackson Irvine.",
    "link": "https://www.espn.com/soccer/story/_/id/49056050/socceroos-veterans-mat-ryan-jackson-irvine-dropped-australia-world-cup-opener",
-   "published": "2026-06-14T03:09:01Z",
+   "published": "2026-06-14T03:23:17Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672752_1296x729_16-9.jpg"
   },
@@ -4757,14 +4765,6 @@
    "published": "2026-06-14T02:35:19Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672737_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Potter not 'putting a ceiling' on Sweden at the World Cup",
-   "desc": "Potter not 'putting a ceiling' on Sweden at the World Cup",
-   "link": "https://www.espn.com/video/clip/_/id/49055590/potter-not-putting-ceiling-sweden-world-cup",
-   "published": "2026-06-14T02:11:30Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W.jpg"
   }
  ]
 }
