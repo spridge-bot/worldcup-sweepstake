@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T02:18:44+00:00",
+ "generated_at": "2026-06-14T02:19:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4701,14 +4701,6 @@
  ],
  "news": [
   {
-   "headline": "Potter not 'putting a ceiling' on Sweden at the World Cup",
-   "desc": "Potter not 'putting a ceiling' on Sweden at the World Cup",
-   "link": "https://www.espn.com/video/clip/_/id/49055590/potter-not-putting-ceiling-sweden-world-cup",
-   "published": "2026-06-14T02:11:30Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W.jpg"
-  },
-  {
    "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
    "desc": "The biggest FIFA World Cup gets underway shortly and we've got all the answers to your questions about the tournament. When and where is the final being held? How can I watch the Socceroos' games? Who has made the Australia squad?",
    "link": "https://www.espn.com/soccer/story/_/id/48820641/fifa-world-cup-2026-how-watch-socceroos-fixtures-results",
@@ -4725,14 +4717,6 @@
    "image": "https://a.espncdn.com/photo/2026/0613/r1672650_1296x729_16-9.jpg"
   },
   {
-   "headline": "'It was no risk' to play 18-year-old Ayyoub Bouaddi against Brazil - Morocco's Ouahbi",
-   "desc": "Ayyoub Bouaddi's accomplished midfield display against Brazil in his FIFA World Cup debut at the MetLife Stadium on Saturday came as no surprise to Morocco head coach Mohamed Ouhabi.",
-   "link": "https://www.espn.com/espn/story/_/id/49055416/it-was-no-risk-play-18-year-old-ayyoub-bouaddi-brazil-morocco-ouahbi",
-   "published": "2026-06-14T02:13:33Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672721_1296x729_16-9.jpg"
-  },
-  {
    "headline": "World Cup Daily: Scotland lead Haiti, Brazil fans take over NYC",
    "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
@@ -4747,6 +4731,22 @@
    "published": "2026-06-14T01:21:03Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_ESPN_meets_viral_duck_in_Mexico_jersey_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_News_ESPN_meets_viral_duck_in_Mexico_jersey_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
+  },
+  {
+   "headline": "Brazil and Morocco draw intense first game",
+   "desc": "Brazil secured a draw through Vinicius Junior's brilliance after Morocco took an early lead in the first half.",
+   "link": "https://www.espn.com/video/clip/_/id/49055105/brazil-morocco-draw-intense-first-game",
+   "published": "2026-06-14T01:08:12Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Soccer_Highlight_Brazil_and_Morocco_draw_intense_first_game_20260614_AUS_ONLY/dm_260613_Soccer_Highlight_Brazil_and_Morocco_draw_intense_first_game_20260614_AUS_ONLY.jpg"
+  },
+  {
+   "headline": "Burley: Brazil aren't scary anymore",
+   "desc": "Burley: Brazil aren't scary anymore",
+   "link": "https://www.espn.com/video/clip/_/id/49054790/brazil-scary-anymore",
+   "published": "2026-06-14T00:35:44Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
   }
  ]
 }
