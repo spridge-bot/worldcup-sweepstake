@@ -329,7 +329,8 @@
                              color: var(--accent); line-height: 1.55; }
   .scoreline .t.away .tmscorers { text-align: right; }
   /* visual formation pitches */
-  .fmwrap { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px 14px 4px; }
+  .fmwrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 12px; padding: 10px 14px 4px; }
   .fmteam { font-size: .72rem; color: var(--accent); font-weight: 700; text-align: center; margin-bottom: 6px; }
   .fmpitch { background: linear-gradient(180deg, #0c3a22, #0a2d1b); border: 1px solid var(--line2);
              border-radius: 10px; padding: 12px 5px; display: flex; flex-direction: column;
