@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:50:03+00:00",
+ "generated_at": "2026-06-14T21:50:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1403,9 +1403,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 3.3,
+    "home": 3.35,
     "draw": 2.9,
-    "away": 2.55,
+    "away": 2.5,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -1430,7 +1430,7 @@
    "odds": {
     "home": 1.91,
     "draw": 3.4,
-    "away": 4.3,
+    "away": 4.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4787,7 +4787,7 @@
    "headline": "USMNT World Cup bracket scenarios, odds to advance, predicted path to knockouts",
    "desc": "How can Team USA qualify for the World Cup knockout rounds? What's the likely path? What are the odds? What do projection models say?",
    "link": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions",
-   "published": "2026-06-14T21:47:35Z",
+   "published": "2026-06-14T21:49:48Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672213_1296x729_16-9.jpg"
   },
