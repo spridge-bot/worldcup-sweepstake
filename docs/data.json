@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:25:50+00:00",
+ "generated_at": "2026-06-14T04:26:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "25'",
-   "status_detail": "25'",
+   "clock": "26'",
+   "status_detail": "26'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4753,6 +4753,14 @@
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS.jpg"
   },
   {
+   "headline": "2 Texas men charged after England World Cup gear stolen",
+   "desc": "Two men have been charged with one felony count each of receiving stolen property late Saturday after England's national team discovered that some of their equipment had been stolen.",
+   "link": "https://www.espn.com/soccer/story/_/id/49057023/england-world-cup-stolen-team-gear-kansas-city-men-charged",
+   "published": "2026-06-14T04:25:10Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672796_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
    "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
    "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
@@ -4775,14 +4783,6 @@
    "published": "2026-06-14T03:24:28Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily: Scotland defeat Haiti; Brazil fans take over NYC",
-   "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-14T03:30:27Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672700_1296x729_16-9.jpg"
   }
  ]
 }
