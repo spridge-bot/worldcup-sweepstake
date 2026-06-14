@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T08:16:07+00:00",
+ "generated_at": "2026-06-14T08:37:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "Patrick Beach stars in FIFA World Cup debut",
+   "desc": "Patrick Beach got the nod ahead of Socceroos captain Mat Ryan, and made it count with eight saves and a clean sheet.",
+   "link": "https://www.espn.com/video/clip/_/id/49059088/patrick-beach-stars-fifa-world-cup-debut",
+   "published": "2026-06-14T08:21:28Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614.jpg"
+  },
+  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4765,7 +4773,7 @@
    "headline": "Arise Irankunda: Australia has new prince as Socceroos shock Türkiye",
    "desc": "Just as Tim Cahill did two decades ago, Nestory Irankunda has lifted the Socceroos to a famous win -- before giving the corner flag a left-right of his own.",
    "link": "https://www.espn.com/soccer/story/_/id/49058502/arise-irankunda-australia-new-prince-socceroos-shock-turkiye",
-   "published": "2026-06-14T08:01:01Z",
+   "published": "2026-06-14T08:25:16Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672812_1296x729_16-9.jpg"
   },
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T07:08:34Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672570_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "What's it really like to face World Cup stars Yamal, Mbappé? We asked the players",
-   "desc": "Throughout the season, ESPN has asked LaLiga players and coaches what it's like to take on the duo who are set to be the World Cup's biggest stars.",
-   "link": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
-   "published": "2026-06-14T07:06:57Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1671909_1296x729_16-9.jpg"
   }
  ]
 }
