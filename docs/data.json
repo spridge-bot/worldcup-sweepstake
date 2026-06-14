@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T17:44:07+00:00",
+ "generated_at": "2026-06-14T17:44:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4766,6 +4766,14 @@
  ],
  "news": [
   {
+   "headline": "Lone Curaçao supporter in Berlin celebrates goal vs. Germany",
+   "desc": "Lone Curaçao supporter in Berlin celebrates goal vs. Germany",
+   "link": "https://www.espn.com/video/clip/_/id/49062616/lone-curacao-supporter-berlin-celebrates-goal-vs-germany",
+   "published": "2026-06-14T17:44:13Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_News_Lone_Curacao_supporter_in_Berlin_celebrates_goal_vs_Germany_20260614_GLOBAL_FIFA_W/dm_260614_COM_SOC_News_Lone_Curacao_supporter_in_Berlin_celebrates_goal_vs_Germany_20260614_GLOBAL_FIFA_W.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Debutants Curaçao stun Germany with equaliser",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4804,14 +4812,6 @@
    "published": "2026-06-14T15:49:21Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672972_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
-   "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
-   "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
-   "published": "2026-06-14T15:26:04Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
   }
  ]
 }
