@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T06:53:48+00:00",
+ "generated_at": "2026-06-14T06:58:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,38 @@
  ],
  "news": [
   {
+   "headline": "World Cup 2026: Which players from your Premier League team are going?",
+   "desc": "Which Premier League players from your team are representing their country at the 2026 World Cup in the United States, Canada and Mexico?",
+   "link": "https://www.espn.com/soccer/story/_/id/48709856/world-cup-2026-which-players-your-premier-league-team-going",
+   "published": "2026-06-14T06:55:28Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0525/r1663354_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Meet England's 2026 World Cup squad: All 26 players picked by Thomas Tuchel and why",
+   "desc": "ESPN takes a look at every player named in the England squad for the 2026 World Cup.",
+   "link": "https://www.espn.com/soccer/story/_/id/48823863/meet-england-2026-world-cup-squad-26-players-picked-thomas-tuchel-why",
+   "published": "2026-06-14T06:54:29Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0522/r1661870_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup 2026 referees: Complete list of officials and VAR teams",
+   "desc": "Find out who the 170 officials are for the 2026 World Cup and when will we find out who is refereeing which game?",
+   "link": "https://www.espn.com/soccer/story/_/id/48964271/world-cup-2026-referees-complete-list-officials-var-teams",
+   "published": "2026-06-14T06:54:56Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2022/1224/r1110287_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Free World Cup 2026 predictor: Simulate your road to the final",
+   "desc": "Put your football knowledge to the test with ESPN's free World Cup 2026 predictor games and forecast every twist and turn of the tournament.",
+   "link": "https://www.espn.com/soccer/story/_/id/48945570/2026-fifa-world-cup-predictions-simulator",
+   "published": "2026-06-14T06:53:05Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0521/r1661625_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Australia shock Türkiye to go level with USMNT at top of group",
    "desc": "Nestory Irankunda and Connor Metcalfe scored and Australia spoiled Türkiye's return to the World Cup for the first time in 24 years with a 2-0 victory on Saturday night.",
    "link": "http://www.espn.com/soccer/report/_/gameId/760421",
@@ -4768,38 +4800,6 @@
    "published": "2026-06-14T06:22:42Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0523/r1662340_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Metcalfe gives the Socceroos a 2-0 lead over Türkiye",
-   "desc": "Connor Metcalfe with a stunner from outside the box puts the Aussies up 2-0 against Türkiye.",
-   "link": "https://www.espn.com/video/clip/_/id/49058496/metcalfe-gives-socceroos-2-0-lead-turkiye",
-   "published": "2026-06-14T06:24:59Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Metcalfe_gives_the_Socceroos_a_2_0_lead_over_Turkiye_20260614_AUS/dm_260614_Soccer_HIGHLIGHT_Metcalfe_gives_the_Socceroos_a_2_0_lead_over_Turkiye_20260614_AUS.jpg"
-  },
-  {
-   "headline": "Socceroos vs. Türkiye recap: Australia joins USMNT atop Group D",
-   "desc": "The USMNT and Australia both have three points atop Group D after the Socceroos' shock 2-0 over Türkiye on Saturday.",
-   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T06:17:12Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672837_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Last Dance: Germany's Manuel Neuer changed the goalkeeper's role forever",
-   "desc": "The Germany shot-stopper interrupted his international retirement as he seeks to close out a legendary career with steep highs and lows.",
-   "link": "https://www.espn.com/soccer/story/_/id/49048747/world-cup-last-dance-germany-manuel-neuer-changed-goalkeeper-role-forever",
-   "published": "2026-06-14T06:26:26Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672320_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "England World Cup camp in Kansas City hit by tornado warning",
-   "desc": "England players were confined to indoors amid a tornado warning on their first evening in Kansas City.",
-   "link": "https://www.espn.com/soccer/story/_/id/49052842/england-kansas-city-world-cup-base",
-   "published": "2026-06-14T05:28:44Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672624_1296x729_16-9.jpg"
   }
  ]
 }
