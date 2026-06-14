@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T08:47:41+00:00",
+ "generated_at": "2026-06-14T08:52:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1424,7 +1424,7 @@
    "group": "Group H",
    "odds": {
     "home": 1.09,
-    "draw": 12.0,
+    "draw": 11.0,
     "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "Nico O'Reilly on England World Cup opener: We must show Croatia 'what we're made of'",
+   "desc": "Nico O'Reilly has said that England must show Croatia what they are \"made of\" when they start their World Cup campaign in Group L.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059123/englands-nico-oreilly-croatia-world-cup-opener-show-were-made-of",
+   "published": "2026-06-14T08:47:45Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672874_594x334_16-9.jpg"
+  },
+  {
    "headline": "Patrick Beach stars in FIFA World Cup debut",
    "desc": "Patrick Beach got the nod ahead of Socceroos captain Mat Ryan, and made it count with eight saves and a clean sheet.",
    "link": "https://www.espn.com/video/clip/_/id/49059088/patrick-beach-stars-fifa-world-cup-debut",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T07:12:23Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672862_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Was the World Cup win over Paraguay the best in USMNT history?",
-   "desc": "The U.S. got its World Cup off to a flying start with a 4-1 win over Paraguay, a performance so stylish that it will go down in history.",
-   "link": "https://www.espn.com/soccer/story/_/id/49053328/was-fifa-world-cup-win-paraguay-best-usmnt-history",
-   "published": "2026-06-14T07:08:34Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672570_1296x729_16-9.jpg"
   }
  ]
 }
