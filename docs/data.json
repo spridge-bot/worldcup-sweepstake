@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:52:26+00:00",
+ "generated_at": "2026-06-14T18:58:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1077,8 +1077,8 @@
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "88'",
-   "status_detail": "88'",
+   "clock": "90'+5'",
+   "status_detail": "90'+5'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.03,
@@ -1092,7 +1092,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "goals": 6
+    "goals": 7
    },
    "away": {
     "code": "CUW",
@@ -1985,9 +1985,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.17,
-    "draw": 8.0,
-    "away": 14.0,
+    "home": 1.15,
+    "draw": 8.5,
+    "away": 15.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3233,11 +3233,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 6,
+     "gf": 7,
      "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 5,
+     "gd": 6,
      "name": "Germany",
      "flag": "🇩🇪",
      "tier": 1,
@@ -3285,10 +3285,10 @@
      "d": 0,
      "l": 1,
      "gf": 1,
-     "ga": 6,
+     "ga": 7,
      "pts": 0,
      "live": true,
-     "gd": -5,
+     "gd": -6,
      "name": "Curaçao",
      "flag": "🇨🇼",
      "tier": 3,
