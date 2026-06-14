@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:38:16+00:00",
+ "generated_at": "2026-06-14T04:38:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "37'",
-   "status_detail": "37'",
+   "clock": "38'",
+   "status_detail": "38'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
