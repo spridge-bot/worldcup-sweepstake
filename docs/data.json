@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:48:20+00:00",
+ "generated_at": "2026-06-14T21:48:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -58,19 +58,6 @@
    "movement": 6
   },
   {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 6,
-   "today": 5,
-   "rank": 4,
-   "movement": 2
-  },
-  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -84,6 +71,19 @@
    "movement": -2
   },
   {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 5,
+   "movement": 2
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -93,8 +93,21 @@
    ],
    "total": 5,
    "today": 0,
-   "rank": 6,
-   "movement": -3
+   "rank": 5,
+   "movement": -2
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 4,
+   "today": 3,
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -119,8 +132,8 @@
    ],
    "total": 1,
    "today": 1,
-   "rank": 8,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -132,8 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -145,21 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   }
  ],
  "teams": {
@@ -321,12 +321,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-14",
-     "desc": "1st in Group F (live)",
-     "points": 5
+     "desc": "2nd in Group F (live)",
+     "points": 3
     }
    ]
   },
@@ -498,8 +498,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "1st in Group F (live)",
+     "points": 5
+    }
+   ]
   },
   "SUI": {
    "code": "SUI",
@@ -1083,8 +1089,8 @@
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "88'",
-   "status_detail": "88'",
+   "clock": "90'",
+   "status_detail": "90'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1105,7 +1111,7 @@
     "name": "Japan",
     "flag": "🇯🇵",
     "owner": "Jen",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -3313,16 +3319,33 @@
    "rows": [
     {
      "group": "Group F",
-     "code": "NED",
+     "code": "JPN",
      "p": 1,
-     "w": 1,
-     "d": 0,
+     "w": 0,
+     "d": 1,
      "l": 0,
      "gf": 2,
-     "ga": 1,
-     "pts": 3,
+     "ga": 2,
+     "pts": 1,
      "live": true,
-     "gd": 1,
+     "gd": 0,
+     "name": "Japan",
+     "flag": "🇯🇵",
+     "tier": 2,
+     "owner": "Jen"
+    },
+    {
+     "group": "Group F",
+     "code": "NED",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 2,
+     "ga": 2,
+     "pts": 1,
+     "live": true,
+     "gd": 0,
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
@@ -3361,23 +3384,6 @@
      "flag": "🇹🇳",
      "tier": 3,
      "owner": "Pari"
-    },
-    {
-     "group": "Group F",
-     "code": "JPN",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 0,
-     "live": true,
-     "gd": -1,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Jen"
     }
    ]
   },
@@ -4585,6 +4591,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Daichi Kamada",
+   "team": "JPN",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇯🇵",
+   "owner": "Jen"
+  },
+  {
    "player": "Deniz Undav",
    "team": "GER",
    "goals": 1,
@@ -4647,14 +4661,6 @@
    "assists": 0,
    "flag": "🇧🇦",
    "owner": "Spridge"
-  },
-  {
-   "player": "Julián Quiñones",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Dipen"
   }
  ],
  "fairplay": [
