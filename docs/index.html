@@ -718,14 +718,35 @@ function shortName(n) {
   return p.length > 1 ? `${p[0][0]}. ${p.slice(1).join(' ')}` : (n || '');
 }
 
+// vertical depth + horizontal slot from a player's position label, so we place
+// players by where they actually play rather than trusting the array order
+function posDepth(pos) {
+  const p = String(pos || '').toLowerCase();
+  if (/goalkeep|^g$|^gk$/.test(p)) return 0;
+  if (/back|defen|^d$|sweeper|wing.?back/.test(p)) return 1;
+  if (/defensive mid|holding/.test(p)) return 2;
+  if (/attacking mid|second striker/.test(p)) return 3.5;
+  if (/midfield|^m$/.test(p)) return 3;
+  if (/forward|strik|wing|^f$/.test(p)) return 5;
+  return 3;
+}
+function posHoriz(pos) {
+  const p = String(pos || '').toLowerCase();
+  const c = /center|centre/.test(p);
+  if (/\bleft\b/.test(p)) return c ? 1.5 : 0;
+  if (/\bright\b/.test(p)) return c ? 2.5 : 4;
+  return 2;
+}
 function formationPitch(sideData) {
   const lineup = sideData?.lineup || [], form = sideData?.formation;
   if (lineup.length < 11 || !form) return '';
   const counts = [1, ...String(form).split('-').map(n => parseInt(n, 10)).filter(Boolean)];
   if (counts.reduce((a, b) => a + b, 0) !== 11) return '';
+  // order the XI by pitch depth (GK→DEF→MID→FWD), then left→right, then slice into the formation's lines
+  const sorted = lineup.slice().sort((a, b) =>
+    posDepth(a.position) - posDepth(b.position) || posHoriz(a.position) - posHoriz(b.position));
   let i = 0;
-  const lines = counts.map(n => { const seg = lineup.slice(i, i + n); i += n; return seg; });
-  // GK at the bottom, attack at the top
+  const lines = counts.map(n => { const seg = sorted.slice(i, i + n); i += n; return seg; });
   const rows = [...lines].reverse().map(seg => `<div class="fmrow">${seg.map(p =>
     `<div class="fmplr"><span class="fmdot">${esc(String(p.shirt ?? ''))}</span>
       <span class="fmnm">${esc(shortName(p.name))}</span></div>`).join('')}</div>`).join('');
@@ -759,7 +780,15 @@ function tickClock(clock, detail, generatedAt) {
   return `~${parseInt(m[1], 10) + Math.min(Math.round(elapsed), 6)}'`;
 }
 
-function momentumChart(s, homeName, awayName) {
+// goals as {minute, addedTime, side:'home'|'away'} — prefer sofascore incidents, fall back to ESPN/details
+function matchGoals(m, sofa, det) {
+  const inc = (sofa?.incidents || []).filter(i => i.type === 'goal');
+  if (inc.length) return inc.map(i => ({ minute: i.minute, addedTime: i.addedTime, side: i.team }));
+  return (det?.goals || []).map(g => ({ minute: g.minute, addedTime: g.injury,
+    side: g.team === m.home.code ? 'home' : 'away' }));
+}
+
+function momentumChart(s, homeName, awayName, goals) {
   const pts = s?.momentum;
   if (!pts?.length) return '';
   const maxMin = Math.max(90, ...pts.map(p => p.m));
@@ -770,16 +799,18 @@ function momentumChart(s, homeName, awayName) {
       width="2.8" height="${h.toFixed(1)}" rx="1"
       fill="${p.v > 0 ? '#36d97c' : '#f5c542'}" opacity=".85"/>`;
   }).join('');
-  const goals = (s.incidents || []).filter(i => i.type === 'goal').map(g => {
+  const gl = (goals && goals.length) ? goals
+    : (s.incidents || []).filter(i => i.type === 'goal').map(i => ({ minute: i.minute, addedTime: i.addedTime, side: i.team }));
+  const goalMarks = gl.map(g => {
     const x = (((g.minute || 0) + (g.addedTime || 0) * 0.1) / maxMin) * 300;
-    return `<circle cx="${x.toFixed(1)}" cy="${g.team === 'home' ? 5 : 75}" r="3.6"
+    return `<circle cx="${x.toFixed(1)}" cy="${g.side === 'home' ? 5 : 75}" r="3.6"
       fill="#fff" stroke="#04150b" stroke-width="1"/>`;
   }).join('');
   return `<h4>Attack momentum</h4>
     <svg viewBox="0 0 300 80" style="width:100%;display:block;background:rgba(0,0,0,.18);border-radius:8px"
       preserveAspectRatio="none">
       <line x1="0" y1="40" x2="300" y2="40" stroke="rgba(255,255,255,.18)"/>
-      ${bars}${goals}
+      ${bars}${goalMarks}
     </svg>
     <div style="display:flex;justify-content:space-between;font-size:.68rem;color:var(--dim);margin-top:3px">
       <span>▲ ${esc(homeName)} pressure</span><span>goals ⚪︎</span>
@@ -820,6 +851,22 @@ function matchDayTiles(d) {
   return tiles.length ? `<div class="tilerow">${tiles.join('')}</div>` : '';
 }
 
+// unified live-events list: prefer Sofascore incidents, else rebuild from ESPN details
+function incidentsFor(m, sofa, det) {
+  const inc = sofa?.incidents || [];
+  if (inc.length) return inc;
+  const sideOf = code => code === m.home.code ? 'home' : 'away';
+  const out = [];
+  (det?.goals || []).forEach(g => out.push({ type: 'goal', minute: g.minute, addedTime: g.injury,
+    player: g.scorer, assist: g.assist, team: sideOf(g.team),
+    class: g.type === 'PENALTY' ? 'penalty' : g.type === 'OWN' ? 'ownGoal' : '' }));
+  (det?.bookings || []).forEach(b => out.push({ type: 'card', minute: b.minute, player: b.player,
+    team: sideOf(b.team), class: /red/i.test(String(b.card || b.type || '')) ? 'red' : 'yellow' }));
+  (det?.substitutions || []).forEach(su => out.push({ type: 'substitution', minute: su.minute,
+    team: sideOf(su.team), in: su.in || su.playerIn || su.on, out: su.out || su.playerOut || su.off }));
+  return out;
+}
+
 function renderLive(d) {
   const el = $('#live');
   const tiles = matchDayTiles(d);
@@ -850,7 +897,9 @@ function renderLive(d) {
         <img class="pitchimg" src="${RAW}${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
     const shotmap = s?.shotmap_img ? `<div class="pitchwrap">
         <img class="pitchimg" src="${RAW}${s.shotmap_img}?t=${Date.now()}" alt="shot map"></div>` : '';
-    const lastInc = [...(s?.incidents || [])].reverse()
+    const inc = incidentsFor(m, s, det);
+    const lastInc = [...inc].sort((a, b) =>
+      ((b.minute || 0) + (b.addedTime || 0) * 0.01) - ((a.minute || 0) + (a.addedTime || 0) * 0.01))
       .find(i => ['goal', 'card', 'substitution', 'period', 'varDecision'].includes(i.type));
     const lastEv = lastInc ? `<div class="lastev">${liveIncidents({ incidents: [lastInc] })}</div>` : '';
     return `<div class="livewrap">
@@ -873,10 +922,10 @@ function renderLive(d) {
             ${lineupBlock(m.id, m.home, m.away)}
             ${pitch}
             ${shotmap}
-            ${s?.momentum ? `<div style="padding:2px 16px 6px">${momentumChart(s, m.home.name, m.away.name)}</div>` : ''}
+            ${s?.momentum ? `<div style="padding:2px 16px 6px">${momentumChart(s, m.home.name, m.away.name, matchGoals(m, s, det))}</div>` : ''}
             ${statHtml ? `<div style="padding:2px 16px 10px">${statHtml}</div>` : ''}
           </div>
-          <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
+          <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents({ incidents: inc })}</div></div>
         </div>
       </div></div>`;
   }).join('') + tiles;
@@ -1186,7 +1235,7 @@ function matchCentre(r, d) {
   const recap = recapText(r, det, d);
   return `${recap ? `<h4>Match report</h4><div class="recap">${esc(recap)}</div>` : ''}
     ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
-    ${momentumChart(sofa, r.home.name, r.away.name)}
+    ${momentumChart(sofa, r.home.name, r.away.name, matchGoals(r, sofa, det))}
     ${statBars({ ...(sofa?.stats?.home || {}), ...(det.home?.stats || {}) },
                { ...(sofa?.stats?.away || {}), ...(det.away?.stats || {}) })}
     ${shotImg}
