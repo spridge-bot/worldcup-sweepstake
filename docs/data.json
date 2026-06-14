@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T00:32:17+00:00",
+ "generated_at": "2026-06-14T00:37:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -3998,328 +3998,6 @@
    }
   },
   {
-   "id": 760497,
-   "utc": "2026-07-02T19:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "SoFi Stadium",
-   "home": {
-    "code": null,
-    "name": "Group H Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Group J 2nd Place",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760496,
-   "utc": "2026-07-02T23:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "BMO Field",
-   "home": {
-    "code": null,
-    "name": "Group K 2nd Place",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Group L 2nd Place",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760498,
-   "utc": "2026-07-03T03:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "BC Place",
-   "home": {
-    "code": null,
-    "name": "Group B Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group E/F/G/I/J",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760499,
-   "utc": "2026-07-03T18:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "AT&T Stadium",
-   "home": {
-    "code": null,
-    "name": "Group D 2nd Place",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Group G 2nd Place",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760500,
-   "utc": "2026-07-03T22:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Hard Rock Stadium",
-   "home": {
-    "code": null,
-    "name": "Group J Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Group H 2nd Place",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760501,
-   "utc": "2026-07-04T01:30:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "GEHA Field at Arrowhead Stadium",
-   "home": {
-    "code": null,
-    "name": "Group K Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group D/E/I/J/L",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760502,
-   "utc": "2026-07-04T17:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "NRG Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 1 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 3 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760503,
-   "utc": "2026-07-04T21:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Lincoln Financial Field",
-   "home": {
-    "code": null,
-    "name": "Round of 32 2 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 5 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760504,
-   "utc": "2026-07-05T20:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "MetLife Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 4 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 6 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760505,
-   "utc": "2026-07-06T00:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Estadio Banorte",
-   "home": {
-    "code": null,
-    "name": "Round of 32 7 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 8 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760506,
-   "utc": "2026-07-06T19:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "AT&T Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 11 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 12 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760507,
-   "utc": "2026-07-07T00:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Lumen Field",
-   "home": {
-    "code": null,
-    "name": "Round of 32 9 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 10 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760509,
-   "utc": "2026-07-07T16:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Mercedes-Benz Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 14 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 16 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760508,
-   "utc": "2026-07-07T20:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "BC Place",
-   "home": {
-    "code": null,
-    "name": "Round of 32 13 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 15 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
    "id": 760510,
    "utc": "2026-07-09T20:00:00Z",
    "stage": "QUARTER_FINALS",
@@ -4681,6 +4359,14 @@
  ],
  "news": [
   {
+   "headline": "Burley: Brazil aren't scary anymore",
+   "desc": "Burley: Brazil aren't scary anymore",
+   "link": "https://www.espn.com/video/clip/_/id/49054790/brazil-scary-anymore",
+   "published": "2026-06-14T00:35:44Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
+  },
+  {
    "headline": "Vinícius Júnior but Brazil held at WC by impressive Morocco",
    "desc": "Vinícius Júnior scored an equalizing goal in the 32nd minute, giving five-time champion Brazil a 1-1 draw against Morocco on Saturday.",
    "link": "http://www.espn.com/soccer/report/_/gameId/760419",
@@ -4690,9 +4376,9 @@
   },
   {
    "headline": "Vinícius Júnior rescues opening draw for Brazil against Morocco",
-   "desc": "Vinícius Júnior scored a fine equalizing goal to earn Brazil a draw with Morocco as both teams opened their World Cup campaigns on Saturday at MetLife Stadium.",
+   "desc": "Vinícius Júnior scored a fine equalizing goal to earn Brazil a draw with Morocco as both teams opened their World Cup campaigns Saturday at MetLife Stadium.",
    "link": "https://www.espn.com/soccer/story/_/id/49054529/brazil-vs-morocco-2026-world-cup-vinicius-junior",
-   "published": "2026-06-14T00:20:57Z",
+   "published": "2026-06-14T00:35:25Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672663_1296x729_16-9.jpg"
   },
@@ -4719,14 +4405,6 @@
    "published": "2026-06-14T00:16:05Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672597_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "How Eredivisie top scorer Ueda now has to plot Netherlands' downfall",
-   "desc": "Japan's Ayase Ueda has blossomed playing in the Dutch Eredivisie. He now has to hurt Netherlands' World Cup prospects.",
-   "link": "https://www.espn.com/soccer/story/_/id/49046353/how-eredivisie-top-scorer-ueda-now-plot-netherlands-downfall",
-   "published": "2026-06-14T00:03:29Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672207_1296x729_16-9.jpg"
   }
  ]
 }
