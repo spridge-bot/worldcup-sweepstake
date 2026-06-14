@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:10:34+00:00",
+ "generated_at": "2026-06-14T18:11:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1092,7 +1092,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "CUW",
@@ -3233,11 +3233,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 2,
+     "gd": 3,
      "name": "Germany",
      "flag": "🇩🇪",
      "tier": 1,
@@ -3285,10 +3285,10 @@
      "d": 0,
      "l": 1,
      "gf": 1,
-     "ga": 3,
+     "ga": 4,
      "pts": 0,
      "live": true,
-     "gd": -2,
+     "gd": -3,
      "name": "Curaçao",
      "flag": "🇨🇼",
      "tier": 3,
