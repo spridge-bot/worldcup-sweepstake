@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T00:09:38+00:00",
+ "generated_at": "2026-06-14T00:10:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4672,10 +4672,18 @@
  ],
  "news": [
   {
-   "headline": "World Cup recap: Morocco and Brazil each get a point in Group C opener",
+   "headline": "Cape Verde's World Cup dream unites Providence",
+   "desc": "Cape Verde's World Cup dream unites Providence",
+   "link": "https://www.espn.com/video/clip/_/id/49054627/cape-verde-world-cup-dream-unites-providence",
+   "published": "2026-06-14T00:08:32Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Cape_Verde_2/dm_260613_Cape_Verde_2.jpg"
+  },
+  {
+   "headline": "World Cup recap: Brazil and Morocco each get a point in Group C opener",
    "desc": "Enjoy all that happened in New Jersey as the 2026 World Cup continues with Brazil and Morocco playing out to a 1-1 draw.",
    "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
-   "published": "2026-06-14T00:05:44Z",
+   "published": "2026-06-14T00:09:20Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672597_1296x729_16-9.jpg"
   },
@@ -4710,14 +4718,6 @@
    "published": "2026-06-13T23:56:16Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672635_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
-   "desc": "Fans on Copacabana Beach celebrate Brazil's equalizer vs. Morocco",
-   "link": "https://www.espn.com/video/clip/_/id/49053884/fans-copacabana-beach-celebrate-brazil-equalizer-vs-morocco",
-   "published": "2026-06-13T22:48:16Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_Fans_on_Copacabana_Beach_celebrate_Brazils_equalizer_vs_Morocco_20260613_GLOBAL_F/dm_260613_COM_SOC_News_Fans_on_Copacabana_Beach_celebrate_Brazils_equalizer_vs_Morocco_20260613_GLOBAL_F.jpg"
   }
  ]
 }
