@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:57:13+00:00",
+ "generated_at": "2026-06-14T06:02:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1839,7 +1839,7 @@
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "form": "DLWWL"
+    "form": "WDLWW"
    }
   },
   {
@@ -1898,9 +1898,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.95,
-    "draw": 3.3,
-    "away": 4.3,
+    "home": 1.91,
+    "draw": 3.35,
+    "away": 4.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1908,7 +1908,7 @@
     "name": "Türkiye",
     "flag": "🇹🇷",
     "owner": "Dubs",
-    "form": "WWWWD"
+    "form": "LWWWW"
    },
    "away": {
     "name": "Paraguay",
@@ -4754,12 +4754,12 @@
  ],
  "news": [
   {
-   "headline": "World Cup LIVE: Socceroos look set to shock Türkiye",
-   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
+   "headline": "Socceroos vs. Türkiye recap: Australia joins USMNT atop Group D",
+   "desc": "The USMNT and Australia both have three points atop Group D after the Socceroos' shock 2-0 over Türkiye on Saturday.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T05:41:11Z",
+   "published": "2026-06-14T06:01:26Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672832_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672837_1296x729_16-9.jpg"
   },
   {
    "headline": "England World Cup camp in Kansas City hit by tornado warning",
