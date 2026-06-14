@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:29:39+00:00",
+ "generated_at": "2026-06-14T05:30:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "69'",
-   "status_detail": "69'",
+   "clock": "70'",
+   "status_detail": "70'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4745,6 +4745,14 @@
  ],
  "news": [
   {
+   "headline": "England World Cup camp in Kansas City hit by tornado warning",
+   "desc": "England players were confined to indoors amid a tornado warning on their first evening in Kansas City.",
+   "link": "https://www.espn.com/soccer/story/_/id/49052842/england-kansas-city-world-cup-base",
+   "published": "2026-06-14T05:28:44Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672624_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup LIVE: Socceroos, Türkiye engaged in tense battle",
    "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
@@ -4756,7 +4764,7 @@
    "headline": "Scotland ease 'pressure' with 1st World Cup win since 1990",
    "desc": "Steve Clarke said his Scotland side's long-awaited World Cup win over Haiti means the team have less pressure on them as they prepare to face Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49057757/scotland-haiti-2026-world-cup-steve-clarke",
-   "published": "2026-06-14T05:09:22Z",
+   "published": "2026-06-14T05:29:29Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672818_1296x729_16-9.jpg"
   },
@@ -4783,14 +4791,6 @@
    "published": "2026-06-14T04:57:38Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672796_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
-   "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
-   "published": "2026-06-14T03:59:15Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672771_1296x729_16-9.jpg"
   }
  ]
 }
