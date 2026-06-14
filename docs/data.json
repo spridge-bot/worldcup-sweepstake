@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T16:53:54+00:00",
+ "generated_at": "2026-06-14T18:39:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -45,6 +45,19 @@
    "movement": 4
   },
   {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 8,
+   "today": 8,
+   "rank": 1,
+   "movement": 6
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -54,8 +67,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 4,
+   "movement": -2
   },
   {
    "name": "Spridge",
@@ -67,8 +80,8 @@
    ],
    "total": 5,
    "today": 0,
-   "rank": 4,
-   "movement": -1
+   "rank": 5,
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -80,21 +93,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 5,
-   "movement": -1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 3,
-   "today": 3,
    "rank": 6,
-   "movement": 1
+   "movement": -2
   },
   {
    "name": "Dubs",
@@ -355,8 +355,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "1st in Group E (live)",
+     "points": 5
+    }
+   ]
   },
   "CRO": {
    "code": "CRO",
@@ -1065,7 +1071,38 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760422,
+   "utc": "2026-06-14T17:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "clock": "75'",
+   "status_detail": "75'",
+   "venue": "NRG Stadium",
+   "odds": {
+    "home": 1.03,
+    "draw": 16.0,
+    "away": 29.0,
+    "over_under": 4.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "owner": "Glancy",
+    "goals": 5
+   },
+   "away": {
+    "code": "CUW",
+    "name": "Curaçao",
+    "flag": "🇨🇼",
+    "owner": "Fergs",
+    "goals": 1
+   }
+  }
+ ],
  "results": [
   {
    "id": 760421,
@@ -1318,39 +1355,14 @@
  ],
  "upcoming": [
   {
-   "id": 760422,
-   "utc": "2026-06-14T17:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "odds": {
-    "home": 1.03,
-    "draw": 17.0,
-    "away": 29.0,
-    "over_under": 4.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "form": "WWWWW"
-   },
-   "away": {
-    "name": "Curaçao",
-    "flag": "🇨🇼",
-    "owner": "Fergs",
-    "form": "WLLLD"
-   }
-  },
-  {
    "id": 760425,
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 2.05,
-    "draw": 3.35,
-    "away": 3.55,
+    "home": 2.1,
+    "draw": 3.3,
+    "away": 3.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1423,7 +1435,7 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.1,
+    "home": 1.09,
     "draw": 12.0,
     "away": 23.0,
     "over_under": 3.5,
@@ -1948,9 +1960,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.56,
+    "home": 1.61,
     "draw": 4.4,
-    "away": 5.75,
+    "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1973,9 +1985,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.2,
-    "draw": 7.5,
-    "away": 14.0,
+    "home": 1.19,
+    "draw": 8.0,
+    "away": 13.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3216,20 +3228,20 @@
    "rows": [
     {
      "group": "Group E",
-     "code": "CUW",
-     "p": 0,
-     "w": 0,
+     "code": "GER",
+     "p": 1,
+     "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Curaçao",
-     "flag": "🇨🇼",
-     "tier": 3,
-     "owner": "Fergs"
+     "gf": 5,
+     "ga": 1,
+     "pts": 3,
+     "live": true,
+     "gd": 4,
+     "name": "Germany",
+     "flag": "🇩🇪",
+     "tier": 1,
+     "owner": "Glancy"
     },
     {
      "group": "Group E",
@@ -3250,23 +3262,6 @@
     },
     {
      "group": "Group E",
-     "code": "GER",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Germany",
-     "flag": "🇩🇪",
-     "tier": 1,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group E",
      "code": "CIV",
      "p": 0,
      "w": 0,
@@ -3281,6 +3276,23 @@
      "flag": "🇨🇮",
      "tier": 2,
      "owner": "Jen"
+    },
+    {
+     "group": "Group E",
+     "code": "CUW",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 5,
+     "pts": 0,
+     "live": true,
+     "gd": -4,
+     "name": "Curaçao",
+     "flag": "🇨🇼",
+     "tier": 3,
+     "owner": "Fergs"
     }
    ]
   },
@@ -4545,6 +4557,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Felix Nmecha",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Giovanni Reyna",
    "team": "USA",
    "goals": 1,
@@ -4567,6 +4587,14 @@
    "assists": 0,
    "flag": "🇲🇦",
    "owner": "Willo"
+  },
+  {
+   "player": "Jamal Musiala",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
   },
   {
    "player": "John McGinn",
@@ -4593,6 +4621,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Kai Havertz",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Ladislav Krejcí",
    "team": "CZE",
    "goals": 1,
@@ -4601,36 +4637,12 @@
    "owner": "Emily"
   },
   {
-   "player": "Maurício",
-   "team": "PAR",
+   "player": "Livano Comenencia",
+   "team": "CUW",
    "goals": 1,
    "assists": 0,
-   "flag": "🇵🇾",
+   "flag": "🇨🇼",
    "owner": "Fergs"
-  },
-  {
-   "player": "Nestory Irankunda",
-   "team": "AUS",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇦🇺",
-   "owner": "Glancy"
-  },
-  {
-   "player": "Oh Hyeon-Gyu",
-   "team": "KOR",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇰🇷",
-   "owner": "Ruggy"
-  },
-  {
-   "player": "Raúl Jiménez",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Dipen"
   }
  ],
  "fairplay": [
@@ -4754,10 +4766,42 @@
  ],
  "news": [
   {
+   "headline": "Morocco's Ayyoub Bouaddi will not be underestimated again after Casemiro humbling",
+   "desc": "There was a point, late in the first half of Morocco's opening FIFA World Cup 1-1 draw on Saturday, where the contrast between Brazil's Casemiro and Ayyoub Bouaddi was impossible to ignore.",
+   "link": "https://www.espn.com/espn/story/_/id/49054213/morocco-ayyoub-bouaddi-not-underestimated-again-casemiro-humbling",
+   "published": "2026-06-14T18:31:33Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672658_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "USMNT World Cup bracket scenarios, odds to advance, predicted path to knockouts",
+   "desc": "How can Team USA qualify for the World Cup knockout rounds? What's the likely path? What are the odds? What do projection models say?",
+   "link": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions",
+   "published": "2026-06-14T18:00:16Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672213_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup Daily LIVE: Germany cruise ahead vs. debutants Curaçao",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-14T18:18:48Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673025_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Lone Curaçao supporter in Berlin celebrates goal vs. Germany",
+   "desc": "Lone Curaçao supporter in Berlin celebrates goal vs. Germany",
+   "link": "https://www.espn.com/video/clip/_/id/49062616/lone-curacao-supporter-berlin-celebrates-goal-vs-germany",
+   "published": "2026-06-14T17:44:13Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_News_Lone_Curacao_supporter_in_Berlin_celebrates_goal_vs_Germany_20260614_GLOBAL_FIFA_W/dm_260614_COM_SOC_News_Lone_Curacao_supporter_in_Berlin_celebrates_goal_vs_Germany_20260614_GLOBAL_FIFA_W.jpg"
+  },
+  {
    "headline": "Every team's championship, group odds for the 2026 World Cup",
    "desc": "Odds for all 48 teams to advance from their group through the knockout stage and to win the 2026 World Cup.",
    "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-   "published": "2026-06-14T16:34:09Z",
+   "published": "2026-06-14T16:57:19Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672994_1296x729_16-9.jpg"
   },
@@ -4768,38 +4812,6 @@
    "published": "2026-06-14T16:23:57Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Dove_on_Bouaddi_A_star_was_born_for_Morocco_in_Brazil_draw/dm_260614_Dove_on_Bouaddi_A_star_was_born_for_Morocco_in_Brazil_draw.jpg"
-  },
-  {
-   "headline": "Barcelona's Ferran Torres on PSG links: 'Don't know and don't care'",
-   "desc": "Ferran Torres refused to discuss speculation about his future at Barcelona -- and links with Paris Saint-Germain -- ahead of Spain's World Cup debut against Cape Verde.",
-   "link": "https://www.espn.com/soccer/story/_/id/49061893/ferran-torres-barcelona-psg",
-   "published": "2026-06-14T16:17:02Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672984_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Mikel Merino keen for Spain to avoid World Cup debut slip-up",
-   "desc": "Mikel Merino said Spain are wary of underdog opponents Cape Verde ahead of their World Cup debut in Group H on Monday.",
-   "link": "https://www.espn.com/soccer/story/_/id/49061674/mikel-merino-keen-spain-avoid-world-cup-debut-slip-up",
-   "published": "2026-06-14T15:49:21Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672972_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
-   "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
-   "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
-   "published": "2026-06-14T15:26:04Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "France vs. Senegal - kick-off time, team news, how to watch the FIFA World Cup",
-   "desc": "France will face Senegal on Tuesday, June 16, in a FIFA World Cup Group I fixture of tremendous historic significance at MetLife Stadium.",
-   "link": "https://www.espn.com/espn/story/_/id/49048242/france-vs-senegal-kick-team-news-how-watch-fifa-world-cup",
-   "published": "2026-06-14T15:23:52Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672282_1296x729_16-9.jpg"
   }
  ]
 }
