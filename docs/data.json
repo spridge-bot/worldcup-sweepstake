@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T15:45:43+00:00",
+ "generated_at": "2026-06-14T15:50:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "Mikel Merino keen for Spain to avoid World Cup debut slip-up",
+   "desc": "Mikel Merino said Spain are wary of underdog opponents Cape Verde ahead of their World Cup debut in Group H on Monday.",
+   "link": "https://www.espn.com/soccer/story/_/id/49061674/mikel-merino-keen-spain-avoid-world-cup-debut-slip-up",
+   "published": "2026-06-14T15:49:21Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672972_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
    "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
    "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T15:21:28Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0516/r1658974_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Ghana vs. Panama - kick-off time, team news, how to watch Black Stars' FIFA World Cup opener",
-   "desc": "Ghana will kick off their FIFA World Cup campaign on Wednesday in Toronto, with a Group L clash against Panama.",
-   "link": "https://www.espn.com/espn/story/_/id/49048302/ghana-vs-panama-kick-team-news-how-watch-black-stars-fifa-world-cup-opener",
-   "published": "2026-06-14T15:20:48Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672351_1296x729_16-9.jpg"
   }
  ]
 }
