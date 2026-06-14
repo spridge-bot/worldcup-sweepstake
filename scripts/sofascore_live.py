@@ -109,8 +109,11 @@ def load_targets():
     # games still missing it keep getting retried (Sofascore can lag, and old
     # matches otherwise fall out of the time window before momentum lands)
     try:
-        have_momentum = {int(k) for k, v in
-                         json.loads((DOCS / "sofascore.json").read_text()).items() if v.get("momentum")}
+        have_momentum = set()
+        for k, v in json.loads((DOCS / "sofascore.json").read_text()).items():
+            mom = v.get("momentum") or []
+            if mom and max((p.get("m", 0) for p in mom), default=0) >= 85:  # full-match graph
+                have_momentum.add(int(k))
     except Exception:
         have_momentum = set()
 
@@ -620,15 +623,18 @@ def backfill_momentum(out):
     except Exception:
         return
     for espn_id, ent in list(out.items()):
-        if ent.get("momentum") or not ent.get("sofa_id"):
+        if not ent.get("sofa_id"):
             continue
+        cur = ent.get("momentum") or []
+        if max((p.get("m", 0) for p in cur), default=0) >= 85:
+            continue                                   # already a full-match graph
         try:
             if int(espn_id) not in result_ids:
                 continue
             mom = parse_momentum(sofa_get(f"/event/{ent['sofa_id']}/graph"))
         except Exception:
             continue
-        if mom:
+        if mom and len(mom) > len(cur):                # only replace with a more complete graph
             ent["momentum"] = mom
             ent["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
             print(f"  [backfill] momentum for match {espn_id}: {len(mom)} pts")
