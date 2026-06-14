@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:14:55+00:00",
+ "generated_at": "2026-06-14T10:02:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -531,12 +531,12 @@
    "fifa_rank": 22,
    "owner": "Dubs",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 2,
    "total": 1,
    "events": [
     {
@@ -611,11 +611,11 @@
    "fifa_rank": 27,
    "owner": "Glancy",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 2,
    "ga": 0,
    "total": 3,
    "events": [
@@ -1065,39 +1065,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760421,
+   "date": "2026-06-14",
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "54'",
-   "status_detail": "54'",
-   "venue": "BC Place",
+   "note": "",
+   "home": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 5.25,
     "draw": 3.85,
     "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "AUS",
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "goals": 1
-   },
-   "away": {
-    "code": "TUR",
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760418,
    "date": "2026-06-14",
@@ -1324,8 +1324,8 @@
    "group": "Group E",
    "odds": {
     "home": 1.03,
-    "draw": 15.0,
-    "away": 29.0,
+    "draw": 16.0,
+    "away": 31.0,
     "over_under": 4.5,
     "provider": "DraftKings"
    },
@@ -1424,7 +1424,7 @@
    "group": "Group H",
    "odds": {
     "home": 1.09,
-    "draw": 12.0,
+    "draw": 11.0,
     "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -1448,9 +1448,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.59,
-    "draw": 3.95,
-    "away": 5.75,
+    "home": 1.61,
+    "draw": 3.9,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1548,9 +1548,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 14.0,
+    "home": 15.0,
     "draw": 7.0,
-    "away": 1.2,
+    "away": 1.19,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1573,9 +1573,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.41,
+    "home": 1.39,
     "draw": 4.6,
-    "away": 9.0,
+    "away": 9.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1599,7 +1599,7 @@
    "group": "Group J",
    "odds": {
     "home": 1.34,
-    "draw": 5.5,
+    "draw": 5.25,
     "away": 9.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1673,9 +1673,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 2.15,
-    "draw": 3.4,
-    "away": 3.5,
+    "home": 2.2,
+    "draw": 3.45,
+    "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1823,9 +1823,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.54,
-    "draw": 4.6,
-    "away": 5.75,
+    "home": 1.59,
+    "draw": 4.3,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1839,7 +1839,7 @@
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "form": "DLWWL"
+    "form": "WDLWW"
    }
   },
   {
@@ -1874,7 +1874,7 @@
    "group": "Group C",
    "odds": {
     "home": 1.1,
-    "draw": 12.0,
+    "draw": 11.0,
     "away": 21.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -1899,8 +1899,8 @@
    "group": "Group D",
    "odds": {
     "home": 1.95,
-    "draw": 3.3,
-    "away": 4.3,
+    "draw": 3.4,
+    "away": 4.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1908,7 +1908,7 @@
     "name": "Türkiye",
     "flag": "🇹🇷",
     "owner": "Dubs",
-    "form": "WWWWD"
+    "form": "LWWWW"
    },
    "away": {
     "name": "Paraguay",
@@ -1924,7 +1924,7 @@
    "group": "Group F",
    "odds": {
     "home": 1.65,
-    "draw": 4.2,
+    "draw": 4.1,
     "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2098,9 +2098,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 4.9,
-    "draw": 3.75,
-    "away": 1.74,
+    "home": 4.6,
+    "draw": 3.9,
+    "away": 1.77,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2149,7 +2149,7 @@
    "group": "Group I",
    "odds": {
     "home": 1.11,
-    "draw": 9.0,
+    "draw": 9.5,
     "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -2248,9 +2248,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.31,
+    "home": 1.32,
     "draw": 5.5,
-    "away": 10.0,
+    "away": 9.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2273,8 +2273,8 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 6.5,
-    "draw": 4.1,
+    "home": 7.0,
+    "draw": 4.0,
     "away": 1.54,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2323,8 +2323,8 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.56,
-    "draw": 4.2,
+    "home": 1.57,
+    "draw": 4.1,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2398,9 +2398,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 6.0,
+    "home": 6.5,
     "draw": 5.0,
-    "away": 1.48,
+    "away": 1.44,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2423,7 +2423,7 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 4.6,
+    "home": 4.7,
     "draw": 3.65,
     "away": 1.8,
     "over_under": 2.5,
@@ -3165,11 +3165,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 1,
+     "gf": 2,
      "ga": 0,
      "pts": 3,
-     "live": true,
-     "gd": 1,
+     "live": false,
+     "gd": 2,
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
@@ -3183,10 +3183,10 @@
      "d": 0,
      "l": 1,
      "gf": 0,
-     "ga": 1,
+     "ga": 2,
      "pts": 0,
-     "live": true,
-     "gd": -1,
+     "live": false,
+     "gd": -2,
      "name": "Türkiye",
      "flag": "🇹🇷",
      "tier": 2,
@@ -4529,6 +4529,14 @@
    "owner": "Emily"
   },
   {
+   "player": "Connor Metcalfe",
+   "team": "AUS",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇦🇺",
+   "owner": "Glancy"
+  },
+  {
    "player": "Cyle Larin",
    "team": "CAN",
    "goals": 1,
@@ -4623,14 +4631,6 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Dipen"
-  },
-  {
-   "player": "Vinícius Júnior",
-   "team": "BRA",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
   }
  ],
  "fairplay": [
@@ -4734,6 +4734,15 @@
    "pts": 1
   },
   {
+   "code": "TUR",
+   "name": "Türkiye",
+   "flag": "🇹🇷",
+   "owner": "Dubs",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
    "code": "USA",
    "name": "USA",
    "flag": "🇺🇸",
@@ -4745,52 +4754,52 @@
  ],
  "news": [
   {
-   "headline": "Scotland ease 'pressure' with 1st World Cup win since 1990",
-   "desc": "Steve Clarke said his Scotland side's long-awaited World Cup win over Haiti means the team have less pressure on them as they prepare to face Morocco.",
-   "link": "https://www.espn.com/soccer/story/_/id/49057757/scotland-haiti-2026-world-cup-steve-clarke",
-   "published": "2026-06-14T05:09:22Z",
+   "headline": "Scotland 'deserved adulation from crowd' after World Cup win - James McFadden",
+   "desc": "James McFadden insisted Scotland deserved the \"absolutely tremendous\" scenes after they ground out their first World Cup victory in 36 years over Haiti.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059258/scotland-deserved-adulation-crowd-world-cup-win-james-mcfadden",
+   "published": "2026-06-14T09:33:06Z",
    "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672818_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672773_1296x729_16-9.jpg"
   },
   {
-   "headline": "Socceroos vs. Türkiye LIVE: Australia lead as second half begins",
-   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
-   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T05:07:48Z",
+   "headline": "Popovic: Turkey win a 'special night for the Socceroos'",
+   "desc": "Popovic: Turkey win a 'special night for the Socceroos'",
+   "link": "https://www.espn.com/video/clip/_/id/49059253/turkey-win-special-night-socceroos",
+   "published": "2026-06-14T09:29:43Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Popovic_Turkey_win_a_special_night_for_the_Socceroos/dm_260614_Popovic_Turkey_win_a_special_night_for_the_Socceroos.jpg"
+  },
+  {
+   "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-14T09:16:45Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672819_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672871_2_894x503_16-9.jpg"
   },
   {
-   "headline": "Irankunda scores to give the Socceroos the lead over Türkiye",
-   "desc": "Nestory Irankunda shows some serious pace and slots the ball in the bottom left corner to take the lead over Türkiye.",
-   "link": "https://www.espn.com/video/clip/_/id/49057832/irankunda-scores-give-socceroos-lead-turkiye",
-   "published": "2026-06-14T05:02:12Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Irankunda_scores_to_give_the_Socceroos_the_lead_over_Turkiye_20260614_AUS/dm_260614_Soccer_HIGHLIGHT_Irankunda_scores_to_give_the_Socceroos_the_lead_over_Turkiye_20260614_AUS.jpg"
-  },
-  {
-   "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
-   "desc": "John McGinn was the hero for Scotland as his strike was the difference in their first World Cup win since 1990.",
-   "link": "https://www.espn.com/video/clip/_/id/49057235/scotland-goes-top-group-c-1-0-win-haiti",
-   "published": "2026-06-14T04:17:53Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS.jpg"
-  },
-  {
-   "headline": "2 Texas men charged after England World Cup gear stolen",
-   "desc": "Two men have been charged with one felony count each of receiving stolen property late Saturday after England's national team discovered that some of their equipment had been stolen.",
-   "link": "https://www.espn.com/soccer/story/_/id/49057023/england-world-cup-stolen-team-gear-kansas-city-men-charged",
-   "published": "2026-06-14T04:57:38Z",
+   "headline": "'It was amazing': Patrick Beach repays Popovic's faith in win over Türkiye",
+   "desc": "Informed that he would be the surprise starter in Australia's FIFA World Cup opening 2-0 win over Türkiye \"a couple of days ago\", Patrick Beach has paid tribute to the Socceroos goalkeeping union in preparing him for the world stage.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059143/fifa-world-cup-australia-socceroos-goalkeeper-patrick-beach-repays-tony-popovic-faith-win-turkiye",
+   "published": "2026-06-14T09:01:09Z",
    "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672796_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672876_1296x729_16-9.jpg"
   },
   {
-   "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
-   "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
-   "published": "2026-06-14T03:59:15Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672771_1296x729_16-9.jpg"
+   "headline": "Nico O'Reilly on England World Cup opener: We must show Croatia 'what we're made of'",
+   "desc": "Nico O'Reilly has said that England must show Croatia what they are \"made of\" when they start their World Cup campaign in Group L.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059123/englands-nico-oreilly-croatia-world-cup-opener-show-were-made-of",
+   "published": "2026-06-14T08:47:45Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672874_594x334_16-9.jpg"
+  },
+  {
+   "headline": "Patrick Beach stars in FIFA World Cup debut",
+   "desc": "Patrick Beach got the nod ahead of Socceroos captain Mat Ryan, and made it count with eight saves and a clean sheet.",
+   "link": "https://www.espn.com/video/clip/_/id/49059088/patrick-beach-stars-fifa-world-cup-debut",
+   "published": "2026-06-14T08:21:28Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614.jpg"
   }
  ]
 }
