@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:10:09+00:00",
+ "generated_at": "2026-06-14T18:10:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4589,6 +4589,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Jamal Musiala",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "John McGinn",
    "team": "SCO",
    "goals": 1,
@@ -4634,14 +4642,6 @@
    "goals": 1,
    "assists": 0,
    "flag": "🇨🇼",
-   "owner": "Fergs"
-  },
-  {
-   "player": "Maurício",
-   "team": "PAR",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇵🇾",
    "owner": "Fergs"
   }
  ],
