@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T07:09:14+00:00",
+ "generated_at": "2026-06-14T07:14:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,22 @@
  ],
  "news": [
   {
+   "headline": "Dan Burn: England must emulate Argentina's strong team spirit",
+   "desc": "Dan Burn has called on England to take a leaf out of Argentina's book by forging an unbreakable team spirit as they chase World Cup glory this summer.",
+   "link": "https://www.espn.com/soccer/story/_/id/49058830/dan-burn-england-emulate-argentina-strong-team-spirit",
+   "published": "2026-06-14T07:12:23Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672862_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Was the World Cup win over Paraguay the best in USMNT history?",
+   "desc": "The U.S. got its World Cup off to a flying start with a 4-1 win over Paraguay, a performance so stylish that it will go down in history.",
+   "link": "https://www.espn.com/soccer/story/_/id/49053328/was-fifa-world-cup-win-paraguay-best-usmnt-history",
+   "published": "2026-06-14T07:08:34Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672570_1296x729_16-9.jpg"
+  },
+  {
    "headline": "What's it really like to face World Cup stars Yamal, Mbappé? We asked the players",
    "desc": "Throughout the season, ESPN has asked LaLiga players and coaches what it's like to take on the duo who are set to be the World Cup's biggest stars.",
    "link": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
@@ -4784,22 +4800,6 @@
    "published": "2026-06-14T07:00:47Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0612/r1671976_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Democratic concepts, authentic storytelling and nostalgia: What makes a good World Cup jersey?",
-   "desc": "There are some incredible designs and colours on display at the 2026 World Cup. So, what makes a World Cup jersey iconic?",
-   "link": "https://www.espn.com/soccer/story/_/id/49027527/world-cup-2026-makes-good-jersey-democratic-concepts-authentic-storytelling-nostalgia",
-   "published": "2026-06-14T07:00:26Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0611/r1671171_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup 2026: Can Lionel Messi and Cristiano Ronaldo finally meet on biggest stage?",
-   "desc": "In a sixth World Cup for Lionel Messi and Cristiano Ronaldo, could the pair finally face each other in the tournament?",
-   "link": "https://www.espn.com/soccer/story/_/id/48972466/world-cup-2026-lionel-messi-cristiano-ronaldo-showdown-knockouts-argentina-portugal",
-   "published": "2026-06-14T06:59:52Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0605/r1668521_608x342_16-9.png"
   }
  ]
 }
