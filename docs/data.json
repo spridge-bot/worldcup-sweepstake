@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T02:56:10+00:00",
+ "generated_at": "2026-06-14T02:56:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -269,12 +269,12 @@
    "fifa_rank": 6,
    "owner": "George",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
+   "gf": 0,
+   "ga": 0,
    "total": 3,
    "events": [
     {
@@ -292,12 +292,12 @@
    "fifa_rank": 7,
    "owner": "Willo",
    "status": "alive",
-   "played": 1,
+   "played": 0,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
+   "gf": 0,
+   "ga": 0,
    "total": 1,
    "events": [
     {
@@ -1083,40 +1083,39 @@
     "owner": "George",
     "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760419,
-   "date": "2026-06-13",
    "utc": "2026-06-13T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   },
+   "clock": "45'+4'",
+   "status_detail": "HT",
+   "venue": "MetLife Stadium",
    "odds": {
     "home": 1.69,
     "draw": 3.75,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
+   },
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "goals": 1
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "goals": 1
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760420,
    "date": "2026-06-13",
@@ -3077,7 +3076,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": false,
+     "live": true,
      "gd": 0,
      "name": "Brazil",
      "flag": "🇧🇷",
@@ -3094,7 +3093,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": false,
+     "live": true,
      "gd": 0,
      "name": "Morocco",
      "flag": "🇲🇦",
@@ -4643,15 +4642,6 @@
    "yellow": 3,
    "red": 0,
    "pts": 3
-  },
-  {
-   "code": "BRA",
-   "name": "Brazil",
-   "flag": "🇧🇷",
-   "owner": "George",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
   },
   {
    "code": "CAN",
