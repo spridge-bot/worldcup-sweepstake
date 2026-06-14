@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T10:10:05+00:00",
+ "generated_at": "2026-06-14T10:15:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup VAR review: FIFA tech stops working in Qatar vs. Switzerland",
+   "desc": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
+   "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+   "published": "2026-06-14T10:13:10Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672881_1296x729_16-9.jpg"
+  },
+  {
    "headline": "FIFA blames 'technical outage' for World Cup VAR controversy in Qatar vs. Switzerland",
    "desc": "FIFA have confirmed that a \"technical outage\" meant that VAR's semi-automated offside technology was not able to be used for the controversial call that led to Switzerland's opening goal against Qatar on Saturday.",
    "link": "https://www.espn.com/soccer/story/_/id/49059323/fifa-blames-technical-outage-world-cup-var-controversy-qatar-switzerland",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T09:01:09Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672876_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Nico O'Reilly on England World Cup opener: We must show Croatia 'what we're made of'",
-   "desc": "Nico O'Reilly has said that England must show Croatia what they are \"made of\" when they start their World Cup campaign in Group L.",
-   "link": "https://www.espn.com/soccer/story/_/id/49059123/englands-nico-oreilly-croatia-world-cup-opener-show-were-made-of",
-   "published": "2026-06-14T08:47:45Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672874_594x334_16-9.jpg"
   }
  ]
 }
