@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T03:03:25+00:00",
+ "generated_at": "2026-06-14T03:08:33+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1281,7 +1281,7 @@
    "group": "Group D",
    "odds": {
     "home": 5.0,
-    "draw": 3.75,
+    "draw": 3.65,
     "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1856,8 +1856,8 @@
    "group": "Group C",
    "odds": {
     "home": 1.1,
-    "draw": 10.0,
-    "away": 31.0,
+    "draw": 11.0,
+    "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -4754,7 +4754,7 @@
    "headline": "Bailed out by Vinícius Júnior, Brazil are still a work in progress",
    "desc": "Vinícius Júnior's superb goal was enough to help Brazil scrape a 1-1 draw in their underwhelming World Cup opener against Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49055494/fifa-world-cup-bailed-vinicius-junior-brazil-work-progress",
-   "published": "2026-06-14T02:06:12Z",
+   "published": "2026-06-14T03:06:45Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672650_1296x729_16-9.jpg"
   },
