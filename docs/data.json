@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T10:02:09+00:00",
+ "generated_at": "2026-06-14T14:38:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1325,7 +1325,7 @@
    "odds": {
     "home": 1.03,
     "draw": 16.0,
-    "away": 31.0,
+    "away": 29.0,
     "over_under": 4.5,
     "provider": "DraftKings"
    },
@@ -1348,8 +1348,8 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 2.0,
-    "draw": 3.4,
+    "home": 2.05,
+    "draw": 3.35,
     "away": 3.55,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1373,9 +1373,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 3.3,
+    "home": 3.25,
     "draw": 2.85,
-    "away": 2.55,
+    "away": 2.6,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -1399,8 +1399,8 @@
    "group": "Group F",
    "odds": {
     "home": 1.95,
-    "draw": 3.45,
-    "away": 4.1,
+    "draw": 3.4,
+    "away": 4.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1423,9 +1423,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.09,
-    "draw": 11.0,
-    "away": 26.0,
+    "home": 1.1,
+    "draw": 12.0,
+    "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -1748,9 +1748,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.59,
+    "home": 1.61,
     "draw": 4.1,
-    "away": 6.0,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4754,52 +4754,52 @@
  ],
  "news": [
   {
-   "headline": "Scotland 'deserved adulation from crowd' after World Cup win - James McFadden",
-   "desc": "James McFadden insisted Scotland deserved the \"absolutely tremendous\" scenes after they ground out their first World Cup victory in 36 years over Haiti.",
-   "link": "https://www.espn.com/soccer/story/_/id/49059258/scotland-deserved-adulation-crowd-world-cup-win-james-mcfadden",
-   "published": "2026-06-14T09:33:06Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672773_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Popovic: Turkey win a 'special night for the Socceroos'",
-   "desc": "Popovic: Turkey win a 'special night for the Socceroos'",
-   "link": "https://www.espn.com/video/clip/_/id/49059253/turkey-win-special-night-socceroos",
-   "published": "2026-06-14T09:29:43Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Popovic_Turkey_win_a_special_night_for_the_Socceroos/dm_260614_Popovic_Turkey_win_a_special_night_for_the_Socceroos.jpg"
-  },
-  {
    "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-14T09:16:45Z",
+   "published": "2026-06-14T14:13:51Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672871_2_894x503_16-9.jpg"
   },
   {
-   "headline": "'It was amazing': Patrick Beach repays Popovic's faith in win over Türkiye",
-   "desc": "Informed that he would be the surprise starter in Australia's FIFA World Cup opening 2-0 win over Türkiye \"a couple of days ago\", Patrick Beach has paid tribute to the Socceroos goalkeeping union in preparing him for the world stage.",
-   "link": "https://www.espn.com/soccer/story/_/id/49059143/fifa-world-cup-australia-socceroos-goalkeeper-patrick-beach-repays-tony-popovic-faith-win-turkiye",
-   "published": "2026-06-14T09:01:09Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672876_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Nico O'Reilly on England World Cup opener: We must show Croatia 'what we're made of'",
-   "desc": "Nico O'Reilly has said that England must show Croatia what they are \"made of\" when they start their World Cup campaign in Group L.",
-   "link": "https://www.espn.com/soccer/story/_/id/49059123/englands-nico-oreilly-croatia-world-cup-opener-show-were-made-of",
-   "published": "2026-06-14T08:47:45Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672874_594x334_16-9.jpg"
-  },
-  {
-   "headline": "Patrick Beach stars in FIFA World Cup debut",
-   "desc": "Patrick Beach got the nod ahead of Socceroos captain Mat Ryan, and made it count with eight saves and a clean sheet.",
-   "link": "https://www.espn.com/video/clip/_/id/49059088/patrick-beach-stars-fifa-world-cup-debut",
-   "published": "2026-06-14T08:21:28Z",
+   "headline": "Will Germany start strong against Curacao?",
+   "desc": "Will Germany start strong against Curacao?",
+   "link": "https://www.espn.com/video/clip/_/id/49060728/will-germany-start-strong-curacao",
+   "published": "2026-06-14T13:53:48Z",
    "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614.jpg"
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Will_Germany_start_strong_against_Curacao/dm_260614_Will_Germany_start_strong_against_Curacao.jpg"
+  },
+  {
+   "headline": "Somali referee Omar Artan to receive full pay from FIFA after being refused U.S. entry",
+   "desc": "Somali referee Omar Artan will be paid for his World Cup match assignments by FIFA, sources have told ESPN, despite being refused entry into the United States prior to the start of the tournament.",
+   "link": "https://www.espn.com/soccer/story/_/id/49060649/omar-artan-somali-referee-fifa-world-cup-full-pay",
+   "published": "2026-06-14T14:37:29Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672917_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Should Brazil be worried after Morocco draw?",
+   "desc": "",
+   "link": "https://www.espn.com/video/clip/_/id/49060659/should-brazil-worried-morocco-draw",
+   "published": "2026-06-14T13:37:13Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_ANALYSIS_Should_Brazil_be_worried_after_Morocco_draw_2026_6_14/dm_260614_COM_SOC_ANALYSIS_Should_Brazil_be_worried_after_Morocco_draw_2026_6_14.jpg"
+  },
+  {
+   "headline": "The joy and wonder of Cabo Verde's unlikely World Cup journey",
+   "desc": "Searching for a lovable underdog to cheer for this World Cup? Look no further than Cabo Verde.",
+   "link": "https://www.espn.com/soccer/story/_/id/49043152/fifa-world-cup-2026-cabo-verde-americans-homecoming",
+   "published": "2026-06-14T12:27:05Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672405_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Montella says Australia loss gives Türkiye 'more motivation'",
+   "desc": "Montella says Australia loss gives Türkiye 'more motivation'",
+   "link": "https://www.espn.com/video/clip/_/id/49059745/montella-says-australia-loss-gives-turkiye-more-motivation",
+   "published": "2026-06-14T10:59:36Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Montella_says_Australia_loss_gives_Turkiye_more_motivation/dm_260614_Montella_says_Australia_loss_gives_Turkiye_more_motivation.jpg"
   }
  ]
 }
