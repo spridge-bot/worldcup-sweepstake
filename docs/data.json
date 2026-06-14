@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T10:04:56+00:00",
+ "generated_at": "2026-06-14T10:10:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "FIFA blames 'technical outage' for World Cup VAR controversy in Qatar vs. Switzerland",
+   "desc": "FIFA have confirmed that a \"technical outage\" meant that VAR's semi-automated offside technology was not able to be used for the controversial call that led to Switzerland's opening goal against Qatar on Saturday.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059323/fifa-blames-technical-outage-world-cup-var-controversy-qatar-switzerland",
+   "published": "2026-06-14T10:04:22Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672879_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Scotland 'deserved adulation from crowd' after World Cup win - James McFadden",
    "desc": "James McFadden insisted Scotland deserved the \"absolutely tremendous\" scenes after they ground out their first World Cup victory in 36 years over Haiti.",
    "link": "https://www.espn.com/soccer/story/_/id/49059258/scotland-deserved-adulation-crowd-world-cup-win-james-mcfadden",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T08:47:45Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672874_594x334_16-9.jpg"
-  },
-  {
-   "headline": "Patrick Beach stars in FIFA World Cup debut",
-   "desc": "Patrick Beach got the nod ahead of Socceroos captain Mat Ryan, and made it count with eight saves and a clean sheet.",
-   "link": "https://www.espn.com/video/clip/_/id/49059088/patrick-beach-stars-fifa-world-cup-debut",
-   "published": "2026-06-14T08:21:28Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614/dm_260614_Soccer_Analysis_Patrick_Beach_stars_in_FIFA_World_Cup_debut__20260614.jpg"
   }
  ]
 }
