@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:36:01+00:00",
+ "generated_at": "2026-06-14T04:36:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "34'",
-   "status_detail": "34'",
+   "clock": "35'",
+   "status_detail": "35'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4745,14 +4745,6 @@
  ],
  "news": [
   {
-   "headline": "Socceroos vs. Türkiye LIVE: Irankunda sends Australia 1-0 up",
-   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
-   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T04:30:48Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672790_1296x729_16-9.jpg"
-  },
-  {
    "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
    "desc": "John McGinn was the hero for Scotland as his strike was the difference in their first World Cup win since 1990.",
    "link": "https://www.espn.com/video/clip/_/id/49057235/scotland-goes-top-group-c-1-0-win-haiti",
@@ -4791,6 +4783,14 @@
    "published": "2026-06-14T03:24:28Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup Daily: Scotland defeat Haiti; Brazil fans take over NYC",
+   "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
+   "published": "2026-06-14T03:30:27Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672700_1296x729_16-9.jpg"
   }
  ]
 }
