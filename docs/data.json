@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T10:25:30+00:00",
+ "generated_at": "2026-06-14T10:30:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1874,7 +1874,7 @@
    "group": "Group C",
    "odds": {
     "home": 1.1,
-    "draw": 11.0,
+    "draw": 12.0,
     "away": 21.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -4757,7 +4757,7 @@
    "headline": "World Cup VAR review: FIFA tech stops working in Qatar vs. Switzerland",
    "desc": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
    "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-   "published": "2026-06-14T10:18:55Z",
+   "published": "2026-06-14T10:27:01Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672881_1296x729_16-9.jpg"
   },
