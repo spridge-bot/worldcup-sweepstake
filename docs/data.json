@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T09:13:24+00:00",
+ "generated_at": "2026-06-14T09:18:33+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-14T09:16:45Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672871_2_894x503_16-9.jpg"
+  },
+  {
    "headline": "'It was amazing': Patrick Beach repays Popovic's faith in win over Türkiye",
    "desc": "Informed that he would be the surprise starter in Australia's FIFA World Cup opening 2-0 win over Türkiye \"a couple of days ago\", Patrick Beach has paid tribute to the Socceroos goalkeeping union in preparing him for the world stage.",
    "link": "https://www.espn.com/soccer/story/_/id/49059143/fifa-world-cup-australia-socceroos-goalkeeper-patrick-beach-repays-tony-popovic-faith-win-turkiye",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T08:25:16Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672812_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Steve Clarke hails Scotland's 'special' first World Cup win in 36 years",
-   "desc": "Steve Clarke hails Scotland's 'special' first World Cup win in 36 years",
-   "link": "https://www.espn.com/video/clip/_/id/49058886/steve-clarke-hails-scotland-special-first-world-cup-win-36-years",
-   "published": "2026-06-14T07:20:41Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Steve_Clarke_hails_Scotlands_special_first_World_Cup_win_in_36_years/dm_260614_Steve_Clarke_hails_Scotlands_special_first_World_Cup_win_in_36_years.jpg"
   }
  ]
 }
