@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T20:26:30+00:00",
+ "generated_at": "2026-06-14T20:32:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1089,8 +1089,8 @@
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "26'",
-   "status_detail": "26'",
+   "clock": "32'",
+   "status_detail": "32'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -4784,6 +4784,14 @@
  ],
  "news": [
   {
+   "headline": "PSL mentor Muhsin Ertugral questions Hugo Broos not using Relebohile Mofokeng against Mexico",
+   "desc": "Long-time South African Premiership manager Muhsin Ertugral has questioned South Africa head coach Hugo Broos' decision to leave the likes of Relebohile Mofokeng on the bench against Mexico.",
+   "link": "https://www.espn.com/espn/story/_/id/49063992/psl-mentor-muhsin-ertugral-questions-hugo-broos-not-using-relebohile-mofokeng-mexico",
+   "published": "2026-06-14T20:26:22Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0611/r1671155_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup 2026: Why do Japan fans clean up the stadium?",
    "desc": "Japan supporters have built a respected reputation for tidying up football stadiums before they leave. But what is the reason for it?",
    "link": "https://www.espn.com/soccer/story/_/id/48851733/world-cup-2026-why-do-japan-fans-clean-stadium",
@@ -4822,14 +4830,6 @@
    "published": "2026-06-14T19:25:36Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_Analysis_Robson_Germanys_7-1_win_vs_Curacao_was_a_training_game_20260614_GLOBAL_FIFA/dm_260614_COM_SOC_Analysis_Robson_Germanys_7-1_win_vs_Curacao_was_a_training_game_20260614_GLOBAL_FIFA.jpg"
-  },
-  {
-   "headline": "Morocco's Ayyoub Bouaddi will not be underestimated again after Casemiro humbling",
-   "desc": "There was a point, late in the first half of Morocco's opening FIFA World Cup 1-1 draw on Saturday, where the contrast between Brazil's Casemiro and Ayyoub Bouaddi was impossible to ignore.",
-   "link": "https://www.espn.com/espn/story/_/id/49054213/morocco-ayyoub-bouaddi-not-underestimated-again-casemiro-humbling",
-   "published": "2026-06-14T18:31:33Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672658_1296x729_16-9.jpg"
   }
  ]
 }
