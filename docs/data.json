@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:29:39+00:00",
+ "generated_at": "2026-06-14T04:30:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "28'",
-   "status_detail": "28'",
+   "clock": "29'",
+   "status_detail": "29'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4745,12 +4745,12 @@
  ],
  "news": [
   {
-   "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
+   "headline": "Socceroos vs. Türkiye LIVE: Irankunda sends Australia 1-0 up",
    "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T04:22:52Z",
+   "published": "2026-06-14T04:29:41Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/media/motion/2026/0604/dm_260604_COM_SOC_Analysis_Will_Turkiyes_great_generation_click_at_the_World_Cup_20260604_GLOBAL/dm_260604_COM_SOC_Analysis_Will_Turkiyes_great_generation_click_at_the_World_Cup_20260604_GLOBAL.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672790_1296x729_16-9.jpg"
   },
   {
    "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
@@ -4764,7 +4764,7 @@
    "headline": "2 Texas men charged after England World Cup gear stolen",
    "desc": "Two men have been charged with one felony count each of receiving stolen property late Saturday after England's national team discovered that some of their equipment had been stolen.",
    "link": "https://www.espn.com/soccer/story/_/id/49057023/england-world-cup-stolen-team-gear-kansas-city-men-charged",
-   "published": "2026-06-14T04:25:10Z",
+   "published": "2026-06-14T04:29:43Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672796_1296x729_16-9.jpg"
   },
