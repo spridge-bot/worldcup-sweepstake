@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:05:01+00:00",
+ "generated_at": "2026-06-14T04:05:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "4'",
-   "status_detail": "4'",
+   "clock": "5'",
+   "status_detail": "5'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4738,9 +4738,9 @@
  "news": [
   {
    "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
-   "desc": "",
+   "desc": "Tony Popovic's Socceroos take on Türkiye at BC Place in Vancouver, Canada. Follow all the action below LIVE with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T04:03:54Z",
+   "published": "2026-06-14T04:05:05Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672787_1296x729_16-9.jpg"
   },
