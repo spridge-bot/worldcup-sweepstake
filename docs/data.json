@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T07:04:06+00:00",
+ "generated_at": "2026-06-14T07:09:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -2398,9 +2398,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 6.0,
+    "home": 6.5,
     "draw": 5.0,
-    "away": 1.48,
+    "away": 1.45,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "What's it really like to face World Cup stars Yamal, Mbappé? We asked the players",
+   "desc": "Throughout the season, ESPN has asked LaLiga players and coaches what it's like to take on the duo who are set to be the World Cup's biggest stars.",
+   "link": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
+   "published": "2026-06-14T07:06:57Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0612/r1671909_1296x729_16-9.jpg"
+  },
+  {
    "headline": "FIFA World Cup 2026 stats: Brazil's 21, Qatar's first, Irankunda Australia's youngest",
    "desc": "ESPN's By The Numbers brings you best stats from the 2026 FIFA World Cup games on June 13.",
    "link": "https://www.espn.com/soccer/story/_/id/49058619/fifa-world-cup-2026-stats-brazil-21-qatar-first-nestory-irankunda-australia-youngest",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T06:59:52Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0605/r1668521_608x342_16-9.png"
-  },
-  {
-   "headline": "Why are there drinks breaks at the 2026 World Cup, and why has FIFA been criticised?",
-   "desc": "All 104 matches at the 2026 World Cup will stop for two \"hydration breaks.\" Why have they been stipulated by FIFA, and why have they been criticised?",
-   "link": "https://www.espn.com/soccer/story/_/id/48945011/why-there-drinks-breaks-2026-world-cup-fifa-criticised",
-   "published": "2026-06-14T06:59:23Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0602/r1667047_1296x729_16-9.jpg"
   }
  ]
 }
