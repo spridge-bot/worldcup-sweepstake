@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:39:04+00:00",
+ "generated_at": "2026-06-14T18:47:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1077,8 +1077,8 @@
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "75'",
-   "status_detail": "75'",
+   "clock": "83'",
+   "status_detail": "83'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.03,
@@ -1092,7 +1092,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "goals": 5
+    "goals": 6
    },
    "away": {
     "code": "CUW",
@@ -3233,11 +3233,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 4,
+     "gd": 5,
      "name": "Germany",
      "flag": "🇩🇪",
      "tier": 1,
@@ -3285,10 +3285,10 @@
      "d": 0,
      "l": 1,
      "gf": 1,
-     "ga": 5,
+     "ga": 6,
      "pts": 0,
      "live": true,
-     "gd": -4,
+     "gd": -5,
      "name": "Curaçao",
      "flag": "🇨🇼",
      "tier": 3,
@@ -4557,6 +4557,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Deniz Undav",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Felix Nmecha",
    "team": "GER",
    "goals": 1,
@@ -4635,14 +4643,6 @@
    "assists": 0,
    "flag": "🇨🇿",
    "owner": "Emily"
-  },
-  {
-   "player": "Livano Comenencia",
-   "team": "CUW",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇨🇼",
-   "owner": "Fergs"
   }
  ],
  "fairplay": [
@@ -4766,6 +4766,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Germany cruising vs. debutants Curaçao",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-14T18:44:11Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673025_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Morocco's Ayyoub Bouaddi will not be underestimated again after Casemiro humbling",
    "desc": "There was a point, late in the first half of Morocco's opening FIFA World Cup 1-1 draw on Saturday, where the contrast between Brazil's Casemiro and Ayyoub Bouaddi was impossible to ignore.",
    "link": "https://www.espn.com/espn/story/_/id/49054213/morocco-ayyoub-bouaddi-not-underestimated-again-casemiro-humbling",
@@ -4780,14 +4788,6 @@
    "published": "2026-06-14T18:00:16Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672213_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Germany cruise ahead vs. debutants Curaçao",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-14T18:18:48Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673025_1296x729_16-9.jpg"
   },
   {
    "headline": "Lone Curaçao supporter in Berlin celebrates goal vs. Germany",
