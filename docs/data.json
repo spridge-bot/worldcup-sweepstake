@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:00:54+00:00",
+ "generated_at": "2026-06-14T04:01:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -84,6 +84,32 @@
    "movement": -1
   },
   {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 3,
+   "today": 3,
+   "rank": 6,
+   "movement": 1
+  },
+  {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 1,
+   "today": 1,
+   "rank": 7,
+   "movement": 0
+  },
+  {
    "name": "Emily",
    "teams": [
     "NED",
@@ -93,8 +119,8 @@
    ],
    "total": 1,
    "today": 0,
-   "rank": 6,
-   "movement": 0
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -106,21 +132,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 7,
-   "movement": 0
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 7,
-   "movement": 0
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -132,21 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 7,
-   "movement": 0
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 7,
-   "movement": 0
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Jen",
@@ -158,8 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 7,
-   "movement": 0
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 7,
-   "movement": 0
+   "rank": 9,
+   "movement": -2
   }
  ],
  "teams": {
@@ -537,8 +537,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "3rd in Group D (live)",
+     "points": 1
+    }
+   ]
   },
   "ECU": {
    "code": "ECU",
@@ -611,8 +617,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "2nd in Group D (live)",
+     "points": 3
+    }
+   ]
   },
   "ALG": {
    "code": "ALG",
@@ -1053,7 +1065,38 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760421,
+   "utc": "2026-06-14T04:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 5.25,
+    "draw": 3.85,
+    "away": 1.69,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "owner": "Dubs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760418,
@@ -1274,31 +1317,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760421,
-   "utc": "2026-06-14T04:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 5.5,
-    "draw": 3.7,
-    "away": 1.69,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": "DLWWL"
-   },
-   "away": {
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "form": "WWWWD"
-   }
-  },
   {
    "id": 760422,
    "utc": "2026-06-14T17:00:00Z",
@@ -3143,14 +3161,14 @@
     {
      "group": "Group D",
      "code": "AUS",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Australia",
      "flag": "🇦🇺",
@@ -3160,14 +3178,14 @@
     {
      "group": "Group D",
      "code": "TUR",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Türkiye",
      "flag": "🇹🇷",
