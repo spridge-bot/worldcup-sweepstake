@@ -851,6 +851,22 @@ function matchDayTiles(d) {
   return tiles.length ? `<div class="tilerow">${tiles.join('')}</div>` : '';
 }
 
+// unified live-events list: prefer Sofascore incidents, else rebuild from ESPN details
+function incidentsFor(m, sofa, det) {
+  const inc = sofa?.incidents || [];
+  if (inc.length) return inc;
+  const sideOf = code => code === m.home.code ? 'home' : 'away';
+  const out = [];
+  (det?.goals || []).forEach(g => out.push({ type: 'goal', minute: g.minute, addedTime: g.injury,
+    player: g.scorer, assist: g.assist, team: sideOf(g.team),
+    class: g.type === 'PENALTY' ? 'penalty' : g.type === 'OWN' ? 'ownGoal' : '' }));
+  (det?.bookings || []).forEach(b => out.push({ type: 'card', minute: b.minute, player: b.player,
+    team: sideOf(b.team), class: /red/i.test(String(b.card || b.type || '')) ? 'red' : 'yellow' }));
+  (det?.substitutions || []).forEach(su => out.push({ type: 'substitution', minute: su.minute,
+    team: sideOf(su.team), in: su.in || su.playerIn || su.on, out: su.out || su.playerOut || su.off }));
+  return out;
+}
+
 function renderLive(d) {
   const el = $('#live');
   const tiles = matchDayTiles(d);
@@ -881,7 +897,9 @@ function renderLive(d) {
         <img class="pitchimg" src="${RAW}${s.pitch}?t=${Date.now()}" alt="average player positions"></div>` : '';
     const shotmap = s?.shotmap_img ? `<div class="pitchwrap">
         <img class="pitchimg" src="${RAW}${s.shotmap_img}?t=${Date.now()}" alt="shot map"></div>` : '';
-    const lastInc = [...(s?.incidents || [])].reverse()
+    const inc = incidentsFor(m, s, det);
+    const lastInc = [...inc].sort((a, b) =>
+      ((b.minute || 0) + (b.addedTime || 0) * 0.01) - ((a.minute || 0) + (a.addedTime || 0) * 0.01))
       .find(i => ['goal', 'card', 'substitution', 'period', 'varDecision'].includes(i.type));
     const lastEv = lastInc ? `<div class="lastev">${liveIncidents({ incidents: [lastInc] })}</div>` : '';
     return `<div class="livewrap">
@@ -907,7 +925,7 @@ function renderLive(d) {
             ${s?.momentum ? `<div style="padding:2px 16px 6px">${momentumChart(s, m.home.name, m.away.name, matchGoals(m, s, det))}</div>` : ''}
             ${statHtml ? `<div style="padding:2px 16px 10px">${statHtml}</div>` : ''}
           </div>
-          <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents(s)}</div></div>
+          <div class="right"><h4>Live events</h4><div class="feed">${liveIncidents({ incidents: inc })}</div></div>
         </div>
       </div></div>`;
   }).join('') + tiles;
