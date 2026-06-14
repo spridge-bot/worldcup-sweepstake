@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T07:45:14+00:00",
+ "generated_at": "2026-06-14T07:50:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
+   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
+   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+   "published": "2026-06-14T07:47:18Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Arise Irankunda: Australia has new prince as Socceroos shock Türkiye",
    "desc": "Just as Tim Cahill did two decades ago, Nestory Irankunda has lifted the Socceroos to a famous win -- before giving the corner flag a left-right of his own.",
    "link": "https://www.espn.com/soccer/story/_/id/49058502/arise-irankunda-australia-new-prince-socceroos-shock-turkiye",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T07:06:57Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0612/r1671909_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "FIFA World Cup 2026 stats: Brazil's 21, Qatar's first, Irankunda Australia's youngest",
-   "desc": "ESPN's By The Numbers brings you best stats from the 2026 FIFA World Cup games on June 13.",
-   "link": "https://www.espn.com/soccer/story/_/id/49058619/fifa-world-cup-2026-stats-brazil-21-qatar-first-nestory-irankunda-australia-youngest",
-   "published": "2026-06-14T07:02:51Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672658_608x342_16-9.jpg"
   }
  ]
 }
