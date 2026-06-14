@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T15:24:46+00:00",
+ "generated_at": "2026-06-14T15:30:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
+   "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
+   "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
+   "published": "2026-06-14T15:26:04Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
+  },
+  {
    "headline": "France vs. Senegal - kick-off time, team news, how to watch the FIFA World Cup",
    "desc": "France will face Senegal on Tuesday, June 16, in a FIFA World Cup Group I fixture of tremendous historic significance at MetLife Stadium.",
    "link": "https://www.espn.com/espn/story/_/id/49048242/france-vs-senegal-kick-team-news-how-watch-fifa-world-cup",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T15:20:48Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672351_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "FIFA World Cup for Africa's teams - Fixtures, kick off times, news, socials, more",
-   "desc": "The FIFA World Cup is here! It's a record-breaking 48-team tournament, with a 10-team African contingent -- the biggest contingent from the continent to date.",
-   "link": "https://www.espn.com/espn/story/_/id/48974632/fifa-world-cup-africa-teams-fixtures-kick-s-news-socials-more",
-   "published": "2026-06-14T15:20:09Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0605/r1668535_1296x729_16-9.jpg"
   }
  ]
 }
