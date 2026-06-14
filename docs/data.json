@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:47:15+00:00",
+ "generated_at": "2026-06-14T18:52:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1077,8 +1077,8 @@
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "83'",
-   "status_detail": "83'",
+   "clock": "88'",
+   "status_detail": "88'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.03,
@@ -1960,9 +1960,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.61,
-    "draw": 4.4,
-    "away": 5.25,
+    "home": 1.57,
+    "draw": 4.5,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1985,9 +1985,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.19,
+    "home": 1.17,
     "draw": 8.0,
-    "away": 13.0,
+    "away": 14.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4533,6 +4533,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Kai Havertz",
+   "team": "GER",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Breel Embolo",
    "team": "SUI",
    "goals": 1,
@@ -4627,14 +4635,6 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Dipen"
-  },
-  {
-   "player": "Kai Havertz",
-   "team": "GER",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇩🇪",
-   "owner": "Glancy"
   },
   {
    "player": "Ladislav Krejcí",
