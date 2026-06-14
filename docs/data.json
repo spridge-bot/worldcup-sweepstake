@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:47:55+00:00",
+ "generated_at": "2026-06-14T21:48:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4778,6 +4778,14 @@
  ],
  "news": [
   {
+   "headline": "USMNT World Cup bracket scenarios, odds to advance, predicted path to knockouts",
+   "desc": "How can Team USA qualify for the World Cup knockout rounds? What's the likely path? What are the odds? What do projection models say?",
+   "link": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions",
+   "published": "2026-06-14T21:47:35Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672213_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Netherlands face Japan; Germany rout Curaçao",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4816,14 +4824,6 @@
    "published": "2026-06-14T20:38:26Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "PSL mentor Muhsin Ertugral questions Hugo Broos not using Relebohile Mofokeng against Mexico",
-   "desc": "Long-time South African Premiership manager Muhsin Ertugral has questioned South Africa head coach Hugo Broos' decision to leave the likes of Relebohile Mofokeng on the bench against Mexico.",
-   "link": "https://www.espn.com/espn/story/_/id/49063992/psl-mentor-muhsin-ertugral-questions-hugo-broos-not-using-relebohile-mofokeng-mexico",
-   "published": "2026-06-14T20:26:22Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0611/r1671155_1296x729_16-9.jpg"
   }
  ]
 }
