@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:14:14+00:00",
+ "generated_at": "2026-06-14T22:38:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -58,19 +58,6 @@
    "movement": 6
   },
   {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 6,
-   "today": 5,
-   "rank": 4,
-   "movement": 2
-  },
-  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -84,6 +71,19 @@
    "movement": -2
   },
   {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 5,
+   "movement": 2
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -93,8 +93,21 @@
    ],
    "total": 5,
    "today": 0,
-   "rank": 6,
-   "movement": -3
+   "rank": 5,
+   "movement": -2
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 4,
+   "today": 3,
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -119,8 +132,8 @@
    ],
    "total": 1,
    "today": 1,
-   "rank": 8,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -132,8 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -145,21 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   }
  ],
  "teams": {
@@ -315,18 +315,18 @@
    "fifa_rank": 8,
    "owner": "Emily",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 5,
+   "gf": 2,
+   "ga": 2,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-14",
-     "desc": "1st in Group F (live)",
-     "points": 5
+     "desc": "2nd in Group F (live)",
+     "points": 3
     }
    ]
   },
@@ -492,14 +492,20 @@
    "fifa_rank": 18,
    "owner": "Jen",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 0,
-   "events": []
+   "gf": 2,
+   "ga": 2,
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "1st in Group F (live)",
+     "points": 5
+    }
+   ]
   },
   "SUI": {
    "code": "SUI",
@@ -1077,39 +1083,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760425,
+   "date": "2026-06-14",
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "55'",
-   "status_detail": "55'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 2.0,
     "draw": 3.45,
     "away": 3.6,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NED",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "goals": 1
-   },
-   "away": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760422,
    "date": "2026-06-14",
@@ -2022,9 +2028,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 5.75,
-    "draw": 3.85,
-    "away": 1.65,
+    "home": 5.5,
+    "draw": 3.75,
+    "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3313,16 +3319,33 @@
    "rows": [
     {
      "group": "Group F",
+     "code": "JPN",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 2,
+     "ga": 2,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
+     "name": "Japan",
+     "flag": "🇯🇵",
+     "tier": 2,
+     "owner": "Jen"
+    },
+    {
+     "group": "Group F",
      "code": "NED",
      "p": 1,
-     "w": 1,
-     "d": 0,
+     "w": 0,
+     "d": 1,
      "l": 0,
-     "gf": 1,
-     "ga": 0,
-     "pts": 3,
-     "live": true,
-     "gd": 1,
+     "gf": 2,
+     "ga": 2,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
@@ -3361,23 +3384,6 @@
      "flag": "🇹🇳",
      "tier": 3,
      "owner": "Pari"
-    },
-    {
-     "group": "Group F",
-     "code": "JPN",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 1,
-     "pts": 0,
-     "live": true,
-     "gd": -1,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Jen"
     }
    ]
   },
@@ -4569,12 +4575,28 @@
    "owner": "Glancy"
   },
   {
+   "player": "Crysencio Summerville",
+   "team": "NED",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇳🇱",
+   "owner": "Emily"
+  },
+  {
    "player": "Cyle Larin",
    "team": "CAN",
    "goals": 1,
    "assists": 0,
    "flag": "🇨🇦",
    "owner": "Dipen"
+  },
+  {
+   "player": "Daichi Kamada",
+   "team": "JPN",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇯🇵",
+   "owner": "Jen"
   },
   {
    "player": "Deniz Undav",
@@ -4639,22 +4661,6 @@
    "assists": 0,
    "flag": "🇧🇦",
    "owner": "Spridge"
-  },
-  {
-   "player": "Julián Quiñones",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Dipen"
-  },
-  {
-   "player": "Ladislav Krejcí",
-   "team": "CZE",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇨🇿",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
@@ -4690,6 +4696,15 @@
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
    "owner": "Spridge",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "NED",
+   "name": "Netherlands",
+   "flag": "🇳🇱",
+   "owner": "Emily",
    "yellow": 3,
    "red": 0,
    "pts": 3
@@ -4778,52 +4793,52 @@
  ],
  "news": [
   {
-   "headline": "Germany's big win shows pros and cons of expanded World Cup",
-   "desc": "Curaçao delivered a moment for the nation to remember, but they never stood a chance against mighty Germany.",
-   "link": "https://www.espn.com/soccer/story/_/id/49063542/germany-big-win-shows-pros-cons-expanded-world-cup",
-   "published": "2026-06-14T21:12:52Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673101_1296x729_16-9.jpg"
+   "headline": "Will Japan go further than the Netherlands at the World Cup?",
+   "desc": "Will Japan go further than the Netherlands at the World Cup?",
+   "link": "https://www.espn.com/video/clip/_/id/49065076/will-japan-go-further-netherlands-world-cup",
+   "published": "2026-06-14T22:33:45Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_Analysis_Will_Japan_go_further_than_the_Netherlands_at_the_World_Cup_20260614_GLOBAL_FI/dm_260614_COM_SOC_Analysis_Will_Japan_go_further_than_the_Netherlands_at_the_World_Cup_20260614_GLOBAL_FI.jpg"
   },
   {
-   "headline": "Sir Gareth Southgate says England are 'ready to win' but wants to 'keep out of the way'",
-   "desc": "Former England manager Sir Gareth Southgate has turned down TV work at the World Cup in order to \"keep out of the way,\" but says the team is \"ready to win.\"",
-   "link": "https://www.espn.com/soccer/story/_/id/49064090/sir-gareth-southgate-shares-thoughts-england-team-world-cup-chances",
-   "published": "2026-06-14T21:02:49Z",
+   "headline": "Germany get needed confidence boost in 7-goal rout of Curaçao",
+   "desc": "Germany coach Julian Nagelsmann said his team's 7-1 rout of Curaçao to start their FIFA World Cup campaign was just what they needed after the four-time champions failed to get out of the group stage in the last two editions of the tournament.",
+   "link": "https://www.espn.com/soccer/story/_/id/49064317/germany-confidence-boost-7-goal-rout-curacao",
+   "published": "2026-06-14T22:34:25Z",
    "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673144_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673163_1296x729_16-9.jpg"
   },
   {
-   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
-   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
-   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-   "published": "2026-06-14T20:38:26Z",
+   "headline": "Japan fight back twice to snatch late draw vs. Netherlands",
+   "desc": "Daichi Kamada's 88th-minute header rescued a dramatic 2-2 draw for Japan, stunning the Netherlands after a frantic second half in their World Cup opener.",
+   "link": "https://www.espn.com/soccer/story/_/id/49064974/japan-fight-back-twice-snatch-late-draw-vs-netherlands",
+   "published": "2026-06-14T22:27:20Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673205_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Kaka backs Ancelotti to 'find a solution' for Brazil's struggles",
+   "desc": "Kaka backs Ancelotti to 'find a solution' for Brazil's struggles",
+   "link": "https://www.espn.com/video/clip/_/id/49064888/kaka-backs-ancelotti-find-solution-brazil-struggles",
+   "published": "2026-06-14T22:05:51Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Kaka_backs_Ancelotti_to_find_a_solution_for_Brazils_struggles/dm_260614_Kaka_backs_Ancelotti_to_find_a_solution_for_Brazils_struggles.jpg"
+  },
+  {
+   "headline": "USMNT World Cup bracket scenarios, odds to advance, predicted path to knockouts",
+   "desc": "How can Team USA qualify for the World Cup knockout rounds? What's the likely path? What are the odds? What do projection models say?",
+   "link": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions",
+   "published": "2026-06-14T22:00:15Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672213_1296x729_16-9.jpg"
   },
   {
-   "headline": "PSL mentor Muhsin Ertugral questions Hugo Broos not using Relebohile Mofokeng against Mexico",
-   "desc": "Long-time South African Premiership manager Muhsin Ertugral has questioned South Africa head coach Hugo Broos' decision to leave the likes of Relebohile Mofokeng on the bench against Mexico.",
-   "link": "https://www.espn.com/espn/story/_/id/49063992/psl-mentor-muhsin-ertugral-questions-hugo-broos-not-using-relebohile-mofokeng-mexico",
-   "published": "2026-06-14T20:26:22Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0611/r1671155_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup 2026: Why do Japan fans clean up the stadium?",
-   "desc": "Japan supporters have built a respected reputation for tidying up football stadiums before they leave. But what is the reason for it?",
-   "link": "https://www.espn.com/soccer/story/_/id/48851733/world-cup-2026-why-do-japan-fans-clean-stadium",
-   "published": "2026-06-14T20:10:15Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0523/r1662340_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Netherlands face Japan; Germany rout Curaçao",
+   "headline": "World Cup Daily LIVE: Japan strike late to draw Netherlands",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-14T19:53:32Z",
+   "published": "2026-06-14T22:09:01Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673109_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673135_1296x729_16-9.jpg"
   }
  ]
 }
