@@ -671,7 +671,18 @@ function renderLeaderboard(d) {
 /* ---------------- live hero ---------------- */
 function liveIncidents(s) {
   if (!s?.incidents?.length) return '<div class="inc"><span class="min"></span><span class="who">Waiting for the first events…</span></div>';
-  return [...s.incidents].reverse().map(i => {
+  // only show period markers that matter; "1st/2nd half" labels are structural noise
+  const periodText = t => {
+    const x = String(t || '').trim();
+    if (/^ht$/i.test(x) || /half.?time/i.test(x)) return 'Half-time';
+    if (/^ft$/i.test(x) || /full.?time/i.test(x)) return 'Full-time';
+    if (/^aet$/i.test(x) || /after extra/i.test(x)) return 'After extra time';
+    if (/penalt/i.test(x)) return 'Penalty shootout';
+    if (/extra/i.test(x)) return x;            // "Extra time" etc.
+    return null;                               // "First half" / "Second half" → drop
+  };
+  const order = i => (i.minute || 0) + (i.addedTime || 0) * 0.01;   // real chronological order
+  return [...s.incidents].sort((a, b) => order(b) - order(a)).map(i => {
     const min = i.minute != null ? `${i.minute}${i.addedTime ? '+' + i.addedTime : ''}'` : '';
     let icon = '·', txt = esc(i.text || i.class || i.type || ''), big = false;
     if (i.type === 'goal') {
@@ -687,7 +698,15 @@ function liveIncidents(s) {
       icon = '🔁';
       txt = `<span style="color:var(--green)">${esc(i.in || '')}</span>
         <span class="who">for</span> <span style="color:var(--red)">${esc(i.out || '')}</span>`;
-    } else if (i.type === 'period') { icon = '⏱'; big = true; txt = `<b>${esc(i.text || '')}</b>`;
+    } else if (i.type === 'period') {
+      const pt = periodText(i.text);
+      if (!pt) return '';                       // skip structural half labels
+      icon = '⏱'; big = true; txt = `<b>${pt}</b>`;
+    } else if (i.type === 'penalty' || i.type === 'penaltyShootout') {   // shootout in knockouts
+      const missed = i.scored === false || /miss|fail|saved/i.test(String(i.class || ''));
+      icon = missed ? '❌' : '⚽';
+      txt = `Shootout: ${esc(i.player || '')} ${missed ? 'missed' : 'scored'}` +
+        (i.homeScore != null ? ` <b>${i.homeScore}–${i.awayScore}</b>` : '');
     } else if (i.type === 'injuryTime') { icon = '⏱'; txt = `+${i.length ?? ''} min added`;
     } else if (i.type === 'varDecision') { icon = '📺'; txt = `VAR: ${esc(i.text || i.class || '')}`; }
     return `<div class="inc${big ? ' big' : ''}"><span class="min">${min}</span><span>${icon} ${txt}</span></div>`;
@@ -734,7 +753,7 @@ function tickClock(clock, detail, generatedAt) {
   // every ~25s); only estimate forward when data goes stale, and cap the
   // estimate so devices with skewed clocks can't drift apart.
   const m = /^(\d+)/.exec(clock || '');
-  if (!m || /HT|half/i.test(detail || '')) return clock || detail || '';
+  if (!m || /HT|FT|AET|pen|half|full|break/i.test(detail || '')) return clock || detail || '';
   const elapsed = (Date.now() - new Date(generatedAt).getTime()) / 60000;
   if (elapsed < 1.5) return clock;
   return `~${parseInt(m[1], 10) + Math.min(Math.round(elapsed), 6)}'`;
