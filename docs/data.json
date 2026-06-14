@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T17:50:56+00:00",
+ "generated_at": "2026-06-14T17:51:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1077,8 +1077,8 @@
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "45'+3'",
-   "status_detail": "45'+3'",
+   "clock": "45'+4'",
+   "status_detail": "45'+4'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.03,
@@ -4613,6 +4613,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Kai Havertz",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Ladislav Krejcí",
    "team": "CZE",
    "goals": 1,
@@ -4635,14 +4643,6 @@
    "assists": 0,
    "flag": "🇵🇾",
    "owner": "Fergs"
-  },
-  {
-   "player": "Nestory Irankunda",
-   "team": "AUS",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇦🇺",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
