@@ -1807,7 +1807,7 @@ setInterval(() => loadAll(true), 40000);
 const RAW = 'https://raw.githubusercontent.com/spridge-bot/worldcup-sweepstake/live-data/docs/';
 function grab(name, optional) {
   const bust = '?t=' + Date.now();
-  const go = url => fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  const go = url => fetch(url, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
   return go(RAW + name + bust).catch(() => go(name + bust)).catch(e => { if (optional) return {}; throw e; });
 }
 
