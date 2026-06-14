@@ -258,6 +258,13 @@
   .bbig { background: var(--gold); color: #03150b; }
   .bsweep { background: #b98cff; color: #1a0b33; }
   .ncard.sweep .nkind { color: #d4b6ff; }
+  /* match results — distinct blue border */
+  .ncard.result { border-color: rgba(98,201,255,.42); }
+  .ncard.result .nkind { color: #8ed9ff; }
+  /* today's upcoming games — green border to flag they're on today */
+  .ncard.todaycard { border-color: rgba(62,240,139,.5); box-shadow: 0 0 20px rgba(62,240,139,.09); }
+  .ncard.todaycard .nkind { color: var(--accent); }
+  .todayfav { margin-top: 8px; font-size: .72rem; color: var(--gold); font-weight: 700; }
   .story-head { font-family: var(--disp); font-size: 1.3rem; letter-spacing: .5px; line-height: 1.15;
                 margin: 2px 0 11px; }
   .ncard.big .story-head { color: #fff; }
@@ -1463,31 +1470,13 @@ function renderNews(d) {
     $('#news').innerHTML = '<div class="empty">News will appear here as games kick off through the day.</div>';
     return;
   }
-  // most recent game leads, then sweepstake updates, then the rest of the games
-  const ordered = [...matchStories.slice(0, 1), ...sweepStories, ...matchStories.slice(1)];
-  const cards = ordered.map(s => {
-    const cls = `ncard${s.live ? ' live' : ''}${s.sweep ? ' sweep' : ''}${s.big ? ' big' : ''}`;
-    const badge = s.sweep ? '<div class="nbadge bsweep">🏆 Sweepstake update</div>'
-      : s.big ? '<div class="nbadge bbig">⭐ Big result</div>' : '';
-    return `<div class="${cls}">${badge}
-      <div class="nhead"><span class="nkind">${s.icon} ${esc(s.kind)}</span><span class="nstage">${esc(s.stage)}</span></div>
-      <div class="story-head">${s.big ? '⭐ ' : ''}${esc(s.head)}</div>
-      ${s.teams || ''}${s.goals || ''}</div>`;
-  }).join('');
-
-  const soon = (d.upcoming || []).filter(u => (u.utc || '').slice(0, 10) === today)
-    .sort((x, y) => (x.utc || '').localeCompare(y.utc || ''));
+  // ---- shared helpers ----
   const tm = utc => { try { return new Date(utc).toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' }); } catch { return ''; } };
-  const soonHtml = soon.length ? `<h3 class="newsh">📅 Still to come today</h3>` + soon.map(u =>
-    `<div class="soonrow"><span class="st">${tm(u.utc)}</span>
-      <span class="sm">${u.home.flag} ${esc(u.home.name)} v ${esc(u.away.name)} ${u.away.flag}</span>
-      <span class="ntag">${esc(ownerOf(u.home) || '—')} v ${esc(ownerOf(u.away) || '—')}</span></div>`).join('') : '';
-
   const ago = iso => { try { const m = (Date.now() - Date.parse(iso)) / 60000;
     return m < 60 ? Math.round(m) + 'm ago' : m < 1440 ? Math.round(m / 60) + 'h ago' : Math.round(m / 1440) + 'd ago'; } catch { return ''; } };
   const mentioned = text => { for (const c in d.teams) { const t = d.teams[c];
     if (t.name && text.includes(t.name)) return t; } return null; };
-  const newsHtml = (d.news && d.news.length) ? `<h3 class="newsh">🗞️ Team news &amp; previews</h3>` + d.news.map(a => {
+  const newsCard = a => {
     const tm2 = mentioned((a.headline || '') + ' ' + (a.desc || ''));
     const tag = tm2 && tm2.owner ? `<span class="ntag">${tm2.flag} ${esc(tm2.owner)}'s pick</span>` : '';
     const href = a.link ? ` href="${esc(a.link)}" target="_blank" rel="noopener"` : '';
@@ -1496,7 +1485,49 @@ function renderNews(d) {
       <div class="ni-body"><div class="ni-head">${esc(a.headline)}</div>
         ${a.desc ? `<div class="ni-desc">${esc(a.desc.slice(0, 140))}${a.desc.length > 140 ? '…' : ''}</div>` : ''}
         <div class="ni-meta"><span>ESPN${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
-  }).join('') : '';
+  };
+  const highlightCard = s => {
+    const mod = s.live ? ' live' : s.sweep ? ' sweep' : s.big ? ' big' : ' result';
+    const badge = s.sweep ? '<div class="nbadge bsweep">🏆 Sweepstake update</div>'
+      : s.big ? '<div class="nbadge bbig">⭐ Big result</div>' : '';
+    return `<div class="ncard${mod}">${badge}
+      <div class="nhead"><span class="nkind">${s.icon} ${esc(s.kind)}</span><span class="nstage">${esc(s.stage)}</span></div>
+      <div class="story-head">${s.big ? '⭐ ' : ''}${esc(s.head)}</div>
+      ${s.teams || ''}${s.goals || ''}</div>`;
+  };
+
+  // today's fixtures → so previews of today's games can be surfaced first
+  const todayTeams = new Set();
+  (d.upcoming || []).forEach(u => { if ((u.utc || '').slice(0, 10) === today)
+    [u.home, u.away].forEach(t => t.name && todayTeams.add(t.name)); });
+  const newsList = (d.news || []).slice().sort((a, b) => {
+    const rel = x => [...todayTeams].some(n => ((x.headline || '') + (x.desc || '')).includes(n)) ? 1 : 0;
+    return rel(b) - rel(a);
+  });
+
+  // ---- interleaved feed: most recent game leads, ≤1 news story between highlights ----
+  const highlights = [...matchStories.slice(0, 1), ...sweepStories, ...matchStories.slice(1)];
+  let ni = 0;
+  const feed = highlights.map(h => highlightCard(h)
+    + (ni < newsList.length ? newsCard(newsList[ni++]) : '')).join('');
+
+  // ---- on today: surface today's upcoming games prominently ----
+  const soon = (d.upcoming || []).filter(u => (u.utc || '').slice(0, 10) === today)
+    .sort((x, y) => (x.utc || '').localeCompare(y.utc || ''));
+  const fav = u => { const o = u.odds || {}; if (!(o.home && o.away)) return '';
+    return o.home < o.away ? `${u.home.flag} ${esc(u.home.name)} favoured`
+      : o.away < o.home ? `${u.away.flag} ${esc(u.away.name)} favoured` : 'evenly matched'; };
+  const soonHtml = soon.length ? `<h3 class="newsh">📅 On today — ${soon.length} still to come</h3>` + soon.map(u =>
+    `<div class="ncard todaycard">
+      <div class="nhead"><span class="nkind">⏱ ${tm(u.utc)} · today</span><span class="nstage">${esc([u.stage, u.group].filter(Boolean).join(' · '))}</span></div>
+      <div class="nteams"><span class="nt">${u.home.flag} ${esc(u.home.name)} ${ownerOf(u.home) ? `<span class="ntag">${esc(ownerOf(u.home))}</span>` : ''}</span>
+        <b class="nsc">v</b>
+        <span class="nt away">${u.away.flag} ${esc(u.away.name)} ${ownerOf(u.away) ? `<span class="ntag">${esc(ownerOf(u.away))}</span>` : ''}</span></div>
+      ${fav(u) ? `<div class="todayfav">📊 ${fav(u)}</div>` : ''}</div>`).join('') : '';
+
+  // ---- full sequence of news stories at the bottom ----
+  const newsHtml = newsList.length ? `<h3 class="newsh">🗞️ All team news &amp; previews</h3>` +
+    newsList.map(newsCard).join('') : '';
 
   const scored = d.players.filter(p => p.total > 0);
   let podStrip = '';
@@ -1513,7 +1544,7 @@ function renderNews(d) {
       onclick="document.querySelector('nav button[data-tab=podium]').click()">
       <span class="pslabel">🏆 Podium</span>${cells}<span class="psmore">full table →</span></div>`;
   }
-  $('#news').innerHTML = podStrip + cards + newsHtml + soonHtml;
+  $('#news').innerHTML = podStrip + soonHtml + feed + newsHtml;
 }
 
 const teamOwner = (d, t) => t.owner || d.teams[t.code]?.owner || '';
