@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T03:59:12+00:00",
+ "generated_at": "2026-06-14T03:59:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4719,6 +4719,14 @@
  ],
  "news": [
   {
+   "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
+   "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
+   "published": "2026-06-14T03:59:15Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672771_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
    "desc": "",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
@@ -4757,14 +4765,6 @@
    "published": "2026-06-14T03:18:01Z",
    "type": "Recap",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672745_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Socceroos veterans dropped for Australia's World Cup opener",
-   "desc": "Australia coach Tony Popovic has two massive gambles ahead of his side's opening fixture against Türkiye, dropping captain and 100-cap veteran Mathew Ryan and vice-captain Jackson Irvine.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056050/socceroos-veterans-mat-ryan-jackson-irvine-dropped-australia-world-cup-opener",
-   "published": "2026-06-14T03:23:17Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672752_1296x729_16-9.jpg"
   }
  ]
 }
