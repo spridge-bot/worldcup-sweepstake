@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T14:11:28+00:00",
+ "generated_at": "2026-06-14T14:16:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1873,7 +1873,7 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.11,
+    "home": 1.1,
     "draw": 11.0,
     "away": 21.0,
     "over_under": 3.5,
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-14T14:13:51Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672871_2_894x503_16-9.jpg"
+  },
+  {
    "headline": "Will Germany start strong against Curacao?",
    "desc": "Will Germany start strong against Curacao?",
    "link": "https://www.espn.com/video/clip/_/id/49060728/will-germany-start-strong-curacao",
@@ -4776,14 +4784,6 @@
    "published": "2026-06-14T13:37:13Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_ANALYSIS_Should_Brazil_be_worried_after_Morocco_draw_2026_6_14/dm_260614_COM_SOC_ANALYSIS_Should_Brazil_be_worried_after_Morocco_draw_2026_6_14.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-14T12:49:25Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672871_2_894x503_16-9.jpg"
   },
   {
    "headline": "The joy and wonder of Cabo Verde's unlikely World Cup journey",
