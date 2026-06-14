@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:18:38+00:00",
+ "generated_at": "2026-06-14T04:19:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "17'",
-   "status_detail": "17'",
+   "clock": "18'",
+   "status_detail": "18'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4737,6 +4737,22 @@
  ],
  "news": [
   {
+   "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
+   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
+   "published": "2026-06-14T04:17:29Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672790_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
+   "desc": "John McGinn was the hero for Scotland as his strike was the difference in their first World Cup win since 1990.",
+   "link": "https://www.espn.com/video/clip/_/id/49057235/scotland-goes-top-group-c-1-0-win-haiti",
+   "published": "2026-06-14T04:17:53Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS.jpg"
+  },
+  {
    "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
    "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
    "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
@@ -4767,22 +4783,6 @@
    "published": "2026-06-14T03:30:27Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672700_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Scotland beat Haiti for 1st World Cup win in 36 years",
-   "desc": "John McGinn deflected a shot off an opposing defender and past goalkeeper Johny Placide in the 28th minute, and Scotland defeated Haiti 1-0 in Group C of the World Cup on Saturday.",
-   "link": "http://www.espn.com/soccer/report/_/gameId/760418",
-   "published": "2026-06-14T03:18:01Z",
-   "type": "Recap",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672745_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Socceroos veterans dropped for Australia's World Cup opener",
-   "desc": "Australia coach Tony Popovic has two massive gambles ahead of his side's opening fixture against Türkiye, dropping captain and 100-cap veteran Mathew Ryan and vice-captain Jackson Irvine.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056050/socceroos-veterans-mat-ryan-jackson-irvine-dropped-australia-world-cup-opener",
-   "published": "2026-06-14T03:23:17Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672752_1296x729_16-9.jpg"
   }
  ]
 }
