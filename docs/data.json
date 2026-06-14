@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T03:13:40+00:00",
+ "generated_at": "2026-06-14T03:18:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4722,9 +4722,17 @@
    "headline": "World Cup Daily: Scotland defeat Haiti, Brazil fans take over NYC",
    "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-14T03:11:49Z",
+   "published": "2026-06-14T03:15:30Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672700_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Scotland beat Haiti for 1st World Cup win in 36 years",
+   "desc": "",
+   "link": "http://www.espn.com/soccer/report/_/gameId/760418",
+   "published": "2026-06-14T03:15:39Z",
+   "type": "Recap",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672745_1296x729_16-9.jpg"
   },
   {
    "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
@@ -4757,14 +4765,6 @@
    "published": "2026-06-14T02:11:30Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W.jpg"
-  },
-  {
-   "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
-   "desc": "The biggest FIFA World Cup gets underway shortly and we've got all the answers to your questions about the tournament. When and where is the final being held? How can I watch the Socceroos' games? Who has made the Australia squad?",
-   "link": "https://www.espn.com/soccer/story/_/id/48820641/fifa-world-cup-2026-how-watch-socceroos-fixtures-results",
-   "published": "2026-06-14T02:06:44Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672151_1296x729_16-9.jpg"
   }
  ]
 }
