@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T08:57:59+00:00",
+ "generated_at": "2026-06-14T09:03:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "'It was amazing': Patrick Beach repays Popovic's faith in win over Türkiye",
+   "desc": "Informed that he would be the surprise starter in Australia's FIFA World Cup opening 2-0 win over Türkiye \"a couple of days ago\", Patrick Beach has paid tribute to the Socceroos goalkeeping union in preparing him for the world stage.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059143/fifa-world-cup-australia-socceroos-goalkeeper-patrick-beach-repays-tony-popovic-faith-win-turkiye",
+   "published": "2026-06-14T09:01:09Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672876_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Nico O'Reilly on England World Cup opener: We must show Croatia 'what we're made of'",
    "desc": "Nico O'Reilly has said that England must show Croatia what they are \"made of\" when they start their World Cup campaign in Group L.",
    "link": "https://www.espn.com/soccer/story/_/id/49059123/englands-nico-oreilly-croatia-world-cup-opener-show-were-made-of",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T07:20:41Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Steve_Clarke_hails_Scotlands_special_first_World_Cup_win_in_36_years/dm_260614_Steve_Clarke_hails_Scotlands_special_first_World_Cup_win_in_36_years.jpg"
-  },
-  {
-   "headline": "Dan Burn: England must emulate Argentina's strong team spirit",
-   "desc": "Dan Burn has called on England to take a leaf out of Argentina's book by forging an unbreakable team spirit as they chase World Cup glory this summer.",
-   "link": "https://www.espn.com/soccer/story/_/id/49058830/dan-burn-england-emulate-argentina-strong-team-spirit",
-   "published": "2026-06-14T07:12:23Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672862_1296x729_16-9.jpg"
   }
  ]
 }
