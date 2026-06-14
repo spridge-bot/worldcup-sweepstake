@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T15:14:17+00:00",
+ "generated_at": "2026-06-14T15:19:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1325,7 +1325,7 @@
    "odds": {
     "home": 1.02,
     "draw": 17.0,
-    "away": 31.0,
+    "away": 29.0,
     "over_under": 4.5,
     "provider": "DraftKings"
    },
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "FIFA World Cup classic clashes - Greece 2-1 Ivory Coast - A Golden Generation's defining failure",
+   "desc": "Ivory Coast's Golden Generation should have been one of Africa's all-time great tournament teams. But is Greece 2-1 Ivory Coast in Fortaleza on 24 June 2014, the night when their excuses finally ran out.",
+   "link": "https://www.espn.com/espn/story/_/id/49051454/fifa-world-cup-classic-clashes-greece-2-1-ivory-coast-golden-generation-defining-failure",
+   "published": "2026-06-14T15:16:59Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672459_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T12:27:05Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672405_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Montella says Australia loss gives Türkiye 'more motivation'",
-   "desc": "Montella says Australia loss gives Türkiye 'more motivation'",
-   "link": "https://www.espn.com/video/clip/_/id/49059745/montella-says-australia-loss-gives-turkiye-more-motivation",
-   "published": "2026-06-14T10:59:36Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Montella_says_Australia_loss_gives_Turkiye_more_motivation/dm_260614_Montella_says_Australia_loss_gives_Turkiye_more_motivation.jpg"
   }
  ]
 }
