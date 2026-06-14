@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:01:42+00:00",
+ "generated_at": "2026-06-14T05:17:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "45'+4'",
-   "status_detail": "HT",
+   "clock": "57'",
+   "status_detail": "57'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4745,12 +4745,28 @@
  ],
  "news": [
   {
-   "headline": "Socceroos vs. Türkiye LIVE: Irankunda has Australia ahead at half-time",
+   "headline": "Scotland ease 'pressure' with 1st World Cup win since 1990",
+   "desc": "Steve Clarke said his Scotland side's long-awaited World Cup win over Haiti means the team have less pressure on them as they prepare to face Morocco.",
+   "link": "https://www.espn.com/soccer/story/_/id/49057757/scotland-haiti-2026-world-cup-steve-clarke",
+   "published": "2026-06-14T05:09:22Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672818_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Socceroos vs. Türkiye LIVE: Australia lead as second half begins",
    "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T05:00:04Z",
+   "published": "2026-06-14T05:07:48Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672812_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672819_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Irankunda scores to give the Socceroos the lead over Türkiye",
+   "desc": "Nestory Irankunda shows some serious pace and slots the ball in the bottom left corner to take the lead over Türkiye.",
+   "link": "https://www.espn.com/video/clip/_/id/49057832/irankunda-scores-give-socceroos-lead-turkiye",
+   "published": "2026-06-14T05:02:12Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Irankunda_scores_to_give_the_Socceroos_the_lead_over_Turkiye_20260614_AUS/dm_260614_Soccer_HIGHLIGHT_Irankunda_scores_to_give_the_Socceroos_the_lead_over_Turkiye_20260614_AUS.jpg"
   },
   {
    "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
@@ -4775,22 +4791,6 @@
    "published": "2026-06-14T03:59:15Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672771_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Burley: Scotland will be hoping three points is enough for knockouts",
-   "desc": "Burley: Scotland will be hoping three points is enough for knockouts",
-   "link": "https://www.espn.com/video/clip/_/id/49056537/scotland-hoping-three-points-enough-knockouts",
-   "published": "2026-06-14T03:36:28Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Analysis_Burley_Scotland_will_be_hoping_three_points_is_enough_for_knockouts_20260613_G/dm_260613_COM_SOC_Analysis_Burley_Scotland_will_be_hoping_three_points_is_enough_for_knockouts_20260613_G.jpg"
-  },
-  {
-   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
-   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
-   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-   "published": "2026-06-14T03:24:28Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
   }
  ]
 }
