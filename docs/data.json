@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T02:07:43+00:00",
+ "generated_at": "2026-06-14T02:08:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -4701,6 +4701,14 @@
  ],
  "news": [
   {
+   "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
+   "desc": "The biggest FIFA World Cup gets underway shortly and we've got all the answers to your questions about the tournament. When and where is the final being held? How can I watch the Socceroos' games? Who has made the Australia squad?",
+   "link": "https://www.espn.com/soccer/story/_/id/48820641/fifa-world-cup-2026-how-watch-socceroos-fixtures-results",
+   "published": "2026-06-14T02:06:44Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672151_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Bailed out by Vinícius Júnior, Brazil are still a work in progress",
    "desc": "Vinícius Júnior's superb goal was enough to help Brazil scrape a 1-1 draw in their underwhelming World Cup opener against Morocco.",
    "link": "https://www.espn.com/soccer/story/_/id/49055494/fifa-world-cup-bailed-vinicius-junior-brazil-work-progress",
@@ -4739,14 +4747,6 @@
    "published": "2026-06-14T00:35:44Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
-  },
-  {
-   "headline": "Vinícius Júnior but Brazil held at WC by impressive Morocco",
-   "desc": "Vinícius Júnior scored an equalizing goal in the 32nd minute, giving five-time champion Brazil a 1-1 draw against Morocco on Saturday.",
-   "link": "http://www.espn.com/soccer/report/_/gameId/760419",
-   "published": "2026-06-14T00:19:56Z",
-   "type": "Recap",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672661_1296x729_16-9.jpg"
   }
  ]
 }
