@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T23:29:19+00:00",
+ "generated_at": "2026-06-14T23:29:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -315,12 +315,12 @@
    "fifa_rank": 8,
    "owner": "Emily",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 3,
    "events": [
     {
@@ -492,12 +492,12 @@
    "fifa_rank": 18,
    "owner": "Jen",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -1101,8 +1101,8 @@
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "26'",
-   "status_detail": "26'",
+   "clock": "27'",
+   "status_detail": "27'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 3.6,
@@ -1125,39 +1125,40 @@
     "owner": "Brando",
     "goals": 0
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760425,
+   "date": "2026-06-14",
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "1'",
-   "status_detail": "1'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 2.0,
     "draw": 3.45,
     "away": 3.6,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NED",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "goals": 0
-   },
-   "away": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760422,
    "date": "2026-06-14",
@@ -3341,10 +3342,10 @@
      "w": 0,
      "d": 1,
      "l": 0,
-     "gf": 0,
-     "ga": 0,
+     "gf": 2,
+     "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Japan",
      "flag": "🇯🇵",
@@ -3358,10 +3359,10 @@
      "w": 0,
      "d": 1,
      "l": 0,
-     "gf": 0,
-     "ga": 0,
+     "gf": 2,
+     "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Netherlands",
      "flag": "🇳🇱",
@@ -4713,6 +4714,15 @@
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
    "owner": "Spridge",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "NED",
+   "name": "Netherlands",
+   "flag": "🇳🇱",
+   "owner": "Emily",
    "yellow": 3,
    "red": 0,
    "pts": 3
