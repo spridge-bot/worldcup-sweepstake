@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:08:20+00:00",
+ "generated_at": "2026-06-14T21:14:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -58,6 +58,19 @@
    "movement": 6
   },
   {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 6,
+   "today": 5,
+   "rank": 4,
+   "movement": 2
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -71,19 +84,6 @@
    "movement": -2
   },
   {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 5,
-   "today": 5,
-   "rank": 5,
-   "movement": 2
-  },
-  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -93,21 +93,8 @@
    ],
    "total": 5,
    "today": 0,
-   "rank": 5,
-   "movement": -2
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 4,
-   "today": 3,
-   "rank": 7,
-   "movement": -1
+   "rank": 6,
+   "movement": -3
   },
   {
    "name": "Ruggy",
@@ -132,8 +119,8 @@
    ],
    "total": 1,
    "today": 1,
-   "rank": 9,
-   "movement": -2
+   "rank": 8,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -145,8 +132,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -158,8 +145,21 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
+  },
+  {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
   }
  ],
  "teams": {
@@ -321,12 +321,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-14",
-     "desc": "2nd in Group F (live)",
-     "points": 3
+     "desc": "1st in Group F (live)",
+     "points": 5
     }
    ]
   },
@@ -498,14 +498,8 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-14",
-     "desc": "1st in Group F (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "SUI": {
    "code": "SUI",
@@ -1089,8 +1083,8 @@
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "49'",
-   "status_detail": "49'",
+   "clock": "55'",
+   "status_detail": "55'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1104,7 +1098,7 @@
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "JPN",
@@ -3319,33 +3313,16 @@
    "rows": [
     {
      "group": "Group F",
-     "code": "JPN",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group F",
      "code": "NED",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
@@ -3384,6 +3361,23 @@
      "flag": "🇹🇳",
      "tier": 3,
      "owner": "Pari"
+    },
+    {
+     "group": "Group F",
+     "code": "JPN",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
+     "pts": 0,
+     "live": true,
+     "gd": -1,
+     "name": "Japan",
+     "flag": "🇯🇵",
+     "tier": 2,
+     "owner": "Jen"
     }
    ]
   },
@@ -4787,7 +4781,7 @@
    "headline": "Germany's big win shows pros and cons of expanded World Cup",
    "desc": "Curaçao delivered a moment for the nation to remember, but they never stood a chance against mighty Germany.",
    "link": "https://www.espn.com/soccer/story/_/id/49063542/germany-big-win-shows-pros-cons-expanded-world-cup",
-   "published": "2026-06-14T21:01:00Z",
+   "published": "2026-06-14T21:12:52Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1673101_1296x729_16-9.jpg"
   },
