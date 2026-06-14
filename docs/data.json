@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T20:22:51+00:00",
+ "generated_at": "2026-06-14T20:23:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1089,8 +1089,8 @@
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "22'",
-   "status_detail": "22'",
+   "clock": "23'",
+   "status_detail": "23'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
