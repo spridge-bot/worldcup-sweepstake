@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:03:24+00:00",
+ "generated_at": "2026-06-14T21:03:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4792,6 +4792,14 @@
    "image": "https://a.espncdn.com/photo/2026/0614/r1673101_1296x729_16-9.jpg"
   },
   {
+   "headline": "Sir Gareth Southgate says England are 'ready to win' but wants to 'keep out of the way'",
+   "desc": "Former England manager Sir Gareth Southgate has turned down TV work at the World Cup in order to \"keep out of the way,\" but says the team is \"ready to win.\"",
+   "link": "https://www.espn.com/soccer/story/_/id/49064090/sir-gareth-southgate-shares-thoughts-england-team-world-cup-chances",
+   "published": "2026-06-14T21:02:49Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673144_1296x729_16-9.jpg"
+  },
+  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4822,14 +4830,6 @@
    "published": "2026-06-14T19:53:32Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1673109_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Spain training ahead of World Cup opener vs. Cape Verde",
-   "desc": "Spain training ahead of World Cup opener vs. Cape Verde",
-   "link": "https://www.espn.com/video/clip/_/id/49063627/spain-training-ahead-world-cup-opener-vs-cape-verde",
-   "published": "2026-06-14T19:45:30Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Watchfolder_WorldCup/dm_260614_Watchfolder_WorldCup.jpg"
   }
  ]
 }
