@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:55:34+00:00",
+ "generated_at": "2026-06-14T21:56:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -315,12 +315,12 @@
    "fifa_rank": 8,
    "owner": "Emily",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 3,
    "events": [
     {
@@ -492,12 +492,12 @@
    "fifa_rank": 18,
    "owner": "Jen",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -1083,39 +1083,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760425,
+   "date": "2026-06-14",
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "90'+6'",
-   "status_detail": "90'+6'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 2.0,
     "draw": 3.45,
     "away": 3.6,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NED",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "goals": 2
-   },
-   "away": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760422,
    "date": "2026-06-14",
@@ -3327,7 +3327,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Japan",
      "flag": "🇯🇵",
@@ -3344,7 +3344,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Netherlands",
      "flag": "🇳🇱",
@@ -4696,6 +4696,15 @@
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
    "owner": "Spridge",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "NED",
+   "name": "Netherlands",
+   "flag": "🇳🇱",
+   "owner": "Emily",
    "yellow": 3,
    "red": 0,
    "pts": 3
