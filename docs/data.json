@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:27:57+00:00",
+ "generated_at": "2026-06-14T04:28:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "27'",
-   "status_detail": "27'",
+   "clock": "28'",
+   "status_detail": "28'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -1086,7 +1086,7 @@
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "TUR",
@@ -3162,14 +3162,14 @@
      "group": "Group D",
      "code": "AUS",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
@@ -3180,13 +3180,13 @@
      "code": "TUR",
      "p": 1,
      "w": 0,
-     "d": 1,
-     "l": 0,
+     "d": 0,
+     "l": 1,
      "gf": 0,
-     "ga": 0,
-     "pts": 1,
+     "ga": 1,
+     "pts": 0,
      "live": true,
-     "gd": 0,
+     "gd": -1,
      "name": "Türkiye",
      "flag": "🇹🇷",
      "tier": 2,
@@ -4599,6 +4599,14 @@
    "assists": 0,
    "flag": "🇵🇾",
    "owner": "Fergs"
+  },
+  {
+   "player": "Nestory Irankunda",
+   "team": "AUS",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇦🇺",
+   "owner": "Glancy"
   },
   {
    "player": "Oh Hyeon-Gyu",
