@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T20:01:13+00:00",
+ "generated_at": "2026-06-14T20:01:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -71,6 +71,19 @@
    "movement": -2
   },
   {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 5,
+   "movement": 2
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -84,6 +97,19 @@
    "movement": -2
   },
   {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 4,
+   "today": 3,
+   "rank": 7,
+   "movement": -1
+  },
+  {
    "name": "Ruggy",
    "teams": [
     "COL",
@@ -93,8 +119,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 6,
-   "movement": -2
+   "rank": 7,
+   "movement": -3
   },
   {
    "name": "Dubs",
@@ -106,21 +132,8 @@
    ],
    "total": 1,
    "today": 1,
-   "rank": 7,
-   "movement": 0
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 1,
-   "today": 0,
-   "rank": 7,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -132,8 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -145,21 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 10,
+   "movement": -3
   }
  ],
  "teams": {
@@ -321,8 +321,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "2nd in Group F (live)",
+     "points": 3
+    }
+   ]
   },
   "BEL": {
    "code": "BEL",
@@ -492,8 +498,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "1st in Group F (live)",
+     "points": 5
+    }
+   ]
   },
   "SUI": {
    "code": "SUI",
@@ -1071,7 +1083,38 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760425,
+   "utc": "2026-06-14T20:00:00Z",
+   "stage": "Group stage",
+   "group": "Group F",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 2.0,
+    "draw": 3.45,
+    "away": 3.6,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Jen",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760422,
@@ -1354,31 +1397,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760425,
-   "utc": "2026-06-14T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "odds": {
-    "home": 2.0,
-    "draw": 3.45,
-    "away": 3.6,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "form": "WLDWW"
-   },
-   "away": {
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "form": "WWWWW"
-   }
-  },
   {
    "id": 760423,
    "utc": "2026-06-14T23:00:00Z",
@@ -3302,14 +3320,14 @@
     {
      "group": "Group F",
      "code": "JPN",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Japan",
      "flag": "🇯🇵",
@@ -3319,14 +3337,14 @@
     {
      "group": "Group F",
      "code": "NED",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Netherlands",
      "flag": "🇳🇱",
