@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:25:58+00:00",
+ "generated_at": "2026-06-14T18:26:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1077,8 +1077,8 @@
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "62'",
-   "status_detail": "62'",
+   "clock": "63'",
+   "status_detail": "63'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.03,
@@ -4766,6 +4766,14 @@
  ],
  "news": [
   {
+   "headline": "Morocco Ayyoub Bouaddi will not be underestimated again after Casemiro humbling",
+   "desc": "There was a point, late in the first half of Morocco's opening FIFA World Cup 1-1 draw on Saturday, where the contrast between Brazil's Casemiro and Ayyoub Bouaddi was impossible to ignore.",
+   "link": "https://www.espn.com/espn/story/_/id/49054213/morocco-ayyoub-bouaddi-not-underestimated-again-casemiro-humbling",
+   "published": "2026-06-14T18:25:33Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672658_1296x729_16-9.jpg"
+  },
+  {
    "headline": "USMNT World Cup bracket scenarios, odds to advance, predicted path to knockouts",
    "desc": "How can Team USA qualify for the World Cup knockout rounds? What's the likely path? What are the odds? What do projection models say?",
    "link": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions",
@@ -4804,14 +4812,6 @@
    "published": "2026-06-14T16:23:57Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Dove_on_Bouaddi_A_star_was_born_for_Morocco_in_Brazil_draw/dm_260614_Dove_on_Bouaddi_A_star_was_born_for_Morocco_in_Brazil_draw.jpg"
-  },
-  {
-   "headline": "Barcelona's Ferran Torres on PSG links: 'Don't know and don't care'",
-   "desc": "Ferran Torres refused to discuss speculation about his future at Barcelona -- and links with Paris Saint-Germain -- ahead of Spain's World Cup debut against Cape Verde.",
-   "link": "https://www.espn.com/soccer/story/_/id/49061893/ferran-torres-barcelona-psg",
-   "published": "2026-06-14T16:17:02Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672984_1296x729_16-9.jpg"
   }
  ]
 }
