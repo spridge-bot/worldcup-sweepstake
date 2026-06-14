@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:35:37+00:00",
+ "generated_at": "2026-06-14T05:36:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "75'",
-   "status_detail": "75'",
+   "clock": "76'",
+   "status_detail": "76'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -1086,7 +1086,7 @@
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "TUR",
@@ -3165,11 +3165,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 1,
+     "gf": 2,
      "ga": 0,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
@@ -3183,10 +3183,10 @@
      "d": 0,
      "l": 1,
      "gf": 0,
-     "ga": 1,
+     "ga": 2,
      "pts": 0,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Türkiye",
      "flag": "🇹🇷",
      "tier": 2,
