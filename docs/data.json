@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T01:26:39+00:00",
+ "generated_at": "2026-06-14T01:27:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1059,8 +1059,8 @@
    "utc": "2026-06-14T01:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "24'",
-   "status_detail": "24'",
+   "clock": "25'",
+   "status_detail": "25'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 6.0,
@@ -4693,18 +4693,10 @@
  ],
  "news": [
   {
-   "headline": "ESPN meets viral duck in Mexico jersey",
-   "desc": "ESPN meets viral duck in Mexico jersey",
-   "link": "https://www.espn.com/video/clip/_/id/49055201/espn-meets-viral-duck-mexico-jersey",
-   "published": "2026-06-14T01:21:03Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_ESPN_meets_viral_duck_in_Mexico_jersey_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_News_ESPN_meets_viral_duck_in_Mexico_jersey_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
-  },
-  {
    "headline": "World Cup Daily: Haiti takes on Scotland, Brazil fans take over NYC",
-   "desc": "Enjoy all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "desc": "Re-live all the action from Saturday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-14T01:21:44Z",
+   "published": "2026-06-14T01:15:57Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672700_1296x729_16-9.jpg"
   },
@@ -4739,6 +4731,14 @@
    "published": "2026-06-14T00:58:36Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672663_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "De Bruyne excited to 'compete like old times' with Salah at World Cup",
+   "desc": "De Bruyne excited to 'compete like old times' with Salah at World Cup",
+   "link": "https://www.espn.com/video/clip/_/id/49054632/de-bruyne-excited-compete-old-s-salah-world-cup",
+   "published": "2026-06-14T00:09:50Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_De_Bruyne_excited_to_compete_like_old_times_with_Salah_at_World_Cup_20260613_G/dm_260613_COM_SOC_Presser_De_Bruyne_excited_to_compete_like_old_times_with_Salah_at_World_Cup_20260613_G.jpg"
   }
  ]
 }
