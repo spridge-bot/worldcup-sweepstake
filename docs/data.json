@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T02:11:57+00:00",
+ "generated_at": "2026-06-14T02:12:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -1059,8 +1059,8 @@
    "utc": "2026-06-14T01:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "47'",
-   "status_detail": "47'",
+   "clock": "48'",
+   "status_detail": "48'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 6.0,
@@ -4701,6 +4701,14 @@
  ],
  "news": [
   {
+   "headline": "Potter not 'putting a ceiling' on Sweden at the World Cup",
+   "desc": "Potter not 'putting a ceiling' on Sweden at the World Cup",
+   "link": "https://www.espn.com/video/clip/_/id/49055590/potter-not-putting-ceiling-sweden-world-cup",
+   "published": "2026-06-14T02:11:30Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W/dm_260613_COM_SOC_Presser_Potter_not_putting_a_ceiling_on_Sweden_at_the_World_Cup_20260613_GLOBAL_FIFA_W.jpg"
+  },
+  {
    "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
    "desc": "The biggest FIFA World Cup gets underway shortly and we've got all the answers to your questions about the tournament. When and where is the final being held? How can I watch the Socceroos' games? Who has made the Australia squad?",
    "link": "https://www.espn.com/soccer/story/_/id/48820641/fifa-world-cup-2026-how-watch-socceroos-fixtures-results",
@@ -4739,14 +4747,6 @@
    "published": "2026-06-14T01:08:12Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Soccer_Highlight_Brazil_and_Morocco_draw_intense_first_game_20260614_AUS_ONLY/dm_260613_Soccer_Highlight_Brazil_and_Morocco_draw_intense_first_game_20260614_AUS_ONLY.jpg"
-  },
-  {
-   "headline": "Burley: Brazil aren't scary anymore",
-   "desc": "Burley: Brazil aren't scary anymore",
-   "link": "https://www.espn.com/video/clip/_/id/49054790/brazil-scary-anymore",
-   "published": "2026-06-14T00:35:44Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_Presser_Burley_Brazil_arent_scary_anymore_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
   }
  ]
 }
