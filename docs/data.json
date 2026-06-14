@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:10:33+00:00",
+ "generated_at": "2026-06-14T04:10:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "9'",
-   "status_detail": "9'",
+   "clock": "10'",
+   "status_detail": "10'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4740,9 +4740,9 @@
    "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
    "desc": "Tony Popovic's Socceroos take on Türkiye at BC Place in Vancouver, Canada. Follow all the action below LIVE with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T04:05:05Z",
+   "published": "2026-06-14T04:10:07Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672787_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672790_1296x729_16-9.jpg"
   },
   {
    "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
