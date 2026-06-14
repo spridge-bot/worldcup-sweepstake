@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T13:35:01+00:00",
+ "generated_at": "2026-06-14T13:40:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "Should Brazil be worried after Morocco draw?",
+   "desc": "",
+   "link": "https://www.espn.com/video/clip/_/id/49060659/should-brazil-worried-morocco-draw",
+   "published": "2026-06-14T13:37:13Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_ANALYSIS_Should_Brazil_be_worried_after_Morocco_draw_2026_6_14/dm_260614_COM_SOC_ANALYSIS_Should_Brazil_be_worried_after_Morocco_draw_2026_6_14.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T10:19:09Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672882_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "FIFA blames 'technical outage' for World Cup VAR controversy in Qatar vs. Switzerland",
-   "desc": "FIFA have confirmed that a \"technical outage\" meant that VAR's semi-automated offside technology was not able to be used for the controversial call that led to Switzerland's opening goal against Qatar on Saturday.",
-   "link": "https://www.espn.com/soccer/story/_/id/49059323/fifa-blames-technical-outage-world-cup-var-controversy-qatar-switzerland",
-   "published": "2026-06-14T10:04:22Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672879_1296x729_16-9.jpg"
   }
  ]
 }
