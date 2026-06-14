@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T19:22:15+00:00",
+ "generated_at": "2026-06-14T19:28:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4766,6 +4766,14 @@
  ],
  "news": [
   {
+   "headline": "Robson: Germany's 7-1 win vs. Curaçao was a training game",
+   "desc": "Robson: Germany's 7-1 win vs. Curaçao was a training game",
+   "link": "https://www.espn.com/video/clip/_/id/49063386/germany-7-1-win-vs-curacao-was-training-game",
+   "published": "2026-06-14T19:25:36Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_Analysis_Robson_Germanys_7-1_win_vs_Curacao_was_a_training_game_20260614_GLOBAL_FIFA/dm_260614_COM_SOC_Analysis_Robson_Germanys_7-1_win_vs_Curacao_was_a_training_game_20260614_GLOBAL_FIFA.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Germany rout debutants Curaçao; Netherlands face Japan",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4804,14 +4812,6 @@
    "published": "2026-06-14T16:57:19Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672994_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Dove on Bouaddi: 'A star was born' for Morocco in Brazil draw",
-   "desc": "Dove on Bouaddi: 'A star was born' for Morocco in Brazil draw",
-   "link": "https://www.espn.com/video/clip/_/id/49061967/star-was-born-morocco-brazil-draw",
-   "published": "2026-06-14T16:23:57Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Dove_on_Bouaddi_A_star_was_born_for_Morocco_in_Brazil_draw/dm_260614_Dove_on_Bouaddi_A_star_was_born_for_Morocco_in_Brazil_draw.jpg"
   }
  ]
 }
