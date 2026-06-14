@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-13T22:35:52+00:00",
+ "generated_at": "2026-06-14T05:14:55+00:00",
  "mode": "live",
- "latest_day": "2026-06-13",
+ "latest_day": "2026-06-14",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -19,19 +19,6 @@
  },
  "players": [
   {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 10,
-   "today": 10,
-   "rank": 1,
-   "movement": 4
-  },
-  {
    "name": "Dipen",
    "teams": [
     "POR",
@@ -41,7 +28,33 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 2,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 8,
+   "today": 5,
+   "rank": 1,
+   "movement": 4
+  },
+  {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 6,
+   "today": 0,
+   "rank": 3,
    "movement": -1
   },
   {
@@ -54,7 +67,7 @@
    ],
    "total": 5,
    "today": 0,
-   "rank": 3,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -66,9 +79,35 @@
     "QAT"
    ],
    "total": 4,
-   "today": 1,
-   "rank": 4,
+   "today": 0,
+   "rank": 5,
    "movement": -1
+  },
+  {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 3,
+   "today": 3,
+   "rank": 6,
+   "movement": 1
+  },
+  {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 1,
+   "today": 1,
+   "rank": 7,
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -80,7 +119,7 @@
    ],
    "total": 1,
    "today": 0,
-   "rank": 5,
+   "rank": 7,
    "movement": -1
   },
   {
@@ -93,21 +132,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -119,34 +145,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 6,
-   "movement": -1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Jen",
@@ -158,8 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   }
  ],
  "teams": {
@@ -269,14 +269,20 @@
    "fifa_rank": 6,
    "owner": "George",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 0,
-   "events": []
+   "gf": 1,
+   "ga": 1,
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-13",
+     "desc": "2nd in Group C (live)",
+     "points": 3
+    }
+   ]
   },
   "MAR": {
    "code": "MAR",
@@ -286,18 +292,18 @@
    "fifa_rank": 7,
    "owner": "Willo",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
-   "total": 5,
+   "gf": 1,
+   "ga": 1,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-13",
-     "desc": "1st in Group C (live)",
-     "points": 5
+     "desc": "3rd in Group C (live)",
+     "points": 1
     }
    ]
   },
@@ -531,8 +537,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "3rd in Group D (live)",
+     "points": 1
+    }
+   ]
   },
   "ECU": {
    "code": "ECU",
@@ -605,8 +617,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "2nd in Group D (live)",
+     "points": 3
+    }
+   ]
   },
   "ALG": {
    "code": "ALG",
@@ -781,14 +799,20 @@
    "fifa_rank": 42,
    "owner": "George",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 1,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-14",
+     "desc": "1st in Group C (live)",
+     "points": 5
+    }
+   ]
   },
   "COD": {
    "code": "COD",
@@ -1014,12 +1038,12 @@
    "fifa_rank": 58,
    "owner": "Jen",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 1,
    "total": 0,
    "events": []
   },
@@ -1043,37 +1067,99 @@
  },
  "live": [
   {
+   "id": 760421,
+   "utc": "2026-06-14T04:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "clock": "54'",
+   "status_detail": "54'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 5.25,
+    "draw": 3.85,
+    "away": 1.69,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy",
+    "goals": 1
+   },
+   "away": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "owner": "Dubs",
+    "goals": 0
+   }
+  }
+ ],
+ "results": [
+  {
+   "id": 760418,
+   "date": "2026-06-14",
+   "utc": "2026-06-14T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group C",
+   "note": "",
+   "home": {
+    "code": "HAI",
+    "name": "Haiti",
+    "flag": "🇭🇹",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "SCO",
+    "name": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "odds": {
+    "home": 6.0,
+    "draw": 4.2,
+    "away": 1.57,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
    "id": 760419,
+   "date": "2026-06-13",
    "utc": "2026-06-13T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "31'",
-   "status_detail": "31'",
-   "venue": "MetLife Stadium",
+   "note": "",
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.69,
     "draw": 3.75,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "goals": 0
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760420,
    "date": "2026-06-13",
@@ -1232,63 +1318,13 @@
  ],
  "upcoming": [
   {
-   "id": 760418,
-   "utc": "2026-06-14T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "odds": {
-    "home": 5.75,
-    "draw": 4.6,
-    "away": 1.53,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "owner": "Jen",
-    "form": "LWDLW"
-   },
-   "away": {
-    "name": "Scotland",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "owner": "George",
-    "form": "WWLLW"
-   }
-  },
-  {
-   "id": 760421,
-   "utc": "2026-06-14T04:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 5.25,
-    "draw": 3.85,
-    "away": 1.69,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": "DLWWL"
-   },
-   "away": {
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "form": "WWWWD"
-   }
-  },
-  {
    "id": 760422,
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
     "home": 1.03,
-    "draw": 16.0,
+    "draw": 15.0,
     "away": 29.0,
     "over_under": 4.5,
     "provider": "DraftKings"
@@ -1313,7 +1349,7 @@
    "group": "Group F",
    "odds": {
     "home": 2.0,
-    "draw": 3.5,
+    "draw": 3.4,
     "away": 3.55,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1337,9 +1373,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 3.5,
+    "home": 3.3,
     "draw": 2.85,
-    "away": 2.45,
+    "away": 2.55,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -1362,9 +1398,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 1.91,
-    "draw": 3.5,
-    "away": 4.2,
+    "home": 1.95,
+    "draw": 3.45,
+    "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1712,9 +1748,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.61,
-    "draw": 4.0,
-    "away": 5.75,
+    "home": 1.59,
+    "draw": 4.1,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1737,7 +1773,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.29,
+    "home": 1.28,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
@@ -1787,9 +1823,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.51,
+    "home": 1.54,
     "draw": 4.6,
-    "away": 6.0,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1812,9 +1848,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 4.8,
-    "draw": 3.5,
-    "away": 1.83,
+    "home": 4.9,
+    "draw": 3.55,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1822,13 +1858,13 @@
     "name": "Scotland",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "owner": "George",
-    "form": "WWLLW"
+    "form": "WWWLL"
    },
    "away": {
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "form": "DWWWD"
+    "form": "DDWWW"
    }
   },
   {
@@ -1838,8 +1874,8 @@
    "group": "Group C",
    "odds": {
     "home": 1.1,
-    "draw": 10.0,
-    "away": 36.0,
+    "draw": 12.0,
+    "away": 21.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -1847,13 +1883,13 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "form": "WWWLD"
+    "form": "DWWWL"
    },
    "away": {
     "name": "Haiti",
     "flag": "🇭🇹",
     "owner": "Jen",
-    "form": "LWDLW"
+    "form": "LLWDL"
    }
   },
   {
@@ -2287,8 +2323,8 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.62,
-    "draw": 3.9,
+    "home": 1.56,
+    "draw": 4.2,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2297,13 +2333,13 @@
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
     "owner": "Spridge",
-    "form": null
+    "form": "DDDWW"
    },
    "away": {
     "name": "Qatar",
     "flag": "🇶🇦",
     "owner": "Ruggy",
-    "form": null
+    "form": "DDLLW"
    }
   },
   {
@@ -2322,13 +2358,13 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": null
+    "form": "DDWDL"
    },
    "away": {
     "name": "Canada",
     "flag": "🇨🇦",
     "owner": "Dipen",
-    "form": null
+    "form": "DDWDD"
    }
   },
   {
@@ -2337,9 +2373,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.35,
-    "draw": 5.25,
-    "away": 9.5,
+    "home": 1.3,
+    "draw": 5.5,
+    "away": 10.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2347,13 +2383,13 @@
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "form": null
+    "form": "DDWWW"
    },
    "away": {
     "name": "Haiti",
     "flag": "🇭🇹",
     "owner": "Jen",
-    "form": null
+    "form": "LLWDL"
    }
   },
   {
@@ -2364,7 +2400,7 @@
    "odds": {
     "home": 6.0,
     "draw": 5.0,
-    "away": 1.47,
+    "away": 1.48,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2372,13 +2408,13 @@
     "name": "Scotland",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "owner": "George",
-    "form": null
+    "form": "WWWLL"
    },
    "away": {
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "form": null
+    "form": "DWWWL"
    }
   },
   {
@@ -2387,7 +2423,7 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 4.7,
+    "home": 4.6,
     "draw": 3.65,
     "away": 1.8,
     "over_under": 2.5,
@@ -2397,13 +2433,13 @@
     "name": "Czechia",
     "flag": "🇨🇿",
     "owner": "Emily",
-    "form": null
+    "form": "LWWWW"
    },
    "away": {
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Dipen",
-    "form": null
+    "form": "WWWWD"
    }
   },
   {
@@ -2412,9 +2448,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 4.0,
-    "draw": 3.5,
-    "away": 1.95,
+    "home": 5.75,
+    "draw": 4.1,
+    "away": 1.61,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2422,13 +2458,13 @@
     "name": "South Africa",
     "flag": "🇿🇦",
     "owner": "Dipen",
-    "form": null
+    "form": "LWDLD"
    },
    "away": {
     "name": "South Korea",
     "flag": "🇰🇷",
     "owner": "Ruggy",
-    "form": null
+    "form": "WWWLL"
    }
   },
   {
@@ -3034,7 +3070,7 @@
    "rows": [
     {
      "group": "Group C",
-     "code": "MAR",
+     "code": "SCO",
      "p": 1,
      "w": 1,
      "d": 0,
@@ -3042,42 +3078,8 @@
      "gf": 1,
      "ga": 0,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 1,
-     "name": "Morocco",
-     "flag": "🇲🇦",
-     "tier": 1,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group C",
-     "code": "HAI",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Haiti",
-     "flag": "🇭🇹",
-     "tier": 3,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group C",
-     "code": "SCO",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "tier": 3,
@@ -3088,17 +3090,51 @@
      "code": "BRA",
      "p": 1,
      "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
+     "name": "Brazil",
+     "flag": "🇧🇷",
+     "tier": 1,
+     "owner": "George"
+    },
+    {
+     "group": "Group C",
+     "code": "MAR",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
+     "name": "Morocco",
+     "flag": "🇲🇦",
+     "tier": 1,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group C",
+     "code": "HAI",
+     "p": 1,
+     "w": 0,
      "d": 0,
      "l": 1,
      "gf": 0,
      "ga": 1,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -1,
-     "name": "Brazil",
-     "flag": "🇧🇷",
-     "tier": 1,
-     "owner": "George"
+     "name": "Haiti",
+     "flag": "🇭🇹",
+     "tier": 3,
+     "owner": "Jen"
     }
    ]
   },
@@ -3125,15 +3161,15 @@
     {
      "group": "Group D",
      "code": "AUS",
-     "p": 0,
-     "w": 0,
+     "p": 1,
+     "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
+     "pts": 3,
+     "live": true,
+     "gd": 1,
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
@@ -3142,15 +3178,15 @@
     {
      "group": "Group D",
      "code": "TUR",
-     "p": 0,
+     "p": 1,
      "w": 0,
      "d": 0,
-     "l": 0,
+     "l": 1,
      "gf": 0,
-     "ga": 0,
+     "ga": 1,
      "pts": 0,
-     "live": false,
-     "gd": 0,
+     "live": true,
+     "gd": -1,
      "name": "Türkiye",
      "flag": "🇹🇷",
      "tier": 2,
@@ -4525,6 +4561,14 @@
    "owner": "Willo"
   },
   {
+   "player": "John McGinn",
+   "team": "SCO",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "owner": "George"
+  },
+  {
    "player": "Jovo Lukic",
    "team": "BIH",
    "goals": 1,
@@ -4557,6 +4601,14 @@
    "owner": "Fergs"
   },
   {
+   "player": "Nestory Irankunda",
+   "team": "AUS",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇦🇺",
+   "owner": "Glancy"
+  },
+  {
    "player": "Oh Hyeon-Gyu",
    "team": "KOR",
    "goals": 1,
@@ -4571,6 +4623,14 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Dipen"
+  },
+  {
+   "player": "Vinícius Júnior",
+   "team": "BRA",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
   }
  ],
  "fairplay": [
@@ -4611,6 +4671,24 @@
    "pts": 3
   },
   {
+   "code": "SCO",
+   "name": "Scotland",
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "owner": "George",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "BRA",
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "owner": "George",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "CAN",
    "name": "Canada",
    "flag": "🇨🇦",
@@ -4627,6 +4705,15 @@
    "yellow": 2,
    "red": 0,
    "pts": 2
+  },
+  {
+   "code": "HAI",
+   "name": "Haiti",
+   "flag": "🇭🇹",
+   "owner": "Jen",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
   },
   {
    "code": "KOR",
@@ -4658,52 +4745,52 @@
  ],
  "news": [
   {
-   "headline": "World Cup live updates: Ancelotti's Brazil take on Morocco",
-   "desc": "Join us for all the updates in New Jersey as the 2026 World Cup continues with Brazil taking on Morocco.",
-   "link": "https://www.espn.com/soccer/story/_/id/49020078/carlo-ancelottis-brazil-take-morocco",
-   "published": "2026-06-13T22:30:00Z",
+   "headline": "Scotland ease 'pressure' with 1st World Cup win since 1990",
+   "desc": "Steve Clarke said his Scotland side's long-awaited World Cup win over Haiti means the team have less pressure on them as they prepare to face Morocco.",
+   "link": "https://www.espn.com/soccer/story/_/id/49057757/scotland-haiti-2026-world-cup-steve-clarke",
+   "published": "2026-06-14T05:09:22Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672818_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Socceroos vs. Türkiye LIVE: Australia lead as second half begins",
+   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
+   "published": "2026-06-14T05:07:48Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672597_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672819_1296x729_16-9.jpg"
   },
   {
-   "headline": "Kane: It's business time for England at the World Cup",
-   "desc": "Kane: It's business time for England at the World Cup",
-   "link": "https://www.espn.com/video/clip/_/id/49053591/business-england-world-cup",
-   "published": "2026-06-13T22:16:25Z",
+   "headline": "Irankunda scores to give the Socceroos the lead over Türkiye",
+   "desc": "Nestory Irankunda shows some serious pace and slots the ball in the bottom left corner to take the lead over Türkiye.",
+   "link": "https://www.espn.com/video/clip/_/id/49057832/irankunda-scores-give-socceroos-lead-turkiye",
+   "published": "2026-06-14T05:02:12Z",
    "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Interview_Kane_Its_business_time_for_England_at_the_World_Cup_20260613_GLOBAL_FIFA_WOR/dm_260613_COM_SOC_Interview_Kane_Its_business_time_for_England_at_the_World_Cup_20260613_GLOBAL_FIFA_WOR.jpg"
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Irankunda_scores_to_give_the_Socceroos_the_lead_over_Turkiye_20260614_AUS/dm_260614_Soccer_HIGHLIGHT_Irankunda_scores_to_give_the_Socceroos_the_lead_over_Turkiye_20260614_AUS.jpg"
   },
   {
-   "headline": "World Cup Daily: Brazil fans take over NYC, Ronaldo arrives",
-   "desc": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-   "published": "2026-06-13T22:07:59Z",
+   "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
+   "desc": "John McGinn was the hero for Scotland as his strike was the difference in their first World Cup win since 1990.",
+   "link": "https://www.espn.com/video/clip/_/id/49057235/scotland-goes-top-group-c-1-0-win-haiti",
+   "published": "2026-06-14T04:17:53Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS/dm_260613_Soccer_HIGHLIGHT_Scotland_goes_top_of_Group_C_with_1_0_win_over_Haiti_20260614_AUS.jpg"
+  },
+  {
+   "headline": "2 Texas men charged after England World Cup gear stolen",
+   "desc": "Two men have been charged with one felony count each of receiving stolen property late Saturday after England's national team discovered that some of their equipment had been stolen.",
+   "link": "https://www.espn.com/soccer/story/_/id/49057023/england-world-cup-stolen-team-gear-kansas-city-men-charged",
+   "published": "2026-06-14T04:57:38Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672796_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Scotland make 28-year World Cup drought worth the wait on winning return",
+   "desc": "The Scottish party in Boston won't be finishing anytime soon as Scotland took one step towards the World Cup knockout stages by defeating Haiti 1-0 in Foxborough.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
+   "published": "2026-06-14T03:59:15Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672265_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "England land in Kansas City for World Cup base camp",
-   "desc": "England land in Kansas City for World Cup base camp",
-   "link": "https://www.espn.com/video/clip/_/id/49053412/england-land-kansas-city-world-cup-base-camp",
-   "published": "2026-06-13T21:56:56Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP/dm_260613_COM_SOC_News_England_land_in_Kansas_City_for_World_Cup_base_camp_20260613_GLOBAL_FIFA_WORLD_CUP.jpg"
-  },
-  {
-   "headline": "How Qatar earned their first ever World Cup point",
-   "desc": "How Qatar earned their first ever World Cup point",
-   "link": "https://www.espn.com/video/clip/_/id/49053368/how-qatar-earned-their-first-ever-world-cup-point",
-   "published": "2026-06-13T21:52:54Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Analysis_How_Qatar_earned_their_first_ever_World_Cup_point_20260613_GLOBAL_FIFA_WORLD_C/dm_260613_COM_SOC_Analysis_How_Qatar_earned_their_first_ever_World_Cup_point_20260613_GLOBAL_FIFA_WORLD_C.jpg"
-  },
-  {
-   "headline": "South Africa's silver Adidas jackets developed with Manchester United, Arsenal players",
-   "desc": "",
-   "link": "https://www.espn.com/espn/story/_/id/49053046/south-africa-silver-adidas-jackets-developed-manchester-united-arsenal-players",
-   "published": "2026-06-13T21:26:30Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672557_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672771_1296x729_16-9.jpg"
   }
  ]
 }
