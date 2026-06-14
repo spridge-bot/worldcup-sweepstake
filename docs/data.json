@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T03:34:12+00:00",
+ "generated_at": "2026-06-14T03:54:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1281,7 +1281,7 @@
    "group": "Group D",
    "odds": {
     "home": 5.5,
-    "draw": 3.75,
+    "draw": 3.7,
     "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -4645,6 +4645,15 @@
    "pts": 3
   },
   {
+   "code": "SCO",
+   "name": "Scotland",
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "owner": "George",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "BRA",
    "name": "Brazil",
    "flag": "🇧🇷",
@@ -4710,6 +4719,14 @@
  ],
  "news": [
   {
+   "headline": "Burley: Scotland will be hoping three points is enough for knockouts",
+   "desc": "Burley: Scotland will be hoping three points is enough for knockouts",
+   "link": "https://www.espn.com/video/clip/_/id/49056537/scotland-hoping-three-points-enough-knockouts",
+   "published": "2026-06-14T03:36:28Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0613/dm_260613_COM_SOC_Analysis_Burley_Scotland_will_be_hoping_three_points_is_enough_for_knockouts_20260613_G/dm_260613_COM_SOC_Analysis_Burley_Scotland_will_be_hoping_three_points_is_enough_for_knockouts_20260613_G.jpg"
+  },
+  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4748,14 +4765,6 @@
    "published": "2026-06-14T03:23:17Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672752_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Morocco 'not alarmed' by Yassine Bounou injury concern, but further tests required",
-   "desc": "Morocco goalkeeper Yassine Bounou will undergo tests on Sunday after picking up a shoulder injury in a collision with Brazil's Raphinha in their 1-1 FIFA World Cup draw on Saturday.",
-   "link": "https://www.espn.com/espn/story/_/id/49055732/morocco-not-alarmed-yassine-bounou-injury-concern-further-tests-required",
-   "published": "2026-06-14T02:35:19Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672737_1296x729_16-9.jpg"
   }
  ]
 }
