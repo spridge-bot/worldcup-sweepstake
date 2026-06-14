@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T21:15:23+00:00",
+ "generated_at": "2026-06-14T21:15:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1083,8 +1083,8 @@
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "56'",
-   "status_detail": "56'",
+   "clock": "57'",
+   "status_detail": "57'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1397,9 +1397,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 3.25,
-    "draw": 2.85,
-    "away": 2.6,
+    "home": 3.3,
+    "draw": 2.9,
+    "away": 2.55,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
