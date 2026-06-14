@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T23:35:17+00:00",
+ "generated_at": "2026-06-14T23:35:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4811,6 +4811,14 @@
  ],
  "news": [
   {
+   "headline": "Curaçao coach Advocaat says heavy loss to Germany 'no disgrace'",
+   "desc": "For 37 minutes on Sunday, Curaçao stayed with four-time champion Germany, with the FIFA World Cup first-timers daring to believe they could pull off the unimaginable.",
+   "link": "https://www.espn.com/soccer/story/_/id/49065396/curacao-coach-advocaat-heavy-loss-germany-no-disgrace",
+   "published": "2026-06-14T23:34:20Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673252_1024x576_16-9.jpg"
+  },
+  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4827,6 +4835,14 @@
    "image": "https://a.espncdn.com/photo/2026/0614/r1673226_1296x729_16-9.jpg"
   },
   {
+   "headline": "Full England squad train in Kansas after tornado warnings disrupt first day",
+   "desc": "England were all present and correct in their training session as they stepped up preparations for their FIFA World Cup opener.",
+   "link": "https://www.espn.com/soccer/story/_/id/49065397/full-england-squad-train-kansas-world-cup-fifa-2026-tornado-warnings",
+   "published": "2026-06-14T23:35:20Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1673236_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Japan justify dark horse credentials with dramatic draw vs. Netherlands",
    "desc": "An 88th-minute goal by Daichi Kamada salvaged a point for Japan as the Dutch were left to rue their two blown leads.",
    "link": "https://www.espn.com/soccer/story/_/id/49065026/japan-justify-dark-horse-credentials-dramatic-draw-netherlands-2026-world-cup",
@@ -4841,22 +4857,6 @@
    "published": "2026-06-14T22:33:45Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_Analysis_Will_Japan_go_further_than_the_Netherlands_at_the_World_Cup_20260614_GLOBAL_FI/dm_260614_COM_SOC_Analysis_Will_Japan_go_further_than_the_Netherlands_at_the_World_Cup_20260614_GLOBAL_FI.jpg"
-  },
-  {
-   "headline": "Germany get needed confidence boost in 7-goal rout of Curaçao",
-   "desc": "Germany coach Julian Nagelsmann said his team's 7-1 rout of Curaçao to start their FIFA World Cup campaign was just what they needed after the four-time champions failed to get out of the group stage in the last two editions of the tournament.",
-   "link": "https://www.espn.com/soccer/story/_/id/49064317/germany-confidence-boost-7-goal-rout-curacao",
-   "published": "2026-06-14T22:34:25Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673163_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Japan fight back twice to snatch late draw vs. Netherlands",
-   "desc": "Daichi Kamada's 88th-minute header rescued a dramatic 2-2 draw for Japan, stunning the Netherlands after a frantic second half in their World Cup opener.",
-   "link": "https://www.espn.com/soccer/story/_/id/49064974/japan-fight-back-twice-snatch-late-draw-vs-netherlands",
-   "published": "2026-06-14T22:56:32Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673205_1296x729_16-9.jpg"
   }
  ]
 }
