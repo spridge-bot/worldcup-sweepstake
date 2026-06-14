@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T17:07:51+00:00",
+ "generated_at": "2026-06-14T17:08:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -52,10 +52,10 @@
     "NOR",
     "JOR"
    ],
-   "total": 6,
-   "today": 6,
-   "rank": 3,
-   "movement": 4
+   "total": 8,
+   "today": 8,
+   "rank": 1,
+   "movement": 6
   },
   {
    "name": "Willo",
@@ -67,21 +67,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Fergs",
-   "teams": [
-    "ARG",
-    "SEN",
-    "PAR",
-    "CUW"
-   ],
-   "total": 5,
-   "today": 5,
-   "rank": 5,
-   "movement": 2
+   "rank": 4,
+   "movement": -2
   },
   {
    "name": "Spridge",
@@ -106,8 +93,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 7,
-   "movement": -3
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Dubs",
@@ -119,8 +106,8 @@
    ],
    "total": 1,
    "today": 1,
-   "rank": 8,
-   "movement": -1
+   "rank": 7,
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -132,8 +119,8 @@
    ],
    "total": 1,
    "today": 0,
-   "rank": 8,
-   "movement": -2
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -145,8 +132,21 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
+  },
+  {
+   "name": "Fergs",
+   "teams": [
+    "ARG",
+    "SEN",
+    "PAR",
+    "CUW"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Jen",
@@ -158,8 +158,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -171,8 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
   }
  ],
  "teams": {
@@ -355,12 +355,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-14",
-     "desc": "2nd in Group E (live)",
-     "points": 3
+     "desc": "1st in Group E (live)",
+     "points": 5
     }
    ]
   },
@@ -1033,14 +1033,8 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-14",
-     "desc": "1st in Group E (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "HAI": {
    "code": "HAI",
@@ -1098,7 +1092,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "CUW",
@@ -3234,33 +3228,16 @@
    "rows": [
     {
      "group": "Group E",
-     "code": "CUW",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Curaçao",
-     "flag": "🇨🇼",
-     "tier": 3,
-     "owner": "Fergs"
-    },
-    {
-     "group": "Group E",
      "code": "GER",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Germany",
      "flag": "🇩🇪",
      "tier": 1,
@@ -3299,6 +3276,23 @@
      "flag": "🇨🇮",
      "tier": 2,
      "owner": "Jen"
+    },
+    {
+     "group": "Group E",
+     "code": "CUW",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
+     "pts": 0,
+     "live": true,
+     "gd": -1,
+     "name": "Curaçao",
+     "flag": "🇨🇼",
+     "tier": 3,
+     "owner": "Fergs"
     }
    ]
   },
