@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T04:23:43+00:00",
+ "generated_at": "2026-06-14T04:24:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1748,9 +1748,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.61,
-    "draw": 4.0,
-    "away": 5.75,
+    "home": 1.59,
+    "draw": 4.1,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4740,9 +4740,9 @@
    "headline": "Socceroos vs. Türkiye LIVE: Australia's opening 2026 World Cup match",
    "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T04:17:29Z",
+   "published": "2026-06-14T04:22:52Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672790_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/media/motion/2026/0604/dm_260604_COM_SOC_Analysis_Will_Turkiyes_great_generation_click_at_the_World_Cup_20260604_GLOBAL/dm_260604_COM_SOC_Analysis_Will_Turkiyes_great_generation_click_at_the_World_Cup_20260604_GLOBAL.jpg"
   },
   {
    "headline": "Scotland goes top of Group C with 1-0 win over Haiti",
