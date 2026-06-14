@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:34:46+00:00",
+ "generated_at": "2026-06-14T05:35:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "74'",
-   "status_detail": "74'",
+   "clock": "75'",
+   "status_detail": "75'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4529,6 +4529,14 @@
    "owner": "Emily"
   },
   {
+   "player": "Connor Metcalfe",
+   "team": "AUS",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇦🇺",
+   "owner": "Glancy"
+  },
+  {
    "player": "Cyle Larin",
    "team": "CAN",
    "goals": 1,
@@ -4623,14 +4631,6 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Dipen"
-  },
-  {
-   "player": "Vinícius Júnior",
-   "team": "BRA",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
   }
  ],
  "fairplay": [
