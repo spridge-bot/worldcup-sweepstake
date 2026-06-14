@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T17:07:18+00:00",
+ "generated_at": "2026-06-14T17:07:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1083,8 +1083,8 @@
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "5'",
-   "status_detail": "5'",
+   "clock": "6'",
+   "status_detail": "6'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.03,
@@ -4563,6 +4563,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Felix Nmecha",
+   "team": "GER",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Giovanni Reyna",
    "team": "USA",
    "goals": 1,
@@ -4641,14 +4649,6 @@
    "assists": 0,
    "flag": "🇰🇷",
    "owner": "Ruggy"
-  },
-  {
-   "player": "Raúl Jiménez",
-   "team": "MEX",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇽",
-   "owner": "Dipen"
   }
  ],
  "fairplay": [
