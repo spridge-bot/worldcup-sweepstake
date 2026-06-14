@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T18:36:26+00:00",
+ "generated_at": "2026-06-14T18:36:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1985,8 +1985,8 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.2,
-    "draw": 7.5,
+    "home": 1.19,
+    "draw": 8.0,
     "away": 13.0,
     "over_under": 2.5,
     "provider": "DraftKings"
