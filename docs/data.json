@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:56:48+00:00",
+ "generated_at": "2026-06-14T05:57:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -531,12 +531,12 @@
    "fifa_rank": 22,
    "owner": "Dubs",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 2,
    "total": 1,
    "events": [
     {
@@ -611,11 +611,11 @@
    "fifa_rank": 27,
    "owner": "Glancy",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 2,
    "ga": 0,
    "total": 3,
    "events": [
@@ -1065,39 +1065,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760421,
+   "date": "2026-06-14",
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "90'+6'",
-   "status_detail": "90'+6'",
-   "venue": "BC Place",
+   "note": "",
+   "home": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 5.25,
     "draw": 3.85,
     "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "AUS",
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "goals": 2
-   },
-   "away": {
-    "code": "TUR",
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760418,
    "date": "2026-06-14",
@@ -3168,7 +3168,7 @@
      "gf": 2,
      "ga": 0,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "Australia",
      "flag": "🇦🇺",
@@ -3185,7 +3185,7 @@
      "gf": 0,
      "ga": 2,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Türkiye",
      "flag": "🇹🇷",
@@ -4729,6 +4729,15 @@
    "name": "Switzerland",
    "flag": "🇨🇭",
    "owner": "Emily",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "TUR",
+   "name": "Türkiye",
+   "flag": "🇹🇷",
+   "owner": "Dubs",
    "yellow": 1,
    "red": 0,
    "pts": 1
