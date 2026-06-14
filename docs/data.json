@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T05:44:31+00:00",
+ "generated_at": "2026-06-14T05:44:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1071,8 +1071,8 @@
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "83'",
-   "status_detail": "83'",
+   "clock": "84'",
+   "status_detail": "84'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -4745,20 +4745,20 @@
  ],
  "news": [
   {
-   "headline": "World Cup LIVE: Socceroos look set to shock Türkiye",
-   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
-   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
-   "published": "2026-06-14T05:41:11Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672832_1296x729_16-9.jpg"
-  },
-  {
    "headline": "England World Cup camp in Kansas City hit by tornado warning",
    "desc": "England players were confined to indoors amid a tornado warning on their first evening in Kansas City.",
    "link": "https://www.espn.com/soccer/story/_/id/49052842/england-kansas-city-world-cup-base",
    "published": "2026-06-14T05:28:44Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672624_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup LIVE: Socceroos, Türkiye engaged in tense battle",
+   "desc": "With Group D wide open after the USMNT's 4-1 win over Paraguay, can Australia or Türkiye take the initiative? Follow all the action LIVE with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49055324/socceroos-vs-turkiye-live-australias-opening-2026-world-cup-match",
+   "published": "2026-06-14T05:19:08Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672820_1296x729_16-9.jpg"
   },
   {
    "headline": "Scotland ease 'pressure' with 1st World Cup win since 1990",
