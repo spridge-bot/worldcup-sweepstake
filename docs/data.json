@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T10:56:29+00:00",
+ "generated_at": "2026-06-14T11:01:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4754,6 +4754,14 @@
  ],
  "news": [
   {
+   "headline": "Montella says Australia loss gives Türkiye 'more motivation'",
+   "desc": "Montella says Australia loss gives Türkiye 'more motivation'",
+   "link": "https://www.espn.com/video/clip/_/id/49059745/montella-says-australia-loss-gives-turkiye-more-motivation",
+   "published": "2026-06-14T10:59:36Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Montella_says_Australia_loss_gives_Turkiye_more_motivation/dm_260614_Montella_says_Australia_loss_gives_Turkiye_more_motivation.jpg"
+  },
+  {
    "headline": "World Cup VAR review: FIFA tech stops working in Qatar vs. Switzerland",
    "desc": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
    "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
@@ -4792,14 +4800,6 @@
    "published": "2026-06-14T09:29:43Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Popovic_Turkey_win_a_special_night_for_the_Socceroos/dm_260614_Popovic_Turkey_win_a_special_night_for_the_Socceroos.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Germany fan cycles over 26,000km to get to Houston",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-14T09:16:45Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672871_2_894x503_16-9.jpg"
   }
  ]
 }
