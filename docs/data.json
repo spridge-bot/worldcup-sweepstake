@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T02:40:32+00:00",
+ "generated_at": "2026-06-14T02:40:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-13",
  "scoring": {
@@ -2521,6 +2521,31 @@
     "name": "Sweden",
     "flag": "🇸🇪",
     "owner": "Spridge",
+    "form": null
+   }
+  },
+  {
+   "id": 760472,
+   "utc": "2026-06-25T23:00:00Z",
+   "stage": "Group stage",
+   "group": "Group F",
+   "odds": {
+    "home": 6.5,
+    "draw": 4.4,
+    "away": 1.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "owner": "Pari",
+    "form": null
+   },
+   "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "owner": "Emily",
     "form": null
    }
   },
