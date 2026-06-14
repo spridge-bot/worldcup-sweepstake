@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14T23:36:41+00:00",
+ "generated_at": "2026-06-14T23:37:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1101,8 +1101,8 @@
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "33'",
-   "status_detail": "33'",
+   "clock": "34'",
+   "status_detail": "34'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 3.6,
@@ -2021,9 +2021,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.14,
-    "draw": 9.0,
-    "away": 19.0,
+    "home": 1.12,
+    "draw": 9.5,
+    "away": 20.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
