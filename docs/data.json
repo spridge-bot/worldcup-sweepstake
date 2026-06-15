@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T19:43:07+00:00",
+ "generated_at": "2026-06-15T19:43:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4826,14 +4826,6 @@
  ],
  "news": [
   {
-   "headline": "World Cup Daily Live: Belgium face off with Egypt; Cape Verde shock Spain in draw",
-   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-15T19:41:04Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673693_1296x729_16-9.jpg"
-  },
-  {
    "headline": "Emma Hayes and Ange Postecoglu praise 'disciplined' Cape Verde after World Cup draw with Spain",
    "desc": "Former Tottenham boss Ange Postecoglou paid tribute to Cape Verde after the African minnows held Spain to a battling goalless draw.",
    "link": "https://www.espn.com/soccer/story/_/id/49074751/cape-verde-vs-spain-draw-world-cup-ange-postecoglu-emma-hayes",
@@ -4848,6 +4840,14 @@
    "published": "2026-06-15T19:27:42Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673673_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup Daily Live: Belgium face off with Egypt; Cape Verde shock Spain in draw",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-15T18:55:09Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673693_1296x729_16-9.jpg"
   },
   {
    "headline": "Burley: Cape Verde couldn't have given a better account of themselves",
