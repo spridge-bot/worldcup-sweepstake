@@ -462,7 +462,11 @@ def harvest_api(espn_id, sofa_id, codes, teams, out):
         skip.add("lineups")
     if ent.get("shots"):
         skip.add("shotmap")
-    if ent.get("positions"):
+    # Average positions fill in over the course of a match, so only stop
+    # refreshing once we have a near-complete snapshot. Otherwise an early,
+    # near-empty capture (e.g. a single player at kickoff) freezes forever.
+    pos = ent.get("positions") or {}
+    if max(len(pos.get("home") or []), len(pos.get("away") or [])) >= 10:
         skip.add("average-positions")
     payloads = {}
     for short, ep in API_ENDPOINTS.items():
