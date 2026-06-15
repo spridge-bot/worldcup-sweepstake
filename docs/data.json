@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T21:03:56+00:00",
+ "generated_at": "2026-06-15T21:09:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4850,6 +4850,22 @@
  ],
  "news": [
   {
+   "headline": "Adams: Home support lifts Pulisic & USMNT",
+   "desc": "",
+   "link": "https://www.espn.com/video/clip/_/id/49075815/home-support-lifts-pulisic-usmnt",
+   "published": "2026-06-15T21:07:32Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_COM_SOC_INTERVIEW_Adams_Home_support_lifts_Pulisic_USMNT_2026_6_15/dm_260615_COM_SOC_INTERVIEW_Adams_Home_support_lifts_Pulisic_USMNT_2026_6_15.jpg"
+  },
+  {
+   "headline": "Spain at the men's World Cup: All-time results and stats",
+   "desc": "Take a look at the Spain men's national team's performance throughout the tournament's history.",
+   "link": "https://www.espn.com/soccer/story/_/id/49073399/spain-men-world-cup-all-results-stats",
+   "published": "2026-06-15T21:05:21Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673639_608x342_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Belgium face off with Egypt; Cape Verde shock Spain in draw",
    "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
@@ -4880,22 +4896,6 @@
    "published": "2026-06-15T21:02:16Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673763_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Bukayo Saka says he is 'ready to go' ahead of England opener",
-   "desc": "Bukayo Saka says he is 'ready to go' ahead of England opener",
-   "link": "https://www.espn.com/video/clip/_/id/49075393/bukayo-saka-says-ready-go-ahead-england-opener",
-   "published": "2026-06-15T20:18:57Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Bukayo_Saka_says_he_is_ready_to_go_ahead_of_England_opener/dm_260615_Bukayo_Saka_says_he_is_ready_to_go_ahead_of_England_opener.jpg"
-  },
-  {
-   "headline": "Spain shocked by Cape Verde, draw 0-0 in their World Cup opener",
-   "desc": "Cape Verde pulled off the shock of the 2026 World Cup thus far as they held European champions Spain to a battling goalless draw in their Group H opener in Atlanta.",
-   "link": "http://www.espn.com/soccer/report/_/gameId/760428",
-   "published": "2026-06-15T20:04:05Z",
-   "type": "Recap",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673657_1296x729_16-9.jpg"
   }
  ]
 }
