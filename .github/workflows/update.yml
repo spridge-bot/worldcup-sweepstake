@@ -1,34 +1,97 @@
 name: Update sweepstake scores
 
+# Cloud standby publisher.
+#
+# The Mac mini (auto_sync.sh) is the primary live publisher: it pushes the
+# churning data.json / sofascore.json to the `live-data` branch every ~18s
+# while matches are live. The public page reads data from `live-data`.
+#
+# This workflow is the FALLBACK so the page stays fresh even if the mini is
+# asleep, offline, or dead. It runs on a 5-minute cron but FIRST checks how
+# stale the live-data branch is:
+#   * < 6 min old  -> the mini is clearly alive and driving updates, so we
+#                     skip entirely and never race its pushes.
+#   * >= 6 min old -> the mini is presumed down; we recompute scores from
+#                     ESPN's keyless API and publish to live-data ourselves.
+#
+# It only refreshes data.json/details.json (ESPN-based, no scraping that
+# datacenter IPs get 403'd on). sofascore momentum degrades gracefully when
+# the mini is away; the leaderboard and scoring stay correct. Public repo =>
+# unlimited free Actions minutes.
+
 on:
   schedule:
-    # Every 3 hours during the tournament (11 Jun - 19 Jul 2026).
-    # Match days run late in North American time zones, so frequent polling
-    # catches each day's results by the following morning.
-    - cron: "30 */3 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish even if the mini looks alive"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
+
+concurrency:
+  group: live-publish
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout live-data branch
+        uses: actions/checkout@v4
+        with:
+          ref: live-data
+          fetch-depth: 1
 
-      - uses: actions/setup-python@v5
+      - name: Skip if the Mac mini is already keeping live-data fresh
+        id: gate
+        run: |
+          LAST=$(git log -1 --format=%ct)
+          NOW=$(date +%s)
+          AGE=$(( NOW - LAST ))
+          echo "last live-data commit was ${AGE}s ago"
+          FORCE="${{ github.event.inputs.force }}"
+          if [ "$FORCE" != "true" ] && [ "$AGE" -lt 360 ]; then
+            echo "mini is alive (<6m) -> standby, nothing to do"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "mini looks down (>=6m) or forced -> taking over"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Fetch results and recompute scores
+      - name: Sync code/draw from main, then recompute scores
+        if: steps.gate.outputs.run == 'true'
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python scripts/update_scores.py
+        run: |
+          git fetch -q origin main
+          # keep the updater + draw in lock-step with main (same as auto_sync.sh)
+          git checkout -q origin/main -- scripts data docs/index.html docs/draw.html
+          python scripts/update_scores.py
 
-      - name: Commit updated data
+      - name: Publish to live-data
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "sweepstake-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data.json docs/details.json
-          git diff --cached --quiet || (git commit -m "Update scores" && git push)
+          if git diff --cached --quiet; then
+            echo "no data change to publish"
+            exit 0
+          fi
+          git commit -q -m "live data (cloud standby) $(date -u '+%FT%TZ')"
+          # mirror auto_sync.sh's conflict strategy: if the mini pushed
+          # meanwhile, rebase keeping our recomputed data and retry once.
+          git push origin HEAD:live-data || {
+            git pull --rebase -X ours --autostash origin live-data
+            git push origin HEAD:live-data
+          }
