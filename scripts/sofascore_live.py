@@ -119,6 +119,7 @@ def load_targets():
 
     now = datetime.now(timezone.utc)
     targets = {}
+    codes_by_id = {}
     result_ids = {r["id"] for r in (data.get("results") or []) if r.get("id")}
     rows = (list(data.get("live") or []) + list(data.get("results") or [])
             + list(data.get("upcoming") or []))
@@ -135,8 +136,9 @@ def load_targets():
         ac = r["away"].get("code") or name_to_code.get(normalize(r["away"]["name"]))
         if hc and ac:
             targets[frozenset((hc, ac))] = r["id"]
+            codes_by_id[r["id"]] = (hc, ac)
     live_ids = {m["id"] for m in data.get("live") or []}
-    return targets, variants, data["teams"], live_ids
+    return targets, variants, data["teams"], live_ids, codes_by_id
 
 
 def code_for(name, variants):
@@ -414,7 +416,9 @@ def apply_payloads(ent, payloads, espn_id, codes, teams):
     if payloads.get("graph"):
         momentum = parse_momentum(payloads["graph"])
         if momentum:
-            ent["momentum"] = momentum
+            cover = lambda arr: max((p.get("m", 0) for p in arr), default=0)
+            if cover(momentum) >= cover(ent.get("momentum") or []):   # never truncate a fuller graph
+                ent["momentum"] = momentum
     if payloads.get("shotmap"):
         shots = parse_shots(payloads["shotmap"])
         if shots:
@@ -475,22 +479,38 @@ def harvest_browser(link, espn_id, codes, teams, out, quick=False):
     return got
 
 
-def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False):
+def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False, codes_by_id=None):
     """Try the fast API path; fall back to the browser. Returns set harvested."""
     done = set()
+    codes_by_id = codes_by_id or {}
+    wanted = set(targets.values()) if only_ids is None else set(only_ids)
+    # 1) Direct harvest by the sofa_id we already stored — this keeps live matches
+    #    updating even when Sofascore blocks the discovery endpoint (HTTP 403).
     if HAVE_API:
+        for espn_id in wanted:
+            sofa_id = (out.get(str(espn_id)) or {}).get("sofa_id")
+            codes = codes_by_id.get(espn_id)
+            if not sofa_id or not codes:
+                continue
+            try:
+                got = harvest_api(espn_id, sofa_id, codes, teams, out)
+                print(f"  [direct] match {espn_id}: {', '.join(got) or 'nothing'}")
+                done.add(espn_id)
+            except Exception as e:
+                print(f"  [direct] match {espn_id} failed ({e})")
+    # 2) Discovery for anything we don't yet know the sofa_id of (new matches)
+    if HAVE_API and (wanted - done):
         try:
             found = api_find_matches(targets, variants)
         except Exception as e:
             print(f"  API discovery failed ({e})")
             found = {}
         for espn_id, (sofa_id, codes) in found.items():
-            if only_ids is not None and espn_id not in only_ids:
+            if espn_id in done or (only_ids is not None and espn_id not in only_ids):
                 continue
             got = harvest_api(espn_id, sofa_id, codes, teams, out)
             print(f"  [api] match {espn_id}: {', '.join(got) or 'nothing yet'}")
             done.add(espn_id)
-    wanted = set(targets.values()) if only_ids is None else set(only_ids)
     missing = wanted - done
     if missing and HAVE_BROWSER:
         print(f"  browser fallback for {len(missing)} match(es)")
@@ -641,14 +661,14 @@ def backfill_momentum(out):
 
 
 def main():
-    targets, variants, teams, _ = load_targets()
+    targets, variants, teams, _, codes_by_id = load_targets()
     sofa_path = DOCS / "sofascore.json"
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
     if targets:
         print(f"Harvesting {len(targets)} match(es) "
               f"({'API-first' if HAVE_API else 'browser only'})...")
-        find_and_harvest(targets, variants, teams, out)
+        find_and_harvest(targets, variants, teams, out, codes_by_id=codes_by_id)
     backfill_momentum(out)
     write_out(out)
     print(f"Wrote docs/sofascore.json ({len(out)} matches)")
@@ -666,7 +686,7 @@ def watch(interval):
     while True:
         cycle_start = time.time()
         espn_quick_scores()
-        targets, variants, teams, live_ids = load_targets()
+        targets, variants, teams, live_ids, codes_by_id = load_targets()
         if not live_ids:
             if prev_live_ids:
                 publish_live_updates(out, prev_live_ids, set())
@@ -677,7 +697,7 @@ def watch(interval):
                 break
         else:
             idle_passes = 0
-            find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True)
+            find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True, codes_by_id=codes_by_id)
             write_out(out)
             mirror_to_mini()
             publish_live_updates(out, prev_live_ids, live_ids)
