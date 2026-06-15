@@ -803,8 +803,15 @@ function momentumChart(s, homeName, awayName, goals) {
     : (s.incidents || []).filter(i => i.type === 'goal').map(i => ({ minute: i.minute, addedTime: i.addedTime, side: i.team }));
   const goalMarks = gl.map(g => {
     const x = (((g.minute || 0) + (g.addedTime || 0) * 0.1) / maxMin) * 300;
-    return `<circle cx="${x.toFixed(1)}" cy="${g.side === 'home' ? 5 : 75}" r="3.6"
-      fill="#fff" stroke="#04150b" stroke-width="1"/>`;
+    const col = g.side === 'home' ? '#36d97c' : '#f5c542';
+    // a dashed guide line across the whole chart + a ⚽ disc on the scoring
+    // side, so the goal is unmistakably overlaid on the momentum trace
+    return `<line x1="${x.toFixed(1)}" y1="2" x2="${x.toFixed(1)}" y2="78"
+        stroke="${col}" stroke-width="0.9" stroke-dasharray="2 2" opacity=".75"/>
+      <circle cx="${x.toFixed(1)}" cy="${g.side === 'home' ? 6 : 74}" r="4.4"
+        fill="#fff" stroke="${col}" stroke-width="1.4"/>
+      <text x="${x.toFixed(1)}" y="${g.side === 'home' ? 7.6 : 75.6}" text-anchor="middle"
+        font-size="5.2" fill="#04150b">⚽</text>`;
   }).join('');
   return `<h4>Attack momentum</h4>
     <svg viewBox="0 0 300 80" style="width:100%;display:block;background:rgba(0,0,0,.18);border-radius:8px"
