@@ -31,6 +31,7 @@ the writing, the voice, and the edit.
 4. **[04-seo-and-growth.md](04-seo-and-growth.md)** — discovery, titles/thumbnails, packaging, cadence, the algorithm.
 5. **[05-monetization-and-roadmap.md](05-monetization-and-roadmap.md)** — revenue streams, KPIs, a phased 0→12-month roadmap, risks.
 6. **[content-idea-bank.md](content-idea-bank.md)** — repeatable video templates + a starter list of evergreen and trigger-based ideas across all four pillars.
+7. **[competitor-the-race.md](competitor-the-race.md)** — teardown of The Race: what to borrow, what we can't copy (footage rights, named experts), and the gap a faceless/graphics-first channel can own.
 
 ## How to use it
 
