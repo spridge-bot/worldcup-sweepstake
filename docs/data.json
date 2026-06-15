@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T02:06:32+00:00",
+ "generated_at": "2026-06-15T02:07:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "5'",
-   "status_detail": "5'",
+   "clock": "6'",
+   "status_detail": "6'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -4781,6 +4781,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Sweden take on Tunisia in Monterrey",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-15T02:05:57Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673342_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Onuoha praises Diomande's impact in Ivory Coast's win over Ecuador",
    "desc": "Onuoha praises Diomande's impact in Ivory Coast's win over Ecuador",
    "link": "https://www.espn.com/video/clip/_/id/49066976/onuoha-praises-diomande-impact-ivory-coast-win-ecuador",
@@ -4795,14 +4803,6 @@
    "published": "2026-06-15T01:32:10Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/Int_260614_Soccer_HIGHLIGHT_Japan_rescue_point_against_Netherlands_with_late_header_2026615_AUS/Int_260614_Soccer_HIGHLIGHT_Japan_rescue_point_against_Netherlands_with_late_header_2026615_AUS.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Ivory Coast beat Ecuador, Sweden-Tunisia up next",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T01:26:08Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673313_1296x729_16-9.jpg"
   },
   {
    "headline": "Man United's Amad scores late as Ivory Coast edge Ecuador",
