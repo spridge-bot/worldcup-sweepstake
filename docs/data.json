@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T20:57:19+00:00",
+ "generated_at": "2026-06-15T20:57:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4832,6 +4832,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: Belgium face off with Egypt; Cape Verde shock Spain in draw",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-15T20:56:26Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673693_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Bukayo Saka 'ready to go' for England World Cup opener amid Achilles worries",
    "desc": "Bukayo Saka has played down concerns over his fitness by insisting \"I'm ready to go\" on the eve of England's World Cup opener against Croatia.",
    "link": "https://www.espn.com/soccer/story/_/id/49075344/bukayo-saka-ready-go-england-world-cup-opener-amid-achilles-worries",
@@ -4870,14 +4878,6 @@
    "published": "2026-06-15T20:12:02Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673689_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Emma Hayes and Ange Postecoglou praise 'disciplined' Cape Verde after World Cup draw with Spain",
-   "desc": "Former Tottenham boss Ange Postecoglou paid tribute to Cape Verde after the African minnows held Spain to a battling goalless draw.",
-   "link": "https://www.espn.com/soccer/story/_/id/49074751/cape-verde-vs-spain-draw-world-cup-ange-postecoglu-emma-hayes",
-   "published": "2026-06-15T20:53:14Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673706_1296x729_16-9.jpg"
   }
  ]
 }
