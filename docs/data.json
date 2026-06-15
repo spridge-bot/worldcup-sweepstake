@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T06:38:45+00:00",
+ "generated_at": "2026-06-15T06:44:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4778,10 +4778,42 @@
  ],
  "news": [
   {
+   "headline": "World Cup 2026: Which players from your Premier League team are going?",
+   "desc": "Which Premier League players from your team are representing their country at the 2026 World Cup in the United States, Canada and Mexico?",
+   "link": "https://www.espn.com/soccer/story/_/id/48709856/world-cup-2026-which-players-your-premier-league-team-going",
+   "published": "2026-06-15T06:42:28Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0525/r1663354_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup 2026 referees: Complete list of officials and VAR teams",
+   "desc": "Find out who the 170 officials are for the 2026 World Cup and when will we find out who is refereeing which game?",
+   "link": "https://www.espn.com/soccer/story/_/id/48964271/world-cup-2026-referees-complete-list-officials-var-teams",
+   "published": "2026-06-15T06:41:23Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2022/1224/r1110287_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Meet England's 2026 World Cup squad: All 26 players picked by Thomas Tuchel and why",
+   "desc": "ESPN takes a look at every player named in the England squad for the 2026 World Cup.",
+   "link": "https://www.espn.com/soccer/story/_/id/48823863/meet-england-2026-world-cup-squad-26-players-picked-thomas-tuchel-why",
+   "published": "2026-06-15T06:40:33Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0522/r1661870_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Free World Cup 2026 predictor: Simulate your road to the final",
+   "desc": "Put your football knowledge to the test with ESPN's free World Cup 2026 predictor games and forecast every twist and turn of the tournament.",
+   "link": "https://www.espn.com/soccer/story/_/id/48945570/2026-fifa-world-cup-predictions-simulator",
+   "published": "2026-06-15T06:39:39Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0521/r1661625_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Yasin Ayari leads Sweden's rout of father's native Tunisia",
    "desc": "Yasin Ayari scored a brilliant brace against his father's native country to spark Sweden's historic 5-1 World Cup rout of Tunisia on Sunday in Monterrey. Mexico.",
    "link": "https://www.espn.com/soccer/story/_/id/49069118/yasin-ayari-leads-sweden-rout-father-native-tunisia",
-   "published": "2026-06-15T06:31:05Z",
+   "published": "2026-06-15T06:42:08Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673453_1296x729_16-9.jpg"
   },
@@ -4792,38 +4824,6 @@
    "published": "2026-06-15T05:30:39Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673315_608x342_16-9.jpg"
-  },
-  {
-   "headline": "FIFA World Cup 2026 stats: Amad emulates Totti with record first; Germany 3 World 2; Kamada's 89 latest in Japan history",
-   "desc": "ESPN's By The Numbers brings you best stats from the 2026 FIFA World Cup games on June 14.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066749/fifa-world-cup-2026-stats-june-15-amad-emulates-totti-record-first-germany-3-world-2-kamada-89-latest-japan-history",
-   "published": "2026-06-15T05:24:43Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673313_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily: Sweden top Group F after Netherlands-Japan draw",
-   "desc": "Relive all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T04:31:02Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673404_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Côte d'Ivoire snatch late win against Ecuador",
-   "desc": "Amad Diallo's pinpoint strike in the 90th minute gives Côte d'Ivoire an unlikely victory over Ecuador in Philadelphia.",
-   "link": "https://www.espn.com/video/clip/_/id/49067849/cote-divoire-snatch-late-win-ecuador",
-   "published": "2026-06-15T03:30:45Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS.jpg"
-  },
-  {
-   "headline": "Uruguay lands in Miami after flight delayed by paperwork issue",
-   "desc": "Uruguay arrived in South Florida on Sunday night ahead of its opening World Cup match after the team's plane was delayed for a couple of hours in Mexico due to what FIFA called \"an airline permitting error\".",
-   "link": "https://www.espn.com/soccer/story/_/id/49067481/uruguay-lands-miami-world-cup-match-flight-delayed-paperwork-issue",
-   "published": "2026-06-15T03:50:32Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673364_1296x729_16-9.jpg"
   }
  ]
 }
