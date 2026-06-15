@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T05:35:16+00:00",
+ "generated_at": "2026-06-15T12:48:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1483,8 +1483,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.07,
-    "draw": 13.0,
+    "home": 1.08,
+    "draw": 12.0,
     "away": 29.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -1508,9 +1508,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.59,
+    "home": 1.57,
     "draw": 3.95,
-    "away": 5.75,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1533,9 +1533,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 7.5,
+    "home": 8.0,
     "draw": 4.4,
-    "away": 1.47,
+    "away": 1.45,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1808,7 +1808,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.61,
+    "home": 1.59,
     "draw": 4.1,
     "away": 5.75,
     "over_under": 2.5,
@@ -1833,7 +1833,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.29,
+    "home": 1.28,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
@@ -1883,9 +1883,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.61,
+    "home": 1.62,
     "draw": 4.2,
-    "away": 5.5,
+    "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1983,9 +1983,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 1.67,
-    "draw": 4.2,
-    "away": 4.9,
+    "home": 1.71,
+    "draw": 4.1,
+    "away": 4.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2008,9 +2008,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.57,
+    "home": 1.56,
     "draw": 4.5,
-    "away": 5.5,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2433,8 +2433,8 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.3,
-    "draw": 5.5,
+    "home": 1.29,
+    "draw": 5.75,
     "away": 10.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2610,7 +2610,7 @@
    "odds": {
     "home": 9.0,
     "draw": 5.25,
-    "away": 1.36,
+    "away": 1.34,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4850,52 +4850,52 @@
  ],
  "news": [
   {
-   "headline": "7 reasons Ivory Coast will finally break their World Cup curse after triumph in 2026 opener",
-   "desc": "Beyond the three points, here are seven reasons why we're convinced that this is finally the year when the Elephants reach the knockouts.",
-   "link": "https://www.espn.com/espn/story/_/id/49068445/7-reasons-ivory-coast-break-world-cup-curse-triumph-opener-2026",
-   "published": "2026-06-15T05:30:39Z",
+   "headline": "'Finally': Norway star Erling Haaland on fulfilling World Cup dream",
+   "desc": "Erling Haaland tells ESPN he is ready to make his World Cup debut and show his love for Norway on football's biggest stage.",
+   "link": "https://www.espn.com/soccer/story/_/id/49040890/world-cup-norway-erling-haaland-best-player-interview",
+   "published": "2026-06-15T12:05:47Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673315_608x342_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0612/r1672014_1296x729_16-9.jpg"
   },
   {
-   "headline": "FIFA World Cup 2026 stats: Amad emulates Totti with record first; Germany 3 World 2; Kamada's 89 latest in Japan history",
-   "desc": "ESPN's By The Numbers brings you best stats from the 2026 FIFA World Cup games on June 14.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066749/fifa-world-cup-2026-stats-june-15-amad-emulates-totti-record-first-germany-3-world-2-kamada-89-latest-japan-history",
-   "published": "2026-06-15T05:24:43Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673313_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily: Sweden top Group F after Netherlands-Japan draw",
-   "desc": "Relive all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T04:31:02Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673404_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Côte d'Ivoire snatch late win against Ecuador",
-   "desc": "Amad Diallo's pinpoint strike in the 90th minute gives Côte d'Ivoire an unlikely victory over Ecuador in Philadelphia.",
-   "link": "https://www.espn.com/video/clip/_/id/49067849/cote-divoire-snatch-late-win-ecuador",
-   "published": "2026-06-15T03:30:45Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS.jpg"
-  },
-  {
-   "headline": "Uruguay lands in Miami after flight delayed by paperwork issue",
-   "desc": "Uruguay arrived in South Florida on Sunday night ahead of its opening World Cup match after the team's plane was delayed for a couple of hours in Mexico due to what FIFA called \"an airline permitting error\".",
-   "link": "https://www.espn.com/soccer/story/_/id/49067481/uruguay-lands-miami-world-cup-match-flight-delayed-paperwork-issue",
-   "published": "2026-06-15T03:50:32Z",
+   "headline": "Jordan Henderson: Luka Modric is the best midfielder I've faced",
+   "desc": "Jordan Henderson has praised Luka Modric as the greatest midfielder he has ever faced, ahead of England's match against Croatia on Wednesday.",
+   "link": "https://www.espn.com/soccer/story/_/id/49070517/jordan-henderson-luka-modric-best-midfielder-england-croatia-world-cup",
+   "published": "2026-06-15T11:46:03Z",
    "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673364_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673501_1296x729_16-9.jpg"
   },
   {
-   "headline": "Egypt want to show who we really are at the World Cup - Hassan",
-   "desc": "Egypt have won a record seven AFCONs but are still waiting for a win in the FIFA World Cup.",
-   "link": "https://www.espn.com/espn/story/_/id/49066974/fifa-world-cup-2026-egypt-want-show-really-hossam-hassan-coach",
-   "published": "2026-06-15T02:36:07Z",
+   "headline": "World Cup Daily Live: New Zealand's match-predicting puppy poops on live TV",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-15T11:36:33Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673476_1080x608_16-9.jpg"
+  },
+  {
+   "headline": "World Cup Last Dance: Courtois, Belgium's golden goalkeeper, gets one more go",
+   "desc": "Belgium's 'Golden Generation' were the world's No. 1 team, but didn't win a trophy to show for it. Now, Thibaut Courtois is one of the last ones left.",
+   "link": "https://www.espn.com/soccer/story/_/id/49027635/world-cup-last-dance-thibaut-courtois-belgium-golden-goalkeeper",
+   "published": "2026-06-15T11:40:56Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673503_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Rod Stewart pictured at Scotland World Cup win shortly after cancelling concert due to illness",
+   "desc": "Sir Rod Stewart was seen celebrating Scotland's World Cup win over Haiti at Gillette Stadium in Boston on Saturday night shortly after cancelling a concert due to illness.",
+   "link": "https://www.espn.com/soccer/story/_/id/49070270/rod-stewart-scotland-world-cup-win-cancelling-concert-illness",
+   "published": "2026-06-15T10:53:38Z",
    "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673346_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673491_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Explained: How a chip in the ball allowed World Cup's fastest-ever goal by a sub to stand",
+   "desc": "VAR overturned an offside decision after ruling there was a slight flick on the ball by Sweden's Alexander Isak, thanks to some technology in the ball.",
+   "link": "https://www.espn.com/soccer/story/_/id/49069867/explained-how-microchip-ball-allowed-world-cups-fastest-ever-goal-sub-stand",
+   "published": "2026-06-15T09:57:15Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673472_1296x729_16-9.jpg"
   }
  ]
 }
