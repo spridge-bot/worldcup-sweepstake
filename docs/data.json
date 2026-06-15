@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T00:56:01+00:00",
+ "generated_at": "2026-06-15T00:56:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -65,10 +65,10 @@
     "CIV",
     "HAI"
    ],
-   "total": 6,
-   "today": 6,
-   "rank": 4,
-   "movement": 3
+   "total": 8,
+   "today": 8,
+   "rank": 1,
+   "movement": 6
   },
   {
    "name": "Willo",
@@ -80,8 +80,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 4,
-   "movement": -2
+   "rank": 5,
+   "movement": -3
   },
   {
    "name": "Spridge",
@@ -130,8 +130,8 @@
     "EGY",
     "KSA"
    ],
-   "total": 3,
-   "today": 3,
+   "total": 1,
+   "today": 1,
    "rank": 9,
    "movement": -2
   },
@@ -145,8 +145,8 @@
    ],
    "total": 1,
    "today": 1,
-   "rank": 10,
-   "movement": -3
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -578,12 +578,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-14",
-     "desc": "2nd in Group E (live)",
-     "points": 3
+     "desc": "3rd in Group E (live)",
+     "points": 1
     }
    ]
   },
@@ -738,12 +738,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-14",
-     "desc": "3rd in Group E (live)",
-     "points": 1
+     "desc": "2nd in Group E (live)",
+     "points": 3
     }
    ]
   },
@@ -1101,8 +1101,8 @@
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "90'",
-   "status_detail": "90'",
+   "clock": "90'+1'",
+   "status_detail": "90'+1'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 3.25,
@@ -1116,7 +1116,7 @@
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "ECU",
@@ -3221,37 +3221,37 @@
     },
     {
      "group": "Group E",
-     "code": "ECU",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Ecuador",
-     "flag": "🇪🇨",
-     "tier": 2,
-     "owner": "Brando"
-    },
-    {
-     "group": "Group E",
      "code": "CIV",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
      "tier": 2,
      "owner": "Jen"
+    },
+    {
+     "group": "Group E",
+     "code": "ECU",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
+     "pts": 0,
+     "live": true,
+     "gd": -1,
+     "name": "Ecuador",
+     "flag": "🇪🇨",
+     "tier": 2,
+     "owner": "Brando"
     },
     {
      "group": "Group E",
