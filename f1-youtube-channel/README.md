@@ -34,6 +34,8 @@ the writing, the voice, and the edit.
 7. **[competitor-the-race.md](competitor-the-race.md)** — teardown of The Race: what to borrow, what we can't copy (footage rights, named experts), and the gap a faceless/graphics-first channel can own.
 8. **[competitor-landscape.md](competitor-landscape.md)** — what video formats win in F1, plus the faceless/graphics-led peers (Chain Bear, Aldas, Driver61, Kurzgesagt as north star) and the specific wedge between them.
 9. **[setup-api-keys.md](setup-api-keys.md)** — how to get a YouTube Data API key (and what it does/doesn't cover), transcript tools, other keys, and secret hygiene.
+10. **[competitor-data-findings.md](competitor-data-findings.md)** — findings from a live YouTube API pull (Chain Bear / Aldas / Driver61 / The Race): what their top videos actually are and the patterns to copy.
+11. **[tools/competitor_research.py](tools/competitor_research.py)** — the script behind those findings; also does topic-demand "harvest". Reads `YOUTUBE_API_KEY` from the environment.
 
 ## How to use it
 

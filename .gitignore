@@ -4,3 +4,8 @@ var/
 output/
 __pycache__/
 .DS_Store
+
+# Secrets / local env
+.env
+*.env
+f1-youtube-channel/tools/out/
