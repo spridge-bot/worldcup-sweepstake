@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T00:41:15+00:00",
+ "generated_at": "2026-06-15T00:41:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4751,6 +4751,14 @@
  ],
  "news": [
   {
+   "headline": "'Delighted' Popovic eyes U.S. after famous Türkiye upset",
+   "desc": "Tony Popovic has emphasised that the Socceroos will need to recover both physically and emotionally after their 2-0 win over Türkiye on Saturday evening, with a showdown with co-hosts the United States already firmly in his sights.",
+   "link": "https://www.espn.com/soccer/story/_/id/49059353/fifa-world-cup-tony-popovic-looks-ahead-socceroos-united-states-clash-turkiye-win",
+   "published": "2026-06-15T00:40:58Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672882_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Who has the most assists in the FIFA World Cup?",
    "desc": "Here is a look at the players with the most career assists at the FIFA World Cup since 1966.",
    "link": "https://www.espn.com/soccer/story/_/id/48779774/who-most-assists-fifa-world-cup",
@@ -4789,14 +4797,6 @@
    "published": "2026-06-14T23:47:53Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_News_Scotland_fans_march_to_Fenway_Park_with_bagpipes_in_Boston_20260614_GLOBAL_FIFA_WOR/dm_260614_COM_SOC_News_Scotland_fans_march_to_Fenway_Park_with_bagpipes_in_Boston_20260614_GLOBAL_FIFA_WOR.jpg"
-  },
-  {
-   "headline": "Instrumental against Czechia, Hwang In-Beom now has Mexico in his sights",
-   "desc": "Originally an injury doubt for the World Cup, Hwang In-Beom showed just how important he is for South Korea.",
-   "link": "https://www.espn.com/soccer/story/_/id/49042936/instrumental-czechia-hwang-beom-now-mexico-sights",
-   "published": "2026-06-14T23:48:11Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1672011_1296x729_16-9.jpg"
   }
  ]
 }
