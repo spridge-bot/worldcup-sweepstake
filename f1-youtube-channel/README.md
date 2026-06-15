@@ -32,6 +32,7 @@ the writing, the voice, and the edit.
 5. **[05-monetization-and-roadmap.md](05-monetization-and-roadmap.md)** — revenue streams, KPIs, a phased 0→12-month roadmap, risks.
 6. **[content-idea-bank.md](content-idea-bank.md)** — repeatable video templates + a starter list of evergreen and trigger-based ideas across all four pillars.
 7. **[competitor-the-race.md](competitor-the-race.md)** — teardown of The Race: what to borrow, what we can't copy (footage rights, named experts), and the gap a faceless/graphics-first channel can own.
+8. **[competitor-landscape.md](competitor-landscape.md)** — what video formats win in F1, plus the faceless/graphics-led peers (Chain Bear, Aldas, Driver61, Kurzgesagt as north star) and the specific wedge between them.
 
 ## How to use it
 
