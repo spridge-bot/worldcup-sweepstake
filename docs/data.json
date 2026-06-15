@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T03:06:22+00:00",
+ "generated_at": "2026-06-15T03:06:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "45'+4'",
-   "status_detail": "HT",
+   "clock": "46'",
+   "status_detail": "46'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -4808,7 +4808,7 @@
    "headline": "Mehdi Taremi says Team Melli playing for 'every Iranian' at WC",
    "desc": "Iran coach Amir Ghalenoei and forward Mehdi Taremi said that they will be playing for all Iranians at the FIFA World Cup, as the prospect of protests looms ahead of their opening fixture against New Zealand.",
    "link": "https://www.espn.com/soccer/story/_/id/49066875/mehdi-taremi-says-team-melli-playing-every-iranian-wc",
-   "published": "2026-06-15T03:03:42Z",
+   "published": "2026-06-15T03:05:44Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673337_1024x576_16-9.jpg"
   },
