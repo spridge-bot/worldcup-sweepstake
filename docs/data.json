@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T00:34:35+00:00",
+ "generated_at": "2026-06-15T00:35:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1101,8 +1101,8 @@
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "68'",
-   "status_detail": "68'",
+   "clock": "69'",
+   "status_detail": "69'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 3.25,
@@ -4751,6 +4751,14 @@
  ],
  "news": [
   {
+   "headline": "Who has the most assists in the FIFA World Cup?",
+   "desc": "Here is a look at the players with the most career assists at the FIFA World Cup since 1966.",
+   "link": "https://www.espn.com/soccer/story/_/id/48779774/who-most-assists-fifa-world-cup",
+   "published": "2026-06-15T00:33:49Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0401/r1637158_608x342_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Ivory Coast, Ecuador face off in Philly",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4789,14 +4797,6 @@
    "published": "2026-06-14T23:52:02Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0610/r1670841_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Curaçao coach Advocaat says heavy loss to Germany 'no disgrace'",
-   "desc": "For 37 minutes on Sunday, Curaçao stayed with four-time champion Germany, with the FIFA World Cup first-timers daring to believe they could pull off the unimaginable.",
-   "link": "https://www.espn.com/soccer/story/_/id/49065396/curacao-coach-advocaat-heavy-loss-germany-no-disgrace",
-   "published": "2026-06-14T23:39:37Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1673252_1024x576_16-9.jpg"
   }
  ]
 }
