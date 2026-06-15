@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T19:01:26+00:00",
+ "generated_at": "2026-06-15T19:01:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -110,6 +110,32 @@
    "movement": -2
   },
   {
+   "name": "Pari",
+   "teams": [
+    "BEL",
+    "URU",
+    "TUN",
+    "UZB"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 8,
+   "movement": 3
+  },
+  {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 4,
+   "today": 3,
+   "rank": 9,
+   "movement": 0
+  },
+  {
    "name": "Ruggy",
    "teams": [
     "COL",
@@ -119,8 +145,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 8,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Emily",
@@ -132,21 +158,8 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 9,
-   "movement": -1
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 1,
-   "today": 0,
-   "rank": 10,
-   "movement": -1
+   "rank": 11,
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -158,21 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": 0
-  },
-  {
-   "name": "Pari",
-   "teams": [
-    "BEL",
-    "URU",
-    "TUN",
-    "UZB"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 11,
-   "movement": 0
+   "rank": 12,
+   "movement": -1
   }
  ],
  "teams": {
@@ -350,8 +350,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-15",
+     "desc": "1st in Group G (live)",
+     "points": 5
+    }
+   ]
   },
   "GER": {
    "code": "GER",
@@ -687,8 +693,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-15",
+     "desc": "2nd in Group G (live)",
+     "points": 3
+    }
+   ]
   },
   "CAN": {
    "code": "CAN",
@@ -1113,7 +1125,38 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760426,
+   "utc": "2026-06-15T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group G",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "Lumen Field",
+   "odds": {
+    "home": 1.59,
+    "draw": 3.95,
+    "away": 5.75,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
+    "goals": 0
+   },
+   "away": {
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760428,
@@ -1448,31 +1491,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760426,
-   "utc": "2026-06-15T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "odds": {
-    "home": 1.5,
-    "draw": 4.2,
-    "away": 6.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "form": "WWDWW"
-   },
-   "away": {
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "form": "LWDWL"
-   }
-  },
   {
    "id": 760429,
    "utc": "2026-06-15T22:00:00Z",
@@ -3369,14 +3387,14 @@
     {
      "group": "Group G",
      "code": "BEL",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Belgium",
      "flag": "🇧🇪",
@@ -3386,14 +3404,14 @@
     {
      "group": "Group G",
      "code": "EGY",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Egypt",
      "flag": "🇪🇬",
