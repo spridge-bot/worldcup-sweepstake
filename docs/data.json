@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T07:05:26+00:00",
+ "generated_at": "2026-06-15T07:10:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1936,9 +1936,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.57,
+    "home": 1.56,
     "draw": 4.5,
-    "away": 5.5,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4778,6 +4778,14 @@
  ],
  "news": [
   {
+   "headline": "How a three-year search sealed USMNT's ideal World Cup base",
+   "desc": "The USMNT's base during the World Cup has everything coach Mauricio Pochettino thinks the team needs for success, after a three-year search and a late pivot.",
+   "link": "https://www.espn.com/soccer/story/_/id/49058214/how-three-year-search-sealed-usmnt-ideal-world-cup-base",
+   "published": "2026-06-15T07:05:06Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673328_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Lineker, Shearer, Owen, Rooney, Kane - is England's near half-century of world-class strikers about to end?",
    "desc": "With an elite striker having worn the Three Lions on their chest for 42 years, England have taken the position for granted - but is Harry Kane the last?",
    "link": "https://www.espn.com/soccer/story/_/id/48376236/england-world-class-strikers-harry-kane-last-world-cup-gary-lineker-alan-shearer-michael-owen-wayne-rooney",
@@ -4816,14 +4824,6 @@
    "published": "2026-06-15T06:51:53Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0605/r1668521_608x342_16-9.png"
-  },
-  {
-   "headline": "Why are there drinks breaks at the 2026 World Cup, and why has FIFA been criticised?",
-   "desc": "All 104 matches at the 2026 World Cup will stop for two \"hydration breaks.\" Why have they been stipulated by FIFA, and why have they been criticised?",
-   "link": "https://www.espn.com/soccer/story/_/id/48945011/why-there-drinks-breaks-2026-world-cup-fifa-criticised",
-   "published": "2026-06-15T06:51:13Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0602/r1667047_1296x729_16-9.jpg"
   }
  ]
 }
