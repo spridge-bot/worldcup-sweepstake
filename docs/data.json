@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T18:55:19+00:00",
+ "generated_at": "2026-06-15T18:58:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1454,8 +1454,8 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.5,
-    "draw": 4.1,
+    "home": 1.51,
+    "draw": 4.2,
     "away": 6.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -4814,20 +4814,20 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: Belgium face off with Egypt; Cape Verde shock Spain in draw",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-15T18:55:09Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673693_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Burley: Cape Verde couldn't have given a better account of themselves",
    "desc": "Burley: Cape Verde couldn't have given a better account of themselves",
    "link": "https://www.espn.com/video/clip/_/id/49074398/cape-verde-given-better-account",
    "published": "2026-06-15T18:48:43Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Burley_Cape_Verde_couldnt_have_given_a_better_account_of_themselves/dm_260615_Burley_Cape_Verde_couldnt_have_given_a_better_account_of_themselves.jpg"
-  },
-  {
-   "headline": "World Cup Daily Live: Cape Verde shock the world with draw vs. Spain",
-   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-15T18:21:35Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673661_1296x729_16-9.jpg"
   },
   {
    "headline": "Burley slams 'extremely pedestrian' Spain after Cape Verde draw",
