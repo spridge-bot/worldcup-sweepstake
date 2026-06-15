@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T19:19:50+00:00",
+ "generated_at": "2026-06-15T19:20:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4625,6 +4625,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Emam Ashour",
+   "team": "EGY",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇪🇬",
+   "owner": "Brando"
+  },
+  {
    "player": "Felix Nmecha",
    "team": "GER",
    "goals": 1,
@@ -4647,14 +4655,6 @@
    "assists": 0,
    "flag": "🇰🇷",
    "owner": "Ruggy"
-  },
-  {
-   "player": "Ismael Saibari",
-   "team": "MAR",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇲🇦",
-   "owner": "Willo"
   }
  ],
  "fairplay": [
