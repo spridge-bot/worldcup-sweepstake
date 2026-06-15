@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T05:23:12+00:00",
+ "generated_at": "2026-06-15T05:28:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1961,8 +1961,8 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.11,
-    "draw": 10.0,
+    "home": 1.1,
+    "draw": 10.5,
     "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -4778,6 +4778,14 @@
  ],
  "news": [
   {
+   "headline": "FIFA World Cup 2026 stats: Amad emulates Totti with record first; Germany 3 World 2; Kamada's 89 latest in Japan history",
+   "desc": "ESPN's By The Numbers brings you best stats from the 2026 FIFA World Cup games on June 14.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066749/fifa-world-cup-2026-stats-june-15-amad-emulates-totti-record-first-germany-3-world-2-kamada-89-latest-japan-history",
+   "published": "2026-06-15T05:24:43Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673313_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily: Sweden top Group F after Netherlands-Japan draw",
    "desc": "Relive all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4816,14 +4824,6 @@
    "published": "2026-06-15T04:10:04Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673337_1024x576_16-9.jpg"
-  },
-  {
-   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
-   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
-   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-   "published": "2026-06-15T02:10:09Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
   }
  ]
 }
