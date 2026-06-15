@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T07:37:52+00:00",
+ "generated_at": "2026-06-15T18:39:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -32,6 +32,19 @@
    "movement": 5
   },
   {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 9,
+   "today": 3,
+   "rank": 2,
+   "movement": 2
+  },
+  {
    "name": "Dipen",
    "teams": [
     "POR",
@@ -41,8 +54,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 2,
-   "movement": -1
+   "rank": 3,
+   "movement": -2
   },
   {
    "name": "George",
@@ -54,8 +67,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 2,
-   "movement": -1
+   "rank": 3,
+   "movement": -2
   },
   {
    "name": "Glancy",
@@ -67,21 +80,21 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 2,
-   "movement": -1
+   "rank": 3,
+   "movement": -2
   },
   {
-   "name": "Jen",
+   "name": "Dubs",
    "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
    ],
    "total": 6,
-   "today": 0,
-   "rank": 5,
-   "movement": -1
+   "today": 5,
+   "rank": 6,
+   "movement": 3
   },
   {
    "name": "Willo",
@@ -93,8 +106,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 5,
-   "movement": -1
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -106,8 +119,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 7,
-   "movement": 0
+   "rank": 8,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -119,8 +132,8 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 9,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -132,21 +145,8 @@
    ],
    "total": 1,
    "today": 0,
-   "rank": 9,
-   "movement": 0
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 1,
-   "today": 0,
-   "rank": 9,
-   "movement": 0
+   "rank": 10,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -201,14 +201,20 @@
    "fifa_rank": 2,
    "owner": "Jen",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-15",
+     "desc": "2nd in Group H (live)",
+     "points": 3
+    }
+   ]
   },
   "FRA": {
    "code": "FRA",
@@ -1023,14 +1029,20 @@
    "fifa_rank": 55,
    "owner": "Dubs",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-15",
+     "desc": "1st in Group H (live)",
+     "points": 5
+    }
+   ]
   },
   "GHA": {
    "code": "GHA",
@@ -1103,6 +1115,37 @@
  },
  "live": [],
  "results": [
+  {
+   "id": 760428,
+   "date": "2026-06-15",
+   "utc": "2026-06-15T16:00:00Z",
+   "stage": "Group stage",
+   "group": "Group H",
+   "note": "",
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "tier": 1,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
+   "odds": {
+    "home": 1.08,
+    "draw": 13.0,
+    "away": 26.0,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   }
+  },
   {
    "id": 760424,
    "date": "2026-06-15",
@@ -1406,39 +1449,14 @@
  ],
  "upcoming": [
   {
-   "id": 760428,
-   "utc": "2026-06-15T16:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "odds": {
-    "home": 1.08,
-    "draw": 12.0,
-    "away": 29.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WDDWD"
-   },
-   "away": {
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "form": "WWLLL"
-   }
-  },
-  {
    "id": 760426,
    "utc": "2026-06-15T19:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.59,
-    "draw": 3.95,
-    "away": 5.75,
+    "home": 1.51,
+    "draw": 4.1,
+    "away": 6.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1461,9 +1479,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 8.0,
-    "draw": 4.4,
-    "away": 1.45,
+    "home": 8.5,
+    "draw": 4.5,
+    "away": 1.43,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1486,9 +1504,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.95,
-    "draw": 3.3,
-    "away": 4.4,
+    "home": 1.8,
+    "draw": 3.5,
+    "away": 5.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1511,8 +1529,8 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.48,
-    "draw": 4.4,
+    "home": 1.47,
+    "draw": 4.5,
     "away": 7.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1561,9 +1579,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.39,
+    "home": 1.41,
     "draw": 4.6,
-    "away": 9.5,
+    "away": 9.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1586,9 +1604,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.34,
+    "home": 1.36,
     "draw": 5.25,
-    "away": 9.0,
+    "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1611,7 +1629,7 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.29,
+    "home": 1.28,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
@@ -1662,7 +1680,7 @@
    "group": "Group L",
    "odds": {
     "home": 2.2,
-    "draw": 3.45,
+    "draw": 3.35,
     "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1686,9 +1704,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 9.0,
-    "draw": 4.7,
-    "away": 1.39,
+    "home": 9.5,
+    "draw": 4.8,
+    "away": 1.38,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1736,9 +1754,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.61,
-    "draw": 4.1,
-    "away": 5.75,
+    "home": 1.57,
+    "draw": 4.2,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1788,7 +1806,7 @@
    "odds": {
     "home": 2.0,
     "draw": 3.35,
-    "away": 4.2,
+    "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1863,7 +1881,7 @@
    "odds": {
     "home": 1.1,
     "draw": 11.0,
-    "away": 21.0,
+    "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -1936,8 +1954,8 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.56,
-    "draw": 4.5,
+    "home": 1.54,
+    "draw": 4.6,
     "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -1962,8 +1980,8 @@
    "group": "Group E",
    "odds": {
     "home": 1.1,
-    "draw": 10.5,
-    "away": 23.0,
+    "draw": 11.0,
+    "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2011,9 +2029,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.1,
-    "draw": 11.0,
-    "away": 23.0,
+    "home": 1.08,
+    "draw": 12.0,
+    "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2021,7 +2039,7 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": "WDDWD"
+    "form": "DWDDW"
    },
    "away": {
     "name": "Saudi Arabia",
@@ -2061,8 +2079,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.44,
-    "draw": 4.6,
+    "home": 1.45,
+    "draw": 4.5,
     "away": 7.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2077,7 +2095,7 @@
     "name": "Cabo Verde",
     "flag": "🇨🇻",
     "owner": "Dubs",
-    "form": "WWLLL"
+    "form": "DWWLL"
    }
   },
   {
@@ -2361,8 +2379,8 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.3,
-    "draw": 5.5,
+    "home": 1.29,
+    "draw": 5.75,
     "away": 10.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2461,9 +2479,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 16.0,
-    "draw": 8.0,
-    "away": 1.17,
+    "home": 19.0,
+    "draw": 9.0,
+    "away": 1.14,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2536,9 +2554,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 9.0,
-    "draw": 5.25,
-    "away": 1.34,
+    "home": 9.5,
+    "draw": 5.5,
+    "away": 1.32,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3424,19 +3442,36 @@
     {
      "group": "Group H",
      "code": "CPV",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
+     "pts": 1,
      "live": false,
      "gd": 0,
      "name": "Cabo Verde",
      "flag": "🇨🇻",
      "tier": 3,
      "owner": "Dubs"
+    },
+    {
+     "group": "Group H",
+     "code": "ESP",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
+     "name": "Spain",
+     "flag": "🇪🇸",
+     "tier": 1,
+     "owner": "Jen"
     },
     {
      "group": "Group H",
@@ -3454,23 +3489,6 @@
      "flag": "🇸🇦",
      "tier": 3,
      "owner": "Brando"
-    },
-    {
-     "group": "Group H",
-     "code": "ESP",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Spain",
-     "flag": "🇪🇸",
-     "tier": 1,
-     "owner": "Jen"
     },
     {
      "group": "Group H",
@@ -4713,6 +4731,15 @@
    "pts": 2
   },
   {
+   "code": "CPV",
+   "name": "Cabo Verde",
+   "flag": "🇨🇻",
+   "owner": "Dubs",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
    "code": "ECU",
    "name": "Ecuador",
    "flag": "🇪🇨",
@@ -4735,6 +4762,15 @@
    "name": "South Korea",
    "flag": "🇰🇷",
    "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "ESP",
+   "name": "Spain",
+   "flag": "🇪🇸",
+   "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
@@ -4778,52 +4814,52 @@
  ],
  "news": [
   {
-   "headline": "How a three-year search sealed USMNT's ideal World Cup base",
-   "desc": "The USMNT's base during the World Cup has everything coach Mauricio Pochettino thinks the team needs for success, after a three-year search and a late pivot.",
-   "link": "https://www.espn.com/soccer/story/_/id/49058214/how-three-year-search-sealed-usmnt-ideal-world-cup-base",
-   "published": "2026-06-15T07:05:06Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673328_1296x729_16-9.jpg"
+   "headline": "Burley: Cape Verde couldn't have given a better account of themselves",
+   "desc": "Burley: Cape Verde couldn't have given a better account of themselves",
+   "link": "https://www.espn.com/video/clip/_/id/49074398/cape-verde-given-better-account",
+   "published": "2026-06-15T18:36:54Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Burley_Cape_Verde_couldnt_have_given_a_better_account_of_themselves/dm_260615_Burley_Cape_Verde_couldnt_have_given_a_better_account_of_themselves.jpg"
   },
   {
-   "headline": "Lineker, Shearer, Owen, Rooney, Kane - is England's near half-century of world-class strikers about to end?",
-   "desc": "With an elite striker having worn the Three Lions on their chest for 42 years, England have taken the position for granted - but is Harry Kane the last?",
-   "link": "https://www.espn.com/soccer/story/_/id/48376236/england-world-class-strikers-harry-kane-last-world-cup-gary-lineker-alan-shearer-michael-owen-wayne-rooney",
-   "published": "2026-06-15T07:01:58Z",
+   "headline": "World Cup Daily Live: Cape Verde shock the world with draw vs. Spain",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-15T18:21:35Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0602/r1667141_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673661_1296x729_16-9.jpg"
   },
   {
-   "headline": "Why Michael Olise is the key to France's World Cup chances",
-   "desc": "France manager Didier Deschamps took an eternity to finally call Michael Olise up to the France senior side, but now it's all eyes on the Bayern Munich star.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066914/michael-olise-key-france-world-cup-chances",
-   "published": "2026-06-15T07:02:05Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673336_1296x729_16-9.jpg"
+   "headline": "Burley slams 'extremely pedestrian' Spain after Cape Verde draw",
+   "desc": "Burley slams 'extremely pedestrian' Spain after Cape Verde draw",
+   "link": "https://www.espn.com/video/clip/_/id/49074141/burley-slams-extremely-pedestrian-spain-cape-verde-draw",
+   "published": "2026-06-15T18:19:48Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Burley_slams_extremely_pedestrian_Spain_after_Cape_Verde_draw/dm_260615_Burley_slams_extremely_pedestrian_Spain_after_Cape_Verde_draw.jpg"
   },
   {
-   "headline": "Key issues for England at 2026 World Cup: Fatigue, fitness and do Gordon, Stones start?",
-   "desc": "England boss Thomas Tuchel will need to deal with fitness problems, varying conditions and selection quandaries, writes Tom Hamilton.",
-   "link": "https://www.espn.com/soccer/story/_/id/49041738/key-issues-england-2026-world-cup-bukayo-saka-anthony-gordon-jude-bellingham",
-   "published": "2026-06-15T06:52:51Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1671976_1296x729_16-9.jpg"
+   "headline": "Spain frustrated by heroic Cape Verde in World Cup opener",
+   "desc": "",
+   "link": "http://www.espn.com/soccer/report/_/gameId/760428",
+   "published": "2026-06-15T18:10:33Z",
+   "type": "Recap",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673657_1296x729_16-9.jpg"
   },
   {
-   "headline": "Democratic concepts, authentic storytelling and nostalgia: What makes a good World Cup jersey?",
-   "desc": "There are some incredible designs and colours on display at the 2026 World Cup. So, what makes a World Cup jersey iconic?",
-   "link": "https://www.espn.com/soccer/story/_/id/49027527/world-cup-2026-makes-good-jersey-democratic-concepts-authentic-storytelling-nostalgia",
-   "published": "2026-06-15T06:52:31Z",
+   "headline": "Why are there hydration breaks at the 2026 World Cup, and why has FIFA been criticised?",
+   "desc": "All 104 matches at the 2026 World Cup are stopping for two hydration breaks. Why have they been stipulated by FIFA, and why have they been criticised?",
+   "link": "https://www.espn.com/soccer/story/_/id/48945011/why-there-drinks-breaks-2026-world-cup-fifa-criticised",
+   "published": "2026-06-15T17:36:05Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0611/r1671171_1296x729_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673607_1296x729_16-9.jpg"
   },
   {
-   "headline": "World Cup 2026: Can Lionel Messi and Cristiano Ronaldo finally meet on biggest stage?",
-   "desc": "In a sixth World Cup for Lionel Messi and Cristiano Ronaldo, could the pair finally face each other in the tournament?",
-   "link": "https://www.espn.com/soccer/story/_/id/48972466/world-cup-2026-lionel-messi-cristiano-ronaldo-showdown-knockouts-argentina-portugal",
-   "published": "2026-06-15T06:51:53Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0605/r1668521_608x342_16-9.png"
+   "headline": "Would Amorim at Milan be good news for Christian Pulisic?",
+   "desc": "Would Amorim at Milan be good news for Christian Pulisic?",
+   "link": "https://www.espn.com/video/clip/_/id/49073641/would-amorim-milan-good-news-christian-pulisic",
+   "published": "2026-06-15T17:36:45Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Would_Amorim_at_Milan_be_good_news_for_Christian_Pulisic/dm_260615_Would_Amorim_at_Milan_be_good_news_for_Christian_Pulisic.jpg"
   }
  ]
 }
