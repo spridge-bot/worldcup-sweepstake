@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T19:45:31+00:00",
+ "generated_at": "2026-06-15T19:46:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4842,6 +4842,14 @@
    "image": "https://a.espncdn.com/photo/2026/0615/r1673706_1296x729_16-9.jpg"
   },
   {
+   "headline": "USMNT's Christian Pulisic (calf) trains apart; Pochettino says he's 'good'",
+   "desc": "United States men's national team attacker Christian Pulisic trained off to the side at Monday's practice session as he attempts to recover from a calf injury he first sustained in training last week.",
+   "link": "https://www.espn.com/soccer/story/_/id/49074718/usmnt-christian-pulisic-calf-trains-apart-pochettino-says-good",
+   "published": "2026-06-15T19:45:00Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673708_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Spain held by 64th-ranked Cape Verde in 1st major World Cup shock",
    "desc": "Spain were held to a 0-0 draw by 64th-ranked Cape Verde on Monday in the first major shock of the World Cup group stage.",
    "link": "https://www.espn.com/soccer/story/_/id/49073839/spain-held-64th-ranked-cape-verde-1st-major-world-cup-shock",
@@ -4864,14 +4872,6 @@
    "published": "2026-06-15T18:19:48Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Burley_slams_extremely_pedestrian_Spain_after_Cape_Verde_draw/dm_260615_Burley_slams_extremely_pedestrian_Spain_after_Cape_Verde_draw.jpg"
-  },
-  {
-   "headline": "Spain frustrated by Cape Verde in World Cup opener",
-   "desc": "Cape Verde pulled off the shock of the 2026 World Cup thus far as they held European champions Spain to a battling goalless draw in their Group H opener in Atlanta.",
-   "link": "http://www.espn.com/soccer/report/_/gameId/760428",
-   "published": "2026-06-15T19:43:24Z",
-   "type": "Recap",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673657_1296x729_16-9.jpg"
   }
  ]
 }
