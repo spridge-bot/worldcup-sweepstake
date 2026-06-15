@@ -33,6 +33,7 @@ the writing, the voice, and the edit.
 6. **[content-idea-bank.md](content-idea-bank.md)** — repeatable video templates + a starter list of evergreen and trigger-based ideas across all four pillars.
 7. **[competitor-the-race.md](competitor-the-race.md)** — teardown of The Race: what to borrow, what we can't copy (footage rights, named experts), and the gap a faceless/graphics-first channel can own.
 8. **[competitor-landscape.md](competitor-landscape.md)** — what video formats win in F1, plus the faceless/graphics-led peers (Chain Bear, Aldas, Driver61, Kurzgesagt as north star) and the specific wedge between them.
+9. **[setup-api-keys.md](setup-api-keys.md)** — how to get a YouTube Data API key (and what it does/doesn't cover), transcript tools, other keys, and secret hygiene.
 
 ## How to use it
 
