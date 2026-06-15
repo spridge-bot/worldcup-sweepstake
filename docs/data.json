@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T03:27:44+00:00",
+ "generated_at": "2026-06-15T03:28:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "66'",
-   "status_detail": "66'",
+   "clock": "67'",
+   "status_detail": "67'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -4781,14 +4781,6 @@
  ],
  "news": [
   {
-   "headline": "World Cup Daily LIVE: Sweden beating Tunisia 2-1 in fiery battle",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T03:02:54Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673374_1296x729_16-9.jpg"
-  },
-  {
    "headline": "Uruguay lands in Miami after flight delayed by paperwork issue",
    "desc": "Uruguay arrived in South Florida on Sunday night ahead of its opening World Cup match after the team's plane was delayed for a couple of hours in Mexico due to what FIFA called \"an airline permitting error\".",
    "link": "https://www.espn.com/soccer/story/_/id/49067481/uruguay-lands-miami-world-cup-match-flight-delayed-paperwork-issue",
@@ -4827,6 +4819,14 @@
    "published": "2026-06-15T01:57:51Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_News_Onuoha_praises_Diomandes_impact_in_Ivory_Coasts_win_over_Ecuador_20260614_GLOBAL/dm_260614_COM_SOC_News_Onuoha_praises_Diomandes_impact_in_Ivory_Coasts_win_over_Ecuador_20260614_GLOBAL.jpg"
+  },
+  {
+   "headline": "Japan rescue point against Netherlands with late header",
+   "desc": "Daichi Kamada rises in the 89th minute to earn Japan a 2-2 draw with Group F favourites the Netherlands in Dallas.",
+   "link": "https://www.espn.com/video/clip/_/id/49066733/japan-rescue-point-netherlands-late-header",
+   "published": "2026-06-15T01:32:10Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/Int_260614_Soccer_HIGHLIGHT_Japan_rescue_point_against_Netherlands_with_late_header_2026615_AUS/Int_260614_Soccer_HIGHLIGHT_Japan_rescue_point_against_Netherlands_with_late_header_2026615_AUS.jpg"
   }
  ]
 }
