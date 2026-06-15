@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T01:20:43+00:00",
+ "generated_at": "2026-06-15T01:25:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1936,9 +1936,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.51,
-    "draw": 4.7,
-    "away": 6.0,
+    "home": 1.57,
+    "draw": 4.5,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4769,6 +4769,22 @@
  ],
  "news": [
   {
+   "headline": "Man United's Amad scores late as Ivory Coast edge Ecuador",
+   "desc": "A late goal from Amad Diallo earned the Ivory Coast a 1-0 win in and end-to-end opening World Cup clash with Ecuador in Philadelphia.",
+   "link": "http://www.espn.com/soccer/report/_/gameId/760423",
+   "published": "2026-06-15T01:20:54Z",
+   "type": "Recap",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673315_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Jameis Winston helps Japan's fans clean up after World Cup match",
+   "desc": "In each of their World Cup appearances, Japanese fans have cleaned up their section following their matches and Jameis Winston joined in with them Sunday.",
+   "link": "https://www.espn.com/nfl/story/_/id/49066052/jameis-winston-japanese-fans-clean-world-cup-2026-match-new-york-giants",
+   "published": "2026-06-15T01:19:25Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673274_608x342_16-9.jpg"
+  },
+  {
    "headline": "Socceroos World Cup Daily: Ranking the Türkiye win -- Australia's greatest ever?",
    "desc": "Join Joey Lynch and Alex Hatzikostas each day as they go behind the scenes in the Socceroos camp and give the inside word on all the action at the 2026 FIFA World Cup.",
    "link": "https://www.espn.com/soccer/story/_/id/48811876/socceroos-world-cup-daily-news-updates-all-need-know",
@@ -4799,22 +4815,6 @@
    "published": "2026-06-15T00:58:57Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673294_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "'Delighted' Popovic eyes U.S. after famous Türkiye upset",
-   "desc": "Tony Popovic has emphasised that the Socceroos will need to recover both physically and emotionally after their 2-0 win over Türkiye on Saturday evening, with a showdown with co-hosts the United States already firmly in his sights.",
-   "link": "https://www.espn.com/soccer/story/_/id/49059353/fifa-world-cup-tony-popovic-looks-ahead-socceroos-united-states-clash-turkiye-win",
-   "published": "2026-06-15T00:44:34Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0614/r1672882_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Who has the most assists in the FIFA World Cup?",
-   "desc": "Here is a look at the players with the most career assists at the FIFA World Cup since 1966.",
-   "link": "https://www.espn.com/soccer/story/_/id/48779774/who-most-assists-fifa-world-cup",
-   "published": "2026-06-15T00:33:49Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0401/r1637158_608x342_16-9.jpg"
   }
  ]
 }
