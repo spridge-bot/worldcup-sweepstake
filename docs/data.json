@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T01:04:44+00:00",
+ "generated_at": "2026-06-15T01:05:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -572,12 +572,12 @@
    "fifa_rank": 23,
    "owner": "Brando",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 1,
    "total": 1,
    "events": [
     {
@@ -732,11 +732,11 @@
    "fifa_rank": 33,
    "owner": "Jen",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 1,
    "ga": 0,
    "total": 3,
    "events": [
@@ -1095,39 +1095,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760423,
+   "date": "2026-06-14",
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "90'+8'",
-   "status_detail": "90'+8'",
-   "venue": "Lincoln Financial Field",
+   "note": "",
+   "home": {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 3.25,
     "draw": 3.0,
     "away": 2.5,
     "over_under": 1.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CIV",
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "goals": 1
-   },
-   "away": {
-    "code": "ECU",
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "owner": "Brando",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760425,
    "date": "2026-06-14",
@@ -1952,7 +1952,7 @@
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "form": "WWWLW"
+    "form": "WWWWL"
    }
   },
   {
@@ -1961,8 +1961,8 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.11,
-    "draw": 10.5,
+    "home": 1.1,
+    "draw": 11.0,
     "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -1971,7 +1971,7 @@
     "name": "Ecuador",
     "flag": "🇪🇨",
     "owner": "Brando",
-    "form": "WWDDW"
+    "form": "LWWDD"
    },
    "away": {
     "name": "Curaçao",
@@ -2477,7 +2477,7 @@
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "form": "WWWLW"
+    "form": "WWWWL"
    }
   },
   {
@@ -2496,7 +2496,7 @@
     "name": "Ecuador",
     "flag": "🇪🇨",
     "owner": "Brando",
-    "form": "WWDDW"
+    "form": "LWWDD"
    },
    "away": {
     "name": "Germany",
@@ -3229,7 +3229,7 @@
      "gf": 1,
      "ga": 0,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 1,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
@@ -3246,7 +3246,7 @@
      "gf": 0,
      "ga": 1,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "Ecuador",
      "flag": "🇪🇨",
@@ -4659,6 +4659,15 @@
    "pts": 3
   },
   {
+   "code": "CIV",
+   "name": "Ivory Coast",
+   "flag": "🇨🇮",
+   "owner": "Jen",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "NED",
    "name": "Netherlands",
    "flag": "🇳🇱",
@@ -4702,6 +4711,15 @@
    "yellow": 2,
    "red": 0,
    "pts": 2
+  },
+  {
+   "code": "ECU",
+   "name": "Ecuador",
+   "flag": "🇪🇨",
+   "owner": "Brando",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
   },
   {
    "code": "HAI",
