@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T02:44:34+00:00",
+ "generated_at": "2026-06-15T02:45:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1129,7 +1129,7 @@
     "name": "Tunisia",
     "flag": "🇹🇳",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3295,10 +3295,10 @@
      "d": 0,
      "l": 0,
      "gf": 2,
-     "ga": 0,
+     "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 2,
+     "gd": 1,
      "name": "Sweden",
      "flag": "🇸🇪",
      "tier": 2,
@@ -3345,11 +3345,11 @@
      "w": 0,
      "d": 0,
      "l": 1,
-     "gf": 0,
+     "gf": 1,
      "ga": 2,
      "pts": 0,
      "live": true,
-     "gd": -2,
+     "gd": -1,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
