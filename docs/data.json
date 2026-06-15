@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T01:25:54+00:00",
+ "generated_at": "2026-06-15T01:31:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4769,10 +4769,18 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Ivory Coast beat Ecuador, Sweden-Tunisia up next",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-15T01:26:08Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673313_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Man United's Amad scores late as Ivory Coast edge Ecuador",
    "desc": "A late goal from Amad Diallo earned the Ivory Coast a 1-0 win in and end-to-end opening World Cup clash with Ecuador in Philadelphia.",
    "link": "http://www.espn.com/soccer/report/_/gameId/760423",
-   "published": "2026-06-15T01:20:54Z",
+   "published": "2026-06-15T01:25:59Z",
    "type": "Recap",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673315_1296x729_16-9.jpg"
   },
@@ -4791,14 +4799,6 @@
    "published": "2026-06-15T01:15:18Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672837_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Ivory Coast beat Ecuador, Sweden-Tunisia up next",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T01:10:28Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673313_1296x729_16-9.jpg"
   },
   {
    "headline": "Cape Verde will play 'without fear' against Spain in 'amazing' FIFA World Cup debut",
