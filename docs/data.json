@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T20:30:02+00:00",
+ "generated_at": "2026-06-15T20:30:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -84,19 +84,6 @@
    "movement": -2
   },
   {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 6,
-   "today": 5,
-   "rank": 6,
-   "movement": 3
-  },
-  {
    "name": "Dubs",
    "teams": [
     "CRO",
@@ -123,6 +110,32 @@
    "movement": -2
   },
   {
+   "name": "Pari",
+   "teams": [
+    "BEL",
+    "URU",
+    "TUN",
+    "UZB"
+   ],
+   "total": 5,
+   "today": 5,
+   "rank": 8,
+   "movement": 3
+  },
+  {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 4,
+   "today": 3,
+   "rank": 9,
+   "movement": 0
+  },
+  {
    "name": "Ruggy",
    "teams": [
     "COL",
@@ -145,8 +158,8 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 10,
-   "movement": -2
+   "rank": 11,
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -158,21 +171,8 @@
    ],
    "total": 0,
    "today": 0,
-   "rank": 11,
-   "movement": 0
-  },
-  {
-   "name": "Pari",
-   "teams": [
-    "BEL",
-    "URU",
-    "TUN",
-    "UZB"
-   ],
-   "total": 0,
-   "today": 0,
-   "rank": 11,
-   "movement": 0
+   "rank": 12,
+   "movement": -1
   }
  ],
  "teams": {
@@ -350,8 +350,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-15",
+     "desc": "1st in Group G (live)",
+     "points": 5
+    }
+   ]
   },
   "GER": {
    "code": "GER",
@@ -687,12 +693,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-15",
-     "desc": "1st in Group G (live)",
-     "points": 5
+     "desc": "2nd in Group G (live)",
+     "points": 3
     }
    ]
   },
@@ -1125,8 +1131,8 @@
    "utc": "2026-06-15T19:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "67'",
-   "status_detail": "67'",
+   "clock": "68'",
+   "status_detail": "68'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.59,
@@ -1140,7 +1146,7 @@
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "EGY",
@@ -3380,16 +3386,33 @@
    "rows": [
     {
      "group": "Group G",
-     "code": "EGY",
+     "code": "BEL",
      "p": 1,
-     "w": 1,
-     "d": 0,
+     "w": 0,
+     "d": 1,
      "l": 0,
      "gf": 1,
-     "ga": 0,
-     "pts": 3,
+     "ga": 1,
+     "pts": 1,
      "live": true,
-     "gd": 1,
+     "gd": 0,
+     "name": "Belgium",
+     "flag": "🇧🇪",
+     "tier": 1,
+     "owner": "Pari"
+    },
+    {
+     "group": "Group G",
+     "code": "EGY",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
+     "live": true,
+     "gd": 0,
      "name": "Egypt",
      "flag": "🇪🇬",
      "tier": 2,
@@ -3428,23 +3451,6 @@
      "flag": "🇳🇿",
      "tier": 3,
      "owner": "Willo"
-    },
-    {
-     "group": "Group G",
-     "code": "BEL",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
-     "ga": 1,
-     "pts": 0,
-     "live": true,
-     "gd": -1,
-     "name": "Belgium",
-     "flag": "🇧🇪",
-     "tier": 1,
-     "owner": "Pari"
     }
    ]
   },
