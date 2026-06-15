@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T03:50:20+00:00",
+ "generated_at": "2026-06-15T03:50:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "89'",
-   "status_detail": "89'",
+   "clock": "90'",
+   "status_detail": "90'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -4781,6 +4781,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Sweden dominating Tunisia",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-15T03:49:52Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673397_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Côte d'Ivoire snatch late win against Ecuador",
    "desc": "Amad Diallo's pinpoint strike in the 90th minute gives Côte d'Ivoire an unlikely victory over Ecuador in Philadelphia.",
    "link": "https://www.espn.com/video/clip/_/id/49067849/cote-divoire-snatch-late-win-ecuador",
@@ -4789,18 +4797,10 @@
    "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS.jpg"
   },
   {
-   "headline": "World Cup Daily LIVE: Gyökeres restores Sweden's two-goal buffer",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T03:27:45Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673397_1296x729_16-9.jpg"
-  },
-  {
    "headline": "Uruguay lands in Miami after flight delayed by paperwork issue",
    "desc": "Uruguay arrived in South Florida on Sunday night ahead of its opening World Cup match after the team's plane was delayed for a couple of hours in Mexico due to what FIFA called \"an airline permitting error\".",
    "link": "https://www.espn.com/soccer/story/_/id/49067481/uruguay-lands-miami-world-cup-match-flight-delayed-paperwork-issue",
-   "published": "2026-06-15T02:52:06Z",
+   "published": "2026-06-15T03:49:49Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673364_1296x729_16-9.jpg"
   },
