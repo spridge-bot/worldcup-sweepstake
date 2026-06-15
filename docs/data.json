@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T03:48:13+00:00",
+ "generated_at": "2026-06-15T03:48:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "87'",
-   "status_detail": "87'",
+   "clock": "88'",
+   "status_detail": "88'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -1122,7 +1122,7 @@
     "name": "Sweden",
     "flag": "🇸🇪",
     "owner": "Spridge",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "TUN",
@@ -3294,11 +3294,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 2,
+     "gd": 3,
      "name": "Sweden",
      "flag": "🇸🇪",
      "tier": 2,
@@ -3346,10 +3346,10 @@
      "d": 0,
      "l": 1,
      "gf": 1,
-     "ga": 3,
+     "ga": 4,
      "pts": 0,
      "live": true,
-     "gd": -2,
+     "gd": -3,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
