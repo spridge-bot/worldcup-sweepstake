@@ -1560,7 +1560,7 @@ function renderNews(d) {
       ${a.image ? `<img loading="lazy" src="${esc(a.image)}" alt="">` : ''}
       <div class="ni-body"><div class="ni-head">${esc(a.headline)}</div>
         ${a.desc ? `<div class="ni-desc">${esc(a.desc.slice(0, 140))}${a.desc.length > 140 ? '…' : ''}</div>` : ''}
-        <div class="ni-meta"><span>ESPN${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
+        <div class="ni-meta"><span>${esc(a.source || 'BBC Sport')}${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
   };
   const highlightCard = s => {
     const mod = s.live ? ' live' : s.sweep ? ' sweep' : s.big ? ' big' : ' result';
