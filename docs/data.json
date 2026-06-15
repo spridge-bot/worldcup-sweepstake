@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T02:35:00+00:00",
+ "generated_at": "2026-06-15T02:35:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "33'",
-   "status_detail": "33'",
+   "clock": "34'",
+   "status_detail": "34'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -1998,9 +1998,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 5.75,
+    "home": 6.0,
     "draw": 3.85,
-    "away": 1.65,
+    "away": 1.62,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
