@@ -454,13 +454,24 @@ API_ENDPOINTS = {
 
 
 def harvest_api(espn_id, sofa_id, codes, teams, out):
+    ent = out.get(str(espn_id), {})
+    # keep the request volume low so Sofascore doesn't rate-limit/403 us: always
+    # refresh the fast-changing endpoints, but capture the heavy/static ones once
+    skip = set()
+    if ent.get("lineups"):
+        skip.add("lineups")
+    if ent.get("shots"):
+        skip.add("shotmap")
+    if ent.get("positions"):
+        skip.add("average-positions")
     payloads = {}
     for short, ep in API_ENDPOINTS.items():
+        if short in skip:
+            continue
         try:
             payloads[short] = sofa_get(f"/event/{sofa_id}/{ep}")
         except Exception:
             pass
-    ent = out.get(str(espn_id), {})
     ent.update({"sofa_id": str(sofa_id),
                 "updated": datetime.now(timezone.utc).isoformat(timespec="seconds")})
     got = apply_payloads(ent, payloads, espn_id, codes, teams)
