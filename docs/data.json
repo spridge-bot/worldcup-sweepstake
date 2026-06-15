@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T02:07:30+00:00",
+ "generated_at": "2026-06-15T02:07:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1107,8 +1107,8 @@
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "6'",
-   "status_detail": "6'",
+   "clock": "7'",
+   "status_detail": "7'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 1.91,
@@ -4784,7 +4784,7 @@
    "headline": "World Cup Daily LIVE: Sweden take on Tunisia in Monterrey",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T02:05:57Z",
+   "published": "2026-06-15T02:06:54Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673342_1296x729_16-9.jpg"
   },
