@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T21:40:21+00:00",
+ "generated_at": "2026-06-15T21:45:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1498,8 +1498,8 @@
    "group": "Group H",
    "odds": {
     "home": 8.0,
-    "draw": 4.4,
-    "away": 1.44,
+    "draw": 4.3,
+    "away": 1.47,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4850,10 +4850,18 @@
  ],
  "news": [
   {
-   "headline": "Should Spain start Lamine Yamal against Uruguay?",
-   "desc": "Should Spain start Lamine Yamal against Uruguay?",
-   "link": "https://www.espn.com/video/clip/_/id/49076054/should-spain-start-lamine-yamal-uruguay",
-   "published": "2026-06-15T21:38:11Z",
+   "headline": "Are Belgium too reliant on De Bruyne and Lukaku?",
+   "desc": "",
+   "link": "https://www.espn.com/video/clip/_/id/49076101/are-belgium-too-reliant-de-bruyne-lukaku",
+   "published": "2026-06-15T21:44:49Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_COM_SOC_ANALYSIS_Are_Belgium_too_reliant_on_De_Bruyne_and_Lukaku_2026_6_15/dm_260615_COM_SOC_ANALYSIS_Are_Belgium_too_reliant_on_De_Bruyne_and_Lukaku_2026_6_15.jpg"
+  },
+  {
+   "headline": "Should Spain start Lamine Yamal against Saudi Arabia?",
+   "desc": "Should Spain start Lamine Yamal against Saudi Arabia?",
+   "link": "https://www.espn.com/video/clip/_/id/49076054/should-spain-start-lamine-yamal-saudi-arabia",
+   "published": "2026-06-15T21:41:21Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Should_Spain_start_Lamine_Yamal_against_Uruguay/dm_260615_Should_Spain_start_Lamine_Yamal_against_Uruguay.jpg"
   },
@@ -4888,14 +4896,6 @@
    "published": "2026-06-15T21:07:32Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_COM_SOC_INTERVIEW_Adams_Home_support_lifts_Pulisic_USMNT_2026_6_15/dm_260615_COM_SOC_INTERVIEW_Adams_Home_support_lifts_Pulisic_USMNT_2026_6_15.jpg"
-  },
-  {
-   "headline": "Spain at the men's World Cup: All-time results and stats",
-   "desc": "Take a look at the Spain men's national team's performance throughout the tournament's history.",
-   "link": "https://www.espn.com/soccer/story/_/id/49073399/spain-men-world-cup-all-results-stats",
-   "published": "2026-06-15T21:05:21Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673639_608x342_16-9.jpg"
   }
  ]
 }
