@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T00:58:46+00:00",
+ "generated_at": "2026-06-15T00:59:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -1101,8 +1101,8 @@
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "90'+2'",
-   "status_detail": "90'+2'",
+   "clock": "90'+3'",
+   "status_detail": "90'+3'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 3.25,
@@ -2486,9 +2486,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 5.0,
-    "draw": 4.0,
-    "away": 1.69,
+    "home": 4.8,
+    "draw": 3.85,
+    "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4762,7 +4762,7 @@
    "headline": "World Cup Daily LIVE: Ivory Coast, Ecuador face off in Philly",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T00:48:25Z",
+   "published": "2026-06-15T00:56:06Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673298_1296x729_16-9.jpg"
   },
@@ -4786,9 +4786,9 @@
    "headline": "Netherlands hit 'minimal standard' vs. Japan, Koeman says",
    "desc": "Ronald Koeman said Netherlands' performance in Sunday's 2-2 draw against Japan should be their \"minimal standard\" if they are to win the World Cup.",
    "link": "https://www.espn.com/soccer/story/_/id/49066034/netherlands-minimal-standard-japan-koeman",
-   "published": "2026-06-15T00:34:56Z",
+   "published": "2026-06-15T00:56:31Z",
    "type": "HeadlineNews",
-   "image": null
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_Analysis_Will_Japan_go_further_than_the_Netherlands_at_the_World_Cup_20260614_GLOBAL_FI/dm_260614_COM_SOC_Analysis_Will_Japan_go_further_than_the_Netherlands_at_the_World_Cup_20260614_GLOBAL_FI.jpg"
   },
   {
    "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
