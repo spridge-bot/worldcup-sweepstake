@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T19:09:37+00:00",
+ "generated_at": "2026-06-15T19:10:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4832,6 +4832,14 @@
  ],
  "news": [
   {
+   "headline": "Spain held by 64th-ranked Cape Verde in 1st major World Cup shock",
+   "desc": "Spain were held to a 0-0 draw by 64th-ranked Cape Verde on Monday in the first major shock of the World Cup group stage.",
+   "link": "https://www.espn.com/soccer/story/_/id/49073839/spain-held-64th-ranked-cape-verde-1st-major-world-cup-shock",
+   "published": "2026-06-15T19:08:34Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673673_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Belgium face off with Egypt; Cape Verde shock Spain in draw",
    "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
@@ -4870,14 +4878,6 @@
    "published": "2026-06-15T17:36:05Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673607_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Would Amorim at Milan be good news for Christian Pulisic?",
-   "desc": "Would Amorim at Milan be good news for Christian Pulisic?",
-   "link": "https://www.espn.com/video/clip/_/id/49073641/would-amorim-milan-good-news-christian-pulisic",
-   "published": "2026-06-15T17:36:45Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Would_Amorim_at_Milan_be_good_news_for_Christian_Pulisic/dm_260615_Would_Amorim_at_Milan_be_good_news_for_Christian_Pulisic.jpg"
   }
  ]
 }
