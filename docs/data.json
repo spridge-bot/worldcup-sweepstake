@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T03:03:22+00:00",
+ "generated_at": "2026-06-15T03:03:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4781,20 +4781,20 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Sweden beating Tunisia 2-1 in fiery battle",
+   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
+   "published": "2026-06-15T03:02:54Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673374_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Uruguay lands in Miami after flight delayed by paperwork issue",
    "desc": "Uruguay arrived in South Florida on Sunday night ahead of its opening World Cup match after the team's plane was delayed for a couple of hours in Mexico due to what FIFA called \"an airline permitting error\".",
    "link": "https://www.espn.com/soccer/story/_/id/49067481/uruguay-lands-miami-world-cup-match-flight-delayed-paperwork-issue",
    "published": "2026-06-15T02:52:06Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673364_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily LIVE: Sweden beating Tunisia 2-1 in fiery battle",
-   "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-   "published": "2026-06-15T02:49:22Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673363_1296x729_16-9.jpg"
   },
   {
    "headline": "Egypt want to show who we really are at the World Cup - Hassan",
