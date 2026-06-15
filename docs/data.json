@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T03:31:58+00:00",
+ "generated_at": "2026-06-15T03:32:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4781,6 +4781,14 @@
  ],
  "news": [
   {
+   "headline": "Côte d'Ivoire snatch late win against Ecuador",
+   "desc": "Amad Diallo's pinpoint strike in the 90th minute gives Côte d'Ivoire an unlikely victory over Ecuador in Philadelphia.",
+   "link": "https://www.espn.com/video/clip/_/id/49067849/cote-divoire-snatch-late-win-ecuador",
+   "published": "2026-06-15T03:30:45Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS/dm_260614_Soccer_HIGHLIGHT_Cote_d_Ivoire_snatch_late_win_against_Ecuador_20260615_AUS.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Gyökeres restores Sweden's two-goal buffer",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4819,14 +4827,6 @@
    "published": "2026-06-15T02:10:09Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Onuoha praises Diomande's impact in Ivory Coast's win over Ecuador",
-   "desc": "Onuoha praises Diomande's impact in Ivory Coast's win over Ecuador",
-   "link": "https://www.espn.com/video/clip/_/id/49066976/onuoha-praises-diomande-impact-ivory-coast-win-ecuador",
-   "published": "2026-06-15T01:57:51Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0614/dm_260614_COM_SOC_News_Onuoha_praises_Diomandes_impact_in_Ivory_Coasts_win_over_Ecuador_20260614_GLOBAL/dm_260614_COM_SOC_News_Onuoha_praises_Diomandes_impact_in_Ivory_Coasts_win_over_Ecuador_20260614_GLOBAL.jpg"
   }
  ]
 }
