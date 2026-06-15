@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T06:28:03+00:00",
+ "generated_at": "2026-06-15T06:33:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4778,6 +4778,14 @@
  ],
  "news": [
   {
+   "headline": "Yasin Ayari leads Sweden's rout of father's native Tunisia",
+   "desc": "Yasin Ayari scored a brilliant brace against his father's native country to spark Sweden's historic 5-1 World Cup rout of Tunisia on Sunday in Monterrey. Mexico.",
+   "link": "https://www.espn.com/soccer/story/_/id/49069118/yasin-ayari-leads-sweden-rout-father-native-tunisia",
+   "published": "2026-06-15T06:31:05Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673453_1296x729_16-9.jpg"
+  },
+  {
    "headline": "7 reasons Ivory Coast will finally break their World Cup curse after triumph in 2026 opener",
    "desc": "Beyond the three points, here are seven reasons why we're convinced that this is finally the year when the Elephants reach the knockouts.",
    "link": "https://www.espn.com/espn/story/_/id/49068445/7-reasons-ivory-coast-break-world-cup-curse-triumph-opener-2026",
@@ -4816,14 +4824,6 @@
    "published": "2026-06-15T03:50:32Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673364_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Egypt want to show who we really are at the World Cup - Hassan",
-   "desc": "Egypt have won a record seven AFCONs but are still waiting for a win in the FIFA World Cup.",
-   "link": "https://www.espn.com/espn/story/_/id/49066974/fifa-world-cup-2026-egypt-want-show-really-hossam-hassan-coach",
-   "published": "2026-06-15T02:36:07Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673346_1296x729_16-9.jpg"
   }
  ]
 }
