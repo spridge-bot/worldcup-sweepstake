@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T22:46:32+00:00",
+ "generated_at": "2026-06-15T22:47:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1137,8 +1137,8 @@
    "utc": "2026-06-15T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "42'",
-   "status_detail": "42'",
+   "clock": "43'",
+   "status_detail": "43'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 7.5,
@@ -4862,6 +4862,14 @@
  ],
  "news": [
   {
+   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
+   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
+   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+   "published": "2026-06-15T22:45:57Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Ashour gets Egypt's campaign up and running",
    "desc": "Emam Ashour scores his first international goal in 30 appearances for Egypt as they hold Belgium to a 1-1 draw.",
    "link": "https://www.espn.com/video/clip/_/id/49076527/ashour-gets-egypt-campaign-running",
@@ -4900,14 +4908,6 @@
    "published": "2026-06-15T21:44:49Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_COM_SOC_ANALYSIS_Are_Belgium_too_reliant_on_De_Bruyne_and_Lukaku_2026_6_15/dm_260615_COM_SOC_ANALYSIS_Are_Belgium_too_reliant_on_De_Bruyne_and_Lukaku_2026_6_15.jpg"
-  },
-  {
-   "headline": "Should Spain start Lamine Yamal against Saudi Arabia?",
-   "desc": "Should Spain start Lamine Yamal against Saudi Arabia?",
-   "link": "https://www.espn.com/video/clip/_/id/49076054/should-spain-start-lamine-yamal-saudi-arabia",
-   "published": "2026-06-15T21:41:21Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Should_Spain_start_Lamine_Yamal_against_Uruguay/dm_260615_Should_Spain_start_Lamine_Yamal_against_Uruguay.jpg"
   }
  ]
 }
