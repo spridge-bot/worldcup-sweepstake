@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T20:58:17+00:00",
+ "generated_at": "2026-06-15T20:58:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -344,12 +344,12 @@
    "fifa_rank": 9,
    "owner": "Pari",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 5,
    "events": [
     {
@@ -687,12 +687,12 @@
    "fifa_rank": 29,
    "owner": "Brando",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 3,
    "events": [
     {
@@ -1125,39 +1125,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760426,
+   "date": "2026-06-15",
    "utc": "2026-06-15T19:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "90'+5'",
-   "status_detail": "90'+5'",
-   "venue": "Lumen Field",
+   "note": "",
+   "home": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.59,
     "draw": 3.95,
     "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "goals": 1
-   },
-   "away": {
-    "code": "EGY",
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760428,
    "date": "2026-06-15",
@@ -2082,7 +2082,7 @@
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "form": "WWDWW"
+    "form": "DWWDW"
    },
    "away": {
     "name": "Iran",
@@ -3394,7 +3394,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Belgium",
      "flag": "🇧🇪",
@@ -3411,7 +3411,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Egypt",
      "flag": "🇪🇬",
@@ -4722,6 +4722,15 @@
    "pts": 3
   },
   {
+   "code": "BEL",
+   "name": "Belgium",
+   "flag": "🇧🇪",
+   "owner": "Pari",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "BRA",
    "name": "Brazil",
    "flag": "🇧🇷",
@@ -4735,6 +4744,15 @@
    "name": "Canada",
    "flag": "🇨🇦",
    "owner": "Dipen",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "EGY",
+   "name": "Egypt",
+   "flag": "🇪🇬",
+   "owner": "Brando",
    "yellow": 2,
    "red": 0,
    "pts": 2
