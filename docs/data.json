@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T01:31:05+00:00",
+ "generated_at": "2026-06-15T01:36:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-14",
  "scoring": {
@@ -4769,6 +4769,14 @@
  ],
  "news": [
   {
+   "headline": "Japan rescue point against Netherlands with late header",
+   "desc": "Daichi Kamada rises in the 89th minute to earn Japan a 2-2 draw with Group F favourites the Netherlands in Dallas.",
+   "link": "https://www.espn.com/video/clip/_/id/49066733/japan-rescue-point-netherlands-late-header",
+   "published": "2026-06-15T01:32:10Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0614/Int_260614_Soccer_HIGHLIGHT_Japan_rescue_point_against_Netherlands_with_late_header_2026615_AUS/Int_260614_Soccer_HIGHLIGHT_Japan_rescue_point_against_Netherlands_with_late_header_2026615_AUS.jpg"
+  },
+  {
    "headline": "World Cup Daily LIVE: Ivory Coast beat Ecuador, Sweden-Tunisia up next",
    "desc": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition.",
    "link": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
@@ -4807,14 +4815,6 @@
    "published": "2026-06-15T00:47:59Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673275_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Barcelona teen Hamza Abdelkarim seen as Mohamed Salah's successor - Egypt coach",
-   "desc": "New Barcelona signing Hamza Abdelkarim is ready to star at the FIFA World Cup, and could prove that he'll be the player to one day take the mantle from Mohamed Salah as Egypt's talisman.",
-   "link": "https://www.espn.com/espn/story/_/id/49066432/barcelona-teen-hamza-abdelkarim-seen-mohamed-salah-successor-egypt-coach",
-   "published": "2026-06-15T00:58:57Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673294_1296x729_16-9.jpg"
   }
  ]
 }
