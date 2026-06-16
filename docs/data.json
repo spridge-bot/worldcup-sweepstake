@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T04:56:30+00:00",
+ "generated_at": "2026-06-16T05:01:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,10 +4892,18 @@
  ],
  "news": [
   {
+   "headline": "Undefeated after six matches, Asia has come to play at the World Cup",
+   "desc": "Asia's unbeaten start to the 2026 World Cup is a good reminder that football exists outside of Europe's top leagues.",
+   "link": "https://www.espn.com/soccer/story/_/id/49078804/undefeated-six-matches-asia-come-play-world-cup",
+   "published": "2026-06-16T04:59:17Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1673984_1295x729_16-9.png"
+  },
+  {
    "headline": "Sources: Tunisia hire Renard after Lamouchi exit at World Cup",
    "desc": "Tunisia are brining in veteran coach Herve Renard to oversee the remainder of their World Cup campaign, sources told ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49079184/tunisia-hire-renard-lamouchi-exit-world-cup",
-   "published": "2026-06-16T04:51:07Z",
+   "published": "2026-06-16T05:00:21Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673978_1296x729_16-9.jpg"
   },
@@ -4919,9 +4927,9 @@
    "headline": "FIFA World Cup 2026 stats: June 15 day of WC draws, Spain's 734, South America 0/4",
    "desc": "ESPN's By The Numbers brings you best stats from the 2026 FIFA World Cup games on June 15.",
    "link": "https://www.espn.com/soccer/story/_/id/49077523/fifa-world-cup-2026-stats-june-15-day-wc-draws-spain-734-south-america-0-4",
-   "published": "2026-06-16T03:32:49Z",
+   "published": "2026-06-16T04:59:23Z",
    "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673763_608x342_16-9.jpg"
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673657_608x342_16-9.jpg"
   },
   {
    "headline": "Iran draw with New Zealand in opener after tense buildup",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T03:50:34Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673953_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily: Cape Verde the real winners on day of draws",
-   "desc": "Relive all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-16T04:25:08Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673668_1296x729_16-9.jpg"
   }
  ]
 }
