@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T23:39:54+00:00",
+ "generated_at": "2026-06-16T23:40:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "76'",
-   "status_detail": "76'",
+   "clock": "78'",
+   "status_detail": "78'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -1183,7 +1183,7 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "goals": 2
+    "goals": 3
    }
   }
  ],
@@ -3608,11 +3608,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 2,
+     "gf": 3,
      "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
@@ -3626,10 +3626,10 @@
      "d": 0,
      "l": 1,
      "gf": 1,
-     "ga": 2,
+     "ga": 3,
      "pts": 0,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Iraq",
      "flag": "🇮🇶",
      "tier": 3,
