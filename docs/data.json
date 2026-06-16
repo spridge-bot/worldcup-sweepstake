@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T19:20:12+00:00",
+ "generated_at": "2026-06-16T19:20:43+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4910,6 +4910,14 @@
  ],
  "news": [
   {
+   "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
+   "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
+   "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
+   "published": "2026-06-16T19:20:01Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Former South Africa stars urge Hugo Broos to change course at FIFA World Cup",
    "desc": "Hugo Broos is popular in South Africa, but words from former Bafana players suggest faith is being tested.",
    "link": "https://www.espn.com/espn/story/_/id/49081460/former-south-africa-stars-urge-hugo-broos-change-course-fifa-world-cup",
@@ -4948,14 +4956,6 @@
    "published": "2026-06-16T18:55:51Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674257_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "If anyone can save Tunisia at this FIFA World Cup, it's perpetual rescuer Renard",
-   "desc": "If Tunisia wanted calm after the storm, they've chosen the wrong man. If they wanted hope, drama, headlines and the possibility of a minor FIFA World Cup miracle, they have chosen the perfect man.",
-   "link": "https://www.espn.com/espn/story/_/id/49084330/if-anyone-save-tunisia-fifa-world-cup-perpetual-rescuer-renard",
-   "published": "2026-06-16T19:05:09Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674265_1296x729_16-9.jpg"
   }
  ]
 }
