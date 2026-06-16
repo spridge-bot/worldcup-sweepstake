@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T16:11:43+00:00",
+ "generated_at": "2026-06-16T16:17:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Why did Tunisia hire Herve Renard to replace Sabri Lamouchi?",
+   "desc": "Why did Tunisia hire Herve Renard to replace Sabri Lamouchi?",
+   "link": "https://www.espn.com/video/clip/_/id/49083063/why-did-tunisia-hire-herve-renard-replace-sabri-lamouchi",
+   "published": "2026-06-16T16:16:10Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_Why_did_Tunisia_hire_Herve_Renard_to_replace_Sabri_Lamouchi3F__GLOBAL_2026-06-16/dm_260616_COM_SOC_Analysis_Why_did_Tunisia_hire_Herve_Renard_to_replace_Sabri_Lamouchi3F__GLOBAL_2026-06-16.jpg"
+  },
+  {
    "headline": "Czechia vs. South Africa - Kick-off time, team news, how to watch Bafana's second World Cup game",
    "desc": "Bafana Bafana will look to bounce back from World Cup defeat to Mexico when they face Czechia on Thursday.",
    "link": "https://www.espn.com/espn/story/_/id/49052624/czechia-vs-south-africa-kick-team-news-how-watch-bafana-second-world-cup-game",
@@ -4903,7 +4911,7 @@
    "headline": "Are World Cup hydration breaks actually commercial breaks or momentum breaks?",
    "desc": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?",
    "link": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
-   "published": "2026-06-16T16:07:19Z",
+   "published": "2026-06-16T16:11:35Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674033_1296x729_16-9.jpg"
   },
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T15:38:49Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674006_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Thapelo Maseko calls for more 'intensity' from Bafana Bafana against Czechia",
-   "desc": "Bafana Bafana winger Thapelo Maseko has called for his teammates to up the tempo as they look to bounce back from a 2-0 loss to Mexico in their second Group A game of the FIFA World Cup against Czechia in Atlanta on Thursday.",
-   "link": "https://www.espn.com/espn/story/_/id/49081088/thapelo-maseko-calls-more-intensity-bafana-bafana-czechia",
-   "published": "2026-06-16T15:05:12Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674053_1296x729_16-9.jpg"
   }
  ]
 }
