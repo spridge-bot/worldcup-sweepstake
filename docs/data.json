@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T23:41:37+00:00",
+ "generated_at": "2026-06-16T23:42:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "78'",
-   "status_detail": "78'",
+   "clock": "79'",
+   "status_detail": "79'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -1651,7 +1651,7 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.47,
+    "home": 1.48,
     "draw": 4.3,
     "away": 7.5,
     "over_under": 2.5,
@@ -4922,6 +4922,14 @@
  ],
  "news": [
   {
+   "headline": "Kylian Mbappé scores stunner, breaks France goal record in Senegal win",
+   "desc": "Kylian Mbappé moved ahead of Lionel Messi in the World Cup career scoring charts and became France's record goal scorer with two goals in Les Bleus' 3-1 Group I win against Senegal.",
+   "link": "https://www.espn.com/soccer/story/_/id/49084969/kylian-mbappe-breaks-goal-record-france-kick-world-cup-senegal-win",
+   "published": "2026-06-16T23:42:09Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674349_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Norway's Haaland makes World Cup debut with brace vs. Iraq",
    "desc": "World Cup group stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4936,14 +4944,6 @@
    "published": "2026-06-16T22:58:55Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Mbappe_proud_to_make_a_mark_on_Frances_history_with_record_goal/dm_260616_Mbappe_proud_to_make_a_mark_on_Frances_history_with_record_goal.jpg"
-  },
-  {
-   "headline": "Kylian Mbappé scores stunner, breaks France goal record in Senegal win",
-   "desc": "Kylian Mbappé moved ahead of Lionel Messi in the World Cup career scoring charts and became France's record goal scorer with two goals in Les Bleus' 3-1 Group I win against Senegal.",
-   "link": "https://www.espn.com/soccer/story/_/id/49084969/kylian-mbappe-breaks-goal-record-france-kick-world-cup-senegal-win",
-   "published": "2026-06-16T23:35:58Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674349_1296x729_16-9.jpg"
   },
   {
    "headline": "Iran's Torabi cleared for World Cup after U.S. visa issue resolved",
