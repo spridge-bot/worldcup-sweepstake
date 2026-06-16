@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-15T23:59:37+00:00",
+ "generated_at": "2026-06-16T00:00:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1137,8 +1137,8 @@
    "utc": "2026-06-15T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "90'+3'",
-   "status_detail": "90'+3'",
+   "clock": "90'+4'",
+   "status_detail": "90'+4'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 7.5,
@@ -1534,9 +1534,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.8,
-    "draw": 3.55,
-    "away": 4.9,
+    "home": 1.95,
+    "draw": 3.3,
+    "away": 4.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1544,13 +1544,13 @@
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": "WWWLL"
+    "form": null
    },
    "away": {
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "form": "LLWLL"
+    "form": null
    }
   },
   {
@@ -2669,13 +2669,13 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "form": null
+    "form": "DWDLW"
    },
    "away": {
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "form": null
+    "form": "WLWWW"
    }
   },
   {
@@ -2694,13 +2694,13 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "form": null
+    "form": "DLWWW"
    },
    "away": {
     "name": "Iraq",
     "flag": "🇮🇶",
     "owner": "Emily",
-    "form": null
+    "form": "LDWWW"
    }
   },
   {
@@ -2709,9 +2709,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.5,
-    "draw": 3.75,
-    "away": 2.65,
+    "home": 2.65,
+    "draw": 3.95,
+    "away": 2.45,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2719,13 +2719,13 @@
     "name": "Cabo Verde",
     "flag": "🇨🇻",
     "owner": "Dubs",
-    "form": null
+    "form": "DWWLL"
    },
    "away": {
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
     "owner": "Brando",
-    "form": null
+    "form": "DWLLL"
    }
   },
   {
@@ -2734,9 +2734,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 5.5,
-    "draw": 4.0,
-    "away": 1.65,
+    "home": 6.0,
+    "draw": 4.3,
+    "away": 1.54,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2744,13 +2744,13 @@
     "name": "Uruguay",
     "flag": "🇺🇾",
     "owner": "Pari",
-    "form": null
+    "form": "DDLDW"
    },
    "away": {
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": null
+    "form": "DWDDW"
    }
   },
   {
@@ -2759,9 +2759,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 2.25,
+    "home": 2.2,
     "draw": 3.1,
-    "away": 3.65,
+    "away": 3.75,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -2769,13 +2769,13 @@
     "name": "Egypt",
     "flag": "🇪🇬",
     "owner": "Brando",
-    "form": null
+    "form": "DLWDW"
    },
    "away": {
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": null
+    "form": "WWWLL"
    }
   },
   {
@@ -2784,9 +2784,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 10.0,
-    "draw": 5.75,
-    "away": 1.31,
+    "home": 12.0,
+    "draw": 6.5,
+    "away": 1.24,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2794,13 +2794,13 @@
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "form": null
+    "form": "LLWLL"
    },
    "away": {
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "form": null
+    "form": "DWWDW"
    }
   },
   {
