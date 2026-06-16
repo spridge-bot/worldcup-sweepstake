@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T12:35:34+00:00",
+ "generated_at": "2026-06-16T12:40:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1597,8 +1597,8 @@
    "group": "Group I",
    "odds": {
     "home": 14.0,
-    "draw": 7.0,
-    "away": 1.21,
+    "draw": 6.5,
+    "away": 1.22,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4903,7 +4903,7 @@
    "headline": "Thapelo Maseko calls for more 'intensity' from Bafana Bafana against Czechia",
    "desc": "Thapelo Maseko wants Bafana Bafana to up the ante against Czechia on Thursday after a disappointing 2-0 loss.",
    "link": "https://www.espn.com/espn/story/_/id/49081088/thapelo-maseko-calls-more-intensity-bafana-bafana-czechia",
-   "published": "2026-06-16T12:31:20Z",
+   "published": "2026-06-16T12:35:44Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674053_1296x729_16-9.jpg"
   },
