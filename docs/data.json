@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T07:24:08+00:00",
+ "generated_at": "2026-06-16T07:29:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Koulibaly: 'I'm 100% Senegalese' ahead of facing former national team France",
+   "desc": "Koulibaly: 'I'm 100% Senegalese' ahead of facing former national team France",
+   "link": "https://www.espn.com/video/clip/_/id/49079920/100-senegalese-ahead-facing-former-national-team-france",
+   "published": "2026-06-16T07:24:50Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Koulibaly_Im_100_Senegalese_ahead_of_facing_former_national_team_France_2026_FIFA/dm_260616_COM_SOC_Presser_Koulibaly_Im_100_Senegalese_ahead_of_facing_former_national_team_France_2026_FIFA.jpg"
+  },
+  {
    "headline": "Moreno: Iran, New Zealand 'not good enough' to advance in WC",
    "desc": "Moreno: Iran, New Zealand 'not good enough' to advance in WC",
    "link": "https://www.espn.com/video/clip/_/id/49079912/iran-new-zealand-not-good-enough-advance-wc",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T07:09:46Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673978_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Tunisia manager joins exclusive club of coaches sacked during World Cup",
-   "desc": "Tunisia manager Sabri Lamouchi won't be feeling too good after being sacked midway through a World Cup, but he's not the first coach to suffer that fate.",
-   "link": "https://www.espn.com/soccer/story/_/id/49075052/tunisia-manager-joins-exclusive-club-coaches-sacked-world-cup",
-   "published": "2026-06-16T07:23:44Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674008_1296x729_16-9.jpg"
   }
  ]
 }
