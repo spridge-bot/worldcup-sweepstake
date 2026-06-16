@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:03:15+00:00",
+ "generated_at": "2026-06-16T22:03:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "2'",
-   "status_detail": "2'",
+   "clock": "3'",
+   "status_detail": "3'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -4922,6 +4922,14 @@
  ],
  "news": [
   {
+   "headline": "Mbappé rewrites France, World Cup history books as Les Bleus beat Senegal",
+   "desc": "Kylian Mbappé made history with a pair of goals that sent France on their way to a Group I-opening win over Senegal on Tuesday in New Jersey.",
+   "link": "https://www.espn.com/soccer/story/_/id/49086529/kylian-mbappe-rewrites-france-fifa-world-cup-history-books-les-bleus-beat-senegal",
+   "published": "2026-06-16T22:02:43Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674389_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Mbappé double leads France to opening game win",
    "desc": "Kylian Mbappé becomes France's top all-time goal scorer, moving above Olivier Giroud in their 3-1 win over Senegal.",
    "link": "https://www.espn.com/video/clip/_/id/49086502/mbappe-double-leads-france-opening-game-win",
@@ -4960,14 +4968,6 @@
    "published": "2026-06-16T21:46:57Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674369_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
-   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
-   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-   "published": "2026-06-16T21:32:30Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
   }
  ]
 }
