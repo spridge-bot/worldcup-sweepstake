@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T00:04:19+00:00",
+ "generated_at": "2026-06-16T00:05:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -458,12 +458,12 @@
    "fifa_rank": 16,
    "owner": "Pari",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 3,
    "events": [
     {
@@ -984,12 +984,12 @@
    "fifa_rank": 52,
    "owner": "Brando",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 5,
    "events": [
     {
@@ -1131,39 +1131,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760429,
+   "date": "2026-06-15",
    "utc": "2026-06-15T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "90'+8'",
-   "status_detail": "90'+8'",
-   "venue": "Hard Rock Stadium",
+   "note": "",
+   "home": {
+    "code": "KSA",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "URU",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 7.5,
     "draw": 4.4,
     "away": 1.47,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "KSA",
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "owner": "Brando",
-    "goals": 1
-   },
-   "away": {
-    "code": "URU",
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "owner": "Pari",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760426,
    "date": "2026-06-15",
@@ -2075,7 +2075,7 @@
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
     "owner": "Brando",
-    "form": "DWLLL"
+    "form": "DDWLL"
    }
   },
   {
@@ -2119,7 +2119,7 @@
     "name": "Uruguay",
     "flag": "🇺🇾",
     "owner": "Pari",
-    "form": "DDLDW"
+    "form": "DDDLD"
    },
    "away": {
     "name": "Cabo Verde",
@@ -2725,7 +2725,7 @@
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
     "owner": "Brando",
-    "form": "DWLLL"
+    "form": "DDWLL"
    }
   },
   {
@@ -2744,7 +2744,7 @@
     "name": "Uruguay",
     "flag": "🇺🇾",
     "owner": "Pari",
-    "form": "DDLDW"
+    "form": "DDDLD"
    },
    "away": {
     "name": "Spain",
@@ -3479,7 +3479,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
@@ -3496,7 +3496,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Uruguay",
      "flag": "🇺🇾",
@@ -4801,6 +4801,15 @@
    "name": "Haiti",
    "flag": "🇭🇹",
    "owner": "Jen",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "KSA",
+   "name": "Saudi Arabia",
+   "flag": "🇸🇦",
+   "owner": "Brando",
    "yellow": 1,
    "red": 0,
    "pts": 1
