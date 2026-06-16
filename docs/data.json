@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:44:26+00:00",
+ "generated_at": "2026-06-16T22:44:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4599,6 +4599,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Erling Haaland",
+   "team": "NOR",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇳🇴",
+   "owner": "Glancy"
+  },
+  {
    "player": "Folarin Balogun",
    "team": "USA",
    "goals": 2,
@@ -4701,14 +4709,6 @@
    "assists": 0,
    "flag": "🇨🇦",
    "owner": "Dipen"
-  },
-  {
-   "player": "Daichi Kamada",
-   "team": "JPN",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇯🇵",
-   "owner": "Jen"
   }
  ],
  "fairplay": [
