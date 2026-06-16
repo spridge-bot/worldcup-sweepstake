@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:32:51+00:00",
+ "generated_at": "2026-06-16T21:38:11+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4904,6 +4904,22 @@
  ],
  "news": [
   {
+   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
+   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
+   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+   "published": "2026-06-16T21:32:30Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Berhalter says Pochettino taught USMNT 'what we're about'",
+   "desc": "United States midfielder Sebastian Berhalter said that one of the ways manager Mauricio Pochettino has changed the culture within the team is instilling a mindset where they don't \"take s---.\"",
+   "link": "https://www.espn.com/soccer/story/_/id/49085397/berhalter-says-pochettino-taught-usmnt-about",
+   "published": "2026-06-16T21:34:43Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674319_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Lionel Messi at the World Cup: History, results, stats",
    "desc": "Here's how Messi has performed for Argentina at the World Cup throughout his career.",
    "link": "https://www.espn.com/soccer/story/_/id/49085479/lionel-messi-world-cup-history-results-stats",
@@ -4915,7 +4931,7 @@
    "headline": "Are France World Cup favourites after victory vs. Senegal?",
    "desc": "Are France World Cup favourites after victory vs. Senegal?",
    "link": "https://www.espn.com/video/clip/_/id/49086198/are-france-world-cup-favourites-victory-vs-senegal",
-   "published": "2026-06-16T21:30:58Z",
+   "published": "2026-06-16T21:34:27Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_Are_France_World_Cup_favourites_after_victory_vs_Senegal3F_GLOBAL_2026-06-16/dm_260616_COM_SOC_Analysis_Are_France_World_Cup_favourites_after_victory_vs_Senegal3F_GLOBAL_2026-06-16.jpg"
   },
@@ -4934,22 +4950,6 @@
    "published": "2026-06-16T21:26:44Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674268_608x342_16-9.jpg"
-  },
-  {
-   "headline": "Who scored the most goals in men's World Cup history?",
-   "desc": "Germany's Miroslav Klose scored the most goals in men's World Cup history. Check out which other soccer stars made the list.",
-   "link": "https://www.espn.com/soccer/story/_/id/49019838/who-scored-most-goals-men-world-cup-history",
-   "published": "2026-06-16T21:24:56Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0610/r1670876_608x342_16-9.jpg"
-  },
-  {
-   "headline": "Kylian Mbappe at the World Cup: History, results, stats",
-   "desc": "As Mbappé aims to lead France back to soccer's mountaintop, here is a look at his career at the FIFA World Cup.",
-   "link": "https://www.espn.com/soccer/story/_/id/48979217/kylian-mbappe-fifa-world-cup-history-results-stats",
-   "published": "2026-06-16T21:23:39Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0602/r1667132_608x342_16-9.jpg"
   }
  ]
 }
