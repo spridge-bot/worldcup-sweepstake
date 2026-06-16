@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T18:03:01+00:00",
+ "generated_at": "2026-06-16T18:08:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Daniel Sturridge surprised by Cole Palmer's England snub",
+   "desc": "Daniel Sturridge surprised by Cole Palmer's England snub",
+   "link": "https://www.espn.com/video/clip/_/id/49083976/daniel-sturridge-surprised-cole-palmer-england-snub",
+   "published": "2026-06-16T18:07:04Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Daniel_Sturridge_surprised_by_Cole_Palmers_England_snub/dm_260616_Daniel_Sturridge_surprised_by_Cole_Palmers_England_snub.jpg"
+  },
+  {
    "headline": "Cape Verde GK Vozinha stopped World Cup favorites Spain ... then gained 8M followers",
    "desc": "Cape Verde GK Vozinha is a 40-year-old journeyman who is now one of the 2026 World Cup's most beloved players.",
    "link": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-8m-followers",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T17:15:04Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674177_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Czechia vs. South Africa - Kick-off time, team news, how to watch Bafana's second World Cup game",
-   "desc": "Bafana Bafana will look to bounce back from World Cup defeat to Mexico when they face Czechia on Thursday.",
-   "link": "https://www.espn.com/espn/story/_/id/49052624/czechia-vs-south-africa-kick-team-news-how-watch-bafana-second-world-cup-game",
-   "published": "2026-06-16T15:51:08Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672542_1296x729_16-9.jpg"
   }
  ]
 }
