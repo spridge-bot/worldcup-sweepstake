@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T15:34:49+00:00",
+ "generated_at": "2026-06-16T15:40:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1597,8 +1597,8 @@
    "group": "Group I",
    "odds": {
     "home": 14.0,
-    "draw": 7.0,
-    "away": 1.21,
+    "draw": 6.5,
+    "away": 1.22,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2346,9 +2346,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.45,
-    "draw": 4.4,
-    "away": 8.0,
+    "home": 1.48,
+    "draw": 4.3,
+    "away": 7.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4911,7 +4911,7 @@
    "headline": "World Cup 2026 - Updates, news on June 16 as Senegal prepare to face France, Tunisia hire Herve Renard",
    "desc": "Senegal will face France on Tuesday in a fresh chance for an African side to impress at the FIFA World Cup.",
    "link": "https://www.espn.com/espn/story/_/id/49079698/world-cup-2026-updates-news-june-16-senegal-prepare-face-france-tunisia-hire-herve-renard",
-   "published": "2026-06-16T15:15:09Z",
+   "published": "2026-06-16T15:38:49Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674006_1296x729_16-9.jpg"
   },
