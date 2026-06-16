@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T10:12:59+00:00",
+ "generated_at": "2026-06-16T10:18:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "France head coach Deschamps believes Spain are 'clear favourites' to win World Cup",
+   "desc": "France head coach Deschamps believes Spain are 'clear favourites' to win World Cup",
+   "link": "https://www.espn.com/video/clip/_/id/49080455/france-head-coach-deschamps-believes-spain-clear-favourites-win-world-cup",
+   "published": "2026-06-16T10:12:44Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_France_head_coach_Deschamps_believes_Spain_are_clear_favourites_to_win_World_Cup/dm_260616_COM_SOC_Presser_France_head_coach_Deschamps_believes_Spain_are_clear_favourites_to_win_World_Cup.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
    "desc": "Group-stage World Cup days rarley get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T07:50:28Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0614/r1672797_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Koulibaly: 'I'm 100% Senegalese' ahead of facing former national team France",
-   "desc": "Koulibaly: 'I'm 100% Senegalese' ahead of facing former national team France",
-   "link": "https://www.espn.com/video/clip/_/id/49079920/100-senegalese-ahead-facing-former-national-team-france",
-   "published": "2026-06-16T07:24:50Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Koulibaly_Im_100_Senegalese_ahead_of_facing_former_national_team_France_2026_FIFA/dm_260616_COM_SOC_Presser_Koulibaly_Im_100_Senegalese_ahead_of_facing_former_national_team_France_2026_FIFA.jpg"
   }
  ]
 }
