@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:38:11+00:00",
+ "generated_at": "2026-06-16T21:43:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1734,8 +1734,8 @@
    "group": "Group L",
    "odds": {
     "home": 2.25,
-    "draw": 3.3,
-    "away": 3.4,
+    "draw": 3.2,
+    "away": 3.45,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4904,6 +4904,14 @@
  ],
  "news": [
   {
+   "headline": "What went wrong for Senegal vs. France?",
+   "desc": "What went wrong for Senegal vs. France?",
+   "link": "https://www.espn.com/video/clip/_/id/49086375/what-went-wrong-senegal-vs-france",
+   "published": "2026-06-16T21:42:52Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_What_went_wrong_for_Senegal_vs_France3F__GLOBAL_2026-06-16/dm_260616_COM_SOC_Analysis_What_went_wrong_for_Senegal_vs_France3F__GLOBAL_2026-06-16.jpg"
+  },
+  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4942,14 +4950,6 @@
    "published": "2026-06-16T21:30:27Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674352_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "France at the men's World Cup: All-time results and stats",
-   "desc": "Take a look at the France men's national team's performance throughout the tournament's history.",
-   "link": "https://www.espn.com/soccer/story/_/id/49083555/france-men-world-cup-all-results-stats",
-   "published": "2026-06-16T21:26:44Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674268_608x342_16-9.jpg"
   }
  ]
 }
