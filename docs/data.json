@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T04:51:05+00:00",
+ "generated_at": "2026-06-16T04:56:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Sources: Tunisia hire Renard after Lamouchi exit at World Cup",
+   "desc": "Tunisia are brining in veteran coach Herve Renard to oversee the remainder of their World Cup campaign, sources told ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49079184/tunisia-hire-renard-lamouchi-exit-world-cup",
+   "published": "2026-06-16T04:51:07Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1673978_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Uruguay struggle to score in 1-1 draw with Saudi Arabia",
    "desc": "Rob Dawson discusses Marcelo Bielsa and his Uruguay squad following their 1-1 draw with Saudi Arabia.",
    "link": "https://www.espn.com/video/clip/_/id/49079143/uruguay-struggle-score-1-1-draw-saudi-arabia",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T04:25:08Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673668_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Belgium and Egypt draw in Group G opener",
-   "desc": "Beth Lindop describes the atmosphere in Seattle and Romelu Lukaku's key performance in Belgium's draw with Egypt.",
-   "link": "https://www.espn.com/video/clip/_/id/49078340/belgium-egypt-draw-group-g-opener",
-   "published": "2026-06-16T02:28:50Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Belgium_and_Egypt_draw_in_Group_G_opener/dm_260615_Belgium_and_Egypt_draw_in_Group_G_opener.jpg"
   }
  ]
 }
