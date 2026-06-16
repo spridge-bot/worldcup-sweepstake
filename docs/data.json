@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T13:28:22+00:00",
+ "generated_at": "2026-06-16T13:33:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,10 +4892,18 @@
  ],
  "news": [
   {
-   "headline": "How can France utilise Mbappé vs. Senegal at the World Cup?",
-   "desc": "How can France utilise Mbappé vs. Senegal at the World Cup?",
-   "link": "https://www.espn.com/video/clip/_/id/49081579/how-france-utilise-mbappe-vs-senegal-world-cup",
-   "published": "2026-06-16T13:23:58Z",
+   "headline": "England World Cup squad: Injured Tino Livramento replaced by Trevoh Chalobah",
+   "desc": "Tino Livramento has been ruled out of the World Cup with a hamstring injury and will be replaced by Chelsea defender Trevoh Chalobah, England announced on Tuesday.",
+   "link": "https://www.espn.com/soccer/story/_/id/49081000/tino-livramento-england-world-cup-ruled-hamstring-injury-trevoh-chalobah",
+   "published": "2026-06-16T13:30:26Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674061_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Why Kylian Mbappé needs to work harder for France",
+   "desc": "Why Kylian Mbappé needs to work harder for France",
+   "link": "https://www.espn.com/video/clip/_/id/49081579/why-kylian-mbappe-needs-work-harder-france",
+   "published": "2026-06-16T13:31:29Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_How_can_France_utilise_Mbappe_vs_Senegal_at_the_World_Cup_20260616_GLOBAL_FIF/dm_260616_COM_SOC_Analysis_How_can_France_utilise_Mbappe_vs_Senegal_at_the_World_Cup_20260616_GLOBAL_FIF.jpg"
   },
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T11:52:13Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674039_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Canada vs Qatar at FIFA World Cup 2026: TV channel, how to watch, kick-off time, live stream, referee, predicted line-ups",
-   "desc": "Everything you need to know ahead of Canada's FIFA World Cup 2026 match against Qatar",
-   "link": "https://www.espn.com/soccer/story/_/id/49080149/canada-vs-qatar-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
-   "published": "2026-06-16T11:27:03Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1672110_608x342_16-9.jpg"
   }
  ]
 }
