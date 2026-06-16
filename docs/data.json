@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T17:25:43+00:00",
+ "generated_at": "2026-06-16T17:31:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Cape Verde GK Vozinha stopped World Cup favorites Spain ... then gained 8M followers",
+   "desc": "Cape Verde GK Vozinha is a 40-year-old journeyman who is now one of the 2026 World Cup's most beloved players.",
+   "link": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-8m-followers",
+   "published": "2026-06-16T17:26:35Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673797_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
    "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T16:33:59Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674033_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Senegal 1-0 France remains Africa's biggest World Cup moment, but a repeat wouldn't be a shock",
-   "desc": "'We have world class players on our team and we're the champions of Africa,' said Senegal coach Pape Thiaw.",
-   "link": "https://www.espn.com/espn/story/_/id/49078247/fifa-world-cup-2026-senegal-vs-france-remains-africa-biggest-moment-repeat-not-shock",
-   "published": "2026-06-16T15:22:03Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1673929_1296x729_16-9.jpg"
   }
  ]
 }
