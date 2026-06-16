@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T20:30:50+00:00",
+ "generated_at": "2026-06-16T20:31:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -136,19 +136,6 @@
    "movement": 0
   },
   {
-   "name": "Fergs",
-   "teams": [
-    "ARG",
-    "SEN",
-    "PAR",
-    "CUW"
-   ],
-   "total": 3,
-   "today": 3,
-   "rank": 10,
-   "movement": 2
-  },
-  {
    "name": "Dubs",
    "teams": [
     "CRO",
@@ -158,8 +145,8 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 11,
-   "movement": -1
+   "rank": 10,
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -171,8 +158,21 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 11,
-   "movement": -1
+   "rank": 10,
+   "movement": 0
+  },
+  {
+   "name": "Fergs",
+   "teams": [
+    "ARG",
+    "SEN",
+    "PAR",
+    "CUW"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 12,
+   "movement": 0
   }
  ],
  "teams": {
@@ -453,14 +453,8 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-16",
-     "desc": "2nd in Group I (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "URU": {
    "code": "URU",
@@ -1155,8 +1149,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "66'",
-   "status_detail": "66'",
+   "clock": "67'",
+   "status_detail": "67'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -1170,7 +1164,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "SEN",
@@ -3576,35 +3570,18 @@
      "group": "Group I",
      "code": "FRA",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
      "owner": "Spridge"
-    },
-    {
-     "group": "Group I",
-     "code": "SEN",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Senegal",
-     "flag": "🇸🇳",
-     "tier": 1,
-     "owner": "Fergs"
     },
     {
      "group": "Group I",
@@ -3639,6 +3616,23 @@
      "flag": "🇳🇴",
      "tier": 2,
      "owner": "Glancy"
+    },
+    {
+     "group": "Group I",
+     "code": "SEN",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
+     "pts": 0,
+     "live": true,
+     "gd": -1,
+     "name": "Senegal",
+     "flag": "🇸🇳",
+     "tier": 1,
+     "owner": "Fergs"
     }
    ]
   },
@@ -4934,6 +4928,14 @@
    "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
   },
   {
+   "headline": "Scotland's Lydon Dykes ready to start up front against Morocco",
+   "desc": "Lyndon Dykes is ready to lead from the front if required in Scotland's crucial clash with Morocco on Friday night.",
+   "link": "https://www.espn.com/soccer/story/_/id/49085252/scotland-lydon-dykes-ready-start-front-needed",
+   "published": "2026-06-16T20:31:03Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674311_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Congo DR can finally banish the FIFA World Cup green ghosts of 52 years ago",
    "desc": "This FIFA World Cup is an opportunity for the Democratic Republic of Congo -- the fallen giants of the African game -- to reopen history and ultimately, hopefully, rewrite it.",
    "link": "https://www.espn.com/espn/story/_/id/48365770/congo-dr-banish-fifa-world-cup-green-ghosts-52-years-ago",
@@ -4948,14 +4950,6 @@
    "published": "2026-06-16T19:58:36Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674304_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Ghana vs. Panama - kick-off time, team news, how to watch Black Stars' FIFA World Cup opener",
-   "desc": "Ghana will kick off their FIFA World Cup campaign on Wednesday in Toronto, with a Group L clash against Panama.",
-   "link": "https://www.espn.com/espn/story/_/id/49048302/ghana-vs-panama-kick-team-news-how-watch-black-stars-fifa-world-cup-opener",
-   "published": "2026-06-16T19:28:53Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0613/r1672351_1296x729_16-9.jpg"
   }
  ]
 }
