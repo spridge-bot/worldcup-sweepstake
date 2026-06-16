@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:43:27+00:00",
+ "generated_at": "2026-06-16T21:48:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -2233,9 +2233,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 2.3,
+    "home": 2.15,
     "draw": 3.6,
-    "away": 3.1,
+    "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2249,7 +2249,7 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "form": "LDLWW"
+    "form": "DLWWW"
    }
   },
   {
@@ -4912,6 +4912,14 @@
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_What_went_wrong_for_Senegal_vs_France3F__GLOBAL_2026-06-16/dm_260616_COM_SOC_Analysis_What_went_wrong_for_Senegal_vs_France3F__GLOBAL_2026-06-16.jpg"
   },
   {
+   "headline": "World Cup Daily Live: Haaland makes World Cup debut; giant inflatable match ball breaks loose",
+   "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+   "published": "2026-06-16T21:46:57Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674369_1296x729_16-9.jpg"
+  },
+  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4936,20 +4944,12 @@
    "image": "https://a.espncdn.com/photo/2026/0616/r1674372_608x342_16-9.jpg"
   },
   {
-   "headline": "Are France World Cup favourites after victory vs. Senegal?",
-   "desc": "Are France World Cup favourites after victory vs. Senegal?",
-   "link": "https://www.espn.com/video/clip/_/id/49086198/are-france-world-cup-favourites-victory-vs-senegal",
-   "published": "2026-06-16T21:34:27Z",
+   "headline": "Are France World Cup favorites after victory vs. Senegal?",
+   "desc": "Are France World Cup favorites after victory vs. Senegal?",
+   "link": "https://www.espn.com/video/clip/_/id/49086198/are-france-world-cup-favorites-victory-vs-senegal",
+   "published": "2026-06-16T21:47:33Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_Are_France_World_Cup_favourites_after_victory_vs_Senegal3F_GLOBAL_2026-06-16/dm_260616_COM_SOC_Analysis_Are_France_World_Cup_favourites_after_victory_vs_Senegal3F_GLOBAL_2026-06-16.jpg"
-  },
-  {
-   "headline": "World Cup VAR review: Should France have gotten penalty vs. Senegal?",
-   "desc": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game.",
-   "link": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-   "published": "2026-06-16T21:30:27Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674352_1296x729_16-9.jpg"
   }
  ]
 }
