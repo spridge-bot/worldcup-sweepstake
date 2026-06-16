@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T15:45:25+00:00",
+ "generated_at": "2026-06-16T15:50:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1671,7 +1671,7 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.28,
+    "home": 1.29,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Are World Cup hydration breaks actually commercial breaks or momentum breaks?",
+   "desc": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?",
+   "link": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
+   "published": "2026-06-16T15:46:21Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674033_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Senegal 1-0 France remains Africa's biggest World Cup moment, but a repeat wouldn't be a shock",
    "desc": "'We have world class players on our team and we're the champions of Africa,' said Senegal coach Pape Thiaw.",
    "link": "https://www.espn.com/espn/story/_/id/49078247/fifa-world-cup-2026-senegal-vs-france-remains-africa-biggest-moment-repeat-not-shock",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T15:04:53Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674112_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Meet England's 2026 World Cup squad: All 26 players picked by Thomas Tuchel and why",
-   "desc": "ESPN takes a look at every player named in the England squad for the 2026 World Cup.",
-   "link": "https://www.espn.com/soccer/story/_/id/48823863/meet-england-2026-world-cup-squad-26-players-picked-thomas-tuchel-why",
-   "published": "2026-06-16T14:42:31Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0522/r1661870_1296x729_16-9.jpg"
   }
  ]
 }
