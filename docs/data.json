@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T13:44:08+00:00",
+ "generated_at": "2026-06-16T13:49:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4895,9 +4895,17 @@
    "headline": "England World Cup squad: Injured Tino Livramento replaced by Trevoh Chalobah",
    "desc": "Tino Livramento has been ruled out of the World Cup with a hamstring injury and will be replaced by Chelsea defender Trevoh Chalobah, England announced on Tuesday.",
    "link": "https://www.espn.com/soccer/story/_/id/49081000/tino-livramento-england-world-cup-ruled-hamstring-injury-trevoh-chalobah",
-   "published": "2026-06-16T13:42:03Z",
+   "published": "2026-06-16T13:46:27Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674061_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
+   "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+   "published": "2026-06-16T13:43:26Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
   },
   {
    "headline": "World Cup 2026: Which players from your Premier League team are going?",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T12:55:42Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674006_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Thapelo Maseko calls for more 'intensity' from Bafana Bafana against Czechia",
-   "desc": "Thapelo Maseko wants Bafana Bafana to up the ante against Czechia on Thursday after a disappointing 2-0 loss.",
-   "link": "https://www.espn.com/espn/story/_/id/49081088/thapelo-maseko-calls-more-intensity-bafana-bafana-czechia",
-   "published": "2026-06-16T12:35:44Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674053_1296x729_16-9.jpg"
   }
  ]
 }
