@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:40:01+00:00",
+ "generated_at": "2026-06-16T22:40:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "38'",
-   "status_detail": "38'",
+   "clock": "39'",
+   "status_detail": "39'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -4655,6 +4655,14 @@
    "owner": "Jen"
   },
   {
+   "player": "Aymen Hussein",
+   "team": "IRQ",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇮🇶",
+   "owner": "Emily"
+  },
+  {
    "player": "Bradley Barcola",
    "team": "FRA",
    "goals": 1,
@@ -4701,14 +4709,6 @@
    "assists": 0,
    "flag": "🇯🇵",
    "owner": "Jen"
-  },
-  {
-   "player": "Deniz Undav",
-   "team": "GER",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇩🇪",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
