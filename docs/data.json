@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T06:41:56+00:00",
+ "generated_at": "2026-06-16T06:47:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Vozinha: 'Today the dream comes true' after Cape Verde draw against Spain",
+   "desc": "Vozinha: 'Today the dream comes true' after Cape Verde draw against Spain",
+   "link": "https://www.espn.com/video/clip/_/id/49079758/today-dream-comes-true-cape-verde-draw-spain",
+   "published": "2026-06-16T06:42:23Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Vozinha_Today_the_dream_comes_true_after_Cape_Verde_draw_against_Spain_202606_FIFA/dm_260616_COM_SOC_Presser_Vozinha_Today_the_dream_comes_true_after_Cape_Verde_draw_against_Spain_202606_FIFA.jpg"
+  },
+  {
    "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
    "desc": "The biggest FIFA World Cup gets underway shortly and we've got all the answers to your questions about the tournament. When and where is the final being held? How can I watch the Socceroos' games? Who has made the Australia squad?",
    "link": "https://www.espn.com/soccer/story/_/id/48820641/fifa-world-cup-2026-how-watch-socceroos-fixtures-results",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T05:05:44Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673929_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Undefeated after six matches, Asia has come to play at the World Cup",
-   "desc": "Asia's unbeaten start to the 2026 World Cup is a good reminder that football exists outside of Europe's top leagues.",
-   "link": "https://www.espn.com/soccer/story/_/id/49078804/undefeated-six-matches-asia-come-play-world-cup",
-   "published": "2026-06-16T05:17:59Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1673984_1295x729_16-9.png"
   }
  ]
 }
