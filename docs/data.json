@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T15:03:12+00:00",
+ "generated_at": "2026-06-16T15:08:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -2071,9 +2071,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.11,
+    "home": 1.1,
     "draw": 10.5,
-    "away": 23.0,
+    "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2146,8 +2146,8 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 5.75,
-    "draw": 4.0,
+    "home": 5.5,
+    "draw": 4.1,
     "away": 1.62,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -4892,6 +4892,22 @@
  ],
  "news": [
   {
+   "headline": "Thapelo Maseko calls for more 'intensity' from Bafana Bafana against Czechia",
+   "desc": "Bafana Bafana winger Thapelo Maseko has called for his teammates to up the tempo as they look to bounce back from a 2-0 loss to Mexico in their second Group A game of the FIFA World Cup against Czechia in Atlanta on Thursday.",
+   "link": "https://www.espn.com/espn/story/_/id/49081088/thapelo-maseko-calls-more-intensity-bafana-bafana-czechia",
+   "published": "2026-06-16T15:05:12Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674053_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "U.S.' Tori Penso second woman to officiate men's World Cup game",
+   "desc": "U.S. referee Tori Penso was assigned to officiate The Group A match between Czechia and South Africa in Atlanta on Thursday, making her the second woman to take charge of a men's World Cup match.",
+   "link": "https://www.espn.com/soccer/story/_/id/49082394/us-tori-penso-second-woman-officiate-men-world-cup-game",
+   "published": "2026-06-16T15:04:53Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674112_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Meet England's 2026 World Cup squad: All 26 players picked by Thomas Tuchel and why",
    "desc": "ESPN takes a look at every player named in the England squad for the 2026 World Cup.",
    "link": "https://www.espn.com/soccer/story/_/id/48823863/meet-england-2026-world-cup-squad-26-players-picked-thomas-tuchel-why",
@@ -4922,22 +4938,6 @@
    "published": "2026-06-16T14:02:46Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_Lebouef_remembers_Senegals_shock_2002_World_Cup_win_over_France_20260616_GLOBA/dm_260616_COM_SOC_Analysis_Lebouef_remembers_Senegals_shock_2002_World_Cup_win_over_France_20260616_GLOBA.jpg"
-  },
-  {
-   "headline": "England World Cup squad: Injured Tino Livramento replaced by Trevoh Chalobah",
-   "desc": "Tino Livramento has been ruled out of the World Cup with a hamstring injury and will be replaced by Chelsea defender Trevoh Chalobah, England announced on Tuesday.",
-   "link": "https://www.espn.com/soccer/story/_/id/49081000/tino-livramento-england-world-cup-ruled-hamstring-injury-trevoh-chalobah",
-   "published": "2026-06-16T13:46:27Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674061_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup 2026: Which players from your Premier League team are going?",
-   "desc": "Which Premier League players from your team are representing their country at the 2026 World Cup in the United States, Canada and Mexico?",
-   "link": "https://www.espn.com/soccer/story/_/id/48709856/world-cup-2026-which-players-your-premier-league-team-going",
-   "published": "2026-06-16T13:39:39Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0525/r1663354_1296x729_16-9.jpg"
   }
  ]
 }
