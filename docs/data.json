@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T19:05:10+00:00",
+ "generated_at": "2026-06-16T19:05:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1155,8 +1155,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "2'",
-   "status_detail": "2'",
+   "clock": "3'",
+   "status_detail": "3'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -4910,6 +4910,22 @@
  ],
  "news": [
   {
+   "headline": "Neymar trains alone at Brazil World Cup camp after calf injury",
+   "desc": "Neymar, who has been out for a month with a right calf injury, trained on the pitch sidelines on Tuesday for the first time since arriving in the United States.",
+   "link": "https://www.espn.com/soccer/story/_/id/49084431/neymar-trains-alone-brazil-world-cup-camp-calf-injury",
+   "published": "2026-06-16T19:04:48Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674192_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "France at the men's World Cup: All-time results and stats",
+   "desc": "Take a look at the France men's national team's performance throughout the tournament's history.",
+   "link": "https://www.espn.com/soccer/story/_/id/49083555/france-men-world-cup-all-results-stats",
+   "published": "2026-06-16T19:04:38Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674268_608x342_16-9.jpg"
+  },
+  {
    "headline": "World Cup live updates: France kick off tournament vs. Senegal",
    "desc": "Join us for all the updates as France kick off their 2026 World Cup campaign against Senegal in New Jersey.",
    "link": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
@@ -4940,22 +4956,6 @@
    "published": "2026-06-16T18:23:55Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674217_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Cole Palmer's England exclusion surprising but the right decision - Daniel Sturridge",
-   "desc": "Former England and Liverpool striker Daniel Sturridge has expressed his surprise at the exclusion of Cole Palmer from England's World Cup squad but added that he feels Thomas Tuchel has made the \"right decisions\" with his picks.",
-   "link": "https://www.espn.com/soccer/story/_/id/49084149/cole-palmer-england-exclusion-surprising-right-decision-daniel-sturridge",
-   "published": "2026-06-16T18:23:52Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0521/r1661577_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Algeria coach Vladimir Petkovic thanks Lawrence locals for warm welcome in Kansas",
-   "desc": "Algeria head coach Vladimir Petkovic hopes the backing from locals at their base in Lawrence, Kansas, can give them the edge when they face Argentina in their FIFA World Cup opener.",
-   "link": "https://www.espn.com/espn/story/_/id/49084031/algeria-coach-vladimir-petkovic-thanks-lawrence-locals-warm-welcome-kansas",
-   "published": "2026-06-16T18:27:40Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674244_1296x729_16-9.jpg"
   }
  ]
 }
