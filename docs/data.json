@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T07:02:58+00:00",
+ "generated_at": "2026-06-16T07:08:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Tunisia manager joins excluisve club of coaches sacked during World Cup",
+   "desc": "Tunisia manager Sabri Lamouchi won't be feeling too good after being sacked midway through a World Cup, but he's not the first coach to suffer that fate.",
+   "link": "https://www.espn.com/soccer/story/_/id/49075052/tunisia-manager-joins-excluisve-club-coaches-sacked-world-cup",
+   "published": "2026-06-16T07:05:06Z",
+   "type": "Story",
+   "image": "https://www.espn.com/video/clip/_/id/49072120/why-sabri-lamouchi-set-tunisia-departure"
+  },
+  {
    "headline": "Key issues for England at 2026 World Cup: Fatigue, fitness and do Gordon, Stones start?",
    "desc": "England boss Thomas Tuchel will need to deal with fitness problems, varying conditions and selection quandaries, writes Tom Hamilton.",
    "link": "https://www.espn.com/soccer/story/_/id/49041738/key-issues-england-2026-world-cup-bukayo-saka-anthony-gordon-jude-bellingham",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T06:51:19Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0525/r1663354_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Meet England's 2026 World Cup squad: All 26 players picked by Thomas Tuchel and why",
-   "desc": "ESPN takes a look at every player named in the England squad for the 2026 World Cup.",
-   "link": "https://www.espn.com/soccer/story/_/id/48823863/meet-england-2026-world-cup-squad-26-players-picked-thomas-tuchel-why",
-   "published": "2026-06-16T06:50:27Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0522/r1661870_1296x729_16-9.jpg"
   }
  ]
 }
