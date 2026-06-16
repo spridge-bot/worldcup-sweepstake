@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T20:46:12+00:00",
+ "generated_at": "2026-06-16T20:46:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1149,8 +1149,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "81'",
-   "status_detail": "81'",
+   "clock": "82'",
+   "status_detail": "82'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -4629,6 +4629,14 @@
    "owner": "Jen"
   },
   {
+   "player": "Bradley Barcola",
+   "team": "FRA",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Breel Embolo",
    "team": "SUI",
    "goals": 1,
@@ -4683,14 +4691,6 @@
    "assists": 0,
    "flag": "🇪🇬",
    "owner": "Brando"
-  },
-  {
-   "player": "Felix Nmecha",
-   "team": "GER",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇩🇪",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
