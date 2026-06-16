@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T16:32:48+00:00",
+ "generated_at": "2026-06-16T16:38:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
+   "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+   "published": "2026-06-16T16:33:31Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
+  },
+  {
    "headline": "Why did Tunisia hire Herve Renard to replace Sabri Lamouchi?",
    "desc": "Why did Tunisia hire Herve Renard to replace Sabri Lamouchi?",
    "link": "https://www.espn.com/video/clip/_/id/49083063/why-did-tunisia-hire-herve-renard-replace-sabri-lamouchi",
@@ -4919,7 +4927,7 @@
    "headline": "Are World Cup hydration breaks actually commercial breaks or momentum breaks?",
    "desc": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?",
    "link": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
-   "published": "2026-06-16T16:30:28Z",
+   "published": "2026-06-16T16:33:59Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674033_1296x729_16-9.jpg"
   },
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T15:22:03Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673929_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
-   "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
-   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
-   "published": "2026-06-16T15:11:55Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
   }
  ]
 }
