@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T09:30:46+00:00",
+ "generated_at": "2026-06-16T09:36:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1721,8 +1721,8 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 2.2,
-    "draw": 3.35,
+    "home": 2.25,
+    "draw": 3.3,
     "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily LIVE: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
+   "desc": "Group-stage World Cup days rarley get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+   "published": "2026-06-16T09:34:51Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
+  },
+  {
    "headline": "Harry Maguire reveals 'awkward' Thomas Tuchel call explaining England World Cup snub",
    "desc": "Harry Maguire has revealed the \"awkward\" video call he had with Thomas Tuchel in which the England boss told him he would not be part of his World Cup squad.",
    "link": "https://www.espn.com/soccer/story/_/id/49080189/harry-maguire-reveals-awkward-thomas-tuchel-call-explaining-england-world-cup-snub",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T07:24:50Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Koulibaly_Im_100_Senegalese_ahead_of_facing_former_national_team_France_2026_FIFA/dm_260616_COM_SOC_Presser_Koulibaly_Im_100_Senegalese_ahead_of_facing_former_national_team_France_2026_FIFA.jpg"
-  },
-  {
-   "headline": "Moreno: Iran, New Zealand 'not good enough' to advance in WC",
-   "desc": "Moreno: Iran, New Zealand 'not good enough' to advance in WC",
-   "link": "https://www.espn.com/video/clip/_/id/49079912/iran-new-zealand-not-good-enough-advance-wc",
-   "published": "2026-06-16T07:21:44Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_Moreno_Iran_New_Zealand_not_good_enough_to_advance_in_WC_20260615_GLOBAL_FI/dm_260616_COM_SOC_Analysis_Moreno_Iran_New_Zealand_not_good_enough_to_advance_in_WC_20260615_GLOBAL_FI.jpg"
   }
  ]
 }
