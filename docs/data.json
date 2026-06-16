@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T02:20:39+00:00",
+ "generated_at": "2026-06-16T02:21:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1143,8 +1143,8 @@
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "53'",
-   "status_detail": "53'",
+   "clock": "54'",
+   "status_detail": "54'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.95,
@@ -4883,20 +4883,20 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: All square between Iran, New Zealand",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-16T02:20:07Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1673930_1296x729_16-9.jpg"
+  },
+  {
    "headline": "FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know",
    "desc": "The biggest FIFA World Cup gets underway shortly and we've got all the answers to your questions about the tournament. When and where is the final being held? How can I watch the Socceroos' games? Who has made the Australia squad?",
    "link": "https://www.espn.com/soccer/story/_/id/48820641/fifa-world-cup-2026-how-watch-socceroos-fixtures-results",
    "published": "2026-06-16T02:13:17Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673927_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily Live: All square between Iran, New Zealand",
-   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-16T02:13:04Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1673920_1296x729_16-9.jpg"
   },
   {
    "headline": "Uruguay coach Bielsa brushes off FIFA picture: 'Not a model'",
