@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:00:32+00:00",
+ "generated_at": "2026-06-16T21:01:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1149,8 +1149,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "90'+6'",
-   "status_detail": "90'+6'",
+   "clock": "90'+7'",
+   "status_detail": "90'+7'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -1164,7 +1164,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 2
+    "goals": 3
    },
    "away": {
     "code": "SEN",
@@ -3573,11 +3573,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 2,
+     "gf": 3,
      "ga": 1,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
@@ -3625,10 +3625,10 @@
      "d": 0,
      "l": 1,
      "gf": 1,
-     "ga": 2,
+     "ga": 3,
      "pts": 0,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
@@ -4597,6 +4597,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Kylian Mbappé",
+   "team": "FRA",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Yasin Ayari",
    "team": "SWE",
    "goals": 2,
@@ -4683,14 +4691,6 @@
    "assists": 0,
    "flag": "🇩🇪",
    "owner": "Glancy"
-  },
-  {
-   "player": "Emam Ashour",
-   "team": "EGY",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇪🇬",
-   "owner": "Brando"
   }
  ],
  "fairplay": [
