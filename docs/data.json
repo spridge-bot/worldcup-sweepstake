@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T20:23:21+00:00",
+ "generated_at": "2026-06-16T20:23:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4910,6 +4910,14 @@
  ],
  "news": [
   {
+   "headline": "Argentina at the men's World Cup: All-time results and stats",
+   "desc": "Take a look at the Argentina men's national team's performance throughout the tournament's history.",
+   "link": "https://www.espn.com/soccer/story/_/id/49084603/argentina-men-world-cup-all-results-stats",
+   "published": "2026-06-16T20:22:41Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674317_608x342_16-9.jpg"
+  },
+  {
    "headline": "World Cup live updates: Senegal keeping France at arm's length",
    "desc": "Join us for all the updates as France kick off their 2026 World Cup campaign against Senegal in New Jersey.",
    "link": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
@@ -4948,14 +4956,6 @@
    "published": "2026-06-16T19:28:53Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0613/r1672351_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
-   "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
-   "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
-   "published": "2026-06-16T19:20:01Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
   }
  ]
 }
