@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T11:16:32+00:00",
+ "generated_at": "2026-06-16T11:21:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "R9 stresses importance of Neymar fitness to Brazil's World Cup chances",
+   "desc": "R9 stresses importance of Neymar fitness to Brazil's World Cup chances",
+   "link": "https://www.espn.com/video/clip/_/id/49080813/r9-stresses-importance-neymar-fitness-brazil-world-cup-chances",
+   "published": "2026-06-16T11:15:50Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Interview_R9_stresses_importance_of_Neymar_fitness_to_Brazils_World_Cup_chances_2026061/dm_260616_COM_SOC_Interview_R9_stresses_importance_of_Neymar_fitness_to_Brazils_World_Cup_chances_2026061.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
    "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T08:46:34Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_News_Argentina_fans_take_over_Kansas_City_before_World_Cup_opener_20260616_GLOBAL/dm_260616_COM_SOC_News_Argentina_fans_take_over_Kansas_City_before_World_Cup_opener_20260616_GLOBAL.jpg"
-  },
-  {
-   "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
-   "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
-   "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-   "published": "2026-06-16T08:28:42Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
   }
  ]
 }
