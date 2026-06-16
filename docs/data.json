@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-16T03:03:27+00:00",
+ "generated_at": "2026-06-16T03:04:20+00:00",
  "mode": "live",
- "latest_day": "2026-06-15",
+ "latest_day": "2026-06-16",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,9 @@
     "BIH"
    ],
    "total": 15,
-   "today": 10,
+   "today": 5,
    "rank": 1,
-   "movement": 5
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -42,7 +42,7 @@
    "total": 9,
    "today": 3,
    "rank": 2,
-   "movement": 2
+   "movement": 3
   },
   {
    "name": "Dipen",
@@ -55,7 +55,7 @@
    "total": 8,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "George",
@@ -68,7 +68,7 @@
    "total": 8,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -81,7 +81,7 @@
    "total": 8,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -92,9 +92,9 @@
     "KSA"
    ],
    "total": 6,
-   "today": 5,
+   "today": 0,
    "rank": 6,
-   "movement": 3
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -107,7 +107,7 @@
    "total": 6,
    "today": 0,
    "rank": 6,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -118,9 +118,9 @@
     "UZB"
    ],
    "total": 4,
-   "today": 4,
+   "today": 0,
    "rank": 8,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -133,7 +133,7 @@
    "total": 4,
    "today": 0,
    "rank": 8,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -144,9 +144,9 @@
     "CPV"
    ],
    "total": 2,
-   "today": 1,
+   "today": 0,
    "rank": 10,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -159,7 +159,7 @@
    "total": 2,
    "today": 0,
    "rank": 10,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -172,7 +172,7 @@
    "total": 0,
    "today": 0,
    "rank": 12,
-   "movement": -1
+   "movement": 0
   }
  ],
  "teams": {
@@ -544,12 +544,12 @@
    "fifa_rank": 20,
    "owner": "Spridge",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -1121,12 +1121,12 @@
    "fifa_rank": 59,
    "owner": "Willo",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 3,
    "events": [
     {
@@ -1137,39 +1137,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760427,
+   "date": "2026-06-16",
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "90'+5'",
-   "status_detail": "90'+5'",
-   "venue": "SoFi Stadium",
+   "note": "",
+   "home": {
+    "code": "IRN",
+    "name": "Iran",
+    "flag": "🇮🇷",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "NZL",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "tier": 3,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 1.95,
     "draw": 3.3,
     "away": 4.4,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "IRN",
-    "name": "Iran",
-    "flag": "🇮🇷",
-    "owner": "Spridge",
-    "goals": 2
-   },
-   "away": {
-    "code": "NZL",
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "owner": "Willo",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760429,
    "date": "2026-06-15",
@@ -2112,7 +2112,7 @@
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": "WWWLL"
+    "form": "DWWWL"
    }
   },
   {
@@ -2156,7 +2156,7 @@
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "form": "LLWLL"
+    "form": "DLLWL"
    },
    "away": {
     "name": "Egypt",
@@ -2787,7 +2787,7 @@
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": "WWWLL"
+    "form": "DWWWL"
    }
   },
   {
@@ -2806,7 +2806,7 @@
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "form": "LLWLL"
+    "form": "DLLWL"
    },
    "away": {
     "name": "Belgium",
@@ -3418,7 +3418,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Iran",
      "flag": "🇮🇷",
@@ -3435,7 +3435,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "New Zealand",
      "flag": "🇳🇿",
@@ -4813,6 +4813,15 @@
    "name": "Haiti",
    "flag": "🇭🇹",
    "owner": "Jen",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "flag": "🇮🇷",
+   "owner": "Spridge",
    "yellow": 1,
    "red": 0,
    "pts": 1
