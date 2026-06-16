@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T06:21:03+00:00",
+ "generated_at": "2026-06-16T06:26:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Croatia scouting report: A closer look at England's first opponents of the World Cup",
+   "desc": "ESPN talks to Croatian football expert Richard Wilson to get the lowdown on Luka Modric's men ahead of England's World Cup opener.",
+   "link": "https://www.espn.com/soccer/story/_/id/49053531/croatia-scouting-report-closer-look-england-first-opponents-world-cup-2026",
+   "published": "2026-06-16T06:20:02Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672495_1296x729_16-9.jpg"
+  },
+  {
    "headline": "'Repressed' Iran forced to leave U.S. after New Zealand draw",
    "desc": "Iran coach Amir Ghalenoei called his team perhaps the \"most repressed team in the whole World Cup,\" after he said they have been forced to leave Los Angeles and return to their base camp in Tijuana, Mexico, immediately following their opening match.",
    "link": "https://www.espn.com/soccer/story/_/id/49078938/iran-forced-leave-us-new-zealand-draw",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T05:00:21Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673978_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Uruguay struggle to score in 1-1 draw with Saudi Arabia",
-   "desc": "Rob Dawson discusses Marcelo Bielsa and his Uruguay squad following their 1-1 draw with Saudi Arabia.",
-   "link": "https://www.espn.com/video/clip/_/id/49079143/uruguay-struggle-score-1-1-draw-saudi-arabia",
-   "published": "2026-06-16T04:41:15Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_SC4U_16x9_Uruguay_IA_6-15/dm_260616_SC4U_16x9_Uruguay_IA_6-15.jpg"
   }
  ]
 }
