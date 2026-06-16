@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:10:49+00:00",
+ "generated_at": "2026-06-16T21:16:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4904,10 +4904,26 @@
  ],
  "news": [
   {
+   "headline": "Weah: Pulisic return looking positive ahead of USMNT vs. Australia",
+   "desc": "Weah: Pulisic return looking positive ahead of USMNT vs. Australia",
+   "link": "https://www.espn.com/video/clip/_/id/49085989/pulisic-return-looking-positive-ahead-usmnt-vs-australia",
+   "published": "2026-06-16T21:12:26Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Weah_Pulisic_return_looking_positive_ahead_of_USMNT_vs_Australia_20260616_GLOB/dm_260616_COM_SOC_Presser_Weah_Pulisic_return_looking_positive_ahead_of_USMNT_vs_Australia_20260616_GLOB.jpg"
+  },
+  {
+   "headline": "Could Thomas Partey's World Cup absence be a blessing in disguise for Ghana?",
+   "desc": "When Carlos Queiroz named Thomas Partey in Ghana's FIFA World Cup squad, the logic was clear... as were the risks. Will his absence against Panama prove to be a blessing, in retrospect?",
+   "link": "https://www.espn.com/espn/story/_/id/49048041/could-thomas-partey-world-cup-absence-blessing-disguise-ghana",
+   "published": "2026-06-16T21:11:20Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0612/r1671944_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup recap: Mbappé with brace to give France win over Senegal",
    "desc": "Join us for all that happened as France kicked off their 2026 World Cup campaign with a 3-1 win over Senegal in New Jersey.",
    "link": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
-   "published": "2026-06-16T21:07:14Z",
+   "published": "2026-06-16T21:11:22Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674334_1296x729_16-9.jpg"
   },
@@ -4934,22 +4950,6 @@
    "published": "2026-06-16T20:31:03Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674311_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Congo DR can finally banish the FIFA World Cup green ghosts of 52 years ago",
-   "desc": "This FIFA World Cup is an opportunity for the Democratic Republic of Congo -- the fallen giants of the African game -- to reopen history and ultimately, hopefully, rewrite it.",
-   "link": "https://www.espn.com/espn/story/_/id/48365770/congo-dr-banish-fifa-world-cup-green-ghosts-52-years-ago",
-   "published": "2026-06-16T20:07:45Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0401/r1637013_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Pele, Lionel Messi and Erling Haaland cards set records at auction",
-   "desc": "A recent soccer card auction saw several individual player records set for Lionel Messi, Erling Haaland, Christian Pulisic and even David Beckham.",
-   "link": "https://www.espn.com/soccer/story/_/id/49084172/pele-lionel-messi-erling-haaland-cards-set-records-auction",
-   "published": "2026-06-16T19:58:36Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674304_1296x729_16-9.jpg"
   }
  ]
 }
