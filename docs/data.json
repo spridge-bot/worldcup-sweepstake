@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T02:54:45+00:00",
+ "generated_at": "2026-06-16T02:55:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1143,8 +1143,8 @@
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "86'",
-   "status_detail": "86'",
+   "clock": "87'",
+   "status_detail": "87'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.95,
