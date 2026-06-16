@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:03:59+00:00",
+ "generated_at": "2026-06-16T21:04:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1149,8 +1149,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "90'+9'",
-   "status_detail": "90'+9'",
+   "clock": "90'+10'",
+   "status_detail": "90'+10'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -2218,7 +2218,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "form": "WLWWW"
+    "form": "WWLWW"
    },
    "away": {
     "name": "Iraq",
@@ -2718,7 +2718,7 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "form": "DLWWW"
+    "form": "LDLWW"
    },
    "away": {
     "name": "Iraq",
