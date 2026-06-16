@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T02:41:40+00:00",
+ "generated_at": "2026-06-16T02:42:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1143,8 +1143,8 @@
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "74'",
-   "status_detail": "74'",
+   "clock": "75'",
+   "status_detail": "75'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.95,
@@ -4883,14 +4883,6 @@
  ],
  "news": [
   {
-   "headline": "World Cup Daily Live: New Zealand, Iran locked in epic Group G clash",
-   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-16T02:33:42Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1673920_1296x729_16-9.jpg"
-  },
-  {
    "headline": "Belgium and Egypt draw in Group G opener",
    "desc": "Beth Lindop describes the atmosphere in Seattle and Romelu Lukaku's key performance in Belgium's draw with Egypt.",
    "link": "https://www.espn.com/video/clip/_/id/49078340/belgium-egypt-draw-group-g-opener",
@@ -4929,6 +4921,14 @@
    "published": "2026-06-16T00:42:58Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0615/ss_20260615_203722805_3565788/ss_20260615_203722805_3565788.jpg"
+  },
+  {
+   "headline": "Belgium hero Romelu Lukaku not ready to 'start a game'",
+   "desc": "Belgium head coach Rudi Garcia said Romelu Lukaku \"can't start a game\" due to fitness issues, but will have defenders \"quaking in their boots\" after his impressive cameo in Monday's 1-1 draw with Egypt.",
+   "link": "https://www.espn.com/soccer/story/_/id/49076865/belgium-hero-romelu-lukaku-not-ready-start-game",
+   "published": "2026-06-16T01:31:25Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673845_1296x729_16-9.jpg"
   }
  ]
 }
