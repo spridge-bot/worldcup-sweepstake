@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T01:31:30+00:00",
+ "generated_at": "2026-06-16T01:32:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1143,8 +1143,8 @@
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "27'",
-   "status_detail": "27'",
+   "clock": "28'",
+   "status_detail": "28'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.95,
@@ -4910,7 +4910,7 @@
    "headline": "Belgium hero Romelu Lukaku not ready to 'start a game'",
    "desc": "Belgium head coach Rudi Garcia said Romelu Lukaku \"can't start a game\" due to fitness issues, but will have defenders \"quaking in their boots\" after his impressive cameo in Monday's 1-1 draw with Egypt.",
    "link": "https://www.espn.com/soccer/story/_/id/49076865/belgium-hero-romelu-lukaku-not-ready-start-game",
-   "published": "2026-06-16T00:29:54Z",
+   "published": "2026-06-16T01:31:25Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673845_1296x729_16-9.jpg"
   },
