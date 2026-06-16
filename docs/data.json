@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T23:47:54+00:00",
+ "generated_at": "2026-06-16T23:48:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "84'",
-   "status_detail": "84'",
+   "clock": "85'",
+   "status_detail": "85'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -4949,7 +4949,7 @@
    "headline": "Iran's Torabi cleared for World Cup after U.S. visa issue resolved",
    "desc": "The U.S. State Department said on Tuesday that the visa issue that would have prevented Iran forward Mehdi Torabi from entering the U.S. for the next World Cup has been resolved.",
    "link": "https://www.espn.com/soccer/story/_/id/49086571/iran-torabi-cleared-world-cup-us-visa-issue-resolved",
-   "published": "2026-06-16T23:23:00Z",
+   "published": "2026-06-16T23:47:27Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674384_1296x729_16-9.jpg"
   },
