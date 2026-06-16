@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T20:34:05+00:00",
+ "generated_at": "2026-06-16T20:34:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1149,8 +1149,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "69'",
-   "status_detail": "69'",
+   "clock": "70'",
+   "status_detail": "70'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -4904,6 +4904,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
+   "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+   "published": "2026-06-16T20:33:43Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
+  },
+  {
    "headline": "World Cup live updates: Mbappé gives France lead over Senegal",
    "desc": "Join us for all the updates as France kick off their 2026 World Cup campaign against Senegal in New Jersey.",
    "link": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
@@ -4918,14 +4926,6 @@
    "published": "2026-06-16T20:27:25Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674317_608x342_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
-   "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
-   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
-   "published": "2026-06-16T20:10:28Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674015_1215x683_16-9.jpg"
   },
   {
    "headline": "Scotland's Lydon Dykes ready to start up front against Morocco",
