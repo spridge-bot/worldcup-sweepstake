@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T01:04:57+00:00",
+ "generated_at": "2026-06-16T01:05:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -1143,8 +1143,8 @@
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "1'",
-   "status_detail": "1'",
+   "clock": "2'",
+   "status_detail": "2'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.95,
@@ -4883,6 +4883,14 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: New Zealand take on Iran at SoFi Stadium",
+   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
+   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+   "published": "2026-06-16T01:04:47Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1673889_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Ale Moreno: Uruguay missed a golden opportunity to take control of Group H",
    "desc": "Ale Moreno: Uruguay missed a golden opportunity to take control of Group H",
    "link": "https://www.espn.com/video/clip/_/id/49077294/uruguay-missed-golden-opportunity-take-control-group-h",
@@ -4913,14 +4921,6 @@
    "published": "2026-06-16T00:13:59Z",
    "type": "Recap",
    "image": "https://a.espncdn.com/photo/2026/0616/r1673870_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "World Cup Daily Live: Uruguay draw Saudi Arabia in nervy comeback",
-   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-16T00:13:30Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1673866_1296x729_16-9.jpg"
   },
   {
    "headline": "Lukaku seizes spotlight from Salah, De Bruyne in Belgium's draw with Egypt",
