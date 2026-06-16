@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:30:06+00:00",
+ "generated_at": "2026-06-16T22:30:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -39,8 +39,8 @@
     "NOR",
     "JOR"
    ],
-   "total": 9,
-   "today": 1,
+   "total": 11,
+   "today": 3,
    "rank": 2,
    "movement": 0
   },
@@ -54,8 +54,8 @@
    ],
    "total": 9,
    "today": 3,
-   "rank": 2,
-   "movement": 3
+   "rank": 3,
+   "movement": 2
   },
   {
    "name": "Dipen",
@@ -110,19 +110,6 @@
    "movement": -1
   },
   {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 5,
-   "today": 3,
-   "rank": 8,
-   "movement": 2
-  },
-  {
    "name": "Pari",
    "teams": [
     "BEL",
@@ -132,8 +119,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 9,
-   "movement": -1
+   "rank": 8,
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -145,8 +132,21 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 9,
-   "movement": -1
+   "rank": 8,
+   "movement": 0
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 3,
+   "today": 1,
+   "rank": 10,
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -745,12 +745,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-16",
-     "desc": "3rd in Group I (live)",
-     "points": 1
+     "desc": "2nd in Group I (live)",
+     "points": 3
     }
    ]
   },
@@ -945,12 +945,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-16",
-     "desc": "2nd in Group I (live)",
-     "points": 3
+     "desc": "3rd in Group I (live)",
+     "points": 1
     }
    ]
   },
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "29'",
-   "status_detail": "29'",
+   "clock": "30'",
+   "status_detail": "30'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -1183,7 +1183,7 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3603,37 +3603,37 @@
     },
     {
      "group": "Group I",
-     "code": "IRQ",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Iraq",
-     "flag": "🇮🇶",
-     "tier": 3,
-     "owner": "Emily"
-    },
-    {
-     "group": "Group I",
      "code": "NOR",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
      "owner": "Glancy"
+    },
+    {
+     "group": "Group I",
+     "code": "IRQ",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
+     "pts": 0,
+     "live": true,
+     "gd": -1,
+     "name": "Iraq",
+     "flag": "🇮🇶",
+     "tier": 3,
+     "owner": "Emily"
     },
     {
      "group": "Group I",
