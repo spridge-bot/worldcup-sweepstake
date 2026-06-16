@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T20:46:44+00:00",
+ "generated_at": "2026-06-16T20:47:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1149,8 +1149,8 @@
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "82'",
-   "status_detail": "82'",
+   "clock": "83'",
+   "status_detail": "83'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.48,
@@ -1164,7 +1164,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "SEN",
@@ -3573,11 +3573,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 1,
+     "gf": 2,
      "ga": 0,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
@@ -3625,10 +3625,10 @@
      "d": 0,
      "l": 1,
      "gf": 0,
-     "ga": 1,
+     "ga": 2,
      "pts": 0,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
