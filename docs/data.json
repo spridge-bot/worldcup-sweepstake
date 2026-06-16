@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T00:26:54+00:00",
+ "generated_at": "2026-06-16T00:32:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4871,6 +4871,14 @@
  ],
  "news": [
   {
+   "headline": "Belgium hero Romelu Lukaku not ready to 'start a game'",
+   "desc": "Belgium head coach Rudi Garcia said Romelu Lukaku \"can't start a game\" due to fitness issues, but will have defenders \"quaking in their boots\" after his impressive cameo in Monday's 1-1 draw with Egypt.",
+   "link": "https://www.espn.com/soccer/story/_/id/49076865/belgium-hero-romelu-lukaku-not-ready-start-game",
+   "published": "2026-06-16T00:29:54Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673845_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Spain held by 67th-ranked Cape Verde in 1st major World Cup shock",
    "desc": "Spain were held to a 0-0 draw by 67th-ranked Cape Verde on Monday in the first major shock of the World Cup group stage.",
    "link": "https://www.espn.com/soccer/story/_/id/49073839/spain-held-67th-ranked-cape-verde-1st-major-world-cup-shock",
@@ -4909,14 +4917,6 @@
    "published": "2026-06-15T22:45:57Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Neymar not expected back for Brazil until knockouts - reports",
-   "desc": "Neymar is not expected to return for Brazil until the knockout stages according to reports in Brazil.",
-   "link": "https://www.espn.com/soccer/story/_/id/49076595/neymar-not-training-brazil-repeats-medical-tests-sources-world-cup-haiti",
-   "published": "2026-06-16T00:18:36Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673832_1296x729_16-9.jpg"
   }
  ]
 }
