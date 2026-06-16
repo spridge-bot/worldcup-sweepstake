@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T12:19:46+00:00",
+ "generated_at": "2026-06-16T12:25:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -2774,7 +2774,7 @@
     "home": 2.1,
     "draw": 3.15,
     "away": 4.0,
-    "over_under": 1.5,
+    "over_under": 2.5,
     "provider": "DraftKings"
    },
    "home": {
