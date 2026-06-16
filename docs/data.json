@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:01:53+00:00",
+ "generated_at": "2026-06-16T22:02:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 9,
+   "today": 1,
+   "rank": 2,
+   "movement": 0
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -54,8 +67,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 4,
+   "movement": -2
   },
   {
    "name": "George",
@@ -67,21 +80,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 8,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 4,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -110,6 +110,19 @@
    "movement": -1
   },
   {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 5,
+   "today": 3,
+   "rank": 8,
+   "movement": 2
+  },
+  {
    "name": "Pari",
    "teams": [
     "BEL",
@@ -119,8 +132,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 9,
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -132,8 +145,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 9,
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -145,21 +158,8 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 10,
-   "movement": 0
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 2,
-   "today": 0,
-   "rank": 10,
-   "movement": 0
+   "rank": 11,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -745,8 +745,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-16",
+     "desc": "3rd in Group I (live)",
+     "points": 1
+    }
+   ]
   },
   "CIV": {
    "code": "CIV",
@@ -939,8 +945,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-16",
+     "desc": "2nd in Group I (live)",
+     "points": 3
+    }
+   ]
   },
   "QAT": {
    "code": "QAT",
@@ -1143,7 +1155,38 @@
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760430,
+   "utc": "2026-06-16T22:00:00Z",
+   "stage": "Group stage",
+   "group": "Group I",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "Gillette Stadium",
+   "odds": {
+    "home": 15.0,
+    "draw": 7.0,
+    "away": 1.19,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "IRQ",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760432,
@@ -1602,31 +1645,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760430,
-   "utc": "2026-06-16T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "odds": {
-    "home": 13.0,
-    "draw": 6.5,
-    "away": 1.24,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "owner": "Emily",
-    "form": "LDWWW"
-   },
-   "away": {
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "form": "DWDLW"
-   }
-  },
   {
    "id": 760433,
    "utc": "2026-06-17T01:00:00Z",
@@ -3586,14 +3604,14 @@
     {
      "group": "Group I",
      "code": "IRQ",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Iraq",
      "flag": "🇮🇶",
@@ -3603,14 +3621,14 @@
     {
      "group": "Group I",
      "code": "NOR",
-     "p": 0,
+     "p": 1,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": 0,
      "name": "Norway",
      "flag": "🇳🇴",
