@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:59:12+00:00",
+ "generated_at": "2026-06-16T22:59:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4922,6 +4922,14 @@
  ],
  "news": [
   {
+   "headline": "Mbappé proud to 'make a mark' on France's history with record goal",
+   "desc": "Mbappé proud to 'make a mark' on France's history with record goal",
+   "link": "https://www.espn.com/video/clip/_/id/49087224/mbappe-proud-make-mark-france-history-record-goal",
+   "published": "2026-06-16T22:58:55Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Mbappe_proud_to_make_a_mark_on_Frances_history_with_record_goal/dm_260616_Mbappe_proud_to_make_a_mark_on_Frances_history_with_record_goal.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Norway's Haaland makes World Cup debut with brace vs. Iraq",
    "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4960,14 +4968,6 @@
    "published": "2026-06-16T21:51:19Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Leboeuf_backs_Mbappe_to_break_Kloses_World_Cup_goal_record/dm_260616_Leboeuf_backs_Mbappe_to_break_Kloses_World_Cup_goal_record.jpg"
-  },
-  {
-   "headline": "Thomas Partey to miss Ghana World Cup opener after visa appeal rejected",
-   "desc": "A Federal High Court in Canada has upheld the decision to deny Ghana midfielder Thomas Partey entry into the country ahead of the Black Stars' 2026 FIFA World Cup opening game against Panama on Wednesday",
-   "link": "https://www.espn.com/soccer/story/_/id/49086399/thomas-partey-miss-ghana-world-cup-opener-visa-appeal-rejected",
-   "published": "2026-06-16T21:53:20Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674353_1296x729_16-9.jpg"
   }
  ]
 }
