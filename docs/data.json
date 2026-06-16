@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T00:21:19+00:00",
+ "generated_at": "2026-06-16T00:26:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4871,6 +4871,14 @@
  ],
  "news": [
   {
+   "headline": "Spain held by 67th-ranked Cape Verde in 1st major World Cup shock",
+   "desc": "Spain were held to a 0-0 draw by 67th-ranked Cape Verde on Monday in the first major shock of the World Cup group stage.",
+   "link": "https://www.espn.com/soccer/story/_/id/49073839/spain-held-67th-ranked-cape-verde-1st-major-world-cup-shock",
+   "published": "2026-06-16T00:22:03Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673673_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Marcelo Bielsa's Uruguay rescue point against dogged Saudi Arabia",
    "desc": "Maxi Araújo rescued a point for Uruguay to deny Saudi Arabia another famous World Cup win as the sides drew 1-1 in Miami.",
    "link": "http://www.espn.com/soccer/report/_/gameId/760429",
@@ -4909,14 +4917,6 @@
    "published": "2026-06-16T00:18:36Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673832_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Ashour gets Egypt's campaign up and running",
-   "desc": "Emam Ashour scores his first international goal in 30 appearances for Egypt as they hold Belgium to a 1-1 draw.",
-   "link": "https://www.espn.com/video/clip/_/id/49076527/ashour-gets-egypt-campaign-running",
-   "published": "2026-06-15T22:24:04Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0615/dm_260615_Soccer_HIGHLIGHT_Ashour_gets_Egypts_campaign_up_and_running_20260616_AUS/dm_260615_Soccer_HIGHLIGHT_Ashour_gets_Egypts_campaign_up_and_running_20260616_AUS.jpg"
   }
  ]
 }
