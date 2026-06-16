@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T02:31:13+00:00",
+ "generated_at": "2026-06-16T02:31:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -19,19 +19,6 @@
  },
  "players": [
   {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 11,
-   "today": 5,
-   "rank": 1,
-   "movement": 3
-  },
-  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -39,10 +26,23 @@
     "SWE",
     "BIH"
    ],
-   "total": 10,
-   "today": 5,
+   "total": 15,
+   "today": 10,
+   "rank": 1,
+   "movement": 5
+  },
+  {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 9,
+   "today": 3,
    "rank": 2,
-   "movement": 4
+   "movement": 2
   },
   {
    "name": "Dipen",
@@ -91,8 +91,8 @@
     "EGY",
     "KSA"
    ],
-   "total": 7,
-   "today": 6,
+   "total": 6,
+   "today": 5,
    "rank": 6,
    "movement": 3
   },
@@ -106,8 +106,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 7,
-   "movement": -3
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -117,10 +117,10 @@
     "TUN",
     "UZB"
    ],
-   "total": 6,
-   "today": 6,
-   "rank": 7,
-   "movement": 4
+   "total": 4,
+   "today": 4,
+   "rank": 8,
+   "movement": 3
   },
   {
    "name": "Ruggy",
@@ -132,8 +132,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 8,
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -344,12 +344,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-15",
-     "desc": "2nd in Group G (live)",
-     "points": 3
+     "desc": "3rd in Group G (live)",
+     "points": 1
     }
    ]
   },
@@ -550,8 +550,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-16",
+     "desc": "1st in Group G (live)",
+     "points": 5
+    }
+   ]
   },
   "TUR": {
    "code": "TUR",
@@ -693,14 +699,8 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-15",
-     "desc": "3rd in Group G (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CAN": {
    "code": "CAN",
@@ -1127,12 +1127,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-16",
-     "desc": "1st in Group G (live)",
-     "points": 5
+     "desc": "2nd in Group G (live)",
+     "points": 3
     }
    ]
   }
@@ -1143,8 +1143,8 @@
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "63'",
-   "status_detail": "63'",
+   "clock": "64'",
+   "status_detail": "64'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.95,
@@ -1158,7 +1158,7 @@
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "NZL",
@@ -3410,16 +3410,33 @@
    "rows": [
     {
      "group": "Group G",
-     "code": "NZL",
+     "code": "IRN",
      "p": 1,
-     "w": 1,
-     "d": 0,
+     "w": 0,
+     "d": 1,
      "l": 0,
      "gf": 2,
-     "ga": 1,
-     "pts": 3,
+     "ga": 2,
+     "pts": 1,
      "live": true,
-     "gd": 1,
+     "gd": 0,
+     "name": "Iran",
+     "flag": "🇮🇷",
+     "tier": 2,
+     "owner": "Spridge"
+    },
+    {
+     "group": "Group G",
+     "code": "NZL",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 2,
+     "ga": 2,
+     "pts": 1,
+     "live": true,
+     "gd": 0,
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
@@ -3458,23 +3475,6 @@
      "flag": "🇪🇬",
      "tier": 2,
      "owner": "Brando"
-    },
-    {
-     "group": "Group G",
-     "code": "IRN",
-     "p": 1,
-     "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 0,
-     "live": true,
-     "gd": -1,
-     "name": "Iran",
-     "flag": "🇮🇷",
-     "tier": 2,
-     "owner": "Spridge"
     }
    ]
   },
