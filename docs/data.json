@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T22:41:59+00:00",
+ "generated_at": "2026-06-16T22:42:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1161,8 +1161,8 @@
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "40'",
-   "status_detail": "40'",
+   "clock": "41'",
+   "status_detail": "41'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 15.0,
@@ -4922,10 +4922,10 @@
  ],
  "news": [
   {
-   "headline": "World Cup Daily Live: Haaland makes World Cup debut with goal as Norway lead Iraq",
+   "headline": "World Cup Daily Live: Norway's Haaland makes World Cup debut with goal vs. Iraq",
    "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
-   "published": "2026-06-16T22:35:44Z",
+   "published": "2026-06-16T22:41:07Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674409_1296x729_16-9.jpg"
   },
