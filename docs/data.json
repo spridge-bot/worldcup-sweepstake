@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T18:50:22+00:00",
+ "generated_at": "2026-06-16T18:55:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "Mikel Merino: Spain 'mourning' after Cape Verde draw",
+   "desc": "Mikel Merino said World Cup favourites Spain are \"dealing with the mourning\" after their shock draw with underdogs Cape Verde in their opening game.",
+   "link": "https://www.espn.com/soccer/story/_/id/49084342/mikel-merino-spain-mourning-cape-verde-draw-world-cup-2026",
+   "published": "2026-06-16T18:51:41Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0614/r1672972_1296x729_16-9.jpg"
+  },
+  {
    "headline": "World Cup live updates: France kick off tournament vs. Senegal",
    "desc": "Join us for all the updates as France kick off their 2026 World Cup campaign against Senegal in New Jersey.",
    "link": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T18:07:04Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Daniel_Sturridge_surprised_by_Cole_Palmers_England_snub/dm_260616_Daniel_Sturridge_surprised_by_Cole_Palmers_England_snub.jpg"
-  },
-  {
-   "headline": "Cape Verde GK Vozinha stopped World Cup favorites Spain ... then gained 8M followers",
-   "desc": "Cape Verde GK Vozinha is a 40-year-old journeyman who is now one of the 2026 World Cup's most beloved players.",
-   "link": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-8m-followers",
-   "published": "2026-06-16T17:26:35Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673797_1296x729_16-9.jpg"
   }
  ]
 }
