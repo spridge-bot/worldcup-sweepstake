@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T15:50:40+00:00",
+ "generated_at": "2026-06-16T15:55:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,10 +4892,18 @@
  ],
  "news": [
   {
+   "headline": "Czechia vs. South Africa - Kick-off time, team news, how to watch Bafana's second World Cup game",
+   "desc": "Bafana Bafana will look to bounce back from World Cup defeat to Mexico when they face Czechia on Thursday.",
+   "link": "https://www.espn.com/espn/story/_/id/49052624/czechia-vs-south-africa-kick-team-news-how-watch-bafana-second-world-cup-game",
+   "published": "2026-06-16T15:51:08Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0613/r1672542_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Are World Cup hydration breaks actually commercial breaks or momentum breaks?",
    "desc": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?",
    "link": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
-   "published": "2026-06-16T15:46:21Z",
+   "published": "2026-06-16T15:51:18Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674033_1296x729_16-9.jpg"
   },
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T15:05:12Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674053_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "U.S.' Tori Penso second woman to officiate men's World Cup game",
-   "desc": "U.S. referee Tori Penso was assigned to officiate The Group A match between Czechia and South Africa in Atlanta on Thursday, making her the second woman to take charge of a men's World Cup match.",
-   "link": "https://www.espn.com/soccer/story/_/id/49082394/us-tori-penso-second-woman-officiate-men-world-cup-game",
-   "published": "2026-06-16T15:04:53Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674112_1296x729_16-9.jpg"
   }
  ]
 }
