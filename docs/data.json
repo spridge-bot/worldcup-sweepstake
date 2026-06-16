@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T21:58:59+00:00",
+ "generated_at": "2026-06-16T21:59:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4904,6 +4904,14 @@
  ],
  "news": [
   {
+   "headline": "Mbappé double leads France to opening game win",
+   "desc": "Kylian Mbappé becomes France's top all-time goal scorer, moving above Olivier Giroud in their 3-1 win over Senegal.",
+   "link": "https://www.espn.com/video/clip/_/id/49086502/mbappe-double-leads-france-opening-game-win",
+   "published": "2026-06-16T21:59:02Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Soccer_Highlight_Mbappe_double_leads_France_to_opening_game_win_20260617_AUS_ONLY/dm_260616_Soccer_Highlight_Mbappe_double_leads_France_to_opening_game_win_20260617_AUS_ONLY.jpg"
+  },
+  {
    "headline": "Leboeuf backs Mbappé to break Klose's World Cup goal record",
    "desc": "Leboeuf backs Mbappé to break Klose's World Cup goal record",
    "link": "https://www.espn.com/video/clip/_/id/49086415/leboeuf-backs-mbappe-break-klose-world-cup-goal-record",
@@ -4942,14 +4950,6 @@
    "published": "2026-06-16T21:32:30Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2025/1204/r1584809_2_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Berhalter says Pochettino taught USMNT 'what we're about'",
-   "desc": "United States midfielder Sebastian Berhalter said that one of the ways manager Mauricio Pochettino has changed the culture within the team is instilling a mindset where they don't \"take s---.\"",
-   "link": "https://www.espn.com/soccer/story/_/id/49085397/berhalter-says-pochettino-taught-usmnt-about",
-   "published": "2026-06-16T21:34:43Z",
-   "type": "HeadlineNews",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674319_1296x729_16-9.jpg"
   }
  ]
 }
