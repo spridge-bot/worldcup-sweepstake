@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T00:05:06+00:00",
+ "generated_at": "2026-06-16T00:10:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-15",
  "scoring": {
@@ -4879,14 +4879,6 @@
    "image": "https://a.espncdn.com/photo/2026/0615/r1673825_1296x729_16-9.jpg"
   },
   {
-   "headline": "World Cup Daily Live: Uruguay face Saudi Arabia in Group H",
-   "desc": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition.",
-   "link": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-   "published": "2026-06-15T23:04:37Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0615/r1673811_1296x729_16-9.jpg"
-  },
-  {
    "headline": "2026 FIFA World Cup match schedule: Fixtures, results, features",
    "desc": "Check out all the fixtures, features and results for the 2026 FIFA World Cup in the United States, Mexico and Canada.",
    "link": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
@@ -4917,6 +4909,14 @@
    "published": "2026-06-15T23:24:51Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0615/r1673821_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Canada's Alphonso Davies yet to return to full training ahead of Qatar World Cup clash",
+   "desc": "Canada captain Alphonso Davies remained limited in the team's World Cup training session on Monday as he recovers from a hamstring injury.",
+   "link": "https://www.espn.com/soccer/story/_/id/49076456/alphonso-davies-injury-canada-world-cup-qatar",
+   "published": "2026-06-15T22:44:46Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0615/r1673824_1296x729_16-9.jpg"
   }
  ]
 }
