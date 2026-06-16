@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T13:23:06+00:00",
+ "generated_at": "2026-06-16T13:28:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4892,6 +4892,14 @@
  ],
  "news": [
   {
+   "headline": "How can France utilise Mbappé vs. Senegal at the World Cup?",
+   "desc": "How can France utilise Mbappé vs. Senegal at the World Cup?",
+   "link": "https://www.espn.com/video/clip/_/id/49081579/how-france-utilise-mbappe-vs-senegal-world-cup",
+   "published": "2026-06-16T13:23:58Z",
+   "type": "Media",
+   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_How_can_France_utilise_Mbappe_vs_Senegal_at_the_World_Cup_20260616_GLOBAL_FIF/dm_260616_COM_SOC_Analysis_How_can_France_utilise_Mbappe_vs_Senegal_at_the_World_Cup_20260616_GLOBAL_FIF.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Giant inflatable match ball breaks loose; Messi, Mbappé, Haaland set for action",
    "desc": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4930,14 +4938,6 @@
    "published": "2026-06-16T11:27:03Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0612/r1672110_608x342_16-9.jpg"
-  },
-  {
-   "headline": "R9 stresses importance of Neymar fitness to Brazil's World Cup chances",
-   "desc": "R9 stresses importance of Neymar fitness to Brazil's World Cup chances",
-   "link": "https://www.espn.com/video/clip/_/id/49080813/r9-stresses-importance-neymar-fitness-brazil-world-cup-chances",
-   "published": "2026-06-16T11:15:50Z",
-   "type": "Media",
-   "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Interview_R9_stresses_importance_of_Neymar_fitness_to_Brazils_World_Cup_chances_2026061/dm_260616_COM_SOC_Interview_R9_stresses_importance_of_Neymar_fitness_to_Brazils_World_Cup_chances_2026061.jpg"
   }
  ]
 }
