@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-16T23:59:37+00:00",
+ "generated_at": "2026-06-17T00:00:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1651,9 +1651,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.51,
-    "draw": 4.2,
-    "away": 7.0,
+    "home": 1.39,
+    "draw": 4.6,
+    "away": 9.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -1661,13 +1661,13 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "form": "WWWWW"
+    "form": null
    },
    "away": {
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "WWDWL"
+    "form": null
    }
   },
   {
@@ -2861,13 +2861,13 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": null
+    "form": "WLLWW"
    },
    "away": {
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": null
+    "form": "DLLLL"
    }
   },
   {
@@ -2886,13 +2886,13 @@
     "name": "Panama",
     "flag": "🇵🇦",
     "owner": "Dubs",
-    "form": null
+    "form": "DWLWD"
    },
    "away": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": null
+    "form": "WWLDW"
    }
   },
   {
@@ -2911,13 +2911,13 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": null
+    "form": "WWLLW"
    },
    "away": {
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "form": null
+    "form": "WWWDW"
    }
   },
   {
@@ -2936,13 +2936,13 @@
     "name": "DR Congo",
     "flag": "🇨🇩",
     "owner": "Willo",
-    "form": null
+    "form": "LDWWL"
    },
    "away": {
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "form": null
+    "form": "LLWWD"
    }
   },
   {
@@ -2961,13 +2961,13 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": null
+    "form": "WWDWL"
    },
    "away": {
     "name": "Austria",
     "flag": "🇦🇹",
     "owner": "George",
-    "form": null
+    "form": "WWWDW"
    }
   },
   {
@@ -2986,13 +2986,13 @@
     "name": "Jordan",
     "flag": "🇯🇴",
     "owner": "Glancy",
-    "form": null
+    "form": "LLDDD"
    },
    "away": {
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "form": null
+    "form": "WWWWW"
    }
   }
  ],
