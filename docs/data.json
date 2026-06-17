@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T20:12:02+00:00",
+ "generated_at": "2026-06-17T20:12:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -58,6 +58,19 @@
    "movement": 1
   },
   {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 11,
+   "today": 5,
+   "rank": 4,
+   "movement": 2
+  },
+  {
    "name": "Dipen",
    "teams": [
     "POR",
@@ -84,32 +97,6 @@
    "movement": 0
   },
   {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 9,
-   "today": 3,
-   "rank": 6,
-   "movement": 0
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 7,
-   "today": 5,
-   "rank": 7,
-   "movement": 3
-  },
-  {
    "name": "Fergs",
    "teams": [
     "ARG",
@@ -119,8 +106,8 @@
    ],
    "total": 6,
    "today": 5,
-   "rank": 8,
-   "movement": 4
+   "rank": 7,
+   "movement": 5
   },
   {
    "name": "Jen",
@@ -132,8 +119,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 8,
-   "movement": -2
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -145,8 +132,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 10,
-   "movement": -2
+   "rank": 9,
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -158,8 +145,21 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 10,
-   "movement": -2
+   "rank": 9,
+   "movement": -1
+  },
+  {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 2,
+   "today": 0,
+   "rank": 11,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -171,8 +171,8 @@
    ],
    "total": 2,
    "today": 0,
-   "rank": 12,
-   "movement": -2
+   "rank": 11,
+   "movement": -1
   }
  ],
  "teams": {
@@ -253,12 +253,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-17",
-     "desc": "2nd in Group L (live)",
-     "points": 3
+     "desc": "1st in Group L (live)",
+     "points": 5
     }
    ]
   },
@@ -414,14 +414,8 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-17",
-     "desc": "1st in Group L (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "COL": {
    "code": "COL",
@@ -3871,33 +3865,16 @@
    "rows": [
     {
      "group": "Group L",
-     "code": "CRO",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": true,
-     "gd": 0,
-     "name": "Croatia",
-     "flag": "🇭🇷",
-     "tier": 1,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group L",
      "code": "ENG",
      "p": 1,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
      "tier": 1,
@@ -3935,6 +3912,23 @@
      "name": "Panama",
      "flag": "🇵🇦",
      "tier": 2,
+     "owner": "Dubs"
+    },
+    {
+     "group": "Group L",
+     "code": "CRO",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
+     "pts": 0,
+     "live": true,
+     "gd": -1,
+     "name": "Croatia",
+     "flag": "🇭🇷",
+     "tier": 1,
      "owner": "Dubs"
     }
    ]
