@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T11:33:43+00:00",
+ "generated_at": "2026-06-17T11:39:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -4979,10 +4979,19 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
+   "headline": "How sweltering Scotland can handle World Cup heat",
+   "desc": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil.",
+   "link": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:16:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Who would you start against Croatia? Pick your England XI",
    "desc": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?",
    "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-14T11:04:53Z",
+   "published": "2026-06-17T11:35:33Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c972/live/082eff70-676d-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
@@ -5066,15 +5075,6 @@
    "published": "2026-06-16T21:07:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7b4d/live/5791d540-a776-11f0-928c-71dbb8619e94.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Emotional Messi explains tears after Argentina goal",
-   "desc": "Lionel Messi was brought to tears after scoring the opening goal in Argentina's 3-0 win against Algeria because of a matter \"completely unrelated to football\".",
-   "link": "https://www.bbc.com/sport/football/articles/c74yz03glrro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T08:34:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06c6/live/57e94ee0-6a28-11f1-abb8-593e42f5c384.jpg",
    "source": "BBC Sport"
   }
  ]
