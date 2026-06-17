@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T17:12:22+00:00",
+ "generated_at": "2026-06-17T17:13:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1185,8 +1185,8 @@
    "utc": "2026-06-17T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "11'",
-   "status_detail": "11'",
+   "clock": "12'",
+   "status_detail": "12'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.29,
@@ -2343,9 +2343,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.21,
+    "home": 1.2,
     "draw": 7.0,
-    "away": 13.0,
+    "away": 14.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5018,15 +5018,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How Modric and Croatia continue to defy the odds",
-   "desc": "The child displaced by war who won six Champions League titles and a Ballon d'Or - how Luka Modric and England's opponents Croatia continue to defy the odds.",
-   "link": "https://www.bbc.com/sport/football/articles/cjdgnk5vz1mo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T11:04:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/70a8/live/b98595a0-6573-11f1-8424-e7da9f0754bf.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "No stage too big - Haaland arrives in style at World Cup",
    "desc": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
@@ -5087,6 +5078,15 @@
    "published": "2026-06-17T13:05:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d0c/live/d6e1d3d0-6798-11f1-96dd-331cbbd997a3.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why has Erling Haaland added 'Braut' to Norway shirt?",
+   "desc": "Our Ask Me Anything team explain why the player's Norway shirt displays the name Erling Braut Haaland.",
+   "link": "https://www.bbc.com/sport/football/articles/c70y5r8q1ryo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:06:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1957/live/fe937c20-6a37-11f1-8e1d-bbbb1017d210.png",
    "source": "BBC Sport"
   }
  ]
