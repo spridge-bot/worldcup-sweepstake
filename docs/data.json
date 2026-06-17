@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T01:09:40+00:00",
+ "generated_at": "2026-06-17T01:10:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -4949,6 +4949,14 @@
  ],
  "news": [
   {
+   "headline": "How many father-son duos have been in the FIFA World Cup?",
+   "desc": "Check out a list of every father-son duo that has played in the FIFA World Cup.",
+   "link": "https://www.espn.com/soccer/story/_/id/48847593/how-many-father-son-duos-the-fifa-world-cup",
+   "published": "2026-06-17T01:09:10Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2022/0317/r987687_608x342_16-9.jpg"
+  },
+  {
    "headline": "World Cup Daily Live: Argentina kick off title defense, Haaland and Mbappé with goals",
    "desc": "World Cup group stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
@@ -4971,14 +4979,6 @@
    "published": "2026-06-17T00:53:57Z",
    "type": "Media",
    "image": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_Soccer_Highlight_Haaland_leads_Norway_to_first_World_Cup_win_since_1998_20260617_AUS_ONLY/dm_260616_Soccer_Highlight_Haaland_leads_Norway_to_first_World_Cup_win_since_1998_20260617_AUS_ONLY.jpg"
-  },
-  {
-   "headline": "How many father-son duos have been in the FIFA World Cup?",
-   "desc": "Check out a list of every father-son duo that has played in the FIFA World Cup.",
-   "link": "https://www.espn.com/soccer/story/_/id/48847593/how-many-father-son-duos-the-fifa-world-cup",
-   "published": "2026-06-17T00:50:10Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2022/0317/r987687_608x342_16-9.jpg"
   },
   {
    "headline": "Moreno full of praise for Haaland after brace on World Cup debut",
