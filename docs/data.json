@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T22:45:40+00:00",
+ "generated_at": "2026-06-17T22:51:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -2411,9 +2411,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 7.0,
-    "draw": 4.1,
-    "away": 1.51,
+    "home": 6.5,
+    "draw": 3.95,
+    "away": 1.57,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2427,7 +2427,7 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": "LWLLW"
+    "form": "WLLWW"
    }
   },
   {
