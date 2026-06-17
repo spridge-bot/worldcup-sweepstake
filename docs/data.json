@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T22:01:15+00:00",
+ "generated_at": "2026-06-17T22:02:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -247,12 +247,12 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 4,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -408,12 +408,12 @@
    "fifa_rank": 11,
    "owner": "Dubs",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "lost": 1,
+   "gf": 2,
+   "ga": 4,
    "total": 0,
    "events": []
   },
@@ -1191,39 +1191,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760437,
+   "date": "2026-06-17",
    "utc": "2026-06-17T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+7'",
-   "status_detail": "90'+7'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 4,
+    "points": null
+   },
+   "away": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 1.71,
     "draw": 3.8,
     "away": 4.9,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 4
-   },
-   "away": {
-    "code": "CRO",
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760435,
    "date": "2026-06-17",
@@ -2396,7 +2396,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": "WWLDW"
+    "form": "WWWLD"
    },
    "away": {
     "name": "Ghana",
@@ -2427,7 +2427,7 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": "WLLWW"
+    "form": "LWLLW"
    }
   },
   {
@@ -2921,7 +2921,7 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": "WLLWW"
+    "form": "LWLLW"
    },
    "away": {
     "name": "Ghana",
@@ -2952,7 +2952,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": "WWLDW"
+    "form": "WWWLD"
    }
   },
   {
@@ -3873,7 +3873,7 @@
      "gf": 4,
      "ga": 2,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -3924,7 +3924,7 @@
      "gf": 2,
      "ga": 4,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Croatia",
      "flag": "🇭🇷",
