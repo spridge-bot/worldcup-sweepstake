@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T22:51:08+00:00",
+ "generated_at": "2026-06-17T22:56:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -2411,9 +2411,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 6.5,
-    "draw": 3.95,
-    "away": 1.57,
+    "home": 7.0,
+    "draw": 4.1,
+    "away": 1.51,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2427,7 +2427,7 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": "WLLWW"
+    "form": "LWLLW"
    }
   },
   {
@@ -5021,7 +5021,7 @@
    "headline": "'Scared to take him off' - Ronaldo struggles after fellow superstars sparkle",
    "desc": "Three superstars delivered for their countries at the World Cup on Tuesday. But Cristiano Ronaldo could not follow suit on Wednesday as Portugal were held to a surprise draw by DR Congo.",
    "link": "https://www.bbc.com/sport/football/articles/cpq3734ln8yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T21:42:51Z",
+   "published": "2026-06-17T22:51:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef3/live/c824fa90-6a84-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
