@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T17:13:08+00:00",
+ "generated_at": "2026-06-17T17:13:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1185,8 +1185,8 @@
    "utc": "2026-06-17T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "12'",
-   "status_detail": "12'",
+   "clock": "13'",
+   "status_detail": "13'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.29,
@@ -5018,6 +5018,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How Modric and Croatia continue to defy the odds",
+   "desc": "The child displaced by war who won six Champions League titles and a Ballon d'Or - how Luka Modric and England's opponents Croatia continue to defy the odds.",
+   "link": "https://www.bbc.com/sport/football/articles/cjdgnk5vz1mo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:04:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/70a8/live/b98595a0-6573-11f1-8424-e7da9f0754bf.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "No stage too big - Haaland arrives in style at World Cup",
    "desc": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
@@ -5069,15 +5078,6 @@
    "published": "2026-06-09T13:28:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/834c/live/58198910-6998-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who are the Croatia players England should look out for?",
-   "desc": "England face Croatia in their World Cup opener. BBC Sport takes a look at the Croatian players to look out for.",
-   "link": "https://www.bbc.com/sport/football/articles/cy04g9ldneeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T13:05:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d0c/live/d6e1d3d0-6798-11f1-96dd-331cbbd997a3.jpg",
    "source": "BBC Sport"
   },
   {
