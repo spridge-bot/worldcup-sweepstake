@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T02:23:37+00:00",
+ "generated_at": "2026-06-17T02:24:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "60'",
-   "status_detail": "60'",
+   "clock": "61'",
+   "status_detail": "61'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -1182,7 +1182,7 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "ALG",
@@ -3676,11 +3676,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 1,
+     "gf": 2,
      "ga": 0,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Argentina",
      "flag": "🇦🇷",
      "tier": 1,
@@ -3728,10 +3728,10 @@
      "d": 0,
      "l": 1,
      "gf": 0,
-     "ga": 1,
+     "ga": 2,
      "pts": 0,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Algeria",
      "flag": "🇩🇿",
      "tier": 2,
