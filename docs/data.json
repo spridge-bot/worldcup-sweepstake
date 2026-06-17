@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T02:24:22+00:00",
+ "generated_at": "2026-06-17T02:25:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "61'",
-   "status_detail": "61'",
+   "clock": "62'",
+   "status_detail": "62'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -4979,6 +4979,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "From tragedy to World Cup history - Iraq scorer Hussein's story",
+   "desc": "Iraq striker Aymen Hussein's journey to the World Cup is one that could easily have taken a different turn.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg055dj259o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T02:20:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6f14/live/64717df0-69e6-11f1-a478-f9b900e03c5a.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The VAR call that dumbfounded the world's best refs",
    "desc": "France are left stunned at the decision not to award a penalty as Kylian Mbappe goes down under Sadio Mane's tackle.",
    "link": "https://www.bbc.com/sport/football/articles/c4gyr9dr4yvo?at_medium=RSS&at_campaign=rss",
@@ -5039,15 +5048,6 @@
    "published": "2026-06-16T19:13:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/965d/live/559f1ef0-69b3-11f1-9a2b-c1fb07dd1b47.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Meet the striker who doesn't score often - but Scotland win when he does",
-   "desc": "Lyndon Dykes has taken a long road to a major finals with Scotland but he's bald, belligerent and up for the battle against Morocco.",
-   "link": "https://www.bbc.com/sport/football/articles/cvglpml0mgeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T21:33:43Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3d11/live/f8434260-69c4-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
