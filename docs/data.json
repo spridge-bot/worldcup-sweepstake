@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T20:11:20+00:00",
+ "generated_at": "2026-06-17T20:12:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1203,8 +1203,8 @@
    "utc": "2026-06-17T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "11'",
-   "status_detail": "11'",
+   "clock": "12'",
+   "status_detail": "12'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.71,
@@ -1218,7 +1218,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "CRO",
