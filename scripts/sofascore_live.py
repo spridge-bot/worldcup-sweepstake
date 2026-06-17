@@ -49,6 +49,9 @@ WC_TOURNAMENT_ID = 16
 # clock, feed and stats here; index.html subscribes over SSE (GitHub Pages only
 # refreshes on git pushes, which are capped — this sidesteps that entirely)
 NTFY_LIVE = "https://ntfy.sh/wc26-sweepstake-live-spridge-k7q4x9"
+# How long the persistent watcher sleeps between polls when nothing is live
+# (one cheap ESPN scoreboard call per tick to notice the next kick-off).
+WATCH_IDLE_INTERVAL = 30
 
 try:
     from datafc.utils._client import SofascoreClient
@@ -702,27 +705,25 @@ def watch(interval):
     sofa_path = DOCS / "sofascore.json"
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
-    idle_passes = 0
     prev_live_ids = set()
     while True:
         cycle_start = time.time()
         espn_quick_scores()
         targets, variants, teams, live_ids, codes_by_id = load_targets()
         if not live_ids:
-            if prev_live_ids:
+            if prev_live_ids:                       # a match just ended — tell the relay
                 publish_live_updates(out, prev_live_ids, set())
                 prev_live_ids = set()
-            idle_passes += 1
-            if idle_passes >= 3:        # give a just-finished match time to settle
-                print("No live matches; watcher exiting.")
-                break
-        else:
-            idle_passes = 0
-            find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True, codes_by_id=codes_by_id, live_ids=live_ids)
-            write_out(out)
-            mirror_to_mini()
-            publish_live_updates(out, prev_live_ids, live_ids)
-            prev_live_ids = set(live_ids)
+            # Stay alive and poll cheaply for the next kick-off instead of exiting.
+            # A persistent watcher keeps the real-time relay ready the instant a
+            # match goes live, rather than waiting up to 5 min to be respawned.
+            time.sleep(WATCH_IDLE_INTERVAL)
+            continue
+        find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True, codes_by_id=codes_by_id, live_ids=live_ids)
+        write_out(out)
+        mirror_to_mini()
+        publish_live_updates(out, prev_live_ids, live_ids)
+        prev_live_ids = set(live_ids)
         time.sleep(max(5, interval - (time.time() - cycle_start)))
 
 
