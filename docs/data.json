@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T20:41:25+00:00",
+ "generated_at": "2026-06-17T20:42:11+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1203,8 +1203,8 @@
    "utc": "2026-06-17T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "40'",
-   "status_detail": "40'",
+   "clock": "41'",
+   "status_detail": "41'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.71,
@@ -4689,6 +4689,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Harry Kane",
+   "team": "ENG",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
+  },
+  {
    "player": "Kai Havertz",
    "team": "GER",
    "goals": 2,
@@ -4767,14 +4775,6 @@
    "assists": 0,
    "flag": "🇨🇭",
    "owner": "Emily"
-  },
-  {
-   "player": "Connor Metcalfe",
-   "team": "AUS",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇦🇺",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
