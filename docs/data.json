@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T23:10:14+00:00",
+ "generated_at": "2026-06-17T23:10:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -5063,15 +5063,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How sweltering Scotland can handle World Cup heat",
-   "desc": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil.",
-   "link": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T11:16:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Extraordinary Messi makes more history in masterclass for the ages",
    "desc": "Kylian Mbappe and Erling Haaland both enjoyed a fine start to the World Cup - but on a day packed with superstars, Lionel Messi still took top billing.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k2zzejklo?at_medium=RSS&at_campaign=rss",
@@ -5141,6 +5132,15 @@
    "published": "2026-06-16T13:38:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc85/live/c35dac30-698c-11f1-bf78-b9ee73ed2967.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Are Portugal better without Ronaldo - and is he undroppable?",
+   "desc": "As Cristiano Ronaldo prepares for his sixth World Cup with Portugal, BBC Sport take a closer look at his place in the team.",
+   "link": "https://www.bbc.com/sport/football/articles/cvgzg4vj8dno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T08:52:26Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3df/live/23801080-61e0-11f1-ad0c-49f100654739.jpg",
    "source": "BBC Sport"
   }
  ]
