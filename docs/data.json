@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T01:21:52+00:00",
+ "generated_at": "2026-06-17T01:22:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "19'",
-   "status_detail": "19'",
+   "clock": "20'",
+   "status_detail": "20'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -4943,10 +4943,10 @@
  ],
  "news": [
   {
-   "headline": "World Cup Daily Live: Argentina kick off title defense, Haaland and Mbappé with goals",
+   "headline": "World Cup Daily Live: Messi scores opener as Argentina kick off title defense",
    "desc": "World Cup group stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
    "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
-   "published": "2026-06-17T01:18:36Z",
+   "published": "2026-06-17T01:22:10Z",
    "type": "Story",
    "image": "https://a.espncdn.com/photo/2026/0617/r1674510_1296x729_16-9.jpg"
   },
