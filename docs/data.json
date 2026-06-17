@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T01:46:53+00:00",
+ "generated_at": "2026-06-17T01:47:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "44'",
-   "status_detail": "44'",
+   "clock": "45'",
+   "status_detail": "45'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -2963,9 +2963,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 3.8,
+    "home": 3.65,
     "draw": 3.1,
-    "away": 2.2,
+    "away": 2.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4946,9 +4946,9 @@
    "headline": "England will not adapt style despite USA heat - Tuchel",
    "desc": "Thomas Tuchel says he is \"not ready to adapt\" England's playing style at the World Cup despite the heat - as it would \"give up\" the team's strengths.",
    "link": "https://www.bbc.com/sport/football/articles/clyr5zn4440o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T00:49:21Z",
+   "published": "2026-06-17T01:46:52Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87df/live/105085f0-69d1-11f1-84fd-21e83c1eab66.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/79dc/live/ead85340-69ec-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
