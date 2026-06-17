@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T02:52:48+00:00",
+ "generated_at": "2026-06-17T02:53:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "89'",
-   "status_detail": "89'",
+   "clock": "90'",
+   "status_detail": "90'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -2238,9 +2238,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.08,
-    "draw": 13.0,
-    "away": 29.0,
+    "home": 1.09,
+    "draw": 12.0,
+    "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
