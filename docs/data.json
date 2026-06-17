@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T18:59:34+00:00",
+ "generated_at": "2026-06-17T19:00:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -264,12 +264,12 @@
    "fifa_rank": 5,
    "owner": "Dipen",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 3,
    "events": [
     {
@@ -912,12 +912,12 @@
    "fifa_rank": 45,
    "owner": "Willo",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 1,
+   "ga": 1,
    "total": 5,
    "events": [
     {
@@ -1185,39 +1185,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760435,
+   "date": "2026-06-17",
    "utc": "2026-06-17T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "90'+5'",
-   "status_detail": "90'+5'",
-   "venue": "NRG Stadium",
+   "note": "",
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.29,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "POR",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "goals": 1
-   },
-   "away": {
-    "code": "COD",
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760431,
    "date": "2026-06-17",
@@ -2359,7 +2359,7 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "form": "WWWDW"
+    "form": "DWWWD"
    },
    "away": {
     "name": "Uzbekistan",
@@ -2440,7 +2440,7 @@
     "name": "DR Congo",
     "flag": "🇨🇩",
     "owner": "Willo",
-    "form": "LDWWL"
+    "form": "DLDWW"
    }
   },
   {
@@ -2965,7 +2965,7 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "form": "WWWDW"
+    "form": "DWWWD"
    }
   },
   {
@@ -2984,7 +2984,7 @@
     "name": "DR Congo",
     "flag": "🇨🇩",
     "owner": "Willo",
-    "form": "LDWWL"
+    "form": "DLDWW"
    },
    "away": {
     "name": "Uzbekistan",
@@ -3788,7 +3788,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "DR Congo",
      "flag": "🇨🇩",
@@ -3805,7 +3805,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Portugal",
      "flag": "🇵🇹",
@@ -4815,6 +4815,15 @@
    "pts": 3
   },
   {
+   "code": "POR",
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "owner": "Dipen",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -4882,6 +4891,15 @@
    "name": "Cabo Verde",
    "flag": "🇨🇻",
    "owner": "Dubs",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "COD",
+   "name": "DR Congo",
+   "flag": "🇨🇩",
+   "owner": "Willo",
    "yellow": 1,
    "red": 0,
    "pts": 1
