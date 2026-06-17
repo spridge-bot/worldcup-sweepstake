@@ -600,6 +600,39 @@ def espn_quick_scores():
         print("  patched live scores in data.json")
 
 
+def reconcile_live_scores(out):
+    """Race ESPN against Sofascore: bump each live match's score to whichever
+    source is ahead, so a goal shows the moment EITHER reports it. data.json
+    already holds the ESPN score (from espn_quick_scores / update_scores); here
+    we compare it to the Sofascore goals we just harvested and take the higher
+    total. Self-correcting — if a goal is later disallowed (VAR) and a source
+    drops it, the totals re-converge and the score steps back next cycle."""
+    path = DOCS / "data.json"
+    try:
+        data = json.loads(path.read_text())
+    except Exception:
+        return
+    changed = False
+    for m in data.get("live") or []:
+        ent = out.get(str(m.get("id"))) or {}
+        goals = [i for i in (ent.get("incidents") or []) if i.get("type") == "goal"]
+        if not goals:
+            continue
+        last = goals[-1]
+        sh, sa = last.get("homeScore"), last.get("awayScore")
+        if sh is None or sa is None:                 # fall back to counting goals per side
+            sh = sum(1 for g in goals if g.get("team") == "home")
+            sa = sum(1 for g in goals if g.get("team") == "away")
+        eh, ea = m["home"]["goals"], m["away"]["goals"]
+        if (sh + sa) > (eh + ea):                    # Sofascore is ahead — adopt its scoreline
+            m["home"]["goals"], m["away"]["goals"] = sh, sa
+            changed = True
+            print(f"  match {m['id']}: Sofascore ahead {sh}-{sa} (ESPN {eh}-{ea})")
+    if changed:
+        data["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        atomic_write(path, json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+
+
 def _ntfy_post(body):
     try:
         req = urllib.request.Request(NTFY_LIVE, data=body.encode("utf-8"), method="POST")
@@ -693,6 +726,7 @@ def main():
         print(f"Harvesting {len(targets)} match(es) "
               f"({'API-first' if HAVE_API else 'browser only'})...")
         find_and_harvest(targets, variants, teams, out, codes_by_id=codes_by_id, live_ids=live_ids)
+    reconcile_live_scores(out)            # take whichever of ESPN/Sofascore is ahead
     backfill_momentum(out)
     write_out(out)
     print(f"Wrote docs/sofascore.json ({len(out)} matches)")
@@ -720,6 +754,7 @@ def watch(interval):
             time.sleep(WATCH_IDLE_INTERVAL)
             continue
         find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True, codes_by_id=codes_by_id, live_ids=live_ids)
+        reconcile_live_scores(out)        # take whichever of ESPN/Sofascore is ahead
         write_out(out)
         mirror_to_mini()
         publish_live_updates(out, prev_live_ids, live_ids)
