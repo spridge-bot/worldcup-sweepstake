@@ -790,12 +790,15 @@ function tickClock(clock, detail, generatedAt) {
 // minutes, so we anchor seconds the first time we see each minute value (per
 // match) and let a 1s ticker count up — re-anchoring only when the minute
 // changes, so the relay's ~12s refreshes don't keep resetting the seconds.
-const CLOCK_ANCHORS = {};
+const CLOCK_ANCHORS = {};   // id -> { base, t0, cap } — game-seconds anchor that climbs in real time
 function fmtClock(sec) {
   sec = Math.max(0, Math.floor(sec));
   return `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`;
 }
-function matchClock(m, generatedAt) {
+// Current ticking value for an anchor: climbs at 1s/s from when it was set,
+// capped so a dead/stale feed can't run the clock away indefinitely.
+function clockSec(a) { return Math.min(a.base + (Date.now() - a.t0) / 1000, a.cap); }
+function matchClock(m) {
   const detail = m.status_detail || '';
   if (/\bHT\b|half.?time/i.test(detail)) return `<div class="matchclock paused">HALF&nbsp;TIME</div>`;
   if (/\bF?T\b|full.?time|\bAET\b|pen|final|ended/i.test(detail) && !/^\d/.test(detail))
@@ -804,17 +807,21 @@ function matchClock(m, generatedAt) {
   if (!mm) return detail ? `<div class="matchclock paused">${esc(detail)}</div>` : '';
   const add = /\+(\d+)/.exec(m.clock || '');
   const totalMin = parseInt(mm[1], 10) + (add ? parseInt(add[1], 10) : 0);
+  const target = (totalMin - 1) * 60;           // game-seconds the feed minute implies
   const a = CLOCK_ANCHORS[m.id];
-  if (!a || a.min !== totalMin) CLOCK_ANCHORS[m.id] = { min: totalMin, t0: Date.now() };
-  const sec = Math.min((totalMin - 1) * 60 + (Date.now() - CLOCK_ANCHORS[m.id].t0) / 1000,
-                       totalMin * 60 + 15);            // hold near the minute end until it ticks over
-  return `<div class="matchclock" data-clock="${m.id}">${fmtClock(sec)}</div>`;
+  // Re-anchor forward only (monotonic): jump up when the feed is ahead of us,
+  // otherwise keep climbing — so stale data extrapolates instead of freezing,
+  // and a late feed update never snaps the clock backwards.
+  if (!a || target > clockSec(a))
+    CLOCK_ANCHORS[m.id] = { base: Math.max(target, a ? clockSec(a) : 0), t0: Date.now(), cap: target + 360 };
+  else
+    a.cap = Math.max(a.cap, target + 360);      // only ever raise the runaway guard, never pull back
+  return `<div class="matchclock" data-clock="${m.id}">${fmtClock(clockSec(CLOCK_ANCHORS[m.id]))}</div>`;
 }
 function tickClocks() {
   document.querySelectorAll('.matchclock[data-clock]').forEach(el => {
     const a = CLOCK_ANCHORS[el.dataset.clock];
-    if (!a) return;
-    el.textContent = fmtClock(Math.min((a.min - 1) * 60 + (Date.now() - a.t0) / 1000, a.min * 60 + 15));
+    if (a) el.textContent = fmtClock(clockSec(a));
   });
 }
 setInterval(tickClocks, 1000);
@@ -957,7 +964,7 @@ function renderLive(d) {
         <div class="livegrid">
           <div class="left">
             ${duelStrip(m.home.owner, m.away.owner)}
-            ${matchClock(m, d.generated_at)}
+            ${matchClock(m)}
             <div class="scoreline">
               ${side(m.home, false)}
               <div class="scorebox">${m.home.goals} – ${m.away.goals}</div>
