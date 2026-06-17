@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T02:10:54+00:00",
+ "generated_at": "2026-06-17T02:11:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "47'",
-   "status_detail": "47'",
+   "clock": "48'",
+   "status_detail": "48'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -4961,6 +4961,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "No stage too big - Haaland arrives in style at World Cup",
+   "desc": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too.",
+   "link": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T02:09:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/19b8/live/690416b0-69ec-11f1-831c-91f0b9e0717c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Partey misled Canadian officials over previous arrest",
    "desc": "Thomas Partey will miss Ghana's World Cup opener after an appeal against the decision not to grant him a visa is turned down.",
    "link": "https://www.bbc.com/sport/football/articles/cly8qj2nlzqo?at_medium=RSS&at_campaign=rss",
@@ -5030,15 +5039,6 @@
    "published": "2026-06-16T19:13:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/965d/live/559f1ef0-69b3-11f1-9a2b-c1fb07dd1b47.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tunisia sack Lamouchi just one game into World Cup",
-   "desc": "Tunisia sack Sabri Lamouchi one game into their World Cup, with former Morocco and Saudi Arabia manager Herve Renard replacing him.",
-   "link": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T06:43:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e22/live/ff8e8a90-695e-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
