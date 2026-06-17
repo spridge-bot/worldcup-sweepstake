@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T03:28:10+00:00",
+ "generated_at": "2026-06-17T03:33:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1688,9 +1688,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.39,
-    "draw": 4.8,
-    "away": 8.5,
+    "home": 1.38,
+    "draw": 4.9,
+    "away": 9.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4988,15 +4988,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The VAR call that dumbfounded the world's best refs",
-   "desc": "France are left stunned at the decision not to award a penalty as Kylian Mbappe goes down under Sadio Mane's tackle.",
-   "link": "https://www.bbc.com/sport/football/articles/c4gyr9dr4yvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T21:32:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4dad/live/63ef2a30-69c8-11f1-83dd-d98c2c7d45fb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
    "desc": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?",
    "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
@@ -5012,6 +5003,15 @@
    "published": "2026-06-16T15:50:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/324d/live/1eae4a40-698d-11f1-bf78-b9ee73ed2967.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The VAR call that dumbfounded the world's best refs",
+   "desc": "France are left stunned at the decision not to award a penalty as Kylian Mbappe goes down under Sadio Mane's tackle.",
+   "link": "https://www.bbc.com/sport/football/articles/c4gyr9dr4yvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-16T21:32:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4dad/live/63ef2a30-69c8-11f1-83dd-d98c2c7d45fb.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5033,21 +5033,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tuchel's England deal includes performance clause",
-   "desc": "Thomas Tuchel's England contract extension is subject to a performance clause, says FA chief executive Mark Bullingham.",
-   "link": "https://www.bbc.com/sport/football/articles/clye3plyj7xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T11:14:08Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7d71/live/7fb29e60-6918-11f1-bae7-cb8795d75d55.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Snakes on a train (ing pitch)",
    "desc": "Snakes are causing concerns for several teams at the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c2lyzdwjwgwo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-16T19:13:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/965d/live/559f1ef0-69b3-11f1-9a2b-c1fb07dd1b47.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Chalobah replaces injured Livramento for World Cup",
+   "desc": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah.",
+   "link": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-16T13:38:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc85/live/c35dac30-698c-11f1-bf78-b9ee73ed2967.jpg",
    "source": "BBC Sport"
   }
  ]
