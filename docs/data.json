@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T08:35:19+00:00",
+ "generated_at": "2026-06-17T08:40:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -2281,9 +2281,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 2.3,
-    "draw": 3.55,
-    "away": 3.05,
+    "home": 2.35,
+    "draw": 3.5,
+    "away": 2.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4988,6 +4988,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Emotional Messi explains tears after Argentina goal",
+   "desc": "Lionel Messi was brought to tears after scoring the opening goal in Argentina's 3-0 win against Algeria because of a matter \"completely unrelated to football\".",
+   "link": "https://www.bbc.com/sport/football/articles/c74yz03glrro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T08:34:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0996/live/bb8d54b0-6a22-11f1-b107-6ded809b7b86.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Project Mbappe - the road to becoming France's record scorer",
    "desc": "Kylian Mbappe has become France's all-time record scorer, aged just 27. BBC Sport takes a closer look at how he got here.",
    "link": "https://www.bbc.com/sport/football/articles/c62lp6xx6zdo?at_medium=RSS&at_campaign=rss",
@@ -5066,15 +5075,6 @@
    "published": "2026-06-16T23:09:45Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/999c/live/5f9c67f0-6490-11f1-a551-3d2205a6170e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Not a model' - Bielsa refuses to engage with World Cup photoshoot",
-   "desc": "Uruguay and former Leeds coach Marcelo Bielsa defends his stony-faced appearance in the official World Cup photoshoot.",
-   "link": "https://www.bbc.com/sport/football/articles/cd6e58eq72eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T07:02:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/67f3/live/3c719890-694a-11f1-b8da-53bba3cad46c.jpg",
    "source": "BBC Sport"
   }
  ]
