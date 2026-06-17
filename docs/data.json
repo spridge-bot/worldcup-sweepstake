@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T23:19:54+00:00",
+ "generated_at": "2026-06-17T23:20:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1209,8 +1209,8 @@
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "19'",
-   "status_detail": "19'",
+   "clock": "20'",
+   "status_detail": "20'",
    "venue": "BMO Field",
    "odds": {
     "home": 2.2,
@@ -5036,6 +5036,15 @@
  ],
  "news": [
   {
+   "headline": "I tried to encourage them to go for it - Tuchel",
+   "desc": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
+   "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T23:15:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Scared to take him off' - Ronaldo struggles after fellow superstars sparkle",
    "desc": "Three superstars delivered for their countries at the World Cup on Tuesday. But Cristiano Ronaldo could not follow suit on Wednesday as Portugal were held to a surprise draw by DR Congo.",
    "link": "https://www.bbc.com/sport/football/articles/cpq3734ln8yo?at_medium=RSS&at_campaign=rss",
@@ -5108,15 +5117,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Get England score updates on your lock screen",
-   "desc": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen.",
-   "link": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-09T13:28:47Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/834c/live/58198910-6998-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why has Erling Haaland added 'Braut' to Norway shirt?",
    "desc": "Our Ask Me Anything team explain why the player's Norway shirt displays the name Erling Braut Haaland.",
    "link": "https://www.bbc.com/sport/football/articles/c70y5r8q1ryo?at_medium=RSS&at_campaign=rss",
@@ -5126,21 +5126,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Get England score updates on your lock screen",
+   "desc": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen.",
+   "link": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-09T13:28:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/834c/live/58198910-6998-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Chalobah replaces injured Livramento for World Cup",
    "desc": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah.",
    "link": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-16T13:38:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc85/live/c35dac30-698c-11f1-bf78-b9ee73ed2967.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Are Portugal better without Ronaldo - and is he undroppable?",
-   "desc": "As Cristiano Ronaldo prepares for his sixth World Cup with Portugal, BBC Sport take a closer look at his place in the team.",
-   "link": "https://www.bbc.com/sport/football/articles/cvgzg4vj8dno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T08:52:26Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3df/live/23801080-61e0-11f1-ad0c-49f100654739.jpg",
    "source": "BBC Sport"
   }
  ]
