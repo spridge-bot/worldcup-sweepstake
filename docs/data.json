@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T16:06:07+00:00",
+ "generated_at": "2026-06-17T16:11:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -4970,15 +4970,6 @@
  ],
  "news": [
   {
-   "headline": "Who would you start against Croatia? Pick your England XI",
-   "desc": "As Thomas Tuchel's England side prepare for their opening game against Croatia, who would you pick to start the first match in Dallas?",
-   "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T11:35:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c972/live/082eff70-676d-11f1-8546-8f19e4fe30f4.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Can Bellingham become England's superstar once more at the World Cup?",
    "desc": "After tough love from England head coach Thomas Tuchel, Jude Bellingham's World Cup build-up points to a special talent who can be a key figure in their quest to win the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c23y4zkv4z0o?at_medium=RSS&at_campaign=rss",
@@ -5075,6 +5066,15 @@
    "published": "2026-06-17T13:05:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d0c/live/d6e1d3d0-6798-11f1-96dd-331cbbd997a3.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why has Erling Haaland added 'Braut' to Norway shirt?",
+   "desc": "Our Ask Me Anything team explain why the player's Norway shirt displays the name Erling Braut Haaland.",
+   "link": "https://www.bbc.com/sport/football/articles/c70y5r8q1ryo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:06:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1957/live/fe937c20-6a37-11f1-8e1d-bbbb1017d210.png",
    "source": "BBC Sport"
   }
  ]
