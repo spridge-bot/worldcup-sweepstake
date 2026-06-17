@@ -40,7 +40,15 @@ API_BASE = "https://api.football-data.org/v4"
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 ESPN_SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
 ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings"
-ESPN_NEWS = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/news"
+BBC_WC_NEWS = "https://feeds.bbci.co.uk/sport/football/world-cup/rss.xml"
+# BBC interactive/promo items that aren't actual news — matched against the
+# lower-cased headline and skipped (the video/audio pages are dropped by link).
+NEWS_SKIP_TITLE = (
+    "how to watch", "without any spoilers", "only on bbc sport",
+    "bbc sport has an app", "set up bbc sport", "take our quiz",
+    "world cup quiz", "who am i?", "guess world cup star",
+    "which world cup team are you", "predictor game", "name these",
+)
 WC_START = datetime(2026, 6, 11)
 WC_END = datetime(2026, 7, 19)
 ESPN_SUMMARY_CAP = 30   # max match summaries to pull per run
@@ -227,29 +235,54 @@ def espn_get(url):
 
 
 def fetch_news(limit=12):
-    """Real team news / previews / injury stories from ESPN's keyless news feed.
-    Returns [{headline, desc, link, published, type, image}] — never fabricated."""
+    """Real World Cup stories from the BBC Sport RSS feed. These are text
+    articles on bbc.co.uk (readable from locked-down work networks, unlike the
+    ESPN pages that are built around video). Returns
+    [{headline, desc, link, published, type, image, source}] — never fabricated."""
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
     try:
-        data = espn_get(ESPN_NEWS)
+        req = urllib.request.Request(BBC_WC_NEWS, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            root = ET.fromstring(resp.read())
     except Exception as e:
         print(f"  news fetch skipped: {e}")
         return []
+    THUMB = "{http://search.yahoo.com/mrss/}thumbnail"
     out = []
-    for a in (data.get("articles") or []):
-        links = a.get("links") or {}
-        web = (links.get("web") or {}).get("href") or (links.get("mobile") or {}).get("href")
-        images = a.get("images") or []
-        image = images[0].get("url") if images else None
-        headline = a.get("headline")
-        if not headline:
+    for it in root.findall("./channel/item"):
+        headline = (it.findtext("title") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        if not headline or not link:
             continue
+        if any(seg in link for seg in ("/av/", "/videos/", "/sounds/")):   # video/audio
+            continue
+        if any(p in headline.lower() for p in NEWS_SKIP_TITLE):            # promos/quizzes
+            continue
+        # RFC-822 pubDate -> ISO-8601 UTC so the page's "x ago" math keeps working
+        published = None
+        raw = it.findtext("pubDate")
+        if raw:
+            try:
+                published = (parsedate_to_datetime(raw).astimezone(timezone.utc)
+                             .isoformat(timespec="seconds").replace("+00:00", "Z"))
+            except Exception:
+                pass
+        thumb = it.find(THUMB)
+        image = thumb.get("url") if thumb is not None else None
+        if image and "/standard/" in image:              # bump 240px thumb -> crisper 480px
+            pre, _, rest = image.partition("/standard/")
+            num, _, tail = rest.partition("/")
+            if num.isdigit():
+                image = f"{pre}/standard/480/{tail}"
         out.append({
             "headline": headline,
-            "desc": a.get("description") or "",
-            "link": web,
-            "published": a.get("published"),
-            "type": a.get("type"),
+            "desc": (it.findtext("description") or "").strip(),
+            "link": link,
+            "published": published,
+            "type": "Story",
             "image": image,
+            "source": "BBC Sport",
         })
         if len(out) >= limit:
             break

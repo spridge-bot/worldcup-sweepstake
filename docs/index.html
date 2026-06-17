@@ -389,9 +389,10 @@
   .group th:nth-child(4), .group td:nth-child(4) { width: 60px; }
   .group th:nth-child(5), .group td:nth-child(5) { width: 40px; }
   .group th:nth-child(6), .group td:nth-child(6) { width: 44px; }
-  .group .gname { background: linear-gradient(90deg, rgba(247,201,72,.14), rgba(16,52,32,.8) 65%);
+  .group .gname { display: block; background: linear-gradient(90deg, rgba(247,201,72,.14), rgba(16,52,32,.8) 65%);
                   color: var(--gold); font-family: var(--disp); font-size: .95rem; font-weight: 400;
-                  letter-spacing: 3px; text-transform: uppercase; padding: 9px 12px; }
+                  letter-spacing: 3px; text-transform: uppercase; padding: 9px 12px;
+                  border-radius: 10px 10px 0 0; }
   .group .q td { background: rgba(62, 240, 139, .06); }
   .group .q td:last-child { color: var(--accent); }
   .group td.teamcell { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -803,8 +804,15 @@ function momentumChart(s, homeName, awayName, goals) {
     : (s.incidents || []).filter(i => i.type === 'goal').map(i => ({ minute: i.minute, addedTime: i.addedTime, side: i.team }));
   const goalMarks = gl.map(g => {
     const x = (((g.minute || 0) + (g.addedTime || 0) * 0.1) / maxMin) * 300;
-    return `<circle cx="${x.toFixed(1)}" cy="${g.side === 'home' ? 5 : 75}" r="3.6"
-      fill="#fff" stroke="#04150b" stroke-width="1"/>`;
+    const col = g.side === 'home' ? '#36d97c' : '#f5c542';
+    // a dashed guide line across the whole chart + a ⚽ disc on the scoring
+    // side, so the goal is unmistakably overlaid on the momentum trace
+    return `<line x1="${x.toFixed(1)}" y1="2" x2="${x.toFixed(1)}" y2="78"
+        stroke="${col}" stroke-width="0.9" stroke-dasharray="2 2" opacity=".75"/>
+      <circle cx="${x.toFixed(1)}" cy="${g.side === 'home' ? 6 : 74}" r="4.4"
+        fill="#fff" stroke="${col}" stroke-width="1.4"/>
+      <text x="${x.toFixed(1)}" y="${g.side === 'home' ? 7.6 : 75.6}" text-anchor="middle"
+        font-size="5.2" fill="#04150b">⚽</text>`;
   }).join('');
   return `<h4>Attack momentum</h4>
     <svg viewBox="0 0 300 80" style="width:100%;display:block;background:rgba(0,0,0,.18);border-radius:8px"
@@ -1553,7 +1561,7 @@ function renderNews(d) {
       ${a.image ? `<img loading="lazy" src="${esc(a.image)}" alt="">` : ''}
       <div class="ni-body"><div class="ni-head">${esc(a.headline)}</div>
         ${a.desc ? `<div class="ni-desc">${esc(a.desc.slice(0, 140))}${a.desc.length > 140 ? '…' : ''}</div>` : ''}
-        <div class="ni-meta"><span>ESPN${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
+        <div class="ni-meta"><span>${esc(a.source || 'BBC Sport')}${a.published ? ' · ' + ago(a.published) : ''}</span>${tag}</div></div></a>`;
   };
   const highlightCard = s => {
     const mod = s.live ? ' live' : s.sweep ? ' sweep' : s.big ? ' big' : ' result';
@@ -1750,8 +1758,7 @@ function renderGroups(d) {
       <td class="num hide-sm">${r.w}-${r.d}-${r.l}</td>
       <td class="num">${r.gd > 0 ? '+' : ''}${r.gd}</td>
       <td class="num total">${r.pts}</td></tr>`).join('');
-    return `<div class="group"><table>
-      <tr><td class="gname" colspan="6">${esc(g.name)}</td></tr>
+    return `<div class="group"><div class="gname">${esc(g.name)}</div><table>
       <tr><th></th><th>Team</th><th class="num">P</th>
       <th class="num hide-sm">W-D-L</th><th class="num">GD</th><th class="num">Pts</th></tr>
       ${rows}</table></div>`;

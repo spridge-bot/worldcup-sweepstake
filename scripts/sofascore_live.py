@@ -453,17 +453,23 @@ API_ENDPOINTS = {
 }
 
 
-def harvest_api(espn_id, sofa_id, codes, teams, out):
+def harvest_api(espn_id, sofa_id, codes, teams, out, live=False):
     ent = out.get(str(espn_id), {})
-    # keep the request volume low so Sofascore doesn't rate-limit/403 us: always
-    # refresh the fast-changing endpoints, but capture the heavy/static ones once
+    # keep the request volume low so Sofascore doesn't rate-limit/403 us: capture
+    # the static endpoints once, but keep the evolving ones fresh while live.
     skip = set()
-    if ent.get("lineups"):
+    if ent.get("lineups"):                       # confirmed line-ups don't change
         skip.add("lineups")
-    if ent.get("shots"):
-        skip.add("shotmap")
-    if ent.get("positions"):
-        skip.add("average-positions")
+    # Shots and average positions keep changing through a live match — a late
+    # goal is a new shot, and average positions drift as the game develops. So
+    # only freeze the captured snapshot once the match is no longer live;
+    # otherwise an early capture (e.g. two shots / one player at kickoff) sticks
+    # for the whole match and we miss every later goal/shot.
+    if not live:
+        if ent.get("shots"):
+            skip.add("shotmap")
+        if ent.get("positions"):
+            skip.add("average-positions")
     payloads = {}
     for short, ep in API_ENDPOINTS.items():
         if short in skip:
@@ -490,10 +496,12 @@ def harvest_browser(link, espn_id, codes, teams, out, quick=False):
     return got
 
 
-def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False, codes_by_id=None):
+def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False,
+                     codes_by_id=None, live_ids=None):
     """Try the fast API path; fall back to the browser. Returns set harvested."""
     done = set()
     codes_by_id = codes_by_id or {}
+    live_ids = set(live_ids or ())
     wanted = set(targets.values()) if only_ids is None else set(only_ids)
     # 1) Direct harvest by the sofa_id we already stored — this keeps live matches
     #    updating even when Sofascore blocks the discovery endpoint (HTTP 403).
@@ -504,7 +512,8 @@ def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False, 
             if not sofa_id or not codes:
                 continue
             try:
-                got = harvest_api(espn_id, sofa_id, codes, teams, out)
+                got = harvest_api(espn_id, sofa_id, codes, teams, out,
+                                  live=espn_id in live_ids)
                 print(f"  [direct] match {espn_id}: {', '.join(got) or 'nothing'}")
                 done.add(espn_id)
             except Exception as e:
@@ -519,7 +528,8 @@ def find_and_harvest(targets, variants, teams, out, only_ids=None, quick=False, 
         for espn_id, (sofa_id, codes) in found.items():
             if espn_id in done or (only_ids is not None and espn_id not in only_ids):
                 continue
-            got = harvest_api(espn_id, sofa_id, codes, teams, out)
+            got = harvest_api(espn_id, sofa_id, codes, teams, out,
+                              live=espn_id in live_ids)
             print(f"  [api] match {espn_id}: {', '.join(got) or 'nothing yet'}")
             done.add(espn_id)
     missing = wanted - done
@@ -672,14 +682,14 @@ def backfill_momentum(out):
 
 
 def main():
-    targets, variants, teams, _, codes_by_id = load_targets()
+    targets, variants, teams, live_ids, codes_by_id = load_targets()
     sofa_path = DOCS / "sofascore.json"
     out = json.loads(sofa_path.read_text()) if sofa_path.exists() else {}
     IMG.mkdir(exist_ok=True)
     if targets:
         print(f"Harvesting {len(targets)} match(es) "
               f"({'API-first' if HAVE_API else 'browser only'})...")
-        find_and_harvest(targets, variants, teams, out, codes_by_id=codes_by_id)
+        find_and_harvest(targets, variants, teams, out, codes_by_id=codes_by_id, live_ids=live_ids)
     backfill_momentum(out)
     write_out(out)
     print(f"Wrote docs/sofascore.json ({len(out)} matches)")
@@ -708,7 +718,7 @@ def watch(interval):
                 break
         else:
             idle_passes = 0
-            find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True, codes_by_id=codes_by_id)
+            find_and_harvest(targets, variants, teams, out, only_ids=live_ids, quick=True, codes_by_id=codes_by_id, live_ids=live_ids)
             write_out(out)
             mirror_to_mini()
             publish_live_updates(out, prev_live_ids, live_ids)
