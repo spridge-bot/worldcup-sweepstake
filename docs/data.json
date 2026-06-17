@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T11:22:51+00:00",
+ "generated_at": "2026-06-17T11:28:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1881,7 +1881,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.28,
+    "home": 1.29,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
@@ -2331,9 +2331,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.24,
+    "home": 1.22,
     "draw": 6.5,
-    "away": 12.0,
+    "away": 13.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4979,6 +4979,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
+   "desc": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?",
+   "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-14T11:04:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c972/live/082eff70-676d-11f1-8546-8f19e4fe30f4.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Extraordinary Messi makes more history in masterclass for the ages",
    "desc": "Kylian Mbappe and Erling Haaland both enjoyed a fine start to the World Cup - but on a day packed with superstars, Lionel Messi still took top billing.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k2zzejklo?at_medium=RSS&at_campaign=rss",
@@ -4997,15 +5006,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England won't change style despite US heat - Tuchel",
-   "desc": "Thomas Tuchel says he is \"not ready to adapt\" England's playing style at the World Cup despite the heat - as it would \"give up\" the team's strengths.",
-   "link": "https://www.bbc.com/sport/football/articles/clyr5zn4440o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T01:46:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e580/live/4267dac0-6a26-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "No stage too big - Haaland arrives in style at World Cup",
    "desc": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
@@ -5021,6 +5021,24 @@
    "published": "2026-06-17T11:04:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/70a8/live/b98595a0-6573-11f1-8424-e7da9f0754bf.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England won't change style despite US heat - Tuchel",
+   "desc": "Thomas Tuchel says he is \"not ready to adapt\" England's playing style at the World Cup despite the heat - as it would \"give up\" the team's strengths.",
+   "link": "https://www.bbc.com/sport/football/articles/clyr5zn4440o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T01:46:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e580/live/4267dac0-6a26-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The Scottish set-piece guru plotting Portugal's World Cup glory",
+   "desc": "Austin MacPhee helped steer Aston Villa to European glory and now is integral to Portugal's hopes of winning the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/c809zz07pe1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T06:07:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6bbb/live/7e9eabb0-5eb7-11f1-9877-71c2729415b9.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5057,24 +5075,6 @@
    "published": "2026-06-17T08:34:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06c6/live/57e94ee0-6a28-11f1-abb8-593e42f5c384.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Are Portugal better without Ronaldo - and is he undroppable?",
-   "desc": "As Cristiano Ronaldo prepares for his sixth World Cup with Portugal, BBC Sport take a closer look at his place in the team.",
-   "link": "https://www.bbc.com/sport/football/articles/cvgzg4vj8dno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T08:52:26Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3df/live/23801080-61e0-11f1-ad0c-49f100654739.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The Scottish set-piece guru plotting Portugal's World Cup glory",
-   "desc": "Austin MacPhee helped steer Aston Villa to European glory and now is integral to Portugal's hopes of winning the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/c809zz07pe1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T06:07:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6bbb/live/7e9eabb0-5eb7-11f1-9877-71c2729415b9.jpg",
    "source": "BBC Sport"
   }
  ]
