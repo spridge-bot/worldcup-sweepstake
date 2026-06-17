@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T00:01:51+00:00",
+ "generated_at": "2026-06-17T00:07:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1726,9 +1726,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.71,
-    "draw": 3.8,
-    "away": 4.9,
+    "home": 1.74,
+    "draw": 3.7,
+    "away": 5.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4931,6 +4931,22 @@
  ],
  "news": [
   {
+   "headline": "World Cup Daily Live: Norway's Haaland makes debut with brace in win vs. Iraq",
+   "desc": "World Cup group stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
+   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+   "published": "2026-06-17T00:01:00Z",
+   "type": "Story",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674409_1296x729_16-9.jpg"
+  },
+  {
+   "headline": "Kylian Mbappé after breaking France record: I don't play for 'revenge'",
+   "desc": "Kylian Mbappé has played down any notions of seeking revenge following his goals in France's World Cup opener against Senegal.",
+   "link": "https://www.espn.com/soccer/story/_/id/49087786/kylian-mbappe-breaking-france-record-dont-play-revenge",
+   "published": "2026-06-17T00:03:14Z",
+   "type": "HeadlineNews",
+   "image": "https://a.espncdn.com/photo/2026/0616/r1674349_1296x729_16-9.jpg"
+  },
+  {
    "headline": "Has South Africa's goalkeeping pipeline prepared for life post-Ronwen Williams?",
    "desc": "Ronwen Williams is Bafana Bafana's FIFA World Cup captain, but how deep does their goalkeeping talent reserve run?",
    "link": "https://www.espn.com/espn/story/_/id/49071027/has-south-africa-goalkeeping-pipeline-prepared-life-post-ronwen-williams",
@@ -4947,14 +4963,6 @@
    "image": "https://a.espncdn.com/photo/2026/0616/r1674349_1296x729_16-9.jpg"
   },
   {
-   "headline": "World Cup Daily Live: Norway's Haaland makes World Cup debut with brace vs. Iraq",
-   "desc": "World Cup group stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN.",
-   "link": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
-   "published": "2026-06-16T23:39:33Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674409_1296x729_16-9.jpg"
-  },
-  {
    "headline": "Mbappé proud to 'make a mark' on France's history with record goal",
    "desc": "Mbappé proud to 'make a mark' on France's history with record goal",
    "link": "https://www.espn.com/video/clip/_/id/49087224/mbappe-proud-make-mark-france-history-record-goal",
@@ -4969,14 +4977,6 @@
    "published": "2026-06-16T23:47:27Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674384_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Mbappé rewrites France, World Cup history books as Les Bleus beat Senegal",
-   "desc": "Kylian Mbappé made history with a pair of goals that sent France on their way to a Group I opening win over Senegal on Tuesday in New Jersey.",
-   "link": "https://www.espn.com/soccer/story/_/id/49086529/kylian-mbappe-rewrites-france-fifa-world-cup-history-books-les-bleus-beat-senegal",
-   "published": "2026-06-16T23:54:11Z",
-   "type": "Story",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674389_1296x729_16-9.jpg"
   }
  ]
 }
