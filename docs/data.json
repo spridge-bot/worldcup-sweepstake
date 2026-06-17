@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T17:26:23+00:00",
+ "generated_at": "2026-06-17T17:27:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1185,8 +1185,8 @@
    "utc": "2026-06-17T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "25'",
-   "status_detail": "25'",
+   "clock": "26'",
+   "status_detail": "26'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.29,
@@ -2343,9 +2343,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.17,
-    "draw": 8.0,
-    "away": 17.0,
+    "home": 1.18,
+    "draw": 7.5,
+    "away": 16.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
