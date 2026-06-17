@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T06:09:00+00:00",
+ "generated_at": "2026-06-17T06:09:43+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -631,12 +631,12 @@
    "fifa_rank": 24,
    "owner": "George",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 3,
+   "ga": 1,
    "total": 3,
    "events": [
     {
@@ -1037,12 +1037,12 @@
    "fifa_rank": 53,
    "owner": "Glancy",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "lost": 1,
+   "gf": 1,
+   "ga": 3,
    "total": 1,
    "events": [
     {
@@ -1173,39 +1173,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760431,
+   "date": "2026-06-17",
    "utc": "2026-06-17T04:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+14'",
-   "status_detail": "90'+14'",
-   "venue": "Levi's Stadium",
+   "note": "",
+   "home": {
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "tier": 2,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "JOR",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.34,
     "draw": 5.25,
     "away": 9.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "AUT",
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "goals": 3
-   },
-   "away": {
-    "code": "JOR",
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "owner": "Glancy",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760433,
    "date": "2026-06-17",
@@ -2247,7 +2247,7 @@
     "name": "Austria",
     "flag": "🇦🇹",
     "owner": "George",
-    "form": "WWWDW"
+    "form": "WWWWD"
    }
   },
   {
@@ -2316,7 +2316,7 @@
     "name": "Jordan",
     "flag": "🇯🇴",
     "owner": "Glancy",
-    "form": "LLDDD"
+    "form": "LLLDD"
    },
    "away": {
     "name": "Algeria",
@@ -2997,7 +2997,7 @@
     "name": "Austria",
     "flag": "🇦🇹",
     "owner": "George",
-    "form": "WWWDW"
+    "form": "WWWWD"
    }
   },
   {
@@ -3016,7 +3016,7 @@
     "name": "Jordan",
     "flag": "🇯🇴",
     "owner": "Glancy",
-    "form": "LLDDD"
+    "form": "LLLDD"
    },
    "away": {
     "name": "Argentina",
@@ -3714,7 +3714,7 @@
      "gf": 3,
      "ga": 1,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "Austria",
      "flag": "🇦🇹",
@@ -3731,7 +3731,7 @@
      "gf": 1,
      "ga": 3,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Jordan",
      "flag": "🇯🇴",
@@ -4849,6 +4849,15 @@
    "yellow": 2,
    "red": 0,
    "pts": 2
+  },
+  {
+   "code": "AUT",
+   "name": "Austria",
+   "flag": "🇦🇹",
+   "owner": "George",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
   },
   {
    "code": "CPV",
