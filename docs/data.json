@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T21:49:56+00:00",
+ "generated_at": "2026-06-17T21:50:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1212,7 +1212,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "CRO",
@@ -1811,9 +1811,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 2.4,
-    "draw": 3.1,
-    "away": 3.25,
+    "home": 2.35,
+    "draw": 3.15,
+    "away": 3.3,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3870,11 +3870,11 @@
      "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 2,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
      "tier": 1,
@@ -3922,10 +3922,10 @@
      "d": 0,
      "l": 1,
      "gf": 2,
-     "ga": 3,
+     "ga": 4,
      "pts": 0,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Croatia",
      "flag": "🇭🇷",
      "tier": 1,
