@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T23:48:39+00:00",
+ "generated_at": "2026-06-17T23:49:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1209,8 +1209,8 @@
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "45'+2'",
-   "status_detail": "45'+2'",
+   "clock": "45'+3'",
+   "status_detail": "45'+3'",
    "venue": "BMO Field",
    "odds": {
     "home": 2.2,
@@ -1904,9 +1904,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.54,
-    "draw": 4.2,
-    "away": 6.5,
+    "home": 1.56,
+    "draw": 4.1,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5036,7 +5036,7 @@
  ],
  "news": [
   {
-   "headline": "I tried to encourage them to go for it - Tuchel",
+   "headline": "'If we lose, we lose in our way' - what Tuchel said at half-time",
    "desc": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
    "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-17T23:15:39Z",
