@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T10:06:58+00:00",
+ "generated_at": "2026-06-17T10:12:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -4970,12 +4970,30 @@
  ],
  "news": [
   {
+   "headline": "Can Bellingham become England's superstar once more at the World Cup?",
+   "desc": "After tough love from England head coach Thomas Tuchel, Jude Bellingham's World Cup build-up points to a special talent who can be a key figure in their quest to win the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/c23y4zkv4z0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T10:06:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b1b2/live/f7bb6f60-69b1-11f1-9c9e-51a808d0c47c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Extraordinary Messi makes more history in masterclass for the ages",
    "desc": "Kylian Mbappe and Erling Haaland both enjoyed a fine start to the World Cup - but on a day packed with superstars, Lionel Messi still took top billing.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k2zzejklo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-17T07:17:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/50b5/live/e01706b0-6a1c-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rabiot raises concerns about MetLife Stadium pitch",
+   "desc": "France midfielder Adrien Rabiot raises concerns about the quality of the pitch at the New York New Jersey Stadium, describing it as \"more like an artificial surface\".",
+   "link": "https://www.bbc.com/sport/football/articles/cevld1m8nxno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T10:06:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ff5e/live/5cb7bb50-6a32-11f1-9b8b-e9d622652531.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5057,24 +5075,6 @@
    "published": "2026-06-17T00:56:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/685a/live/fab48030-6966-11f1-9f4a-21531e88e991.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From tragedy to World Cup history - Iraq scorer Hussein's story",
-   "desc": "Iraq striker Aymen Hussein's journey to the World Cup is one that could easily have taken a different turn.",
-   "link": "https://www.bbc.com/sport/football/articles/ckg055dj259o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T02:20:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6f14/live/64717df0-69e6-11f1-a478-f9b900e03c5a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Up to 15,000 England fans head to Dallas for World Cup opener",
-   "desc": "England fans have had a longer wait than most for their 2026 World Cup campaign to get under way. But now supporters are starting to arrive in Dallas.",
-   "link": "https://www.bbc.com/sport/football/articles/c5yzr1nj1ppo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T15:50:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/324d/live/1eae4a40-698d-11f1-bf78-b9ee73ed2967.jpg",
    "source": "BBC Sport"
   }
  ]
