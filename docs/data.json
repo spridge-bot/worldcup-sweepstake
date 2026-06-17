@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T11:06:26+00:00",
+ "generated_at": "2026-06-17T11:11:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -5015,6 +5015,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How Modric and Croatia continue to defy the odds",
+   "desc": "The child displaced by war who won six Champions League titles and a Ballon d'Or - how Luka Modric and England's opponents Croatia continue to defy the odds.",
+   "link": "https://www.bbc.com/sport/football/articles/cjdgnk5vz1mo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:04:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/70a8/live/b98595a0-6573-11f1-8424-e7da9f0754bf.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Get England score updates on your lock screen",
    "desc": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen.",
    "link": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
@@ -5051,15 +5060,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The VAR call that dumbfounded the world's best refs",
-   "desc": "France are left stunned at the decision not to award a penalty as Kylian Mbappe goes down under Sadio Mane's tackle.",
-   "link": "https://www.bbc.com/sport/football/articles/c4gyr9dr4yvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T21:32:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4dad/live/63ef2a30-69c8-11f1-83dd-d98c2c7d45fb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The Scottish set-piece guru plotting Portugal's World Cup glory",
    "desc": "Austin MacPhee helped steer Aston Villa to European glory and now is integral to Portugal's hopes of winning the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c809zz07pe1o?at_medium=RSS&at_campaign=rss",
@@ -5069,12 +5069,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
-   "desc": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?",
-   "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-14T11:04:53Z",
+   "headline": "The VAR call that dumbfounded the world's best refs",
+   "desc": "France are left stunned at the decision not to award a penalty as Kylian Mbappe goes down under Sadio Mane's tackle.",
+   "link": "https://www.bbc.com/sport/football/articles/c4gyr9dr4yvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-16T21:32:18Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c972/live/082eff70-676d-11f1-8546-8f19e4fe30f4.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4dad/live/63ef2a30-69c8-11f1-83dd-d98c2c7d45fb.jpg",
    "source": "BBC Sport"
   }
  ]
