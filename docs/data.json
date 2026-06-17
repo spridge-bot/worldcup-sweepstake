@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-17T03:00:27+00:00",
+ "generated_at": "2026-06-17T03:01:18+00:00",
  "mode": "live",
- "latest_day": "2026-06-16",
+ "latest_day": "2026-06-17",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,7 +27,7 @@
     "BIH"
    ],
    "total": 18,
-   "today": 8,
+   "today": 0,
    "rank": 1,
    "movement": 0
   },
@@ -40,7 +40,7 @@
     "JOR"
    ],
    "total": 13,
-   "today": 5,
+   "today": 0,
    "rank": 2,
    "movement": 0
   },
@@ -53,9 +53,9 @@
     "NZL"
    ],
    "total": 9,
-   "today": 3,
+   "today": 0,
    "rank": 3,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Dipen",
@@ -68,7 +68,7 @@
    "total": 8,
    "today": 0,
    "rank": 4,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "George",
@@ -81,7 +81,7 @@
    "total": 8,
    "today": 0,
    "rank": 4,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Brando",
@@ -94,7 +94,7 @@
    "total": 6,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -105,7 +105,7 @@
     "CUW"
    ],
    "total": 6,
-   "today": 6,
+   "today": 5,
    "rank": 6,
    "movement": 6
   },
@@ -120,7 +120,7 @@
    "total": 6,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -184,11 +184,11 @@
    "fifa_rank": 1,
    "owner": "Fergs",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 3,
    "ga": 0,
    "total": 5,
    "events": [
@@ -694,12 +694,12 @@
    "fifa_rank": 28,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 3,
    "total": 0,
    "events": []
   },
@@ -1161,39 +1161,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760433,
+   "date": "2026-06-17",
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+6'",
-   "status_detail": "90'+6'",
-   "venue": "GEHA Field at Arrowhead Stadium",
+   "note": "",
+   "home": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "tier": 1,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.39,
     "draw": 4.6,
     "away": 9.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "goals": 3
-   },
-   "away": {
-    "code": "ALG",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760430,
    "date": "2026-06-16",
@@ -2304,7 +2304,7 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "WWDWL"
+    "form": "LWWDW"
    }
   },
   {
@@ -2973,7 +2973,7 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "WWDWL"
+    "form": "LWWDW"
    },
    "away": {
     "name": "Austria",
@@ -3679,7 +3679,7 @@
      "gf": 3,
      "ga": 0,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 3,
      "name": "Argentina",
      "flag": "🇦🇷",
@@ -3730,7 +3730,7 @@
      "gf": 0,
      "ga": 3,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -3,
      "name": "Algeria",
      "flag": "🇩🇿",
