@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T21:04:54+00:00",
+ "generated_at": "2026-06-17T21:05:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -5024,6 +5024,15 @@
  ],
  "news": [
   {
+   "headline": "Why was Kane's penalty retaken against Croatia?",
+   "desc": "Harry Kane was able to give England the lead against Croatia from the penalty spot - but only thanks to the video assistant referee.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg054x8d9qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T21:03:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc9f/live/1ad282e0-6a8e-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rate the players in England's World Cup opener against Croatia",
    "desc": "Rate the England and Croatia players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
    "link": "https://www.bbc.com/sport/football/articles/cy4eg2k4l2xo?at_medium=RSS&at_campaign=rss",
@@ -5120,15 +5129,6 @@
    "published": "2026-06-17T11:06:07Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1957/live/fe937c20-6a37-11f1-8e1d-bbbb1017d210.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Chalobah replaces injured Livramento for World Cup",
-   "desc": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah.",
-   "link": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T13:38:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc85/live/c35dac30-698c-11f1-bf78-b9ee73ed2967.jpg",
    "source": "BBC Sport"
   }
  ]
