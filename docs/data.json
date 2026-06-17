@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T01:05:03+00:00",
+ "generated_at": "2026-06-17T01:05:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1173,8 +1173,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "2'",
-   "status_detail": "2'",
+   "clock": "3'",
+   "status_detail": "3'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -4949,6 +4949,14 @@
  ],
  "news": [
   {
+   "headline": "FIFA claims over 1 million fans at first 16 World Cup games",
+   "desc": "More than one million fans attended the opening 16 games at the World Cup hosted in Canada, the United States and Mexico, according to FIFA.",
+   "link": "https://www.espn.com/soccer/story/_/id/49088332/fifa-1-million-fans-attended-first-16-games",
+   "published": "2026-06-17T01:04:36Z",
+   "type": "HeadlineNews",
+   "image": null
+  },
+  {
    "headline": "Haaland leads Norway to first World Cup win since 1998",
    "desc": "Erling Haaland's double helps Norway to a 4-1 victory over Iraq in the country's first World Cup appearance in nearly 28 years.",
    "link": "https://www.espn.com/video/clip/_/id/49088234/haaland-leads-norway-first-world-cup-win-1998",
@@ -4987,14 +4995,6 @@
    "published": "2026-06-17T00:20:42Z",
    "type": "HeadlineNews",
    "image": "https://a.espncdn.com/photo/2026/0616/r1674349_1296x729_16-9.jpg"
-  },
-  {
-   "headline": "Haaland nets brace on World Cup debut as Norway beat Iraq 3-1",
-   "desc": "Erling Haaland scored his first World Cup goals with a brace as Norway started their campaign with a 4-1 win over Iraq in Boston.",
-   "link": "http://www.espn.com/soccer/report/_/gameId/760430",
-   "published": "2026-06-17T00:15:25Z",
-   "type": "Recap",
-   "image": "https://a.espncdn.com/photo/2026/0616/r1674408_1296x729_16-9.jpg"
   }
  ]
 }
