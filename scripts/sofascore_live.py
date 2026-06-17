@@ -637,8 +637,15 @@ def _ntfy_post(body):
     try:
         req = urllib.request.Request(NTFY_LIVE, data=body.encode("utf-8"), method="POST")
         urllib.request.urlopen(req, timeout=10)
+        return True
     except Exception as e:
         print(f"  live relay publish failed ({e})")
+        return False
+
+
+# remember the last state we published per match so we only hit the relay when
+# something meaningful changes (publishing every cycle trips ntfy's rate limit)
+_LAST_PUBLISHED = {}
 
 
 def publish_live_updates(out, prev_live_ids, live_ids):
@@ -653,6 +660,10 @@ def publish_live_updates(out, prev_live_ids, live_ids):
         if not m:
             continue
         ent = out.get(str(mid), {})
+        sig = (m["home"]["goals"], m["away"]["goals"], m.get("clock"),
+               len(ent.get("incidents") or []))
+        if _LAST_PUBLISHED.get(mid) == sig:       # score, clock-minute and events unchanged — skip
+            continue
         payload = {"id": mid, "live": m,
                    "incidents": (ent.get("incidents") or [])[-8:],
                    "stats": ent.get("stats")}
@@ -661,9 +672,11 @@ def publish_live_updates(out, prev_live_ids, live_ids):
             payload["incidents"] = (payload["incidents"] or [])[-3:]
             payload["stats"] = None
             body = json.dumps(payload, ensure_ascii=False)
-        _ntfy_post(body)
+        if _ntfy_post(body):                      # only mark sent on success, so a 429 retries next change
+            _LAST_PUBLISHED[mid] = sig
     for mid in prev_live_ids - live_ids:
         _ntfy_post(json.dumps({"id": mid, "ended": True}))
+        _LAST_PUBLISHED.pop(mid, None)
 
 
 def mirror_to_mini():
