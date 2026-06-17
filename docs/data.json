@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T04:41:20+00:00",
+ "generated_at": "2026-06-17T04:42:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1179,8 +1179,8 @@
    "utc": "2026-06-17T04:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "38'",
-   "status_detail": "38'",
+   "clock": "39'",
+   "status_detail": "39'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.34,
@@ -5042,21 +5042,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "India: Why country of 1.4 billion is not at World Cup",
+   "desc": "The world's most populous country is still missing from football's biggest stage.",
+   "link": "https://www.bbc.com/news/articles/ce95gvpn535o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-16T23:09:45Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/999c/live/5f9c67f0-6490-11f1-a551-3d2205a6170e.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel's defensive gambles and what do they say about Alexander-Arnold?",
    "desc": "England head coach Thomas Tuchel's high-risk defensive selection for World Cup exposed by Tino Livramento's injury as Trent Alexander-Arnold is snubbed again, says Phil McNulty.",
    "link": "https://www.bbc.com/sport/football/articles/cy4ev318qd2o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-16T18:01:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5835/live/c227dec0-69a1-11f1-938e-83ab58a2163c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Snakes on a train (ing pitch)",
-   "desc": "Snakes are causing concerns for several teams at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/c2lyzdwjwgwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T19:13:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/965d/live/559f1ef0-69b3-11f1-9a2b-c1fb07dd1b47.jpg",
    "source": "BBC Sport"
   },
   {
