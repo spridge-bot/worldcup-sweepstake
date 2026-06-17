@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T11:17:24+00:00",
+ "generated_at": "2026-06-17T11:22:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -5024,6 +5024,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Why has Erling Haaland added 'Braut' to Norway shirt?",
+   "desc": "Our Ask Me Anything team explain why the player's Norway shirt displays the name Erling Braut Haaland.",
+   "link": "https://www.bbc.com/sport/football/articles/c70y5r8q1ryo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:06:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1957/live/fe937c20-6a37-11f1-8e1d-bbbb1017d210.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Get England score updates on your lock screen",
    "desc": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen.",
    "link": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
@@ -5066,15 +5075,6 @@
    "published": "2026-06-17T06:07:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6bbb/live/7e9eabb0-5eb7-11f1-9877-71c2729415b9.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The VAR call that dumbfounded the world's best refs",
-   "desc": "France are left stunned at the decision not to award a penalty as Kylian Mbappe goes down under Sadio Mane's tackle.",
-   "link": "https://www.bbc.com/sport/football/articles/c4gyr9dr4yvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-16T21:32:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4dad/live/63ef2a30-69c8-11f1-83dd-d98c2c7d45fb.jpg",
    "source": "BBC Sport"
   }
  ]
