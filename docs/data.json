@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T02:22:52+00:00",
+ "generated_at": "2026-06-17T02:23:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-16",
  "scoring": {
@@ -1167,8 +1167,8 @@
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "59'",
-   "status_detail": "59'",
+   "clock": "60'",
+   "status_detail": "60'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.39,
@@ -4643,6 +4643,14 @@
    "owner": "Spridge"
   },
   {
+   "player": "Lionel Messi",
+   "team": "ARG",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇦🇷",
+   "owner": "Fergs"
+  },
+  {
    "player": "Yasin Ayari",
    "team": "SWE",
    "goals": 2,
@@ -4713,14 +4721,6 @@
    "assists": 0,
    "flag": "🇳🇱",
    "owner": "Emily"
-  },
-  {
-   "player": "Cyle Larin",
-   "team": "CAN",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇨🇦",
-   "owner": "Dipen"
   }
  ],
  "fairplay": [
