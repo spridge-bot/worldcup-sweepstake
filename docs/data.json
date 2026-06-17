@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T17:01:49+00:00",
+ "generated_at": "2026-06-17T17:02:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -45,19 +45,6 @@
    "movement": 0
   },
   {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 11,
-   "today": 3,
-   "rank": 3,
-   "movement": 1
-  },
-  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -65,10 +52,10 @@
     "COD",
     "NZL"
    ],
-   "total": 9,
-   "today": 0,
-   "rank": 4,
-   "movement": -1
+   "total": 14,
+   "today": 5,
+   "rank": 2,
+   "movement": 1
   },
   {
    "name": "Dipen",
@@ -78,10 +65,23 @@
     "CAN",
     "RSA"
    ],
-   "total": 8,
-   "today": 0,
-   "rank": 5,
-   "movement": -1
+   "total": 11,
+   "today": 3,
+   "rank": 4,
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 11,
+   "today": 3,
+   "rank": 4,
+   "movement": 0
   },
   {
    "name": "Brando",
@@ -270,8 +270,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-17",
+     "desc": "2nd in Group K (live)",
+     "points": 3
+    }
+   ]
   },
   "BRA": {
    "code": "BRA",
@@ -912,8 +918,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 5,
+   "events": [
+    {
+     "date": "2026-06-17",
+     "desc": "1st in Group K (live)",
+     "points": 5
+    }
+   ]
   },
   "TUN": {
    "code": "TUN",
@@ -1173,7 +1185,38 @@
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760435,
+   "utc": "2026-06-17T17:00:00Z",
+   "stage": "Group stage",
+   "group": "Group K",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "NRG Stadium",
+   "odds": {
+    "home": 1.29,
+    "draw": 5.75,
+    "away": 11.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "owner": "Willo",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760431,
@@ -1725,31 +1768,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760435,
-   "utc": "2026-06-17T17:00:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 1.29,
-    "draw": 5.5,
-    "away": 12.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "WWWDW"
-   },
-   "away": {
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "form": "LDWWL"
-   }
-  },
   {
    "id": 760437,
    "utc": "2026-06-17T20:00:00Z",
@@ -3762,6 +3780,40 @@
    "rows": [
     {
      "group": "Group K",
+     "code": "COD",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 1,
+     "live": true,
+     "gd": 0,
+     "name": "DR Congo",
+     "flag": "🇨🇩",
+     "tier": 3,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group K",
+     "code": "POR",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 1,
+     "live": true,
+     "gd": 0,
+     "name": "Portugal",
+     "flag": "🇵🇹",
+     "tier": 1,
+     "owner": "Dipen"
+    },
+    {
+     "group": "Group K",
      "code": "COL",
      "p": 0,
      "w": 0,
@@ -3776,40 +3828,6 @@
      "flag": "🇨🇴",
      "tier": 1,
      "owner": "Ruggy"
-    },
-    {
-     "group": "Group K",
-     "code": "COD",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "DR Congo",
-     "flag": "🇨🇩",
-     "tier": 3,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group K",
-     "code": "POR",
-     "p": 0,
-     "w": 0,
-     "d": 0,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 0,
-     "live": false,
-     "gd": 0,
-     "name": "Portugal",
-     "flag": "🇵🇹",
-     "tier": 1,
-     "owner": "Dipen"
     },
     {
      "group": "Group K",
