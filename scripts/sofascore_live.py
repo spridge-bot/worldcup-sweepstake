@@ -660,9 +660,13 @@ def publish_live_updates(out, prev_live_ids, live_ids):
         if not m:
             continue
         ent = out.get(str(mid), {})
-        sig = (m["home"]["goals"], m["away"]["goals"], m.get("clock"),
-               len(ent.get("incidents") or []))
-        if _LAST_PUBLISHED.get(mid) == sig:       # score, clock-minute and events unchanged — skip
+        # Only the score and the events matter for the relay — the client ticks
+        # the clock itself and re-syncs it from the 15s git poll, so we DON'T
+        # publish on clock-minute changes. That keeps relay traffic down to a
+        # handful of messages per match (goals/cards/subs) — well under ntfy's
+        # rate limit, which the old every-cycle publishing was tripping (429).
+        sig = (m["home"]["goals"], m["away"]["goals"], len(ent.get("incidents") or []))
+        if _LAST_PUBLISHED.get(mid) == sig:       # score and events unchanged — skip
             continue
         payload = {"id": mid, "live": m,
                    "incidents": (ent.get("incidents") or [])[-8:],
@@ -672,8 +676,8 @@ def publish_live_updates(out, prev_live_ids, live_ids):
             payload["incidents"] = (payload["incidents"] or [])[-3:]
             payload["stats"] = None
             body = json.dumps(payload, ensure_ascii=False)
-        if _ntfy_post(body):                      # only mark sent on success, so a 429 retries next change
-            _LAST_PUBLISHED[mid] = sig
+        _ntfy_post(body)
+        _LAST_PUBLISHED[mid] = sig                # mark attempted regardless — never hammer on failure
     for mid in prev_live_ids - live_ids:
         _ntfy_post(json.dumps({"id": mid, "ended": True}))
         _LAST_PUBLISHED.pop(mid, None)
