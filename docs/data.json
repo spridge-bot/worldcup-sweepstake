@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-17T18:50:39+00:00",
+ "generated_at": "2026-06-17T18:51:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -4988,15 +4988,6 @@
  ],
  "news": [
   {
-   "headline": "Bellingham set to start for England against Croatia",
-   "desc": "Jude Bellingham is set to start in England's coveted number 10 role in their World Cup opener against Croatia.",
-   "link": "https://www.bbc.com/sport/football/articles/c9d2j44jxy2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T18:00:06Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4753/live/c7f9a070-6a66-11f1-b7aa-49f3a4d630f8.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Can Bellingham become England's superstar once more at the World Cup?",
    "desc": "After tough love from England head coach Thomas Tuchel, Jude Bellingham's World Cup build-up points to a special talent who can be a key figure in their quest to win the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c23y4zkv4z0o?at_medium=RSS&at_campaign=rss",
@@ -5093,6 +5084,15 @@
    "published": "2026-06-17T08:52:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3df/live/23801080-61e0-11f1-ad0c-49f100654739.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Nearly men of Asian football' - Uzbekistan's rise to the World Cup",
+   "desc": "Uzbekistan are the first nation from Central Asia to qualify for the Fifa World Cup. Here is how they got to North America.",
+   "link": "https://www.bbc.com/sport/football/articles/cgqklykgjqzo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T13:57:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0896/live/0782fe90-3294-11f1-a3b7-f51d149332d6.jpg",
    "source": "BBC Sport"
   }
  ]
