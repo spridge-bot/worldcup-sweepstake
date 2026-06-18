@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T20:56:52+00:00",
+ "generated_at": "2026-06-18T20:57:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -563,12 +563,12 @@
    "fifa_rank": 19,
    "owner": "Emily",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
+   "gf": 5,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -1096,12 +1096,12 @@
    "fifa_rank": 54,
    "owner": "Spridge",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 1,
-   "lost": 0,
-   "gf": 1,
-   "ga": 1,
+   "lost": 1,
+   "gf": 2,
+   "ga": 5,
    "total": 0,
    "events": []
   },
@@ -1209,39 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760439,
+   "date": "2026-06-18",
    "utc": "2026-06-18T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+7'",
-   "status_detail": "90'+7'",
-   "venue": "SoFi Stadium",
+   "note": "",
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "tier": 2,
+    "goals": 4,
+    "points": null
+   },
+   "away": {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.57,
     "draw": 4.2,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "goals": 3
-   },
-   "away": {
-    "code": "BIH",
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "owner": "Spridge",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760438,
    "date": "2026-06-18",
@@ -2513,7 +2513,7 @@
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
     "owner": "Spridge",
-    "form": "DDDWW"
+    "form": "LDDDW"
    },
    "away": {
     "name": "Qatar",
@@ -2538,7 +2538,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": "DDWDL"
+    "form": "WDDWD"
    },
    "away": {
     "name": "Canada",
@@ -3182,11 +3182,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 4,
+     "gf": 5,
      "ga": 2,
      "pts": 4,
-     "live": true,
-     "gd": 2,
+     "live": false,
+     "gd": 3,
      "name": "Switzerland",
      "flag": "🇨🇭",
      "tier": 2,
@@ -3234,10 +3234,10 @@
      "d": 1,
      "l": 1,
      "gf": 2,
-     "ga": 4,
+     "ga": 5,
      "pts": 1,
-     "live": true,
-     "gd": -2,
+     "live": false,
+     "gd": -3,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
      "tier": 3,
@@ -4824,6 +4824,15 @@
    "pts": 12
   },
   {
+   "code": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "flag": "🇧🇦",
+   "owner": "Spridge",
+   "yellow": 5,
+   "red": 1,
+   "pts": 9
+  },
+  {
    "code": "MEX",
    "name": "Mexico",
    "flag": "🇲🇽",
@@ -4840,15 +4849,6 @@
    "yellow": 5,
    "red": 0,
    "pts": 5
-  },
-  {
-   "code": "BIH",
-   "name": "Bosnia and Herzegovina",
-   "flag": "🇧🇦",
-   "owner": "Spridge",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
   },
   {
    "code": "CIV",
@@ -4936,6 +4936,15 @@
    "name": "Qatar",
    "flag": "🇶🇦",
    "owner": "Ruggy",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "SUI",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "owner": "Emily",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5053,15 +5062,6 @@
    "name": "Spain",
    "flag": "🇪🇸",
    "owner": "Jen",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "SUI",
-   "name": "Switzerland",
-   "flag": "🇨🇭",
-   "owner": "Emily",
    "yellow": 1,
    "red": 0,
    "pts": 1
