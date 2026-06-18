@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T11:16:44+00:00",
+ "generated_at": "2026-06-18T11:22:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -5084,6 +5084,15 @@
  ],
  "news": [
   {
+   "headline": "Hydration boos and surprise results - World Cup talking points",
+   "desc": "BBC Sport takes a look at the talking points from the first week of World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T11:13:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3963/live/fdc4c5d0-6a08-11f1-8f3d-25530ef506f3.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tactical analysis: England look exciting but how can they tighten up?",
    "desc": "England produced some exciting attacking football while beating Croatia 4-2 but why did they look so shaky defensively?",
    "link": "https://www.bbc.com/sport/articles/c98256ypwy0o?at_medium=RSS&at_campaign=rss",
@@ -5111,15 +5120,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Fans boo, players adapt - the view on World Cup hydration breaks",
-   "desc": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways.",
-   "link": "https://www.bbc.com/sport/football/articles/cwye0zdm9j4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T06:07:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ecfe/live/41c55af0-6aaf-11f1-b0a8-bdf55820aa52.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Christie pursues more dreams on same stage as idol Messi",
    "desc": "Making a World Cup debut was a huge thrill for midfielder Ryan Christie as the Scotland midfielder sets sights on making progress beyond the group stage.",
    "link": "https://www.bbc.com/sport/football/articles/c78yjg5336xo?at_medium=RSS&at_campaign=rss",
@@ -5135,6 +5135,15 @@
    "published": "2026-06-09T08:24:41Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Fans boo, players adapt - the view on World Cup hydration breaks",
+   "desc": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways.",
+   "link": "https://www.bbc.com/sport/football/articles/cwye0zdm9j4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T06:07:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ecfe/live/41c55af0-6aaf-11f1-b0a8-bdf55820aa52.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5180,15 +5189,6 @@
    "published": "2026-06-18T03:31:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/53a1/live/d463f290-6ab9-11f1-9ffe-ebfae9274aca.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'The team needs to score, not you' - Ronaldo struggles as rivals sparkle",
-   "desc": "Three superstars delivered for their countries at the World Cup on Tuesday. But Cristiano Ronaldo could not follow suit on Wednesday as Portugal were held to a surprise draw by DR Congo.",
-   "link": "https://www.bbc.com/sport/football/articles/cpq3734ln8yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T08:23:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef3/live/c824fa90-6a84-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
