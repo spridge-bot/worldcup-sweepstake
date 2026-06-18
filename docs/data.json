@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T14:13:47+00:00",
+ "generated_at": "2026-06-18T14:19:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -5093,6 +5093,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'My brother hid in a rice sack' - The refugee stars at the World Cup",
+   "desc": "Germany and Real Madrid defender Antonio Rudiger, whose family fled Sierra Leone's civil war, is among those campaigning for a change in global attitudes around refugees.",
+   "link": "https://www.bbc.com/news/articles/c1eygyg2zeno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T13:41:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/de9a/live/629d2eb0-65aa-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Hydration boos and surprise results - World Cup talking points",
    "desc": "BBC Sport takes a look at the talking points from the first week of World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
@@ -5180,15 +5189,6 @@
    "published": "2026-06-09T08:24:41Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fans boo, players adapt - the view on World Cup hydration breaks",
-   "desc": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways.",
-   "link": "https://www.bbc.com/sport/football/articles/cwye0zdm9j4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T06:07:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ecfe/live/41c55af0-6aaf-11f1-b0a8-bdf55820aa52.jpg",
    "source": "BBC Sport"
   }
  ]
