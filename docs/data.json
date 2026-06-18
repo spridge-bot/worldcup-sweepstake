@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T23:43:51+00:00",
+ "generated_at": "2026-06-18T23:44:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T22:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "81'",
-   "status_detail": "81'",
+   "clock": "82'",
+   "status_detail": "82'",
    "venue": "BC Place",
    "odds": {
     "home": 1.28,
@@ -2509,7 +2509,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.43,
+    "home": 1.44,
     "draw": 5.0,
     "away": 7.0,
     "over_under": 2.5,
