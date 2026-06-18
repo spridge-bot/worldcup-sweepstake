@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T15:50:27+00:00",
+ "generated_at": "2026-06-18T15:55:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -2616,9 +2616,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 6.0,
-    "draw": 4.1,
-    "away": 1.59,
+    "home": 6.5,
+    "draw": 4.2,
+    "away": 1.54,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5129,6 +5129,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Hooked after an hour - did Vuskovic boost his Spurs chances?",
+   "desc": "Many Tottenham fans will have got a first glimpse of Luka Vuskovic last night - so what can they expect from the highly sought-after defender?",
+   "link": "https://www.bbc.com/sport/football/articles/c75y3zy6pk1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T15:49:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ea2/live/91d619e0-6b1c-11f1-912d-f311c8e89719.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why does Scotland's McGinn do goggles celebration?",
    "desc": "John McGinn opens up about the relative who inspired his goal celebration.",
    "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
@@ -5180,15 +5189,6 @@
    "published": "2026-06-18T04:28:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec6a/live/8ef6d710-6ac1-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Christie pursues more dreams on same stage as idol Messi",
-   "desc": "Making a World Cup debut was a huge thrill for midfielder Ryan Christie as the Scotland midfielder sets sights on making progress beyond the group stage.",
-   "link": "https://www.bbc.com/sport/football/articles/c78yjg5336xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T06:11:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/86a7/live/52ad70a0-6a8c-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
