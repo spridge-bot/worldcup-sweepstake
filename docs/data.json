@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T03:22:02+00:00",
+ "generated_at": "2026-06-18T03:22:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T02:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "60'",
-   "status_detail": "60'",
+   "clock": "61'",
+   "status_detail": "61'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 9.0,
@@ -1230,7 +1230,7 @@
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "COL",
@@ -3824,14 +3824,14 @@
      "group": "Group K",
      "code": "COL",
      "p": 1,
-     "w": 1,
-     "d": 0,
+     "w": 0,
+     "d": 1,
      "l": 0,
      "gf": 1,
-     "ga": 0,
-     "pts": 3,
+     "ga": 1,
+     "pts": 1,
      "live": true,
-     "gd": 1,
+     "gd": 0,
      "name": "Colombia",
      "flag": "🇨🇴",
      "tier": 1,
@@ -3876,13 +3876,13 @@
      "code": "UZB",
      "p": 1,
      "w": 0,
-     "d": 0,
-     "l": 1,
-     "gf": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
      "ga": 1,
-     "pts": 0,
+     "pts": 1,
      "live": true,
-     "gd": -1,
+     "gd": 0,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
      "tier": 3,
@@ -4745,6 +4745,14 @@
    "owner": "Spridge"
   },
   {
+   "player": "Abbosbek Fayzullaev",
+   "team": "UZB",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇺🇿",
+   "owner": "Pari"
+  },
+  {
    "player": "Abdulelah Al-Amri",
    "team": "KSA",
    "goals": 1,
@@ -4791,14 +4799,6 @@
    "assists": 0,
    "flag": "🇫🇷",
    "owner": "Spridge"
-  },
-  {
-   "player": "Breel Embolo",
-   "team": "SUI",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇨🇭",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
