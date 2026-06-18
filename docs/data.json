@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T21:30:19+00:00",
+ "generated_at": "2026-06-18T21:35:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1953,9 +1953,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.28,
+    "home": 1.27,
     "draw": 6.0,
-    "away": 11.0,
+    "away": 12.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5141,15 +5141,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Rice expected to be fit to face Ghana despite back pain",
-   "desc": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
-   "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T16:42:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/de8a/live/6afa8ad0-6b31-11f1-858e-3f275ac14006.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Tactical analysis: England look exciting but how can they tighten up?",
    "desc": "England produced some exciting attacking football while beating Croatia 4-2 but why did they look so shaky defensively?",
    "link": "https://www.bbc.com/sport/articles/c98256ypwy0o?at_medium=RSS&at_campaign=rss",
@@ -5159,21 +5150,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Rice expected to be fit to face Ghana despite back pain",
+   "desc": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
+   "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T16:42:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/de8a/live/6afa8ad0-6b31-11f1-858e-3f275ac14006.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'My brother hid in a rice sack' - The refugee stars at the World Cup",
    "desc": "Germany and Real Madrid defender Antonio Rudiger, whose family fled Sierra Leone's civil war, is among those campaigning for a change in global attitudes around refugees.",
    "link": "https://www.bbc.com/news/articles/c1eygyg2zeno?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-18T13:41:06Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/de9a/live/629d2eb0-65aa-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "New Zealand make World Cup history with first mother-son duo",
-   "desc": "New Zealand make history as Tyler and Jenny Bindon become the first mother-son duo to play at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cly7r603vrno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T17:04:34Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c285/live/836fc050-6b2f-11f1-858e-3f275ac14006.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5210,6 +5201,15 @@
    "published": "2026-06-18T15:49:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ea2/live/91d619e0-6b1c-11f1-912d-f311c8e89719.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why does Scotland's McGinn do goggles celebration?",
+   "desc": "John McGinn opens up about the relative who inspired his goal celebration.",
+   "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T12:43:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
    "source": "BBC Sport"
   }
  ]
