@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T05:46:23+00:00",
+ "generated_at": "2026-06-18T05:52:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -5093,21 +5093,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "From one to 48 - every World Cup team ranked after first game",
+   "desc": "All 48 teams at the World Cup have now played once. BBC Sport's experts have ranked them all, from best to worst. Who is top? Not defending champions Argentina.",
+   "link": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T04:28:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec6a/live/8ef6d710-6ac1-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Fans boo, players adapt - the view on World Cup hydration breaks",
    "desc": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways.",
    "link": "https://www.bbc.com/sport/football/articles/cwye0zdm9j4o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-18T02:21:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ecfe/live/41c55af0-6aaf-11f1-b0a8-bdf55820aa52.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Chip on shoulder' may help Bellingham to best form",
-   "desc": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T00:12:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f3a9/live/1d390750-6aa9-11f1-9a45-c56b5234f7dc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5129,6 +5129,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'Chip on shoulder' may help Bellingham to best form",
+   "desc": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T00:12:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f3a9/live/1d390750-6aa9-11f1-9a45-c56b5234f7dc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "I knew stuttered run-up might get keeper off line - Kane",
+   "desc": "Harry Kane was able to give England the lead against Croatia from the penalty spot - but only thanks to the video assistant referee.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg054x8d9qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T21:03:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc9f/live/1ad282e0-6a8e-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Drone brought down near South Korea training base",
    "desc": "The Mexican military reportedly intercepts and brings down an unregistered drone seen flying over South Korea's training base before their Group A match with co-hosts Mexico on Friday.",
    "link": "https://www.bbc.com/sport/football/articles/c872pv2r5y4o?at_medium=RSS&at_campaign=rss",
@@ -5144,15 +5162,6 @@
    "published": "2026-06-17T22:01:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/163d/live/146535b0-6a93-11f1-be54-c71c205a9fc3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "I knew stuttered run-up might get keeper off line - Kane",
-   "desc": "Harry Kane was able to give England the lead against Croatia from the penalty spot - but only thanks to the video assistant referee.",
-   "link": "https://www.bbc.com/sport/football/articles/ckg054x8d9qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T21:03:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cc9f/live/1ad282e0-6a8e-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5180,15 +5189,6 @@
    "published": "2026-06-17T11:16:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Extraordinary Messi makes more history in masterclass for the ages",
-   "desc": "Kylian Mbappe and Erling Haaland both enjoyed a fine start to the World Cup - but on a day packed with superstars, Lionel Messi still took top billing.",
-   "link": "https://www.bbc.com/sport/football/articles/ce8k2zzejklo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T07:17:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/50b5/live/e01706b0-6a1c-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   }
  ]
