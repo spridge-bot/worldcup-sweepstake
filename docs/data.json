@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T22:49:17+00:00",
+ "generated_at": "2026-06-18T22:50:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -52,10 +52,10 @@
     "SWE",
     "BIH"
    ],
-   "total": 13,
-   "today": 0,
-   "rank": 3,
-   "movement": 0
+   "total": 14,
+   "today": 1,
+   "rank": 1,
+   "movement": 2
   },
   {
    "name": "Willo",
@@ -104,10 +104,10 @@
     "ALG",
     "QAT"
    ],
-   "total": 9,
-   "today": 6,
-   "rank": 6,
-   "movement": 4
+   "total": 8,
+   "today": 5,
+   "rank": 7,
+   "movement": 3
   },
   {
    "name": "Emily",
@@ -1016,14 +1016,8 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-18",
-     "desc": "3rd in Group B (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "RSA": {
    "code": "RSA",
@@ -1102,8 +1096,14 @@
    "lost": 1,
    "gf": 2,
    "ga": 5,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-18",
+     "desc": "3rd in Group B (live)",
+     "points": 1
+    }
+   ]
   },
   "CPV": {
    "code": "CPV",
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T22:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "45'+3'",
-   "status_detail": "45'+3'",
+   "clock": "45'+4'",
+   "status_detail": "45'+4'",
    "venue": "BC Place",
    "odds": {
     "home": 1.28,
@@ -1230,7 +1230,7 @@
     "name": "Canada",
     "flag": "🇨🇦",
     "owner": "Dipen",
-    "goals": 2
+    "goals": 3
    },
    "away": {
     "code": "QAT",
@@ -3205,32 +3205,15 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 1,
      "pts": 4,
      "live": true,
-     "gd": 2,
+     "gd": 3,
      "name": "Canada",
      "flag": "🇨🇦",
      "tier": 2,
      "owner": "Dipen"
-    },
-    {
-     "group": "Group B",
-     "code": "QAT",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 1,
-     "ga": 3,
-     "pts": 1,
-     "live": true,
-     "gd": -2,
-     "name": "Qatar",
-     "flag": "🇶🇦",
-     "tier": 3,
-     "owner": "Ruggy"
     },
     {
      "group": "Group B",
@@ -3248,6 +3231,23 @@
      "flag": "🇧🇦",
      "tier": 3,
      "owner": "Spridge"
+    },
+    {
+     "group": "Group B",
+     "code": "QAT",
+     "p": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gf": 1,
+     "ga": 4,
+     "pts": 1,
+     "live": true,
+     "gd": -3,
+     "name": "Qatar",
+     "flag": "🇶🇦",
+     "tier": 3,
+     "owner": "Ruggy"
     }
    ]
   },
@@ -5111,21 +5111,21 @@
  ],
  "news": [
   {
+   "headline": "Scotland's Boston love affair one for the ages",
+   "desc": "BBC Scotland's Scott Mullen looks at the Tartan Army's time in Boston as it gets set to finish.",
+   "link": "https://www.bbc.com/sport/football/articles/c4gyree9775o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T22:29:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7025/live/0d90ac10-6b65-11f1-b9b9-4f32372379b2.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel's complaints lead to Fifa moving photographers",
    "desc": "England head coach Thomas Tuchel has won a battle with Fifa to get photographers moved away from the bench during the national anthems.",
    "link": "https://www.bbc.com/sport/football/articles/cdejd2p65k3o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-18T17:44:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Van der Vaart apologises over Japan racial slur",
-   "desc": "Former Tottenham midfielder Rafael van der Vaart apologises after saying that Japan players \"all look alike\" during their 2-2 draw with the Netherlands.",
-   "link": "https://www.bbc.com/sport/football/articles/cdjk9yw9xv3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T16:28:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8b28/live/0e1c6230-6b21-11f1-be36-65d2d6d55e70.jpg",
    "source": "BBC Sport"
   },
   {
