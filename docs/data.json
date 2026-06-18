@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T23:53:28+00:00",
+ "generated_at": "2026-06-18T23:54:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T22:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+1'",
-   "status_detail": "90'+1'",
+   "clock": "90'+2'",
+   "status_detail": "90'+2'",
    "venue": "BC Place",
    "odds": {
     "home": 1.28,
@@ -1230,7 +1230,7 @@
     "name": "Canada",
     "flag": "🇨🇦",
     "owner": "Dipen",
-    "goals": 5
+    "goals": 6
    },
    "away": {
     "code": "QAT",
@@ -3188,11 +3188,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 6,
+     "gf": 7,
      "ga": 1,
      "pts": 4,
      "live": true,
-     "gd": 5,
+     "gd": 6,
      "name": "Canada",
      "flag": "🇨🇦",
      "tier": 2,
@@ -3240,10 +3240,10 @@
      "d": 1,
      "l": 1,
      "gf": 1,
-     "ga": 6,
+     "ga": 7,
      "pts": 1,
      "live": true,
-     "gd": -5,
+     "gd": -6,
      "name": "Qatar",
      "flag": "🇶🇦",
      "tier": 3,
@@ -4699,6 +4699,14 @@
  ],
  "scorers": [
   {
+   "player": "Jonathan David",
+   "team": "CAN",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇨🇦",
+   "owner": "Dipen"
+  },
+  {
    "player": "Lionel Messi",
    "team": "ARG",
    "goals": 3,
@@ -4753,14 +4761,6 @@
    "assists": 0,
    "flag": "🇨🇭",
    "owner": "Emily"
-  },
-  {
-   "player": "Jonathan David",
-   "team": "CAN",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇨🇦",
-   "owner": "Dipen"
   },
   {
    "player": "Kai Havertz",
