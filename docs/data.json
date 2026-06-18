@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T19:03:57+00:00",
+ "generated_at": "2026-06-18T19:04:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "3'",
-   "status_detail": "3'",
+   "clock": "4'",
+   "status_detail": "4'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.57,
@@ -5195,21 +5195,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Who England and Scotland face in World Cup last 32 as it stands",
+   "desc": "Who is on course to meet in the last 32 of the World Cup? View all the projected ties after the latest group stage results here.",
+   "link": "https://www.bbc.com/sport/articles/cvgl9wy3zwyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T18:25:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f583/live/abc90c60-6b33-11f1-858e-3f275ac14006.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'He will be an asset' - did Vuskovic boost his Spurs chances?",
    "desc": "Many Tottenham fans will have got a first glimpse of Luka Vuskovic last night - so what can they expect from the highly sought-after defender?",
    "link": "https://www.bbc.com/sport/football/articles/c75y3zy6pk1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-18T15:49:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ea2/live/91d619e0-6b1c-11f1-912d-f311c8e89719.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why does Scotland's McGinn do goggles celebration?",
-   "desc": "John McGinn opens up about the relative who inspired his goal celebration.",
-   "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T12:43:42Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
    "source": "BBC Sport"
   }
  ]
