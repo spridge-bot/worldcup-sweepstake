@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T02:23:08+00:00",
+ "generated_at": "2026-06-18T02:23:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T02:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "22'",
-   "status_detail": "22'",
+   "clock": "24'",
+   "status_detail": "24'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 9.0,
@@ -5075,6 +5075,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Fans boo, players adapt - the view on World Cup hydration breaks",
+   "desc": "Supporters are booing them, coaches are using them, players are adapting to them - mid-half hydration breaks are affecting everyone at the World Cup in different ways.",
+   "link": "https://www.bbc.com/sport/football/articles/cwye0zdm9j4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T02:21:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ecfe/live/41c55af0-6aaf-11f1-b0a8-bdf55820aa52.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Chip on shoulder' may help Bellingham to best form",
    "desc": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
@@ -5090,15 +5099,6 @@
    "published": "2026-06-17T23:15:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who was the biggest attacking threat? England player ratings",
-   "desc": "Who was England's biggest attacking threat against Croatia? Alex Howell rates the players - plus have your say.",
-   "link": "https://www.bbc.com/sport/football/articles/cy4eg2k4l2xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T22:01:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/163d/live/146535b0-6a93-11f1-be54-c71c205a9fc3.jpg",
    "source": "BBC Sport"
   },
   {
