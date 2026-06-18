@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T22:17:25+00:00",
+ "generated_at": "2026-06-18T22:18:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -4707,6 +4707,14 @@
    "owner": "Fergs"
   },
   {
+   "player": "Cyle Larin",
+   "team": "CAN",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇨🇦",
+   "owner": "Dipen"
+  },
+  {
    "player": "Elijah Just",
    "team": "NZL",
    "goals": 2,
@@ -4809,14 +4817,6 @@
    "assists": 0,
    "flag": "🇨🇮",
    "owner": "Jen"
-  },
-  {
-   "player": "Aymen Hussein",
-   "team": "IRQ",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇮🇶",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
