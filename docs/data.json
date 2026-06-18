@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T09:40:05+00:00",
+ "generated_at": "2026-06-18T09:45:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -2291,9 +2291,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 1.61,
-    "draw": 4.0,
-    "away": 5.75,
+    "home": 1.62,
+    "draw": 3.9,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5084,6 +5084,15 @@
  ],
  "news": [
   {
+   "headline": "Tactical analysis: England look exciting but how can they tighten up?",
+   "desc": "England produced some exciting attacking football while beating Croatia 4-2 but why did they look so shaky defensively?",
+   "link": "https://www.bbc.com/sport/articles/c98256ypwy0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T09:38:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/15dc/live/7df27280-6ab2-11f1-8546-8f19e4fe30f4.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "This was an England we haven't seen for years - and it was fun",
    "desc": "Fun to watch and full of intent - this was an England we have not seen for years, writes Phil McNulty.",
    "link": "https://www.bbc.com/sport/football/articles/cwylqvgne7lo?at_medium=RSS&at_campaign=rss",
@@ -5120,21 +5129,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'If we lose, we lose in our way' - how Tuchel inspired 'fearful' England",
-   "desc": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
-   "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T05:53:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Make your predictions for the second round of World Cup group games",
    "desc": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football.",
    "link": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-09T08:24:41Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'If we lose, we lose in our way' - how Tuchel inspired 'fearful' England",
+   "desc": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
+   "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T05:53:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5180,15 +5189,6 @@
    "published": "2026-06-18T08:23:07Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef3/live/c824fa90-6a84-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who was the biggest attacking threat? England player ratings",
-   "desc": "Who was England's biggest attacking threat against Croatia? Alex Howell rates the players - plus have your say.",
-   "link": "https://www.bbc.com/sport/football/articles/cy4eg2k4l2xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T22:01:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/163d/live/146535b0-6a93-11f1-be54-c71c205a9fc3.jpg",
    "source": "BBC Sport"
   }
  ]
