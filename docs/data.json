@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T16:36:09+00:00",
+ "generated_at": "2026-06-18T16:36:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "35'",
-   "status_detail": "35'",
+   "clock": "36'",
+   "status_detail": "36'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.77,
