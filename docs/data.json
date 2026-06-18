@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T16:32:49+00:00",
+ "generated_at": "2026-06-18T16:33:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "31'",
-   "status_detail": "31'",
+   "clock": "32'",
+   "status_detail": "32'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.77,
@@ -5135,6 +5135,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Kane is England's greatest striker, says Lineker",
+   "desc": "Gary Lineker thinks Harry Kane is \"the greatest English striker we've ever had\" after the England captain equalled his record of 10 World Cup goals.",
+   "link": "https://www.bbc.com/sport/football/articles/cvg5de1dyn2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T14:37:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/985d/live/8ad63b90-6b1f-11f1-be36-65d2d6d55e70.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Hooked after an hour - did Vuskovic boost his Spurs chances?",
    "desc": "Many Tottenham fans will have got a first glimpse of Luka Vuskovic last night - so what can they expect from the highly sought-after defender?",
    "link": "https://www.bbc.com/sport/football/articles/c75y3zy6pk1o?at_medium=RSS&at_campaign=rss",
@@ -5168,15 +5177,6 @@
    "published": "2026-06-18T11:13:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3963/live/fdc4c5d0-6a08-11f1-8f3d-25530ef506f3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What's going on with stoppage time at the World Cup?",
-   "desc": "Pierluigi Collina decided to wage war on time-wasting at this World Cup, changing tack from the last tournament. But has it been a success so far?",
-   "link": "https://www.bbc.com/sport/football/articles/cx2de8l2dzmo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T12:09:41Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5beb/live/0e4bbd20-6b01-11f1-8317-e1f912f75a64.jpg",
    "source": "BBC Sport"
   },
   {
