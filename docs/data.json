@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T17:17:28+00:00",
+ "generated_at": "2026-06-18T17:18:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "56'",
-   "status_detail": "56'",
+   "clock": "57'",
+   "status_detail": "57'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.77,
@@ -5126,6 +5126,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'My brother hid in a rice sack' - The refugee stars at the World Cup",
+   "desc": "Germany and Real Madrid defender Antonio Rudiger, whose family fled Sierra Leone's civil war, is among those campaigning for a change in global attitudes around refugees.",
+   "link": "https://www.bbc.com/news/articles/c1eygyg2zeno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T13:41:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/de9a/live/629d2eb0-65aa-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "New Zealand make World Cup history with first mother-son duo",
    "desc": "New Zealand make history as Tyler and Jenny Bindon become the first mother-son duo to play at the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cly7r603vrno?at_medium=RSS&at_campaign=rss",
@@ -5186,15 +5195,6 @@
    "published": "2026-06-18T11:13:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3963/live/fdc4c5d0-6a08-11f1-8f3d-25530ef506f3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From one to 48 - every World Cup team ranked after first game",
-   "desc": "All 48 teams at the World Cup have now played once. BBC Sport's experts have ranked them all, from best to worst. Who is top? Not defending champions Argentina.",
-   "link": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T04:28:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec6a/live/8ef6d710-6ac1-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
