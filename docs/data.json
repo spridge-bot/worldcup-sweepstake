@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T17:58:45+00:00",
+ "generated_at": "2026-06-18T17:59:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -867,12 +867,12 @@
    "fifa_rank": 39,
    "owner": "Emily",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 1,
-   "ga": 2,
+   "gf": 2,
+   "ga": 3,
    "total": 1,
    "events": [
     {
@@ -1027,12 +1027,12 @@
    "fifa_rank": 51,
    "owner": "Dipen",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 0,
-   "ga": 2,
+   "gf": 1,
+   "ga": 3,
    "total": 0,
    "events": []
   },
@@ -1209,39 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760438,
+   "date": "2026-06-18",
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "90'+7'",
-   "status_detail": "90'+7'",
-   "venue": "Mercedes-Benz Stadium",
+   "note": "",
+   "home": {
+    "code": "CZE",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.77,
     "draw": 3.75,
     "away": 4.9,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CZE",
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "owner": "Emily",
-    "goals": 1
-   },
-   "away": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760436,
    "date": "2026-06-18",
@@ -2607,7 +2607,7 @@
     "name": "Czechia",
     "flag": "🇨🇿",
     "owner": "Emily",
-    "form": "LWWWW"
+    "form": "DLWWW"
    },
    "away": {
     "name": "Mexico",
@@ -2632,7 +2632,7 @@
     "name": "South Africa",
     "flag": "🇿🇦",
     "owner": "Dipen",
-    "form": "LWDLD"
+    "form": "DLWDL"
    },
    "away": {
     "name": "South Korea",
@@ -3140,7 +3140,7 @@
      "gf": 2,
      "ga": 3,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "Czechia",
      "flag": "🇨🇿",
@@ -3157,7 +3157,7 @@
      "gf": 1,
      "ga": 3,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "South Africa",
      "flag": "🇿🇦",
@@ -4813,9 +4813,9 @@
    "name": "South Africa",
    "flag": "🇿🇦",
    "owner": "Dipen",
-   "yellow": 2,
+   "yellow": 4,
    "red": 2,
-   "pts": 10
+   "pts": 12
   },
   {
    "code": "MEX",
@@ -4957,6 +4957,15 @@
    "name": "Colombia",
    "flag": "🇨🇴",
    "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "CZE",
+   "name": "Czechia",
+   "flag": "🇨🇿",
+   "owner": "Emily",
    "yellow": 1,
    "red": 0,
    "pts": 1
