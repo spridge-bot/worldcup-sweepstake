@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T19:16:30+00:00",
+ "generated_at": "2026-06-18T19:17:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "15'",
-   "status_detail": "15'",
+   "clock": "16'",
+   "status_detail": "16'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.57,
@@ -5123,15 +5123,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Messi's father dealing with 'health-related situation'",
-   "desc": "Lionel Messi's father is currently dealing with a \"health-related situation\", the family said in a statement on Thursday.",
-   "link": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T18:36:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c1d/live/3582fcf0-6b3d-11f1-858e-3f275ac14006.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Rice expected to be fit to face Ghana despite back pain",
    "desc": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
    "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
@@ -5210,6 +5201,15 @@
    "published": "2026-06-18T15:49:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ea2/live/91d619e0-6b1c-11f1-912d-f311c8e89719.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why does Scotland's McGinn do goggles celebration?",
+   "desc": "John McGinn opens up about the relative who inspired his goal celebration.",
+   "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T12:43:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
    "source": "BBC Sport"
   }
  ]
