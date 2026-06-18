@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T00:06:26+00:00",
+ "generated_at": "2026-06-18T00:07:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -5036,7 +5036,7 @@
  ],
  "news": [
   {
-   "headline": "'If we lose, we lose in our way' - what Tuchel said at half-time",
+   "headline": "'If we lose, we lose in our way' - how Tuchel inspired England at half-time",
    "desc": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
    "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-17T23:15:39Z",
@@ -5051,6 +5051,15 @@
    "published": "2026-06-17T22:51:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef3/live/c824fa90-6a84-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Drone brought down near South Korea training base",
+   "desc": "The Mexican military reportedly intercepts and brings down an unregistered drone seen flying over South Korea's training base before their Group A match with co-hosts Mexico on Friday.",
+   "link": "https://www.bbc.com/sport/football/articles/c872pv2r5y4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T00:03:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9fd1/live/3cd300e0-6aa7-11f1-8c31-f3f0b4597979.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5096,15 +5105,6 @@
    "published": "2026-06-17T19:42:13Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/26a1/live/622e0c70-6a7c-11f1-8e56-530bbb41ec43.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "No stage too big - Haaland arrives in style at World Cup",
-   "desc": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too.",
-   "link": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T02:09:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/19b8/live/690416b0-69ec-11f1-831c-91f0b9e0717c.jpg",
    "source": "BBC Sport"
   },
   {
