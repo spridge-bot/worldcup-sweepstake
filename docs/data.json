@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T16:46:14+00:00",
+ "generated_at": "2026-06-18T16:46:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "45'",
-   "status_detail": "45'",
+   "clock": "45'+1'",
+   "status_detail": "45'+1'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.77,
@@ -5135,6 +5135,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'My brother hid in a rice sack' - The refugee stars at the World Cup",
+   "desc": "Germany and Real Madrid defender Antonio Rudiger, whose family fled Sierra Leone's civil war, is among those campaigning for a change in global attitudes around refugees.",
+   "link": "https://www.bbc.com/news/articles/c1eygyg2zeno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T13:41:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/de9a/live/629d2eb0-65aa-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The celebration photo that sums up my relationship with Mbappe - Giroud",
+   "desc": "France's World Cup winner Olivier Giroud explains why iconic Les Bleus striker Kylian Mbappe is misunderstood, and seen as arrogant when he's not.",
+   "link": "https://www.bbc.com/sport/football/articles/cjrg7x4y975o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T12:57:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/505d/live/814ba9d0-6b19-11f1-be36-65d2d6d55e70.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Kane is England's greatest striker, says Lineker",
    "desc": "Gary Lineker thinks Harry Kane is \"the greatest English striker we've ever had\" after the England captain equalled his record of 10 World Cup goals.",
    "link": "https://www.bbc.com/sport/football/articles/cvg5de1dyn2o?at_medium=RSS&at_campaign=rss",
@@ -5177,24 +5195,6 @@
    "published": "2026-06-18T11:13:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3963/live/fdc4c5d0-6a08-11f1-8f3d-25530ef506f3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why are England playing a darts song at the World Cup?",
-   "desc": "BBC Sport's Ask Me Anything looks at the range of goal songs being used at the 2026 World Cup",
-   "link": "https://www.bbc.com/sport/football/articles/c5yzkx6vjxno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T12:48:57Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9723/live/2dbc5460-6b0d-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From one to 48 - every World Cup team ranked after first game",
-   "desc": "All 48 teams at the World Cup have now played once. BBC Sport's experts have ranked them all, from best to worst. Who is top? Not defending champions Argentina.",
-   "link": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T04:28:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec6a/live/8ef6d710-6ac1-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
