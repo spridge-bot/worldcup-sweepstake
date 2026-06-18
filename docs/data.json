@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T01:03:00+00:00",
+ "generated_at": "2026-06-18T01:03:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -815,12 +815,12 @@
    "fifa_rank": 34,
    "owner": "Dubs",
    "status": "alive",
-   "played": 0,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 0,
-   "ga": 0,
+   "ga": 1,
    "total": 1,
    "events": [
     {
@@ -1130,11 +1130,11 @@
    "fifa_rank": 56,
    "owner": "George",
    "status": "alive",
-   "played": 0,
-   "won": 0,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 0,
+   "gf": 1,
    "ga": 0,
    "total": 3,
    "events": [
@@ -1203,39 +1203,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760434,
+   "date": "2026-06-17",
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+11'",
-   "status_detail": "90'+11'",
-   "venue": "BMO Field",
+   "note": "",
+   "home": {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 2.2,
     "draw": 3.45,
     "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "goals": 1
-   },
-   "away": {
-    "code": "PAN",
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "owner": "Dubs",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760437,
    "date": "2026-06-17",
@@ -2420,7 +2420,7 @@
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": "DLLLL"
+    "form": "WDLLL"
    }
   },
   {
@@ -2439,7 +2439,7 @@
     "name": "Panama",
     "flag": "🇵🇦",
     "owner": "Dubs",
-    "form": "DWLWD"
+    "form": "LDWLW"
    },
    "away": {
     "name": "Croatia",
@@ -2945,7 +2945,7 @@
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": "DLLLL"
+    "form": "WDLLL"
    }
   },
   {
@@ -2964,7 +2964,7 @@
     "name": "Panama",
     "flag": "🇵🇦",
     "owner": "Dubs",
-    "form": "DWLWD"
+    "form": "LDWLW"
    },
    "away": {
     "name": "England",
@@ -3908,7 +3908,7 @@
      "gf": 1,
      "ga": 0,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 1,
      "name": "Ghana",
      "flag": "🇬🇭",
@@ -3925,7 +3925,7 @@
      "gf": 0,
      "ga": 1,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "Panama",
      "flag": "🇵🇦",
@@ -4899,6 +4899,15 @@
    "pts": 2
   },
   {
+   "code": "PAN",
+   "name": "Panama",
+   "flag": "🇵🇦",
+   "owner": "Dubs",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "QAT",
    "name": "Qatar",
    "flag": "🇶🇦",
@@ -4939,6 +4948,15 @@
    "name": "Ecuador",
    "flag": "🇪🇨",
    "owner": "Brando",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "GHA",
+   "name": "Ghana",
+   "flag": "🇬🇭",
+   "owner": "George",
    "yellow": 1,
    "red": 0,
    "pts": 1
