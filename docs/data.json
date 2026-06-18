@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T12:53:17+00:00",
+ "generated_at": "2026-06-18T12:58:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -5129,6 +5129,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Why does Scotland's McGinn do goggles celebration?",
+   "desc": "John McGinn opens up about the relative who inspired his goal celebration.",
+   "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T12:43:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "From one to 48 - every World Cup team ranked after first game",
    "desc": "All 48 teams at the World Cup have now played once. BBC Sport's experts have ranked them all, from best to worst. Who is top? Not defending champions Argentina.",
    "link": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo?at_medium=RSS&at_campaign=rss",
@@ -5180,15 +5189,6 @@
    "published": "2026-06-17T21:03:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0104/live/ed3841c0-6ae8-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Drone brought down near South Korea training base",
-   "desc": "The Mexican military reportedly intercepts and brings down an unregistered drone seen flying over South Korea's training base before their Group A match with co-hosts Mexico on Friday.",
-   "link": "https://www.bbc.com/sport/football/articles/c872pv2r5y4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T00:03:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9fd1/live/3cd300e0-6aa7-11f1-8c31-f3f0b4597979.jpg",
    "source": "BBC Sport"
   }
  ]
