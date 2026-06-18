@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T20:42:57+00:00",
+ "generated_at": "2026-06-18T20:43:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "82'",
-   "status_detail": "82'",
+   "clock": "85'",
+   "status_detail": "85'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.57,
@@ -1230,7 +1230,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "BIH",
@@ -3182,11 +3182,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 2,
+     "gf": 3,
      "ga": 1,
      "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Switzerland",
      "flag": "🇨🇭",
      "tier": 2,
@@ -3234,10 +3234,10 @@
      "d": 1,
      "l": 1,
      "gf": 1,
-     "ga": 2,
+     "ga": 3,
      "pts": 1,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
      "tier": 3,
