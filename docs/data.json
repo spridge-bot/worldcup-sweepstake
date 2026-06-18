@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T03:34:43+00:00",
+ "generated_at": "2026-06-18T03:35:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T02:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "73'",
-   "status_detail": "73'",
+   "clock": "74'",
+   "status_detail": "74'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 9.0,
@@ -2391,9 +2391,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.2,
-    "draw": 7.0,
-    "away": 15.0,
+    "home": 1.18,
+    "draw": 7.5,
+    "away": 16.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5111,6 +5111,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Drone brought down near South Korea training base",
+   "desc": "The Mexican military reportedly intercepts and brings down an unregistered drone seen flying over South Korea's training base before their Group A match with co-hosts Mexico on Friday.",
+   "link": "https://www.bbc.com/sport/football/articles/c872pv2r5y4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T00:03:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9fd1/live/3cd300e0-6aa7-11f1-8c31-f3f0b4597979.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Who was the biggest attacking threat? England player ratings",
    "desc": "Who was England's biggest attacking threat against Croatia? Alex Howell rates the players - plus have your say.",
    "link": "https://www.bbc.com/sport/football/articles/cy4eg2k4l2xo?at_medium=RSS&at_campaign=rss",
@@ -5129,21 +5138,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Drone brought down near South Korea training base",
-   "desc": "The Mexican military reportedly intercepts and brings down an unregistered drone seen flying over South Korea's training base before their Group A match with co-hosts Mexico on Friday.",
-   "link": "https://www.bbc.com/sport/football/articles/c872pv2r5y4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T00:03:20Z",
+   "headline": "What are the patches on some shirts at the World Cup?",
+   "desc": "England captain Harry Kane was seen wearing a special patch on his England shirt - why are they there and who else gets to wear them?",
+   "link": "https://www.bbc.com/sport/football/articles/cr5jdy59m69o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T03:31:10Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9fd1/live/3cd300e0-6aa7-11f1-8c31-f3f0b4597979.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How sweltering Scotland can handle World Cup heat",
-   "desc": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil.",
-   "link": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T11:16:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/53a1/live/d463f290-6ab9-11f1-9ffe-ebfae9274aca.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5156,21 +5156,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How sweltering Scotland can handle World Cup heat",
+   "desc": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil.",
+   "link": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T11:16:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Extraordinary Messi makes more history in masterclass for the ages",
    "desc": "Kylian Mbappe and Erling Haaland both enjoyed a fine start to the World Cup - but on a day packed with superstars, Lionel Messi still took top billing.",
    "link": "https://www.bbc.com/sport/football/articles/ce8k2zzejklo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-17T07:17:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/50b5/live/e01706b0-6a1c-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Cape Verde goalkeeper set to be reunited with his mum",
-   "desc": "Vozinha's mum has been granted a visa to travel to the US ahead of Cape Verde's next game against Uruguay.",
-   "link": "https://www.bbc.com/sport/football/articles/cgjxlpxxp6wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T19:42:13Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/26a1/live/622e0c70-6a7c-11f1-8e56-530bbb41ec43.jpg",
    "source": "BBC Sport"
   }
  ]
