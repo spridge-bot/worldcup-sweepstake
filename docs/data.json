@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T17:47:04+00:00",
+ "generated_at": "2026-06-18T17:47:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "85'",
-   "status_detail": "85'",
+   "clock": "86'",
+   "status_detail": "86'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.77,
@@ -5090,6 +5090,15 @@
  ],
  "news": [
   {
+   "headline": "Tuchel's complaints lead to Fifa moving photographers",
+   "desc": "England head coach Thomas Tuchel has won a battle with Fifa to get photographers moved away from the bench during the national anthems.",
+   "link": "https://www.bbc.com/sport/football/articles/cdejd2p65k3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T17:44:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Van der Vaart apologises over Japan racial slur",
    "desc": "Former Tottenham midfielder Rafael van der Vaart apologises after saying that Japan players \"all look alike\" during their 2-2 draw with the Netherlands.",
    "link": "https://www.bbc.com/sport/football/articles/cdjk9yw9xv3o?at_medium=RSS&at_campaign=rss",
@@ -5177,15 +5186,6 @@
    "published": "2026-06-18T12:43:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Ivory Coast's Wahi denied entry to Canada",
-   "desc": "The Ivory Coast football federation have announced their forward Elye Wahi has been denied entry to Canada for their next World Cup game.",
-   "link": "https://www.bbc.com/sport/football/articles/cvg7n7xdnd0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T11:39:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3ba2/live/94400940-6b01-11f1-8317-e1f912f75a64.jpg",
    "source": "BBC Sport"
   },
   {
