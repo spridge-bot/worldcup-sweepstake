@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T20:52:12+00:00",
+ "generated_at": "2026-06-18T20:52:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+2'",
-   "status_detail": "90'+2'",
+   "clock": "90'+4'",
+   "status_detail": "90'+4'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.57,
@@ -1237,7 +1237,7 @@
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3183,10 +3183,10 @@
      "d": 1,
      "l": 0,
      "gf": 4,
-     "ga": 1,
+     "ga": 2,
      "pts": 4,
      "live": true,
-     "gd": 3,
+     "gd": 2,
      "name": "Switzerland",
      "flag": "🇨🇭",
      "tier": 2,
@@ -3233,11 +3233,11 @@
      "w": 0,
      "d": 1,
      "l": 1,
-     "gf": 1,
+     "gf": 2,
      "ga": 4,
      "pts": 1,
      "live": true,
-     "gd": -3,
+     "gd": -2,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
      "tier": 3,
