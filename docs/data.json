@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T18:38:03+00:00",
+ "generated_at": "2026-06-18T18:43:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -5117,6 +5117,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Messi's father dealing with 'health-related situation'",
+   "desc": "Lionel Messi's father is currently dealing with a \"health-related situation\", the family said in a statement on Thursday.",
+   "link": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T18:36:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c1d/live/3582fcf0-6b3d-11f1-858e-3f275ac14006.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rice expected to be fit to face Ghana despite back pain",
    "desc": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
    "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
@@ -5195,15 +5204,6 @@
    "published": "2026-06-18T12:43:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Hydration boos and surprise results - World Cup talking points",
-   "desc": "BBC Sport takes a look at the talking points from the first week of World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T11:13:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3963/live/fdc4c5d0-6a08-11f1-8f3d-25530ef506f3.jpg",
    "source": "BBC Sport"
   }
  ]
