@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T04:01:47+00:00",
+ "generated_at": "2026-06-18T04:02:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T02:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "90'+10'",
-   "status_detail": "90'+10'",
+   "clock": "90'+11'",
+   "status_detail": "90'+11'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 9.0,
@@ -2476,7 +2476,7 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": "WWLLW"
+    "form": "WWWLL"
    },
    "away": {
     "name": "DR Congo",
@@ -3001,7 +3001,7 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": "WWLLW"
+    "form": "WWWLL"
    },
    "away": {
     "name": "Portugal",
