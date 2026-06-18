@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T22:50:01+00:00",
+ "generated_at": "2026-06-18T22:50:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-18T22:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "45'+4'",
-   "status_detail": "45'+4'",
+   "clock": "45'+5'",
+   "status_detail": "45'+5'",
    "venue": "BC Place",
    "odds": {
     "home": 1.28,
@@ -5156,6 +5156,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Van der Vaart apologises over Japan racial slur",
+   "desc": "Former Tottenham midfielder Rafael van der Vaart apologises after saying that Japan players \"all look alike\" during their 2-2 draw with the Netherlands.",
+   "link": "https://www.bbc.com/sport/football/articles/cdjk9yw9xv3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T16:28:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8b28/live/0e1c6230-6b21-11f1-be36-65d2d6d55e70.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rice expected to be fit to face Ghana despite back pain",
    "desc": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
    "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
@@ -5207,15 +5216,6 @@
    "published": "2026-06-18T15:49:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ea2/live/91d619e0-6b1c-11f1-912d-f311c8e89719.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why does Scotland's McGinn do goggles celebration?",
-   "desc": "John McGinn opens up about the relative who inspired his goal celebration.",
-   "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T12:43:42Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad70/live/1a03f160-6b14-11f1-9eec-ff3d08cf3aad.jpg",
    "source": "BBC Sport"
   }
  ]
