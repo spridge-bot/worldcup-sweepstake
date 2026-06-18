@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T00:26:26+00:00",
+ "generated_at": "2026-06-18T00:27:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1209,8 +1209,8 @@
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "64'",
-   "status_detail": "64'",
+   "clock": "65'",
+   "status_detail": "65'",
    "venue": "BMO Field",
    "odds": {
     "home": 2.2,
@@ -5072,6 +5072,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'Scared to take him off' - Ronaldo struggles after fellow superstars sparkle",
+   "desc": "Three superstars delivered for their countries at the World Cup on Tuesday. But Cristiano Ronaldo could not follow suit on Wednesday as Portugal were held to a surprise draw by DR Congo.",
+   "link": "https://www.bbc.com/sport/football/articles/cpq3734ln8yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-17T22:51:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef3/live/c824fa90-6a84-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "I knew stuttered run-up might get keeper off line - Kane",
    "desc": "Harry Kane was able to give England the lead against Croatia from the penalty spot - but only thanks to the video assistant referee.",
    "link": "https://www.bbc.com/sport/football/articles/ckg054x8d9qo?at_medium=RSS&at_campaign=rss",
@@ -5105,15 +5114,6 @@
    "published": "2026-06-17T11:16:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rabiot raises concerns about MetLife Stadium pitch",
-   "desc": "France midfielder Adrien Rabiot raises concerns about the quality of the pitch at the New York New Jersey Stadium, describing it as \"more like an artificial surface\".",
-   "link": "https://www.bbc.com/sport/football/articles/cevld1m8nxno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T10:06:01Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ff5e/live/5cb7bb50-6a32-11f1-9b8b-e9d622652531.jpg",
    "source": "BBC Sport"
   },
   {
