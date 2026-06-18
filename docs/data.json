@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T00:45:32+00:00",
+ "generated_at": "2026-06-18T00:46:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1209,8 +1209,8 @@
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "84'",
-   "status_detail": "84'",
+   "clock": "85'",
+   "status_detail": "85'",
    "venue": "BMO Field",
    "odds": {
     "home": 2.2,
@@ -2031,7 +2031,7 @@
    "odds": {
     "home": 1.1,
     "draw": 11.0,
-    "away": 21.0,
+    "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2104,9 +2104,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.56,
-    "draw": 4.5,
-    "away": 5.5,
+    "home": 1.54,
+    "draw": 4.6,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2254,8 +2254,8 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 5.25,
-    "draw": 4.3,
+    "home": 5.5,
+    "draw": 4.1,
     "away": 1.61,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2306,7 +2306,7 @@
    "odds": {
     "home": 1.09,
     "draw": 12.0,
-    "away": 26.0,
+    "away": 29.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2654,10 +2654,10 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 4.7,
+    "home": 5.0,
     "draw": 4.0,
-    "away": 1.74,
-    "over_under": null,
+    "away": 1.69,
+    "over_under": 2.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -2679,9 +2679,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 2.1,
+    "home": 2.15,
     "draw": 3.45,
-    "away": 3.55,
+    "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2804,9 +2804,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.31,
+    "home": 1.32,
     "draw": 5.25,
-    "away": 10.5,
+    "away": 10.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2829,8 +2829,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.8,
-    "draw": 3.65,
+    "home": 2.75,
+    "draw": 3.75,
     "away": 2.4,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3005,8 +3005,8 @@
    "group": "Group K",
    "odds": {
     "home": 2.15,
-    "draw": 3.7,
-    "away": 3.25,
+    "draw": 3.6,
+    "away": 3.35,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
