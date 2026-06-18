@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-18T00:25:30+00:00",
+ "generated_at": "2026-06-18T00:26:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-17",
  "scoring": {
@@ -1209,8 +1209,8 @@
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "63'",
-   "status_detail": "63'",
+   "clock": "64'",
+   "status_detail": "64'",
    "venue": "BMO Field",
    "odds": {
     "home": 2.2,
@@ -5036,6 +5036,15 @@
  ],
  "news": [
   {
+   "headline": "This was an England we haven't seen for years - and it was fun",
+   "desc": "Fun to watch and full of intent - this was an England we have not seen for years, writes Phil McNulty.",
+   "link": "https://www.bbc.com/sport/football/articles/cwylqvgne7lo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T00:23:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/685e/live/ab647610-6aa2-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Chip on shoulder' may help Bellingham to best form",
    "desc": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
@@ -5051,15 +5060,6 @@
    "published": "2026-06-17T23:15:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Scared to take him off' - Ronaldo struggles after fellow superstars sparkle",
-   "desc": "Three superstars delivered for their countries at the World Cup on Tuesday. But Cristiano Ronaldo could not follow suit on Wednesday as Portugal were held to a surprise draw by DR Congo.",
-   "link": "https://www.bbc.com/sport/football/articles/cpq3734ln8yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-17T22:51:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef3/live/c824fa90-6a84-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
