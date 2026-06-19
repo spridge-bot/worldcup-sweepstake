@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T10:33:42+00:00",
+ "generated_at": "2026-06-19T10:38:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2065,7 +2065,7 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.11,
+    "home": 1.1,
     "draw": 11.0,
     "away": 23.0,
     "over_under": 3.5,
@@ -5153,6 +5153,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Morocco captain Hakimi to stand trial for rape",
+   "desc": "French prosecutors confirm Morocco captain Achraf Hakimi will stand trial for rape, in accusations dating back to 2023.",
+   "link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T10:28:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aba2/live/baf34430-6bba-11f1-8e5f-879143928516.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Iran to lodge complaint over travel restrictions",
    "desc": "Iran are to lodge an official complaint to Fifa about the travel restrictions they are facing at the 2026 World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/c4gy62p4e67o?at_medium=RSS&at_campaign=rss",
@@ -5213,15 +5222,6 @@
    "published": "2026-06-19T02:46:28Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/23ed/live/df3a21a0-6b84-11f1-9989-0b31d9e43120.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tuchel's complaints lead to Fifa moving photographers",
-   "desc": "England head coach Thomas Tuchel has won a battle with Fifa to get photographers moved away from the bench during the national anthems.",
-   "link": "https://www.bbc.com/sport/football/articles/cdejd2p65k3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T17:44:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
    "source": "BBC Sport"
   }
  ]
