@@ -446,14 +446,19 @@ def apply_payloads(ent, payloads, espn_id, codes, teams):
                         "positions", "pitch") if ent.get(k)]
 
 
+# Order matters: fetch the light, time-critical live endpoints first (events,
+# momentum, stats) so that if Sofascore cuts us off with a 403 part-way through a
+# cycle, the data players actually watch has already been captured. The heavy
+# shotmap/average-positions come last and are throttled (see harvest_api).
 API_ENDPOINTS = {
     "incidents": "incidents",
-    "lineups": "lineups",
-    "statistics": "statistics",
     "graph": "graph",
+    "statistics": "statistics",
+    "lineups": "lineups",
     "shotmap": "shotmap",
     "average-positions": "average-positions",
 }
+HEAVY_REFRESH = 90        # seconds between shotmap/average-positions fetches while live
 
 
 def harvest_api(espn_id, sofa_id, codes, teams, out, live=False):
@@ -463,16 +468,20 @@ def harvest_api(espn_id, sofa_id, codes, teams, out, live=False):
     skip = set()
     if ent.get("lineups"):                       # confirmed line-ups don't change
         skip.add("lineups")
-    # Shots and average positions keep changing through a live match — a late
-    # goal is a new shot, and average positions drift as the game develops. So
-    # only freeze the captured snapshot once the match is no longer live;
-    # otherwise an early capture (e.g. two shots / one player at kickoff) sticks
-    # for the whole match and we miss every later goal/shot.
-    if not live:
-        if ent.get("shots"):
-            skip.add("shotmap")
-        if ent.get("positions"):
-            skip.add("average-positions")
+    # Shots and average positions keep changing through a match (a late goal is a
+    # new shot; positions drift), so we never freeze them mid-match — BUT we only
+    # refresh them every HEAVY_REFRESH seconds, not every cycle. Hammering all
+    # six endpoints every ~12s trips Sofascore's 403 rate-limit, which also kills
+    # the data players care about most (momentum & stats). Once the match is over
+    # we stop refreshing them entirely. Timestamps live on the entry so the
+    # 12s watcher and the 46s git updater share one throttle.
+    now = time.time()
+    for short, key in (("shotmap", "shots"), ("average-positions", "positions")):
+        if not ent.get(key):
+            continue                             # never captured yet — always try
+        stale = now - ent.get("_heavy_at", {}).get(short, 0)
+        if not live or stale < HEAVY_REFRESH:
+            skip.add(short)
     payloads = {}
     for short, ep in API_ENDPOINTS.items():
         if short in skip:
@@ -481,6 +490,8 @@ def harvest_api(espn_id, sofa_id, codes, teams, out, live=False):
             payloads[short] = sofa_get(f"/event/{sofa_id}/{ep}")
         except Exception:
             pass
+        if short in ("shotmap", "average-positions"):
+            ent.setdefault("_heavy_at", {})[short] = now    # mark the attempt (success or 403) to throttle
     ent.update({"sofa_id": str(sofa_id),
                 "updated": datetime.now(timezone.utc).isoformat(timespec="seconds")})
     got = apply_payloads(ent, payloads, espn_id, codes, teams)
