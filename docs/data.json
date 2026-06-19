@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T19:46:05+00:00",
+ "generated_at": "2026-06-19T19:46:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-19T19:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "44'",
-   "status_detail": "44'",
+   "clock": "45'+2'",
+   "status_detail": "45'+2'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.61,
@@ -1230,7 +1230,7 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "AUS",
@@ -3346,11 +3346,11 @@
      "w": 2,
      "d": 0,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 1,
      "pts": 6,
      "live": true,
-     "gd": 4,
+     "gd": 5,
      "name": "USA",
      "flag": "🇺🇸",
      "tier": 1,
@@ -3364,10 +3364,10 @@
      "d": 0,
      "l": 1,
      "gf": 2,
-     "ga": 1,
+     "ga": 2,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 0,
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
@@ -4815,20 +4815,20 @@
    "owner": "Brando"
   },
   {
+   "player": "Alex Freeman",
+   "team": "USA",
+   "goals": 1,
+   "assists": 0,
+   "flag": "🇺🇸",
+   "owner": "Willo"
+  },
+  {
    "player": "Alexander Isak",
    "team": "SWE",
    "goals": 1,
    "assists": 0,
    "flag": "🇸🇪",
    "owner": "Spridge"
-  },
-  {
-   "player": "Ali Olwan",
-   "team": "JOR",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇯🇴",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
