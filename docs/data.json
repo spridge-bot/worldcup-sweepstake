@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T00:02:10+00:00",
+ "generated_at": "2026-06-19T00:02:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -758,11 +758,11 @@
    "fifa_rank": 30,
    "owner": "Dipen",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 1,
+   "gf": 7,
    "ga": 1,
    "total": 5,
    "events": [
@@ -1010,12 +1010,12 @@
    "fifa_rank": 50,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 1,
-   "lost": 0,
+   "lost": 1,
    "gf": 1,
-   "ga": 1,
+   "ga": 7,
    "total": 0,
    "events": []
   },
@@ -1209,39 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760440,
+   "date": "2026-06-18",
    "utc": "2026-06-18T22:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+10'",
-   "status_detail": "90'+10'",
-   "venue": "BC Place",
+   "note": "",
+   "home": {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "tier": 2,
+    "goals": 6,
+    "points": null
+   },
+   "away": {
+    "code": "QAT",
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.28,
     "draw": 5.75,
     "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "goals": 6
-   },
-   "away": {
-    "code": "QAT",
-    "name": "Qatar",
-    "flag": "🇶🇦",
-    "owner": "Ruggy",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760439,
    "date": "2026-06-18",
@@ -3191,7 +3191,7 @@
      "gf": 7,
      "ga": 1,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 6,
      "name": "Canada",
      "flag": "🇨🇦",
@@ -3242,7 +3242,7 @@
      "gf": 1,
      "ga": 7,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -6,
      "name": "Qatar",
      "flag": "🇶🇦",
@@ -4830,6 +4830,15 @@
    "pts": 12
   },
   {
+   "code": "QAT",
+   "name": "Qatar",
+   "flag": "🇶🇦",
+   "owner": "Ruggy",
+   "yellow": 3,
+   "red": 2,
+   "pts": 11
+  },
+  {
    "code": "BIH",
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
@@ -4855,6 +4864,15 @@
    "yellow": 5,
    "red": 0,
    "pts": 5
+  },
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "owner": "Dipen",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
   },
   {
    "code": "CIV",
@@ -4911,15 +4929,6 @@
    "pts": 2
   },
   {
-   "code": "CAN",
-   "name": "Canada",
-   "flag": "🇨🇦",
-   "owner": "Dipen",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
    "code": "EGY",
    "name": "Egypt",
    "flag": "🇪🇬",
@@ -4933,15 +4942,6 @@
    "name": "Panama",
    "flag": "🇵🇦",
    "owner": "Dubs",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "QAT",
-   "name": "Qatar",
-   "flag": "🇶🇦",
-   "owner": "Ruggy",
    "yellow": 2,
    "red": 0,
    "pts": 2
