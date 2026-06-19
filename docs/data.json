@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T14:16:08+00:00",
+ "generated_at": "2026-06-19T14:21:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2515,7 +2515,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.42,
+    "home": 1.43,
     "draw": 5.0,
     "away": 7.0,
     "over_under": 2.5,
