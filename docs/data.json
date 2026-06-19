@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T23:46:33+00:00",
+ "generated_at": "2026-06-19T23:47:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "83'",
-   "clock_sec": 4980.0,
-   "status_detail": "83'",
+   "clock": "84'",
+   "clock_sec": 5040.0,
+   "status_detail": "84'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -5157,6 +5157,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How presenter's Messi error caused outrage in Argentina",
+   "desc": "An Argentine TV presenter steps down after wrongly saying on air that Lionel Messi's father had died.",
+   "link": "https://www.bbc.com/sport/football/articles/cwy03yzw2y3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T23:45:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/265e/live/1e8d7e30-6c32-11f1-a737-a9cf39a73934.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England winger Saka unlikely to start against Ghana",
    "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
    "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
@@ -5193,21 +5202,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
-   "desc": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
-   "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T12:20:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd89/live/e3dbaa50-6b91-11f1-a44f-b19d3c8d49f0.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Nike v Adidas - the World Cup brand battle",
    "desc": "Eye-watering budgets are nothing new, but this year both Nike and Adidas have gone bigger and bolder than ever before in the fight for World Cup attention.",
    "link": "https://www.bbc.com/sport/football/articles/c75y7py2lxdo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-19T13:01:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/59d9/live/8675a180-6bd8-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
+   "desc": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
+   "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T12:20:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd89/live/e3dbaa50-6b91-11f1-a44f-b19d3c8d49f0.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5235,15 +5244,6 @@
    "published": "2026-06-19T13:22:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec3e/live/84747ab0-69b1-11f1-9c9e-51a808d0c47c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The US World Cup star who couldn't be an American under Trump's plan",
-   "desc": "Folarin Balogun scored two goals on his World Cup debut, but he is the type of person President Trump is trying to ban under birthright citizenship.",
-   "link": "https://www.bbc.com/sport/football/articles/c2ly0kx05jdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T11:21:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ac7/live/d1b70010-674d-11f1-b4c1-47ccd10ce929.jpg",
    "source": "BBC Sport"
   }
  ]
