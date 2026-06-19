@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T23:32:42+00:00",
+ "generated_at": "2026-06-19T23:33:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "69'",
-   "clock_sec": 4140.0,
-   "status_detail": "69'",
+   "clock": "70'",
+   "clock_sec": 4200.0,
+   "status_detail": "70'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -5139,6 +5139,15 @@
  ],
  "news": [
   {
+   "headline": "The Super Bowl winner's son stepping into spotlight with USA",
+   "desc": "Alex Freeman is stepping out of the shadows of his Super Bowl-winning father to forge his own path in football.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T23:31:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8d1e/live/2eceb140-6c2a-11f1-be3d-13e0fcdeefa8.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rate the players in Scotland v Morocco",
    "desc": "Rate the Scotland and Morocco players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
    "link": "https://www.bbc.com/sport/football/articles/ce95gpgv09go?at_medium=RSS&at_campaign=rss",
@@ -5235,15 +5244,6 @@
    "published": "2026-06-19T11:21:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ac7/live/d1b70010-674d-11f1-b4c1-47ccd10ce929.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why Pochettino's fluid USA midfield is thriving",
-   "desc": "Mauricio Pochettino has his USA midfield thriving at the World Cup with a fluid approach - here is how it works.",
-   "link": "https://www.bbc.com/sport/football/articles/cr5jdjn65nzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T08:48:45Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c54c/live/85790730-6b16-11f1-9eec-ff3d08cf3aad.jpg",
    "source": "BBC Sport"
   }
  ]
