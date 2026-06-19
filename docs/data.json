@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T10:44:17+00:00",
+ "generated_at": "2026-06-19T10:49:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2040,9 +2040,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 5.5,
+    "home": 5.75,
     "draw": 3.65,
-    "away": 1.71,
+    "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5117,15 +5117,6 @@
  ],
  "news": [
   {
-   "headline": "A day of tears, scuffles & history as injury mars Canada's moment",
-   "desc": "Canada's first-ever win at a World Cup finals should have been cause for pure joy - but was overshadowed by a horrific injury to Ismael Kone, and the angry and emotional scenes that followed.",
-   "link": "https://www.bbc.com/sport/football/articles/cly7r1zjmmlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T03:34:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1bb0/live/11cbd630-6b90-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Scotland's totems must turn up to thwart dynamic Morocco",
    "desc": "Scotland will need their best display since Steve Clarke took over to achieve the result against Morocco that will secure knockout tournament football for the first time, writes Tom English.",
    "link": "https://www.bbc.com/sport/football/articles/cy04jqn90wko?at_medium=RSS&at_campaign=rss",
@@ -5141,6 +5132,15 @@
    "published": "2026-06-19T10:14:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7838/live/58a01de0-6afb-11f1-80a3-b70219ebe550.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "A day of tears, scuffles & history as injury mars Canada's moment",
+   "desc": "Canada's first-ever win at a World Cup finals should have been cause for pure joy - but was overshadowed by a horrific injury to Ismael Kone, and the angry and emotional scenes that followed.",
+   "link": "https://www.bbc.com/sport/football/articles/cly7r1zjmmlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T03:34:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1bb0/live/11cbd630-6b90-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
