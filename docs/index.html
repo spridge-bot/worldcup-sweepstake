@@ -800,8 +800,13 @@ function fmtClock(sec) {
 // time instead of lagging. Monotonic (never ticks backward) and staleness-capped
 // at 8 min so a dead feed can't run away.
 function clockSec(a) {
-  const elapsed = Math.min(Math.max(0, (Date.now() - a.genMs) / 1000), 8 * 60);
-  a.last = Math.max(a.last, a.baseSec + elapsed);
+  const elapsed = Math.min(Math.max(0, (Date.now() - a.genMs) / 1000), a.precise ? 150 : 8 * 60);
+  const cand = a.baseSec + elapsed;
+  // With ESPN's exact seconds, trust the value outright so it tracks real time
+  // and corrects any past over-extrapolation back down. Only the minute-only
+  // fallback keeps a monotonic floor (to avoid backsteps at minute boundaries).
+  if (a.precise) { a.last = cand; return cand; }
+  a.last = Math.max(a.last, cand);
   return a.last;
 }
 function matchClock(m, generatedAt) {
@@ -810,9 +815,9 @@ function matchClock(m, generatedAt) {
   if (/\bF?T\b|full.?time|\bAET\b|pen|final|ended/i.test(detail) && !/^\d/.test(detail))
     return `<div class="matchclock paused">${esc(detail)}</div>`;
   // Prefer ESPN's exact elapsed seconds; fall back to deriving from the minute.
-  let baseSec;
+  let baseSec, precise = false;
   if (typeof m.clock_sec === 'number' && m.clock_sec > 0) {
-    baseSec = m.clock_sec;
+    baseSec = m.clock_sec; precise = true;
   } else {
     const mm = /(\d+)/.exec(m.clock || '');
     if (!mm) return detail ? `<div class="matchclock paused">${esc(detail)}</div>` : '';
@@ -822,7 +827,7 @@ function matchClock(m, generatedAt) {
   const key = Math.round(baseSec);              // re-anchor whenever the feed time advances
   const a = CLOCK_ANCHORS[m.id];
   if (!a || a.key !== key)
-    CLOCK_ANCHORS[m.id] = { key, baseSec, genMs: Date.parse(generatedAt) || Date.now(), last: a ? a.last : 0 };
+    CLOCK_ANCHORS[m.id] = { key, baseSec, genMs: Date.parse(generatedAt) || Date.now(), last: a ? a.last : 0, precise };
   return `<div class="matchclock" data-clock="${m.id}">${fmtClock(clockSec(CLOCK_ANCHORS[m.id]))}</div>`;
 }
 function tickClocks() {
