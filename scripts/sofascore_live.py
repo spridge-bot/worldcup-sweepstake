@@ -584,6 +584,7 @@ def espn_quick_scores():
             by_id[int(e["id"])] = {
                 "hg": int(home.get("score") or 0), "ag": int(away.get("score") or 0),
                 "clock": (e.get("status") or {}).get("displayClock"),
+                "clock_sec": (e.get("status") or {}).get("clock"),
                 "detail": state.get("shortDetail"),
                 "live": state.get("state") == "in",
             }
@@ -596,9 +597,11 @@ def espn_quick_scores():
         if not ev:
             still_live.append(m)
             continue
-        if (m["home"]["goals"], m["away"]["goals"], m.get("clock")) != (ev["hg"], ev["ag"], ev["clock"]):
+        if (m["home"]["goals"], m["away"]["goals"], m.get("clock"), m.get("clock_sec")) != \
+           (ev["hg"], ev["ag"], ev["clock"], ev["clock_sec"]):
             m["home"]["goals"], m["away"]["goals"] = ev["hg"], ev["ag"]
             m["clock"], m["status_detail"] = ev["clock"], ev["detail"]
+            m["clock_sec"] = ev["clock_sec"]
             changed = True
         if ev["live"]:
             still_live.append(m)

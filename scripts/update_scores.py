@@ -566,6 +566,7 @@ def fetch_espn_matches(index):
                 "attendance": c.get("attendance") or None,
                 "odds": parse_espn_odds(c),
                 "clock": (e.get("status") or {}).get("displayClock"),
+                "clock_sec": (e.get("status") or {}).get("clock"),   # exact elapsed seconds
                 "status_detail": state.get("shortDetail") or state.get("detail"),
                 "goals": goals, "bookings": bookings, "penalties": pens,
             }
@@ -1268,6 +1269,7 @@ def main():
             "stage": STAGE_LABELS.get(m["stage"], m["stage"]),
             "group": (m.get("group") or "").replace("_", " ").title() or None,
             "clock": mi.get("clock"),
+            "clock_sec": mi.get("clock_sec"),
             "status_detail": mi.get("status_detail") or ("Half-time" if m["status"] == "PAUSED" else "Live"),
             "venue": mi.get("venue") or ent.get("venue"),
             "odds": ent.get("odds"),
