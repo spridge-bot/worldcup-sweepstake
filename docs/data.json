@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T22:02:33+00:00",
+ "generated_at": "2026-06-19T22:03:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -19,6 +19,19 @@
  },
  "players": [
   {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 16,
+   "today": 10,
+   "rank": 1,
+   "movement": 4
+  },
+  {
    "name": "Glancy",
    "teams": [
     "GER",
@@ -28,8 +41,8 @@
    ],
    "total": 14,
    "today": 3,
-   "rank": 1,
-   "movement": 1
+   "rank": 2,
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -41,34 +54,8 @@
    ],
    "total": 14,
    "today": 0,
-   "rank": 1,
-   "movement": 0
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 14,
-   "today": 8,
-   "rank": 1,
-   "movement": 4
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 12,
-   "today": 5,
-   "rank": 4,
-   "movement": 0
+   "rank": 2,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -80,8 +67,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 5,
-   "movement": -3
+   "rank": 4,
+   "movement": -2
   },
   {
    "name": "Dipen",
@@ -93,8 +80,21 @@
    ],
    "total": 11,
    "today": 5,
-   "rank": 5,
-   "movement": 0
+   "rank": 4,
+   "movement": 1
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 10,
+   "today": 3,
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -322,12 +322,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-19",
-     "desc": "2nd in Group C (live)",
-     "points": 3
+     "desc": "1st in Group C (live)",
+     "points": 5
     }
    ]
   },
@@ -919,12 +919,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 0,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-19",
-     "desc": "1st in Group C (live)",
-     "points": 5
+     "desc": "2nd in Group C (live)",
+     "points": 3
     }
    ]
   },
@@ -1237,7 +1237,7 @@
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3274,37 +3274,37 @@
    "rows": [
     {
      "group": "Group C",
-     "code": "SCO",
+     "code": "MAR",
      "p": 2,
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 1,
-     "ga": 0,
+     "gf": 2,
+     "ga": 1,
      "pts": 4,
      "live": true,
      "gd": 1,
-     "name": "Scotland",
-     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-     "tier": 3,
-     "owner": "George"
-    },
-    {
-     "group": "Group C",
-     "code": "MAR",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 2,
-     "live": true,
-     "gd": 0,
      "name": "Morocco",
      "flag": "🇲🇦",
      "tier": 1,
      "owner": "Willo"
+    },
+    {
+     "group": "Group C",
+     "code": "SCO",
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 1,
+     "pts": 3,
+     "live": true,
+     "gd": 0,
+     "name": "Scotland",
+     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "tier": 3,
+     "owner": "George"
     },
     {
      "group": "Group C",
@@ -4773,6 +4773,14 @@
    "owner": "Brando"
   },
   {
+   "player": "Ismael Saibari",
+   "team": "MAR",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇲🇦",
+   "owner": "Willo"
+  },
+  {
    "player": "Johan Manzambi",
    "team": "SUI",
    "goals": 2,
@@ -4827,14 +4835,6 @@
    "assists": 0,
    "flag": "🇺🇸",
    "owner": "Willo"
-  },
-  {
-   "player": "Alexander Isak",
-   "team": "SWE",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇸🇪",
-   "owner": "Spridge"
   }
  ],
  "fairplay": [
