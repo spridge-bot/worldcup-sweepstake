@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T04:17:44+00:00",
+ "generated_at": "2026-06-19T04:23:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -5144,6 +5144,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Hat-trick hero & Swiss wonderkid - World Cup duo set for Premier League?",
+   "desc": "Will Canada hat-trick hero Jonathan David and Swiss goal-scoring midfielder Johan Manzambi be playing in the Premier League next season?",
+   "link": "https://www.bbc.com/sport/articles/cp8rde9q76do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T04:19:13Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/027e/live/dd031500-6b92-11f1-955b-d393d55ed370.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel throws first pitch as England enjoy downtime",
    "desc": "Thomas Tuchel takes some time out at a baseball game as England enjoy some downtime at the World Cup - while Ivan Toney scores a hat-trick in a friendly against MLS side Sporting KC.",
    "link": "https://www.bbc.com/sport/football/articles/cgrk5qrkw5po?at_medium=RSS&at_campaign=rss",
@@ -5180,15 +5189,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Messi's father dealing with 'health-related situation'",
-   "desc": "Lionel Messi's father is currently dealing with a \"health-related situation\", the family said in a statement on Thursday.",
-   "link": "https://www.bbc.com/sport/football/articles/c1wy33x389no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T19:20:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c1d/live/3582fcf0-6b3d-11f1-858e-3f275ac14006.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Van der Vaart apologises over Japan racial slur",
    "desc": "Former Tottenham midfielder Rafael van der Vaart apologises after saying that Japan players \"all look alike\" during their 2-2 draw with the Netherlands.",
    "link": "https://www.bbc.com/sport/football/articles/cdjk9yw9xv3o?at_medium=RSS&at_campaign=rss",
@@ -5216,12 +5216,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Kane is England's greatest striker, says Lineker",
-   "desc": "Gary Lineker thinks Harry Kane is \"the greatest English striker we've ever had\" after the England captain equalled his record of 10 World Cup goals.",
-   "link": "https://www.bbc.com/sport/football/articles/cvg5de1dyn2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T14:37:23Z",
+   "headline": "Messi's father dealing with 'health-related situation'",
+   "desc": "Lionel Messi's father is currently dealing with a \"health-related situation\", the family said in a statement on Thursday.",
+   "link": "https://www.bbc.com/sport/football/articles/c1wy33x389no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T19:20:22Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/985d/live/8ad63b90-6b1f-11f1-be36-65d2d6d55e70.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c1d/live/3582fcf0-6b3d-11f1-858e-3f275ac14006.jpg",
    "source": "BBC Sport"
   }
  ]
