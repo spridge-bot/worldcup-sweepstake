@@ -932,8 +932,12 @@ function renderLive(d) {
     const s = SOFA[String(m.id)];
     const det = DETAILS[String(m.id)];
     const hasStats = o => o && Object.keys(o).length;
-    const statHtml = s?.stats ? statBars(s.stats.home, s.stats.away)
-      : (hasStats(det?.home?.stats) || hasStats(det?.away?.stats)) ? statBars(det.home.stats, det.away.stats) : '';
+    // Merge Sofascore + ESPN stats (ESPN wins on overlap — it stays fresh even
+    // when Sofascore rate-limits/403s us), so stats still show during a Sofa
+    // outage instead of being stuck on a stale/empty Sofascore snapshot.
+    const hStats = { ...(s?.stats?.home || {}), ...(det?.home?.stats || {}) };
+    const aStats = { ...(s?.stats?.away || {}), ...(det?.away?.stats || {}) };
+    const statHtml = (hasStats(hStats) || hasStats(aStats)) ? statBars(hStats, aStats) : '';
     const stageLabel = [m.stage, m.group].filter(Boolean).join(' · ');
     const goalsFor = code => {
       const gs = (det?.goals || []).filter(g => g.team === code);
