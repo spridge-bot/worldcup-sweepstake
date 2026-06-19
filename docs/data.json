@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T19:01:12+00:00",
+ "generated_at": "2026-06-19T19:01:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -40,9 +40,9 @@
     "JOR"
    ],
    "total": 14,
-   "today": 0,
+   "today": 3,
    "rank": 1,
-   "movement": 0
+   "movement": 2
   },
   {
    "name": "Spridge",
@@ -66,9 +66,9 @@
     "NZL"
    ],
    "total": 12,
-   "today": 0,
+   "today": 5,
    "rank": 4,
-   "movement": 0
+   "movement": 1
   },
   {
    "name": "Brando",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 5,
-   "movement": 0
+   "movement": -2
   },
   {
    "name": "Dipen",
@@ -526,7 +526,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-13",
+     "date": "2026-06-19",
      "desc": "1st in Group D (live)",
      "points": 5
     }
@@ -710,7 +710,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-14",
+     "date": "2026-06-19",
      "desc": "2nd in Group D (live)",
      "points": 3
     }
@@ -1209,7 +1209,38 @@
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760442,
+   "utc": "2026-06-19T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "clock": "1'",
+   "status_detail": "1'",
+   "venue": "Lumen Field",
+   "odds": {
+    "home": 1.61,
+    "draw": 4.2,
+    "away": 5.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo",
+    "goals": 0
+   },
+   "away": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760441,
@@ -2010,31 +2041,6 @@
  ],
  "upcoming": [
   {
-   "id": 760442,
-   "utc": "2026-06-19T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 1.56,
-    "draw": 4.2,
-    "away": 6.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "form": "WLWLL"
-   },
-   "away": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": "WDLWW"
-   }
-  },
-  {
    "id": 760445,
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
@@ -2790,8 +2796,8 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.8,
-    "draw": 3.75,
+    "home": 2.75,
+    "draw": 3.85,
     "away": 2.4,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3336,14 +3342,14 @@
     {
      "group": "Group D",
      "code": "USA",
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 4,
      "ga": 1,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 3,
      "name": "USA",
      "flag": "🇺🇸",
@@ -3353,14 +3359,14 @@
     {
      "group": "Group D",
      "code": "AUS",
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 2,
      "ga": 0,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 2,
      "name": "Australia",
      "flag": "🇦🇺",
