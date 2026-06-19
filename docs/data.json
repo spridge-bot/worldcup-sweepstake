@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T18:51:34+00:00",
+ "generated_at": "2026-06-19T18:56:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2015,9 +2015,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 1.59,
+    "home": 1.56,
     "draw": 4.2,
-    "away": 5.75,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2040,9 +2040,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 5.75,
+    "home": 5.5,
     "draw": 3.7,
-    "away": 1.67,
+    "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5117,6 +5117,15 @@
  ],
  "news": [
   {
+   "headline": "Fifa alters how World Cup tables work - it changes everything",
+   "desc": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T18:52:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "After the big one comes the even bigger one for Scotland",
    "desc": "Scotland will need their best display since Steve Clarke took over to achieve the result against Morocco that will secure knockout tournament football for the first time, writes Tom English.",
    "link": "https://www.bbc.com/sport/football/articles/cy04jqn90wko?at_medium=RSS&at_campaign=rss",
@@ -5162,21 +5171,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Morocco captain Hakimi to stand trial for rape",
-   "desc": "French prosecutors confirm Morocco captain Achraf Hakimi will stand trial for rape, in accusations dating back to 2023.",
-   "link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T10:28:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aba2/live/baf34430-6bba-11f1-8e5f-879143928516.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "A heavily jeered $250m goldmine - are hydration break ads here to stay?",
    "desc": "BBC Sport explores how hydration break ads work in other countries and how they could impact the future of football.",
    "link": "https://www.bbc.com/sport/football/articles/cp3xqn9zxdgo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-19T10:14:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7838/live/58a01de0-6afb-11f1-80a3-b70219ebe550.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Morocco captain Hakimi to stand trial for rape",
+   "desc": "French prosecutors confirm Morocco captain Achraf Hakimi will stand trial for rape, in accusations dating back to 2023.",
+   "link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T10:28:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aba2/live/baf34430-6bba-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5213,15 +5222,6 @@
    "published": "2026-06-19T12:43:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fc65/live/0dc47130-6bb0-11f1-8e5f-879143928516.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Wonderwall sing-along one of my favourite England moments - Kane",
-   "desc": "Harry Kane says singing 'Wonderwall' with fans after England's win over Croatia on Wednesday was one of his \"favourite ever moments\" in a Three Lions shirt.",
-   "link": "https://www.bbc.com/sport/football/articles/ckg74e6dz5lo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T09:55:06Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed3a/live/e2362c50-6bc0-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   }
  ]
