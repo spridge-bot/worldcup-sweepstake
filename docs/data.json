@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T12:19:35+00:00",
+ "generated_at": "2026-06-19T12:24:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2790,9 +2790,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.7,
-    "draw": 3.7,
-    "away": 2.5,
+    "home": 2.8,
+    "draw": 3.75,
+    "away": 2.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5126,6 +5126,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
+   "desc": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
+   "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T12:20:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd89/live/e3dbaa50-6b91-11f1-a44f-b19d3c8d49f0.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Morocco captain Hakimi to stand trial for rape",
    "desc": "French prosecutors confirm Morocco captain Achraf Hakimi will stand trial for rape, in accusations dating back to 2023.",
    "link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
@@ -5204,15 +5213,6 @@
    "published": "2026-06-19T09:47:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fdf1/live/5683f1b0-6a58-11f1-8115-ed1047107edc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Hat-trick hero & Swiss wonderkid - World Cup duo set for Premier League?",
-   "desc": "Will Canada hat-trick hero Jonathan David and Swiss goal-scoring midfielder Johan Manzambi be playing in the Premier League next season?",
-   "link": "https://www.bbc.com/sport/articles/cp8rde9q76do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T04:19:13Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/027e/live/dd031500-6b92-11f1-955b-d393d55ed370.png",
    "source": "BBC Sport"
   },
   {
