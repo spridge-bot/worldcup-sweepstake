@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T19:53:18+00:00",
+ "generated_at": "2026-06-19T19:54:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-19T19:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "45'+7'",
-   "status_detail": "45'+7'",
+   "clock": "45'+8'",
+   "status_detail": "HT",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.61,
