@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T01:03:19+00:00",
+ "generated_at": "2026-06-19T01:03:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-18",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-19T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "2'",
-   "status_detail": "2'",
+   "clock": "3'",
+   "status_detail": "3'",
    "venue": "Estadio Akron",
    "odds": {
     "home": 2.0,
