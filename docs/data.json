@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T10:17:48+00:00",
+ "generated_at": "2026-06-19T10:23:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2041,7 +2041,7 @@
    "group": "Group C",
    "odds": {
     "home": 5.5,
-    "draw": 3.6,
+    "draw": 3.65,
     "away": 1.71,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5135,6 +5135,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "The heavily jeered $250m goldmine - are hydration break ads here to stay?",
+   "desc": "BBC Sport explores how hydration break ads work in other countries and how they could impact the future of football.",
+   "link": "https://www.bbc.com/sport/football/articles/cp3xqn9zxdgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T10:14:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7838/live/58a01de0-6afb-11f1-80a3-b70219ebe550.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Wonderwall sing-along one of my favourite England moments - Kane",
    "desc": "Harry Kane says singing 'Wonderwall' with fans after England's win over Croatia on Wednesday was one of his \"favourite ever moments\" in a Three Lions shirt.",
    "link": "https://www.bbc.com/sport/football/articles/ckg74e6dz5lo?at_medium=RSS&at_campaign=rss",
@@ -5153,21 +5162,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Why Pochettino's fluid USA midfield is thriving",
-   "desc": "Mauricio Pochettino has his USA midfield thriving at the World Cup with a fluid approach - here is how it works.",
-   "link": "https://www.bbc.com/sport/football/articles/cr5jdjn65nzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T08:48:45Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c54c/live/85790730-6b16-11f1-9eec-ff3d08cf3aad.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Sutton's World Cup score predictions - second group games",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the second round of group games at the 2026 World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cwykwyp001xo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-18T20:00:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why Pochettino's fluid USA midfield is thriving",
+   "desc": "Mauricio Pochettino has his USA midfield thriving at the World Cup with a fluid approach - here is how it works.",
+   "link": "https://www.bbc.com/sport/football/articles/cr5jdjn65nzo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T08:48:45Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c54c/live/85790730-6b16-11f1-9eec-ff3d08cf3aad.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5213,15 +5222,6 @@
    "published": "2026-06-19T01:16:55Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/deea/live/9cf87c50-6b67-11f1-8977-a15ee57ad719.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tactical analysis: England look exciting but how can they tighten up?",
-   "desc": "England produced some exciting attacking football while beating Croatia 4-2 but why did they look so shaky defensively?",
-   "link": "https://www.bbc.com/sport/articles/c98256ypwy0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T09:38:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/20ba/live/4d7a6b00-6afb-11f1-80a3-b70219ebe550.jpg",
    "source": "BBC Sport"
   }
  ]
