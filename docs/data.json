@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T22:35:18+00:00",
+ "generated_at": "2026-06-19T22:36:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "35'",
-   "clock_sec": 2100.0,
-   "status_detail": "35'",
+   "clock": "36'",
+   "clock_sec": 2160.0,
+   "status_detail": "36'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -2581,7 +2581,7 @@
     "home": 1.24,
     "draw": 6.5,
     "away": 13.0,
-    "over_under": 3.5,
+    "over_under": 2.5,
     "provider": "DraftKings"
    },
    "home": {
