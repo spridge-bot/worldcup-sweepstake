@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T10:23:07+00:00",
+ "generated_at": "2026-06-19T10:28:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2142,7 +2142,7 @@
    "odds": {
     "home": 1.54,
     "draw": 4.6,
-    "away": 5.75,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5180,6 +5180,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Can Renard revive Tunisia's World Cup campaign?",
+   "desc": "Tunisia have turned to two-time Africa Cup of Nations winner Herve Renard to revive their 2026 World Cup campaign after a disastrous start which saw Sabri Lamouchi sacked after one match.",
+   "link": "https://www.bbc.com/sport/football/articles/cvgjpk00l7xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T09:47:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fdf1/live/5683f1b0-6a58-11f1-8115-ed1047107edc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Hat-trick hero & Swiss wonderkid - World Cup duo set for Premier League?",
    "desc": "Will Canada hat-trick hero Jonathan David and Swiss goal-scoring midfielder Johan Manzambi be playing in the Premier League next season?",
    "link": "https://www.bbc.com/sport/articles/cp8rde9q76do?at_medium=RSS&at_campaign=rss",
@@ -5213,15 +5222,6 @@
    "published": "2026-06-18T17:44:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Even the Coke is big' - visiting World Cup fans take in US culture",
-   "desc": "Newcomers discover massive portion sizes and large helpings of sporting passion - at least when it comes to basketball.",
-   "link": "https://www.bbc.com/news/articles/cvgj731r38xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T01:16:55Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/deea/live/9cf87c50-6b67-11f1-8977-a15ee57ad719.jpg",
    "source": "BBC Sport"
   }
  ]
