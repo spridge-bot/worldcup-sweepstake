@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T21:03:50+00:00",
+ "generated_at": "2026-06-19T21:04:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-19T19:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "90'+7'",
-   "status_detail": "90'+7'",
+   "clock": "90'+8'",
+   "status_detail": "90'+8'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.61,
@@ -2787,7 +2787,7 @@
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "form": "WDLWW"
+    "form": "LWDLW"
    }
   },
   {
@@ -2812,7 +2812,7 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "form": "WLWLL"
+    "form": "WWLWL"
    }
   },
   {
