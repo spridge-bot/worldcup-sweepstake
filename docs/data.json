@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T04:01:47+00:00",
+ "generated_at": "2026-06-19T04:07:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -4138,10 +4138,10 @@
    "winner": null,
    "venue": "Estadio Banorte",
    "home": {
-    "code": null,
-    "name": "Group A Winner",
-    "flag": "",
-    "owner": null
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Dipen"
    },
    "away": {
     "code": null,
