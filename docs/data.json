@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T20:13:08+00:00",
+ "generated_at": "2026-06-19T20:13:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-19T19:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "46'",
-   "status_detail": "46'",
+   "clock": "48'",
+   "status_detail": "48'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.61,
@@ -5177,6 +5177,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
+   "desc": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
+   "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T12:20:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd89/live/e3dbaa50-6b91-11f1-a44f-b19d3c8d49f0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Nike v Adidas - the World Cup brand battle",
+   "desc": "Eye-watering budgets are nothing new, but this year both Nike and Adidas have gone bigger and bolder than ever before in the fight for World Cup attention.",
+   "link": "https://www.bbc.com/sport/football/articles/c75y7py2lxdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T13:01:38Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/59d9/live/8675a180-6bd8-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A heavily jeered $250m goldmine - are hydration break ads here to stay?",
    "desc": "BBC Sport explores how hydration break ads work in other countries and how they could impact the future of football.",
    "link": "https://www.bbc.com/sport/football/articles/cp3xqn9zxdgo?at_medium=RSS&at_campaign=rss",
@@ -5210,24 +5228,6 @@
    "published": "2026-06-19T11:21:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ac7/live/d1b70010-674d-11f1-b4c1-47ccd10ce929.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why Pochettino's fluid USA midfield is thriving",
-   "desc": "Mauricio Pochettino has his USA midfield thriving at the World Cup with a fluid approach - here is how it works.",
-   "link": "https://www.bbc.com/sport/football/articles/cr5jdjn65nzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T08:48:45Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c54c/live/85790730-6b16-11f1-9eec-ff3d08cf3aad.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who's the Bos? - meet 2026 World Cup's fastest player",
-   "desc": "Fifa’s sprint data has revealed Australia’s Jordan Bos as the fastest player at World Cup 2026, capping a remarkable rise for the Feyenoord defender",
-   "link": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T12:43:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fc65/live/0dc47130-6bb0-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   }
  ]
