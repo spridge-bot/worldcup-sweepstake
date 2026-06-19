@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T03:40:31+00:00",
+ "generated_at": "2026-06-19T03:45:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -2090,9 +2090,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.1,
-    "draw": 3.35,
-    "away": 3.8,
+    "home": 2.05,
+    "draw": 3.45,
+    "away": 3.85,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5117,6 +5117,15 @@
  ],
  "news": [
   {
+   "headline": "A day of tears, scuffles & history as injury mars Canada's moment",
+   "desc": "Canada's first-ever win at a World Cup finals should have been cause for pure joy - but was overshadowed by a horrific injury to Ismael Kone, and the angry and emotional scenes that followed.",
+   "link": "https://www.bbc.com/sport/football/articles/cly7r1zjmmlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T03:34:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1bb0/live/11cbd630-6b90-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Scotland's Boston love affair one for the ages",
    "desc": "BBC Scotland's Scott Mullen looks at the Tartan Army's time in Boston as it gets set to finish.",
    "link": "https://www.bbc.com/sport/football/articles/c4gyree9775o?at_medium=RSS&at_campaign=rss",
@@ -5198,15 +5207,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Kane is England's greatest striker, says Lineker",
-   "desc": "Gary Lineker thinks Harry Kane is \"the greatest English striker we've ever had\" after the England captain equalled his record of 10 World Cup goals.",
-   "link": "https://www.bbc.com/sport/football/articles/cvg5de1dyn2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T14:37:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/985d/live/8ad63b90-6b1f-11f1-be36-65d2d6d55e70.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "'He will be an asset' - did Vuskovic boost his Spurs chances?",
    "desc": "Many Tottenham fans will have got a first glimpse of Luka Vuskovic last night - so what can they expect from the highly sought-after defender?",
    "link": "https://www.bbc.com/sport/football/articles/c75y3zy6pk1o?at_medium=RSS&at_campaign=rss",
@@ -5216,12 +5216,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The celebration photo that sums up my relationship with Mbappe - Giroud",
-   "desc": "France's World Cup winner Olivier Giroud explains why iconic Les Bleus striker Kylian Mbappe is misunderstood, and seen as arrogant when he's not.",
-   "link": "https://www.bbc.com/sport/football/articles/cjrg7x4y975o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-18T12:57:31Z",
+   "headline": "Kane is England's greatest striker, says Lineker",
+   "desc": "Gary Lineker thinks Harry Kane is \"the greatest English striker we've ever had\" after the England captain equalled his record of 10 World Cup goals.",
+   "link": "https://www.bbc.com/sport/football/articles/cvg5de1dyn2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-18T14:37:23Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/505d/live/814ba9d0-6b19-11f1-be36-65d2d6d55e70.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/985d/live/8ad63b90-6b1f-11f1-be36-65d2d6d55e70.jpg",
    "source": "BBC Sport"
   }
  ]
