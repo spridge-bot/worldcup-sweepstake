@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T22:08:52+00:00",
+ "generated_at": "2026-06-19T22:09:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,8 +1215,8 @@
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "8'",
-   "status_detail": "8'",
+   "clock": "9'",
+   "status_detail": "9'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -5138,15 +5138,6 @@
  ],
  "news": [
   {
-   "headline": "After the big one comes the even bigger one for Scotland",
-   "desc": "Scotland will need their best display since Steve Clarke took over to achieve the result against Morocco that will secure knockout tournament football for the first time, writes Tom English.",
-   "link": "https://www.bbc.com/sport/football/articles/cy04jqn90wko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T10:43:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b162/live/2e641330-6b67-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "England winger Saka unlikely to start against Ghana",
    "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
    "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
@@ -5243,6 +5234,15 @@
    "published": "2026-06-19T08:48:45Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c54c/live/85790730-6b16-11f1-9eec-ff3d08cf3aad.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Iran to lodge complaint over travel restrictions",
+   "desc": "Iran are to lodge an official complaint to Fifa about the travel restrictions they are facing at the 2026 World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/c4gy62p4e67o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T07:50:32Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   }
  ]
