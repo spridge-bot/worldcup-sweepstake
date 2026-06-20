@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T21:12:24+00:00",
+ "generated_at": "2026-06-20T21:13:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T20:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "49'",
-   "clock_sec": 2940.0,
-   "status_detail": "49'",
+   "clock": "50'",
+   "clock_sec": 3000.0,
+   "status_detail": "50'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.54,
@@ -5181,6 +5181,15 @@
  ],
  "news": [
   {
+   "headline": "Scotland expects: What is behind McTominay's understated World Cup?",
+   "desc": "Some are suggesting Scott McTominay has not had the expected impact for Scotland at the World Cup, but is that fair on the Napoli midfielder?",
+   "link": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T20:16:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Saka trains alone as England prepare for Ghana game",
    "desc": "Bukayo Saka was the only player not present in group training as England continued their preparations for their second World Cup match against Ghana.",
    "link": "https://www.bbc.com/sport/football/articles/cr47wqdq26lo?at_medium=RSS&at_campaign=rss",
@@ -5208,15 +5217,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Boston bounce sends Scotland to Miami with hope and no fear",
-   "desc": "Scotland and their fans head to Miami for a World Cup date with destiny after making memories in Boston to last a lifetime.",
-   "link": "https://www.bbc.com/sport/football/articles/c0my8z7vpg3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T14:43:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/71e5/live/620d4300-6cb6-11f1-9fea-e751269afdb9.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Cooling hoodies help England staff combat World Cup heat",
    "desc": "As the England players trained under the searing heat of the Kansas City sun on Saturday, manager Thomas Tuchel took a very different approach to keeping himself cool.",
    "link": "https://www.bbc.com/sport/football/articles/cwy0gn19zqlo?at_medium=RSS&at_campaign=rss",
@@ -5232,6 +5232,15 @@
    "published": "2026-06-20T12:35:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Boston bounce sends Scotland to Miami with hope and no fear",
+   "desc": "Scotland and their fans head to Miami for a World Cup date with destiny after making memories in Boston to last a lifetime.",
+   "link": "https://www.bbc.com/sport/football/articles/c0my8z7vpg3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T14:43:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/71e5/live/620d4300-6cb6-11f1-9fea-e751269afdb9.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5277,15 +5286,6 @@
    "published": "2026-06-20T04:45:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c1/live/734838a0-6c5c-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "White House in talks over Iran travel restrictions",
-   "desc": "The White House is considering changing the strict travel restrictions Iran are facing at the 2026 World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/c5yz70gjy3xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T08:52:50Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   }
  ]
