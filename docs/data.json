@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T12:37:18+00:00",
+ "generated_at": "2026-06-20T12:42:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -5177,6 +5177,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Curacao's trailblazer doctor on football's big stage",
+   "desc": "Dr Suzanne Huurman is head of medical staff for Curacao's national men's side - the World Cup's smallest ever team by population and size.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg08ewg9l2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T12:35:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "World Cup still waits for real Brazil to show up",
    "desc": "While rivals Argentina and France have impressed in the United States, Brazil have struggled to hit top form - despite a 3-0 win over minnows Haiti.",
    "link": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss",
@@ -5186,21 +5195,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Almiron first player sent off for covering mouth",
-   "desc": "Paraguay's Miguel Almiron is the first player to be shown a red card for covering his mouth while speaking to an opponent - doing so during the World Cup match against Turkey.",
-   "link": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T04:45:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c1/live/734838a0-6c5c-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why are so many World Cup goals being scored late?",
    "desc": "World Cup 2026 is witnessing a surge in late goals. Longer stoppage times, tactical substitutions and hydration breaks are reshaping matches",
    "link": "https://www.bbc.com/sport/football/articles/cly9q9nrgdxo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-20T11:39:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8110/live/ca9c98b0-6be1-11f1-95c7-b58617a2924f.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Almiron first player sent off for covering mouth",
+   "desc": "Paraguay's Miguel Almiron is the first player to be shown a red card for covering his mouth while speaking to an opponent - doing so during the World Cup match against Turkey.",
+   "link": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T04:45:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c1/live/734838a0-6c5c-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5240,15 +5249,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Should Scotland have had two penalties & been playing against 10 men?",
-   "desc": "Were Scotland hard done by in Boston in losing 1-0 to Morocco in their second game of the World Cup finals?",
-   "link": "https://www.bbc.com/sport/football/articles/c3vydkrd5dvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T00:55:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c643/live/a34f5510-6c43-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Uzbeks to beat DR Congo? The reality of Scotland's qualification mental gymnastics",
    "desc": "Uzbeks to beat DR Congo? Argentina to run riot? Favours from England? BBC Scotland weighs up the permutations needed for Scotland to progress.",
    "link": "https://www.bbc.com/sport/football/articles/cdejzn507ryo?at_medium=RSS&at_campaign=rss",
@@ -5258,12 +5258,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England winger Saka unlikely to start against Ghana",
-   "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
-   "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T20:09:51Z",
+   "headline": "Should Scotland have had two penalties & been playing against 10 men?",
+   "desc": "Were Scotland hard done by in Boston in losing 1-0 to Morocco in their second game of the World Cup finals?",
+   "link": "https://www.bbc.com/sport/football/articles/c3vydkrd5dvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T00:55:51Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe1c/live/84096200-6c10-11f1-8c0a-e54144c3b983.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c643/live/a34f5510-6c43-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
