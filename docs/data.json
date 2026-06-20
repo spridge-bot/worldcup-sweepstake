@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-19T23:59:42+00:00",
+ "generated_at": "2026-06-20T00:00:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -316,11 +316,11 @@
    "fifa_rank": 7,
    "owner": "Willo",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 1,
+   "gf": 2,
    "ga": 1,
    "total": 5,
    "events": [
@@ -913,12 +913,12 @@
    "fifa_rank": 42,
    "owner": "George",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 1,
-   "ga": 0,
+   "ga": 1,
    "total": 3,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760445,
+   "date": "2026-06-19",
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Gillette Stadium",
+   "note": "",
+   "home": {
+    "code": "SCO",
+    "name": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 5.0,
     "draw": 3.65,
     "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "SCO",
-    "name": "Scotland",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "owner": "George",
-    "goals": 0
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760442,
    "date": "2026-06-19",
@@ -2078,9 +2077,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.11,
-    "draw": 10.5,
-    "away": 21.0,
+    "home": 1.1,
+    "draw": 11.0,
+    "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2088,13 +2087,13 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "form": "DWWWL"
+    "form": null
    },
    "away": {
     "name": "Haiti",
     "flag": "🇭🇹",
     "owner": "Jen",
-    "form": "LLWDL"
+    "form": null
    }
   },
   {
@@ -2103,9 +2102,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.1,
+    "home": 1.95,
     "draw": 3.4,
-    "away": 3.85,
+    "away": 4.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2113,13 +2112,13 @@
     "name": "Türkiye",
     "flag": "🇹🇷",
     "owner": "Dubs",
-    "form": "LWWWW"
+    "form": null
    },
    "away": {
     "name": "Paraguay",
     "flag": "🇵🇾",
     "owner": "Fergs",
-    "form": "LWLWW"
+    "form": null
    }
   },
   {
@@ -2578,9 +2577,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.24,
-    "draw": 6.0,
-    "away": 13.0,
+    "home": 1.22,
+    "draw": 6.5,
+    "away": 14.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2588,7 +2587,7 @@
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "form": "DDWWW"
+    "form": "WDDWW"
    },
    "away": {
     "name": "Haiti",
@@ -2613,7 +2612,7 @@
     "name": "Scotland",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "owner": "George",
-    "form": "WWWLL"
+    "form": "LWWWL"
    },
    "away": {
     "name": "Brazil",
@@ -3283,7 +3282,7 @@
      "gf": 2,
      "ga": 1,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 1,
      "name": "Morocco",
      "flag": "🇲🇦",
@@ -3300,7 +3299,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -4894,6 +4893,15 @@
    "pts": 4
   },
   {
+   "code": "SCO",
+   "name": "Scotland",
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "owner": "George",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "USA",
    "name": "USA",
    "flag": "🇺🇸",
@@ -4934,15 +4942,6 @@
    "name": "Portugal",
    "flag": "🇵🇹",
    "owner": "Dipen",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "SCO",
-   "name": "Scotland",
-   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-   "owner": "George",
    "yellow": 3,
    "red": 0,
    "pts": 3
@@ -5087,6 +5086,15 @@
    "name": "Iraq",
    "flag": "🇮🇶",
    "owner": "Emily",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "MAR",
+   "name": "Morocco",
+   "flag": "🇲🇦",
+   "owner": "Willo",
    "yellow": 1,
    "red": 0,
    "pts": 1
