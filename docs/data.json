@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T18:04:47+00:00",
+ "generated_at": "2026-06-20T18:05:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -5166,6 +5166,15 @@
  ],
  "news": [
   {
+   "headline": "Saka trains alone as England prepare for Ghana game",
+   "desc": "Bukayo Saka was the only player not present in group training as England continued their preparations for their second World Cup match against Ghana.",
+   "link": "https://www.bbc.com/sport/football/articles/cr47wqdq26lo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T18:02:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed1e/live/7d2c8b10-6cce-11f1-af86-f18c6df0a749.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why Kane is different at this World Cup - Shearer",
    "desc": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar.",
    "link": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
@@ -5262,15 +5271,6 @@
    "published": "2026-06-20T08:52:50Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The Super Bowl winner's son stepping into spotlight with USA",
-   "desc": "Alex Freeman is stepping out of the shadows of his Super Bowl-winning father to forge his own path in football.",
-   "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T23:31:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8d1e/live/2eceb140-6c2a-11f1-be3d-13e0fcdeefa8.jpg",
    "source": "BBC Sport"
   }
  ]
