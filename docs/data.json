@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T18:50:31+00:00",
+ "generated_at": "2026-06-20T18:51:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -4768,6 +4768,14 @@
    "owner": "Emily"
   },
   {
+   "player": "Crysencio Summerville",
+   "team": "NED",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇳🇱",
+   "owner": "Emily"
+  },
+  {
    "player": "Cyle Larin",
    "team": "CAN",
    "goals": 2,
@@ -4841,14 +4849,6 @@
   },
   {
    "player": "Matheus Cunha",
-   "team": "BRA",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
-  },
-  {
-   "player": "Vinícius Júnior",
    "team": "BRA",
    "goals": 2,
    "assists": 0,
