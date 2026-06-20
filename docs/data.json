@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T21:59:35+00:00",
+ "generated_at": "2026-06-20T22:00:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T20:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "90'+5'",
+   "clock": "90'+7'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
+   "status_detail": "90'+7'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.54,
@@ -2727,9 +2727,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 4.8,
-    "draw": 3.85,
-    "away": 1.74,
+    "home": 4.3,
+    "draw": 3.65,
+    "away": 1.87,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2743,7 +2743,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "form": "WWWWW"
+    "form": "DWWWW"
    }
   },
   {
