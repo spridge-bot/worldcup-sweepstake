@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T09:02:27+00:00",
+ "generated_at": "2026-06-20T09:07:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2239,7 +2239,7 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.1,
+    "home": 1.09,
     "draw": 11.0,
     "away": 26.0,
     "over_under": 3.5,
@@ -5186,12 +5186,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The Super Bowl winner's son stepping into spotlight with USA",
-   "desc": "Alex Freeman is stepping out of the shadows of his Super Bowl-winning father to forge his own path in football.",
-   "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T23:31:23Z",
+   "headline": "'Everything I do is for you' - how tragedy is driving Diomande",
+   "desc": "BBC Sport explores how exciting young Ivory Coast Yan Diomande is determined to succeed at the World Cup in honour of his sister.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg04xer94eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T08:56:58Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8d1e/live/2eceb140-6c2a-11f1-be3d-13e0fcdeefa8.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/09b3/live/ad64bcc0-6bbc-11f1-8e5f-879143928516.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "White House in talks over Iran travel restrictions",
+   "desc": "The White House is considering changing the strict travel restrictions Iran are facing at the 2026 World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/c5yz70gjy3xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T08:52:50Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5201,6 +5210,15 @@
    "published": "2026-06-20T08:25:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The Super Bowl winner's son stepping into spotlight with USA",
+   "desc": "Alex Freeman is stepping out of the shadows of his Super Bowl-winning father to forge his own path in football.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T23:31:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8d1e/live/2eceb140-6c2a-11f1-be3d-13e0fcdeefa8.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5222,15 +5240,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England winger Saka unlikely to start against Ghana",
-   "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
-   "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T20:09:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe1c/live/84096200-6c10-11f1-8c0a-e54144c3b983.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Uzbeks to beat DR Congo? The reality of Scotland's qualification mental gymnastics",
    "desc": "Uzbeks to beat DR Congo? Argentina to run riot? Favours from England? BBC Scotland weighs up the permutations needed for Scotland to progress.",
    "link": "https://www.bbc.com/sport/football/articles/cdejzn507ryo?at_medium=RSS&at_campaign=rss",
@@ -5240,30 +5249,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England winger Saka unlikely to start against Ghana",
+   "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
+   "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T20:09:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe1c/live/84096200-6c10-11f1-8c0a-e54144c3b983.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
    "desc": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
    "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-19T12:20:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd89/live/e3dbaa50-6b91-11f1-a44f-b19d3c8d49f0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Nike v Adidas - the World Cup brand battle",
-   "desc": "Eye-watering budgets are nothing new, but this year both Nike and Adidas have gone bigger and bolder than ever before in the fight for World Cup attention.",
-   "link": "https://www.bbc.com/sport/football/articles/c75y7py2lxdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T13:01:38Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/59d9/live/8675a180-6bd8-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who's the Bos? - meet 2026 World Cup's fastest player",
-   "desc": "Fifa’s sprint data has revealed Australia’s Jordan Bos as the fastest player at World Cup 2026, capping a remarkable rise for the Feyenoord defender",
-   "link": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T12:43:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fc65/live/0dc47130-6bb0-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   }
  ]
