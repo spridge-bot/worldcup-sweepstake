@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T08:24:58+00:00",
+ "generated_at": "2026-06-20T08:30:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2814,9 +2814,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 3.1,
-    "draw": 4.1,
-    "away": 2.1,
+    "home": 3.05,
+    "draw": 4.0,
+    "away": 2.15,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5160,7 +5160,7 @@
  "news": [
   {
    "headline": "Flawed but relentless Scotland show themselves as men of substance",
-   "desc": "Morocco threatened to blow Scotland away early on, but Steve Clarke's squad showed their resilience, writes Tom English.",
+   "desc": "Morocco threatened to blow Scotland away early on, but Steve Clarke's squad showed their resilience despite defeat, writes Tom English.",
    "link": "https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-20T01:41:52Z",
    "type": "Story",
@@ -5198,7 +5198,7 @@
    "headline": "Fifa alters how World Cup tables work - it changes everything",
    "desc": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T06:09:38Z",
+   "published": "2026-06-20T08:25:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
    "source": "BBC Sport"
