@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T13:25:37+00:00",
+ "generated_at": "2026-06-20T13:30:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2389,9 +2389,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 2.35,
+    "home": 2.3,
     "draw": 3.5,
-    "away": 2.95,
+    "away": 3.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5159,6 +5159,15 @@
  ],
  "news": [
   {
+   "headline": "Why Kane is different at this World Cup",
+   "desc": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar.",
+   "link": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T13:24:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ee04/live/13848ca0-6be6-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Flawed but relentless Scotland show themselves as men of substance",
    "desc": "Morocco threatened to blow Scotland away early on, but Steve Clarke's squad showed their resilience despite defeat, writes Tom English.",
    "link": "https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss",
@@ -5255,15 +5264,6 @@
    "published": "2026-06-20T02:19:30Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6da8/live/6c484300-6c4e-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Should Scotland have had two penalties & been playing against 10 men?",
-   "desc": "Were Scotland hard done by in Boston in losing 1-0 to Morocco in their second game of the World Cup finals?",
-   "link": "https://www.bbc.com/sport/football/articles/c3vydkrd5dvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T00:55:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c643/live/a34f5510-6c43-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
