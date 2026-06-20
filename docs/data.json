@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T01:09:30+00:00",
+ "generated_at": "2026-06-20T01:10:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "36'",
-   "clock_sec": 2160.0,
-   "status_detail": "36'",
+   "clock": "38'",
+   "clock_sec": 2280.0,
+   "status_detail": "38'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.1,
@@ -1231,7 +1231,7 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "HAI",
@@ -3286,11 +3286,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 2,
+     "gf": 3,
      "ga": 1,
      "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
@@ -3338,10 +3338,10 @@
      "d": 0,
      "l": 2,
      "gf": 0,
-     "ga": 2,
+     "ga": 3,
      "pts": 0,
      "live": true,
-     "gd": -2,
+     "gd": -3,
      "name": "Haiti",
      "flag": "🇭🇹",
      "tier": 3,
@@ -4812,6 +4812,14 @@
    "owner": "Spridge"
   },
   {
+   "player": "Matheus Cunha",
+   "team": "BRA",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
+  },
+  {
    "player": "Yasin Ayari",
    "team": "SWE",
    "goals": 2,
@@ -4834,14 +4842,6 @@
    "assists": 0,
    "flag": "🇸🇦",
    "owner": "Brando"
-  },
-  {
-   "player": "Alex Freeman",
-   "team": "USA",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇺🇸",
-   "owner": "Willo"
   }
  ],
  "fairplay": [
