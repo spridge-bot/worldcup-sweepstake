@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T01:53:11+00:00",
+ "generated_at": "2026-06-20T01:53:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "57'",
-   "clock_sec": 3420.0,
-   "status_detail": "57'",
+   "clock": "58'",
+   "clock_sec": 3480.0,
+   "status_detail": "58'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.1,
@@ -5154,6 +5154,15 @@
  ],
  "news": [
   {
+   "headline": "Flawed but relentless Scotland show themselves as men of substance",
+   "desc": "Morocco threatened to blow Scotland away early on, but Steve Clarke's squad showed their resilience, writes Tom English.",
+   "link": "https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T01:41:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/204c/live/2d98ff50-6c49-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The Super Bowl winner's son stepping into spotlight with USA",
    "desc": "Alex Freeman is stepping out of the shadows of his Super Bowl-winning father to forge his own path in football.",
    "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
@@ -5241,15 +5250,6 @@
    "published": "2026-06-19T10:14:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7838/live/58a01de0-6afb-11f1-80a3-b70219ebe550.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Morocco captain Hakimi to stand trial for rape",
-   "desc": "French prosecutors confirm Morocco captain Achraf Hakimi will stand trial for rape, in accusations dating back to 2023.",
-   "link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T10:28:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aba2/live/baf34430-6bba-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   },
   {
