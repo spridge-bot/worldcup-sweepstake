@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-20T02:31:17+00:00",
+ "generated_at": "2026-06-20T02:31:59+00:00",
  "mode": "live",
- "latest_day": "2026-06-19",
+ "latest_day": "2026-06-20",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,9 @@
     "JOR"
    ],
    "total": 14,
-   "today": 3,
+   "today": 0,
    "rank": 1,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -53,9 +53,9 @@
     "NZL"
    ],
    "total": 14,
-   "today": 8,
+   "today": 0,
    "rank": 1,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "George",
@@ -66,9 +66,9 @@
     "GHA"
    ],
    "total": 12,
-   "today": 6,
+   "today": 5,
    "rank": 4,
-   "movement": 0
+   "movement": 3
   },
   {
    "name": "Brando",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 5,
-   "movement": -3
+   "movement": -1
   },
   {
    "name": "Dipen",
@@ -92,7 +92,7 @@
     "RSA"
    ],
    "total": 11,
-   "today": 5,
+   "today": 0,
    "rank": 5,
    "movement": -1
   },
@@ -105,9 +105,9 @@
     "QAT"
    ],
    "total": 8,
-   "today": 3,
+   "today": 0,
    "rank": 7,
-   "movement": 2
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -120,7 +120,7 @@
    "total": 6,
    "today": 0,
    "rank": 8,
-   "movement": -4
+   "movement": 0
   },
   {
    "name": "Jen",
@@ -133,7 +133,7 @@
    "total": 6,
    "today": 0,
    "rank": 8,
-   "movement": -4
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -146,7 +146,7 @@
    "total": 5,
    "today": 0,
    "rank": 10,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -293,11 +293,11 @@
    "fifa_rank": 6,
    "owner": "George",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 1,
+   "gf": 4,
    "ga": 1,
    "total": 5,
    "events": [
@@ -1176,12 +1176,12 @@
    "fifa_rank": 58,
    "owner": "Jen",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 2,
    "gf": 0,
-   "ga": 1,
+   "ga": 4,
    "total": 0,
    "events": []
   },
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760444,
+   "date": "2026-06-20",
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "Lincoln Financial Field",
+   "note": "",
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "tier": 1,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "HAI",
+    "name": "Haiti",
+    "flag": "🇭🇹",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.1,
     "draw": 11.0,
     "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "goals": 3
-   },
-   "away": {
-    "code": "HAI",
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "owner": "Jen",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760445,
    "date": "2026-06-19",
@@ -2600,7 +2599,7 @@
     "name": "Haiti",
     "flag": "🇭🇹",
     "owner": "Jen",
-    "form": "LLWDL"
+    "form": "LLLWD"
    }
   },
   {
@@ -2625,7 +2624,7 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "form": "DWWWL"
+    "form": "WDWWW"
    }
   },
   {
@@ -3289,7 +3288,7 @@
      "gf": 4,
      "ga": 1,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 3,
      "name": "Brazil",
      "flag": "🇧🇷",
@@ -3340,7 +3339,7 @@
      "gf": 0,
      "ga": 4,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -4,
      "name": "Haiti",
      "flag": "🇭🇹",
@@ -4900,6 +4899,15 @@
    "pts": 4
   },
   {
+   "code": "HAI",
+   "name": "Haiti",
+   "flag": "🇭🇹",
+   "owner": "Jen",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -4916,6 +4924,15 @@
    "yellow": 4,
    "red": 0,
    "pts": 4
+  },
+  {
+   "code": "BRA",
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "owner": "George",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
   },
   {
    "code": "CAN",
@@ -4967,15 +4984,6 @@
    "name": "Belgium",
    "flag": "🇧🇪",
    "owner": "Pari",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "BRA",
-   "name": "Brazil",
-   "flag": "🇧🇷",
-   "owner": "George",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5066,15 +5074,6 @@
    "name": "Ghana",
    "flag": "🇬🇭",
    "owner": "George",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "HAI",
-   "name": "Haiti",
-   "flag": "🇭🇹",
-   "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
