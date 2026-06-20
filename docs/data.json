@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T16:24:08+00:00",
+ "generated_at": "2026-06-20T16:29:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -5168,6 +5168,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How does qualification for the World Cup knockout stage work?",
+   "desc": "With the second round of group-stage matches under way, we assess who can play who in the knockout rounds - and how they can get there.",
+   "link": "https://www.bbc.com/sport/football/articles/cp8l6zj8441o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T16:24:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ca7e/live/406b0410-6cbd-11f1-9fea-e751269afdb9.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Boston bounce sends Scotland to Miami with hope and no fear",
    "desc": "Scotland and their fans head to Miami for a World Cup date with destiny after making memories in Boston to last a lifetime.",
    "link": "https://www.bbc.com/sport/football/articles/c0my8z7vpg3o?at_medium=RSS&at_campaign=rss",
@@ -5186,21 +5195,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Oh, brother! The sibling rivals lining up for different World Cup teams",
-   "desc": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
-   "link": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T11:55:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Curacao's trailblazer doctor on football's big stage",
    "desc": "Dr Suzanne Huurman is head of medical staff for Curacao's national men's side - the World Cup's smallest ever team by population and size.",
    "link": "https://www.bbc.com/sport/football/articles/ckg08ewg9l2o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-20T12:35:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Oh, brother! The sibling rivals lining up for different World Cup teams",
+   "desc": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
+   "link": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T11:55:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5240,15 +5249,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "World Cup groups separated by head-to-head records for first time",
-   "desc": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T08:25:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The Super Bowl winner's son stepping into spotlight with USA",
    "desc": "Alex Freeman is stepping out of the shadows of his Super Bowl-winning father to forge his own path in football.",
    "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
@@ -5258,12 +5258,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How presenter's Messi error caused outrage in Argentina",
-   "desc": "An Argentine TV presenter steps down after wrongly saying on air that Lionel Messi's father had died.",
-   "link": "https://www.bbc.com/sport/football/articles/cwy03yzw2y3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T23:45:09Z",
+   "headline": "World Cup groups separated by head-to-head records for first time",
+   "desc": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T08:25:54Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/265e/live/1e8d7e30-6c32-11f1-a737-a9cf39a73934.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
    "source": "BBC Sport"
   }
  ]
