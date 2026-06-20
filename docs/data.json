@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T22:00:22+00:00",
+ "generated_at": "2026-06-20T22:01:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -385,12 +385,12 @@
    "fifa_rank": 10,
    "owner": "Glancy",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 7,
-   "ga": 1,
+   "gf": 9,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -798,12 +798,12 @@
    "fifa_rank": 33,
    "owner": "Jen",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
-   "gf": 1,
-   "ga": 0,
+   "lost": 1,
+   "gf": 2,
+   "ga": 2,
    "total": 3,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760448,
+   "date": "2026-06-20",
    "utc": "2026-06-20T20:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "BMO Field",
+   "note": "",
+   "home": {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.54,
     "draw": 4.6,
     "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "goals": 2
-   },
-   "away": {
-    "code": "CIV",
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760447,
    "date": "2026-06-20",
@@ -2718,7 +2717,7 @@
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "form": "WWWWL"
+    "form": "LWWWW"
    }
   },
   {
@@ -2727,9 +2726,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 4.3,
-    "draw": 3.65,
-    "away": 1.87,
+    "home": 4.5,
+    "draw": 3.7,
+    "away": 1.83,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2743,7 +2742,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "form": "DWWWW"
+    "form": "WWWWW"
    }
   },
   {
@@ -3453,7 +3452,7 @@
      "gf": 9,
      "ga": 2,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 7,
      "name": "Germany",
      "flag": "🇩🇪",
@@ -3470,7 +3469,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
