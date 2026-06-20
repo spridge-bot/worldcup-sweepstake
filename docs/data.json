@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T05:05:56+00:00",
+ "generated_at": "2026-06-20T05:06:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T03:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "90'+8'",
+   "clock": "90'+9'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
+   "status_detail": "90'+9'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.95,
@@ -2790,9 +2790,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.3,
-    "draw": 2.95,
-    "away": 3.8,
+    "home": 2.35,
+    "draw": 2.8,
+    "away": 3.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2800,7 +2800,7 @@
     "name": "Paraguay",
     "flag": "🇵🇾",
     "owner": "Fergs",
-    "form": "LWLWW"
+    "form": "WLWLW"
    },
    "away": {
     "name": "Australia",
@@ -2815,9 +2815,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.9,
+    "home": 3.05,
     "draw": 4.0,
-    "away": 2.2,
+    "away": 2.15,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2825,7 +2825,7 @@
     "name": "Türkiye",
     "flag": "🇹🇷",
     "owner": "Dubs",
-    "form": "LWWWW"
+    "form": "LLWWW"
    },
    "away": {
     "name": "USA",
