@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T01:01:39+00:00",
+ "generated_at": "2026-06-20T01:02:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "28'",
-   "clock_sec": 1680.0,
-   "status_detail": "28'",
+   "clock": "29'",
+   "clock_sec": 1740.0,
+   "status_detail": "29'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.1,
@@ -5163,12 +5163,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who was Scotland's stand out? How the players rated",
-   "desc": "Rate the Scotland and Morocco players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
-   "link": "https://www.bbc.com/sport/football/articles/ce95gpgv09go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T00:25:12Z",
+   "headline": "Should Scotland have had two penalties & been playing against 10 men?",
+   "desc": "Were Scotland hard done by in Boston in losing 1-0 to Morocco in their second game of the World Cup finals?",
+   "link": "https://www.bbc.com/sport/football/articles/c3vydkrd5dvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T00:55:51Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5646/live/8dc6a9a0-651d-11f1-b1db-af71d47507d6.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5cb8/live/bfa2b9b0-6c42-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
