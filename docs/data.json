@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T05:06:35+00:00",
+ "generated_at": "2026-06-20T05:07:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -609,12 +609,12 @@
    "fifa_rank": 22,
    "owner": "Dubs",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 2,
    "gf": 0,
-   "ga": 2,
+   "ga": 3,
    "total": 0,
    "events": []
   },
@@ -890,11 +890,11 @@
    "fifa_rank": 40,
    "owner": "Fergs",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 1,
+   "gf": 2,
    "ga": 4,
    "total": 1,
    "events": [
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760443,
+   "date": "2026-06-20",
    "utc": "2026-06-20T03:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "90'+9'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+9'",
-   "venue": "Levi's Stadium",
+   "note": "",
+   "home": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.95,
     "draw": 3.4,
     "away": 4.2,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "TUR",
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "goals": 0
-   },
-   "away": {
-    "code": "PAR",
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760444,
    "date": "2026-06-20",
@@ -3402,7 +3401,7 @@
      "gf": 2,
      "ga": 4,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Paraguay",
      "flag": "🇵🇾",
@@ -3419,7 +3418,7 @@
      "gf": 0,
      "ga": 3,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -3,
      "name": "Türkiye",
      "flag": "🇹🇷",
@@ -4870,6 +4869,15 @@
    "pts": 11
   },
   {
+   "code": "PAR",
+   "name": "Paraguay",
+   "flag": "🇵🇾",
+   "owner": "Fergs",
+   "yellow": 6,
+   "red": 1,
+   "pts": 10
+  },
+  {
    "code": "BIH",
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
@@ -4885,15 +4893,6 @@
    "owner": "Dipen",
    "yellow": 1,
    "red": 1,
-   "pts": 5
-  },
-  {
-   "code": "PAR",
-   "name": "Paraguay",
-   "flag": "🇵🇾",
-   "owner": "Fergs",
-   "yellow": 5,
-   "red": 0,
    "pts": 5
   },
   {
@@ -4982,6 +4981,15 @@
    "name": "South Korea",
    "flag": "🇰🇷",
    "owner": "Ruggy",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "TUR",
+   "name": "Türkiye",
+   "flag": "🇹🇷",
+   "owner": "Dubs",
    "yellow": 3,
    "red": 0,
    "pts": 3
@@ -5135,15 +5143,6 @@
    "name": "Tunisia",
    "flag": "🇹🇳",
    "owner": "Pari",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "TUR",
-   "name": "Türkiye",
-   "flag": "🇹🇷",
-   "owner": "Dubs",
    "yellow": 1,
    "red": 0,
    "pts": 1
