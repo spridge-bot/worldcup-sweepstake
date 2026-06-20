@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T17:17:30+00:00",
+ "generated_at": "2026-06-20T17:18:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T17:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "17'",
-   "clock_sec": 1020.0,
-   "status_detail": "17'",
+   "clock": "18'",
+   "clock_sec": 1080.0,
+   "status_detail": "18'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.71,
@@ -1231,7 +1231,7 @@
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "SWE",
@@ -3517,11 +3517,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 2,
      "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
@@ -3535,10 +3535,10 @@
      "d": 0,
      "l": 1,
      "gf": 5,
-     "ga": 2,
+     "ga": 3,
      "pts": 3,
      "live": true,
-     "gd": 3,
+     "gd": 2,
      "name": "Sweden",
      "flag": "🇸🇪",
      "tier": 2,
@@ -4752,6 +4752,14 @@
    "owner": "Fergs"
   },
   {
+   "player": "Brian Brobbey",
+   "team": "NED",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇳🇱",
+   "owner": "Emily"
+  },
+  {
    "player": "Cyle Larin",
    "team": "CAN",
    "goals": 2,
@@ -4846,14 +4854,6 @@
    "assists": 0,
    "flag": "🇸🇪",
    "owner": "Spridge"
-  },
-  {
-   "player": "Abbosbek Fayzullaev",
-   "team": "UZB",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇺🇿",
-   "owner": "Pari"
   }
  ],
  "fairplay": [
