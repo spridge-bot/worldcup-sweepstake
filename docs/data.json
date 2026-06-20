@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T16:35:05+00:00",
+ "generated_at": "2026-06-20T16:40:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -5204,6 +5204,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Referee told McGinn penalty denied as ball going out of play",
+   "desc": "Referee Ilgiz Tantashev told John McGinn he turned down his claim for a penalty against Morocco because the ball was going out of play, the Scotland midfielder's brother, Stephen, says.",
+   "link": "https://www.bbc.com/sport/articles/cx26jxl2gyno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T15:46:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/41f4/live/96fae8f0-6cc1-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Oh, brother! The sibling rivals lining up for different World Cup teams",
    "desc": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
    "link": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
@@ -5255,15 +5264,6 @@
    "published": "2026-06-19T23:31:23Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8d1e/live/2eceb140-6c2a-11f1-be3d-13e0fcdeefa8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "World Cup groups separated by head-to-head records for first time",
-   "desc": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T08:25:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
    "source": "BBC Sport"
   }
  ]
