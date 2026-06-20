@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T18:57:15+00:00",
+ "generated_at": "2026-06-20T18:57:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -339,12 +339,12 @@
    "fifa_rank": 8,
    "owner": "Emily",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 2,
-   "ga": 2,
+   "gf": 7,
+   "ga": 3,
    "total": 5,
    "events": [
     {
@@ -844,12 +844,12 @@
    "fifa_rank": 38,
    "owner": "Spridge",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
-   "gf": 5,
-   "ga": 1,
+   "lost": 1,
+   "gf": 6,
+   "ga": 6,
    "total": 3,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760447,
+   "date": "2026-06-20",
    "utc": "2026-06-20T17:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "NRG Stadium",
+   "note": "",
+   "home": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "tier": 1,
+    "goals": 5,
+    "points": null
+   },
+   "away": {
+    "code": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.71,
     "draw": 4.1,
     "away": 4.8,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NED",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "goals": 5
-   },
-   "away": {
-    "code": "SWE",
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "owner": "Spridge",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760443,
    "date": "2026-06-20",
@@ -2171,9 +2170,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.42,
+    "home": 1.43,
     "draw": 5.0,
-    "away": 7.5,
+    "away": 7.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2762,7 +2761,7 @@
     "name": "Sweden",
     "flag": "🇸🇪",
     "owner": "Spridge",
-    "form": "WDLWW"
+    "form": "LWDLW"
    }
   },
   {
@@ -2787,7 +2786,7 @@
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "form": "DWLDW"
+    "form": "WDWLD"
    }
   },
   {
@@ -3520,7 +3519,7 @@
      "gf": 7,
      "ga": 3,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "Netherlands",
      "flag": "🇳🇱",
@@ -3537,7 +3536,7 @@
      "gf": 6,
      "ga": 6,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Sweden",
      "flag": "🇸🇪",
@@ -4988,6 +4987,15 @@
    "name": "South Korea",
    "flag": "🇰🇷",
    "owner": "Ruggy",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "SWE",
+   "name": "Sweden",
+   "flag": "🇸🇪",
+   "owner": "Spridge",
    "yellow": 3,
    "red": 0,
    "pts": 3
