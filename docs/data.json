@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T02:31:59+00:00",
+ "generated_at": "2026-06-20T02:37:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2583,7 +2583,7 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.19,
+    "home": 1.2,
     "draw": 7.0,
     "away": 16.0,
     "over_under": 3.5,
@@ -5189,21 +5189,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England winger Saka unlikely to start against Ghana",
-   "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
-   "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T20:09:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe1c/live/84096200-6c10-11f1-8c0a-e54144c3b983.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Fifa alters how World Cup tables work - it changes everything",
    "desc": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-19T18:52:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England winger Saka unlikely to start against Ghana",
+   "desc": "England head coach Thomas Tuchel hints that Bukayo Saka is unlikely to be in contention to start against Ghana on Tuesday.",
+   "link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T20:09:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe1c/live/84096200-6c10-11f1-8c0a-e54144c3b983.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5222,15 +5222,6 @@
    "published": "2026-06-19T17:49:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6067/live/51826660-6c06-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England's Barry to continue with half-time interviews",
-   "desc": "England assistant coach Anthony Barry is cleared to continue conducting televised half-time interviews during the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cm2034enndpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T18:01:16Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e706/live/a3f4d090-6c06-11f1-866d-31e44f099e94.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5258,6 +5249,15 @@
    "published": "2026-06-19T11:21:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ac7/live/d1b70010-674d-11f1-b4c1-47ccd10ce929.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Who's the Bos? - meet 2026 World Cup's fastest player",
+   "desc": "Fifa’s sprint data has revealed Australia’s Jordan Bos as the fastest player at World Cup 2026, capping a remarkable rise for the Feyenoord defender",
+   "link": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-19T12:43:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fc65/live/0dc47130-6bb0-11f1-8e5f-879143928516.jpg",
    "source": "BBC Sport"
   }
  ]
