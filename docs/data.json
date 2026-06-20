@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T23:18:10+00:00",
+ "generated_at": "2026-06-20T23:23:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2204,7 +2204,7 @@
     "home": 1.17,
     "draw": 8.5,
     "away": 15.0,
-    "over_under": 2.5,
+    "over_under": 3.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -5189,6 +5189,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Doku criticised over plan to return home for birth",
+   "desc": "Winger Jeremy Doku is criticised for saying he wants to leave Belgium's World Cup camp to be with his wife when she gives birth to their first child.",
+   "link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T23:21:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Saka trains alone as England prepare for Ghana game",
    "desc": "Bukayo Saka was the only player not present in group training as England continued their preparations for their second World Cup match against Ghana.",
    "link": "https://www.bbc.com/sport/football/articles/cr47wqdq26lo?at_medium=RSS&at_campaign=rss",
@@ -5249,15 +5258,6 @@
    "published": "2026-06-20T15:46:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/41f4/live/96fae8f0-6cc1-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Oh, brother! The sibling rivals lining up for different World Cup teams",
-   "desc": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
-   "link": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T11:55:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg",
    "source": "BBC Sport"
   },
   {
