@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T01:19:39+00:00",
+ "generated_at": "2026-06-20T01:20:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "45'+1'",
+   "clock": "45'+3'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+1'",
+   "status_detail": "45'+3'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.1,
@@ -4820,6 +4820,14 @@
    "owner": "George"
   },
   {
+   "player": "Vinícius Júnior",
+   "team": "BRA",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
+  },
+  {
    "player": "Yasin Ayari",
    "team": "SWE",
    "goals": 2,
@@ -4834,14 +4842,6 @@
    "assists": 0,
    "flag": "🇺🇿",
    "owner": "Pari"
-  },
-  {
-   "player": "Abdulelah Al-Amri",
-   "team": "KSA",
-   "goals": 1,
-   "assists": 0,
-   "flag": "🇸🇦",
-   "owner": "Brando"
   }
  ],
  "fairplay": [
