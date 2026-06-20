@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T11:59:43+00:00",
+ "generated_at": "2026-06-20T12:05:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2139,9 +2139,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 1.74,
+    "home": 1.71,
     "draw": 4.0,
-    "away": 4.6,
+    "away": 4.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2165,7 +2165,7 @@
    "group": "Group E",
    "odds": {
     "home": 1.51,
-    "draw": 4.7,
+    "draw": 4.6,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5168,6 +5168,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Oh, brother! The sibling rivals lining up for different World Cup teams",
+   "desc": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
+   "link": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T11:55:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "World Cup still waits for real Brazil to show up",
    "desc": "While rivals Argentina and France have impressed in the United States, Brazil have struggled to hit top form - despite a 3-0 win over minnows Haiti.",
    "link": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss",
@@ -5255,15 +5264,6 @@
    "published": "2026-06-19T20:09:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe1c/live/84096200-6c10-11f1-8c0a-e54144c3b983.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
-   "desc": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
-   "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-19T12:20:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd89/live/e3dbaa50-6b91-11f1-a44f-b19d3c8d49f0.jpg",
    "source": "BBC Sport"
   }
  ]
