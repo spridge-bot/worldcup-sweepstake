@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T01:03:40+00:00",
+ "generated_at": "2026-06-20T01:04:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-19",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "30'",
-   "clock_sec": 1800.0,
-   "status_detail": "30'",
+   "clock": "31'",
+   "clock_sec": 1860.0,
+   "status_detail": "31'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.1,
