@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T15:24:13+00:00",
+ "generated_at": "2026-06-20T15:29:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -5168,6 +5168,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Boston bounce sends Scotland to Miami with hope and no fear",
+   "desc": "Amy Canavan looks at Scotland's progress as they get set to head to Miami for their final World Cup group match.",
+   "link": "https://www.bbc.com/sport/football/articles/c0my8z7vpg3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T14:43:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/71e5/live/620d4300-6cb6-11f1-9fea-e751269afdb9.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Flawed but relentless Scotland show themselves as men of substance",
    "desc": "Morocco threatened to blow Scotland away early on, but Steve Clarke's squad showed their resilience despite defeat, writes Tom English.",
    "link": "https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss",
@@ -5255,15 +5264,6 @@
    "published": "2026-06-19T23:45:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/265e/live/1e8d7e30-6c32-11f1-a737-a9cf39a73934.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Uzbeks to beat DR Congo? The reality of Scotland's qualification mental gymnastics",
-   "desc": "Uzbeks to beat DR Congo? Argentina to run riot? Favours from England? BBC Scotland weighs up the permutations needed for Scotland to progress.",
-   "link": "https://www.bbc.com/sport/football/articles/cdejzn507ryo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T02:19:30Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6da8/live/6c484300-6c4e-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
