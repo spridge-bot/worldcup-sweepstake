@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T18:24:05+00:00",
+ "generated_at": "2026-06-20T18:24:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T17:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "62'",
-   "clock_sec": 3720.0,
-   "status_detail": "62'",
+   "clock": "63'",
+   "clock_sec": 3780.0,
+   "status_detail": "63'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.71,
