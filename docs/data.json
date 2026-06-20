@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T03:01:38+00:00",
+ "generated_at": "2026-06-20T03:02:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -117,8 +117,8 @@
     "PAR",
     "CUW"
    ],
-   "total": 6,
-   "today": 0,
+   "total": 7,
+   "today": 1,
    "rank": 8,
    "movement": 0
   },
@@ -132,8 +132,8 @@
    ],
    "total": 6,
    "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 9,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -169,8 +169,8 @@
     "PAN",
     "CPV"
    ],
-   "total": 3,
-   "today": 1,
+   "total": 2,
+   "today": 0,
    "rank": 12,
    "movement": 0
   }
@@ -615,14 +615,8 @@
    "lost": 1,
    "gf": 0,
    "ga": 2,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-20",
-     "desc": "3rd in Group D (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "ECU": {
    "code": "ECU",
@@ -902,8 +896,14 @@
    "lost": 1,
    "gf": 1,
    "ga": 4,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-20",
+     "desc": "3rd in Group D (live)",
+     "points": 1
+    }
+   ]
   },
   "SCO": {
    "code": "SCO",
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-20T03:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "1'",
-   "clock_sec": 60.0,
-   "status_detail": "1'",
+   "clock": "2'",
+   "clock_sec": 120.0,
+   "status_detail": "2'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.95,
@@ -1238,7 +1238,7 @@
     "name": "Paraguay",
     "flag": "🇵🇾",
     "owner": "Fergs",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3394,37 +3394,37 @@
     },
     {
      "group": "Group D",
-     "code": "TUR",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 0,
-     "ga": 2,
-     "pts": 1,
-     "live": true,
-     "gd": -2,
-     "name": "Türkiye",
-     "flag": "🇹🇷",
-     "tier": 2,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group D",
      "code": "PAR",
      "p": 2,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 1,
-     "gf": 1,
+     "gf": 2,
      "ga": 4,
-     "pts": 1,
+     "pts": 3,
      "live": true,
-     "gd": -3,
+     "gd": -2,
      "name": "Paraguay",
      "flag": "🇵🇾",
      "tier": 3,
      "owner": "Fergs"
+    },
+    {
+     "group": "Group D",
+     "code": "TUR",
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 0,
+     "ga": 3,
+     "pts": 0,
+     "live": true,
+     "gd": -3,
+     "name": "Türkiye",
+     "flag": "🇹🇷",
+     "tier": 2,
+     "owner": "Dubs"
     }
    ]
   },
