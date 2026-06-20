@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T05:07:14+00:00",
+ "generated_at": "2026-06-20T05:12:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2789,10 +2789,10 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.35,
-    "draw": 2.8,
-    "away": 3.9,
-    "over_under": 2.5,
+    "home": 2.55,
+    "draw": 2.45,
+    "away": 4.1,
+    "over_under": 1.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -4231,10 +4231,10 @@
    "winner": null,
    "venue": "Levi's Stadium",
    "home": {
-    "code": null,
-    "name": "Group D Winner",
-    "flag": "",
-    "owner": null
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo"
    },
    "away": {
     "code": null,
