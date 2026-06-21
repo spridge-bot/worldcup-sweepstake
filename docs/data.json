@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T05:40:28+00:00",
+ "generated_at": "2026-06-21T05:41:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T04:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "80'",
-   "clock_sec": 4800.0,
-   "status_detail": "80'",
+   "clock": "81'",
+   "clock_sec": 4860.0,
+   "status_detail": "81'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 7.0,
@@ -5203,7 +5203,7 @@
  "news": [
   {
    "headline": "Meet the record-equalling keeper who helped Curacao make history",
-   "desc": "Curacao keeper Eloy Room makes a record-equalling 15 saves to help his tiny island nation to a first World Cup point with their goalless draw against Ecuador.",
+   "desc": "Curacao's Eloy Room makes a record-equalling 15 saves to help his tiny island nation to a first World Cup point against Ecuador.",
    "link": "https://www.bbc.com/sport/football/articles/cvg58z9gl34o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-21T04:29:28Z",
    "type": "Story",
