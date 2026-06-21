@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T01:36:27+00:00",
+ "generated_at": "2026-06-21T01:36:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T00:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "76'",
-   "clock_sec": 4560.0,
-   "status_detail": "76'",
+   "clock": "77'",
+   "clock_sec": 4620.0,
+   "status_detail": "77'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.1,
