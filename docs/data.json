@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T05:44:27+00:00",
+ "generated_at": "2026-06-21T05:45:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T04:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "84'",
-   "clock_sec": 5040.0,
-   "status_detail": "84'",
+   "clock": "85'",
+   "clock_sec": 5100.0,
+   "status_detail": "85'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 7.0,
@@ -1238,7 +1238,7 @@
     "name": "Japan",
     "flag": "🇯🇵",
     "owner": "Jen",
-    "goals": 3
+    "goals": 4
    }
   }
  ],
@@ -3552,11 +3552,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 2,
      "pts": 4,
      "live": true,
-     "gd": 3,
+     "gd": 4,
      "name": "Japan",
      "flag": "🇯🇵",
      "tier": 2,
@@ -3587,10 +3587,10 @@
      "d": 0,
      "l": 2,
      "gf": 1,
-     "ga": 8,
+     "ga": 9,
      "pts": 0,
      "live": true,
-     "gd": -7,
+     "gd": -8,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
@@ -4778,6 +4778,14 @@
    "owner": "Fergs"
   },
   {
+   "player": "Ayase Ueda",
+   "team": "JPN",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇯🇵",
+   "owner": "Jen"
+  },
+  {
    "player": "Brian Brobbey",
    "team": "NED",
    "goals": 2,
@@ -4864,14 +4872,6 @@
    "assists": 0,
    "flag": "🇨🇭",
    "owner": "Emily"
-  },
-  {
-   "player": "Kai Havertz",
-   "team": "GER",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇩🇪",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
