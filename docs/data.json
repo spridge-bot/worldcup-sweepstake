@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T22:14:37+00:00",
+ "generated_at": "2026-06-21T22:15:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "13'",
-   "clock_sec": 780.0,
-   "status_detail": "13'",
+   "clock": "14'",
+   "clock_sec": 840.0,
+   "status_detail": "14'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.47,
@@ -5243,7 +5243,7 @@
    "link": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-21T22:04:05Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d3ca/live/9ef71900-6db8-11f1-a4ca-7b7f0c2cb38a.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/671c/live/666e6240-6dbe-11f1-bc7e-a9abe2deff91.jpg",
    "source": "BBC Sport"
   },
   {
