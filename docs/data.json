@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T17:35:35+00:00",
+ "generated_at": "2026-06-21T17:36:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T16:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "72'",
-   "clock_sec": 4320.0,
-   "status_detail": "72'",
+   "clock": "73'",
+   "clock_sec": 4380.0,
+   "status_detail": "73'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.1,
@@ -2295,9 +2295,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 1.4,
+    "home": 1.39,
     "draw": 4.9,
-    "away": 8.0,
+    "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
