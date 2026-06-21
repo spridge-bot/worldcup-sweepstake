@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T17:12:42+00:00",
+ "generated_at": "2026-06-21T17:13:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T16:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "49'",
-   "clock_sec": 2940.0,
-   "status_detail": "49'",
+   "clock": "50'",
+   "clock_sec": 3000.0,
+   "status_detail": "50'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.1,
@@ -1231,7 +1231,7 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "KSA",
@@ -3687,11 +3687,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 0,
      "pts": 4,
      "live": true,
-     "gd": 3,
+     "gd": 4,
      "name": "Spain",
      "flag": "🇪🇸",
      "tier": 1,
@@ -3739,10 +3739,10 @@
      "d": 1,
      "l": 1,
      "gf": 1,
-     "ga": 4,
+     "ga": 5,
      "pts": 1,
      "live": true,
-     "gd": -3,
+     "gd": -4,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
      "tier": 3,
