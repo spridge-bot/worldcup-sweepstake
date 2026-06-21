@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T04:00:13+00:00",
+ "generated_at": "2026-06-21T04:00:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -144,9 +144,9 @@
     "HAI"
    ],
    "total": 4,
-   "today": 0,
+   "today": 1,
    "rank": 10,
-   "movement": 0
+   "movement": 1
   },
   {
    "name": "Pari",
@@ -549,7 +549,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-14",
+     "date": "2026-06-21",
      "desc": "3rd in Group F (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760449,
+   "utc": "2026-06-21T04:00:00Z",
+   "stage": "Group stage",
+   "group": "Group F",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Estadio BBVA",
+   "odds": {
+    "home": 7.0,
+    "draw": 4.1,
+    "away": 1.53,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "TUN",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "owner": "Pari",
+    "goals": 0
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Jen",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760446,
@@ -2226,31 +2258,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760449,
-   "utc": "2026-06-21T04:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "odds": {
-    "home": 9.0,
-    "draw": 4.3,
-    "away": 1.44,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Tunisia",
-    "flag": "🇹🇳",
-    "owner": "Pari",
-    "form": "LLLDW"
-   },
-   "away": {
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "form": "DWWWW"
-   }
-  },
   {
    "id": 760453,
    "utc": "2026-06-21T16:00:00Z",
@@ -3558,14 +3565,14 @@
     {
      "group": "Group F",
      "code": "JPN",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 2,
      "ga": 2,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": 0,
      "name": "Japan",
      "flag": "🇯🇵",
@@ -3575,14 +3582,14 @@
     {
      "group": "Group F",
      "code": "TUN",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 1,
      "ga": 5,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -4,
      "name": "Tunisia",
      "flag": "🇹🇳",
