@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T04:05:20+00:00",
+ "generated_at": "2026-06-21T04:05:59+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T04:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "5'",
-   "clock_sec": 300.0,
-   "status_detail": "5'",
+   "clock": "6'",
+   "clock_sec": 360.0,
+   "status_detail": "6'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 7.0,
