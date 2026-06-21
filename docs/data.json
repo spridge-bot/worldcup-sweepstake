@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T03:33:42+00:00",
+ "generated_at": "2026-06-21T03:39:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -2732,9 +2732,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 3.55,
-    "draw": 3.8,
-    "away": 2.0,
+    "home": 3.35,
+    "draw": 3.75,
+    "away": 2.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5231,15 +5231,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Country music fan Kane leaves Ella Langley gig early to make curfew",
-   "desc": "Harry Kane and Dan Burn were among the England players at a concert of US country music star Ella Langley, but had to leave early to make their curfew.",
-   "link": "https://www.bbc.com/sport/football/articles/c5yzlj3xx45o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T22:10:38Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1862/live/9c606cd0-6ced-11f1-bb4f-2f04956fdc7f.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Doku criticised over plan to return home for birth",
    "desc": "Winger Jeremy Doku is criticised for saying he wants to leave Belgium's World Cup camp to be with his wife when she gives birth to their first child.",
    "link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
@@ -5291,6 +5282,15 @@
    "published": "2026-06-20T20:17:41Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/56c9/live/1a5813d0-6ce0-11f1-aa77-e37ebac005b3.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Country music fan Kane leaves Ella Langley gig early to make curfew",
+   "desc": "Harry Kane and Dan Burn were among the England players at a concert of US country music star Ella Langley, but had to leave early to make their curfew.",
+   "link": "https://www.bbc.com/sport/football/articles/c5yzlj3xx45o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T22:10:38Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1862/live/9c606cd0-6ced-11f1-bb4f-2f04956fdc7f.jpg",
    "source": "BBC Sport"
   },
   {
