@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T00:26:23+00:00",
+ "generated_at": "2026-06-21T00:27:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T00:00:00Z",
    "stage": "Group stage",
    "group": "Group E",
-   "clock": "25'",
-   "clock_sec": 1500.0,
-   "status_detail": "25'",
+   "clock": "26'",
+   "clock_sec": 1560.0,
+   "status_detail": "26'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.1,
@@ -5187,6 +5187,15 @@
  ],
  "news": [
   {
+   "headline": "From factory floor to World Cup star - Germany's super-sub Undav",
+   "desc": "It was not long ago that his manager Julian Nagelsmann called him out openly - but Deniz Undav is proving himself a key player for Germany at the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/c8r2pm4xrxro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-21T00:22:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eca3/live/4db43390-6d07-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Fastest World Cup to 100 goals in 68 years - are balls and breaks behind it?",
    "desc": "The 2026 World Cup becomes the fastest edition of the tournament to hit 100 goals since 1958 - with the landmark reached in the 33rd game. But what is behind the scoring spree?",
    "link": "https://www.bbc.com/sport/football/articles/cvglnkw1l93o?at_medium=RSS&at_campaign=rss",
@@ -5205,21 +5214,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Doku criticised over plan to return home for birth",
-   "desc": "Winger Jeremy Doku is criticised for saying he wants to leave Belgium's World Cup camp to be with his wife when she gives birth to their first child.",
-   "link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T23:21:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Country music fan Kane leaves Ella Langley gig early to make curfew",
    "desc": "Harry Kane and Dan Burn were among the England players at a concert of US country music star Ella Langley, but had to leave early to make their curfew.",
    "link": "https://www.bbc.com/sport/football/articles/c5yzlj3xx45o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-20T22:10:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1862/live/9c606cd0-6ced-11f1-bb4f-2f04956fdc7f.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Doku criticised over plan to return home for birth",
+   "desc": "Winger Jeremy Doku is criticised for saying he wants to leave Belgium's World Cup camp to be with his wife when she gives birth to their first child.",
+   "link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-20T23:21:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5283,15 +5292,6 @@
    "published": "2026-06-20T04:45:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c1/live/734838a0-6c5c-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why are so many World Cup goals being scored late?",
-   "desc": "World Cup 2026 is witnessing a surge in late goals. Longer stoppage times, tactical substitutions and hydration breaks are reshaping matches",
-   "link": "https://www.bbc.com/sport/football/articles/cly9q9nrgdxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T11:39:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8110/live/ca9c98b0-6be1-11f1-95c7-b58617a2924f.jpg",
    "source": "BBC Sport"
   }
  ]
