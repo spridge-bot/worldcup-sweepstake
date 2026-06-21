@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T10:53:23+00:00",
+ "generated_at": "2026-06-21T10:58:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -5201,6 +5201,15 @@
  ],
  "news": [
   {
+   "headline": "All three England keepers played there - Carlisle's role in trio's rise",
+   "desc": "From west Cumbria to the World Cup, Carlisle is England's goalkeeper factory, with all of Thomas Tuchel's goalkeepers passing through the club.",
+   "link": "https://www.bbc.com/sport/football/articles/ckg4qw57d4do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-21T10:43:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ac9e/live/4957c8e0-6bf7-11f1-8bf6-931d18012412.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Dutch royals enjoy two big results in one World Cup day",
    "desc": "There may be about 5,000 miles between the Netherlands and their former colony Curacao but members of the Dutch royal family managed to see both sides play on Saturday.",
    "link": "https://www.bbc.com/sport/football/articles/c4gydq973nqo?at_medium=RSS&at_campaign=rss",
@@ -5297,15 +5306,6 @@
    "published": "2026-06-20T04:45:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c1/live/734838a0-6c5c-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why are so many World Cup goals being scored late?",
-   "desc": "World Cup 2026 is witnessing a surge in late goals. Longer stoppage times, tactical substitutions and hydration breaks are reshaping matches",
-   "link": "https://www.bbc.com/sport/football/articles/cly9q9nrgdxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T11:39:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8110/live/ca9c98b0-6be1-11f1-95c7-b58617a2924f.jpg",
    "source": "BBC Sport"
   }
  ]
