@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T19:35:54+00:00",
+ "generated_at": "2026-06-21T19:36:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T19:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "35'",
-   "clock_sec": 2100.0,
-   "status_detail": "35'",
+   "clock": "36'",
+   "clock_sec": 2160.0,
+   "status_detail": "36'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.39,
@@ -5219,7 +5219,7 @@
    "link": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-21T19:27:01Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/20c1/live/9df0f5a0-6da2-11f1-b1db-af71d47507d6.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5f75/live/5b34b430-6da8-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
