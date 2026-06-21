@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T09:43:45+00:00",
+ "generated_at": "2026-06-21T09:49:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -2289,7 +2289,7 @@
    "group": "Group G",
    "odds": {
     "home": 1.43,
-    "draw": 4.7,
+    "draw": 4.8,
     "away": 7.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2313,7 +2313,7 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 1.47,
+    "home": 1.45,
     "draw": 4.2,
     "away": 8.5,
     "over_under": 2.5,
@@ -5201,6 +5201,15 @@
  ],
  "news": [
   {
+   "headline": "Dutch royals enjoy two big results in one World Cup day",
+   "desc": "There may be about 5,000 miles between the Netherlands and their former colony Curacao but members of the Dutch royal family managed to see both sides play on Saturday.",
+   "link": "https://www.bbc.com/sport/football/articles/c4gydq973nqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-21T09:45:57Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3ba7/live/8e13eaf0-6d4f-11f1-8706-d941bf9d0475.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Meet the record-equalling keeper who helped Curacao make history",
    "desc": "Curacao's Eloy Room makes a record-equalling 15 saves to help his tiny island nation to a first World Cup point against Ecuador.",
    "link": "https://www.bbc.com/sport/football/articles/cvg58z9gl34o?at_medium=RSS&at_campaign=rss",
@@ -5261,15 +5270,6 @@
    "published": "2026-06-20T23:21:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Saka trains alone as England prepare for Ghana game",
-   "desc": "Bukayo Saka was the only player not present in group training as England continued their preparations for their second World Cup match against Ghana.",
-   "link": "https://www.bbc.com/sport/football/articles/cr47wqdq26lo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T18:02:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed1e/live/7d2c8b10-6cce-11f1-af86-f18c6df0a749.jpg",
    "source": "BBC Sport"
   },
   {
