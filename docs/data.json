@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T18:01:27+00:00",
+ "generated_at": "2026-06-21T18:02:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -207,11 +207,11 @@
    "fifa_rank": 2,
    "owner": "Jen",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 0,
+   "gf": 4,
    "ga": 0,
    "total": 5,
    "events": [
@@ -1050,12 +1050,12 @@
    "fifa_rank": 52,
    "owner": "Brando",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 1,
-   "lost": 0,
+   "lost": 1,
    "gf": 1,
-   "ga": 1,
+   "ga": 5,
    "total": 0,
    "events": []
   },
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760453,
+   "date": "2026-06-21",
    "utc": "2026-06-21T16:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "Mercedes-Benz Stadium",
+   "note": "",
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "tier": 1,
+    "goals": 4,
+    "points": null
+   },
+   "away": {
+    "code": "KSA",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.1,
     "draw": 11.0,
     "away": 23.0,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "goals": 4
-   },
-   "away": {
-    "code": "KSA",
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "owner": "Brando",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760449,
    "date": "2026-06-21",
@@ -2936,7 +2935,7 @@
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
     "owner": "Brando",
-    "form": "DDWLL"
+    "form": "LDDWL"
    }
   },
   {
@@ -2961,7 +2960,7 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": "DWDDW"
+    "form": "WDWDD"
    }
   },
   {
@@ -3690,7 +3689,7 @@
      "gf": 4,
      "ga": 0,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "Spain",
      "flag": "🇪🇸",
@@ -3741,7 +3740,7 @@
      "gf": 1,
      "ga": 5,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -4,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
@@ -5017,6 +5016,15 @@
    "pts": 3
   },
   {
+   "code": "KSA",
+   "name": "Saudi Arabia",
+   "flag": "🇸🇦",
+   "owner": "Brando",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "KOR",
    "name": "South Korea",
    "flag": "🇰🇷",
@@ -5165,15 +5173,6 @@
    "name": "Morocco",
    "flag": "🇲🇦",
    "owner": "Willo",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "KSA",
-   "name": "Saudi Arabia",
-   "flag": "🇸🇦",
-   "owner": "Brando",
    "yellow": 1,
    "red": 0,
    "pts": 1
