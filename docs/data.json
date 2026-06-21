@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T21:01:22+00:00",
+ "generated_at": "2026-06-21T21:02:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -368,9 +368,9 @@
    "fifa_rank": 9,
    "owner": "Pari",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
    "gf": 1,
    "ga": 1,
@@ -592,9 +592,9 @@
    "fifa_rank": 20,
    "owner": "Spridge",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
    "gf": 2,
    "ga": 2,
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760451,
+   "date": "2026-06-21",
    "utc": "2026-06-21T19:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "SoFi Stadium",
+   "note": "",
+   "home": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "tier": 1,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "IRN",
+    "name": "Iran",
+    "flag": "🇮🇷",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.39,
     "draw": 4.9,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "goals": 0
-   },
-   "away": {
-    "code": "IRN",
-    "name": "Iran",
-    "flag": "🇮🇷",
-    "owner": "Spridge",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760453,
    "date": "2026-06-21",
@@ -2992,7 +2991,7 @@
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": "DWWWL"
+    "form": "DDWWW"
    }
   },
   {
@@ -3017,7 +3016,7 @@
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "form": "DWWDW"
+    "form": "DDWWD"
    }
   },
   {
@@ -3623,7 +3622,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 2,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Iran",
      "flag": "🇮🇷",
@@ -3640,7 +3639,7 @@
      "gf": 1,
      "ga": 1,
      "pts": 2,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Belgium",
      "flag": "🇧🇪",
@@ -4924,6 +4923,15 @@
    "pts": 9
   },
   {
+   "code": "BEL",
+   "name": "Belgium",
+   "flag": "🇧🇪",
+   "owner": "Pari",
+   "yellow": 3,
+   "red": 1,
+   "pts": 7
+  },
+  {
    "code": "MEX",
    "name": "Mexico",
    "flag": "🇲🇽",
@@ -5059,15 +5067,6 @@
    "pts": 3
   },
   {
-   "code": "BEL",
-   "name": "Belgium",
-   "flag": "🇧🇪",
-   "owner": "Pari",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
    "code": "ECU",
    "name": "Ecuador",
    "flag": "🇪🇨",
@@ -5081,6 +5080,15 @@
    "name": "Egypt",
    "flag": "🇪🇬",
    "owner": "Brando",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "flag": "🇮🇷",
+   "owner": "Spridge",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5153,15 +5161,6 @@
    "name": "Ghana",
    "flag": "🇬🇭",
    "owner": "George",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "IRN",
-   "name": "Iran",
-   "flag": "🇮🇷",
-   "owner": "Spridge",
    "yellow": 1,
    "red": 0,
    "pts": 1
