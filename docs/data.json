@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T22:22:02+00:00",
+ "generated_at": "2026-06-21T22:22:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -149,19 +149,6 @@
    "movement": -2
   },
   {
-   "name": "Pari",
-   "teams": [
-    "BEL",
-    "URU",
-    "TUN",
-    "UZB"
-   ],
-   "total": 6,
-   "today": 6,
-   "rank": 10,
-   "movement": 2
-  },
-  {
    "name": "Dubs",
    "teams": [
     "CRO",
@@ -169,10 +156,23 @@
     "PAN",
     "CPV"
    ],
-   "total": 2,
-   "today": 1,
-   "rank": 12,
-   "movement": -1
+   "total": 4,
+   "today": 3,
+   "rank": 11,
+   "movement": 0
+  },
+  {
+   "name": "Pari",
+   "teams": [
+    "BEL",
+    "URU",
+    "TUN",
+    "UZB"
+   ],
+   "total": 4,
+   "today": 4,
+   "rank": 11,
+   "movement": 1
   }
  ],
  "teams": {
@@ -506,12 +506,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-21",
-     "desc": "2nd in Group H (live)",
-     "points": 3
+     "desc": "3rd in Group H (live)",
+     "points": 1
     }
    ]
   },
@@ -1119,12 +1119,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-21",
-     "desc": "3rd in Group H (live)",
-     "points": 1
+     "desc": "2nd in Group H (live)",
+     "points": 3
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "20'",
-   "clock_sec": 1200.0,
-   "status_detail": "20'",
+   "clock": "21'",
+   "clock_sec": 1260.0,
+   "status_detail": "21'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.47,
@@ -1238,7 +1238,7 @@
     "name": "Cabo Verde",
     "flag": "🇨🇻",
     "owner": "Dubs",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3711,37 +3711,37 @@
     },
     {
      "group": "Group H",
-     "code": "URU",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 2,
-     "live": true,
-     "gd": 0,
-     "name": "Uruguay",
-     "flag": "🇺🇾",
-     "tier": 1,
-     "owner": "Pari"
-    },
-    {
-     "group": "Group H",
      "code": "CPV",
      "p": 2,
-     "w": 0,
-     "d": 2,
+     "w": 1,
+     "d": 1,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 2,
+     "pts": 4,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Cabo Verde",
      "flag": "🇨🇻",
      "tier": 3,
      "owner": "Dubs"
+    },
+    {
+     "group": "Group H",
+     "code": "URU",
+     "p": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gf": 1,
+     "ga": 2,
+     "pts": 1,
+     "live": true,
+     "gd": -1,
+     "name": "Uruguay",
+     "flag": "🇺🇾",
+     "tier": 1,
+     "owner": "Pari"
     },
     {
      "group": "Group H",
