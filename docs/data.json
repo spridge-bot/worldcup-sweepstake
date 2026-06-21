@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20T23:59:56+00:00",
+ "generated_at": "2026-06-21T00:00:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-20",
  "scoring": {
@@ -2201,9 +2201,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 1.15,
-    "draw": 8.5,
-    "away": 16.0,
+    "home": 1.1,
+    "draw": 11.0,
+    "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2211,13 +2211,13 @@
     "name": "Ecuador",
     "flag": "🇪🇨",
     "owner": "Brando",
-    "form": "LWWDD"
+    "form": null
    },
    "away": {
     "name": "Curaçao",
     "flag": "🇨🇼",
     "owner": "Fergs",
-    "form": "LWLLL"
+    "form": null
    }
   },
   {
