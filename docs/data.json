@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T22:01:32+00:00",
+ "generated_at": "2026-06-21T22:02:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -157,9 +157,9 @@
     "UZB"
    ],
    "total": 6,
-   "today": 3,
+   "today": 6,
    "rank": 10,
-   "movement": 0
+   "movement": 2
   },
   {
    "name": "Dubs",
@@ -170,9 +170,9 @@
     "CPV"
    ],
    "total": 2,
-   "today": 0,
+   "today": 1,
    "rank": 12,
-   "movement": 0
+   "movement": -1
   }
  ],
  "teams": {
@@ -509,7 +509,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-15",
+     "date": "2026-06-21",
      "desc": "2nd in Group H (live)",
      "points": 3
     }
@@ -1122,7 +1122,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-15",
+     "date": "2026-06-21",
      "desc": "3rd in Group H (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760450,
+   "utc": "2026-06-21T22:00:00Z",
+   "stage": "Group stage",
+   "group": "Group H",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Hard Rock Stadium",
+   "odds": {
+    "home": 1.47,
+    "draw": 4.4,
+    "away": 8.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "URU",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "owner": "Pari",
+    "goals": 0
+   },
+   "away": {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "owner": "Dubs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760451,
@@ -2319,31 +2351,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760450,
-   "utc": "2026-06-21T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "odds": {
-    "home": 1.47,
-    "draw": 4.4,
-    "away": 8.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "owner": "Pari",
-    "form": "DDDLD"
-   },
-   "away": {
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "form": "DWWLL"
-   }
-  },
   {
    "id": 760452,
    "utc": "2026-06-22T01:00:00Z",
@@ -3705,14 +3712,14 @@
     {
      "group": "Group H",
      "code": "URU",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 1,
      "ga": 1,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": 0,
      "name": "Uruguay",
      "flag": "🇺🇾",
@@ -3722,14 +3729,14 @@
     {
      "group": "Group H",
      "code": "CPV",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 0,
      "ga": 0,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": 0,
      "name": "Cabo Verde",
      "flag": "🇨🇻",
