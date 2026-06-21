@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T04:31:44+00:00",
+ "generated_at": "2026-06-21T04:32:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T04:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 7.0,
@@ -1238,7 +1238,7 @@
     "name": "Japan",
     "flag": "🇯🇵",
     "owner": "Jen",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -3552,11 +3552,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 2,
      "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Japan",
      "flag": "🇯🇵",
      "tier": 2,
@@ -3587,10 +3587,10 @@
      "d": 0,
      "l": 2,
      "gf": 1,
-     "ga": 6,
+     "ga": 7,
      "pts": 0,
      "live": true,
-     "gd": -5,
+     "gd": -6,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
