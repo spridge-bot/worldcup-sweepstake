@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T04:04:41+00:00",
+ "generated_at": "2026-06-21T04:05:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -58,19 +58,6 @@
    "movement": 0
   },
   {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 12,
-   "today": 0,
-   "rank": 3,
-   "movement": 0
-  },
-  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -80,7 +67,7 @@
    ],
    "total": 11,
    "today": 1,
-   "rank": 5,
+   "rank": 4,
    "movement": 1
   },
   {
@@ -93,8 +80,21 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 5,
+   "rank": 4,
    "movement": 0
+  },
+  {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 10,
+   "today": 0,
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -143,8 +143,8 @@
     "CIV",
     "HAI"
    ],
-   "total": 4,
-   "today": 1,
+   "total": 6,
+   "today": 3,
    "rank": 10,
    "movement": 1
   },
@@ -158,8 +158,8 @@
    ],
    "total": 4,
    "today": 0,
-   "rank": 10,
-   "movement": 0
+   "rank": 11,
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -546,12 +546,12 @@
    "lost": 0,
    "gf": 2,
    "ga": 2,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-21",
-     "desc": "3rd in Group F (live)",
-     "points": 1
+     "desc": "2nd in Group F (live)",
+     "points": 3
     }
    ]
   },
@@ -850,12 +850,12 @@
    "lost": 1,
    "gf": 6,
    "ga": 6,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-20",
-     "desc": "2nd in Group F (live)",
-     "points": 3
+     "desc": "3rd in Group F (live)",
+     "points": 1
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T04:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "4'",
-   "clock_sec": 240.0,
-   "status_detail": "4'",
+   "clock": "5'",
+   "clock_sec": 300.0,
+   "status_detail": "5'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 7.0,
@@ -1238,7 +1238,7 @@
     "name": "Japan",
     "flag": "🇯🇵",
     "owner": "Jen",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3547,6 +3547,23 @@
     },
     {
      "group": "Group F",
+     "code": "JPN",
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gf": 3,
+     "ga": 2,
+     "pts": 4,
+     "live": true,
+     "gd": 1,
+     "name": "Japan",
+     "flag": "🇯🇵",
+     "tier": 2,
+     "owner": "Jen"
+    },
+    {
+     "group": "Group F",
      "code": "SWE",
      "p": 2,
      "w": 1,
@@ -3564,33 +3581,16 @@
     },
     {
      "group": "Group F",
-     "code": "JPN",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 2,
-     "ga": 2,
-     "pts": 2,
-     "live": true,
-     "gd": 0,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group F",
      "code": "TUN",
      "p": 2,
      "w": 0,
-     "d": 1,
-     "l": 1,
+     "d": 0,
+     "l": 2,
      "gf": 1,
-     "ga": 5,
-     "pts": 1,
+     "ga": 6,
+     "pts": 0,
      "live": true,
-     "gd": -4,
+     "gd": -5,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
@@ -4810,6 +4810,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Daichi Kamada",
+   "team": "JPN",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇯🇵",
+   "owner": "Jen"
+  },
+  {
    "player": "Elijah Just",
    "team": "NZL",
    "goals": 2,
@@ -4864,14 +4872,6 @@
    "assists": 0,
    "flag": "🇩🇪",
    "owner": "Glancy"
-  },
-  {
-   "player": "Kylian Mbappé",
-   "team": "FRA",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
   }
  ],
  "fairplay": [
