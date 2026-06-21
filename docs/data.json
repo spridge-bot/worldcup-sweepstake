@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T23:10:51+00:00",
+ "generated_at": "2026-06-21T23:11:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "45'+8'",
-   "clock_sec": 2700.0,
-   "status_detail": "HT",
+   "clock": "46'",
+   "clock_sec": 2760.0,
+   "status_detail": "46'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.47,
@@ -2434,7 +2434,7 @@
    "odds": {
     "home": 2.3,
     "draw": 3.55,
-    "away": 3.05,
+    "away": 3.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2932,9 +2932,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.55,
+    "home": 2.5,
     "draw": 4.1,
-    "away": 2.65,
+    "away": 2.55,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
