@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T17:58:16+00:00",
+ "generated_at": "2026-06-21T17:59:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1231,7 +1231,7 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "goals": 5
+    "goals": 4
    },
    "away": {
     "code": "KSA",
@@ -3687,11 +3687,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 5,
+     "gf": 4,
      "ga": 0,
      "pts": 4,
      "live": true,
-     "gd": 5,
+     "gd": 4,
      "name": "Spain",
      "flag": "🇪🇸",
      "tier": 1,
@@ -3739,10 +3739,10 @@
      "d": 1,
      "l": 1,
      "gf": 1,
-     "ga": 6,
+     "ga": 5,
      "pts": 1,
      "live": true,
-     "gd": -5,
+     "gd": -4,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
      "tier": 3,
