@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T16:01:27+00:00",
+ "generated_at": "2026-06-21T16:01:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -66,9 +66,9 @@
     "KSA"
    ],
    "total": 11,
-   "today": 1,
+   "today": 6,
    "rank": 4,
-   "movement": 1
+   "movement": 5
   },
   {
    "name": "Dipen",
@@ -107,7 +107,20 @@
    "total": 9,
    "today": 0,
    "rank": 7,
-   "movement": 0
+   "movement": -1
+  },
+  {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 9,
+   "today": 6,
+   "rank": 7,
+   "movement": 3
   },
   {
    "name": "Ruggy",
@@ -119,8 +132,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -132,21 +145,8 @@
    ],
    "total": 7,
    "today": 0,
-   "rank": 9,
-   "movement": 0
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 6,
-   "today": 3,
    "rank": 10,
-   "movement": 1
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -156,10 +156,10 @@
     "TUN",
     "UZB"
    ],
-   "total": 4,
+   "total": 2,
    "today": 0,
    "rank": 11,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -169,7 +169,7 @@
     "PAN",
     "CPV"
    ],
-   "total": 2,
+   "total": 1,
    "today": 0,
    "rank": 12,
    "movement": 0
@@ -213,8 +213,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-21",
+     "desc": "2nd in Group H (live)",
+     "points": 3
+    }
+   ]
   },
   "FRA": {
    "code": "FRA",
@@ -500,12 +506,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-15",
-     "desc": "2nd in Group H (live)",
-     "points": 3
+     "desc": "3rd in Group H (live)",
+     "points": 1
     }
    ]
   },
@@ -1053,7 +1059,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-15",
+     "date": "2026-06-21",
      "desc": "1st in Group H (live)",
      "points": 5
     }
@@ -1119,14 +1125,8 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-15",
-     "desc": "3rd in Group H (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "GHA": {
    "code": "GHA",
@@ -1209,7 +1209,39 @@
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760453,
+   "utc": "2026-06-21T16:00:00Z",
+   "stage": "Group stage",
+   "group": "Group H",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Mercedes-Benz Stadium",
+   "odds": {
+    "home": 1.1,
+    "draw": 11.0,
+    "away": 23.0,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "goals": 0
+   },
+   "away": {
+    "code": "KSA",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760449,
@@ -2257,31 +2289,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760453,
-   "utc": "2026-06-21T16:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "odds": {
-    "home": 1.11,
-    "draw": 11.0,
-    "away": 21.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "DWDDW"
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "owner": "Brando",
-    "form": "DDWLL"
-   }
-  },
   {
    "id": 760451,
    "utc": "2026-06-21T19:00:00Z",
@@ -3676,19 +3683,36 @@
     {
      "group": "Group H",
      "code": "KSA",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 1,
      "ga": 1,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": 0,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
      "tier": 3,
      "owner": "Brando"
+    },
+    {
+     "group": "Group H",
+     "code": "ESP",
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 2,
+     "live": true,
+     "gd": 0,
+     "name": "Spain",
+     "flag": "🇪🇸",
+     "tier": 1,
+     "owner": "Jen"
     },
     {
      "group": "Group H",
@@ -3723,23 +3747,6 @@
      "flag": "🇨🇻",
      "tier": 3,
      "owner": "Dubs"
-    },
-    {
-     "group": "Group H",
-     "code": "ESP",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 0,
-     "ga": 0,
-     "pts": 1,
-     "live": false,
-     "gd": 0,
-     "name": "Spain",
-     "flag": "🇪🇸",
-     "tier": 1,
-     "owner": "Jen"
     }
    ]
   },
