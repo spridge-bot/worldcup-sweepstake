@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T01:56:57+00:00",
+ "generated_at": "2026-06-21T02:02:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -2732,9 +2732,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 4.2,
+    "home": 3.9,
     "draw": 3.8,
-    "away": 1.83,
+    "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4088,10 +4088,10 @@
    "winner": null,
    "venue": "Gillette Stadium",
    "home": {
-    "code": null,
-    "name": "Group E Winner",
-    "flag": "",
-    "owner": null
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "owner": "Glancy"
    },
    "away": {
     "code": null,
