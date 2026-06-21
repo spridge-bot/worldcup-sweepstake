@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T16:12:29+00:00",
+ "generated_at": "2026-06-21T16:12:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -58,19 +58,6 @@
    "movement": 0
   },
   {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 11,
-   "today": 6,
-   "rank": 4,
-   "movement": 5
-  },
-  {
    "name": "Dipen",
    "teams": [
     "POR",
@@ -82,6 +69,19 @@
    "today": 0,
    "rank": 4,
    "movement": 0
+  },
+  {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 11,
+   "today": 8,
+   "rank": 4,
+   "movement": 7
   },
   {
    "name": "Spridge",
@@ -110,19 +110,6 @@
    "movement": -1
   },
   {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 9,
-   "today": 6,
-   "rank": 7,
-   "movement": 3
-  },
-  {
    "name": "Ruggy",
    "teams": [
     "COL",
@@ -132,8 +119,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 8,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -145,8 +132,21 @@
    ],
    "total": 7,
    "today": 0,
+   "rank": 9,
+   "movement": -1
+  },
+  {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 6,
+   "today": 1,
    "rank": 10,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -156,10 +156,10 @@
     "TUN",
     "UZB"
    ],
-   "total": 2,
+   "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -169,7 +169,7 @@
     "PAN",
     "CPV"
    ],
-   "total": 1,
+   "total": 2,
    "today": 0,
    "rank": 12,
    "movement": 0
@@ -213,12 +213,12 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-21",
-     "desc": "2nd in Group H (live)",
-     "points": 3
+     "desc": "1st in Group H (live)",
+     "points": 5
     }
    ]
   },
@@ -506,12 +506,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-15",
-     "desc": "3rd in Group H (live)",
-     "points": 1
+     "desc": "2nd in Group H (live)",
+     "points": 3
     }
    ]
   },
@@ -1056,14 +1056,8 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "1st in Group H (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "JOR": {
    "code": "JOR",
@@ -1125,8 +1119,14 @@
    "lost": 0,
    "gf": 0,
    "ga": 0,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-15",
+     "desc": "3rd in Group H (live)",
+     "points": 1
+    }
+   ]
   },
   "GHA": {
    "code": "GHA",
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T16:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "11'",
-   "clock_sec": 660.0,
-   "status_detail": "11'",
+   "clock": "12'",
+   "clock_sec": 720.0,
+   "status_detail": "12'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.1,
@@ -3682,33 +3682,16 @@
    "rows": [
     {
      "group": "Group H",
-     "code": "KSA",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 2,
-     "live": true,
-     "gd": 0,
-     "name": "Saudi Arabia",
-     "flag": "🇸🇦",
-     "tier": 3,
-     "owner": "Brando"
-    },
-    {
-     "group": "Group H",
      "code": "ESP",
      "p": 2,
-     "w": 0,
-     "d": 2,
+     "w": 1,
+     "d": 1,
      "l": 0,
-     "gf": 0,
+     "gf": 1,
      "ga": 0,
-     "pts": 2,
+     "pts": 4,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Spain",
      "flag": "🇪🇸",
      "tier": 1,
@@ -3747,6 +3730,23 @@
      "flag": "🇨🇻",
      "tier": 3,
      "owner": "Dubs"
+    },
+    {
+     "group": "Group H",
+     "code": "KSA",
+     "p": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gf": 1,
+     "ga": 2,
+     "pts": 1,
+     "live": true,
+     "gd": -1,
+     "name": "Saudi Arabia",
+     "flag": "🇸🇦",
+     "tier": 3,
+     "owner": "Brando"
     }
    ]
   },
