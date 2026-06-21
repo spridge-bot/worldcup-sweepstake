@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-21T19:29:36+00:00",
+ "generated_at": "2026-06-21T19:30:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-21T19:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "29'",
-   "clock_sec": 1740.0,
-   "status_detail": "29'",
+   "clock": "30'",
+   "clock_sec": 1800.0,
+   "status_detail": "30'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.39,
@@ -5214,6 +5214,15 @@
  ],
  "news": [
   {
+   "headline": "Yamal shows why this could be his World Cup",
+   "desc": "Spain looked an instantly better team with Lamine Yamal in the side, with the 18-year-old showing why this could be his World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-21T19:27:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/20c1/live/9df0f5a0-6da2-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The beauty of sharing your child's first World Cup",
    "desc": "There is nothing like the first World Cup you can enjoy with your kid - and the wide-eyed wonder through which they see it.",
    "link": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss",
@@ -5238,15 +5247,6 @@
    "published": "2026-06-20T23:21:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What have we learned from Scotland's World Cup so far?",
-   "desc": "After a win over Haiti and a narrow defeat by Morocco, BBC Sport Scotland assesses what we have learned from Scotland's World Cup so far.",
-   "link": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T13:14:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/01f3/live/7cd59ef0-6d72-11f1-a2ba-775ae811ce10.jpg",
    "source": "BBC Sport"
   },
   {
