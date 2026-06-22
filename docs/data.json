@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T01:49:24+00:00",
+ "generated_at": "2026-06-22T01:50:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1217,7 +1217,7 @@
    "group": "Group G",
    "clock": "45'+4'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+4'",
+   "status_detail": "HT",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
