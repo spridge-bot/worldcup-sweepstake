@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T17:02:22+00:00",
+ "generated_at": "2026-06-22T17:03:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "1'",
-   "clock_sec": 60.0,
-   "status_detail": "1'",
+   "clock": "2'",
+   "clock_sec": 120.0,
+   "status_detail": "2'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.62,
@@ -5313,6 +5313,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Why do some World Cup shirts keep tearing during matches?",
+   "desc": "Puma shirts have torn four times during the World Cup so far, so what exactly is going on?",
+   "link": "https://www.bbc.com/sport/football/articles/czrx61d0pv3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T16:58:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/475b/live/52cb23c0-6e5b-11f1-b61d-912ade7054bd.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Germany defender Schlotterbeck out of World Cup",
    "desc": "Germany defender Nico Schlotterbeck is ruled out of the rest of the World Cup with an ankle injury.",
    "link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
@@ -5346,15 +5355,6 @@
    "published": "2026-06-22T04:23:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "One of World Cup's great stories - can Cape Verde become legends?",
-   "desc": "Cape Verde's impressive World Cup continues with a draw against two-time winners Uruguay - and they will now be looking to make the last 32.",
-   "link": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T01:53:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
