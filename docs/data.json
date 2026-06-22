@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T07:07:23+00:00",
+ "generated_at": "2026-06-22T07:12:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2413,7 +2413,7 @@
    "group": "Group I",
    "odds": {
     "home": 1.07,
-    "draw": 12.0,
+    "draw": 13.0,
     "away": 31.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -2637,9 +2637,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.19,
-    "draw": 7.0,
-    "away": 16.0,
+    "home": 1.18,
+    "draw": 7.5,
+    "away": 17.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2789,7 +2789,7 @@
    "odds": {
     "home": 1.95,
     "draw": 3.45,
-    "away": 4.2,
+    "away": 4.3,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5333,21 +5333,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "From Belfast to the World Cup - McDermott's American odyssey",
+   "desc": "Mick McDermott tells BBC Sport NI of his pride at being involved with Ghana at the World Cup, his relationship with Carlos Quieroz and their hopes of shocking England on Tuesday.",
+   "link": "https://www.bbc.com/sport/football/articles/cgqj7q25q35o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T06:53:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a811/live/44667bf0-6d7e-11f1-a2ba-775ae811ce10.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Fastest World Cup to 100 goals in 68 years - are balls and breaks behind it?",
    "desc": "The 2026 World Cup becomes the fastest edition of the tournament to hit 100 goals since 1958 - with the landmark reached in the 33rd game. But what is behind the scoring spree?",
    "link": "https://www.bbc.com/sport/football/articles/cvglnkw1l93o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-20T23:46:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fbca/live/6f5805b0-6ceb-11f1-8fed-b71bf98a91c0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rice feels like he will get an assist at every corner",
-   "desc": "Declan Rice feels like he will get an assist \"every time\" he takes a corner - and says England fans should be \"excited\" for what is to come at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cj6g1dnr12yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T01:03:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03c7/live/60a03720-6d06-11f1-b622-5db122690c78.jpg",
    "source": "BBC Sport"
   }
  ]
