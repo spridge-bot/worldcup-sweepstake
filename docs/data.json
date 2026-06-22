@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T18:33:57+00:00",
+ "generated_at": "2026-06-22T18:34:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "68'",
-   "clock_sec": 4080.0,
-   "status_detail": "68'",
+   "clock": "69'",
+   "clock_sec": 4140.0,
+   "status_detail": "69'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.62,
@@ -5250,6 +5250,15 @@
  ],
  "news": [
   {
+   "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
+   "desc": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s.",
+   "link": "https://www.bbc.com/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T18:32:27Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e3b/live/da3e5cc0-6a3f-11f1-924d-c9a0db71699c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The key differences between Tuchel and Southgate's England teams",
    "desc": "Analysing the similarities and differences between how Gareth Southgate and Thomas Tuchel led England.",
    "link": "https://www.bbc.com/sport/football/articles/cr5jv5vd1dro?at_medium=RSS&at_campaign=rss",
@@ -5295,15 +5304,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
-   "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
-   "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T12:01:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5319,6 +5319,15 @@
    "published": "2026-06-22T14:39:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e26/live/4034d590-6e41-11f1-8a85-d1d176b992ab.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
+   "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
+   "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T12:01:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5346,15 +5355,6 @@
    "published": "2026-06-22T16:58:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/475b/live/52cb23c0-6e5b-11f1-b61d-912ade7054bd.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Germany defender Schlotterbeck out of World Cup",
-   "desc": "Germany defender Nico Schlotterbeck is ruled out of the rest of the World Cup with an ankle injury.",
-   "link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T12:47:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8e9b/live/1484a940-6e30-11f1-9fdc-51e252bb92b4.jpg",
    "source": "BBC Sport"
   }
  ]
