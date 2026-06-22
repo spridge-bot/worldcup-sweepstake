@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T17:32:40+00:00",
+ "generated_at": "2026-06-22T17:34:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.62,
@@ -5295,6 +5295,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
+   "link": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-06T20:30:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
    "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
    "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
@@ -5346,15 +5355,6 @@
    "published": "2026-06-22T16:23:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4bce/live/879a3ca0-6e4f-11f1-8e1d-bbbb1017d210.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
-   "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
-   "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T04:23:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg",
    "source": "BBC Sport"
   }
  ]
