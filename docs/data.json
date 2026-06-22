@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T00:11:09+00:00",
+ "generated_at": "2026-06-22T00:16:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -3006,9 +3006,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 14.0,
-    "draw": 7.0,
-    "away": 1.21,
+    "home": 13.0,
+    "draw": 6.5,
+    "away": 1.22,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5237,6 +5237,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Saka trains with England squad before Ghana match",
+   "desc": "Bukayo Saka trains with the England squad to provide a fitness boost to Thomas Tuchel before their second World Cup match against Ghana.",
+   "link": "https://www.bbc.com/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T00:13:38Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4eda/live/70789fc0-6dce-11f1-897a-fb9cd481447f.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Does it matter if Scotland lose and still make history?",
    "desc": "Does the performance, even the result, matter as long as Scotland qualify for the group stage of the World Cup after Wednesday's game against Brazil? Tom English ponders.",
    "link": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss",
@@ -5324,15 +5333,6 @@
    "published": "2026-06-21T01:03:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03c7/live/60a03720-6d06-11f1-b622-5db122690c78.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Dutch royals enjoy two big results in one World Cup day",
-   "desc": "There may be about 5,000 miles between the Netherlands and their former colony Curacao but members of the Dutch royal family managed to see both sides play on Saturday.",
-   "link": "https://www.bbc.com/sport/football/articles/c4gydq973nqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T09:45:57Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3ba7/live/8e13eaf0-6d4f-11f1-8706-d941bf9d0475.jpg",
    "source": "BBC Sport"
   }
  ]
