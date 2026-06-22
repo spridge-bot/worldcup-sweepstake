@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T01:31:18+00:00",
+ "generated_at": "2026-06-22T01:32:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -5271,15 +5271,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tuchel not afraid to shout at players - Watkins",
-   "desc": "Ollie Watkins says Thomas Tuchel is \"not afraid\" to shout at England players as the manager aims to maintain training standards at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T22:04:05Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9b76/live/001d88c0-6dc0-11f1-bb27-aba127c3e7aa.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The beauty of sharing your child's first World Cup",
    "desc": "There is nothing like the first World Cup you can enjoy with your kid - and the wide-eyed wonder through which they see it.",
    "link": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss",
@@ -5340,6 +5331,15 @@
    "published": "2026-06-20T23:46:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fbca/live/6f5805b0-6ceb-11f1-8fed-b71bf98a91c0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rice feels like he will get an assist at every corner",
+   "desc": "Declan Rice feels like he will get an assist \"every time\" he takes a corner - and says England fans should be \"excited\" for what is to come at the World Cup.",
+   "link": "https://www.bbc.com/sport/football/articles/cj6g1dnr12yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-21T01:03:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03c7/live/60a03720-6d06-11f1-b622-5db122690c78.jpg",
    "source": "BBC Sport"
   }
  ]
