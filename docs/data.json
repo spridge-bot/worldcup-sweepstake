@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T05:28:55+00:00",
+ "generated_at": "2026-06-22T05:34:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2937,8 +2937,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.35,
-    "draw": 3.55,
+    "home": 2.4,
+    "draw": 3.5,
     "away": 2.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2988,8 +2988,8 @@
    "group": "Group G",
    "odds": {
     "home": 2.45,
-    "draw": 2.7,
-    "away": 3.75,
+    "draw": 2.8,
+    "away": 3.65,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -5244,7 +5244,7 @@
  "news": [
   {
    "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
-   "desc": "Mohamed Salah's World Cup pain ends as he helps fire Egypt to their first ever win at the tournament - 92 years on from their tournament debut.",
+   "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
    "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-22T04:23:40Z",
    "type": "Story",
