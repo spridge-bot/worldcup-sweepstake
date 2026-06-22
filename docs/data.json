@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T19:03:04+00:00",
+ "generated_at": "2026-06-22T19:03:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -184,11 +184,11 @@
    "fifa_rank": 1,
    "owner": "Fergs",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 3,
+   "gf": 5,
    "ga": 0,
    "total": 5,
    "events": [
@@ -655,12 +655,12 @@
    "fifa_rank": 24,
    "owner": "George",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 3,
-   "ga": 1,
+   "ga": 3,
    "total": 3,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760456,
+   "date": "2026-06-22",
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.62,
     "draw": 3.9,
     "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "goals": 2
-   },
-   "away": {
-    "code": "AUT",
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760452,
    "date": "2026-06-22",
@@ -3860,7 +3859,7 @@
      "gf": 5,
      "ga": 0,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 5,
      "name": "Argentina",
      "flag": "🇦🇷",
@@ -3877,7 +3876,7 @@
      "gf": 3,
      "ga": 3,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Austria",
      "flag": "🇦🇹",
@@ -5005,6 +5004,15 @@
    "pts": 4
   },
   {
+   "code": "AUT",
+   "name": "Austria",
+   "flag": "🇦🇹",
+   "owner": "George",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "BRA",
    "name": "Brazil",
    "flag": "🇧🇷",
@@ -5104,6 +5112,15 @@
    "pts": 3
   },
   {
+   "code": "ARG",
+   "name": "Argentina",
+   "flag": "🇦🇷",
+   "owner": "Fergs",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "ECU",
    "name": "Ecuador",
    "flag": "🇪🇨",
@@ -5156,15 +5173,6 @@
    "yellow": 2,
    "red": 0,
    "pts": 2
-  },
-  {
-   "code": "AUT",
-   "name": "Austria",
-   "flag": "🇦🇹",
-   "owner": "George",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
   },
   {
    "code": "COL",
