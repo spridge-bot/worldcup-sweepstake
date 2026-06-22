@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T21:14:44+00:00",
+ "generated_at": "2026-06-22T21:15:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1231,7 +1231,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "IRQ",
@@ -4814,6 +4814,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Kylian Mbappé",
+   "team": "FRA",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Ayase Ueda",
    "team": "JPN",
    "goals": 2,
@@ -4900,14 +4908,6 @@
    "assists": 0,
    "flag": "🇲🇦",
    "owner": "Willo"
-  },
-  {
-   "player": "Johan Manzambi",
-   "team": "SUI",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇨🇭",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
