@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T00:21:59+00:00",
+ "generated_at": "2026-06-22T00:27:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -2931,8 +2931,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.4,
-    "draw": 3.9,
+    "home": 2.35,
+    "draw": 3.75,
     "away": 2.75,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5228,6 +5228,15 @@
  ],
  "news": [
   {
+   "headline": "Unbeaten Iran will go down in history - Ghalenoei",
+   "desc": "Iran coach Amir Ghalenoei believes his side's unbeaten start to the World Cup will be talked about for years to come given the disruption they have faced before and during the tournament.",
+   "link": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T00:24:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03e9/live/e9674050-6dcc-11f1-81d6-99f5ebd04f90.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Lamine Yamal shows why this could be his World Cup",
    "desc": "Spain looked an instantly better team with Lamine Yamal in the side, with the 18-year-old showing why this could be his World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
@@ -5324,15 +5333,6 @@
    "published": "2026-06-20T23:46:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fbca/live/6f5805b0-6ceb-11f1-8fed-b71bf98a91c0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rice feels like he will get an assist at every corner",
-   "desc": "Declan Rice feels like he will get an assist \"every time\" he takes a corner - and says England fans should be \"excited\" for what is to come at the World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cj6g1dnr12yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T01:03:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03c7/live/60a03720-6d06-11f1-b622-5db122690c78.jpg",
    "source": "BBC Sport"
   }
  ]
