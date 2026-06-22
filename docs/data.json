@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T14:45:42+00:00",
+ "generated_at": "2026-06-22T14:51:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -5261,6 +5261,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Is VAR being used differently at the World Cup vs the Premier League?",
+   "desc": "The stats show that there have been more VAR reviews at the World Cup than in the Premier League. So why does perception suggest the opposite?",
+   "link": "https://www.bbc.com/sport/football/articles/cy06881596wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T14:39:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e26/live/4034d590-6e41-11f1-8a85-d1d176b992ab.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Iran leave note asking for peace after Belgium draw",
    "desc": "Iran leave a message saying \"may peace, respect and friendship prevail among all nations\" following their World Cup group game with Belgium.",
    "link": "https://www.bbc.com/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
@@ -5339,15 +5348,6 @@
    "published": "2026-06-21T13:55:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Lamine Yamal shows why this could be his World Cup",
-   "desc": "Spain looked an instantly better team with Lamine Yamal in the side, with the 18-year-old showing why this could be his World Cup.",
-   "link": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T19:27:01Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5f75/live/5b34b430-6da8-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
