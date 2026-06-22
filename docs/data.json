@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T02:42:50+00:00",
+ "generated_at": "2026-06-22T02:43:34+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "82'",
-   "clock_sec": 4920.0,
-   "status_detail": "82'",
+   "clock": "83'",
+   "clock_sec": 4980.0,
+   "status_detail": "83'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -1238,7 +1238,7 @@
     "name": "Egypt",
     "flag": "🇪🇬",
     "owner": "Brando",
-    "goals": 2
+    "goals": 3
    }
   }
  ],
@@ -2988,9 +2988,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 2.35,
-    "draw": 2.85,
-    "away": 3.65,
+    "home": 2.45,
+    "draw": 2.7,
+    "away": 3.75,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -3632,11 +3632,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 2,
      "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Egypt",
      "flag": "🇪🇬",
      "tier": 2,
@@ -3684,10 +3684,10 @@
      "d": 1,
      "l": 1,
      "gf": 3,
-     "ga": 4,
+     "ga": 5,
      "pts": 1,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
