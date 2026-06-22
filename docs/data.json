@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T19:03:37+00:00",
+ "generated_at": "2026-06-22T19:08:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -3143,9 +3143,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 3.2,
-    "draw": 2.95,
-    "away": 2.6,
+    "home": 3.35,
+    "draw": 2.65,
+    "away": 2.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3168,9 +3168,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 16.0,
+    "home": 13.0,
     "draw": 7.5,
-    "away": 1.19,
+    "away": 1.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5261,7 +5261,7 @@
    "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
    "desc": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s.",
    "link": "https://www.bbc.com/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T18:32:27Z",
+   "published": "2026-06-22T19:08:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e3b/live/da3e5cc0-6a3f-11f1-924d-c9a0db71699c.jpg",
    "source": "BBC Sport"
