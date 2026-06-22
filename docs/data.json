@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T02:19:43+00:00",
+ "generated_at": "2026-06-22T02:20:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -84,6 +84,19 @@
    "movement": 6
   },
   {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 9,
+   "today": 4,
+   "rank": 6,
+   "movement": 2
+  },
+  {
    "name": "Emily",
    "teams": [
     "NED",
@@ -106,21 +119,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 7,
-   "movement": -1
-  },
-  {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 8,
-   "today": 3,
-   "rank": 7,
-   "movement": 1
+   "rank": 8,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -136,12 +136,12 @@
    "movement": -2
   },
   {
-   "name": "Brando",
+   "name": "Spridge",
    "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
    ],
    "total": 6,
    "today": 1,
@@ -156,8 +156,8 @@
     "TUN",
     "UZB"
    ],
-   "total": 4,
-   "today": 4,
+   "total": 3,
+   "today": 3,
    "rank": 11,
    "movement": 1
   },
@@ -374,14 +374,8 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "3rd in Group G (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "GER": {
    "code": "GER",
@@ -598,12 +592,12 @@
    "lost": 0,
    "gf": 2,
    "ga": 2,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-21",
-     "desc": "2nd in Group G (live)",
-     "points": 3
+     "desc": "3rd in Group G (live)",
+     "points": 1
     }
    ]
   },
@@ -747,8 +741,14 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 0,
-   "events": []
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-22",
+     "desc": "2nd in Group G (live)",
+     "points": 3
+    }
+   ]
   },
   "CAN": {
    "code": "CAN",
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T01:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "59'",
-   "clock_sec": 3540.0,
-   "status_detail": "59'",
+   "clock": "60'",
+   "clock_sec": 3600.0,
+   "status_detail": "60'",
    "venue": "BC Place",
    "odds": {
     "home": 5.25,
@@ -1238,7 +1238,7 @@
     "name": "Egypt",
     "flag": "🇪🇬",
     "owner": "Brando",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3629,18 +3629,35 @@
      "group": "Group G",
      "code": "NZL",
      "p": 2,
-     "w": 1,
-     "d": 1,
+     "w": 0,
+     "d": 2,
      "l": 0,
      "gf": 3,
-     "ga": 2,
-     "pts": 4,
+     "ga": 3,
+     "pts": 2,
      "live": true,
-     "gd": 1,
+     "gd": 0,
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
      "owner": "Willo"
+    },
+    {
+     "group": "Group G",
+     "code": "EGY",
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gf": 2,
+     "ga": 2,
+     "pts": 2,
+     "live": true,
+     "gd": 0,
+     "name": "Egypt",
+     "flag": "🇪🇬",
+     "tier": 2,
+     "owner": "Brando"
     },
     {
      "group": "Group G",
@@ -3675,23 +3692,6 @@
      "flag": "🇧🇪",
      "tier": 1,
      "owner": "Pari"
-    },
-    {
-     "group": "Group G",
-     "code": "EGY",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 1,
-     "live": true,
-     "gd": -1,
-     "name": "Egypt",
-     "flag": "🇪🇬",
-     "tier": 2,
-     "owner": "Brando"
     }
    ]
   },
