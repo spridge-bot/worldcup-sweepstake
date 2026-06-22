@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T09:53:53+00:00",
+ "generated_at": "2026-06-22T09:59:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2414,7 +2414,7 @@
    "odds": {
     "home": 1.08,
     "draw": 12.0,
-    "away": 31.0,
+    "away": 29.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -5270,6 +5270,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Iran leave note asking for peace after Belgium draw",
+   "desc": "Iran leave a message saying \"may peace, respect and friendship prevail among all nations\" following their World Cup group game with Belgium.",
+   "link": "https://www.bbc.com/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T09:54:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/80f1/live/cc9a4d00-6e1c-11f1-806d-d1ff7e093f07.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel not afraid to shout at England players - Watkins",
    "desc": "Ollie Watkins says Thomas Tuchel is \"not afraid\" to shout at England players as the manager aims to maintain training standards at the World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss",
@@ -5294,15 +5303,6 @@
    "published": "2026-06-21T13:55:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Unbeaten Iran will go down in history - Ghalenoei",
-   "desc": "Iran coach Amir Ghalenoei believes his side's unbeaten start to the World Cup will be talked about for years to come given the disruption they have faced before and during the tournament.",
-   "link": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T00:24:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03e9/live/e9674050-6dcc-11f1-81d6-99f5ebd04f90.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5342,12 +5342,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Doku criticised over plan to return home for birth",
-   "desc": "Winger Jeremy Doku is criticised for saying he wants to leave Belgium's World Cup camp to be with his wife when she gives birth to their first child.",
-   "link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-20T23:21:21Z",
+   "headline": "Unbeaten Iran will go down in history - Ghalenoei",
+   "desc": "Iran coach Amir Ghalenoei believes his side's unbeaten start to the World Cup will be talked about for years to come given the disruption they have faced before and during the tournament.",
+   "link": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T00:24:24Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03e9/live/e9674050-6dcc-11f1-81d6-99f5ebd04f90.jpg",
    "source": "BBC Sport"
   }
  ]
