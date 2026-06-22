@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T01:01:04+00:00",
+ "generated_at": "2026-06-22T01:01:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 14,
+   "today": 3,
+   "rank": 1,
+   "movement": 2
+  },
+  {
    "name": "George",
    "teams": [
     "BRA",
@@ -41,21 +54,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 12,
-   "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Dipen",
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 0,
    "rank": 4,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -156,10 +156,10 @@
     "TUN",
     "UZB"
    ],
-   "total": 6,
-   "today": 6,
-   "rank": 10,
-   "movement": 2
+   "total": 4,
+   "today": 4,
+   "rank": 11,
+   "movement": 1
   },
   {
    "name": "Dubs",
@@ -374,12 +374,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-21",
-     "desc": "2nd in Group G (live)",
-     "points": 3
+     "desc": "3rd in Group G (live)",
+     "points": 1
     }
    ]
   },
@@ -1199,17 +1199,49 @@
    "lost": 0,
    "gf": 2,
    "ga": 2,
-   "total": 1,
+   "total": 3,
    "events": [
     {
-     "date": "2026-06-16",
-     "desc": "3rd in Group G (live)",
-     "points": 1
+     "date": "2026-06-22",
+     "desc": "2nd in Group G (live)",
+     "points": 3
     }
    ]
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760452,
+   "utc": "2026-06-22T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group G",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 5.25,
+    "draw": 4.2,
+    "away": 1.62,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "NZL",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "owner": "Willo",
+    "goals": 0
+   },
+   "away": {
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760450,
@@ -2350,31 +2382,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760452,
-   "utc": "2026-06-22T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "odds": {
-    "home": 5.25,
-    "draw": 4.2,
-    "away": 1.62,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "owner": "Willo",
-    "form": null
-   },
-   "away": {
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "form": null
-   }
-  },
   {
    "id": 760456,
    "utc": "2026-06-22T17:00:00Z",
@@ -3637,6 +3644,23 @@
     },
     {
      "group": "Group G",
+     "code": "NZL",
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gf": 2,
+     "ga": 2,
+     "pts": 2,
+     "live": true,
+     "gd": 0,
+     "name": "New Zealand",
+     "flag": "🇳🇿",
+     "tier": 3,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group G",
      "code": "BEL",
      "p": 2,
      "w": 0,
@@ -3654,32 +3678,15 @@
     },
     {
      "group": "Group G",
-     "code": "NZL",
-     "p": 1,
-     "w": 0,
-     "d": 1,
-     "l": 0,
-     "gf": 2,
-     "ga": 2,
-     "pts": 1,
-     "live": false,
-     "gd": 0,
-     "name": "New Zealand",
-     "flag": "🇳🇿",
-     "tier": 3,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group G",
      "code": "EGY",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 1,
      "ga": 1,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": 0,
      "name": "Egypt",
      "flag": "🇪🇬",
