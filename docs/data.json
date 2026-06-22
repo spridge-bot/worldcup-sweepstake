@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T16:23:51+00:00",
+ "generated_at": "2026-06-22T16:29:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -5324,6 +5324,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What is BBC's 3D Live Match Experience and how does it work?",
+   "desc": "BBC Sport's Ask Me Anything team explains the unique way of following matches during the 2026 World Cup via the BBC",
+   "link": "https://www.bbc.com/sport/articles/ckg5lx6d5pxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T16:23:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4bce/live/879a3ca0-6e4f-11f1-8e1d-bbbb1017d210.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
    "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
    "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
@@ -5339,15 +5348,6 @@
    "published": "2026-06-22T01:53:23Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The World Cup records that look set to be broken",
-   "desc": "The 2026 World Cup may only be 11 days old but the tournament has already rewritten football history. BBC Sport takes a look at the records already broken, or set to be.",
-   "link": "https://www.bbc.com/sport/football/articles/cpv3kkv4z4mo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T13:55:05Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg",
    "source": "BBC Sport"
   }
  ]
