@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T00:05:44+00:00",
+ "generated_at": "2026-06-22T00:11:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -2931,9 +2931,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.5,
-    "draw": 4.1,
-    "away": 2.55,
+    "home": 2.4,
+    "draw": 3.9,
+    "away": 2.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2941,7 +2941,7 @@
     "name": "Cabo Verde",
     "flag": "🇨🇻",
     "owner": "Dubs",
-    "form": "DWWLL"
+    "form": "DDWWL"
    },
    "away": {
     "name": "Saudi Arabia",
@@ -2966,7 +2966,7 @@
     "name": "Uruguay",
     "flag": "🇺🇾",
     "owner": "Pari",
-    "form": "DDDLD"
+    "form": "DDDDL"
    },
    "away": {
     "name": "Spain",
