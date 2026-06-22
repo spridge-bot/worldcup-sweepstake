@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T12:48:05+00:00",
+ "generated_at": "2026-06-22T12:53:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -5288,6 +5288,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Germany defender Schlotterbeck out of World Cup",
+   "desc": "Germany defender Nico Schlotterbeck is ruled out of the rest of the World Cup with an ankle injury.",
+   "link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T12:47:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8e9b/live/1484a940-6e30-11f1-9fdc-51e252bb92b4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Does it matter if Scotland lose and still make history?",
    "desc": "Does the performance, even the result, matter as long as Scotland qualify for the group stage of the World Cup after Wednesday's game against Brazil? Tom English ponders.",
    "link": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss",
@@ -5339,15 +5348,6 @@
    "published": "2026-06-21T19:27:01Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5f75/live/5b34b430-6da8-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Name the seven Scotland survivors from Clarke's first squad",
-   "desc": "Seven players from Steve Clarke's first Scotland squad are with the head coach at the 2026 World Cup - can you name them?",
-   "link": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T07:46:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/770e/live/4d5fb100-64ae-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
