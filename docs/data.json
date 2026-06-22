@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T21:46:06+00:00",
+ "generated_at": "2026-06-22T21:46:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -5265,6 +5265,15 @@
  ],
  "news": [
   {
+   "headline": "From retirement to records - another immortal Messi moment",
+   "desc": "Ten years after announcing he was quitting international football, Lionel Messi is still breaking records for reigning World Cup champions Argentina.",
+   "link": "https://www.bbc.com/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T21:43:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
    "desc": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s.",
    "link": "https://www.bbc.com/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
@@ -5301,6 +5310,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
+   "link": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-06T20:30:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Madueke's remarkable season - from petition to World Cup starter",
    "desc": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season.",
    "link": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
@@ -5316,15 +5334,6 @@
    "published": "2026-06-22T17:59:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9172/live/b485fa40-6d70-11f1-a2ba-775ae811ce10.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
-   "link": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-06T20:30:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5361,15 +5370,6 @@
    "published": "2026-06-22T12:01:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How Ferguson became Scotland's most influential World Cup player",
-   "desc": "BBC Scotland examines the impact of Bologna's Lewis Ferguson in the Scotland midfield going into the crunch game with Brazil.",
-   "link": "https://www.bbc.com/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T17:39:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg",
    "source": "BBC Sport"
   }
  ]
