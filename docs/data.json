@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T20:11:26+00:00",
+ "generated_at": "2026-06-22T20:16:39+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2418,9 +2418,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.07,
+    "home": 1.08,
     "draw": 12.0,
-    "away": 31.0,
+    "away": 29.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2868,9 +2868,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 3.55,
+    "home": 3.5,
     "draw": 4.0,
-    "away": 1.95,
+    "away": 2.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5339,6 +5339,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "TV pundit Bogdanovic apologises for racist comments",
+   "desc": "Former Atletico Madrid striker Rade Bogdanovic apologises for racist comments he made towards black players during a live World Cup broadcast on Serbian television.",
+   "link": "https://www.bbc.com/sport/football/articles/cvg74ke150zo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T20:07:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6d2d/live/d4cf0460-6e72-11f1-af12-adba0638fbd4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
    "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
    "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
@@ -5354,15 +5363,6 @@
    "published": "2026-06-22T17:39:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A defender's view on how to stop the World Cup's best strikers",
-   "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
-   "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T08:10:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg",
    "source": "BBC Sport"
   }
  ]
