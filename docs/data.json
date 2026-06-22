@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T17:39:36+00:00",
+ "generated_at": "2026-06-22T17:40:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "38'",
-   "clock_sec": 2280.0,
-   "status_detail": "38'",
+   "clock": "39'",
+   "clock_sec": 2340.0,
+   "status_detail": "39'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.62,
@@ -1231,7 +1231,7 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "AUT",
@@ -3854,14 +3854,14 @@
      "group": "Group J",
      "code": "ARG",
      "p": 2,
-     "w": 1,
-     "d": 1,
+     "w": 2,
+     "d": 0,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 0,
-     "pts": 4,
+     "pts": 6,
      "live": true,
-     "gd": 3,
+     "gd": 4,
      "name": "Argentina",
      "flag": "🇦🇷",
      "tier": 1,
@@ -3872,13 +3872,13 @@
      "code": "AUT",
      "p": 2,
      "w": 1,
-     "d": 1,
-     "l": 0,
+     "d": 0,
+     "l": 1,
      "gf": 3,
-     "ga": 1,
-     "pts": 4,
+     "ga": 2,
+     "pts": 3,
      "live": true,
-     "gd": 2,
+     "gd": 1,
      "name": "Austria",
      "flag": "🇦🇹",
      "tier": 2,
@@ -4784,6 +4784,14 @@
  ],
  "scorers": [
   {
+   "player": "Lionel Messi",
+   "team": "ARG",
+   "goals": 4,
+   "assists": 0,
+   "flag": "🇦🇷",
+   "owner": "Fergs"
+  },
+  {
    "player": "Deniz Undav",
    "team": "GER",
    "goals": 3,
@@ -4798,14 +4806,6 @@
    "assists": 0,
    "flag": "🇨🇦",
    "owner": "Dipen"
-  },
-  {
-   "player": "Lionel Messi",
-   "team": "ARG",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇦🇷",
-   "owner": "Fergs"
   },
   {
    "player": "Ayase Ueda",
