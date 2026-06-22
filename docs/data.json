@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T18:17:42+00:00",
+ "generated_at": "2026-06-22T18:18:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "52'",
-   "clock_sec": 3120.0,
-   "status_detail": "52'",
+   "clock": "54'",
+   "clock_sec": 3240.0,
+   "status_detail": "54'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 1.62,
@@ -5313,6 +5313,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How Ferguson became Scotland's most influential World Cup player",
+   "desc": "BBC Scotland examines the impact of Bologna's Lewis Ferguson in the Scotland midfield going into the crunch game with Brazil.",
+   "link": "https://www.bbc.com/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T17:39:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A defender's view on how to stop the World Cup's best strikers",
    "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
    "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
@@ -5346,15 +5355,6 @@
    "published": "2026-06-21T21:39:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What is BBC's 3D Live Match Experience and how does it work?",
-   "desc": "BBC Sport's Ask Me Anything team explains the unique way of following matches during the 2026 World Cup via the BBC",
-   "link": "https://www.bbc.com/sport/articles/ckg5lx6d5pxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T16:23:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4bce/live/879a3ca0-6e4f-11f1-8e1d-bbbb1017d210.png",
    "source": "BBC Sport"
   }
  ]
