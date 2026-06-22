@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T08:07:38+00:00",
+ "generated_at": "2026-06-22T08:13:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2412,8 +2412,8 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.07,
-    "draw": 13.0,
+    "home": 1.08,
+    "draw": 12.0,
     "away": 31.0,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -5279,6 +5279,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How sweltering Scotland can handle World Cup heat",
+   "desc": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Brazil.",
+   "link": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T07:43:16Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Lamine Yamal shows why this could be his World Cup",
    "desc": "Spain looked an instantly better team with Lamine Yamal in the side, with the 18-year-old showing why this could be his World Cup.",
    "link": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
@@ -5330,15 +5339,6 @@
    "published": "2026-06-21T04:29:28Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6da1/live/cc8be0e0-6d26-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From Belfast to the World Cup - McDermott's American odyssey",
-   "desc": "Mick McDermott tells BBC Sport NI of his pride at being involved with Ghana at the World Cup, his relationship with Carlos Quieroz and their hopes of shocking England on Tuesday.",
-   "link": "https://www.bbc.com/sport/football/articles/cgqj7q25q35o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T06:53:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a811/live/44667bf0-6d7e-11f1-a2ba-775ae811ce10.jpg",
    "source": "BBC Sport"
   },
   {
