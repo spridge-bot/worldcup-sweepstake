@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T12:00:35+00:00",
+ "generated_at": "2026-06-22T12:05:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2412,7 +2412,7 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.08,
+    "home": 1.09,
     "draw": 12.0,
     "away": 29.0,
     "over_under": 3.5,
@@ -2662,8 +2662,8 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 8.0,
-    "draw": 5.0,
+    "home": 7.5,
+    "draw": 5.25,
     "away": 1.39,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5270,6 +5270,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
+   "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
+   "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T12:01:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/41c9/live/5f36ec70-6db1-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A defender's view on how to stop the World Cup's best strikers",
    "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
    "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
@@ -5279,21 +5288,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
-   "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
-   "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T04:23:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Does it matter if Scotland lose and still make history?",
    "desc": "Does the performance, even the result, matter as long as Scotland qualify for the group stage of the World Cup after Wednesday's game against Brazil? Tom English ponders.",
    "link": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-21T21:39:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
+   "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
+   "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T04:23:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5339,15 +5348,6 @@
    "published": "2026-06-22T07:46:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/770e/live/4d5fb100-64ae-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How sweltering Scotland can handle World Cup heat",
-   "desc": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Brazil.",
-   "link": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T07:43:16Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
