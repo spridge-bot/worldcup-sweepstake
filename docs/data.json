@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T01:57:20+00:00",
+ "generated_at": "2026-06-22T01:58:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -2988,9 +2988,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 2.25,
-    "draw": 2.9,
-    "away": 4.0,
+    "home": 2.3,
+    "draw": 2.85,
+    "away": 3.85,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -5235,6 +5235,15 @@
  ],
  "news": [
   {
+   "headline": "One of World Cup's great stories - can Cape Verde become legends?",
+   "desc": "Cape Verde's impressive World Cup continues with a draw against two-time winners Uruguay - and they will now be looking to make the last 32.",
+   "link": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T01:53:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Unbeaten Iran will go down in history - Ghalenoei",
    "desc": "Iran coach Amir Ghalenoei believes his side's unbeaten start to the World Cup will be talked about for years to come given the disruption they have faced before and during the tournament.",
    "link": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss",
@@ -5277,15 +5286,6 @@
    "published": "2026-06-21T13:27:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/734e/live/2dc74eb0-6d6f-11f1-a2ba-775ae811ce10.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "All three England keepers played there - Carlisle's role in trio's rise",
-   "desc": "From west Cumbria to the World Cup, Carlisle is England's goalkeeper factory, with all of Thomas Tuchel's goalkeepers passing through the club.",
-   "link": "https://www.bbc.com/sport/football/articles/ckg4qw57d4do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T10:43:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ac9e/live/4957c8e0-6bf7-11f1-8bf6-931d18012412.png",
    "source": "BBC Sport"
   },
   {
