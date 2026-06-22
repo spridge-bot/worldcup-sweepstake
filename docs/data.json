@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T16:51:08+00:00",
+ "generated_at": "2026-06-22T16:56:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2562,9 +2562,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.51,
-    "draw": 4.2,
-    "away": 7.0,
+    "home": 1.54,
+    "draw": 4.1,
+    "away": 6.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5288,15 +5288,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
-   "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
-   "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T12:01:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "A defender's view on how to stop the World Cup's best strikers",
    "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
    "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
@@ -5348,6 +5339,15 @@
    "published": "2026-06-22T01:53:23Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The World Cup records that look set to be broken",
+   "desc": "The 2026 World Cup may only be 11 days old but the tournament has already rewritten football history. BBC Sport takes a look at the records already broken, or set to be.",
+   "link": "https://www.bbc.com/sport/football/articles/cpv3kkv4z4mo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-21T13:55:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg",
    "source": "BBC Sport"
   }
  ]
