@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T10:51:58+00:00",
+ "generated_at": "2026-06-22T10:57:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2538,8 +2538,8 @@
    "group": "Group L",
    "odds": {
     "home": 6.5,
-    "draw": 4.1,
-    "away": 1.54,
+    "draw": 4.2,
+    "away": 1.51,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5243,30 +5243,12 @@
  ],
  "news": [
   {
-   "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
-   "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
-   "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T04:23:40Z",
+   "headline": "Madueke's remarkable season - from petition to World Cup starter",
+   "desc": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season.",
+   "link": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T10:47:17Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A defender's view on how to stop the World Cup's best strikers",
-   "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
-   "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T08:10:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "One of World Cup's great stories - can Cape Verde become legends?",
-   "desc": "Cape Verde's impressive World Cup continues with a draw against two-time winners Uruguay - and they will now be looking to make the last 32.",
-   "link": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T01:53:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/38b4/live/8b578340-6dc1-11f1-99a1-adc31e23373a.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5288,12 +5270,39 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "A defender's view on how to stop the World Cup's best strikers",
+   "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
+   "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T08:10:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
+   "desc": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut.",
+   "link": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T04:23:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Does it matter if Scotland lose and still make history?",
    "desc": "Does the performance, even the result, matter as long as Scotland qualify for the group stage of the World Cup after Wednesday's game against Brazil? Tom English ponders.",
    "link": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-21T21:39:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "One of World Cup's great stories - can Cape Verde become legends?",
+   "desc": "Cape Verde's impressive World Cup continues with a draw against two-time winners Uruguay - and they will now be looking to make the last 32.",
+   "link": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T01:53:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5339,15 +5348,6 @@
    "published": "2026-06-22T07:43:16Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The beauty of sharing your child's first World Cup",
-   "desc": "There is nothing like the first World Cup you can enjoy with your kid - and the wide-eyed wonder through which they see it.",
-   "link": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-21T13:27:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/734e/live/2dc74eb0-6d6f-11f1-a2ba-775ae811ce10.jpg",
    "source": "BBC Sport"
   }
  ]
