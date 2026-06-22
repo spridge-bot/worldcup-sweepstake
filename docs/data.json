@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T21:08:59+00:00",
+ "generated_at": "2026-06-22T21:09:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-22T21:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "8'",
-   "clock_sec": 480.0,
-   "status_detail": "8'",
+   "clock": "9'",
+   "clock_sec": 540.0,
+   "status_detail": "9'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.11,
@@ -5286,7 +5286,7 @@
    "headline": "Fans delayed entry as bad weather affects France-Iraq tie",
    "desc": "Fans have been told not to travel to the Philadelphia Stadium for Monday's World Cup game between France and Iraq because of \"inclement weather in the region\".",
    "link": "https://www.bbc.com/sport/football/articles/cn4d7g5xxw8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T18:49:50Z",
+   "published": "2026-06-22T21:08:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e445/live/4443f560-6e66-11f1-8210-9f83f81a69da.jpg",
    "source": "BBC Sport"
