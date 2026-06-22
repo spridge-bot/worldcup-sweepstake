@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T00:05:02+00:00",
+ "generated_at": "2026-06-22T00:05:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-21",
  "scoring": {
@@ -500,12 +500,12 @@
    "fifa_rank": 16,
    "owner": "Pari",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
+   "gf": 3,
+   "ga": 3,
    "total": 3,
    "events": [
     {
@@ -1113,12 +1113,12 @@
    "fifa_rank": 55,
    "owner": "Dubs",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
-   "gf": 0,
-   "ga": 0,
+   "gf": 2,
+   "ga": 2,
    "total": 1,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    ]
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760450,
+   "date": "2026-06-21",
    "utc": "2026-06-21T22:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "Hard Rock Stadium",
+   "note": "",
+   "home": {
+    "code": "URU",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "tier": 3,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 1.47,
     "draw": 4.4,
     "away": 8.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "URU",
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "owner": "Pari",
-    "goals": 2
-   },
-   "away": {
-    "code": "CPV",
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760451,
    "date": "2026-06-21",
@@ -3719,7 +3718,7 @@
      "gf": 3,
      "ga": 3,
      "pts": 2,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Uruguay",
      "flag": "🇺🇾",
@@ -3736,7 +3735,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 2,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Cabo Verde",
      "flag": "🇨🇻",
@@ -5002,6 +5001,15 @@
    "pts": 3
   },
   {
+   "code": "CPV",
+   "name": "Cabo Verde",
+   "flag": "🇨🇻",
+   "owner": "Dubs",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "CAN",
    "name": "Canada",
    "flag": "🇨🇦",
@@ -5119,19 +5127,19 @@
    "pts": 2
   },
   {
+   "code": "URU",
+   "name": "Uruguay",
+   "flag": "🇺🇾",
+   "owner": "Pari",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "AUT",
    "name": "Austria",
    "flag": "🇦🇹",
    "owner": "George",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "CPV",
-   "name": "Cabo Verde",
-   "flag": "🇨🇻",
-   "owner": "Dubs",
    "yellow": 1,
    "red": 0,
    "pts": 1
