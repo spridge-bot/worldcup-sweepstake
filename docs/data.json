@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T08:23:30+00:00",
+ "generated_at": "2026-06-23T08:28:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -3037,9 +3037,9 @@
    "group": "Group G",
    "odds": {
     "home": 14.0,
-    "draw": 6.5,
-    "away": 1.22,
-    "over_under": 2.5,
+    "draw": 7.0,
+    "away": 1.21,
+    "over_under": 3.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -5357,6 +5357,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Unpaid bonuses and food issues - what's going on inside Senegal camp?",
+   "desc": "Senegal's start to the World Cup has been overshadowed by a series of issues behind the scenes.",
+   "link": "https://www.bbc.com/sport/football/articles/cz6v0jn8368o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T08:21:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d23b/live/b2944750-6dbb-11f1-af30-fd5554657267.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why Scotland can't play for draw or narrow defeat against Brazil",
    "desc": "A draw or even narrow defeat could mean Scotland qualify for the knockout stage of the World Cup. But how difficult is it to play a game you do not need to win?",
    "link": "https://www.bbc.com/sport/football/articles/c79ylvq54e9o?at_medium=RSS&at_campaign=rss",
@@ -5390,15 +5399,6 @@
    "published": "2026-06-22T09:54:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/80f1/live/cc9a4d00-6e1c-11f1-806d-d1ff7e093f07.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
-   "desc": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?",
-   "link": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T12:01:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg",
    "source": "BBC Sport"
   }
  ]
