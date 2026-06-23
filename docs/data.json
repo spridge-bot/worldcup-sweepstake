@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:01:10+00:00",
+ "generated_at": "2026-06-23T17:01:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -19,6 +19,19 @@
  },
  "players": [
   {
+   "name": "Dipen",
+   "teams": [
+    "POR",
+    "MEX",
+    "CAN",
+    "RSA"
+   ],
+   "total": 13,
+   "today": 3,
+   "rank": 1,
+   "movement": 3
+  },
+  {
    "name": "George",
    "teams": [
     "BRA",
@@ -28,8 +41,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 1,
-   "movement": 0
+   "rank": 2,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -41,21 +54,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Dipen",
-   "teams": [
-    "POR",
-    "MEX",
-    "CAN",
-    "RSA"
-   ],
-   "total": 11,
-   "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -67,8 +67,8 @@
    ],
    "total": 11,
    "today": 3,
-   "rank": 2,
-   "movement": 6
+   "rank": 3,
+   "movement": 5
   },
   {
    "name": "Jen",
@@ -80,21 +80,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 11,
-   "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -106,8 +93,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 7,
-   "movement": -1
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Emily",
@@ -119,7 +106,7 @@
    ],
    "total": 9,
    "today": 0,
-   "rank": 8,
+   "rank": 7,
    "movement": -1
   },
   {
@@ -132,8 +119,21 @@
    ],
    "total": 9,
    "today": 1,
-   "rank": 8,
-   "movement": 0
+   "rank": 7,
+   "movement": 1
+  },
+  {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 9,
+   "today": 0,
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -282,12 +282,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
+   "total": 3,
    "events": [
     {
-     "date": "2026-06-17",
-     "desc": "3rd in Group K (live)",
-     "points": 1
+     "date": "2026-06-23",
+     "desc": "2nd in Group K (live)",
+     "points": 3
     }
    ]
   },
@@ -960,12 +960,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-17",
-     "desc": "2nd in Group K (live)",
-     "points": 3
+     "desc": "3rd in Group K (live)",
+     "points": 1
     }
    ]
   },
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760461,
+   "utc": "2026-06-23T17:00:00Z",
+   "stage": "Group stage",
+   "group": "Group K",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "NRG Stadium",
+   "odds": {
+    "home": 1.24,
+    "draw": 6.5,
+    "away": 12.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "owner": "Pari",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760455,
@@ -2505,31 +2537,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760461,
-   "utc": "2026-06-23T17:00:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 1.14,
-    "draw": 8.5,
-    "away": 20.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "DWWWD"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "owner": "Pari",
-    "form": "LLLWW"
-   }
-  },
   {
    "id": 760458,
    "utc": "2026-06-23T20:00:00Z",
@@ -3959,6 +3966,23 @@
     },
     {
      "group": "Group K",
+     "code": "POR",
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
+     "pts": 2,
+     "live": true,
+     "gd": 0,
+     "name": "Portugal",
+     "flag": "🇵🇹",
+     "tier": 1,
+     "owner": "Dipen"
+    },
+    {
+     "group": "Group K",
      "code": "COD",
      "p": 1,
      "w": 0,
@@ -3976,32 +4000,15 @@
     },
     {
      "group": "Group K",
-     "code": "POR",
-     "p": 1,
+     "code": "UZB",
+     "p": 2,
      "w": 0,
      "d": 1,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 1,
-     "live": false,
-     "gd": 0,
-     "name": "Portugal",
-     "flag": "🇵🇹",
-     "tier": 1,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group K",
-     "code": "UZB",
-     "p": 1,
-     "w": 0,
-     "d": 0,
      "l": 1,
      "gf": 1,
      "ga": 3,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -2,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
