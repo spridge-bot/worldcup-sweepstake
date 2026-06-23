@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T04:45:08+00:00",
+ "generated_at": "2026-06-23T04:45:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -32,19 +32,6 @@
    "movement": 0
   },
   {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 12,
-   "today": 4,
-   "rank": 1,
-   "movement": 7
-  },
-  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -54,8 +41,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 2,
+   "movement": 0
   },
   {
    "name": "Dipen",
@@ -67,8 +54,21 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 2,
+   "movement": 0
+  },
+  {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 11,
+   "today": 3,
+   "rank": 2,
+   "movement": 6
   },
   {
    "name": "Jen",
@@ -80,8 +80,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 2,
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -93,8 +93,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 2,
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -130,10 +130,10 @@
     "ALG",
     "QAT"
    ],
-   "total": 8,
-   "today": 0,
-   "rank": 9,
-   "movement": -1
+   "total": 9,
+   "today": 1,
+   "rank": 8,
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -730,8 +730,14 @@
    "lost": 1,
    "gf": 0,
    "ga": 3,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-23",
+     "desc": "3rd in Group J (live)",
+     "points": 1
+    }
+   ]
   },
   "EGY": {
    "code": "EGY",
@@ -1079,14 +1085,8 @@
    "lost": 1,
    "gf": 1,
    "ga": 3,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "3rd in Group J (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "BIH": {
    "code": "BIH",
@@ -1238,7 +1238,7 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -3904,37 +3904,37 @@
     },
     {
      "group": "Group J",
-     "code": "JOR",
+     "code": "ALG",
      "p": 2,
-     "w": 0,
-     "d": 1,
+     "w": 1,
+     "d": 0,
      "l": 1,
      "gf": 2,
      "ga": 4,
-     "pts": 1,
+     "pts": 3,
      "live": true,
      "gd": -2,
-     "name": "Jordan",
-     "flag": "🇯🇴",
-     "tier": 3,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group J",
-     "code": "ALG",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 1,
-     "ga": 4,
-     "pts": 1,
-     "live": true,
-     "gd": -3,
      "name": "Algeria",
      "flag": "🇩🇿",
      "tier": 2,
      "owner": "Ruggy"
+    },
+    {
+     "group": "Group J",
+     "code": "JOR",
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 2,
+     "ga": 5,
+     "pts": 0,
+     "live": true,
+     "gd": -3,
+     "name": "Jordan",
+     "flag": "🇯🇴",
+     "tier": 3,
+     "owner": "Glancy"
     }
    ]
   },
