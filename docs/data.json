@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T10:15:29+00:00",
+ "generated_at": "2026-06-23T10:20:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5348,6 +5348,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Relive every World Cup match with BBC Sport's 3D Experience",
+   "desc": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? You can now watch every match back in full with BBC Sport's 3D Experience.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T10:08:27Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8018/live/6a4985a0-6ee7-11f1-92d8-97879fd3f743.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5390,15 +5399,6 @@
    "published": "2026-06-22T19:50:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e92a/live/189d38c0-6e72-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Madueke's remarkable season - from petition to World Cup starter",
-   "desc": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T10:47:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/38b4/live/8b578340-6dc1-11f1-99a1-adc31e23373a.jpg",
    "source": "BBC Sport"
   }
  ]
