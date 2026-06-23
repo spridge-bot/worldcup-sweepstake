@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:50:33+00:00",
+ "generated_at": "2026-06-23T17:51:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5301,6 +5301,15 @@
  ],
  "news": [
   {
+   "headline": "Trump to attend World Cup final and present trophy",
+   "desc": "United States president Donald Trump will attend the World Cup final and help present the trophy, says Fifa president Gianni Infantino.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cze9wp8r6lno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T17:47:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6e22/live/8a35fb70-6f26-11f1-adf9-6fa2b518a522.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Have World Cup changes made final group stage games unfair?",
    "desc": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
@@ -5346,21 +5355,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Anderson's journey to England star and potential British record",
-   "desc": "Elliot Anderson has emerged as a key part of Thomas Tuchel's England side, and could be on the verge of a British record transfer.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T10:30:50Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/22bf/live/6eb17710-6e4c-11f1-a347-e763b04aee4e.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Anderson's journey to England star and potential British record",
+   "desc": "Elliot Anderson has emerged as a key part of Thomas Tuchel's England side, and could be on the verge of a British record transfer.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T10:30:50Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/22bf/live/6eb17710-6e4c-11f1-a347-e763b04aee4e.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5397,15 +5406,6 @@
    "published": "2026-06-23T12:20:12Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a0a1/live/48cbc700-6ee0-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who are the Ghana players England should look out for?",
-   "desc": "England face Ghana in their next World Cup match as both sides look to secure a place in the next round. BBC Sport takes a look at the Ghana players to look out for.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz75wypyq1ro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T13:09:46Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f29d/live/a04c0ec0-6dc5-11f1-99a1-adc31e23373a.jpg",
    "source": "BBC Sport"
   }
  ]
