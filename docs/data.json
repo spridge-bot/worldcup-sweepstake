@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T01:13:01+00:00",
+ "generated_at": "2026-06-23T01:13:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T00:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "53'",
-   "clock_sec": 3180.0,
-   "status_detail": "53'",
+   "clock": "54'",
+   "clock_sec": 3240.0,
+   "status_detail": "54'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 2.15,
@@ -1238,7 +1238,7 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3814,10 +3814,10 @@
      "d": 0,
      "l": 0,
      "gf": 6,
-     "ga": 1,
+     "ga": 2,
      "pts": 6,
      "live": true,
-     "gd": 5,
+     "gd": 4,
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
@@ -3830,11 +3830,11 @@
      "w": 0,
      "d": 0,
      "l": 2,
-     "gf": 1,
+     "gf": 2,
      "ga": 5,
      "pts": 0,
      "live": true,
-     "gd": -4,
+     "gd": -3,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
