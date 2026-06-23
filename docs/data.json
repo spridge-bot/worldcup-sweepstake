@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T16:40:28+00:00",
+ "generated_at": "2026-06-23T16:45:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5294,6 +5294,15 @@
  ],
  "news": [
   {
+   "headline": "Have World Cup changes damaged the final round of the group stage?",
+   "desc": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T16:44:13Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f376/live/dcd06300-6f05-11f1-87e9-1dc598ae70b3.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Will England fans in Boston follow Scotland's lead?",
    "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
@@ -5330,15 +5339,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How do you solve a problem like Ronaldo?",
-   "desc": "Portugal take on Uzbekistan with Cristiano Ronaldo in poor form for his country and a backlash raging on social media against his team-mates.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c2ly7gz8p0qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T09:30:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/234f/live/8a731010-6e58-11f1-b9d0-a3be33cbfa13.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Anderson's journey to England star and potential British record",
    "desc": "Elliot Anderson has emerged as a key part of Thomas Tuchel's England side, and could be on the verge of a British record transfer.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
@@ -5354,6 +5354,15 @@
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "How do you solve a problem like Ronaldo?",
+   "desc": "Portugal take on Uzbekistan with Cristiano Ronaldo in poor form for his country and a backlash raging on social media against his team-mates.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2ly7gz8p0qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T09:30:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/234f/live/8a731010-6e58-11f1-b9d0-a3be33cbfa13.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5390,15 +5399,6 @@
    "published": "2026-06-23T13:09:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f29d/live/a04c0ec0-6dc5-11f1-99a1-adc31e23373a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
-   "desc": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T19:08:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e3b/live/da3e5cc0-6a3f-11f1-924d-c9a0db71699c.jpg",
    "source": "BBC Sport"
   }
  ]
