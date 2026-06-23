@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T13:51:17+00:00",
+ "generated_at": "2026-06-23T13:56:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5294,6 +5294,15 @@
  ],
  "news": [
   {
+   "headline": "Will England fans in Boston follow Scotland's lead?",
+   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T13:52:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cce2/live/3ccea340-6f09-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "From non-league to the World Cup - the Semenyo story",
    "desc": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
@@ -5348,21 +5357,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The World Cup stars being targeted by Premier League clubs",
-   "desc": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T12:20:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a0a1/live/48cbc700-6ee0-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The World Cup stars being targeted by Premier League clubs",
+   "desc": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T12:20:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a0a1/live/48cbc700-6ee0-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5390,15 +5399,6 @@
    "published": "2026-06-23T03:21:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2661/live/810e39b0-6e9d-11f1-9007-ad3121b71ef1.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Relive every World Cup match with BBC Sport's 3D Experience",
-   "desc": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? You can now watch every match back in full with BBC Sport's 3D Experience.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T10:08:27Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8018/live/6a4985a0-6ee7-11f1-92d8-97879fd3f743.png",
    "source": "BBC Sport"
   }
  ]
