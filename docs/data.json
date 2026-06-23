@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-23T02:00:10+00:00",
+ "generated_at": "2026-06-23T02:00:49+00:00",
  "mode": "live",
- "latest_day": "2026-06-22",
+ "latest_day": "2026-06-23",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,9 @@
     "GHA"
    ],
    "total": 12,
-   "today": 3,
+   "today": 0,
    "rank": 1,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Glancy",
@@ -42,7 +42,7 @@
    "total": 12,
    "today": 3,
    "rank": 1,
-   "movement": 3
+   "movement": 6
   },
   {
    "name": "Brando",
@@ -53,9 +53,9 @@
     "KSA"
    ],
    "total": 11,
-   "today": 5,
+   "today": 0,
    "rank": 3,
-   "movement": 5
+   "movement": -1
   },
   {
    "name": "Dipen",
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -94,7 +94,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -105,9 +105,9 @@
     "BIH"
    ],
    "total": 10,
-   "today": 5,
+   "today": 0,
    "rank": 7,
-   "movement": 2
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -120,7 +120,7 @@
    "total": 9,
    "today": 0,
    "rank": 8,
-   "movement": -4
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -133,7 +133,7 @@
    "total": 8,
    "today": 0,
    "rank": 9,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -144,9 +144,9 @@
     "CUW"
    ],
    "total": 7,
-   "today": 6,
+   "today": 1,
    "rank": 10,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -159,7 +159,7 @@
    "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -172,7 +172,7 @@
    "total": 2,
    "today": 0,
    "rank": 12,
-   "movement": -1
+   "movement": 0
   }
  ],
  "teams": {
@@ -477,12 +477,12 @@
    "fifa_rank": 15,
    "owner": "Fergs",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "gf": 1,
-   "ga": 3,
+   "lost": 2,
+   "gf": 3,
+   "ga": 6,
    "total": 1,
    "events": [
     {
@@ -787,12 +787,12 @@
    "fifa_rank": 31,
    "owner": "Glancy",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 4,
-   "ga": 1,
+   "gf": 7,
+   "ga": 3,
    "total": 3,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760454,
+   "date": "2026-06-23",
    "utc": "2026-06-23T00:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "90'+10'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+10'",
-   "venue": "MetLife Stadium",
+   "note": "",
+   "home": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "tier": 2,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "SEN",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 2.15,
     "draw": 3.6,
     "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NOR",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "goals": 3
-   },
-   "away": {
-    "code": "SEN",
-    "name": "Senegal",
-    "flag": "🇸🇳",
-    "owner": "Fergs",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760457,
    "date": "2026-06-22",
@@ -2916,7 +2915,7 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "form": "WDWDL"
+    "form": "WWDWD"
    },
    "away": {
     "name": "France",
@@ -3816,7 +3815,7 @@
      "gf": 7,
      "ga": 3,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "Norway",
      "flag": "🇳🇴",
@@ -3833,7 +3832,7 @@
      "gf": 3,
      "ga": 6,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -3,
      "name": "Senegal",
      "flag": "🇸🇳",
