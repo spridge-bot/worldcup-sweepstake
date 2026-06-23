@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T01:07:46+00:00",
+ "generated_at": "2026-06-23T01:08:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T00:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "48'",
-   "clock_sec": 2880.0,
-   "status_detail": "48'",
+   "clock": "49'",
+   "clock_sec": 2940.0,
+   "status_detail": "49'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 2.15,
@@ -1231,7 +1231,7 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "SEN",
@@ -3813,11 +3813,11 @@
      "w": 2,
      "d": 0,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 1,
      "pts": 6,
      "live": true,
-     "gd": 4,
+     "gd": 5,
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
@@ -3831,10 +3831,10 @@
      "d": 0,
      "l": 2,
      "gf": 1,
-     "ga": 4,
+     "ga": 5,
      "pts": 0,
      "live": true,
-     "gd": -3,
+     "gd": -4,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
@@ -4820,6 +4820,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Erling Haaland",
+   "team": "NOR",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇳🇴",
+   "owner": "Glancy"
+  },
+  {
    "player": "Jonathan David",
    "team": "CAN",
    "goals": 3,
@@ -4882,14 +4890,6 @@
    "assists": 0,
    "flag": "🇳🇿",
    "owner": "Willo"
-  },
-  {
-   "player": "Erling Haaland",
-   "team": "NOR",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇴",
-   "owner": "Glancy"
   },
   {
    "player": "Folarin Balogun",
