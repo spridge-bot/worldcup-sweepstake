@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T20:39:00+00:00",
+ "generated_at": "2026-06-23T20:39:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "38'",
-   "clock_sec": 2280.0,
-   "status_detail": "38'",
+   "clock": "39'",
+   "clock_sec": 2340.0,
+   "status_detail": "39'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.32,
@@ -5307,6 +5307,15 @@
  ],
  "news": [
   {
+   "headline": "Deschamps returns to France after death of his mother",
+   "desc": "France head coach Didier Deschamps will miss his side's final World Cup group game following the death of his mother, the French Football Federation confirms.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T20:33:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0a0/live/390720e0-6f3e-11f1-a91d-9509c96f4739.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Trump to attend World Cup final and present trophy",
    "desc": "United States president Donald Trump will attend the World Cup final and help present the trophy, says Fifa president Gianni Infantino.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cze9wp8r6lno?at_medium=RSS&at_campaign=rss",
@@ -5349,15 +5358,6 @@
    "published": "2026-06-23T18:16:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d007/live/6bb5cef0-6f2b-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Will England fans in Boston follow Scotland's lead?",
-   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T13:52:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81fa/live/0b5f04e0-6f1c-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
