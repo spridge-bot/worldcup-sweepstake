@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T03:25:30+00:00",
+ "generated_at": "2026-06-23T03:26:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2712,9 +2712,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 3.85,
-    "draw": 3.9,
-    "away": 1.91,
+    "home": 3.75,
+    "draw": 3.85,
+    "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5286,6 +5286,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What France & Iraq did during 'mentally draining' two-hour weather delay",
+   "desc": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it.",
+   "link": "https://www.bbc.com/sport/football/articles/cy73y401ppjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T03:21:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2661/live/810e39b0-6e9d-11f1-9007-ad3121b71ef1.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
    "desc": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s.",
    "link": "https://www.bbc.com/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
@@ -5373,15 +5382,6 @@
    "published": "2026-06-22T17:39:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A defender's view on how to stop the World Cup's best strikers",
-   "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
-   "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T08:10:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg",
    "source": "BBC Sport"
   }
  ]
