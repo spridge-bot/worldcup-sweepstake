@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T23:00:30+00:00",
+ "generated_at": "2026-06-23T23:01:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -170,7 +170,7 @@
     "CPV"
    ],
    "total": 2,
-   "today": 0,
+   "today": 1,
    "rank": 12,
    "movement": 0
   }
@@ -848,7 +848,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-17",
+     "date": "2026-06-23",
      "desc": "3rd in Group L (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760460,
+   "utc": "2026-06-23T23:00:00Z",
+   "stage": "Group stage",
+   "group": "Group L",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BMO Field",
+   "odds": {
+    "home": 7.0,
+    "draw": 4.0,
+    "away": 1.54,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "owner": "Dubs",
+    "goals": 0
+   },
+   "away": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "owner": "Dubs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760458,
@@ -2567,31 +2599,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760460,
-   "utc": "2026-06-23T23:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "odds": {
-    "home": 7.0,
-    "draw": 4.0,
-    "away": 1.54,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "owner": "Dubs",
-    "form": "LDWLW"
-   },
-   "away": {
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "form": "LWLLW"
-   }
-  },
   {
    "id": 760459,
    "utc": "2026-06-24T02:00:00Z",
@@ -4062,14 +4069,14 @@
     {
      "group": "Group L",
      "code": "PAN",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 0,
      "ga": 1,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -1,
      "name": "Panama",
      "flag": "🇵🇦",
@@ -4079,14 +4086,14 @@
     {
      "group": "Group L",
      "code": "CRO",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 2,
      "ga": 4,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -2,
      "name": "Croatia",
      "flag": "🇭🇷",
