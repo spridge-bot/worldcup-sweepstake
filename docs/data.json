@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:39:02+00:00",
+ "generated_at": "2026-06-23T17:39:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "38'",
-   "clock_sec": 2280.0,
-   "status_detail": "38'",
+   "clock": "39'",
+   "clock_sec": 2340.0,
+   "status_detail": "39'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.24,
@@ -4872,6 +4872,14 @@
    "owner": "Emily"
   },
   {
+   "player": "Cristiano Ronaldo",
+   "team": "POR",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇵🇹",
+   "owner": "Dipen"
+  },
+  {
    "player": "Crysencio Summerville",
    "team": "NED",
    "goals": 2,
@@ -4918,14 +4926,6 @@
    "assists": 0,
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "owner": "Brando"
-  },
-  {
-   "player": "Ismael Saibari",
-   "team": "MAR",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇲🇦",
-   "owner": "Willo"
   }
  ],
  "fairplay": [
