@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T16:02:12+00:00",
+ "generated_at": "2026-06-23T16:07:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2961,9 +2961,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.4,
-    "draw": 3.5,
-    "away": 3.0,
+    "home": 2.45,
+    "draw": 3.45,
+    "away": 2.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5348,15 +5348,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What are Clarke's big calls for Brazil? And who would you pick?",
-   "desc": "BBC Sport Scotland outlines the key selection issues facing Steve Clarke as Scotland take on Brazil in one their biggest ever games, plus pick your XI.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3wyn77622xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T12:53:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5399,6 +5390,15 @@
    "published": "2026-06-23T13:09:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f29d/live/a04c0ec0-6dc5-11f1-99a1-adc31e23373a.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
+   "desc": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T19:08:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e3b/live/da3e5cc0-6a3f-11f1-924d-c9a0db71699c.jpg",
    "source": "BBC Sport"
   }
  ]
