@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T18:23:50+00:00",
+ "generated_at": "2026-06-23T18:24:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1231,7 +1231,7 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "UZB",
