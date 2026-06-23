@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T05:32:58+00:00",
+ "generated_at": "2026-06-23T05:38:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2563,7 +2563,7 @@
    "odds": {
     "home": 7.0,
     "draw": 4.4,
-    "away": 1.49,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
