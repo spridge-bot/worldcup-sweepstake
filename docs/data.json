@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T21:36:19+00:00",
+ "generated_at": "2026-06-23T21:37:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "72'",
-   "clock_sec": 4320.0,
-   "status_detail": "72'",
+   "clock": "73'",
+   "clock_sec": 4380.0,
+   "status_detail": "73'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.32,
@@ -5307,6 +5307,15 @@
  ],
  "news": [
   {
+   "headline": "'I'm back' - record-breaking Ronaldo answers critics",
+   "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T21:33:55Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3002/live/78536280-6f30-11f1-8453-3df0e929f7f2.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rate the players in England v Ghana",
    "desc": "Rate the England and Ghana players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1l23qdl6v5o?at_medium=RSS&at_campaign=rss",
@@ -5352,21 +5361,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Iran's US entry terms changed for final group game",
-   "desc": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T18:44:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Iran's US entry terms changed for final group game",
+   "desc": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T18:44:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5403,15 +5412,6 @@
    "published": "2026-06-23T10:30:50Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/22bf/live/6eb17710-6e4c-11f1-a347-e763b04aee4e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From retirement to records - another immortal Messi moment",
-   "desc": "Ten years after announcing he was quitting international football, Lionel Messi is still breaking records for reigning World Cup champions Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T21:43:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg",
    "source": "BBC Sport"
   }
  ]
