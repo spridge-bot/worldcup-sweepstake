@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T03:01:10+00:00",
+ "generated_at": "2026-06-23T03:01:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -40,9 +40,9 @@
     "JOR"
    ],
    "total": 12,
-   "today": 3,
+   "today": 4,
    "rank": 1,
-   "movement": 6
+   "movement": 7
   },
   {
    "name": "Brando",
@@ -133,7 +133,7 @@
    "total": 8,
    "today": 0,
    "rank": 9,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -1082,7 +1082,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-17",
+     "date": "2026-06-23",
      "desc": "3rd in Group J (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760455,
+   "utc": "2026-06-23T03:00:00Z",
+   "stage": "Group stage",
+   "group": "Group J",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Levi's Stadium",
+   "odds": {
+    "home": 7.0,
+    "draw": 4.4,
+    "away": 1.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "JOR",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "owner": "Ruggy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760454,
@@ -2474,31 +2506,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 760455,
-   "utc": "2026-06-23T03:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "odds": {
-    "home": 7.0,
-    "draw": 4.4,
-    "away": 1.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "owner": "Glancy",
-    "form": null
-   },
-   "away": {
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "form": null
-   }
-  },
   {
    "id": 760461,
    "utc": "2026-06-23T17:00:00Z",
@@ -3898,14 +3905,14 @@
     {
      "group": "Group J",
      "code": "JOR",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 1,
      "ga": 3,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -2,
      "name": "Jordan",
      "flag": "🇯🇴",
@@ -3915,14 +3922,14 @@
     {
      "group": "Group J",
      "code": "ALG",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 0,
      "ga": 3,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -3,
      "name": "Algeria",
      "flag": "🇩🇿",
