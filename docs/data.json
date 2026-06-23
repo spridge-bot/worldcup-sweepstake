@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T12:56:57+00:00",
+ "generated_at": "2026-06-23T13:02:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2761,7 +2761,7 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 19.0,
+    "home": 18.0,
     "draw": 8.5,
     "away": 1.15,
     "over_under": 3.5,
@@ -5330,15 +5330,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What France & Iraq did during 'mentally draining' two-hour weather delay",
-   "desc": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy73y401ppjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T03:21:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2661/live/810e39b0-6e9d-11f1-9007-ad3121b71ef1.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Anderson's journey to England star and potential British record",
    "desc": "Elliot Anderson has emerged as a key part of Thomas Tuchel's England side, and could be on the verge of a British record transfer.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
@@ -5348,12 +5339,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Relive every World Cup match with BBC Sport's 3D Experience",
-   "desc": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? You can now watch every match back in full with BBC Sport's 3D Experience.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T10:08:27Z",
+   "headline": "What are Clarke's big calls for Brazil? And who would you pick?",
+   "desc": "BBC Sport Scotland outlines the key selection issues facing Steve Clarke as Scotland take on Brazil in one their biggest ever games, plus pick your XI.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3wyn77622xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T12:53:10Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8018/live/6a4985a0-6ee7-11f1-92d8-97879fd3f743.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The World Cup stars being targeted by Premier League clubs",
+   "desc": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T12:20:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a0a1/live/48cbc700-6ee0-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5375,30 +5375,30 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What France & Iraq did during 'mentally draining' two-hour weather delay",
+   "desc": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy73y401ppjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T03:21:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2661/live/810e39b0-6e9d-11f1-9007-ad3121b71ef1.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Relive every World Cup match with BBC Sport's 3D Experience",
+   "desc": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? You can now watch every match back in full with BBC Sport's 3D Experience.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T10:08:27Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8018/live/6a4985a0-6ee7-11f1-92d8-97879fd3f743.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Miami romance, Billy Gilmour and a mince and tattie hot dog",
    "desc": "Another city. Another ballpark. Another Tartan Army love-in. The warmth towards the Scotland fans during this World Cup burns hotter than the Florida sun.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cq51860v8zyo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T05:51:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/34d4/live/154c63a0-6ec0-11f1-87ed-1750ac7ec29c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England boss Tuchel not a fan of hydration breaks",
-   "desc": "England head coach Thomas Tuchel admits he is not a fan of the controversial hydration breaks being used at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyzknng1jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T01:39:34Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1c8/live/d29407b0-6ea2-11f1-895f-31d43a4d39ba.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Unpaid bonuses and food issues - what's going on inside Senegal camp?",
-   "desc": "Senegal's start to the World Cup has been overshadowed by a series of issues behind the scenes.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz6v0jn8368o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T08:21:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d23b/live/b2944750-6dbb-11f1-af30-fd5554657267.jpg",
    "source": "BBC Sport"
   }
  ]
