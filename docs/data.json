@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T22:28:28+00:00",
+ "generated_at": "2026-06-23T22:33:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2573,9 +2573,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 7.5,
+    "home": 8.0,
     "draw": 4.6,
-    "away": 1.44,
+    "away": 1.43,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3073,9 +3073,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.71,
-    "draw": 3.45,
-    "away": 6.0,
+    "home": 1.74,
+    "draw": 3.5,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5351,15 +5351,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Trump to attend World Cup final and present trophy",
-   "desc": "United States president Donald Trump will attend the World Cup final and help present the trophy, says Fifa president Gianni Infantino.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cze9wp8r6lno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T17:47:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6e22/live/8a35fb70-6f26-11f1-adf9-6fa2b518a522.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Have World Cup changes made final group stage games unfair?",
    "desc": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
@@ -5420,6 +5411,15 @@
    "published": "2026-06-23T17:32:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/159d/live/9042f8d0-6f24-11f1-adf9-6fa2b518a522.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Anderson's journey to England star and potential British record",
+   "desc": "Elliot Anderson has emerged as a key part of Thomas Tuchel's England side, and could be on the verge of a British record transfer.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T10:30:50Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/22bf/live/6eb17710-6e4c-11f1-a347-e763b04aee4e.jpg",
    "source": "BBC Sport"
   }
  ]
