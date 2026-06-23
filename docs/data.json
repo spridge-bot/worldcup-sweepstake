@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:34:30+00:00",
+ "generated_at": "2026-06-23T17:35:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "33'",
-   "clock_sec": 1980.0,
-   "status_detail": "33'",
+   "clock": "34'",
+   "clock_sec": 2040.0,
+   "status_detail": "34'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.24,
@@ -5328,21 +5328,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "More than 300 drones seized at US World Cup sites",
+   "desc": "United States authorities seize more than 300 unauthorised drones at World Cup sites.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cdjkzdgeewvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T17:32:15Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/159d/live/9042f8d0-6f24-11f1-adf9-6fa2b518a522.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A Golden Boot race for the ages - but who will come out on top?",
    "desc": "It is fast turning into a Golden Boot race for the ages as the world's best strikers star at the World Cup. But who will come out on top?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz2enre06o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T03:56:28Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From retirement to records - another immortal Messi moment",
-   "desc": "Ten years after announcing he was quitting international football, Lionel Messi is still breaking records for reigning World Cup champions Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T21:43:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg",
    "source": "BBC Sport"
   },
   {
