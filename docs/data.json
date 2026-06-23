@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T22:00:25+00:00",
+ "generated_at": "2026-06-23T22:01:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -253,9 +253,9 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 1,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
    "gf": 4,
    "ga": 2,
@@ -1142,9 +1142,9 @@
    "fifa_rank": 56,
    "owner": "George",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 1,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
    "gf": 1,
    "ga": 0,
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760458,
+   "date": "2026-06-23",
    "utc": "2026-06-23T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Gillette Stadium",
+   "note": "",
+   "home": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.32,
     "draw": 5.5,
     "away": 9.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 0
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760461,
    "date": "2026-06-23",
@@ -3090,7 +3089,7 @@
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": "WDLLL"
+    "form": "DWDLL"
    }
   },
   {
@@ -3115,7 +3114,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": "WWWLD"
+    "form": "DWWWL"
    }
   },
   {
@@ -4036,7 +4035,7 @@
      "gf": 4,
      "ga": 2,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -4053,7 +4052,7 @@
      "gf": 1,
      "ga": 0,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 1,
      "name": "Ghana",
      "flag": "🇬🇭",
@@ -5161,6 +5160,15 @@
    "pts": 2
   },
   {
+   "code": "GHA",
+   "name": "Ghana",
+   "flag": "🇬🇭",
+   "owner": "George",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "IRN",
    "name": "Iran",
    "flag": "🇮🇷",
@@ -5260,10 +5268,10 @@
    "pts": 1
   },
   {
-   "code": "GHA",
-   "name": "Ghana",
-   "flag": "🇬🇭",
-   "owner": "George",
+   "code": "ENG",
+   "name": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando",
    "yellow": 1,
    "red": 0,
    "pts": 1
