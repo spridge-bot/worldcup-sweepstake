@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T19:05:48+00:00",
+ "generated_at": "2026-06-23T19:11:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -3142,9 +3142,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.95,
-    "draw": 3.9,
-    "away": 3.65,
+    "home": 1.91,
+    "draw": 3.95,
+    "away": 3.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5318,6 +5318,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "From non-league to the World Cup - the Semenyo story",
+   "desc": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T11:40:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0f5a/live/32ad7920-6d8a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Iran's US entry terms changed for final group game",
    "desc": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
@@ -5336,12 +5345,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "From non-league to the World Cup - the Semenyo story",
-   "desc": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T11:40:47Z",
+   "headline": "Will England fans in Boston follow Scotland's lead?",
+   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T13:52:31Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0f5a/live/32ad7920-6d8a-11f1-8546-8f19e4fe30f4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81fa/live/0b5f04e0-6f1c-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5351,15 +5360,6 @@
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Will England fans in Boston follow Scotland's lead?",
-   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T13:52:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81fa/live/0b5f04e0-6f1c-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
