@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:39:49+00:00",
+ "generated_at": "2026-06-23T17:40:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "39'",
-   "clock_sec": 2340.0,
-   "status_detail": "39'",
+   "clock": "40'",
+   "clock_sec": 2400.0,
+   "status_detail": "40'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.24,
@@ -1231,7 +1231,7 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "goals": 2
+    "goals": 3
    },
    "away": {
     "code": "UZB",
@@ -3954,11 +3954,11 @@
      "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 1,
      "pts": 4,
      "live": true,
-     "gd": 2,
+     "gd": 3,
      "name": "Portugal",
      "flag": "🇵🇹",
      "tier": 1,
@@ -4006,10 +4006,10 @@
      "d": 0,
      "l": 2,
      "gf": 1,
-     "ga": 5,
+     "ga": 6,
      "pts": 0,
      "live": true,
-     "gd": -4,
+     "gd": -5,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
      "tier": 3,
