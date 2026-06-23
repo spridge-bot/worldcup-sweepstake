@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T00:48:19+00:00",
+ "generated_at": "2026-06-23T00:49:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -230,11 +230,11 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 3,
+   "gf": 6,
    "ga": 1,
    "total": 5,
    "events": [
@@ -1005,12 +1005,12 @@
    "fifa_rank": 49,
    "owner": "Emily",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 2,
    "gf": 1,
-   "ga": 4,
+   "ga": 7,
    "total": 0,
    "events": []
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T00:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "45'+2'",
+   "clock": "45'+3'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+2'",
+   "status_detail": "45'+3'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 2.15,
@@ -1240,40 +1240,40 @@
     "owner": "Fergs",
     "goals": 0
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760457,
+   "date": "2026-06-22",
    "utc": "2026-06-22T21:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "90'+2'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+2'",
-   "venue": "Lincoln Financial Field",
+   "note": "",
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "tier": 1,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "IRQ",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.11,
     "draw": 9.5,
     "away": 26.0,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "goals": 3
-   },
-   "away": {
-    "code": "IRQ",
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "owner": "Emily",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760456,
    "date": "2026-06-22",
@@ -2922,7 +2922,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "form": "WWLWW"
+    "form": "WWWLW"
    }
   },
   {
@@ -2947,7 +2947,7 @@
     "name": "Iraq",
     "flag": "🇮🇶",
     "owner": "Emily",
-    "form": "LLDWW"
+    "form": "LLLDW"
    }
   },
   {
@@ -3799,7 +3799,7 @@
      "gf": 6,
      "ga": 1,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 5,
      "name": "France",
      "flag": "🇫🇷",
@@ -3850,7 +3850,7 @@
      "gf": 1,
      "ga": 7,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -6,
      "name": "Iraq",
      "flag": "🇮🇶",
@@ -5152,6 +5152,15 @@
    "pts": 2
   },
   {
+   "code": "IRQ",
+   "name": "Iraq",
+   "flag": "🇮🇶",
+   "owner": "Emily",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "NZL",
    "name": "New Zealand",
    "flag": "🇳🇿",
@@ -5219,15 +5228,6 @@
    "name": "Ghana",
    "flag": "🇬🇭",
    "owner": "George",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "IRQ",
-   "name": "Iraq",
-   "flag": "🇮🇶",
-   "owner": "Emily",
    "yellow": 1,
    "red": 0,
    "pts": 1
