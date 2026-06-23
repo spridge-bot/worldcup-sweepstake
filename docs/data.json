@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-22T23:59:47+00:00",
+ "generated_at": "2026-06-23T00:00:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -2450,9 +2450,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 2.45,
-    "draw": 3.4,
-    "away": 2.9,
+    "home": 2.15,
+    "draw": 3.6,
+    "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2460,13 +2460,13 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "form": "WDWDL"
+    "form": null
    },
    "away": {
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "form": "LDLWW"
+    "form": null
    }
   },
   {
@@ -2475,9 +2475,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 6.5,
-    "draw": 4.3,
-    "away": 1.53,
+    "home": 7.0,
+    "draw": 4.4,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2485,13 +2485,13 @@
     "name": "Jordan",
     "flag": "🇯🇴",
     "owner": "Glancy",
-    "form": "LLLDD"
+    "form": null
    },
    "away": {
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "LWWDW"
+    "form": null
    }
   },
   {
