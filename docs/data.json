@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T05:54:06+00:00",
+ "generated_at": "2026-06-23T05:59:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5330,6 +5330,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Miami romance, Billy Gilmour and a mince and tattie hot dog",
+   "desc": "Another city. Another ballpark. Another Tartan Army love-in. The warmth towards the Scotland fans during this World Cup burns hotter than the Florida sun.",
+   "link": "https://www.bbc.com/sport/football/articles/cq51860v8zyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T05:51:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/34d4/live/154c63a0-6ec0-11f1-87ed-1750ac7ec29c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5390,15 +5399,6 @@
    "published": "2026-06-22T12:01:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How Ferguson became Scotland's most influential World Cup player",
-   "desc": "BBC Scotland examines the impact of Bologna's Lewis Ferguson in the Scotland midfield going into the crunch game with Brazil.",
-   "link": "https://www.bbc.com/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T17:39:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg",
    "source": "BBC Sport"
   }
  ]
