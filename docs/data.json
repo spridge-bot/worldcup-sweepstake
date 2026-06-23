@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T23:47:18+00:00",
+ "generated_at": "2026-06-23T23:48:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5322,6 +5322,15 @@
  ],
  "news": [
   {
+   "headline": "Should Ghana have been awarded a penalty against England?",
+   "desc": "England fans have been left frustrated by the goalless draw against Ghana, but were Thomas Tuchel's side fortunate not to have given away a penalty?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T23:46:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/18c4/live/2a415db0-6f5b-11f1-9ab9-83454fe8fa79.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'I'm back' - record-breaking Ronaldo answers critics",
    "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
@@ -5418,15 +5427,6 @@
    "published": "2026-06-23T17:32:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/159d/live/9042f8d0-6f24-11f1-adf9-6fa2b518a522.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From retirement to records - another immortal Messi moment",
-   "desc": "Ten years after announcing he was quitting international football, Lionel Messi is still breaking records for reigning World Cup champions Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T21:43:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg",
    "source": "BBC Sport"
   }
  ]
