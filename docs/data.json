@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T18:47:55+00:00",
+ "generated_at": "2026-06-23T18:48:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "83'",
-   "clock_sec": 4980.0,
-   "status_detail": "83'",
+   "clock": "84'",
+   "clock_sec": 5040.0,
+   "status_detail": "84'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.24,
@@ -5319,21 +5319,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Iran's US entry terms changed for final group game",
+   "desc": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T18:44:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Commentator stripped of Fifa credentials over Almiron rant",
    "desc": "Fifa strip a commentator of his World Cup credentials after an on-air, expletive-laden ​rant against the organisation and match officials during Paraguay's victory over Turkey.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8e2xdn58ryo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T18:16:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d007/live/6bb5cef0-6f2b-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Will England fans in Boston follow Scotland's lead?",
-   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T13:52:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81fa/live/0b5f04e0-6f1c-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5352,6 +5352,15 @@
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Will England fans in Boston follow Scotland's lead?",
+   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T13:52:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81fa/live/0b5f04e0-6f1c-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5397,15 +5406,6 @@
    "published": "2026-06-23T12:53:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The World Cup stars being targeted by Premier League clubs",
-   "desc": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T12:20:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a0a1/live/48cbc700-6ee0-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
