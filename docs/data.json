@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T20:38:29+00:00",
+ "generated_at": "2026-06-23T20:39:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2650,7 +2650,7 @@
    "group": "Group B",
    "odds": {
     "home": 2.35,
-    "draw": 3.05,
+    "draw": 3.1,
     "away": 3.4,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5379,6 +5379,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Will England fans in Boston follow Scotland's lead?",
+   "desc": "After Scotland win the hearts of Boston, can England fans follow in their footsteps?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8x2rev41ydo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T13:52:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81fa/live/0b5f04e0-6f1c-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "More than 300 drones seized at US World Cup sites",
    "desc": "United States authorities seize more than 300 unauthorised drones at World Cup sites.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdjkzdgeewvo?at_medium=RSS&at_campaign=rss",
@@ -5403,15 +5412,6 @@
    "published": "2026-06-22T21:43:58Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What are Clarke's big calls for Brazil? And who would you pick?",
-   "desc": "BBC Sport Scotland outlines the key selection issues facing Steve Clarke as Scotland take on Brazil in one their biggest ever games, plus pick your XI.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3wyn77622xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T12:53:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
    "source": "BBC Sport"
   }
  ]
