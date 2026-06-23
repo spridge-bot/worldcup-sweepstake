@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T14:34:51+00:00",
+ "generated_at": "2026-06-23T14:40:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2586,7 +2586,7 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.54,
+    "home": 1.53,
     "draw": 4.0,
     "away": 7.0,
     "over_under": 2.5,
@@ -5366,6 +5366,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Quiz: Name every England World Cup goalscorer since 2014",
+   "desc": "Fifteen players who have scored for England across the past four men's World Cups. Can you name them all?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckgpyxpxekko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T14:37:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f48c/live/1bd9f6e0-6814-11f1-8e1d-bbbb1017d210.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The World Cup stars being targeted by Premier League clubs",
    "desc": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
@@ -5390,15 +5399,6 @@
    "published": "2026-06-22T19:08:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e3b/live/da3e5cc0-6a3f-11f1-924d-c9a0db71699c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What France & Iraq did during 'mentally draining' two-hour weather delay",
-   "desc": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy73y401ppjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T03:21:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2661/live/810e39b0-6e9d-11f1-9007-ad3121b71ef1.jpg",
    "source": "BBC Sport"
   }
  ]
