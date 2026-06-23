@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T01:17:26+00:00",
+ "generated_at": "2026-06-23T01:18:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -19,6 +19,19 @@
  },
  "players": [
   {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 14,
+   "today": 5,
+   "rank": 1,
+   "movement": 3
+  },
+  {
    "name": "George",
    "teams": [
     "BRA",
@@ -28,21 +41,8 @@
    ],
    "total": 12,
    "today": 3,
-   "rank": 1,
-   "movement": 3
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 12,
-   "today": 3,
-   "rank": 1,
-   "movement": 3
+   "rank": 2,
+   "movement": 2
   },
   {
    "name": "Brando",
@@ -97,19 +97,6 @@
    "movement": -2
   },
   {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 10,
-   "today": 5,
-   "rank": 7,
-   "movement": 2
-  },
-  {
    "name": "Emily",
    "teams": [
     "NED",
@@ -119,8 +106,8 @@
    ],
    "total": 9,
    "today": 0,
-   "rank": 8,
-   "movement": -4
+   "rank": 7,
+   "movement": -3
   },
   {
    "name": "Ruggy",
@@ -132,8 +119,21 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 9,
-   "movement": -2
+   "rank": 8,
+   "movement": -1
+  },
+  {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 8,
+   "today": 3,
+   "rank": 8,
+   "movement": 1
   },
   {
    "name": "Fergs",
@@ -236,12 +236,12 @@
    "lost": 0,
    "gf": 6,
    "ga": 1,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-22",
-     "desc": "1st in Group I (live)",
-     "points": 5
+     "desc": "2nd in Group I (live)",
+     "points": 3
     }
    ]
   },
@@ -793,12 +793,12 @@
    "lost": 0,
    "gf": 4,
    "ga": 1,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-23",
-     "desc": "2nd in Group I (live)",
-     "points": 3
+     "desc": "1st in Group I (live)",
+     "points": 5
     }
    ]
   },
@@ -1231,7 +1231,7 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "goals": 2
+    "goals": 3
    },
    "away": {
     "code": "SEN",
@@ -3791,6 +3791,23 @@
    "rows": [
     {
      "group": "Group I",
+     "code": "NOR",
+     "p": 2,
+     "w": 2,
+     "d": 0,
+     "l": 0,
+     "gf": 7,
+     "ga": 2,
+     "pts": 6,
+     "live": true,
+     "gd": 5,
+     "name": "Norway",
+     "flag": "🇳🇴",
+     "tier": 2,
+     "owner": "Glancy"
+    },
+    {
+     "group": "Group I",
      "code": "FRA",
      "p": 2,
      "w": 2,
@@ -3808,33 +3825,16 @@
     },
     {
      "group": "Group I",
-     "code": "NOR",
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gf": 6,
-     "ga": 2,
-     "pts": 6,
-     "live": true,
-     "gd": 4,
-     "name": "Norway",
-     "flag": "🇳🇴",
-     "tier": 2,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group I",
      "code": "SEN",
      "p": 2,
      "w": 0,
      "d": 0,
      "l": 2,
      "gf": 2,
-     "ga": 5,
+     "ga": 6,
      "pts": 0,
      "live": true,
-     "gd": -3,
+     "gd": -4,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
