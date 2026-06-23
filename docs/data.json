@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T21:49:39+00:00",
+ "generated_at": "2026-06-23T21:50:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T20:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "85'",
-   "clock_sec": 5100.0,
-   "status_detail": "85'",
+   "clock": "86'",
+   "clock_sec": 5160.0,
+   "status_detail": "86'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.32,
@@ -5325,6 +5325,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Spence appears not to shake hands with Partey",
+   "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T21:46:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a9a/live/9c37a360-6f43-11f1-baf2-37f03751e13b.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Deschamps returns to France after death of his mother",
    "desc": "France head coach Didier Deschamps will miss his side's final World Cup group game following the death of his mother, the French Football Federation confirms.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
@@ -5352,21 +5361,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "From non-league to the World Cup - the Semenyo story",
-   "desc": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T11:40:47Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0f5a/live/32ad7920-6d8a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "From non-league to the World Cup - the Semenyo story",
+   "desc": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T11:40:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0f5a/live/32ad7920-6d8a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5403,15 +5412,6 @@
    "published": "2026-06-23T17:32:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/159d/live/9042f8d0-6f24-11f1-adf9-6fa2b518a522.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Anderson's journey to England star and potential British record",
-   "desc": "Elliot Anderson has emerged as a key part of Thomas Tuchel's England side, and could be on the verge of a British record transfer.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T10:30:50Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/22bf/live/6eb17710-6e4c-11f1-a347-e763b04aee4e.jpg",
    "source": "BBC Sport"
   }
  ]
