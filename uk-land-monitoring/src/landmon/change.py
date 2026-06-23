@@ -66,6 +66,39 @@ def activity_summary(timeline: pd.DataFrame) -> dict:
     }
 
 
+def building_timelines(buildings_wgs84: gpd.GeoDataFrame, series: xr.DataArray,
+                       reducer: str = "mean") -> list[list[tuple[str, float]]]:
+    """Per building, a list of (ISO date, reduced value) over the footprint.
+
+    Aligned to buildings_wgs84.index order; empty list where no data overlaps.
+    """
+    out: list[list[tuple[str, float]]] = []
+    proj = buildings_wgs84.to_crs(BNG)
+    for _, row in proj.iterrows():
+        one = gpd.GeoDataFrame(geometry=[row.geometry], crs=BNG)
+        try:
+            df = footprint_timeline(series, one, reducer=reducer)
+            pts = [(str(np.datetime_as_string(t, unit="D")), float(v))
+                   for t, v in zip(df.index.values, df["value"].values)]
+        except Exception:
+            pts = []
+        out.append(pts)
+    return out
+
+
+def normalise_timelines(timelines: list[list[tuple[str, float]]]
+                        ) -> list[list[dict]]:
+    """Min-max normalise raw values to activity in 0..1 across ALL buildings/dates
+    so colours are comparable. Returns [[{"d":date,"a":activity}, ...], ...]."""
+    vals = [v for tl in timelines for _, v in tl]
+    if not vals:
+        return [[] for _ in timelines]
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or 1.0
+    return [[{"d": d, "a": round((v - lo) / span, 3)} for d, v in tl]
+            for tl in timelines]
+
+
 def score_buildings(buildings_wgs84: gpd.GeoDataFrame, series: xr.DataArray,
                     reducer: str = "mean") -> gpd.GeoDataFrame:
     """Attach activity summary stats to each building from a time series."""

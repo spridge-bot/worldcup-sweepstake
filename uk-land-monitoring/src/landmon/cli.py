@@ -50,24 +50,56 @@ def _cmd_flag_storage(args):
     print(f"Wrote {out}")
 
 
+def _build_series(a, sensor, start, end):
+    from . import change, sentinel
+    if sensor == "s2":
+        return sentinel.sentinel2_ndvi_series(a, start, end)
+    ds = sentinel.sentinel1_backscatter_series(a, start, end)
+    return change.backscatter_db(ds, band="vv")
+
+
+def _write_activity_geojson(scored, timelines_norm, out: Path):
+    """Write GeoJSON by hand so the nested per-date `timeline` array survives
+    (GeoJSON drivers flatten/stringify nested properties)."""
+    import json
+
+    from shapely.geometry import mapping
+    feats = []
+    g = scored.to_crs("EPSG:4326")
+    for (idx, row), tl in zip(g.iterrows(), timelines_norm):
+        props = {k: _py(v) for k, v in row.items() if k != "geometry"}
+        props["timeline"] = tl
+        props["activity_index"] = round(sum(p["a"] for p in tl) / len(tl), 3) if tl else 0.0
+        feats.append({"type": "Feature", "properties": props,
+                      "geometry": mapping(row.geometry)})
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"type": "FeatureCollection", "features": feats}))
+
+
+def _py(v):
+    """Coerce numpy scalars / NaN to JSON-friendly native Python."""
+    import math
+    if hasattr(v, "item"):          # numpy scalar
+        v = v.item()
+    if isinstance(v, float) and math.isnan(v):
+        return None
+    return v
+
+
 def _cmd_activity(args):
     import geopandas as gpd
 
-    from . import change, sentinel
+    from . import change
     a = aoi_mod.load_aoi(args.aoi)
     buildings_gdf = gpd.read_file(args.buildings)
     print(f"Loaded {len(buildings_gdf)} buildings; building "
           f"{args.sensor} series {args.start}..{args.end}…")
-    if args.sensor == "s2":
-        series = sentinel.sentinel2_ndvi_series(a, args.start, args.end)
-    else:
-        ds = sentinel.sentinel1_backscatter_series(a, args.start, args.end)
-        series = change.backscatter_db(ds, band="vv")
+    series = _build_series(a, args.sensor, args.start, args.end)
     scored = change.score_buildings(buildings_gdf, series)
-    out = Path(args.out)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    scored.to_file(out, driver="GeoJSON")
-    print(f"Wrote per-building activity stats to {out}")
+    timelines = change.normalise_timelines(
+        change.building_timelines(buildings_gdf, series))
+    _write_activity_geojson(scored, timelines, Path(args.out))
+    print(f"Wrote per-building activity + timelines to {args.out}")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -107,6 +139,17 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--out", default="outputs/chips")
     s.set_defaults(func=_cmd_chips)
 
+    s = sub.add_parser("pipeline", help="End-to-end: buildings -> flag -> activity -> chips")
+    s.add_argument("--aoi", required=True)
+    s.add_argument("--start", required=True)
+    s.add_argument("--end", required=True)
+    s.add_argument("--sensor", choices=["s1", "s2"], default="s1")
+    s.add_argument("--max", type=int, default=5000)
+    s.add_argument("--outdir", default="outputs")
+    s.add_argument("--chips", action="store_true", help="Also render dated image chips")
+    s.add_argument("--chip-sensor", choices=["s1", "s2"], default="s2")
+    s.set_defaults(func=_cmd_pipeline)
+
     s = sub.add_parser("serve", help="Run the web map viewer (zero deps)")
     s.add_argument("--host", default="127.0.0.1",
                    help="Bind address. 127.0.0.1 is safest behind `tailscale serve`.")
@@ -114,6 +157,45 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--data", help="GeoJSON to display (defaults to outputs/ then demo).")
     s.set_defaults(func=_cmd_serve)
     return p
+
+
+def _cmd_pipeline(args):
+    """Run the whole chain for an AOI so a single command produces viewer-ready data."""
+    import geopandas as gpd
+
+    from . import change, chips
+    outdir = Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+    a = aoi_mod.load_aoi(args.aoi)
+
+    print("[1/4] Fetching OS NGD buildings…")
+    raw = os_data.buildings(aoi_mod.bbox(a), max_features=args.max)
+    print(f"      {len(raw)} building footprints")
+
+    print("[2/4] Flagging farm/industrial storage…")
+    flagged = bld.flag_storage(raw)
+    storage_path = outdir / "storage.geojson"
+    flagged.to_file(storage_path, driver="GeoJSON")
+    print(f"      {len(flagged)} flagged -> {storage_path}")
+
+    print(f"[3/4] Building {args.sensor} activity time series + timelines…")
+    series = _build_series(a, args.sensor, args.start, args.end)
+    scored = change.score_buildings(flagged, series)
+    timelines = change.normalise_timelines(change.building_timelines(flagged, series))
+    activity_path = outdir / "activity.geojson"
+    _write_activity_geojson(scored, timelines, activity_path)
+    print(f"      -> {activity_path}")
+
+    if args.chips:
+        print(f"[4/4] Rendering dated image chips ({args.chip_sensor})…")
+        cseries = _build_series(a, args.chip_sensor, args.start, args.end)
+        flagged_wgs = gpd.read_file(activity_path)
+        counts = chips.save_building_chips(cseries, flagged_wgs,
+                                           outdir=str(outdir / "chips"))
+        print(f"      {sum(counts.values())} chips across {len(counts)} buildings")
+    else:
+        print("[4/4] Skipping chips (pass --chips to enable).")
+    print(f"\nDone. View with:  python -m landmon.web.server --data {activity_path}")
 
 
 def _cmd_serve(args):

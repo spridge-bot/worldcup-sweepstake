@@ -45,3 +45,20 @@ body { display: flex; }
 .popup .filmstrip img { width: 84px; height: 84px; object-fit: cover; border-radius: 4px; }
 .popup .filmstrip figcaption { font-size: 9px; color: #777; }
 .popup .nochips { font-size: 11px; color: #888; margin-top: 8px; }
+
+#map { position: relative; }
+#timebar {
+  position: absolute; left: 50%; transform: translateX(-50%); bottom: 18px;
+  z-index: 1000; display: flex; align-items: center; gap: 10px;
+  background: rgba(20,24,31,0.92); color: #e6e9ee; padding: 8px 14px;
+  border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.4); width: min(640px, 80vw);
+}
+#timebar.hidden { display: none; }
+#timebar #play {
+  background: #4a90d9; color: #fff; border: 0; border-radius: 6px;
+  width: 30px; height: 30px; font-size: 13px; cursor: pointer; flex: 0 0 auto;
+}
+#timebar #slider { flex: 1; cursor: pointer; }
+#timebar #datelabel { font-variant-numeric: tabular-nums; font-size: 13px; min-width: 86px; }
+#timebar .chiptoggle { font-size: 11px; color: #b8c0cc; white-space: nowrap; }
+.chip-overlay { image-rendering: pixelated; border: 1px solid rgba(0,0,0,0.5); border-radius: 2px; }

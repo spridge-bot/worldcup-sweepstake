@@ -30,7 +30,14 @@
     <p class="src" id="src"></p>
   </div>
 
-  <div id="map"></div>
+  <div id="map">
+    <div id="timebar" class="hidden">
+      <button id="play" title="Play / pause">▶</button>
+      <input id="slider" type="range" min="0" max="0" value="0" step="1" />
+      <span id="datelabel">—</span>
+      <label class="chiptoggle"><input type="checkbox" id="showchips" checked> imagery chips</label>
+    </div>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

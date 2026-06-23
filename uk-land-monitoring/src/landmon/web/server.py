@@ -191,23 +191,36 @@ class Handler(BaseHTTPRequestHandler):
         except Exception:
             self._send(502, b"tile fetch failed", "text/plain")
 
+    def _chip_bases(self) -> list[Path]:
+        """Where to look for chips: real outputs first, demo chips as fallback."""
+        bases = [PKG_ROOT / "outputs" / "chips"]
+        if "sample_data" in str(self.data_path):
+            bases.append(PKG_ROOT / "sample_data" / "demo_chips")
+        return bases
+
     def _chip_dir(self, bid: str) -> Path:
-        return (PKG_ROOT / "outputs" / "chips" / bid)
+        for base in self._chip_bases():
+            if (base / bid).is_dir():
+                return base / bid
+        return self._chip_bases()[0] / bid
 
     def _list_chips(self, bid: str):
         d = self._chip_dir(bid)
         chips = []
         if d.is_dir():
-            for p in sorted(d.glob("*.png")):
+            paths = sorted(list(d.glob("*.png")) + list(d.glob("*.svg")),
+                           key=lambda p: p.stem)
+            for p in paths:
                 chips.append({"date": p.stem, "url": f"/chips/{bid}/{p.name}"})
         self._json({"id": bid, "chips": chips})
 
     def _serve_chip(self, bid, fname):
         safe = (self._chip_dir(bid) / fname).resolve()
-        base = (PKG_ROOT / "outputs" / "chips").resolve()
-        if base not in safe.parents:
+        allowed = [b.resolve() for b in self._chip_bases()]
+        if not any(base in safe.parents for base in allowed):
             return self._send(403, b"forbidden", "text/plain")
-        self._file(safe, "image/png")
+        ctype = "image/svg+xml" if safe.suffix == ".svg" else "image/png"
+        self._file(safe, ctype)
 
 
 def run(host: str = "127.0.0.1", port: int = 8000, data: str | None = None):

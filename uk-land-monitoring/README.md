@@ -54,6 +54,18 @@ Computer needs no key.
 
 ## Usage
 
+### One command, end to end (real Oxfordshire run)
+With an `OS_API_KEY` set and the deps installed, this does buildings → flag storage
+→ activity time series + per-date timelines → (optionally) dated image chips, writing
+everything into `outputs/` ready for the viewer:
+
+```bash
+python -m landmon.cli pipeline --aoi config/aoi.example.geojson \
+    --start 2023-01-01 --end 2024-12-31 --sensor s1 --chips
+python -m landmon.web.server --data outputs/activity.geojson    # then open the viewer
+```
+
+### Or step by step
 ```bash
 # 1. Discover current OS NGD collection IDs (they're versioned)
 python -m landmon.cli collections
@@ -64,10 +76,15 @@ python -m landmon.cli buildings --aoi config/aoi.example.geojson --out outputs/b
 # 3. Flag farm / industrial storage buildings
 python -m landmon.cli flag-storage --aoi config/aoi.example.geojson --out outputs/storage.geojson
 
-# 4. Screen activity over time (Sentinel-1 SAR backscatter trend, free)
+# 4. Activity time series + per-date timelines (Sentinel-1 SAR, free)
 python -m landmon.cli activity --aoi config/aoi.example.geojson \
     --buildings outputs/storage.geojson --sensor s1 \
     --start 2023-01-01 --end 2024-12-31 --out outputs/activity.geojson
+
+# 5. Dated image chips for the time-slider + popup filmstrip
+python -m landmon.cli chips --aoi config/aoi.example.geojson \
+    --buildings outputs/activity.geojson --sensor s2 \
+    --start 2023-01-01 --end 2024-12-31 --out outputs/chips
 ```
 
 `outputs/storage.geojson` carries `storage_class`
@@ -102,14 +119,20 @@ stats (`range` of backscatter + positive `trend_per_day` = busier) and falls bac
 `storage_score`. It's a **relative, comparative** scale across the sites shown — a
 screening signal, not a calibrated occupancy measure.
 
+### Time-slider (animate activity + imagery over time)
+If the data has per-date `timeline`s and/or dated chips, the viewer shows a **time-bar**
+at the bottom of the map: a **play/pause** button and a **scrubber**. As the date moves,
+every building **recolours by its activity on that date** and its **dated image chip is
+overlaid on the map**, so you watch the whole AOI change over time. Toggle "imagery
+chips" to show colour-only. The bundled demo data includes 2 years of quarterly
+timelines + chips, so this works immediately with no key. (The activity coloring is a
+**relative** screening signal across the sites/dates shown — see the research report.)
+
 ### Dated image chips (the "range of timed images")
-Generate a PNG per building per acquisition date; the viewer's popup shows them as a
-scrubable filmstrip:
-```bash
-python -m landmon.cli chips --aoi config/aoi.example.geojson \
-    --buildings outputs/storage.geojson --sensor s2 \
-    --start 2023-01-01 --end 2024-12-31      # -> outputs/chips/<id>/<date>.png
-```
+`landmon chips` (or `pipeline --chips`) writes one image per building per acquisition
+date to `outputs/chips/<id>/<date>.png`; the viewer lists them via `/api/chips/<id>` for
+both the time-slider overlays and the popup filmstrip. Regenerate the demo set with
+`python scripts/make_demo_timeseries.py`.
 
 ### Viewing over Tailscale
 The server binds to `127.0.0.1` by default. Two ways to reach it from your other
