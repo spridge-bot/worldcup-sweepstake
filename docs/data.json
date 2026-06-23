@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T09:32:48+00:00",
+ "generated_at": "2026-06-23T09:38:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5312,6 +5312,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How do you solve a problem like Ronaldo?",
+   "desc": "Portugal take on Uzbekistan with Cristiano Ronaldo in poor form for his country and a backlash raging on social media against his team-mates.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2ly7gz8p0qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T09:30:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/234f/live/8a731010-6e58-11f1-b9d0-a3be33cbfa13.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "What France & Iraq did during 'mentally draining' two-hour weather delay",
    "desc": "France's World Cup match against Iraq was delayed for two hours because of the weather. BBC Sport look at how the sides dealt with it.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cy73y401ppjo?at_medium=RSS&at_campaign=rss",
@@ -5390,15 +5399,6 @@
    "published": "2026-06-22T10:47:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/38b4/live/8b578340-6dc1-11f1-99a1-adc31e23373a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Iran leave note asking for peace after Belgium draw",
-   "desc": "Iran leave a message saying \"may peace, respect and friendship prevail among all nations\" following their World Cup group game with Belgium.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T09:54:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/80f1/live/cc9a4d00-6e1c-11f1-806d-d1ff7e093f07.jpg",
    "source": "BBC Sport"
   }
  ]
