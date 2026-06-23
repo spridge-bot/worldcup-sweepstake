@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T23:20:58+00:00",
+ "generated_at": "2026-06-23T23:21:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "20'",
-   "clock_sec": 1200.0,
-   "status_detail": "20'",
+   "clock": "21'",
+   "clock_sec": 1260.0,
+   "status_detail": "21'",
    "venue": "BMO Field",
    "odds": {
     "home": 7.0,
@@ -2680,10 +2680,10 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.18,
-    "draw": 7.5,
+    "home": 1.19,
+    "draw": 7.0,
     "away": 17.0,
-    "over_under": 3.5,
+    "over_under": 2.5,
     "provider": "DraftKings"
    },
    "home": {
