@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T01:16:48+00:00",
+ "generated_at": "2026-06-23T01:17:26+00:00",
  "mode": "live",
  "latest_day": "2026-06-22",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T00:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "57'",
-   "clock_sec": 3420.0,
-   "status_detail": "57'",
+   "clock": "58'",
+   "clock_sec": 3480.0,
+   "status_detail": "58'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 2.15,
@@ -4804,6 +4804,14 @@
    "owner": "Fergs"
   },
   {
+   "player": "Erling Haaland",
+   "team": "NOR",
+   "goals": 4,
+   "assists": 0,
+   "flag": "🇳🇴",
+   "owner": "Glancy"
+  },
+  {
    "player": "Kylian Mbappé",
    "team": "FRA",
    "goals": 4,
@@ -4817,14 +4825,6 @@
    "goals": 3,
    "assists": 0,
    "flag": "🇩🇪",
-   "owner": "Glancy"
-  },
-  {
-   "player": "Erling Haaland",
-   "team": "NOR",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇳🇴",
    "owner": "Glancy"
   },
   {
