@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "name": "demo_storage_oxfordshire",
+  "comment": "Synthetic demo so the viewer renders with no OS key/network. Replace with outputs/activity.geojson from the real pipeline.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-1", "name": "Bickerton Barns",
+        "storage_class": "farm_storage", "storage_score": 0.72,
+        "area_m2": 612, "rectangularity": 0.94, "n_neighbours": 2, "is_rural": true,
+        "mean": -12.1, "range": 1.4, "trend_per_day": 0.0008, "activity_index": 0.18
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.28045,51.83970],[-1.27955,51.83970],[-1.27955,51.84030],[-1.28045,51.84030],[-1.28045,51.83970]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-2", "name": "Otmoor Grain Store",
+        "storage_class": "farm_storage", "storage_score": 0.81,
+        "area_m2": 980, "rectangularity": 0.97, "n_neighbours": 1, "is_rural": true,
+        "mean": -10.4, "range": 2.6, "trend_per_day": 0.0031, "activity_index": 0.42
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.27245,51.84770],[-1.27155,51.84770],[-1.27155,51.84830],[-1.27245,51.84830],[-1.27245,51.84770]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-3", "name": "Manor Farm Workshop",
+        "storage_class": "industrial_storage", "storage_score": 0.69,
+        "area_m2": 430, "rectangularity": 0.88, "n_neighbours": 4, "is_rural": true,
+        "mean": -7.8, "range": 4.1, "trend_per_day": 0.0072, "activity_index": 0.78
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.26545,51.85170],[-1.26455,51.85170],[-1.26455,51.85230],[-1.26545,51.85230],[-1.26545,51.85170]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-4", "name": "Lower Field Sheds",
+        "storage_class": "farm_storage", "storage_score": 0.64,
+        "area_m2": 355, "rectangularity": 0.91, "n_neighbours": 3, "is_rural": true,
+        "mean": -11.2, "range": 2.1, "trend_per_day": 0.0014, "activity_index": 0.34
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.25845,51.84370],[-1.25755,51.84370],[-1.25755,51.84430],[-1.25845,51.84430],[-1.25845,51.84370]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-5", "name": "Greenway Units",
+        "storage_class": "industrial_storage", "storage_score": 0.76,
+        "area_m2": 720, "rectangularity": 0.93, "n_neighbours": 6, "is_rural": false,
+        "mean": -6.2, "range": 5.3, "trend_per_day": 0.0110, "activity_index": 0.91
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.25245,51.85670],[-1.25155,51.85670],[-1.25155,51.85730],[-1.25245,51.85730],[-1.25245,51.85670]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-6", "name": "Hill Copse Garage",
+        "storage_class": "possible_storage", "storage_score": 0.55,
+        "area_m2": 210, "rectangularity": 0.86, "n_neighbours": 2, "is_rural": true,
+        "mean": -9.1, "range": 3.2, "trend_per_day": 0.0049, "activity_index": 0.61
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.27645,51.85670],[-1.27555,51.85670],[-1.27555,51.85730],[-1.27645,51.85730],[-1.27645,51.85670]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-7", "name": "Brookside Dutch Barn",
+        "storage_class": "farm_storage", "storage_score": 0.67,
+        "area_m2": 540, "rectangularity": 0.95, "n_neighbours": 1, "is_rural": true,
+        "mean": -13.0, "range": 0.9, "trend_per_day": -0.0005, "activity_index": 0.07
+      },
+      "geometry": { "type": "Polygon", "coordinates": [[[-1.26245,51.83770],[-1.26155,51.83770],[-1.26155,51.83830],[-1.26245,51.83830],[-1.26245,51.83770]]] }
+    }
+  ]
+}

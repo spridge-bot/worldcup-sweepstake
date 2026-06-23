@@ -32,7 +32,10 @@ src/landmon/
   buildings.py  Flag farm_storage / industrial_storage buildings (heuristics)
   sentinel.py   Free Sentinel-2 NDVI & Sentinel-1 backscatter time series (PC STAC)
   change.py     Per-building activity metrics from a time series
+  chips.py      Render per-building dated image chips (the filmstrip)
+  web/          Zero-dependency map viewer (stdlib http.server + Leaflet)
   cli.py        Command-line pipeline
+sample_data/demo_storage.geojson   Demo so the viewer renders with no key/network
 ```
 
 ## Setup
@@ -71,6 +74,62 @@ python -m landmon.cli activity --aoi config/aoi.example.geojson \
 (`farm_storage` / `industrial_storage` / `possible_storage`) and a `storage_score`.
 `outputs/activity.geojson` adds per-building time-series stats (`mean`, `range`,
 `trend_per_day`) — a coarse busy/idle proxy, **not** a vehicle count.
+
+## The map viewer (browse map, imagery, tagged locations + activity)
+
+A self-contained web page shows your tagged buildings on a satellite/OS basemap,
+**coloured by an activity scale** (blue = idle → red = busy), with a sortable
+sidebar, class filters, per-building popups (stats + a dated image filmstrip), and
+a colour legend. It runs on the **Python standard library only** — no pip install
+needed just to view — and reads whatever GeoJSON exists (`outputs/activity.geojson`
+→ `outputs/storage.geojson` → bundled demo data).
+
+```bash
+# Runs immediately with bundled demo data — no key, no deps:
+python -m landmon.web.server            # -> http://127.0.0.1:8000
+# or via the CLI (needs python-dotenv): python -m landmon.cli serve
+```
+
+Open `http://127.0.0.1:8000`. With no OS key it shows free **Esri satellite
+imagery**; set `OS_API_KEY` to add the OS basemap layer (tiles are proxied through
+the server so the key never reaches the browser).
+
+### The activity scale
+Each building gets an `activity_index` in 0–1, rendered on a blue→green→yellow→
+orange→red ramp (legend in the sidebar). If your data already has `activity_index`
+it's used directly; otherwise the server derives one from the Sentinel-1 time-series
+stats (`range` of backscatter + positive `trend_per_day` = busier) and falls back to
+`storage_score`. It's a **relative, comparative** scale across the sites shown — a
+screening signal, not a calibrated occupancy measure.
+
+### Dated image chips (the "range of timed images")
+Generate a PNG per building per acquisition date; the viewer's popup shows them as a
+scrubable filmstrip:
+```bash
+python -m landmon.cli chips --aoi config/aoi.example.geojson \
+    --buildings outputs/storage.geojson --sensor s2 \
+    --start 2023-01-01 --end 2024-12-31      # -> outputs/chips/<id>/<date>.png
+```
+
+### Viewing over Tailscale
+The server binds to `127.0.0.1` by default. Two ways to reach it from your other
+devices on the tailnet:
+
+```bash
+# Recommended — Tailscale reverse-proxies localhost over HTTPS within your tailnet:
+tailscale serve --bg 8000
+#   -> https://<your-machine>.<tailnet>.ts.net/   (private to your tailnet)
+#   stop sharing with:  tailscale serve --https=443 off
+
+# Or bind to the tailnet interface directly and hit the MagicDNS name / 100.x IP:
+python -m landmon.web.server --host 0.0.0.0 --port 8000
+#   -> http://<your-machine>:8000   (reachable by any tailnet device)
+```
+
+Prefer `tailscale serve` (keeps the app on localhost, adds tailnet-only HTTPS).
+Only use `tailscale funnel` if you deliberately want it on the public internet —
+not recommended for this. Keep `--host 127.0.0.1`/`tailscale serve` unless you
+specifically need raw-interface binding, since the viewer has no auth of its own.
 
 ## How "flag storage buildings" works
 

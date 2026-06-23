@@ -1,0 +1,47 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+body { display: flex; }
+
+#sidebar {
+  width: 320px; min-width: 320px; height: 100vh; overflow-y: auto;
+  background: #14181f; color: #e6e9ee; padding: 16px 16px 28px;
+}
+#map { flex: 1; height: 100vh; }
+
+#sidebar h1 { font-size: 18px; margin: 0 0 2px; }
+.sub { font-size: 12px; color: #9aa4b2; margin: 0 0 16px; }
+.note { font-size: 11px; color: #8b94a3; line-height: 1.4; }
+.src { font-size: 10px; color: #5d6675; margin-top: 18px; word-break: break-all; }
+
+.legend { margin-bottom: 16px; }
+.legend-title { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
+.legend-bar {
+  height: 12px; border-radius: 6px;
+  background: linear-gradient(90deg,#2c7bb6 0%,#5ab36a 30%,#ffd24d 60%,#f08a3c 80%,#d7191c 100%);
+}
+.legend-labels { display: flex; justify-content: space-between; font-size: 11px; color: #9aa4b2; margin-top: 3px; }
+
+.filters { display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; font-size: 13px; }
+.filters label { cursor: pointer; }
+
+#list { display: flex; flex-direction: column; gap: 6px; }
+.card {
+  background: #1d232c; border: 1px solid #2a313c; border-radius: 8px;
+  padding: 8px 10px; cursor: pointer; transition: border-color .15s;
+}
+.card:hover { border-color: #4a90d9; }
+.card .row1 { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.card .name { font-size: 13px; font-weight: 600; }
+.card .pct { font-size: 13px; font-weight: 700; }
+.card .meta { font-size: 11px; color: #9aa4b2; margin-top: 2px; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+
+.popup h3 { margin: 0 0 4px; font-size: 14px; }
+.popup .cls { font-size: 11px; color: #555; text-transform: capitalize; }
+.popup table { font-size: 11px; margin-top: 6px; border-collapse: collapse; }
+.popup td { padding: 1px 8px 1px 0; }
+.popup .filmstrip { display: flex; gap: 4px; margin-top: 8px; overflow-x: auto; }
+.popup .filmstrip figure { margin: 0; text-align: center; }
+.popup .filmstrip img { width: 84px; height: 84px; object-fit: cover; border-radius: 4px; }
+.popup .filmstrip figcaption { font-size: 9px; color: #777; }
+.popup .nochips { font-size: 11px; color: #888; margin-top: 8px; }

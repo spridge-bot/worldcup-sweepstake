@@ -97,7 +97,46 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--end", required=True)
     s.add_argument("--out", default="outputs/activity.geojson")
     s.set_defaults(func=_cmd_activity)
+
+    s = sub.add_parser("chips", help="Render per-building dated image chips")
+    s.add_argument("--aoi", required=True)
+    s.add_argument("--buildings", required=True)
+    s.add_argument("--sensor", choices=["s1", "s2"], default="s2")
+    s.add_argument("--start", required=True)
+    s.add_argument("--end", required=True)
+    s.add_argument("--out", default="outputs/chips")
+    s.set_defaults(func=_cmd_chips)
+
+    s = sub.add_parser("serve", help="Run the web map viewer (zero deps)")
+    s.add_argument("--host", default="127.0.0.1",
+                   help="Bind address. 127.0.0.1 is safest behind `tailscale serve`.")
+    s.add_argument("--port", type=int, default=8000)
+    s.add_argument("--data", help="GeoJSON to display (defaults to outputs/ then demo).")
+    s.set_defaults(func=_cmd_serve)
     return p
+
+
+def _cmd_serve(args):
+    from .web import server
+    server.run(host=args.host, port=args.port, data=args.data)
+
+
+def _cmd_chips(args):
+    import geopandas as gpd
+
+    from . import change, chips, sentinel
+    a = aoi_mod.load_aoi(args.aoi)
+    buildings_gdf = gpd.read_file(args.buildings)
+    if args.sensor == "s2":
+        series = sentinel.sentinel2_ndvi_series(a, args.start, args.end)
+        cmap = "RdYlGn"
+    else:
+        ds = sentinel.sentinel1_backscatter_series(a, args.start, args.end)
+        series = change.backscatter_db(ds, band="vv")
+        cmap = "viridis"
+    counts = chips.save_building_chips(series, buildings_gdf, outdir=args.out, cmap=cmap)
+    total = sum(counts.values())
+    print(f"Wrote {total} chips across {len(counts)} buildings into {args.out}")
 
 
 def main(argv=None):
