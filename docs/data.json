@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:29:58+00:00",
+ "generated_at": "2026-06-23T17:30:43+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "29'",
-   "clock_sec": 1740.0,
-   "status_detail": "29'",
+   "clock": "30'",
+   "clock_sec": 1800.0,
+   "status_detail": "30'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.24,
@@ -1238,7 +1238,7 @@
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3955,10 +3955,10 @@
      "d": 1,
      "l": 0,
      "gf": 3,
-     "ga": 1,
+     "ga": 2,
      "pts": 4,
      "live": true,
-     "gd": 2,
+     "gd": 1,
      "name": "Portugal",
      "flag": "🇵🇹",
      "tier": 1,
@@ -4005,11 +4005,11 @@
      "w": 0,
      "d": 0,
      "l": 2,
-     "gf": 1,
+     "gf": 2,
      "ga": 5,
      "pts": 0,
      "live": true,
-     "gd": -4,
+     "gd": -3,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
      "tier": 3,
