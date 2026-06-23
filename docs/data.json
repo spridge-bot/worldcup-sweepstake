@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:31:29+00:00",
+ "generated_at": "2026-06-23T17:32:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1238,7 +1238,7 @@
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "goals": 1
+    "goals": 0
    }
   }
  ],
@@ -3955,10 +3955,10 @@
      "d": 1,
      "l": 0,
      "gf": 3,
-     "ga": 2,
+     "ga": 1,
      "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Portugal",
      "flag": "🇵🇹",
      "tier": 1,
@@ -4005,11 +4005,11 @@
      "w": 0,
      "d": 0,
      "l": 2,
-     "gf": 2,
+     "gf": 1,
      "ga": 5,
      "pts": 0,
      "live": true,
-     "gd": -3,
+     "gd": -4,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
      "tier": 3,
