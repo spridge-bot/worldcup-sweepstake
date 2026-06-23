@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T02:27:39+00:00",
+ "generated_at": "2026-06-23T02:33:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2556,8 +2556,8 @@
    "group": "Group L",
    "odds": {
     "home": 7.0,
-    "draw": 4.3,
-    "away": 1.5,
+    "draw": 4.4,
+    "away": 1.49,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5297,15 +5297,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The key differences between Tuchel and Southgate's England teams",
-   "desc": "Analysing the similarities and differences between how Gareth Southgate and Thomas Tuchel led England.",
-   "link": "https://www.bbc.com/sport/football/articles/cr5jv5vd1dro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-22T13:43:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e672/live/4ec3aab0-6daa-11f1-8f82-971457c1c9ea.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5375,6 +5366,15 @@
    "published": "2026-06-22T17:39:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "A defender's view on how to stop the World Cup's best strikers",
+   "desc": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?",
+   "link": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-22T08:10:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg",
    "source": "BBC Sport"
   }
  ]
