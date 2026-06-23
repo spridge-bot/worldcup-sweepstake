@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T05:00:36+00:00",
+ "generated_at": "2026-06-23T05:01:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -724,12 +724,12 @@
    "fifa_rank": 28,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 0,
-   "ga": 3,
+   "gf": 2,
+   "ga": 4,
    "total": 1,
    "events": [
     {
@@ -1079,12 +1079,12 @@
    "fifa_rank": 53,
    "owner": "Glancy",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "gf": 1,
-   "ga": 3,
+   "lost": 2,
+   "gf": 2,
+   "ga": 5,
    "total": 0,
    "events": []
   },
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760455,
+   "date": "2026-06-23",
    "utc": "2026-06-23T03:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "Levi's Stadium",
+   "note": "",
+   "home": {
+    "code": "JOR",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 7.0,
     "draw": 4.4,
     "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "JOR",
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "owner": "Glancy",
-    "goals": 1
-   },
-   "away": {
-    "code": "ALG",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760454,
    "date": "2026-06-23",
@@ -3172,7 +3171,7 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "LWWDW"
+    "form": "WLWWD"
    },
    "away": {
     "name": "Austria",
@@ -3197,7 +3196,7 @@
     "name": "Jordan",
     "flag": "🇯🇴",
     "owner": "Glancy",
-    "form": "LLLDD"
+    "form": "LLLLD"
    },
    "away": {
     "name": "Argentina",
@@ -3912,7 +3911,7 @@
      "gf": 2,
      "ga": 4,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Algeria",
      "flag": "🇩🇿",
@@ -3929,7 +3928,7 @@
      "gf": 2,
      "ga": 5,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -3,
      "name": "Jordan",
      "flag": "🇯🇴",
@@ -5203,6 +5202,15 @@
    "pts": 2
   },
   {
+   "code": "ALG",
+   "name": "Algeria",
+   "flag": "🇩🇿",
+   "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
    "code": "COL",
    "name": "Colombia",
    "flag": "🇨🇴",
@@ -5234,6 +5242,15 @@
    "name": "Ghana",
    "flag": "🇬🇭",
    "owner": "George",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "JOR",
+   "name": "Jordan",
+   "flag": "🇯🇴",
+   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
