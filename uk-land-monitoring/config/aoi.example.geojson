@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "oxfordshire_arable_example",
+  "comment": "Example AOI: ~3km box over arable countryside near Otmoor/Islip, Oxfordshire. Replace with your own area of interest (lon,lat in WGS84).",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "oxfordshire_arable_example" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.2850, 51.8350],
+            [-1.2450, 51.8350],
+            [-1.2450, 51.8620],
+            [-1.2850, 51.8620],
+            [-1.2850, 51.8350]
+          ]
+        ]
+      }
+    }
+  ]
+}

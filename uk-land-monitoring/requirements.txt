@@ -1,0 +1,23 @@
+# Core
+requests>=2.31
+python-dotenv>=1.0
+numpy>=1.26
+pandas>=2.1
+
+# Geospatial vectors (OS data, AOIs, footprints)
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+
+# Satellite imagery (free tier: Microsoft Planetary Computer STAC)
+pystac-client>=0.7
+planetary-computer>=1.0
+odc-stac>=0.3
+rioxarray>=0.15
+xarray>=2024.1
+
+# Plotting / chips
+matplotlib>=3.8
+
+# Optional: official OS Data Hub helper
+osdatahub>=1.2
