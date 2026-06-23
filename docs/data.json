@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T17:14:53+00:00",
+ "generated_at": "2026-06-23T17:15:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "14'",
-   "clock_sec": 840.0,
-   "status_detail": "14'",
+   "clock": "15'",
+   "clock_sec": 900.0,
+   "status_detail": "15'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.24,
@@ -5301,7 +5301,7 @@
  ],
  "news": [
   {
-   "headline": "Have World Cup changes damaged the final round of the group stage?",
+   "headline": "Have World Cup changes made final group stage games unfair?",
    "desc": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T16:44:13Z",
