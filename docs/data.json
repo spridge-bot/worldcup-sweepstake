@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T19:00:04+00:00",
+ "generated_at": "2026-06-23T19:00:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -276,11 +276,11 @@
    "fifa_rank": 5,
    "owner": "Dipen",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 1,
+   "gf": 6,
    "ga": 1,
    "total": 5,
    "events": [
@@ -994,12 +994,12 @@
    "fifa_rank": 48,
    "owner": "Pari",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 2,
    "gf": 1,
-   "ga": 3,
+   "ga": 8,
    "total": 0,
    "events": []
   },
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760461,
+   "date": "2026-06-23",
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "NRG Stadium",
+   "note": "",
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "tier": 1,
+    "goals": 5,
+    "points": null
+   },
+   "away": {
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.24,
     "draw": 6.5,
     "away": 12.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "POR",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "goals": 5
-   },
-   "away": {
-    "code": "UZB",
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "owner": "Pari",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760455,
    "date": "2026-06-23",
@@ -3134,7 +3133,7 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "form": "DWWWD"
+    "form": "WDWWW"
    }
   },
   {
@@ -3159,7 +3158,7 @@
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "form": "LLLWW"
+    "form": "LLLLW"
    }
   },
   {
@@ -3957,7 +3956,7 @@
      "gf": 6,
      "ga": 1,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 5,
      "name": "Portugal",
      "flag": "🇵🇹",
@@ -4008,7 +4007,7 @@
      "gf": 1,
      "ga": 8,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -7,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
@@ -5011,6 +5010,15 @@
    "pts": 4
   },
   {
+   "code": "POR",
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "owner": "Dipen",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -5087,15 +5095,6 @@
    "name": "Netherlands",
    "flag": "🇳🇱",
    "owner": "Emily",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "POR",
-   "name": "Portugal",
-   "flag": "🇵🇹",
-   "owner": "Dipen",
    "yellow": 3,
    "red": 0,
    "pts": 3
@@ -5209,6 +5208,15 @@
    "pts": 2
   },
   {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "flag": "🇺🇿",
+   "owner": "Pari",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "ALG",
    "name": "Algeria",
    "flag": "🇩🇿",
@@ -5284,15 +5292,6 @@
    "code": "TUN",
    "name": "Tunisia",
    "flag": "🇹🇳",
-   "owner": "Pari",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "UZB",
-   "name": "Uzbekistan",
-   "flag": "🇺🇿",
    "owner": "Pari",
    "yellow": 1,
    "red": 0,
