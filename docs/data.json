@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T19:45:09+00:00",
+ "generated_at": "2026-06-24T19:46:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "44'",
-   "clock_sec": 2640.0,
-   "status_detail": "44'",
+   "clock": "45'",
+   "clock_sec": 2700.0,
+   "status_detail": "45'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "44'",
-   "clock_sec": 2640.0,
-   "status_detail": "44'",
+   "clock": "45'+1'",
+   "clock_sec": 2700.0,
+   "status_detail": "45'+1'",
    "venue": "BC Place",
    "odds": {
     "home": 2.15,
