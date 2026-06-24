@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T06:37:37+00:00",
+ "generated_at": "2026-06-24T06:42:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2735,8 +2735,8 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 3.85,
-    "draw": 3.8,
+    "home": 3.7,
+    "draw": 3.85,
     "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2885,9 +2885,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 3.0,
-    "draw": 2.15,
-    "away": 4.1,
+    "home": 2.95,
+    "draw": 2.2,
+    "away": 4.0,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -5381,6 +5381,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What are Scotland's chances of progressing as third-place finishers?",
+   "desc": "With 32 of 48 teams advancing to the knockout rounds of the World Cup it is more difficult to be eliminated than to qualify.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyqvxxqveo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T06:35:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Spence appears not to shake hands with Partey",
    "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
@@ -5432,15 +5441,6 @@
    "published": "2026-06-23T22:08:32Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bba1/live/5e6e6a30-6f4f-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Iran's US entry terms changed for final group game",
-   "desc": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T18:44:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
    "source": "BBC Sport"
   }
  ]
