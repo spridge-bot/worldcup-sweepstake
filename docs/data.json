@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T15:28:19+00:00",
+ "generated_at": "2026-06-24T15:34:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2885,9 +2885,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.95,
+    "home": 2.85,
     "draw": 2.25,
-    "away": 3.95,
+    "away": 4.0,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -5336,6 +5336,15 @@
  ],
  "news": [
   {
+   "headline": "Scotland primed for game of their lives against fallible Brazil",
+   "desc": "Scotland don't know what they need against Brazil to reach the World Cup knockout phase, but will know they need to improve on the previous two games, writes Tom English.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwyewnxnx11o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T06:05:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d44f/live/9cd0b570-6f4b-11f1-8bee-71a9829f33ce.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel's England are opposite to Southgate's - and built to beat top teams",
    "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to prosper against the world's top nations.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
@@ -5360,15 +5369,6 @@
    "published": "2026-06-23T21:33:55Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3002/live/78536280-6f30-11f1-8453-3df0e929f7f2.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Scotland primed for game of their lives against fallible Brazil",
-   "desc": "Scotland don't know what they need against Brazil to reach the World Cup knockout phase, but will know they need to improve on the previous two games, writes Tom English.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwyewnxnx11o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T06:05:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d44f/live/9cd0b570-6f4b-11f1-8bee-71a9829f33ce.jpg",
    "source": "BBC Sport"
   },
   {
