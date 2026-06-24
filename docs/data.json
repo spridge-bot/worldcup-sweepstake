@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T00:54:27+00:00",
+ "generated_at": "2026-06-24T00:55:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -414,11 +414,11 @@
    "fifa_rank": 11,
    "owner": "Dubs",
    "status": "alive",
-   "played": 1,
-   "won": 0,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 2,
+   "gf": 3,
    "ga": 4,
    "total": 1,
    "events": [
@@ -845,12 +845,12 @@
    "fifa_rank": 34,
    "owner": "Dubs",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
+   "lost": 2,
    "gf": 0,
-   "ga": 1,
+   "ga": 2,
    "total": 0,
    "events": []
   },
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760460,
+   "date": "2026-06-23",
    "utc": "2026-06-23T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "BMO Field",
+   "note": "",
+   "home": {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 7.0,
     "draw": 4.0,
     "away": 1.54,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "PAN",
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "owner": "Dubs",
-    "goals": 0
-   },
-   "away": {
-    "code": "CRO",
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760458,
    "date": "2026-06-23",
@@ -3090,7 +3089,7 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": "LWLLW"
+    "form": "WLWLL"
    },
    "away": {
     "name": "Ghana",
@@ -3115,7 +3114,7 @@
     "name": "Panama",
     "flag": "🇵🇦",
     "owner": "Dubs",
-    "form": "LDWLW"
+    "form": "LLDWL"
    },
    "away": {
     "name": "England",
@@ -4076,7 +4075,7 @@
      "gf": 3,
      "ga": 4,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "Croatia",
      "flag": "🇭🇷",
@@ -4093,7 +4092,7 @@
      "gf": 0,
      "ga": 2,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Panama",
      "flag": "🇵🇦",
@@ -5113,6 +5112,15 @@
    "pts": 3
   },
   {
+   "code": "PAN",
+   "name": "Panama",
+   "flag": "🇵🇦",
+   "owner": "Dubs",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "KSA",
    "name": "Saudi Arabia",
    "flag": "🇸🇦",
@@ -5203,15 +5211,6 @@
    "pts": 2
   },
   {
-   "code": "PAN",
-   "name": "Panama",
-   "flag": "🇵🇦",
-   "owner": "Dubs",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
    "code": "SUI",
    "name": "Switzerland",
    "flag": "🇨🇭",
@@ -5252,6 +5251,15 @@
    "name": "Colombia",
    "flag": "🇨🇴",
    "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "CRO",
+   "name": "Croatia",
+   "flag": "🇭🇷",
+   "owner": "Dubs",
    "yellow": 1,
    "red": 0,
    "pts": 1
