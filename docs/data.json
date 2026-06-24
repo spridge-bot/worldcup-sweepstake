@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T21:22:17+00:00",
+ "generated_at": "2026-06-24T21:27:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2697,7 +2697,7 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.26,
+    "home": 1.27,
     "draw": 6.0,
     "away": 11.0,
     "over_under": 2.5,
@@ -2747,8 +2747,8 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 3.75,
-    "draw": 3.75,
+    "home": 3.85,
+    "draw": 3.8,
     "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5389,7 +5389,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c0lykrnw64xo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-24T19:24:12Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c091/live/8f25bf90-7001-11f1-8543-63b26048fa35.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6115/live/d31f6b90-7012-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
