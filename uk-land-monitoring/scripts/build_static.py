@@ -52,11 +52,17 @@ def build(data_path: Path, chip_dirs, out_path: Path) -> Path:
 
     css = (STATIC / "style.css").read_text()
     appjs = (STATIC / "app.js").read_text()
+    leaflet_css = (STATIC / "vendor" / "leaflet.css").read_text()
+    leaflet_js = (STATIC / "vendor" / "leaflet.js").read_text()
     html = (STATIC / "index.html").read_text()
 
-    # Inline CSS + JS; inject the data as globals before the app script.
-    head_inject = f"<style>\n{css}\n</style>"
+    # Inline EVERYTHING (Leaflet + our CSS/JS + data) so the file has no external
+    # script/style deps — only the map tiles load from the web. This is what makes
+    # it open correctly from a local file on a phone.
+    head_inject = f"<style>\n{leaflet_css}\n{css}\n</style>"
+    html = html.replace('<link rel="stylesheet" href="/static/vendor/leaflet.css" />', "")
     html = html.replace('<link rel="stylesheet" href="/static/style.css" />', head_inject)
+
     data_script = (
         "<script>\n"
         "window.__STATIC__ = true;\n"
@@ -64,6 +70,8 @@ def build(data_path: Path, chip_dirs, out_path: Path) -> Path:
         f"window.__CHIPS__ = {json.dumps(chips)};\n"
         "</script>"
     )
+    html = html.replace('<script src="/static/vendor/leaflet.js"></script>',
+                        f"<script>\n{leaflet_js}\n</script>")
     html = html.replace('<script src="/static/app.js"></script>',
                         data_script + f"\n<script>\n{appjs}\n</script>")
 
