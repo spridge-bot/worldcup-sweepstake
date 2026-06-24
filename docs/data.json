@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T22:53:46+00:00",
+ "generated_at": "2026-06-24T22:54:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1248,7 +1248,7 @@
    "group": "Group C",
    "clock": "45'+7'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+7'",
+   "status_detail": "HT",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -5379,15 +5379,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England to face Scotland? World Cup knockout stage as it stands",
-   "desc": "Use BBC Sport's projections tool with in-game updates to plot your country's route through the World Cup knockouts.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T21:04:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/def6/live/eb096160-6faa-11f1-a717-77de862b9baf.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
@@ -5412,6 +5403,15 @@
    "published": "2026-06-24T10:31:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England to face Scotland? World Cup knockout stage as it stands",
+   "desc": "Use BBC Sport's projections tool with in-game updates to plot your country's route through the World Cup knockouts.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T21:04:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/def6/live/eb096160-6faa-11f1-a717-77de862b9baf.jpg",
    "source": "BBC Sport"
   },
   {
