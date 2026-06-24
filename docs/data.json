@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T02:29:13+00:00",
+ "generated_at": "2026-06-24T02:29:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T02:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "28'",
-   "clock_sec": 1680.0,
-   "status_detail": "28'",
+   "clock": "29'",
+   "clock_sec": 1740.0,
+   "status_detail": "29'",
    "venue": "Estadio Akron",
    "odds": {
     "home": 1.45,
@@ -5400,6 +5400,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "No extra revenue for Fifa from hydration breaks - Infantino",
+   "desc": "Hydration breaks at the World Cup are \"purely a sporting matter\" and bring \"no additional revenue for Fifa\", says president Gianni Infantino.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1ly8emz4n1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T02:27:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a11/live/33e66630-6f6a-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Should Ghana have been awarded a penalty against England?",
    "desc": "England fans have been left frustrated by the goalless draw against Ghana, but were Thomas Tuchel's side fortunate not to have given away a penalty?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
@@ -5433,15 +5442,6 @@
    "published": "2026-06-23T11:40:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0f5a/live/32ad7920-6d8a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Iran's US entry terms changed for final group game",
-   "desc": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T18:44:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
    "source": "BBC Sport"
   }
  ]
