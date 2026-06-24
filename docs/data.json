@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T20:16:20+00:00",
+ "generated_at": "2026-06-24T20:17:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "53'",
-   "clock_sec": 3180.0,
-   "status_detail": "53'",
+   "clock": "55'",
+   "clock_sec": 3300.0,
+   "status_detail": "55'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "57'",
-   "clock_sec": 3420.0,
-   "status_detail": "57'",
+   "clock": "58'",
+   "clock_sec": 3480.0,
+   "status_detail": "58'",
    "venue": "BC Place",
    "odds": {
     "home": 2.15,
@@ -1262,7 +1262,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "CAN",
@@ -3327,11 +3327,11 @@
      "w": 2,
      "d": 1,
      "l": 0,
-     "gf": 6,
+     "gf": 7,
      "ga": 2,
      "pts": 7,
      "live": true,
-     "gd": 4,
+     "gd": 5,
      "name": "Switzerland",
      "flag": "🇨🇭",
      "tier": 2,
@@ -3345,10 +3345,10 @@
      "d": 1,
      "l": 1,
      "gf": 7,
-     "ga": 2,
+     "ga": 3,
      "pts": 4,
      "live": true,
-     "gd": 5,
+     "gd": 4,
      "name": "Canada",
      "flag": "🇨🇦",
      "tier": 2,
@@ -4870,6 +4870,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Johan Manzambi",
+   "team": "SUI",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇨🇭",
+   "owner": "Emily"
+  },
+  {
    "player": "Jonathan David",
    "team": "CAN",
    "goals": 3,
@@ -4947,14 +4955,6 @@
    "goals": 2,
    "assists": 0,
    "flag": "🇳🇿",
-   "owner": "Willo"
-  },
-  {
-   "player": "Folarin Balogun",
-   "team": "USA",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇺🇸",
    "owner": "Willo"
   }
  ],
