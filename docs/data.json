@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T01:38:09+00:00",
+ "generated_at": "2026-06-24T01:43:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2929,9 +2929,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 5.0,
+    "home": 4.9,
     "draw": 4.2,
-    "away": 1.65,
+    "away": 1.67,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5357,15 +5357,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Should Ghana have been awarded a penalty against England?",
-   "desc": "England fans have been left frustrated by the goalless draw against Ghana, but were Thomas Tuchel's side fortunate not to have given away a penalty?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T23:46:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/598a/live/5d063790-6f63-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Spence appears not to shake hands with Partey",
    "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
@@ -5390,6 +5381,15 @@
    "published": "2026-06-23T16:44:13Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f376/live/dcd06300-6f05-11f1-87e9-1dc598ae70b3.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Should Ghana have been awarded a penalty against England?",
+   "desc": "England fans have been left frustrated by the goalless draw against Ghana, but were Thomas Tuchel's side fortunate not to have given away a penalty?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T23:46:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/598a/live/5d063790-6f63-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
