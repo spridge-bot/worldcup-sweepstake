@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T21:44:26+00:00",
+ "generated_at": "2026-06-24T21:50:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2697,9 +2697,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.27,
+    "home": 1.29,
     "draw": 6.0,
-    "away": 11.0,
+    "away": 10.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5348,21 +5348,21 @@
  ],
  "news": [
   {
-   "headline": "Scotland primed for game of their lives against fallible Brazil",
-   "desc": "Scotland don't know what they need against Brazil to reach the World Cup knockout phase, but will know they need to improve on the previous two games, writes Tom English.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwyewnxnx11o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T06:05:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d44f/live/9cd0b570-6f4b-11f1-8bee-71a9829f33ce.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "England's James and Rice to have fitness assessed",
    "desc": "England will assess the fitness of Reece James and Declan Rice before their final World Cup group game against Panama.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg4w2wk5vryo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-24T16:00:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f3d3/live/a6699ca0-6fe1-11f1-b763-7be8e457290d.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Madibo given five-game ban for causing Kone leg break",
+   "desc": "Qatar midfielder Assim Madibo is given a five-match ban for the challenge which resulted in a broken leg for Canada's Ismael Kone.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0lykrnw64xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T19:24:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6115/live/d31f6b90-7012-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5381,15 +5381,6 @@
    "published": "2026-06-24T18:42:01Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Madibo given five-game ban for causing Kone leg break",
-   "desc": "Qatar midfielder Assim Madibo is given a five-match ban for the challenge which resulted in a broken leg for Canada's Ismael Kone.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0lykrnw64xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T19:24:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6115/live/d31f6b90-7012-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5453,6 +5444,15 @@
    "published": "2026-06-24T14:39:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/245b/live/9a022020-6fcf-11f1-b38e-b7631b704559.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why Bellingham was not sent off for covering his mouth",
+   "desc": "England midfielder Jude Bellingham was not shown a red card despite covering his mouth while talking to Ghana's Jordan Ayew.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c70y1ljdz8zo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T10:10:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/971b/live/a6a9ddf0-6fb5-11f1-81a2-4b25b1a24ae5.jpg",
    "source": "BBC Sport"
   }
  ]
