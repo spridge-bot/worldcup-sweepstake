@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T02:01:14+00:00",
+ "generated_at": "2026-06-24T02:01:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 3,
    "rank": 3,
-   "movement": 4
+   "movement": 3
   },
   {
    "name": "Jen",
@@ -118,9 +118,9 @@
     "NZL"
    ],
    "total": 9,
-   "today": 0,
+   "today": 1,
    "rank": 7,
-   "movement": -3
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -144,9 +144,9 @@
     "QAT"
    ],
    "total": 7,
-   "today": 1,
+   "today": 4,
    "rank": 9,
-   "movement": -1
+   "movement": 2
   },
   {
    "name": "Pari",
@@ -159,7 +159,7 @@
    "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -446,7 +446,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-18",
+     "date": "2026-06-24",
      "desc": "2nd in Group K (live)",
      "points": 3
     }
@@ -963,7 +963,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-17",
+     "date": "2026-06-24",
      "desc": "3rd in Group K (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760459,
+   "utc": "2026-06-24T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group K",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Estadio Akron",
+   "odds": {
+    "home": 1.45,
+    "draw": 4.4,
+    "away": 8.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy",
+    "goals": 0
+   },
+   "away": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "owner": "Willo",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760460,
@@ -2599,31 +2631,6 @@
  ],
  "upcoming": [
   {
-   "id": 760459,
-   "utc": "2026-06-24T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 1.45,
-    "draw": 4.4,
-    "away": 8.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "form": null
-   },
-   "away": {
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "form": null
-   }
-  },
-  {
    "id": 760462,
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
@@ -3978,14 +3985,14 @@
     {
      "group": "Group K",
      "code": "COL",
-     "p": 1,
+     "p": 2,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 3,
      "ga": 1,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 2,
      "name": "Colombia",
      "flag": "🇨🇴",
@@ -3995,14 +4002,14 @@
     {
      "group": "Group K",
      "code": "COD",
-     "p": 1,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 1,
      "ga": 1,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": 0,
      "name": "DR Congo",
      "flag": "🇨🇩",
