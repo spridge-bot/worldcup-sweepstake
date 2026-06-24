@@ -60,6 +60,14 @@ make pipeline AOI=config/aoi.example.geojson START=2025-06-01 END=2026-06-20
 The running dashboard picks up the new data automatically. To draw an AOI visually,
 use <https://geojson.io>, paste/replace the polygon, and save over the file.
 
+## Want a file you can just open (no server, no Mac)?
+```bash
+make static     # -> outputs/dashboard_demo.html
+```
+That bakes the data + chips into one self-contained HTML you can email/AirDrop and open
+in any browser (it still needs internet for the map tiles). Run it after `make pipeline`
+to share a snapshot of your real data.
+
 ## If something fails
 - The dashboard always still runs (on demo or the previous week's data), so a failed
   refresh never leaves you with a blank page.

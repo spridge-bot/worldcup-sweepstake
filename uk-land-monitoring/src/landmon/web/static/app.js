@@ -47,6 +47,20 @@ const chipsById = {};                      // id -> [{date,url}]
 const overlays = {};                       // id -> L.imageOverlay
 const activeClasses = new Set(["farm_storage", "industrial_storage", "possible_storage"]);
 
+// Data access: live server (fetch) OR a standalone static export (inlined globals).
+function getJSON(path) {
+  if (window.__STATIC__) {
+    if (path === "/api/meta")
+      return Promise.resolve({ os_tiles: false, data_source: "static export",
+        count: (window.__BUILDINGS__.features || []).length });
+    if (path === "/api/buildings") return Promise.resolve(window.__BUILDINGS__);
+    const m = path.match(/^\/api\/chips\/(.+)$/);
+    if (m) { const id = decodeURIComponent(m[1]);
+      return Promise.resolve({ id, chips: window.__CHIPS__[id] || [] }); }
+  }
+  return fetch(path).then(r => r.json());
+}
+
 // timeline = [{d: "2024-01-15", a: 0.42}]; nearest point with d <= date.
 function activityAt(props, date) {
   const tl = props.timeline;
@@ -235,18 +249,18 @@ document.querySelectorAll(".cls").forEach(cb => cb.onchange = () => {
 });
 
 // --- boot ---------------------------------------------------------------- //
-fetch("/api/meta").then(r => r.json()).then(m => {
+getJSON("/api/meta").then(m => {
   document.getElementById("src").textContent = "source: " + m.data_source;
   document.getElementById("activity-note").textContent = m.os_tiles
     ? "OS basemap available in the layer switcher."
     : "Set OS_API_KEY for the OS basemap layer; satellite imagery shown by default.";
 });
 
-fetch("/api/buildings").then(r => r.json()).then(async fc => {
+getJSON("/api/buildings").then(async fc => {
   allFeatures = fc.features || [];
   // Pull chip lists for every building, then build the global date axis.
   await Promise.all(allFeatures.map(f =>
-    fetch(`/api/chips/${encodeURIComponent(f.properties.id)}`).then(r => r.json())
+    getJSON(`/api/chips/${encodeURIComponent(f.properties.id)}`)
       .then(d => { chipsById[f.properties.id] = d.chips || []; }).catch(() => {})
   ));
   const dateSet = new Set();
