@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T03:59:31+00:00",
+ "generated_at": "2026-06-24T04:04:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2710,9 +2710,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 8.0,
+    "home": 9.0,
     "draw": 5.25,
-    "away": 1.38,
+    "away": 1.36,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2736,7 +2736,7 @@
    "group": "Group A",
    "odds": {
     "home": 3.65,
-    "draw": 3.85,
+    "draw": 3.7,
     "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5345,15 +5345,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
-   "desc": "England manager Thomas Tuchel defends Jude Bellingham after the midfielder is involved in a heated row with Ghana boss Carlos Queiroz.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4zr6l2no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T01:15:29Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a746/live/13354990-6f67-11f1-acb7-6536c443af2f.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "'I'm back' - record-breaking Ronaldo answers critics",
    "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
@@ -5363,21 +5354,30 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Ancelotti's quest to end Brazil's 24-year wait for World Cup glory",
+   "desc": "BBC Scotland's Andy Burke looks at Carlo Ancelotti and his mission at Brazil before their final Group C game against Scotland.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ced4555y6z9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T03:42:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0836/live/4f205f00-6f7e-11f1-941f-9780a64de2a5.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
+   "desc": "England manager Thomas Tuchel defends Jude Bellingham after the midfielder is involved in a heated row with Ghana boss Carlos Queiroz.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4zr6l2no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T01:15:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a746/live/13354990-6f67-11f1-acb7-6536c443af2f.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Spence appears not to shake hands with Partey",
    "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T21:46:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a9a/live/9c37a360-6f43-11f1-baf2-37f03751e13b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
-   "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, but how well do you know his journey so far?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T02:21:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   },
   {
