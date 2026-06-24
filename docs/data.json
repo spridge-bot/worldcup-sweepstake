@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T19:43:12+00:00",
+ "generated_at": "2026-06-24T19:44:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "42'",
-   "clock_sec": 2520.0,
-   "status_detail": "42'",
+   "clock": "43'",
+   "clock_sec": 2580.0,
+   "status_detail": "43'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -1238,7 +1238,7 @@
     "name": "Qatar",
     "flag": "🇶🇦",
     "owner": "Ruggy",
-    "goals": 0
+    "goals": 1
    }
   },
   {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "42'",
-   "clock_sec": 2520.0,
-   "status_detail": "42'",
+   "clock": "43'",
+   "clock_sec": 2580.0,
+   "status_detail": "43'",
    "venue": "BC Place",
    "odds": {
     "home": 2.15,
@@ -3362,10 +3362,10 @@
      "d": 1,
      "l": 1,
      "gf": 4,
-     "ga": 5,
+     "ga": 6,
      "pts": 4,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
      "tier": 3,
@@ -3378,11 +3378,11 @@
      "w": 0,
      "d": 1,
      "l": 2,
-     "gf": 1,
+     "gf": 2,
      "ga": 9,
      "pts": 1,
      "live": true,
-     "gd": -8,
+     "gd": -7,
      "name": "Qatar",
      "flag": "🇶🇦",
      "tier": 3,
