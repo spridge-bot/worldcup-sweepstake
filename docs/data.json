@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T20:35:19+00:00",
+ "generated_at": "2026-06-24T20:36:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1269,7 +1269,7 @@
     "name": "Canada",
     "flag": "🇨🇦",
     "owner": "Dipen",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3328,10 +3328,10 @@
      "d": 1,
      "l": 0,
      "gf": 7,
-     "ga": 2,
+     "ga": 3,
      "pts": 7,
      "live": true,
-     "gd": 5,
+     "gd": 4,
      "name": "Switzerland",
      "flag": "🇨🇭",
      "tier": 2,
@@ -3344,11 +3344,11 @@
      "w": 1,
      "d": 1,
      "l": 1,
-     "gf": 7,
+     "gf": 8,
      "ga": 3,
      "pts": 4,
      "live": true,
-     "gd": 4,
+     "gd": 5,
      "name": "Canada",
      "flag": "🇨🇦",
      "tier": 2,
