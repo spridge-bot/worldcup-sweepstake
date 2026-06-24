@@ -92,6 +92,14 @@ the viewer picks up automatically.
 - `--chip-mode ndvi` → vegetation index (crop activity around the building)
 - `--chip-mode sar`  → Sentinel-1 radar (all-weather)
 
+### Keep it running + weekly auto-refresh
+To leave the dashboard up and refresh the data **once a week** automatically, see
+[`deploy/README.md`](deploy/README.md) — it has ready-made macOS (launchd), Linux
+(systemd) and cron units. `scripts/refresh.sh` re-runs the pipeline over a rolling
+12-month window and swaps results in atomically (a failed run keeps the previous data,
+so the dashboard never breaks). The viewer reads the files live, so a refresh updates
+it with no restart.
+
 ---
 
 ## 3. Troubleshooting

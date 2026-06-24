@@ -1,0 +1,13 @@
+# systemd (Linux): keep the dashboard running. Replace __PROJECT_DIR__.
+[Unit]
+Description=Land Monitor dashboard
+After=network-online.target
+
+[Service]
+WorkingDirectory=__PROJECT_DIR__
+Environment=PYTHONPATH=__PROJECT_DIR__/src
+ExecStart=__PROJECT_DIR__/.venv/bin/python -m landmon.web.server --host 127.0.0.1 --port 8000
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

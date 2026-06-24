@@ -1,0 +1,12 @@
+# systemd (Linux): weekly refresh oneshot. Replace __PROJECT_DIR__.
+# Install: copy this + the .timer to ~/.config/systemd/user/ (user units) or
+# /etc/systemd/system/ (system units), then enable the timer (see deploy/README.md).
+[Unit]
+Description=Land Monitor weekly data refresh
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=__PROJECT_DIR__
+ExecStart=/usr/bin/env bash __PROJECT_DIR__/scripts/refresh.sh

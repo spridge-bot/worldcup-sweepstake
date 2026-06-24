@@ -236,3 +236,18 @@ def run(host: str = "127.0.0.1", port: int = 8000, data: str | None = None):
         httpd.serve_forever()
     except KeyboardInterrupt:
         print("\nbye")
+
+
+def _main(argv=None):
+    import argparse
+    ap = argparse.ArgumentParser(prog="python -m landmon.web.server")
+    ap.add_argument("--host", default="127.0.0.1",
+                    help="Bind address. Keep 127.0.0.1 behind `tailscale serve`.")
+    ap.add_argument("--port", type=int, default=8000)
+    ap.add_argument("--data", help="GeoJSON to display (defaults to outputs/ then demo).")
+    a = ap.parse_args(argv)
+    run(host=a.host, port=a.port, data=a.data)
+
+
+if __name__ == "__main__":
+    _main()

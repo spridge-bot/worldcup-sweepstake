@@ -1,0 +1,3 @@
+# Cron (Linux or macOS): weekly refresh, Sundays 03:00. Replace __PROJECT_DIR__.
+# Install:  crontab -e   then paste the line below.
+0 3 * * 0 __PROJECT_DIR__/scripts/refresh.sh >> __PROJECT_DIR__/outputs/refresh.log 2>&1

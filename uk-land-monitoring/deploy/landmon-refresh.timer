@@ -1,0 +1,10 @@
+# systemd (Linux): fire the refresh weekly, Sundays 03:00. Catches up if missed.
+[Unit]
+Description=Run Land Monitor refresh weekly
+
+[Timer]
+OnCalendar=Sun *-*-* 03:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
