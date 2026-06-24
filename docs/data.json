@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T22:08:56+00:00",
+ "generated_at": "2026-06-24T22:09:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "6'",
-   "clock_sec": 360.0,
-   "status_detail": "6'",
+   "clock": "8'",
+   "clock_sec": 480.0,
+   "status_detail": "8'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "6'",
-   "clock_sec": 360.0,
-   "status_detail": "6'",
+   "clock": "8'",
+   "clock_sec": 480.0,
+   "status_detail": "8'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -1269,7 +1269,7 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -3409,14 +3409,14 @@
      "group": "Group C",
      "code": "BRA",
      "p": 3,
-     "w": 1,
-     "d": 2,
+     "w": 2,
+     "d": 1,
      "l": 0,
-     "gf": 4,
+     "gf": 5,
      "ga": 1,
-     "pts": 5,
+     "pts": 7,
      "live": true,
-     "gd": 3,
+     "gd": 4,
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
@@ -3444,13 +3444,13 @@
      "code": "SCO",
      "p": 3,
      "w": 1,
-     "d": 1,
-     "l": 1,
+     "d": 0,
+     "l": 2,
      "gf": 1,
-     "ga": 1,
-     "pts": 4,
+     "ga": 2,
+     "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": -1,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "tier": 3,
@@ -4898,6 +4898,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Vinícius Júnior",
+   "team": "BRA",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
+  },
+  {
    "player": "Ayase Ueda",
    "team": "JPN",
    "goals": 2,
@@ -4960,14 +4968,6 @@
    "assists": 0,
    "flag": "🇨🇴",
    "owner": "Ruggy"
-  },
-  {
-   "player": "Elijah Just",
-   "team": "NZL",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇿",
-   "owner": "Willo"
   }
  ],
  "fairplay": [
