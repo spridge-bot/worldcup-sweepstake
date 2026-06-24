@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T18:02:13+00:00",
+ "generated_at": "2026-06-24T18:07:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2635,9 +2635,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.38,
-    "draw": 5.5,
-    "away": 8.0,
+    "home": 1.39,
+    "draw": 5.25,
+    "away": 7.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5381,21 +5381,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "As Messi turns 39, how he and Ronaldo keep breaking records",
-   "desc": "Lionel Messi, 39, and Cristiano Ronaldo, 41, keep delivering on the world's biggest stage.",
-   "link": "https://www.bbc.co.uk/sport/articles/c74y97k5jqpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T14:39:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/245b/live/9a022020-6fcf-11f1-b38e-b7631b704559.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "As Messi turns 39, how he and Ronaldo keep breaking records",
+   "desc": "Lionel Messi, 39, and Cristiano Ronaldo, 41, keep delivering on the world's biggest stage.",
+   "link": "https://www.bbc.co.uk/sport/articles/c74y97k5jqpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T14:39:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/245b/live/9a022020-6fcf-11f1-b38e-b7631b704559.png",
    "source": "BBC Sport"
   },
   {
@@ -5435,12 +5435,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
-   "desc": "England manager Thomas Tuchel defends Jude Bellingham after the midfielder is involved in a heated row with Ghana boss Carlos Queiroz.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4zr6l2no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T01:15:29Z",
+   "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
+   "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, but how well do you know his journey so far?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T02:21:18Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a746/live/13354990-6f67-11f1-acb7-6536c443af2f.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
