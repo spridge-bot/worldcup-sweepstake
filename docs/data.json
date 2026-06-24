@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T19:24:57+00:00",
+ "generated_at": "2026-06-24T19:25:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "24'",
-   "clock_sec": 1440.0,
-   "status_detail": "24'",
+   "clock": "25'",
+   "clock_sec": 1500.0,
+   "status_detail": "25'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -5385,12 +5385,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What are Scotland's chances of progressing as third-place finishers?",
-   "desc": "With 32 of 48 teams advancing to the knockout rounds of the World Cup it is more difficult to be eliminated than to qualify.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyqvxxqveo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T10:31:09Z",
+   "headline": "Madibo given five-game ban for causing Kone leg break",
+   "desc": "Qatar midfielder Assim Madibo is given a five-match ban for the challenge which resulted in a broken leg for Canada's Ismael Kone.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0lykrnw64xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T19:24:12Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c091/live/8f25bf90-7001-11f1-8543-63b26048fa35.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5400,6 +5400,15 @@
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What are Scotland's chances of progressing as third-place finishers?",
+   "desc": "With 32 of 48 teams advancing to the knockout rounds of the World Cup it is more difficult to be eliminated than to qualify.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyqvxxqveo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T10:31:09Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5427,15 +5436,6 @@
    "published": "2026-06-23T21:33:55Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3002/live/78536280-6f30-11f1-8453-3df0e929f7f2.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "As Messi turns 39, how he and Ronaldo keep breaking records",
-   "desc": "Lionel Messi, 39, and Cristiano Ronaldo, 41, keep delivering on the world's biggest stage.",
-   "link": "https://www.bbc.co.uk/sport/articles/c74y97k5jqpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T14:39:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/245b/live/9a022020-6fcf-11f1-b38e-b7631b704559.png",
    "source": "BBC Sport"
   },
   {
