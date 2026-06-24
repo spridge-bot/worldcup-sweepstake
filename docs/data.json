@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23T23:59:35+00:00",
+ "generated_at": "2026-06-24T00:00:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2605,9 +2605,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.56,
-    "draw": 4.0,
-    "away": 7.0,
+    "home": 1.45,
+    "draw": 4.4,
+    "away": 8.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2615,13 +2615,13 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": "WWWLL"
+    "form": null
    },
    "away": {
     "name": "DR Congo",
     "flag": "🇨🇩",
     "owner": "Willo",
-    "form": "DLDWW"
+    "form": null
    }
   },
   {
