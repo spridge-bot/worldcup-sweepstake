@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T22:24:07+00:00",
+ "generated_at": "2026-06-24T22:25:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "22'",
-   "clock_sec": 1320.0,
-   "status_detail": "22'",
+   "clock": "24'",
+   "clock_sec": 1440.0,
+   "status_detail": "24'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "22'",
-   "clock_sec": 1320.0,
-   "status_detail": "22'",
+   "clock": "23'",
+   "clock_sec": 1380.0,
+   "status_detail": "23'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -1269,7 +1269,7 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -3412,11 +3412,11 @@
      "w": 2,
      "d": 1,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 1,
      "pts": 7,
      "live": true,
-     "gd": 4,
+     "gd": 5,
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
@@ -3447,10 +3447,10 @@
      "d": 0,
      "l": 2,
      "gf": 1,
-     "ga": 2,
+     "ga": 3,
      "pts": 3,
      "live": true,
-     "gd": -1,
+     "gd": -2,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "tier": 3,
@@ -4874,6 +4874,14 @@
    "owner": "Spridge"
   },
   {
+   "player": "Vinícius Júnior",
+   "team": "BRA",
+   "goals": 4,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
+  },
+  {
    "player": "Deniz Undav",
    "team": "GER",
    "goals": 3,
@@ -4896,14 +4904,6 @@
    "assists": 0,
    "flag": "🇨🇦",
    "owner": "Dipen"
-  },
-  {
-   "player": "Vinícius Júnior",
-   "team": "BRA",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
   },
   {
    "player": "Ayase Ueda",
