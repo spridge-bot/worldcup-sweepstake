@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.sweepstake.watch</string>
+  <!-- OPTIONAL rich live layer: minute-by-minute Sofascore incidents, line-ups,
+       momentum and pitch graphics. Needs "pip3 install datafc" (the bootstrap
+       installs it with the sofascore flag). The watch loop is persistent: while
+       no match is live it idle-polls every 30s rather than exiting, so KeepAlive
+       does not cause a restart storm. Remove this job if you only want scores. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/Users/ianspridgeon/worldcup-sweepstake/scripts/sofascore_live.py</string>
+    <string>--watch</string>
+    <string>20</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/ianspridgeon/worldcup-sweepstake</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/ianspridgeon/worldcup-sweepstake/logs/watch.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ianspridgeon/worldcup-sweepstake/logs/watch.err.log</string>
+</dict>
+</plist>

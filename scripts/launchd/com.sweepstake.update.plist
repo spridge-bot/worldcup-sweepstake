@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.sweepstake.update</string>
+  <!-- Periodic score refresh (ESPN, no API key, stdlib-only). One-shot that
+       exits, re-run every 5 minutes by launchd. This alone keeps the
+       leaderboard the Mac mini serves up to date. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/Users/ianspridgeon/worldcup-sweepstake/scripts/update_scores.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/ianspridgeon/worldcup-sweepstake</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StartInterval</key>
+  <integer>300</integer>
+  <key>StandardOutPath</key>
+  <string>/Users/ianspridgeon/worldcup-sweepstake/logs/update.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ianspridgeon/worldcup-sweepstake/logs/update.err.log</string>
+</dict>
+</plist>
