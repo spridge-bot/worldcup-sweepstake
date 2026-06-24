@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T20:59:38+00:00",
+ "generated_at": "2026-06-24T21:05:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2697,9 +2697,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.2,
-    "draw": 7.0,
-    "away": 14.0,
+    "home": 1.22,
+    "draw": 6.5,
+    "away": 13.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4138,10 +4138,10 @@
     "owner": null
    },
    "away": {
-    "code": null,
-    "name": "Group B 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "owner": "Dipen"
    }
   },
   {
@@ -4408,10 +4408,10 @@
    "winner": null,
    "venue": "BC Place",
    "home": {
-    "code": null,
-    "name": "Group B Winner",
-    "flag": "",
-    "owner": null
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily"
    },
    "away": {
     "code": null,
@@ -5369,7 +5369,7 @@
    "headline": "England to face Scotland? World Cup knockout stage as it stands",
    "desc": "Use BBC Sport's projections tool with in-game updates to plot your country's route through the World Cup knockouts.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T09:26:41Z",
+   "published": "2026-06-24T21:04:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/def6/live/eb096160-6faa-11f1-a717-77de862b9baf.jpg",
    "source": "BBC Sport"
