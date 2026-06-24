@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T02:28:32+00:00",
+ "generated_at": "2026-06-24T02:29:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -5373,6 +5373,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
+   "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, how well do you know his World Cup journey so far?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T02:21:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5433,15 +5442,6 @@
    "published": "2026-06-23T18:44:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A Golden Boot race for the ages - but who will come out on top?",
-   "desc": "It is fast turning into a Golden Boot race for the ages as the world's best strikers star at the World Cup. But who will come out on top?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz2enre06o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T03:56:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
