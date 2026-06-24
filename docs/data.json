@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T19:01:11+00:00",
+ "generated_at": "2026-06-24T19:01:46+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -92,7 +92,7 @@
     "BIH"
    ],
    "total": 10,
-   "today": 0,
+   "today": 1,
    "rank": 6,
    "movement": -1
   },
@@ -1105,7 +1105,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-18",
+     "date": "2026-06-24",
      "desc": "3rd in Group B (live)",
      "points": 1
     }
@@ -1211,13 +1211,44 @@
  },
  "live": [
   {
-   "id": 760463,
+   "id": 760462,
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
    "clock": "1'",
    "clock_sec": 60.0,
    "status_detail": "1'",
+   "venue": "Lumen Field",
+   "odds": {
+    "home": 1.57,
+    "draw": 4.1,
+    "away": 6.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "owner": "Spridge",
+    "goals": 0
+   },
+   "away": {
+    "code": "QAT",
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "owner": "Ruggy",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760463,
+   "utc": "2026-06-24T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group B",
+   "clock": "2'",
+   "clock_sec": 120.0,
+   "status_detail": "2'",
    "venue": "BC Place",
    "odds": {
     "home": 2.15,
@@ -2662,31 +2693,6 @@
  ],
  "upcoming": [
   {
-   "id": 760462,
-   "utc": "2026-06-24T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "odds": {
-    "home": 1.43,
-    "draw": 5.0,
-    "away": 7.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "owner": "Spridge",
-    "form": "LDDDW"
-   },
-   "away": {
-    "name": "Qatar",
-    "flag": "🇶🇦",
-    "owner": "Ruggy",
-    "form": "LDDLL"
-   }
-  },
-  {
    "id": 760464,
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
@@ -3351,14 +3357,14 @@
     {
      "group": "Group B",
      "code": "BIH",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 2,
      "ga": 5,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -3,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
@@ -3368,14 +3374,14 @@
     {
      "group": "Group B",
      "code": "QAT",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 1,
      "ga": 7,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -6,
      "name": "Qatar",
      "flag": "🇶🇦",
@@ -5388,21 +5394,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tuchel's England are opposite to Southgate's - and built to beat top teams",
-   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to prosper against the world's top nations.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T11:15:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1820/live/61238330-6fbf-11f1-8b2e-bdb65bec8399.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Tuchel's England are opposite to Southgate's - and built to beat top teams",
+   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to prosper against the world's top nations.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T11:15:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1820/live/61238330-6fbf-11f1-8b2e-bdb65bec8399.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5433,21 +5439,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Why Bellingham was not sent off for covering his mouth",
-   "desc": "England midfielder Jude Bellingham was not shown a red card despite covering his mouth while talking to Ghana's Jordan Ayew.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c70y1ljdz8zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T10:10:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/971b/live/a6a9ddf0-6fb5-11f1-81a2-4b25b1a24ae5.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
    "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, but how well do you know his journey so far?",
    "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why Bellingham was not sent off for covering his mouth",
+   "desc": "England midfielder Jude Bellingham was not shown a red card despite covering his mouth while talking to Ghana's Jordan Ayew.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c70y1ljdz8zo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T10:10:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/971b/live/a6a9ddf0-6fb5-11f1-81a2-4b25b1a24ae5.jpg",
    "source": "BBC Sport"
   }
  ]
