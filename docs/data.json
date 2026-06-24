@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T22:01:56+00:00",
+ "generated_at": "2026-06-24T22:02:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -27,9 +27,9 @@
     "GHA"
    ],
    "total": 12,
-   "today": 0,
+   "today": 6,
    "rank": 1,
-   "movement": 0
+   "movement": 6
   },
   {
    "name": "Brando",
@@ -42,7 +42,7 @@
    "total": 11,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dipen",
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 3,
    "rank": 2,
-   "movement": 4
+   "movement": 3
   },
   {
    "name": "Emily",
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 5,
    "rank": 2,
-   "movement": 7
+   "movement": 5
   },
   {
    "name": "Glancy",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -94,7 +94,7 @@
    "total": 11,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -107,7 +107,7 @@
    "total": 10,
    "today": 1,
    "rank": 7,
-   "movement": -2
+   "movement": -3
   },
   {
    "name": "Ruggy",
@@ -131,9 +131,9 @@
     "NZL"
    ],
    "total": 9,
-   "today": 1,
+   "today": 4,
    "rank": 8,
-   "movement": -2
+   "movement": 1
   },
   {
    "name": "Fergs",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 0,
    "rank": 10,
-   "movement": -2
+   "movement": -4
   },
   {
    "name": "Pari",
@@ -308,7 +308,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-20",
+     "date": "2026-06-24",
      "desc": "1st in Group C (live)",
      "points": 5
     }
@@ -331,7 +331,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-19",
+     "date": "2026-06-24",
      "desc": "2nd in Group C (live)",
      "points": 3
     }
@@ -940,7 +940,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-19",
+     "date": "2026-06-24",
      "desc": "3rd in Group C (live)",
      "points": 1
     }
@@ -1209,7 +1209,70 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760464,
+   "utc": "2026-06-24T22:00:00Z",
+   "stage": "Group stage",
+   "group": "Group C",
+   "clock": "2'",
+   "clock_sec": 120.0,
+   "status_detail": "2'",
+   "venue": "Mercedes-Benz Stadium",
+   "odds": {
+    "home": 1.29,
+    "draw": 5.75,
+    "away": 10.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "goals": 0
+   },
+   "away": {
+    "code": "HAI",
+    "name": "Haiti",
+    "flag": "🇭🇹",
+    "owner": "Jen",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760465,
+   "utc": "2026-06-24T22:00:00Z",
+   "stage": "Group stage",
+   "group": "Group C",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Hard Rock Stadium",
+   "odds": {
+    "home": 6.5,
+    "draw": 5.0,
+    "away": 1.44,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "SCO",
+    "name": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "owner": "George",
+    "goals": 0
+   },
+   "away": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760462,
@@ -2692,56 +2755,6 @@
  ],
  "upcoming": [
   {
-   "id": 760464,
-   "utc": "2026-06-24T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "odds": {
-    "home": 1.3,
-    "draw": 5.75,
-    "away": 10.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "form": "WDDWW"
-   },
-   "away": {
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "owner": "Jen",
-    "form": "LLLWD"
-   }
-  },
-  {
-   "id": 760465,
-   "utc": "2026-06-24T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "odds": {
-    "home": 6.5,
-    "draw": 5.0,
-    "away": 1.44,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Scotland",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "owner": "George",
-    "form": "LWWWL"
-   },
-   "away": {
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "form": "WDWWW"
-   }
-  },
-  {
    "id": 760467,
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
@@ -3395,14 +3408,14 @@
     {
      "group": "Group C",
      "code": "BRA",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 4,
      "ga": 1,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 3,
      "name": "Brazil",
      "flag": "🇧🇷",
@@ -3412,14 +3425,14 @@
     {
      "group": "Group C",
      "code": "MAR",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 2,
      "ga": 1,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 1,
      "name": "Morocco",
      "flag": "🇲🇦",
@@ -3429,14 +3442,14 @@
     {
      "group": "Group C",
      "code": "SCO",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 1,
      "ga": 1,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 0,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -3446,14 +3459,14 @@
     {
      "group": "Group C",
      "code": "HAI",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 0,
      "ga": 4,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -4,
      "name": "Haiti",
      "flag": "🇭🇹",
