@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T22:46:38+00:00",
+ "generated_at": "2026-06-24T22:47:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "44'",
-   "clock_sec": 2640.0,
-   "status_detail": "44'",
+   "clock": "45'+1'",
+   "clock_sec": 2700.0,
+   "status_detail": "45'+1'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
@@ -1231,7 +1231,7 @@
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "HAI",
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "44'",
-   "clock_sec": 2640.0,
-   "status_detail": "44'",
+   "clock": "45'+1'",
+   "clock_sec": 2700.0,
+   "status_detail": "45'+1'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -3427,13 +3427,13 @@
      "code": "MAR",
      "p": 3,
      "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 3,
+     "d": 2,
+     "l": 0,
+     "gf": 4,
      "ga": 3,
-     "pts": 4,
+     "pts": 5,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Morocco",
      "flag": "🇲🇦",
      "tier": 1,
@@ -3460,14 +3460,14 @@
      "group": "Group C",
      "code": "HAI",
      "p": 3,
-     "w": 1,
-     "d": 0,
+     "w": 0,
+     "d": 1,
      "l": 2,
      "gf": 2,
-     "ga": 5,
-     "pts": 3,
+     "ga": 6,
+     "pts": 1,
      "live": true,
-     "gd": -3,
+     "gd": -4,
      "name": "Haiti",
      "flag": "🇭🇹",
      "tier": 3,
@@ -4882,6 +4882,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Ismael Saibari",
+   "team": "MAR",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇲🇦",
+   "owner": "Willo"
+  },
+  {
    "player": "Johan Manzambi",
    "team": "SUI",
    "goals": 3,
@@ -4960,14 +4968,6 @@
    "assists": 0,
    "flag": "🇯🇵",
    "owner": "Jen"
-  },
-  {
-   "player": "Daniel Muñoz",
-   "team": "COL",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇨🇴",
-   "owner": "Ruggy"
   }
  ],
  "fairplay": [
