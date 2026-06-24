@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T20:39:15+00:00",
+ "generated_at": "2026-06-24T20:40:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "76'",
-   "clock_sec": 4560.0,
-   "status_detail": "76'",
+   "clock": "77'",
+   "clock_sec": 4620.0,
+   "status_detail": "77'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "80'",
-   "clock_sec": 4800.0,
-   "status_detail": "80'",
+   "clock": "81'",
+   "clock_sec": 4860.0,
+   "status_detail": "81'",
    "venue": "BC Place",
    "odds": {
     "home": 2.15,
@@ -2698,10 +2698,10 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.18,
-    "draw": 7.5,
+    "home": 1.19,
+    "draw": 7.0,
     "away": 16.0,
-    "over_under": 3.5,
+    "over_under": 2.5,
     "provider": "DraftKings"
    },
    "home": {
