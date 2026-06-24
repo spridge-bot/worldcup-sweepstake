@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-24T03:58:52+00:00",
+ "generated_at": "2026-06-24T03:59:31+00:00",
  "mode": "live",
- "latest_day": "2026-06-23",
+ "latest_day": "2026-06-24",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,9 @@
     "RSA"
    ],
    "total": 13,
-   "today": 3,
+   "today": 0,
    "rank": 1,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "George",
@@ -40,9 +40,9 @@
     "GHA"
    ],
    "total": 12,
-   "today": 3,
+   "today": 0,
    "rank": 2,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Brando",
@@ -53,9 +53,9 @@
     "KSA"
    ],
    "total": 11,
-   "today": 5,
+   "today": 0,
    "rank": 3,
-   "movement": 5
+   "movement": 0
   },
   {
    "name": "Glancy",
@@ -66,9 +66,9 @@
     "JOR"
    ],
    "total": 11,
-   "today": 3,
+   "today": 0,
    "rank": 3,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Jen",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -4
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -107,7 +107,7 @@
    "total": 9,
    "today": 0,
    "rank": 7,
-   "movement": -3
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -118,9 +118,9 @@
     "QAT"
    ],
    "total": 9,
-   "today": 6,
+   "today": 5,
    "rank": 7,
-   "movement": 4
+   "movement": 3
   },
   {
    "name": "Willo",
@@ -133,7 +133,7 @@
    "total": 9,
    "today": 1,
    "rank": 7,
-   "movement": -1
+   "movement": 1
   },
   {
    "name": "Fergs",
@@ -144,9 +144,9 @@
     "CUW"
    ],
    "total": 7,
-   "today": 1,
+   "today": 0,
    "rank": 10,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -170,7 +170,7 @@
     "CPV"
    ],
    "total": 2,
-   "today": 1,
+   "today": 0,
    "rank": 12,
    "movement": 0
   }
@@ -437,11 +437,11 @@
    "fifa_rank": 13,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 1,
-   "won": 1,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 3,
+   "gf": 4,
    "ga": 1,
    "total": 5,
    "events": [
@@ -954,12 +954,12 @@
    "fifa_rank": 45,
    "owner": "Willo",
    "status": "alive",
-   "played": 1,
+   "played": 2,
    "won": 0,
    "drawn": 1,
-   "lost": 0,
+   "lost": 1,
    "gf": 1,
-   "ga": 1,
+   "ga": 2,
    "total": 1,
    "events": [
     {
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760459,
+   "date": "2026-06-24",
    "utc": "2026-06-24T02:00:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "Estadio Akron",
+   "note": "",
+   "home": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 1.45,
     "draw": 4.4,
     "away": 8.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "COL",
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "goals": 1
-   },
-   "away": {
-    "code": "COD",
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760460,
    "date": "2026-06-23",
@@ -3975,7 +3974,7 @@
      "gf": 4,
      "ga": 1,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 3,
      "name": "Colombia",
      "flag": "🇨🇴",
@@ -4009,7 +4008,7 @@
      "gf": 1,
      "ga": 2,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "DR Congo",
      "flag": "🇨🇩",
@@ -5092,6 +5091,15 @@
    "pts": 3
   },
   {
+   "code": "COL",
+   "name": "Colombia",
+   "flag": "🇨🇴",
+   "owner": "Ruggy",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "EGY",
    "name": "Egypt",
    "flag": "🇪🇬",
@@ -5168,6 +5176,15 @@
    "name": "Argentina",
    "flag": "🇦🇷",
    "owner": "Fergs",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "COD",
+   "name": "DR Congo",
+   "flag": "🇨🇩",
+   "owner": "Willo",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5254,15 +5271,6 @@
    "pts": 1
   },
   {
-   "code": "COL",
-   "name": "Colombia",
-   "flag": "🇨🇴",
-   "owner": "Ruggy",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
    "code": "CRO",
    "name": "Croatia",
    "flag": "🇭🇷",
@@ -5276,15 +5284,6 @@
    "name": "Czechia",
    "flag": "🇨🇿",
    "owner": "Emily",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "COD",
-   "name": "DR Congo",
-   "flag": "🇨🇩",
-   "owner": "Willo",
    "yellow": 1,
    "red": 0,
    "pts": 1
