@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T23:25:57+00:00",
+ "generated_at": "2026-06-24T23:26:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "62'",
-   "clock_sec": 3720.0,
-   "status_detail": "62'",
+   "clock": "64'",
+   "clock_sec": 3840.0,
+   "status_detail": "64'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "60'",
-   "clock_sec": 3600.0,
-   "status_detail": "60'",
+   "clock": "61'",
+   "clock_sec": 3660.0,
+   "status_detail": "61'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -1269,7 +1269,7 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "goals": 2
+    "goals": 3
    }
   }
  ],
@@ -3412,11 +3412,11 @@
      "w": 2,
      "d": 1,
      "l": 0,
-     "gf": 6,
+     "gf": 7,
      "ga": 1,
      "pts": 7,
      "live": true,
-     "gd": 5,
+     "gd": 6,
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
@@ -3447,10 +3447,10 @@
      "d": 0,
      "l": 2,
      "gf": 1,
-     "ga": 3,
+     "ga": 4,
      "pts": 3,
      "live": true,
-     "gd": -2,
+     "gd": -3,
      "name": "Scotland",
      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "tier": 3,
@@ -4914,6 +4914,14 @@
    "owner": "Dipen"
   },
   {
+   "player": "Matheus Cunha",
+   "team": "BRA",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇧🇷",
+   "owner": "George"
+  },
+  {
    "player": "Ayase Ueda",
    "team": "JPN",
    "goals": 2,
@@ -4960,14 +4968,6 @@
    "assists": 0,
    "flag": "🇨🇦",
    "owner": "Dipen"
-  },
-  {
-   "player": "Daichi Kamada",
-   "team": "JPN",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇯🇵",
-   "owner": "Jen"
   }
  ],
  "fairplay": [
