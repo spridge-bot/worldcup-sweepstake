@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T23:04:27+00:00",
+ "generated_at": "2026-06-24T23:05:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -5361,12 +5361,12 @@
  ],
  "news": [
   {
-   "headline": "England's James and Rice to have fitness assessed",
-   "desc": "England will assess the fitness of Reece James and Declan Rice before their final World Cup group game against Panama.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg4w2wk5vryo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T16:00:05Z",
+   "headline": "Rate the players as Scotland face Brazil",
+   "desc": "Rate the Scotland and Brazil players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yen4pvmrvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T22:45:48Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f3d3/live/a6699ca0-6fe1-11f1-b763-7be8e457290d.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f6d/live/494307f0-651e-11f1-8e1d-bbbb1017d210.png",
    "source": "BBC Sport"
   },
   {
@@ -5394,6 +5394,15 @@
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England's James and Rice to have fitness assessed",
+   "desc": "England will assess the fitness of Reece James and Declan Rice before their final World Cup group game against Panama.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg4w2wk5vryo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T16:00:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f3d3/live/a6699ca0-6fe1-11f1-b763-7be8e457290d.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5457,15 +5466,6 @@
    "published": "2026-06-24T14:39:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/245b/live/9a022020-6fcf-11f1-b38e-b7631b704559.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why Bellingham was not sent off for covering his mouth",
-   "desc": "England midfielder Jude Bellingham was not shown a red card despite covering his mouth while talking to Ghana's Jordan Ayew.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c70y1ljdz8zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T10:10:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/971b/live/a6a9ddf0-6fb5-11f1-81a2-4b25b1a24ae5.jpg",
    "source": "BBC Sport"
   }
  ]
