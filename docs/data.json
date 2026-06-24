@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T23:52:26+00:00",
+ "generated_at": "2026-06-24T23:53:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "89'",
-   "clock_sec": 5340.0,
-   "status_detail": "89'",
+   "clock": "90'",
+   "clock_sec": 5400.0,
+   "status_detail": "90'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
@@ -1231,7 +1231,7 @@
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "HAI",
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "86'",
-   "clock_sec": 5160.0,
-   "status_detail": "86'",
+   "clock": "87'",
+   "clock_sec": 5220.0,
+   "status_detail": "87'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -2760,9 +2760,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 4.2,
-    "draw": 3.9,
-    "away": 1.83,
+    "home": 4.3,
+    "draw": 3.95,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3429,11 +3429,11 @@
      "w": 2,
      "d": 1,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 3,
      "pts": 7,
      "live": true,
-     "gd": 2,
+     "gd": 3,
      "name": "Morocco",
      "flag": "🇲🇦",
      "tier": 1,
@@ -3464,10 +3464,10 @@
      "d": 0,
      "l": 3,
      "gf": 2,
-     "ga": 7,
+     "ga": 8,
      "pts": 0,
      "live": true,
-     "gd": -5,
+     "gd": -6,
      "name": "Haiti",
      "flag": "🇭🇹",
      "tier": 3,
