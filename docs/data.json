@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T11:35:34+00:00",
+ "generated_at": "2026-06-24T11:40:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2635,9 +2635,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.39,
+    "home": 1.38,
     "draw": 5.25,
-    "away": 7.5,
+    "away": 8.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2886,8 +2886,8 @@
    "group": "Group D",
    "odds": {
     "home": 2.95,
-    "draw": 2.2,
-    "away": 4.0,
+    "draw": 2.25,
+    "away": 3.95,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -5337,7 +5337,7 @@
  "news": [
   {
    "headline": "Tuchel's England is opposite to Southgate's - and is built to beat top teams",
-   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to play against the world's top nations.",
+   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to prosper against the world's top nations.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-24T11:15:59Z",
    "type": "Story",
