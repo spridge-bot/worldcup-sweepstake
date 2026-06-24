@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T19:29:06+00:00",
+ "generated_at": "2026-06-24T19:29:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "28'",
-   "clock_sec": 1680.0,
-   "status_detail": "28'",
+   "clock": "29'",
+   "clock_sec": 1740.0,
+   "status_detail": "29'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -1231,7 +1231,7 @@
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "QAT",
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "28'",
-   "clock_sec": 1680.0,
-   "status_detail": "28'",
+   "clock": "29'",
+   "clock_sec": 1740.0,
+   "status_detail": "29'",
    "venue": "BC Place",
    "odds": {
     "home": 2.15,
