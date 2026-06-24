@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T18:44:57+00:00",
+ "generated_at": "2026-06-24T18:50:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2688,7 +2688,7 @@
     "home": 1.18,
     "draw": 7.5,
     "away": 17.0,
-    "over_under": 2.5,
+    "over_under": 3.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -2735,8 +2735,8 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 3.7,
-    "draw": 3.75,
+    "home": 3.8,
+    "draw": 3.8,
     "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5363,6 +5363,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T18:42:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'I'm back' - record-breaking Ronaldo answers critics",
    "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
@@ -5423,15 +5432,6 @@
    "published": "2026-06-24T11:06:30Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bdec/live/4dd629f0-6fb9-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Spence appears not to shake hands with Partey",
-   "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T21:46:47Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a9a/live/9c37a360-6f43-11f1-baf2-37f03751e13b.jpg",
    "source": "BBC Sport"
   },
   {
