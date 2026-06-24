@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T19:00:43+00:00",
+ "generated_at": "2026-06-24T19:01:11+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -27,9 +27,9 @@
     "RSA"
    ],
    "total": 13,
-   "today": 0,
+   "today": 5,
    "rank": 1,
-   "movement": 0
+   "movement": 5
   },
   {
    "name": "George",
@@ -42,7 +42,7 @@
    "total": 12,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -105,9 +105,9 @@
     "IRQ"
    ],
    "total": 9,
-   "today": 0,
+   "today": 3,
    "rank": 7,
-   "movement": 0
+   "movement": 2
   },
   {
    "name": "Ruggy",
@@ -133,7 +133,7 @@
    "total": 9,
    "today": 1,
    "rank": 7,
-   "movement": 1
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 0,
    "rank": 10,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -584,7 +584,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-18",
+     "date": "2026-06-24",
      "desc": "2nd in Group B (live)",
      "points": 3
     }
@@ -785,7 +785,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-18",
+     "date": "2026-06-24",
      "desc": "1st in Group B (live)",
      "points": 5
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760463,
+   "utc": "2026-06-24T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group B",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 2.15,
+    "draw": 3.45,
+    "away": 3.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "owner": "Dipen",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760459,
@@ -2635,9 +2667,9 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.57,
-    "draw": 4.1,
-    "away": 6.0,
+    "home": 1.43,
+    "draw": 5.0,
+    "away": 7.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2652,31 +2684,6 @@
     "flag": "🇶🇦",
     "owner": "Ruggy",
     "form": "LDDLL"
-   }
-  },
-  {
-   "id": 760463,
-   "utc": "2026-06-24T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "odds": {
-    "home": 2.65,
-    "draw": 2.95,
-    "away": 3.1,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "form": "WDDWD"
-   },
-   "away": {
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "form": "WDDWD"
    }
   },
   {
@@ -3310,14 +3317,14 @@
     {
      "group": "Group B",
      "code": "CAN",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 7,
      "ga": 1,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 6,
      "name": "Canada",
      "flag": "🇨🇦",
@@ -3327,14 +3334,14 @@
     {
      "group": "Group B",
      "code": "SUI",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 5,
      "ga": 2,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 3,
      "name": "Switzerland",
      "flag": "🇨🇭",
