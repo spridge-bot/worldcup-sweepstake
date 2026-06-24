@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T01:00:35+00:00",
+ "generated_at": "2026-06-24T01:05:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2679,10 +2679,10 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 1.19,
+    "home": 1.2,
     "draw": 7.0,
-    "away": 17.0,
-    "over_under": 2.5,
+    "away": 16.0,
+    "over_under": 3.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -5330,12 +5330,12 @@
  ],
  "news": [
   {
-   "headline": "Should Ghana have been awarded a penalty against England?",
-   "desc": "England fans have been left frustrated by the goalless draw against Ghana, but were Thomas Tuchel's side fortunate not to have given away a penalty?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T23:46:07Z",
+   "headline": "No need to panic for England - but this was a reality check",
+   "desc": "England's drab goalless draw with Ghana is no cause to panic - but it does serve as a reality check, writes Phil McNulty.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzv7wl00xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T00:53:27Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/598a/live/5d063790-6f63-11f1-8e1d-bbbb1017d210.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7fa3/live/3690e000-6f5a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5348,12 +5348,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who failed to make an impact? England player ratings",
-   "desc": "BBC Sport England reporter Alex Howell rates the players after the 0-0 draw with Ghana - plus have your say.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1l23qdl6v5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T22:08:32Z",
+   "headline": "Should Ghana have been awarded a penalty against England?",
+   "desc": "England fans have been left frustrated by the goalless draw against Ghana, but were Thomas Tuchel's side fortunate not to have given away a penalty?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T23:46:07Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bba1/live/5e6e6a30-6f4f-11f1-8e1d-bbbb1017d210.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/598a/live/5d063790-6f63-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5393,6 +5393,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Who failed to make an impact? England player ratings",
+   "desc": "BBC Sport England reporter Alex Howell rates the players after the 0-0 draw with Ghana - plus have your say.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1l23qdl6v5o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T22:08:32Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bba1/live/5e6e6a30-6f4f-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "From non-league to the World Cup - the Semenyo story",
    "desc": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
@@ -5426,15 +5435,6 @@
    "published": "2026-06-23T03:56:28Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "More than 300 drones seized at US World Cup sites",
-   "desc": "United States authorities seize more than 300 unauthorised drones at World Cup sites.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdjkzdgeewvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T17:32:15Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/159d/live/9042f8d0-6f24-11f1-adf9-6fa2b518a522.jpg",
    "source": "BBC Sport"
   }
  ]
