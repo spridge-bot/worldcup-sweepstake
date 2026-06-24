@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T11:19:27+00:00",
+ "generated_at": "2026-06-24T11:24:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -5336,6 +5336,15 @@
  ],
  "news": [
   {
+   "headline": "Tuchel's England is opposite to Southgate's - and is built to beat top teams",
+   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to play against the world's top nations.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T11:15:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4165/live/84f1bac0-6f74-11f1-9579-8550d2dae7eb.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "No need to panic for England - but this was a reality check",
    "desc": "England's drab goalless draw with Ghana is no cause to panic - but it does serve as a reality check, writes Phil McNulty.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzv7wl00xo?at_medium=RSS&at_campaign=rss",
@@ -5363,15 +5372,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Ancelotti's quest to end Brazil's 24-year wait for World Cup glory",
-   "desc": "BBC Scotland's Andy Burke looks at Carlo Ancelotti and his mission at Brazil before their final Group C game against Scotland.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ced4555y6z9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T03:42:05Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0836/live/4f205f00-6f7e-11f1-941f-9780a64de2a5.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why Bellingham was not sent off for covering his mouth",
    "desc": "England midfielder Jude Bellingham was not shown a red card despite covering his mouth while talking to Ghana's Jordan Ayew.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c70y1ljdz8zo?at_medium=RSS&at_campaign=rss",
@@ -5390,21 +5390,30 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Ancelotti's quest to end Brazil's 24-year wait for World Cup glory",
+   "desc": "BBC Scotland's Andy Burke looks at Carlo Ancelotti and his mission at Brazil before their final Group C game against Scotland.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ced4555y6z9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T03:42:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0836/live/4f205f00-6f7e-11f1-941f-9780a64de2a5.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Who has been eliminated from the World Cup?",
+   "desc": "BBC Sport's Ask Me Anything team lists the full set of nations who have been eliminated from the 2026 World Cup so far",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T11:06:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bdec/live/4dd629f0-6fb9-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Spence appears not to shake hands with Partey",
    "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T21:46:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a9a/live/9c37a360-6f43-11f1-baf2-37f03751e13b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Have World Cup changes made final group stage games unfair?",
-   "desc": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T16:44:13Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f376/live/dcd06300-6f05-11f1-87e9-1dc598ae70b3.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5423,15 +5432,6 @@
    "published": "2026-06-24T10:31:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "World Cup's best matches, moments, goals & players so far - ranked",
-   "desc": "After two rounds of fixtures, BBC Sport ranks the best matches, moments, players and goals of the World Cup so far.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg4wxvk4kyxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T06:59:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ea1b/live/5953b2f0-6ecb-11f1-8bcc-0dcbc11a720b.jpg",
    "source": "BBC Sport"
   },
   {
