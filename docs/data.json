@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T00:27:44+00:00",
+ "generated_at": "2026-06-24T00:28:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-23T23:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "68'",
-   "clock_sec": 4080.0,
-   "status_detail": "68'",
+   "clock": "69'",
+   "clock_sec": 4140.0,
+   "status_detail": "69'",
    "venue": "BMO Field",
    "odds": {
     "home": 7.0,
@@ -5327,7 +5327,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cd6e3gvnnzwo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-23T23:46:07Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/18c4/live/2a415db0-6f5b-11f1-9ab9-83454fe8fa79.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/598a/live/5d063790-6f63-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
