@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T20:56:45+00:00",
+ "generated_at": "2026-06-24T20:57:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -575,12 +575,12 @@
    "fifa_rank": 19,
    "owner": "Emily",
    "status": "alive",
-   "played": 2,
-   "won": 1,
+   "played": 3,
+   "won": 2,
    "drawn": 1,
    "lost": 0,
-   "gf": 5,
-   "ga": 2,
+   "gf": 7,
+   "ga": 3,
    "total": 5,
    "events": [
     {
@@ -776,12 +776,12 @@
    "fifa_rank": 30,
    "owner": "Dipen",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 1,
    "drawn": 1,
-   "lost": 0,
-   "gf": 7,
-   "ga": 1,
+   "lost": 1,
+   "gf": 8,
+   "ga": 3,
    "total": 3,
    "events": [
     {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+3'",
+   "clock": "90'+4'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+3'",
+   "status_detail": "90'+4'",
    "venue": "Lumen Field",
    "odds": {
     "home": 1.57,
@@ -1240,40 +1240,40 @@
     "owner": "Ruggy",
     "goals": 1
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760463,
+   "date": "2026-06-24",
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
    "group": "Group B",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "BC Place",
+   "note": "",
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 2.15,
     "draw": 3.45,
     "away": 3.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "goals": 2
-   },
-   "away": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760459,
    "date": "2026-06-24",
@@ -3330,7 +3330,7 @@
      "gf": 7,
      "ga": 3,
      "pts": 7,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "Switzerland",
      "flag": "🇨🇭",
@@ -3347,7 +3347,7 @@
      "gf": 8,
      "ga": 3,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 5,
      "name": "Canada",
      "flag": "🇨🇦",
@@ -5014,6 +5014,15 @@
    "pts": 5
   },
   {
+   "code": "CAN",
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "owner": "Dipen",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "CUW",
    "name": "Curaçao",
    "flag": "🇨🇼",
@@ -5095,15 +5104,6 @@
    "pts": 3
   },
   {
-   "code": "CAN",
-   "name": "Canada",
-   "flag": "🇨🇦",
-   "owner": "Dipen",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
    "code": "COL",
    "name": "Colombia",
    "flag": "🇨🇴",
@@ -5176,6 +5176,15 @@
    "pts": 3
   },
   {
+   "code": "SUI",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "owner": "Emily",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "TUR",
    "name": "Türkiye",
    "flag": "🇹🇷",
@@ -5243,15 +5252,6 @@
    "name": "New Zealand",
    "flag": "🇳🇿",
    "owner": "Willo",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "SUI",
-   "name": "Switzerland",
-   "flag": "🇨🇭",
-   "owner": "Emily",
    "yellow": 2,
    "red": 0,
    "pts": 2
