@@ -45,6 +45,9 @@ body { display: flex; }
 .popup .filmstrip img { width: 84px; height: 84px; object-fit: cover; border-radius: 4px; }
 .popup .filmstrip figcaption { font-size: 9px; color: #777; }
 .popup .nochips { font-size: 11px; color: #888; margin-top: 8px; }
+.popup .sparkwrap { margin-top: 8px; }
+.popup .sparklbl { font-size: 10px; color: #777; margin-bottom: 2px; }
+.popup .spark svg { display: block; background: #f6f8fa; border-radius: 4px; }
 
 #map { position: relative; }
 #timebar {

@@ -79,11 +79,46 @@ function popupHtml(p) {
     ["SAR range (dB)", p.range?.toFixed?.(1) ?? "–"],
   ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join("");
   return `<div class="popup"><h3>${p.name || p.id}</h3><table>${rows}</table>
+    <div class="sparkwrap"><div class="sparklbl">Activity over time</div>
+      <div class="spark" data-id="${p.id}"></div></div>
     <div class="filmstrip" data-id="${p.id}"></div></div>`;
 }
+
+// Inline SVG sparkline of the per-date activity timeline, with a dot on curDate.
+function sparklineSvg(timeline, date) {
+  if (!timeline || timeline.length < 2) return "";
+  const W = 208, H = 44, pad = 4, n = timeline.length;
+  const x = i => pad + (i * (W - 2 * pad)) / (n - 1);
+  const y = a => H - pad - a * (H - 2 * pad);
+  const pts = timeline.map((p, i) => `${x(i).toFixed(1)},${y(p.a).toFixed(1)}`).join(" ");
+  const area = `${pad},${H - pad} ${pts} ${W - pad},${H - pad}`;
+  let ci = 0;
+  timeline.forEach((p, i) => { if (!date || p.d <= date) ci = i; });
+  const cp = timeline[ci];
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <polygon points="${area}" fill="rgba(74,144,217,0.15)"/>
+    <polyline points="${pts}" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+    <line x1="${x(ci)}" y1="${pad}" x2="${x(ci)}" y2="${H - pad}" stroke="#888" stroke-dasharray="2 2"/>
+    <circle cx="${x(ci)}" cy="${y(cp.a)}" r="3.5" fill="${activityColor(cp.a)}" stroke="#fff"/>
+    <text x="${W - pad}" y="11" text-anchor="end" font-size="9" fill="#555">${cp.d}: ${Math.round(cp.a * 100)}%</text>
+  </svg>`;
+}
+function renderSpark(id, root) {
+  const el = root?.querySelector(`.spark[data-id="${id}"]`);
+  const f = allFeatures.find(x => String(x.properties.id) === String(id));
+  if (el && f) el.innerHTML = sparklineSvg(f.properties.timeline, curDate);
+}
+function updateOpenSpark() {
+  document.querySelectorAll(".leaflet-popup .spark").forEach(el =>
+    renderSpark(el.dataset.id, el.parentElement));
+}
+
 function onEach(feature, layer) {
   layer.bindPopup(popupHtml(feature.properties));
-  layer.on("popupopen", () => fillFilmstrip(feature.properties.id, layer));
+  layer.on("popupopen", e => {
+    fillFilmstrip(feature.properties.id, layer);
+    renderSpark(feature.properties.id, e.popup.getElement());
+  });
   feature.__layer = layer;
 }
 function fillFilmstrip(id, layer) {
@@ -158,6 +193,7 @@ function applyDate(date) {
   });
   const lbl = document.getElementById("datelabel");
   if (lbl && date) lbl.textContent = date;
+  updateOpenSpark();      // move the sparkline marker if a popup is open
 }
 
 let timer = null;

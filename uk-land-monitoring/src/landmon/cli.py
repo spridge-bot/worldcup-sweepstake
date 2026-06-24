@@ -133,7 +133,8 @@ def build_parser() -> argparse.ArgumentParser:
     s = sub.add_parser("chips", help="Render per-building dated image chips")
     s.add_argument("--aoi", required=True)
     s.add_argument("--buildings", required=True)
-    s.add_argument("--sensor", choices=["s1", "s2"], default="s2")
+    s.add_argument("--mode", choices=["rgb", "ndvi", "sar"], default="rgb",
+                   help="rgb=true-colour Sentinel-2, ndvi=vegetation, sar=Sentinel-1")
     s.add_argument("--start", required=True)
     s.add_argument("--end", required=True)
     s.add_argument("--out", default="outputs/chips")
@@ -147,7 +148,7 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--max", type=int, default=5000)
     s.add_argument("--outdir", default="outputs")
     s.add_argument("--chips", action="store_true", help="Also render dated image chips")
-    s.add_argument("--chip-sensor", choices=["s1", "s2"], default="s2")
+    s.add_argument("--chip-mode", choices=["rgb", "ndvi", "sar"], default="rgb")
     s.set_defaults(func=_cmd_pipeline)
 
     s = sub.add_parser("serve", help="Run the web map viewer (zero deps)")
@@ -187,11 +188,12 @@ def _cmd_pipeline(args):
     print(f"      -> {activity_path}")
 
     if args.chips:
-        print(f"[4/4] Rendering dated image chips ({args.chip_sensor})…")
-        cseries = _build_series(a, args.chip_sensor, args.start, args.end)
+        print(f"[4/4] Rendering dated image chips ({args.chip_mode})…")
+        cseries, cmap = _build_chip_series(a, args.chip_mode, args.start, args.end)
         flagged_wgs = gpd.read_file(activity_path)
         counts = chips.save_building_chips(cseries, flagged_wgs,
-                                           outdir=str(outdir / "chips"))
+                                           outdir=str(outdir / "chips"),
+                                           cmap=cmap or "viridis")
         print(f"      {sum(counts.values())} chips across {len(counts)} buildings")
     else:
         print("[4/4] Skipping chips (pass --chips to enable).")
@@ -203,22 +205,29 @@ def _cmd_serve(args):
     server.run(host=args.host, port=args.port, data=args.data)
 
 
+def _build_chip_series(a, mode, start, end):
+    """Return (series, cmap) for chip rendering. mode: rgb | ndvi | sar."""
+    from . import change, sentinel
+    if mode == "rgb":
+        return sentinel.sentinel2_rgb_series(a, start, end), None
+    if mode == "ndvi":
+        return sentinel.sentinel2_ndvi_series(a, start, end), "RdYlGn"
+    ds = sentinel.sentinel1_backscatter_series(a, start, end)
+    return change.backscatter_db(ds, band="vv"), "viridis"
+
+
 def _cmd_chips(args):
     import geopandas as gpd
 
-    from . import change, chips, sentinel
+    from . import chips
     a = aoi_mod.load_aoi(args.aoi)
     buildings_gdf = gpd.read_file(args.buildings)
-    if args.sensor == "s2":
-        series = sentinel.sentinel2_ndvi_series(a, args.start, args.end)
-        cmap = "RdYlGn"
-    else:
-        ds = sentinel.sentinel1_backscatter_series(a, args.start, args.end)
-        series = change.backscatter_db(ds, band="vv")
-        cmap = "viridis"
-    counts = chips.save_building_chips(series, buildings_gdf, outdir=args.out, cmap=cmap)
+    series, cmap = _build_chip_series(a, args.mode, args.start, args.end)
+    counts = chips.save_building_chips(series, buildings_gdf, outdir=args.out,
+                                       cmap=cmap or "viridis")
     total = sum(counts.values())
-    print(f"Wrote {total} chips across {len(counts)} buildings into {args.out}")
+    kind = "true-colour RGB" if args.mode == "rgb" else args.mode
+    print(f"Wrote {total} {kind} chips across {len(counts)} buildings into {args.out}")
 
 
 def main(argv=None):

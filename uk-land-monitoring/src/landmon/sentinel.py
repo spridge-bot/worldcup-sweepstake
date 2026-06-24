@@ -4,6 +4,7 @@ No API key required for browsing; the `planetary-computer` package signs asset
 URLs so the COGs load over HTTPS. We provide:
 
   * sentinel2_ndvi_series  — optical, NDVI (crop/vegetation activity, ~10 m).
+  * sentinel2_rgb_series   — true-colour red/green/blue (photographic chips, ~10 m).
   * sentinel1_backscatter_series — C-band SAR VV/VH (all-weather, metal/vehicle &
     construction proxy, ~10 m).
 
@@ -60,6 +61,28 @@ def sentinel2_ndvi_series(aoi: gpd.GeoDataFrame, start: str, end: str,
     ndvi = ndvi.where(good)
     ndvi.name = "ndvi"
     return ndvi
+
+
+def sentinel2_rgb_series(aoi: gpd.GeoDataFrame, start: str, end: str,
+                         max_cloud: int = 30, resolution: int = 10):
+    """True-colour Sentinel-2 time series Dataset (red/green/blue) over the AOI.
+
+    Bands B04/B03/B02 (10 m). Cloud/shadow masked via SCL. Values are surface
+    reflectance (0..~10000); chips.py stretches them for display. Use this for
+    photographic-looking image chips/overlays.
+    """
+    items = _search("sentinel-2-l2a", aoi, start, end,
+                    query={"eo:cloud_cover": {"lt": max_cloud}})
+    if len(items) == 0:
+        raise RuntimeError("No Sentinel-2 scenes for AOI/dates/cloud filter.")
+    ds = odc_load(
+        items, bands=["B04", "B03", "B02", "SCL"],
+        bbox=list(aoi_bbox(aoi)), resolution=resolution,
+        chunks={}, groupby="solar_day",
+    )
+    good = ds["SCL"].isin([2, 4, 5, 6, 7, 11])  # drop cloud/shadow/snow
+    rgb = ds[["B04", "B03", "B02"]].where(good)
+    return rgb.rename({"B04": "red", "B03": "green", "B02": "blue"})
 
 
 def sentinel1_backscatter_series(aoi: gpd.GeoDataFrame, start: str, end: str,

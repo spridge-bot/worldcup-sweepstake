@@ -7,6 +7,9 @@ farmland** (Oxfordshire), and screening **how actively used** they are over time
 > **Read first:** [`docs/research-report.md`](docs/research-report.md) — the full
 > research on data sources, resolution/cost/revisit trade-offs, feasibility, and
 > legal/licensing notes. The one-line version is below.
+>
+> **Just want it running?** See [`SETUP.md`](SETUP.md). The example dashboard runs with
+> zero setup (`python -m landmon.web.server`); the real pipeline needs one OS API key.
 
 ## The key trade-off (why this is part-free, part-paid)
 
@@ -124,14 +127,17 @@ If the data has per-date `timeline`s and/or dated chips, the viewer shows a **ti
 at the bottom of the map: a **play/pause** button and a **scrubber**. As the date moves,
 every building **recolours by its activity on that date** and its **dated image chip is
 overlaid on the map**, so you watch the whole AOI change over time. Toggle "imagery
-chips" to show colour-only. The bundled demo data includes 2 years of quarterly
+chips" to show colour-only. Each building's **popup has an activity-over-time sparkline**
+with a marker that tracks the slider. The bundled demo data includes 2 years of quarterly
 timelines + chips, so this works immediately with no key. (The activity coloring is a
 **relative** screening signal across the sites/dates shown — see the research report.)
 
 ### Dated image chips (the "range of timed images")
 `landmon chips` (or `pipeline --chips`) writes one image per building per acquisition
 date to `outputs/chips/<id>/<date>.png`; the viewer lists them via `/api/chips/<id>` for
-both the time-slider overlays and the popup filmstrip. Regenerate the demo set with
+both the time-slider overlays and the popup filmstrip. Choose imagery with `--mode`:
+**`rgb`** = true-colour Sentinel-2 (photographic, default), `ndvi` = vegetation,
+`sar` = Sentinel-1 radar. Regenerate the demo set with
 `python scripts/make_demo_timeseries.py`.
 
 ### Viewing over Tailscale
