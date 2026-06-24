@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T06:58:42+00:00",
+ "generated_at": "2026-06-24T07:04:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2686,8 +2686,8 @@
    "group": "Group C",
    "odds": {
     "home": 1.19,
-    "draw": 7.5,
-    "away": 15.0,
+    "draw": 7.0,
+    "away": 16.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2735,8 +2735,8 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 3.7,
-    "draw": 3.85,
+    "home": 3.6,
+    "draw": 3.9,
     "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3085,9 +3085,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.74,
+    "home": 1.77,
     "draw": 3.45,
-    "away": 5.75,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5390,6 +5390,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Spence appears not to shake hands with Partey",
+   "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T21:46:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a9a/live/9c37a360-6f43-11f1-baf2-37f03751e13b.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Have World Cup changes made final group stage games unfair?",
    "desc": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
@@ -5399,12 +5408,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Spence appears not to shake hands with Partey",
-   "desc": "Footage circulating on social media appears to show England's Djed Spence not shaking hands with Ghana's Thomas Partey before their World Cup group match in Boston.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T21:46:47Z",
+   "headline": "World Cup's best matches, moments, goals & players so far - ranked",
+   "desc": "After two rounds of fixtures, BBC Sport ranks the best matches, moments, players and goals of the World Cup so far.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg4wxvk4kyxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T06:59:52Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a9a/live/9c37a360-6f43-11f1-baf2-37f03751e13b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ea1b/live/5953b2f0-6ecb-11f1-8bcc-0dcbc11a720b.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5432,15 +5441,6 @@
    "published": "2026-06-23T23:46:07Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/598a/live/5d063790-6f63-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Deschamps returns to France after death of his mother",
-   "desc": "France head coach Didier Deschamps will miss his side's final World Cup group game following the death of his mother, the French Football Federation confirms.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T20:33:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0a0/live/390720e0-6f3e-11f1-a91d-9509c96f4739.jpg",
    "source": "BBC Sport"
   }
  ]
