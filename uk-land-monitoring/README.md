@@ -10,6 +10,10 @@ farmland** (Oxfordshire), and screening **how actively used** they are over time
 >
 > **Just want it running?** See [`SETUP.md`](SETUP.md). The example dashboard runs with
 > zero setup (`python -m landmon.web.server`); the real pipeline needs one OS API key.
+>
+> **On a Mac mini?** [`MAC_SETUP.md`](MAC_SETUP.md) is a copy-paste-and-approve guide:
+> one installer (`bash install_mac.sh`) does deps, key, first data build, always-on
+> dashboard, weekly refresh, and Tailscale.
 
 ## The key trade-off (why this is part-free, part-paid)
 
