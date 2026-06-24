@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T01:32:46+00:00",
+ "generated_at": "2026-06-24T01:38:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -2629,7 +2629,7 @@
    "stage": "Group stage",
    "group": "Group B",
    "odds": {
-    "home": 1.43,
+    "home": 1.42,
     "draw": 5.0,
     "away": 7.0,
     "over_under": 2.5,
@@ -2704,9 +2704,9 @@
    "stage": "Group stage",
    "group": "Group C",
    "odds": {
-    "home": 7.5,
+    "home": 8.0,
     "draw": 5.25,
-    "away": 1.39,
+    "away": 1.38,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2729,9 +2729,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 3.6,
-    "draw": 3.8,
-    "away": 2.0,
+    "home": 3.65,
+    "draw": 3.85,
+    "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
