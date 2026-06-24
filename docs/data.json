@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T01:16:41+00:00",
+ "generated_at": "2026-06-24T01:22:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-23",
  "scoring": {
@@ -3079,7 +3079,7 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.74,
+    "home": 1.71,
     "draw": 3.4,
     "away": 5.75,
     "over_under": 2.5,
@@ -3205,8 +3205,8 @@
    "group": "Group J",
    "odds": {
     "home": 14.0,
-    "draw": 7.5,
-    "away": 1.2,
+    "draw": 7.0,
+    "away": 1.21,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5339,6 +5339,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
+   "desc": "England manager Thomas Tuchel defends Jude Bellingham after the midfielder is involved in a heated row with Ghana boss Carlos Queiroz.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k4zr6l2no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T01:15:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a746/live/13354990-6f67-11f1-acb7-6536c443af2f.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'I'm back' - record-breaking Ronaldo answers critics",
    "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
@@ -5366,15 +5375,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Deschamps returns to France after death of his mother",
-   "desc": "France head coach Didier Deschamps will miss his side's final World Cup group game following the death of his mother, the French Football Federation confirms.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T20:33:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0a0/live/390720e0-6f3e-11f1-a91d-9509c96f4739.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5390,6 +5390,15 @@
    "published": "2026-06-23T16:44:13Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f376/live/dcd06300-6f05-11f1-87e9-1dc598ae70b3.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Deschamps returns to France after death of his mother",
+   "desc": "France head coach Didier Deschamps will miss his side's final World Cup group game following the death of his mother, the French Football Federation confirms.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-23T20:33:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0a0/live/390720e0-6f3e-11f1-a91d-9509c96f4739.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5417,15 +5426,6 @@
    "published": "2026-06-23T18:44:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Commentator stripped of Fifa credentials over Almiron rant",
-   "desc": "Fifa strip a commentator of his World Cup credentials after an on-air, expletive-laden ​rant against the organisation and match officials during Paraguay's victory over Turkey.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8e2xdn58ryo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T18:16:38Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d007/live/6bb5cef0-6f2b-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
