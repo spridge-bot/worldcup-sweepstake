@@ -274,4 +274,17 @@ getJSON("/api/buildings").then(async fc => {
   render();
   setupTimebar();
   if (allFeatures.length) map.fitBounds(L.geoJSON(fc).getBounds().pad(0.3));
+  setTimeout(() => map.invalidateSize(), 300);   // ensure correct map size on load
 });
+
+// --- show/hide sidebar; keep the map sized correctly --------------------- //
+const sidebarToggle = document.getElementById("sidebar-toggle");
+function setCollapsed(collapsed) {
+  document.body.classList.toggle("collapsed", collapsed);
+  sidebarToggle.textContent = collapsed ? "☰" : "✕";
+  setTimeout(() => map.invalidateSize(), 210);   // Leaflet must re-measure
+}
+sidebarToggle.onclick = () =>
+  setCollapsed(!document.body.classList.contains("collapsed"));
+setCollapsed(window.innerWidth < 760);           // start hidden on small screens
+window.addEventListener("resize", () => map.invalidateSize());
