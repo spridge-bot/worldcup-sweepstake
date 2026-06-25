@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T00:47:36+00:00",
+ "generated_at": "2026-06-25T00:53:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -3086,7 +3086,7 @@
    "odds": {
     "home": 17.0,
     "draw": 8.0,
-    "away": 1.15,
+    "away": 1.17,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3184,8 +3184,8 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.77,
-    "draw": 4.1,
+    "home": 1.74,
+    "draw": 4.2,
     "away": 4.3,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5369,15 +5369,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who was the pick of Scotland's players again?",
-   "desc": "Rate the Scotland and Brazil players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yen4pvmrvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T00:05:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f6d/live/494307f0-651e-11f1-8e1d-bbbb1017d210.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
@@ -5465,6 +5456,15 @@
    "published": "2026-06-24T10:10:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/971b/live/a6a9ddf0-6fb5-11f1-81a2-4b25b1a24ae5.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Who has been eliminated from the World Cup?",
+   "desc": "BBC Sport's Ask Me Anything team lists the full set of nations who have been eliminated from the 2026 World Cup so far",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T11:06:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bdec/live/4dd629f0-6fb9-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
