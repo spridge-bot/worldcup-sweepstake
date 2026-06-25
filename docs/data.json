@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T01:02:54+00:00",
+ "generated_at": "2026-06-25T01:03:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "1'",
-   "clock_sec": 60.0,
-   "status_detail": "1'",
+   "clock": "2'",
+   "clock_sec": 120.0,
+   "status_detail": "2'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 5.75,
@@ -5373,12 +5373,12 @@
  ],
  "news": [
   {
-   "headline": "What each team need to make World Cup knockouts",
-   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T00:11:51Z",
+   "headline": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
+   "desc": "Scotland will have to wait until potentially the early hours of Sunday to find out if their World Cup campaign will continue, but midfielder John McGinn suspects that is \"unlikely\" and head coach Steve Clarke suspects they are \"going home\".",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd7w27eg5jro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T00:58:20Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b723/live/74f09880-702d-11f1-86a5-c78e0086fe7e.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5397,6 +5397,15 @@
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What each team need to make World Cup knockouts",
+   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T00:11:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5469,15 +5478,6 @@
    "published": "2026-06-24T10:10:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/971b/live/a6a9ddf0-6fb5-11f1-81a2-4b25b1a24ae5.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who has been eliminated from the World Cup?",
-   "desc": "BBC Sport's Ask Me Anything team lists the full set of nations who have been eliminated from the 2026 World Cup so far",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T11:06:30Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bdec/live/4dd629f0-6fb9-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
