@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T23:07:20+00:00",
+ "generated_at": "2026-06-25T23:07:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "6'",
-   "clock_sec": 360.0,
-   "status_detail": "6'",
+   "clock": "7'",
+   "clock_sec": 420.0,
+   "status_detail": "7'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1269,7 +1269,7 @@
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -3692,11 +3692,11 @@
      "w": 2,
      "d": 1,
      "l": 0,
-     "gf": 8,
+     "gf": 9,
      "ga": 3,
      "pts": 7,
      "live": true,
-     "gd": 5,
+     "gd": 6,
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
@@ -3744,10 +3744,10 @@
      "d": 0,
      "l": 3,
      "gf": 1,
-     "ga": 10,
+     "ga": 11,
      "pts": 0,
      "live": true,
-     "gd": -9,
+     "gd": -10,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
@@ -4943,6 +4943,14 @@
    "owner": "George"
   },
   {
+   "player": "Brian Brobbey",
+   "team": "NED",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇳🇱",
+   "owner": "Emily"
+  },
+  {
    "player": "Deniz Undav",
    "team": "GER",
    "goals": 3,
@@ -4989,14 +4997,6 @@
    "assists": 0,
    "flag": "🇯🇵",
    "owner": "Jen"
-  },
-  {
-   "player": "Brian Brobbey",
-   "team": "NED",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇱",
-   "owner": "Emily"
   },
   {
    "player": "Cody Gakpo",
