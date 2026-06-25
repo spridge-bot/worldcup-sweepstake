@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T21:20:46+00:00",
+ "generated_at": "2026-06-25T21:21:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -5410,6 +5410,15 @@
  ],
  "news": [
   {
+   "headline": "James and Rice miss training in preparation for Panama",
+   "desc": "England's Reece James and Declan Rice miss England's penultimate training session before Panama with injury concerns.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T21:19:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3dd/live/93a982d0-70d9-11f1-8fd9-bbd9722885d9.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
@@ -5443,15 +5452,6 @@
    "published": "2026-06-25T11:39:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Is the World Cup ball making it hard for goalkeepers?",
-   "desc": "While some goalkeepers have produced heroic performances in the World Cup, others have struggled with shots from outside the area, so is there a problem with the ball?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1jy8pr6k37o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T14:45:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eaf0/live/e9feb1d0-709f-11f1-86cf-0fd142c2b6fb.jpg",
    "source": "BBC Sport"
   },
   {
