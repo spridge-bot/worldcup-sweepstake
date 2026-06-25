@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T13:39:58+00:00",
+ "generated_at": "2026-06-25T13:45:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -2847,8 +2847,8 @@
    "group": "Group E",
    "odds": {
     "home": 5.0,
-    "draw": 4.7,
-    "away": 1.57,
+    "draw": 4.6,
+    "away": 1.61,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5397,30 +5397,21 @@
  ],
  "news": [
   {
+   "headline": "The games that show the flaws in a 48-team World Cup",
+   "desc": "Two matches in the final round of group games present the chance for two teams to simply play out a draw to qualify.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T13:38:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c99c/live/1a0a5260-7098-11f1-86cf-0fd142c2b6fb.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Stay or go home? Tartan Army in limbo as Scotland await fate",
    "desc": "BBC Scotland examines options for the Tartan Army in Miami as Scotland wait to discover if their World Cup adventure will continue or not.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjdg05l2jngo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-25T11:39:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Vinicius Jr stops fun and leaves Scots down... but are they out?",
-   "desc": "Scotland's party stops at the hands of Brazil in Miami, but might they still find themselves in the last 32?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce3e237r7g7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T01:25:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/434d/live/aea9d1a0-7077-11f1-9af3-ff9a7832a0f3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How Pochettino has US believing they can be World Cup winners",
-   "desc": "Mauricio Pochettino has united the USA fans and players in a belief that they are capable of winning the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T10:34:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f6c5/live/942e3ab0-6ffe-11f1-b12f-f573f7cb1919.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5433,12 +5424,30 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How Pochettino has US believing they can be World Cup winners",
+   "desc": "Mauricio Pochettino has united the USA fans and players in a belief that they are capable of winning the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T10:34:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f6c5/live/942e3ab0-6ffe-11f1-b12f-f573f7cb1919.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How brands banned from the World Cup became the story",
    "desc": "When we try to suppress something, we often make it more visible - and Fifa is living that in real time with its sponsors.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdejrjpe8w3o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-25T10:53:31Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0a0e/live/63fb9050-6fe9-11f1-a9c4-37da5d161ee0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Best World Cup stadium? BBC Sport experts have their say",
+   "desc": "BBC Sport reporters have their say on the best stadium experiences at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy3grvpg6o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T06:30:04Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b7aa/live/948b8750-6ec9-11f1-9be1-452593b3a34a.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5493,15 +5502,6 @@
    "published": "2026-06-25T00:11:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
-   "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, but how well do you know his journey so far?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T02:21:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
