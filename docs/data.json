@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T01:49:18+00:00",
+ "generated_at": "2026-06-25T01:50:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "45'+3'",
+   "clock": "45'+4'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+3'",
+   "status_detail": "45'+4'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 4.7,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "45'+4'",
+   "clock": "45'+5'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+4'",
+   "status_detail": "45'+5'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 5.75,
@@ -5373,6 +5373,15 @@
  ],
  "news": [
   {
+   "headline": "Vinicius Jr stops fun and leaves Scots down... but are they out?",
+   "desc": "Scotland's party stops at the hands of Brazil in Miami, but might they still find themselves in the last 32?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce3e237r7g7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T01:25:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1118/live/81fedd50-7034-11f1-a04c-33d78a0285d7.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
    "desc": "Scotland will have to wait until potentially the early hours of Sunday to find out if their World Cup campaign will continue, but midfielder John McGinn suspects that is \"unlikely\" and head coach Steve Clarke suspects they are \"going home\".",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd7w27eg5jro?at_medium=RSS&at_campaign=rss",
@@ -5427,24 +5436,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tuchel's England are opposite to Southgate's - and built to beat top teams",
-   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to prosper against the world's top nations.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T11:15:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1820/live/61238330-6fbf-11f1-8b2e-bdb65bec8399.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "No need to panic for England - but this was a reality check",
-   "desc": "England's drab goalless draw with Ghana is no cause to panic - but it does serve as a reality check, writes Phil McNulty.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzv7wl00xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T00:53:27Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7fa3/live/3690e000-6f5a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "'I'm back' - record-breaking Ronaldo answers critics",
    "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
@@ -5460,6 +5451,15 @@
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Tuchel's England are opposite to Southgate's - and built to beat top teams",
+   "desc": "BBC Sport's football tactics writer Umir Irfan explains why Thomas Tuchel's England system is built to prosper against the world's top nations.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg7655mvxeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-24T11:15:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1820/live/61238330-6fbf-11f1-8b2e-bdb65bec8399.jpg",
    "source": "BBC Sport"
   },
   {
