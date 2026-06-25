@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T15:55:37+00:00",
+ "generated_at": "2026-06-25T16:00:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -3047,8 +3047,8 @@
    "group": "Group H",
    "odds": {
     "home": 7.5,
-    "draw": 4.2,
-    "away": 1.49,
+    "draw": 4.1,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5424,6 +5424,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "World Cup makes more than enough money - New York mayor Mamdani",
+   "desc": "Mayor of New York Zohran Mamdani says the World Cup generates \"more than enough\" income and supporters should not have to pay higher prices.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd7wrgy037vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T15:56:45Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ddb0/live/6d07fce0-70a9-11f1-88b6-991d05fc2cf9.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How Pochettino has US believing they can be World Cup winners",
    "desc": "Mauricio Pochettino has united the USA fans and players in a belief that they are capable of winning the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
@@ -5442,21 +5451,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Best World Cup stadium? BBC Sport experts have their say",
-   "desc": "BBC Sport reporters have their say on the best stadium experiences at the 2026 World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy3grvpg6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T06:30:04Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b7aa/live/948b8750-6ec9-11f1-9be1-452593b3a34a.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-06T20:30:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Best World Cup stadium? BBC Sport experts have their say",
+   "desc": "BBC Sport reporters have their say on the best stadium experiences at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy3grvpg6o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T06:30:04Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b7aa/live/948b8750-6ec9-11f1-9be1-452593b3a34a.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5484,15 +5493,6 @@
    "published": "2026-06-25T10:58:04Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/85c1/live/b6e04840-7081-11f1-a866-abbad6b6b076.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Neymar - the return of Brazil's forgotten hero",
-   "desc": "BBC Scotland's Scott Mullen delves into the return of Brazil's Neymar against Scotland.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgl3gk52nz3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T06:38:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f178/live/b0fea8d0-7050-11f1-9b27-e9797242e9d5.jpg",
    "source": "BBC Sport"
   },
   {
