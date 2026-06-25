@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T02:15:10+00:00",
+ "generated_at": "2026-06-25T02:16:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -18,6 +18,19 @@
   }
  },
  "players": [
+  {
+   "name": "Dipen",
+   "teams": [
+    "POR",
+    "MEX",
+    "CAN",
+    "RSA"
+   ],
+   "total": 12,
+   "today": 9,
+   "rank": 1,
+   "movement": 9
+  },
   {
    "name": "George",
    "teams": [
@@ -41,34 +54,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": -1
-  },
-  {
-   "name": "Dipen",
-   "teams": [
-    "POR",
-    "MEX",
-    "CAN",
-    "RSA"
-   ],
-   "total": 11,
-   "today": 8,
-   "rank": 2,
-   "movement": 8
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 11,
-   "today": 6,
-   "rank": 2,
-   "movement": 5
+   "rank": 3,
+   "movement": -2
   },
   {
    "name": "Glancy",
@@ -80,8 +67,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": -1
+   "rank": 3,
+   "movement": -2
   },
   {
    "name": "Jen",
@@ -93,8 +80,21 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": -1
+   "rank": 3,
+   "movement": -2
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 10,
+   "today": 5,
+   "rank": 6,
+   "movement": 1
   },
   {
    "name": "Spridge",
@@ -106,8 +106,8 @@
    ],
    "total": 10,
    "today": 1,
-   "rank": 7,
-   "movement": -3
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -891,14 +891,8 @@
    "lost": 1,
    "gf": 2,
    "ga": 3,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "3rd in Group A (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "PAR": {
    "code": "PAR",
@@ -1051,8 +1045,14 @@
    "lost": 1,
    "gf": 1,
    "ga": 3,
-   "total": 0,
-   "events": []
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-25",
+     "desc": "3rd in Group A (live)",
+     "points": 1
+    }
+   ]
   },
   "KSA": {
    "code": "KSA",
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "54'",
-   "clock_sec": 3240.0,
-   "status_detail": "54'",
+   "clock": "55'",
+   "clock_sec": 3300.0,
+   "status_detail": "55'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 4.7,
@@ -1238,7 +1238,7 @@
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Dipen",
-    "goals": 0
+    "goals": 1
    }
   },
   {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "54'",
-   "clock_sec": 3240.0,
-   "status_detail": "54'",
+   "clock": "55'",
+   "clock_sec": 3300.0,
+   "status_detail": "55'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 5.75,
@@ -3275,14 +3275,14 @@
      "group": "Group A",
      "code": "MEX",
      "p": 3,
-     "w": 2,
-     "d": 1,
+     "w": 3,
+     "d": 0,
      "l": 0,
-     "gf": 3,
+     "gf": 4,
      "ga": 0,
-     "pts": 7,
+     "pts": 9,
      "live": true,
-     "gd": 3,
+     "gd": 4,
      "name": "Mexico",
      "flag": "🇲🇽",
      "tier": 1,
@@ -3307,23 +3307,6 @@
     },
     {
      "group": "Group A",
-     "code": "CZE",
-     "p": 3,
-     "w": 0,
-     "d": 2,
-     "l": 1,
-     "gf": 2,
-     "ga": 3,
-     "pts": 2,
-     "live": true,
-     "gd": -1,
-     "name": "Czechia",
-     "flag": "🇨🇿",
-     "tier": 2,
-     "owner": "Emily"
-    },
-    {
-     "group": "Group A",
      "code": "RSA",
      "p": 3,
      "w": 0,
@@ -3338,6 +3321,23 @@
      "flag": "🇿🇦",
      "tier": 3,
      "owner": "Dipen"
+    },
+    {
+     "group": "Group A",
+     "code": "CZE",
+     "p": 3,
+     "w": 0,
+     "d": 1,
+     "l": 2,
+     "gf": 2,
+     "ga": 4,
+     "pts": 1,
+     "live": true,
+     "gd": -2,
+     "name": "Czechia",
+     "flag": "🇨🇿",
+     "tier": 2,
+     "owner": "Emily"
     }
    ]
   },
