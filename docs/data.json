@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T21:58:38+00:00",
+ "generated_at": "2026-06-25T21:59:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -391,17 +391,17 @@
    "fifa_rank": 10,
    "owner": "Glancy",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 2,
    "drawn": 0,
-   "lost": 0,
-   "gf": 9,
-   "ga": 2,
+   "lost": 1,
+   "gf": 10,
+   "ga": 4,
    "total": 5,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "1st in Group E (live)",
+     "desc": "1st in Group E",
      "points": 5
     }
    ]
@@ -638,17 +638,17 @@
    "fifa_rank": 23,
    "owner": "Brando",
    "status": "alive",
-   "played": 2,
-   "won": 0,
+   "played": 3,
+   "won": 1,
    "drawn": 1,
    "lost": 1,
-   "gf": 0,
-   "ga": 1,
+   "gf": 2,
+   "ga": 2,
    "total": 1,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "3rd in Group E (live)",
+     "desc": "3rd in Group E",
      "points": 1
     }
    ]
@@ -832,7 +832,7 @@
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "2nd in Group E (live)",
+     "desc": "2nd in Group E",
      "points": 3
     }
    ]
@@ -1209,39 +1209,7 @@
    "events": []
   }
  },
- "live": [
-  {
-   "id": 760468,
-   "utc": "2026-06-25T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "MetLife Stadium",
-   "odds": {
-    "home": 4.3,
-    "draw": 4.2,
-    "away": 1.77,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ECU",
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "owner": "Brando",
-    "goals": 2
-   },
-   "away": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "goals": 1
-   }
-  }
- ],
+ "live": [],
  "results": [
   {
    "id": 760473,
@@ -1271,6 +1239,37 @@
     "draw": 8.0,
     "away": 1.18,
     "over_under": 3.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
+   "id": 760468,
+   "date": "2026-06-25",
+   "utc": "2026-06-25T20:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "note": "",
+   "home": {
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
+   "odds": {
+    "home": 4.3,
+    "draw": 4.2,
+    "away": 1.77,
+    "over_under": 2.5,
     "provider": "DraftKings"
    }
   },
@@ -3610,7 +3609,7 @@
      "gf": 10,
      "ga": 4,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 6,
      "name": "Germany",
      "flag": "🇩🇪",
@@ -3644,7 +3643,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Ecuador",
      "flag": "🇪🇨",
@@ -5111,6 +5110,15 @@
    "pts": 5
   },
   {
+   "code": "ECU",
+   "name": "Ecuador",
+   "flag": "🇪🇨",
+   "owner": "Brando",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -5273,15 +5281,6 @@
    "pts": 2
   },
   {
-   "code": "ECU",
-   "name": "Ecuador",
-   "flag": "🇪🇨",
-   "owner": "Brando",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
    "code": "GHA",
    "name": "Ghana",
    "flag": "🇬🇭",
@@ -5367,6 +5366,15 @@
    "name": "England",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "owner": "Brando",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "GER",
+   "name": "Germany",
+   "flag": "🇩🇪",
+   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
