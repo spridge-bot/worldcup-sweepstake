@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-25T02:58:21+00:00",
+ "generated_at": "2026-06-25T02:59:12+00:00",
  "mode": "live",
- "latest_day": "2026-06-24",
+ "latest_day": "2026-06-25",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,9 @@
     "RSA"
    ],
    "total": 14,
-   "today": 11,
+   "today": 8,
    "rank": 1,
-   "movement": 9
+   "movement": 8
   },
   {
    "name": "George",
@@ -40,9 +40,9 @@
     "GHA"
    ],
    "total": 12,
-   "today": 6,
+   "today": 0,
    "rank": 2,
-   "movement": 4
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -92,9 +92,9 @@
     "IRQ"
    ],
    "total": 10,
-   "today": 5,
+   "today": 0,
    "rank": 6,
-   "movement": 1
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -105,9 +105,9 @@
     "BIH"
    ],
    "total": 10,
-   "today": 1,
+   "today": 0,
    "rank": 6,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -118,7 +118,7 @@
     "NZL"
    ],
    "total": 9,
-   "today": 4,
+   "today": 0,
    "rank": 8,
    "movement": -1
   },
@@ -133,7 +133,7 @@
    "total": 7,
    "today": 0,
    "rank": 9,
-   "movement": -4
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -144,9 +144,9 @@
     "QAT"
    ],
    "total": 7,
-   "today": 6,
+   "today": 1,
    "rank": 9,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -159,7 +159,7 @@
    "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -172,7 +172,7 @@
    "total": 2,
    "today": 0,
    "rank": 12,
-   "movement": -1
+   "movement": 0
   }
  ],
  "teams": {
@@ -460,17 +460,17 @@
    "fifa_rank": 14,
    "owner": "Dipen",
    "status": "alive",
-   "played": 2,
-   "won": 2,
+   "played": 3,
+   "won": 3,
    "drawn": 0,
    "lost": 0,
-   "gf": 3,
+   "gf": 6,
    "ga": 0,
    "total": 5,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "1st in Group A (live)",
+     "desc": "1st in Group A",
      "points": 5
     }
    ]
@@ -684,17 +684,17 @@
    "fifa_rank": 25,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 1,
    "drawn": 0,
-   "lost": 1,
+   "lost": 2,
    "gf": 2,
-   "ga": 2,
+   "ga": 3,
    "total": 1,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "3rd in Group A (live)",
+     "desc": "3rd in Group A",
      "points": 1
     }
    ]
@@ -885,12 +885,12 @@
    "fifa_rank": 39,
    "owner": "Emily",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 2,
-   "ga": 3,
+   "ga": 6,
    "total": 0,
    "events": []
   },
@@ -1039,17 +1039,17 @@
    "fifa_rank": 51,
    "owner": "Dipen",
    "status": "alive",
-   "played": 2,
-   "won": 0,
+   "played": 3,
+   "won": 1,
    "drawn": 1,
    "lost": 1,
-   "gf": 1,
+   "gf": 2,
    "ga": 3,
    "total": 3,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "2nd in Group A (live)",
+     "desc": "2nd in Group A",
      "points": 3
     }
    ]
@@ -1209,71 +1209,70 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760467,
+   "date": "2026-06-25",
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Estadio Banorte",
+   "note": "",
+   "home": {
+    "code": "CZE",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "tier": 1,
+    "goals": 3,
+    "points": null
+   },
    "odds": {
     "home": 4.7,
     "draw": 3.65,
     "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CZE",
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "owner": "Emily",
-    "goals": 0
-   },
-   "away": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen",
-    "goals": 3
    }
   },
   {
    "id": 760466,
+   "date": "2026-06-25",
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "Estadio BBVA",
+   "note": "",
+   "home": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "KOR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
    "odds": {
     "home": 5.75,
     "draw": 4.1,
     "away": 1.61,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen",
-    "goals": 1
-   },
-   "away": {
-    "code": "KOR",
-    "name": "South Korea",
-    "flag": "🇰🇷",
-    "owner": "Ruggy",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760464,
    "date": "2026-06-24",
@@ -3281,7 +3280,7 @@
      "gf": 6,
      "ga": 0,
      "pts": 9,
-     "live": true,
+     "live": false,
      "gd": 6,
      "name": "Mexico",
      "flag": "🇲🇽",
@@ -3298,7 +3297,7 @@
      "gf": 2,
      "ga": 3,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "South Africa",
      "flag": "🇿🇦",
@@ -3315,7 +3314,7 @@
      "gf": 2,
      "ga": 3,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "South Korea",
      "flag": "🇰🇷",
@@ -3332,7 +3331,7 @@
      "gf": 2,
      "ga": 6,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -4,
      "name": "Czechia",
      "flag": "🇨🇿",
@@ -4984,19 +4983,19 @@
  ],
  "fairplay": [
   {
-   "code": "QAT",
-   "name": "Qatar",
-   "flag": "🇶🇦",
-   "owner": "Ruggy",
-   "yellow": 4,
-   "red": 2,
-   "pts": 12
-  },
-  {
    "code": "RSA",
    "name": "South Africa",
    "flag": "🇿🇦",
    "owner": "Dipen",
+   "yellow": 5,
+   "red": 2,
+   "pts": 13
+  },
+  {
+   "code": "QAT",
+   "name": "Qatar",
+   "flag": "🇶🇦",
+   "owner": "Ruggy",
    "yellow": 4,
    "red": 2,
    "pts": 12
@@ -5042,9 +5041,9 @@
    "name": "Mexico",
    "flag": "🇲🇽",
    "owner": "Dipen",
-   "yellow": 1,
+   "yellow": 2,
    "red": 1,
-   "pts": 5
+   "pts": 6
   },
   {
    "code": "BRA",
@@ -5096,6 +5095,15 @@
    "name": "Portugal",
    "flag": "🇵🇹",
    "owner": "Dipen",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
+   "code": "KOR",
+   "name": "South Korea",
+   "flag": "🇰🇷",
+   "owner": "Ruggy",
    "yellow": 4,
    "red": 0,
    "pts": 4
@@ -5177,15 +5185,6 @@
    "name": "Saudi Arabia",
    "flag": "🇸🇦",
    "owner": "Brando",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "KOR",
-   "name": "South Korea",
-   "flag": "🇰🇷",
-   "owner": "Ruggy",
    "yellow": 3,
    "red": 0,
    "pts": 3
