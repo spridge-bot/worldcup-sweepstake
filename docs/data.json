@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T19:02:16+00:00",
+ "generated_at": "2026-06-25T19:07:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -5397,6 +5397,15 @@
  ],
  "news": [
   {
+   "headline": "What each team need to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T00:11:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The games that show the flaws in a 48-team World Cup",
    "desc": "Two matches in the final round of group games present the chance for two teams to simply play out a draw to qualify.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
@@ -5421,6 +5430,15 @@
    "published": "2026-06-25T11:39:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-06T20:30:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5451,15 +5469,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-06T20:30:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Are Scotland 'not good enough' to impress at World Cup?",
    "desc": "What is the mood among Scotland fans and pundits post-group stage at the World Cup?",
    "link": "https://www.bbc.co.uk/sport/football/articles/crelxn895rro?at_medium=RSS&at_campaign=rss",
@@ -5487,21 +5496,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Vinicius Jr stops fun and leaves Scots down... but are they out?",
-   "desc": "Scotland's party stops at the hands of Brazil in Miami, but might they still find themselves in the last 32?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce3e237r7g7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T01:25:19Z",
+   "headline": "What each team need to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T00:11:51Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/434d/live/aea9d1a0-7077-11f1-9af3-ff9a7832a0f3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
-   "desc": "Scotland will have to wait until potentially the early hours of Sunday to find out if their World Cup campaign will continue, but midfielder John McGinn suspects that is \"unlikely\" and head coach Steve Clarke suspects they are \"going home\".",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd7w27eg5jro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T00:58:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b723/live/74f09880-702d-11f1-86a5-c78e0086fe7e.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
    "source": "BBC Sport"
   }
  ]
