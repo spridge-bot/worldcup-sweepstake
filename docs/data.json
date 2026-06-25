@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-24T23:59:35+00:00",
+ "generated_at": "2026-06-25T00:00:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "90'+6'",
+   "clock": "90'+8'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
+   "status_detail": "90'+8'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
    "group": "Group C",
-   "clock": "90'+3'",
+   "clock": "90'+5'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+3'",
+   "status_detail": "90'+5'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 6.5,
@@ -2760,8 +2760,8 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 4.3,
-    "draw": 3.95,
+    "home": 4.7,
+    "draw": 3.65,
     "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2770,13 +2770,13 @@
     "name": "Czechia",
     "flag": "🇨🇿",
     "owner": "Emily",
-    "form": "DLWWW"
+    "form": null
    },
    "away": {
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Dipen",
-    "form": "WWWWW"
+    "form": null
    }
   },
   {
@@ -2785,9 +2785,9 @@
    "stage": "Group stage",
    "group": "Group A",
    "odds": {
-    "home": 5.5,
-    "draw": 3.75,
-    "away": 1.69,
+    "home": 5.75,
+    "draw": 4.1,
+    "away": 1.61,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2795,13 +2795,13 @@
     "name": "South Africa",
     "flag": "🇿🇦",
     "owner": "Dipen",
-    "form": "DLWDL"
+    "form": null
    },
    "away": {
     "name": "South Korea",
     "flag": "🇰🇷",
     "owner": "Ruggy",
-    "form": "LWWWL"
+    "form": null
    }
   },
   {
