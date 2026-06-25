@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T21:02:32+00:00",
+ "generated_at": "2026-06-25T21:02:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -5446,6 +5446,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Is the World Cup ball making it hard for goalkeepers?",
+   "desc": "While some goalkeepers have produced heroic performances in the World Cup, others have struggled with shots from outside the area, so is there a problem with the ball?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1jy8pr6k37o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T14:45:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eaf0/live/e9feb1d0-709f-11f1-86cf-0fd142c2b6fb.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5506,15 +5515,6 @@
    "published": "2026-06-25T06:30:04Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b7aa/live/948b8750-6ec9-11f1-9be1-452593b3a34a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What each team need to reach World Cup knockouts",
-   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T00:11:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
    "source": "BBC Sport"
   }
  ]
