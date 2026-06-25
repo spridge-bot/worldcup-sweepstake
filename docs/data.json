@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T21:25:29+00:00",
+ "generated_at": "2026-06-25T21:25:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1238,7 +1238,7 @@
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "goals": 1
+    "goals": 2
    }
   },
   {
@@ -3624,11 +3624,11 @@
      "w": 2,
      "d": 0,
      "l": 1,
-     "gf": 3,
+     "gf": 4,
      "ga": 2,
      "pts": 6,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
      "tier": 2,
@@ -3659,10 +3659,10 @@
      "d": 1,
      "l": 2,
      "gf": 1,
-     "ga": 8,
+     "ga": 9,
      "pts": 1,
      "live": true,
-     "gd": -7,
+     "gd": -8,
      "name": "Curaçao",
      "flag": "🇨🇼",
      "tier": 3,
