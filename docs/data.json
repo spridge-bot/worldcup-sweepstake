@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T20:37:18+00:00",
+ "generated_at": "2026-06-25T20:38:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -19,32 +19,6 @@
  },
  "players": [
   {
-   "name": "Dipen",
-   "teams": [
-    "POR",
-    "MEX",
-    "CAN",
-    "RSA"
-   ],
-   "total": 14,
-   "today": 8,
-   "rank": 1,
-   "movement": 7
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 12,
-   "today": 0,
-   "rank": 2,
-   "movement": -1
-  },
-  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -52,113 +26,22 @@
     "EGY",
     "KSA"
    ],
-   "total": 11,
-   "today": 1,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 11,
-   "today": 5,
-   "rank": 3,
-   "movement": 5
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 11,
-   "today": 3,
-   "rank": 3,
-   "movement": 3
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 10,
+   "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -4
+   "rank": 1,
+   "movement": 0
   },
   {
-   "name": "Spridge",
+   "name": "Dipen",
    "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
+    "POR",
+    "MEX",
+    "CAN",
+    "RSA"
    ],
-   "total": 10,
+   "total": 0,
    "today": 0,
-   "rank": 6,
-   "movement": -4
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 9,
-   "today": 0,
-   "rank": 8,
-   "movement": -3
-  },
-  {
-   "name": "Fergs",
-   "teams": [
-    "ARG",
-    "SEN",
-    "PAR",
-    "CUW"
-   ],
-   "total": 7,
-   "today": 0,
-   "rank": 9,
-   "movement": -2
-  },
-  {
-   "name": "Ruggy",
-   "teams": [
-    "COL",
-    "KOR",
-    "ALG",
-    "QAT"
-   ],
-   "total": 7,
-   "today": 1,
-   "rank": 9,
-   "movement": -1
-  },
-  {
-   "name": "Pari",
-   "teams": [
-    "BEL",
-    "URU",
-    "TUN",
-    "UZB"
-   ],
-   "total": 4,
-   "today": 0,
-   "rank": 11,
+   "rank": 1,
    "movement": 0
   },
   {
@@ -169,9 +52,126 @@
     "PAN",
     "CPV"
    ],
-   "total": 2,
+   "total": 0,
    "today": 0,
-   "rank": 12,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Fergs",
+   "teams": [
+    "ARG",
+    "SEN",
+    "PAR",
+    "CUW"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Pari",
+   "teams": [
+    "BEL",
+    "URU",
+    "TUN",
+    "UZB"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Ruggy",
+   "teams": [
+    "COL",
+    "KOR",
+    "ALG",
+    "QAT"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 0,
+   "today": 0,
+   "rank": 1,
    "movement": 0
   }
  ],
@@ -190,14 +190,8 @@
    "lost": 0,
    "gf": 5,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-22",
-     "desc": "1st in Group J (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "ESP": {
    "code": "ESP",
@@ -213,14 +207,8 @@
    "lost": 0,
    "gf": 4,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "1st in Group H (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "FRA": {
    "code": "FRA",
@@ -236,14 +224,8 @@
    "lost": 0,
    "gf": 6,
    "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-22",
-     "desc": "1st in Group I (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "ENG": {
    "code": "ENG",
@@ -259,14 +241,8 @@
    "lost": 0,
    "gf": 4,
    "ga": 2,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "1st in Group L (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "POR": {
    "code": "POR",
@@ -282,14 +258,8 @@
    "lost": 0,
    "gf": 6,
    "ga": 1,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "2nd in Group K (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "BRA": {
    "code": "BRA",
@@ -305,14 +275,8 @@
    "lost": 0,
    "gf": 7,
    "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "1st in Group C",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "MAR": {
    "code": "MAR",
@@ -328,14 +292,8 @@
    "lost": 0,
    "gf": 6,
    "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "2nd in Group C",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "NED": {
    "code": "NED",
@@ -351,14 +309,8 @@
    "lost": 0,
    "gf": 7,
    "ga": 3,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-20",
-     "desc": "1st in Group F (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "BEL": {
    "code": "BEL",
@@ -374,14 +326,8 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "3rd in Group G (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "GER": {
    "code": "GER",
@@ -397,14 +343,8 @@
    "lost": 0,
    "gf": 9,
    "ga": 2,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "1st in Group E (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CRO": {
    "code": "CRO",
@@ -420,14 +360,8 @@
    "lost": 1,
    "gf": 3,
    "ga": 4,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "3rd in Group L (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "COL": {
    "code": "COL",
@@ -443,14 +377,8 @@
    "lost": 0,
    "gf": 4,
    "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "1st in Group K (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "MEX": {
    "code": "MEX",
@@ -466,14 +394,8 @@
    "lost": 0,
    "gf": 6,
    "ga": 0,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "1st in Group A",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "SEN": {
    "code": "SEN",
@@ -489,14 +411,8 @@
    "lost": 2,
    "gf": 3,
    "ga": 6,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "3rd in Group I (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "URU": {
    "code": "URU",
@@ -512,14 +428,8 @@
    "lost": 0,
    "gf": 3,
    "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "2nd in Group H (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "USA": {
    "code": "USA",
@@ -535,14 +445,8 @@
    "lost": 0,
    "gf": 6,
    "ga": 1,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-19",
-     "desc": "1st in Group D (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "JPN": {
    "code": "JPN",
@@ -558,14 +462,8 @@
    "lost": 0,
    "gf": 6,
    "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "2nd in Group F (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "SUI": {
    "code": "SUI",
@@ -581,14 +479,8 @@
    "lost": 0,
    "gf": 7,
    "ga": 3,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "1st in Group B",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "IRN": {
    "code": "IRN",
@@ -604,14 +496,8 @@
    "lost": 0,
    "gf": 2,
    "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "2nd in Group G (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "TUR": {
    "code": "TUR",
@@ -644,14 +530,8 @@
    "lost": 1,
    "gf": 0,
    "ga": 1,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "3rd in Group E (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "AUT": {
    "code": "AUT",
@@ -667,14 +547,8 @@
    "lost": 1,
    "gf": 3,
    "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-22",
-     "desc": "2nd in Group J (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "KOR": {
    "code": "KOR",
@@ -690,14 +564,8 @@
    "lost": 2,
    "gf": 2,
    "ga": 3,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "3rd in Group A",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "AUS": {
    "code": "AUS",
@@ -713,14 +581,8 @@
    "lost": 1,
    "gf": 2,
    "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-19",
-     "desc": "2nd in Group D (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "ALG": {
    "code": "ALG",
@@ -736,14 +598,8 @@
    "lost": 1,
    "gf": 2,
    "ga": 4,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "3rd in Group J (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "EGY": {
    "code": "EGY",
@@ -759,14 +615,8 @@
    "lost": 0,
    "gf": 4,
    "ga": 2,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-22",
-     "desc": "1st in Group G (live)",
-     "points": 5
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CAN": {
    "code": "CAN",
@@ -782,14 +632,8 @@
    "lost": 1,
    "gf": 8,
    "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "2nd in Group B",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "NOR": {
    "code": "NOR",
@@ -805,14 +649,8 @@
    "lost": 0,
    "gf": 7,
    "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "2nd in Group I (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CIV": {
    "code": "CIV",
@@ -828,14 +666,8 @@
    "lost": 1,
    "gf": 2,
    "ga": 2,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "2nd in Group E (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "PAN": {
    "code": "PAN",
@@ -868,14 +700,8 @@
    "lost": 1,
    "gf": 6,
    "ga": 6,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-20",
-     "desc": "3rd in Group F (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CZE": {
    "code": "CZE",
@@ -908,14 +734,8 @@
    "lost": 1,
    "gf": 2,
    "ga": 4,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-20",
-     "desc": "3rd in Group D (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "SCO": {
    "code": "SCO",
@@ -931,14 +751,8 @@
    "lost": 2,
    "gf": 1,
    "ga": 4,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "3rd in Group C",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "COD": {
    "code": "COD",
@@ -954,14 +768,8 @@
    "lost": 1,
    "gf": 1,
    "ga": 2,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "3rd in Group K (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "TUN": {
    "code": "TUN",
@@ -1045,14 +853,8 @@
    "lost": 1,
    "gf": 2,
    "ga": 3,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "2nd in Group A",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "KSA": {
    "code": "KSA",
@@ -1102,14 +904,8 @@
    "lost": 1,
    "gf": 5,
    "ga": 6,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "3rd in Group B",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CPV": {
    "code": "CPV",
@@ -1125,14 +921,8 @@
    "lost": 0,
    "gf": 2,
    "ga": 2,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-21",
-     "desc": "3rd in Group H (live)",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "GHA": {
    "code": "GHA",
@@ -1148,14 +938,8 @@
    "lost": 0,
    "gf": 1,
    "ga": 0,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-23",
-     "desc": "2nd in Group L (live)",
-     "points": 3
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "CUW": {
    "code": "CUW",
@@ -1214,10 +998,10 @@
    "id": 760473,
    "utc": "2026-06-25T20:00:00Z",
    "stage": "Group stage",
-   "group": "Group E",
-   "clock": "36'",
-   "clock_sec": 2160.0,
-   "status_detail": "36'",
+   "group": null,
+   "clock": "37'",
+   "clock_sec": 2220.0,
+   "status_detail": "37'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 15.0,
@@ -1245,10 +1029,10 @@
    "id": 760468,
    "utc": "2026-06-25T20:00:00Z",
    "stage": "Group stage",
-   "group": "Group E",
-   "clock": "37'",
-   "clock_sec": 2220.0,
-   "status_detail": "37'",
+   "group": null,
+   "clock": "38'",
+   "clock_sec": 2280.0,
+   "status_detail": "38'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 4.3,
@@ -1279,7 +1063,7 @@
    "date": "2026-06-25",
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group A",
+   "group": null,
    "note": "",
    "home": {
     "code": "CZE",
@@ -1310,7 +1094,7 @@
    "date": "2026-06-25",
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group A",
+   "group": null,
    "note": "",
    "home": {
     "code": "RSA",
@@ -1341,7 +1125,7 @@
    "date": "2026-06-24",
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group C",
+   "group": null,
    "note": "",
    "home": {
     "code": "MAR",
@@ -1372,7 +1156,7 @@
    "date": "2026-06-24",
    "utc": "2026-06-24T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group C",
+   "group": null,
    "note": "",
    "home": {
     "code": "SCO",
@@ -1403,7 +1187,7 @@
    "date": "2026-06-24",
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group B",
+   "group": null,
    "note": "",
    "home": {
     "code": "BIH",
@@ -1434,7 +1218,7 @@
    "date": "2026-06-24",
    "utc": "2026-06-24T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group B",
+   "group": null,
    "note": "",
    "home": {
     "code": "SUI",
@@ -1465,7 +1249,7 @@
    "date": "2026-06-24",
    "utc": "2026-06-24T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group K",
+   "group": null,
    "note": "",
    "home": {
     "code": "COL",
@@ -1496,7 +1280,7 @@
    "date": "2026-06-23",
    "utc": "2026-06-23T23:00:00Z",
    "stage": "Group stage",
-   "group": "Group L",
+   "group": null,
    "note": "",
    "home": {
     "code": "PAN",
@@ -1527,7 +1311,7 @@
    "date": "2026-06-23",
    "utc": "2026-06-23T20:00:00Z",
    "stage": "Group stage",
-   "group": "Group L",
+   "group": null,
    "note": "",
    "home": {
     "code": "ENG",
@@ -1558,7 +1342,7 @@
    "date": "2026-06-23",
    "utc": "2026-06-23T17:00:00Z",
    "stage": "Group stage",
-   "group": "Group K",
+   "group": null,
    "note": "",
    "home": {
     "code": "POR",
@@ -1589,7 +1373,7 @@
    "date": "2026-06-23",
    "utc": "2026-06-23T03:00:00Z",
    "stage": "Group stage",
-   "group": "Group J",
+   "group": null,
    "note": "",
    "home": {
     "code": "JOR",
@@ -1620,7 +1404,7 @@
    "date": "2026-06-23",
    "utc": "2026-06-23T00:00:00Z",
    "stage": "Group stage",
-   "group": "Group I",
+   "group": null,
    "note": "",
    "home": {
     "code": "NOR",
@@ -1651,7 +1435,7 @@
    "date": "2026-06-22",
    "utc": "2026-06-22T21:00:00Z",
    "stage": "Group stage",
-   "group": "Group I",
+   "group": null,
    "note": "",
    "home": {
     "code": "FRA",
@@ -1682,7 +1466,7 @@
    "date": "2026-06-22",
    "utc": "2026-06-22T17:00:00Z",
    "stage": "Group stage",
-   "group": "Group J",
+   "group": null,
    "note": "",
    "home": {
     "code": "ARG",
@@ -1713,7 +1497,7 @@
    "date": "2026-06-22",
    "utc": "2026-06-22T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": null,
    "note": "",
    "home": {
     "code": "NZL",
@@ -1744,7 +1528,7 @@
    "date": "2026-06-21",
    "utc": "2026-06-21T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": null,
    "note": "",
    "home": {
     "code": "URU",
@@ -1775,7 +1559,7 @@
    "date": "2026-06-21",
    "utc": "2026-06-21T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": null,
    "note": "",
    "home": {
     "code": "BEL",
@@ -1806,7 +1590,7 @@
    "date": "2026-06-21",
    "utc": "2026-06-21T16:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": null,
    "note": "",
    "home": {
     "code": "ESP",
@@ -1837,7 +1621,7 @@
    "date": "2026-06-21",
    "utc": "2026-06-21T04:00:00Z",
    "stage": "Group stage",
-   "group": "Group F",
+   "group": null,
    "note": "",
    "home": {
     "code": "TUN",
@@ -1868,7 +1652,7 @@
    "date": "2026-06-21",
    "utc": "2026-06-21T00:00:00Z",
    "stage": "Group stage",
-   "group": "Group E",
+   "group": null,
    "note": "",
    "home": {
     "code": "ECU",
@@ -1899,7 +1683,7 @@
    "date": "2026-06-20",
    "utc": "2026-06-20T20:00:00Z",
    "stage": "Group stage",
-   "group": "Group E",
+   "group": null,
    "note": "",
    "home": {
     "code": "GER",
@@ -1930,7 +1714,7 @@
    "date": "2026-06-20",
    "utc": "2026-06-20T17:00:00Z",
    "stage": "Group stage",
-   "group": "Group F",
+   "group": null,
    "note": "",
    "home": {
     "code": "NED",
@@ -1961,7 +1745,7 @@
    "date": "2026-06-20",
    "utc": "2026-06-20T03:00:00Z",
    "stage": "Group stage",
-   "group": "Group D",
+   "group": null,
    "note": "",
    "home": {
     "code": "TUR",
@@ -1992,7 +1776,7 @@
    "date": "2026-06-20",
    "utc": "2026-06-20T00:30:00Z",
    "stage": "Group stage",
-   "group": "Group C",
+   "group": null,
    "note": "",
    "home": {
     "code": "BRA",
@@ -2023,7 +1807,7 @@
    "date": "2026-06-19",
    "utc": "2026-06-19T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group C",
+   "group": null,
    "note": "",
    "home": {
     "code": "SCO",
@@ -2054,7 +1838,7 @@
    "date": "2026-06-19",
    "utc": "2026-06-19T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group D",
+   "group": null,
    "note": "",
    "home": {
     "code": "USA",
@@ -2085,7 +1869,7 @@
    "date": "2026-06-19",
    "utc": "2026-06-19T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group A",
+   "group": null,
    "note": "",
    "home": {
     "code": "MEX",
@@ -2116,7 +1900,7 @@
    "date": "2026-06-18",
    "utc": "2026-06-18T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group B",
+   "group": null,
    "note": "",
    "home": {
     "code": "CAN",
@@ -2147,7 +1931,7 @@
    "date": "2026-06-18",
    "utc": "2026-06-18T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group B",
+   "group": null,
    "note": "",
    "home": {
     "code": "SUI",
@@ -2178,7 +1962,7 @@
    "date": "2026-06-18",
    "utc": "2026-06-18T16:00:00Z",
    "stage": "Group stage",
-   "group": "Group A",
+   "group": null,
    "note": "",
    "home": {
     "code": "CZE",
@@ -2209,7 +1993,7 @@
    "date": "2026-06-18",
    "utc": "2026-06-18T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group K",
+   "group": null,
    "note": "",
    "home": {
     "code": "UZB",
@@ -2240,7 +2024,7 @@
    "date": "2026-06-17",
    "utc": "2026-06-17T23:00:00Z",
    "stage": "Group stage",
-   "group": "Group L",
+   "group": null,
    "note": "",
    "home": {
     "code": "GHA",
@@ -2271,7 +2055,7 @@
    "date": "2026-06-17",
    "utc": "2026-06-17T20:00:00Z",
    "stage": "Group stage",
-   "group": "Group L",
+   "group": null,
    "note": "",
    "home": {
     "code": "ENG",
@@ -2302,7 +2086,7 @@
    "date": "2026-06-17",
    "utc": "2026-06-17T17:00:00Z",
    "stage": "Group stage",
-   "group": "Group K",
+   "group": null,
    "note": "",
    "home": {
     "code": "POR",
@@ -2333,7 +2117,7 @@
    "date": "2026-06-17",
    "utc": "2026-06-17T04:00:00Z",
    "stage": "Group stage",
-   "group": "Group J",
+   "group": null,
    "note": "",
    "home": {
     "code": "AUT",
@@ -2364,7 +2148,7 @@
    "date": "2026-06-17",
    "utc": "2026-06-17T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group J",
+   "group": null,
    "note": "",
    "home": {
     "code": "ARG",
@@ -2395,7 +2179,7 @@
    "date": "2026-06-16",
    "utc": "2026-06-16T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group I",
+   "group": null,
    "note": "",
    "home": {
     "code": "IRQ",
@@ -2426,7 +2210,7 @@
    "date": "2026-06-16",
    "utc": "2026-06-16T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group I",
+   "group": null,
    "note": "",
    "home": {
     "code": "FRA",
@@ -2457,7 +2241,7 @@
    "date": "2026-06-16",
    "utc": "2026-06-16T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": null,
    "note": "",
    "home": {
     "code": "IRN",
@@ -2488,7 +2272,7 @@
    "date": "2026-06-15",
    "utc": "2026-06-15T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": null,
    "note": "",
    "home": {
     "code": "KSA",
@@ -2519,7 +2303,7 @@
    "date": "2026-06-15",
    "utc": "2026-06-15T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": null,
    "note": "",
    "home": {
     "code": "BEL",
@@ -2550,7 +2334,7 @@
    "date": "2026-06-15",
    "utc": "2026-06-15T16:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": null,
    "note": "",
    "home": {
     "code": "ESP",
@@ -2581,7 +2365,7 @@
    "date": "2026-06-15",
    "utc": "2026-06-15T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group F",
+   "group": null,
    "note": "",
    "home": {
     "code": "SWE",
@@ -2606,7 +2390,7 @@
    "date": "2026-06-14",
    "utc": "2026-06-14T23:00:00Z",
    "stage": "Group stage",
-   "group": "Group E",
+   "group": null,
    "note": "",
    "home": {
     "code": "CIV",
@@ -2631,7 +2415,7 @@
    "date": "2026-06-14",
    "utc": "2026-06-14T20:00:00Z",
    "stage": "Group stage",
-   "group": "Group F",
+   "group": null,
    "note": "",
    "home": {
     "code": "NED",
@@ -2656,7 +2440,7 @@
    "date": "2026-06-14",
    "utc": "2026-06-14T17:00:00Z",
    "stage": "Group stage",
-   "group": "Group E",
+   "group": null,
    "note": "",
    "home": {
     "code": "GER",
@@ -2681,7 +2465,7 @@
    "date": "2026-06-14",
    "utc": "2026-06-14T04:00:00Z",
    "stage": "Group stage",
-   "group": "Group D",
+   "group": null,
    "note": "",
    "home": {
     "code": "AUS",
@@ -2706,7 +2490,7 @@
    "date": "2026-06-14",
    "utc": "2026-06-14T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group C",
+   "group": null,
    "note": "",
    "home": {
     "code": "HAI",
@@ -2731,7 +2515,7 @@
    "date": "2026-06-13",
    "utc": "2026-06-13T22:00:00Z",
    "stage": "Group stage",
-   "group": "Group C",
+   "group": null,
    "note": "",
    "home": {
     "code": "BRA",
@@ -2756,7 +2540,7 @@
    "date": "2026-06-13",
    "utc": "2026-06-13T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group B",
+   "group": null,
    "note": "",
    "home": {
     "code": "QAT",
@@ -2781,7 +2565,7 @@
    "date": "2026-06-13",
    "utc": "2026-06-13T01:00:00Z",
    "stage": "Group stage",
-   "group": "Group D",
+   "group": null,
    "note": "",
    "home": {
     "code": "USA",
@@ -2806,7 +2590,7 @@
    "date": "2026-06-12",
    "utc": "2026-06-12T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group B",
+   "group": null,
    "note": "",
    "home": {
     "code": "CAN",
@@ -2831,7 +2615,7 @@
    "date": "2026-06-12",
    "utc": "2026-06-12T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group A",
+   "group": null,
    "note": "",
    "home": {
     "code": "KOR",
@@ -2856,7 +2640,7 @@
    "date": "2026-06-11",
    "utc": "2026-06-11T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group A",
+   "group": null,
    "note": "",
    "home": {
     "code": "MEX",
@@ -2882,7 +2666,7 @@
    "id": 760471,
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
-   "group": "Group F",
+   "group": null,
    "odds": {
     "home": 2.0,
     "draw": 3.4,
@@ -2907,7 +2691,7 @@
    "id": 760472,
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
-   "group": "Group F",
+   "group": null,
    "odds": {
     "home": 23.0,
     "draw": 10.5,
@@ -2932,7 +2716,7 @@
    "id": 760469,
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group D",
+   "group": null,
    "odds": {
     "home": 2.65,
     "draw": 2.3,
@@ -2957,7 +2741,7 @@
    "id": 760470,
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group D",
+   "group": null,
    "odds": {
     "home": 4.0,
     "draw": 4.1,
@@ -2982,7 +2766,7 @@
    "id": 760475,
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group I",
+   "group": null,
    "odds": {
     "home": 5.0,
     "draw": 4.5,
@@ -3007,7 +2791,7 @@
    "id": 760474,
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
-   "group": "Group I",
+   "group": null,
    "odds": {
     "home": 1.22,
     "draw": 7.0,
@@ -3032,7 +2816,7 @@
    "id": 760478,
    "utc": "2026-06-27T00:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": null,
    "odds": {
     "home": 2.65,
     "draw": 3.35,
@@ -3057,7 +2841,7 @@
    "id": 760479,
    "utc": "2026-06-27T00:00:00Z",
    "stage": "Group stage",
-   "group": "Group H",
+   "group": null,
    "odds": {
     "home": 7.5,
     "draw": 4.1,
@@ -3082,7 +2866,7 @@
    "id": 760476,
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": null,
    "odds": {
     "home": 2.45,
     "draw": 2.65,
@@ -3107,7 +2891,7 @@
    "id": 760477,
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
-   "group": "Group G",
+   "group": null,
    "odds": {
     "home": 17.0,
     "draw": 8.5,
@@ -3132,7 +2916,7 @@
    "id": 760480,
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
-   "group": "Group L",
+   "group": null,
    "odds": {
     "home": 1.77,
     "draw": 3.4,
@@ -3157,7 +2941,7 @@
    "id": 760485,
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
-   "group": "Group L",
+   "group": null,
    "odds": {
     "home": 15.0,
     "draw": 8.0,
@@ -3182,7 +2966,7 @@
    "id": 760481,
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
-   "group": "Group K",
+   "group": null,
    "odds": {
     "home": 4.2,
     "draw": 3.8,
@@ -3207,7 +2991,7 @@
    "id": 760482,
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
-   "group": "Group K",
+   "group": null,
    "odds": {
     "home": 1.74,
     "draw": 4.2,
@@ -3232,7 +3016,7 @@
    "id": 760484,
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group J",
+   "group": null,
    "odds": {
     "home": 3.95,
     "draw": 2.25,
@@ -3257,7 +3041,7 @@
    "id": 760483,
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
-   "group": "Group J",
+   "group": null,
    "odds": {
     "home": 15.0,
     "draw": 7.5,
@@ -3304,884 +3088,7 @@
    }
   }
  ],
- "groups": [
-  {
-   "name": "Group A",
-   "rows": [
-    {
-     "group": "Group A",
-     "code": "MEX",
-     "p": 3,
-     "w": 3,
-     "d": 0,
-     "l": 0,
-     "gf": 6,
-     "ga": 0,
-     "pts": 9,
-     "live": false,
-     "gd": 6,
-     "name": "Mexico",
-     "flag": "🇲🇽",
-     "tier": 1,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group A",
-     "code": "RSA",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 2,
-     "ga": 3,
-     "pts": 4,
-     "live": false,
-     "gd": -1,
-     "name": "South Africa",
-     "flag": "🇿🇦",
-     "tier": 3,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group A",
-     "code": "KOR",
-     "p": 3,
-     "w": 1,
-     "d": 0,
-     "l": 2,
-     "gf": 2,
-     "ga": 3,
-     "pts": 3,
-     "live": false,
-     "gd": -1,
-     "name": "South Korea",
-     "flag": "🇰🇷",
-     "tier": 2,
-     "owner": "Ruggy"
-    },
-    {
-     "group": "Group A",
-     "code": "CZE",
-     "p": 3,
-     "w": 0,
-     "d": 1,
-     "l": 2,
-     "gf": 2,
-     "ga": 6,
-     "pts": 1,
-     "live": false,
-     "gd": -4,
-     "name": "Czechia",
-     "flag": "🇨🇿",
-     "tier": 2,
-     "owner": "Emily"
-    }
-   ]
-  },
-  {
-   "name": "Group B",
-   "rows": [
-    {
-     "group": "Group B",
-     "code": "SUI",
-     "p": 3,
-     "w": 2,
-     "d": 1,
-     "l": 0,
-     "gf": 7,
-     "ga": 3,
-     "pts": 7,
-     "live": false,
-     "gd": 4,
-     "name": "Switzerland",
-     "flag": "🇨🇭",
-     "tier": 2,
-     "owner": "Emily"
-    },
-    {
-     "group": "Group B",
-     "code": "CAN",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 8,
-     "ga": 3,
-     "pts": 4,
-     "live": false,
-     "gd": 5,
-     "name": "Canada",
-     "flag": "🇨🇦",
-     "tier": 2,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group B",
-     "code": "BIH",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 5,
-     "ga": 6,
-     "pts": 4,
-     "live": false,
-     "gd": -1,
-     "name": "Bosnia and Herzegovina",
-     "flag": "🇧🇦",
-     "tier": 3,
-     "owner": "Spridge"
-    },
-    {
-     "group": "Group B",
-     "code": "QAT",
-     "p": 3,
-     "w": 0,
-     "d": 1,
-     "l": 2,
-     "gf": 2,
-     "ga": 10,
-     "pts": 1,
-     "live": false,
-     "gd": -8,
-     "name": "Qatar",
-     "flag": "🇶🇦",
-     "tier": 3,
-     "owner": "Ruggy"
-    }
-   ]
-  },
-  {
-   "name": "Group C",
-   "rows": [
-    {
-     "group": "Group C",
-     "code": "BRA",
-     "p": 3,
-     "w": 2,
-     "d": 1,
-     "l": 0,
-     "gf": 7,
-     "ga": 1,
-     "pts": 7,
-     "live": false,
-     "gd": 6,
-     "name": "Brazil",
-     "flag": "🇧🇷",
-     "tier": 1,
-     "owner": "George"
-    },
-    {
-     "group": "Group C",
-     "code": "MAR",
-     "p": 3,
-     "w": 2,
-     "d": 1,
-     "l": 0,
-     "gf": 6,
-     "ga": 3,
-     "pts": 7,
-     "live": false,
-     "gd": 3,
-     "name": "Morocco",
-     "flag": "🇲🇦",
-     "tier": 1,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group C",
-     "code": "SCO",
-     "p": 3,
-     "w": 1,
-     "d": 0,
-     "l": 2,
-     "gf": 1,
-     "ga": 4,
-     "pts": 3,
-     "live": false,
-     "gd": -3,
-     "name": "Scotland",
-     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-     "tier": 3,
-     "owner": "George"
-    },
-    {
-     "group": "Group C",
-     "code": "HAI",
-     "p": 3,
-     "w": 0,
-     "d": 0,
-     "l": 3,
-     "gf": 2,
-     "ga": 8,
-     "pts": 0,
-     "live": false,
-     "gd": -6,
-     "name": "Haiti",
-     "flag": "🇭🇹",
-     "tier": 3,
-     "owner": "Jen"
-    }
-   ]
-  },
-  {
-   "name": "Group D",
-   "rows": [
-    {
-     "group": "Group D",
-     "code": "USA",
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gf": 6,
-     "ga": 1,
-     "pts": 6,
-     "live": false,
-     "gd": 5,
-     "name": "USA",
-     "flag": "🇺🇸",
-     "tier": 1,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group D",
-     "code": "AUS",
-     "p": 2,
-     "w": 1,
-     "d": 0,
-     "l": 1,
-     "gf": 2,
-     "ga": 2,
-     "pts": 3,
-     "live": false,
-     "gd": 0,
-     "name": "Australia",
-     "flag": "🇦🇺",
-     "tier": 2,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group D",
-     "code": "PAR",
-     "p": 2,
-     "w": 1,
-     "d": 0,
-     "l": 1,
-     "gf": 2,
-     "ga": 4,
-     "pts": 3,
-     "live": false,
-     "gd": -2,
-     "name": "Paraguay",
-     "flag": "🇵🇾",
-     "tier": 3,
-     "owner": "Fergs"
-    },
-    {
-     "group": "Group D",
-     "code": "TUR",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 0,
-     "ga": 3,
-     "pts": 0,
-     "live": false,
-     "gd": -3,
-     "name": "Türkiye",
-     "flag": "🇹🇷",
-     "tier": 2,
-     "owner": "Dubs"
-    }
-   ]
-  },
-  {
-   "name": "Group E",
-   "rows": [
-    {
-     "group": "Group E",
-     "code": "GER",
-     "p": 3,
-     "w": 2,
-     "d": 1,
-     "l": 0,
-     "gf": 10,
-     "ga": 3,
-     "pts": 7,
-     "live": true,
-     "gd": 7,
-     "name": "Germany",
-     "flag": "🇩🇪",
-     "tier": 1,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group E",
-     "code": "CIV",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 3,
-     "ga": 2,
-     "pts": 6,
-     "live": true,
-     "gd": 1,
-     "name": "Ivory Coast",
-     "flag": "🇨🇮",
-     "tier": 2,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group E",
-     "code": "ECU",
-     "p": 3,
-     "w": 0,
-     "d": 2,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 2,
-     "live": true,
-     "gd": -1,
-     "name": "Ecuador",
-     "flag": "🇪🇨",
-     "tier": 2,
-     "owner": "Brando"
-    },
-    {
-     "group": "Group E",
-     "code": "CUW",
-     "p": 3,
-     "w": 0,
-     "d": 1,
-     "l": 2,
-     "gf": 1,
-     "ga": 8,
-     "pts": 1,
-     "live": true,
-     "gd": -7,
-     "name": "Curaçao",
-     "flag": "🇨🇼",
-     "tier": 3,
-     "owner": "Fergs"
-    }
-   ]
-  },
-  {
-   "name": "Group F",
-   "rows": [
-    {
-     "group": "Group F",
-     "code": "NED",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 7,
-     "ga": 3,
-     "pts": 4,
-     "live": false,
-     "gd": 4,
-     "name": "Netherlands",
-     "flag": "🇳🇱",
-     "tier": 1,
-     "owner": "Emily"
-    },
-    {
-     "group": "Group F",
-     "code": "JPN",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 6,
-     "ga": 2,
-     "pts": 4,
-     "live": false,
-     "gd": 4,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group F",
-     "code": "SWE",
-     "p": 2,
-     "w": 1,
-     "d": 0,
-     "l": 1,
-     "gf": 6,
-     "ga": 6,
-     "pts": 3,
-     "live": false,
-     "gd": 0,
-     "name": "Sweden",
-     "flag": "🇸🇪",
-     "tier": 2,
-     "owner": "Spridge"
-    },
-    {
-     "group": "Group F",
-     "code": "TUN",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 1,
-     "ga": 9,
-     "pts": 0,
-     "live": false,
-     "gd": -8,
-     "name": "Tunisia",
-     "flag": "🇹🇳",
-     "tier": 3,
-     "owner": "Pari"
-    }
-   ]
-  },
-  {
-   "name": "Group G",
-   "rows": [
-    {
-     "group": "Group G",
-     "code": "EGY",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 4,
-     "ga": 2,
-     "pts": 4,
-     "live": false,
-     "gd": 2,
-     "name": "Egypt",
-     "flag": "🇪🇬",
-     "tier": 2,
-     "owner": "Brando"
-    },
-    {
-     "group": "Group G",
-     "code": "IRN",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 2,
-     "ga": 2,
-     "pts": 2,
-     "live": false,
-     "gd": 0,
-     "name": "Iran",
-     "flag": "🇮🇷",
-     "tier": 2,
-     "owner": "Spridge"
-    },
-    {
-     "group": "Group G",
-     "code": "BEL",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 1,
-     "ga": 1,
-     "pts": 2,
-     "live": false,
-     "gd": 0,
-     "name": "Belgium",
-     "flag": "🇧🇪",
-     "tier": 1,
-     "owner": "Pari"
-    },
-    {
-     "group": "Group G",
-     "code": "NZL",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 3,
-     "ga": 5,
-     "pts": 1,
-     "live": false,
-     "gd": -2,
-     "name": "New Zealand",
-     "flag": "🇳🇿",
-     "tier": 3,
-     "owner": "Willo"
-    }
-   ]
-  },
-  {
-   "name": "Group H",
-   "rows": [
-    {
-     "group": "Group H",
-     "code": "ESP",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 4,
-     "ga": 0,
-     "pts": 4,
-     "live": false,
-     "gd": 4,
-     "name": "Spain",
-     "flag": "🇪🇸",
-     "tier": 1,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group H",
-     "code": "URU",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 3,
-     "ga": 3,
-     "pts": 2,
-     "live": false,
-     "gd": 0,
-     "name": "Uruguay",
-     "flag": "🇺🇾",
-     "tier": 1,
-     "owner": "Pari"
-    },
-    {
-     "group": "Group H",
-     "code": "CPV",
-     "p": 2,
-     "w": 0,
-     "d": 2,
-     "l": 0,
-     "gf": 2,
-     "ga": 2,
-     "pts": 2,
-     "live": false,
-     "gd": 0,
-     "name": "Cabo Verde",
-     "flag": "🇨🇻",
-     "tier": 3,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group H",
-     "code": "KSA",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 1,
-     "ga": 5,
-     "pts": 1,
-     "live": false,
-     "gd": -4,
-     "name": "Saudi Arabia",
-     "flag": "🇸🇦",
-     "tier": 3,
-     "owner": "Brando"
-    }
-   ]
-  },
-  {
-   "name": "Group I",
-   "rows": [
-    {
-     "group": "Group I",
-     "code": "FRA",
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gf": 6,
-     "ga": 1,
-     "pts": 6,
-     "live": false,
-     "gd": 5,
-     "name": "France",
-     "flag": "🇫🇷",
-     "tier": 1,
-     "owner": "Spridge"
-    },
-    {
-     "group": "Group I",
-     "code": "NOR",
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gf": 7,
-     "ga": 3,
-     "pts": 6,
-     "live": false,
-     "gd": 4,
-     "name": "Norway",
-     "flag": "🇳🇴",
-     "tier": 2,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group I",
-     "code": "SEN",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 3,
-     "ga": 6,
-     "pts": 0,
-     "live": false,
-     "gd": -3,
-     "name": "Senegal",
-     "flag": "🇸🇳",
-     "tier": 1,
-     "owner": "Fergs"
-    },
-    {
-     "group": "Group I",
-     "code": "IRQ",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 1,
-     "ga": 7,
-     "pts": 0,
-     "live": false,
-     "gd": -6,
-     "name": "Iraq",
-     "flag": "🇮🇶",
-     "tier": 3,
-     "owner": "Emily"
-    }
-   ]
-  },
-  {
-   "name": "Group J",
-   "rows": [
-    {
-     "group": "Group J",
-     "code": "ARG",
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gf": 5,
-     "ga": 0,
-     "pts": 6,
-     "live": false,
-     "gd": 5,
-     "name": "Argentina",
-     "flag": "🇦🇷",
-     "tier": 1,
-     "owner": "Fergs"
-    },
-    {
-     "group": "Group J",
-     "code": "AUT",
-     "p": 2,
-     "w": 1,
-     "d": 0,
-     "l": 1,
-     "gf": 3,
-     "ga": 3,
-     "pts": 3,
-     "live": false,
-     "gd": 0,
-     "name": "Austria",
-     "flag": "🇦🇹",
-     "tier": 2,
-     "owner": "George"
-    },
-    {
-     "group": "Group J",
-     "code": "ALG",
-     "p": 2,
-     "w": 1,
-     "d": 0,
-     "l": 1,
-     "gf": 2,
-     "ga": 4,
-     "pts": 3,
-     "live": false,
-     "gd": -2,
-     "name": "Algeria",
-     "flag": "🇩🇿",
-     "tier": 2,
-     "owner": "Ruggy"
-    },
-    {
-     "group": "Group J",
-     "code": "JOR",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 2,
-     "ga": 5,
-     "pts": 0,
-     "live": false,
-     "gd": -3,
-     "name": "Jordan",
-     "flag": "🇯🇴",
-     "tier": 3,
-     "owner": "Glancy"
-    }
-   ]
-  },
-  {
-   "name": "Group K",
-   "rows": [
-    {
-     "group": "Group K",
-     "code": "COL",
-     "p": 2,
-     "w": 2,
-     "d": 0,
-     "l": 0,
-     "gf": 4,
-     "ga": 1,
-     "pts": 6,
-     "live": false,
-     "gd": 3,
-     "name": "Colombia",
-     "flag": "🇨🇴",
-     "tier": 1,
-     "owner": "Ruggy"
-    },
-    {
-     "group": "Group K",
-     "code": "POR",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 6,
-     "ga": 1,
-     "pts": 4,
-     "live": false,
-     "gd": 5,
-     "name": "Portugal",
-     "flag": "🇵🇹",
-     "tier": 1,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group K",
-     "code": "COD",
-     "p": 2,
-     "w": 0,
-     "d": 1,
-     "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 1,
-     "live": false,
-     "gd": -1,
-     "name": "DR Congo",
-     "flag": "🇨🇩",
-     "tier": 3,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group K",
-     "code": "UZB",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 1,
-     "ga": 8,
-     "pts": 0,
-     "live": false,
-     "gd": -7,
-     "name": "Uzbekistan",
-     "flag": "🇺🇿",
-     "tier": 3,
-     "owner": "Pari"
-    }
-   ]
-  },
-  {
-   "name": "Group L",
-   "rows": [
-    {
-     "group": "Group L",
-     "code": "ENG",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 4,
-     "ga": 2,
-     "pts": 4,
-     "live": false,
-     "gd": 2,
-     "name": "England",
-     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "tier": 1,
-     "owner": "Brando"
-    },
-    {
-     "group": "Group L",
-     "code": "GHA",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 1,
-     "ga": 0,
-     "pts": 4,
-     "live": false,
-     "gd": 1,
-     "name": "Ghana",
-     "flag": "🇬🇭",
-     "tier": 3,
-     "owner": "George"
-    },
-    {
-     "group": "Group L",
-     "code": "CRO",
-     "p": 2,
-     "w": 1,
-     "d": 0,
-     "l": 1,
-     "gf": 3,
-     "ga": 4,
-     "pts": 3,
-     "live": false,
-     "gd": -1,
-     "name": "Croatia",
-     "flag": "🇭🇷",
-     "tier": 1,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group L",
-     "code": "PAN",
-     "p": 2,
-     "w": 0,
-     "d": 0,
-     "l": 2,
-     "gf": 0,
-     "ga": 2,
-     "pts": 0,
-     "live": false,
-     "gd": -2,
-     "name": "Panama",
-     "flag": "🇵🇦",
-     "tier": 2,
-     "owner": "Dubs"
-    }
-   ]
-  }
- ],
+ "groups": [],
  "bracket": [
   {
    "id": 760486,
