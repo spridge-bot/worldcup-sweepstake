@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T23:34:51+00:00",
+ "generated_at": "2026-06-25T23:35:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "34'",
-   "clock_sec": 2040.0,
-   "status_detail": "34'",
+   "clock": "35'",
+   "clock_sec": 2100.0,
+   "status_detail": "35'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "34'",
-   "clock_sec": 2040.0,
-   "status_detail": "34'",
+   "clock": "35'",
+   "clock_sec": 2100.0,
+   "status_detail": "35'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 23.0,
