@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T02:24:37+00:00",
+ "generated_at": "2026-06-25T02:25:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -26,8 +26,8 @@
     "CAN",
     "RSA"
    ],
-   "total": 12,
-   "today": 9,
+   "total": 14,
+   "today": 11,
    "rank": 1,
    "movement": 9
   },
@@ -41,8 +41,8 @@
    ],
    "total": 12,
    "today": 6,
-   "rank": 1,
-   "movement": 5
+   "rank": 2,
+   "movement": 4
   },
   {
    "name": "Brando",
@@ -110,19 +110,6 @@
    "movement": -2
   },
   {
-   "name": "Ruggy",
-   "teams": [
-    "COL",
-    "KOR",
-    "ALG",
-    "QAT"
-   ],
-   "total": 9,
-   "today": 8,
-   "rank": 8,
-   "movement": 4
-  },
-  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -145,8 +132,21 @@
    ],
    "total": 7,
    "today": 0,
-   "rank": 10,
-   "movement": -5
+   "rank": 9,
+   "movement": -4
+  },
+  {
+   "name": "Ruggy",
+   "teams": [
+    "COL",
+    "KOR",
+    "ALG",
+    "QAT"
+   ],
+   "total": 7,
+   "today": 6,
+   "rank": 9,
+   "movement": 3
   },
   {
    "name": "Pari",
@@ -690,12 +690,12 @@
    "lost": 1,
    "gf": 2,
    "ga": 2,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "2nd in Group A (live)",
-     "points": 3
+     "desc": "3rd in Group A (live)",
+     "points": 1
     }
    ]
   },
@@ -1045,12 +1045,12 @@
    "lost": 1,
    "gf": 1,
    "ga": 3,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "3rd in Group A (live)",
-     "points": 1
+     "desc": "2nd in Group A (live)",
+     "points": 3
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "63'",
-   "clock_sec": 3780.0,
-   "status_detail": "63'",
+   "clock": "65'",
+   "clock_sec": 3900.0,
+   "status_detail": "65'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 4.7,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "63'",
-   "clock_sec": 3780.0,
-   "status_detail": "63'",
+   "clock": "64'",
+   "clock_sec": 3840.0,
+   "status_detail": "64'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 5.75,
@@ -1262,7 +1262,7 @@
     "name": "South Africa",
     "flag": "🇿🇦",
     "owner": "Dipen",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "KOR",
@@ -3290,37 +3290,37 @@
     },
     {
      "group": "Group A",
-     "code": "KOR",
+     "code": "RSA",
      "p": 3,
      "w": 1,
      "d": 1,
      "l": 1,
      "gf": 2,
-     "ga": 2,
+     "ga": 3,
      "pts": 4,
      "live": true,
-     "gd": 0,
-     "name": "South Korea",
-     "flag": "🇰🇷",
-     "tier": 2,
-     "owner": "Ruggy"
-    },
-    {
-     "group": "Group A",
-     "code": "RSA",
-     "p": 3,
-     "w": 0,
-     "d": 2,
-     "l": 1,
-     "gf": 1,
-     "ga": 3,
-     "pts": 2,
-     "live": true,
-     "gd": -2,
+     "gd": -1,
      "name": "South Africa",
      "flag": "🇿🇦",
      "tier": 3,
      "owner": "Dipen"
+    },
+    {
+     "group": "Group A",
+     "code": "KOR",
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 2,
+     "ga": 3,
+     "pts": 3,
+     "live": true,
+     "gd": -1,
+     "name": "South Korea",
+     "flag": "🇰🇷",
+     "tier": 2,
+     "owner": "Ruggy"
     },
     {
      "group": "Group A",
