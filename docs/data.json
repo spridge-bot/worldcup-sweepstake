@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T02:54:18+00:00",
+ "generated_at": "2026-06-25T02:55:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "90'+2'",
+   "clock": "90'+4'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+2'",
+   "status_detail": "90'+4'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 4.7,
@@ -1238,7 +1238,7 @@
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Dipen",
-    "goals": 2
+    "goals": 3
    }
   },
   {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "90'+2'",
+   "clock": "90'+4'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+2'",
+   "status_detail": "90'+4'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 5.75,
@@ -3278,11 +3278,11 @@
      "w": 3,
      "d": 0,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 0,
      "pts": 9,
      "live": true,
-     "gd": 5,
+     "gd": 6,
      "name": "Mexico",
      "flag": "🇲🇽",
      "tier": 1,
@@ -3330,10 +3330,10 @@
      "d": 1,
      "l": 2,
      "gf": 2,
-     "ga": 5,
+     "ga": 6,
      "pts": 1,
      "live": true,
-     "gd": -3,
+     "gd": -4,
      "name": "Czechia",
      "flag": "🇨🇿",
      "tier": 2,
