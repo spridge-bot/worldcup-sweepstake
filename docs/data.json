@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T20:00:47+00:00",
+ "generated_at": "2026-06-25T20:01:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -29,7 +29,7 @@
    "total": 14,
    "today": 8,
    "rank": 1,
-   "movement": 8
+   "movement": 7
   },
   {
    "name": "George",
@@ -53,9 +53,9 @@
     "KSA"
    ],
    "total": 11,
-   "today": 0,
+   "today": 1,
    "rank": 3,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Glancy",
@@ -66,9 +66,9 @@
     "JOR"
    ],
    "total": 11,
-   "today": 0,
+   "today": 5,
    "rank": 3,
-   "movement": -1
+   "movement": 5
   },
   {
    "name": "Jen",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": -3
   },
   {
    "name": "Spridge",
@@ -107,7 +107,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": -3
   },
   {
    "name": "Willo",
@@ -120,7 +120,7 @@
    "total": 9,
    "today": 0,
    "rank": 8,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -133,7 +133,7 @@
    "total": 7,
    "today": 0,
    "rank": 9,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 1,
    "rank": 9,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Pari",
@@ -400,7 +400,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-20",
+     "date": "2026-06-25",
      "desc": "1st in Group E (live)",
      "points": 5
     }
@@ -647,7 +647,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-21",
+     "date": "2026-06-25",
      "desc": "3rd in Group E (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760468,
+   "utc": "2026-06-25T20:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "MetLife Stadium",
+   "odds": {
+    "home": 3.65,
+    "draw": 4.1,
+    "away": 1.91,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "owner": "Brando",
+    "goals": 0
+   },
+   "away": {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "owner": "Glancy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760467,
@@ -2841,31 +2873,6 @@
    }
   },
   {
-   "id": 760468,
-   "utc": "2026-06-25T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "odds": {
-    "home": 4.3,
-    "draw": 4.2,
-    "away": 1.77,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "owner": "Brando",
-    "form": "DLWWD"
-   },
-   "away": {
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "form": "WWWWW"
-   }
-  },
-  {
    "id": 760471,
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
@@ -3590,14 +3597,14 @@
     {
      "group": "Group E",
      "code": "GER",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 9,
      "ga": 2,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 7,
      "name": "Germany",
      "flag": "🇩🇪",
@@ -3624,14 +3631,14 @@
     {
      "group": "Group E",
      "code": "ECU",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 0,
      "ga": 1,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -1,
      "name": "Ecuador",
      "flag": "🇪🇨",
