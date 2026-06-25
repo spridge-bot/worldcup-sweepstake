@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T20:16:29+00:00",
+ "generated_at": "2026-06-25T20:17:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -29,7 +29,7 @@
    "total": 14,
    "today": 8,
    "rank": 1,
-   "movement": 7
+   "movement": 8
   },
   {
    "name": "George",
@@ -53,7 +53,7 @@
     "KSA"
    ],
    "total": 11,
-   "today": 1,
+   "today": 0,
    "rank": 3,
    "movement": -1
   },
@@ -66,9 +66,9 @@
     "JOR"
    ],
    "total": 11,
-   "today": 5,
+   "today": 0,
    "rank": 3,
-   "movement": 5
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -79,9 +79,9 @@
     "HAI"
    ],
    "total": 11,
-   "today": 3,
+   "today": 0,
    "rank": 3,
-   "movement": 3
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -4
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -107,7 +107,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -4
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -120,7 +120,7 @@
    "total": 9,
    "today": 0,
    "rank": 8,
-   "movement": -3
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -133,7 +133,7 @@
    "total": 7,
    "today": 0,
    "rank": 9,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 1,
    "rank": 9,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -206,7 +206,7 @@
    "tier": 1,
    "fifa_rank": 2,
    "owner": "Jen",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -229,7 +229,7 @@
    "tier": 1,
    "fifa_rank": 3,
    "owner": "Spridge",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 2,
    "drawn": 0,
@@ -252,7 +252,7 @@
    "tier": 1,
    "fifa_rank": 4,
    "owner": "Brando",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -275,7 +275,7 @@
    "tier": 1,
    "fifa_rank": 5,
    "owner": "Dipen",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -298,7 +298,7 @@
    "tier": 1,
    "fifa_rank": 6,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 2,
    "drawn": 1,
@@ -321,7 +321,7 @@
    "tier": 1,
    "fifa_rank": 7,
    "owner": "Willo",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 2,
    "drawn": 1,
@@ -344,7 +344,7 @@
    "tier": 1,
    "fifa_rank": 8,
    "owner": "Emily",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -367,7 +367,7 @@
    "tier": 1,
    "fifa_rank": 9,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 2,
@@ -390,7 +390,7 @@
    "tier": 1,
    "fifa_rank": 10,
    "owner": "Glancy",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 2,
    "drawn": 0,
@@ -400,7 +400,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-25",
+     "date": "2026-06-20",
      "desc": "1st in Group E (live)",
      "points": 5
     }
@@ -413,7 +413,7 @@
    "tier": 1,
    "fifa_rank": 11,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -436,7 +436,7 @@
    "tier": 1,
    "fifa_rank": 13,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 2,
    "drawn": 0,
@@ -459,7 +459,7 @@
    "tier": 1,
    "fifa_rank": 14,
    "owner": "Dipen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 3,
    "drawn": 0,
@@ -482,7 +482,7 @@
    "tier": 1,
    "fifa_rank": 15,
    "owner": "Fergs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -505,7 +505,7 @@
    "tier": 1,
    "fifa_rank": 16,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 2,
@@ -528,7 +528,7 @@
    "tier": 1,
    "fifa_rank": 17,
    "owner": "Willo",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 2,
    "drawn": 0,
@@ -551,7 +551,7 @@
    "tier": 2,
    "fifa_rank": 18,
    "owner": "Jen",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -597,7 +597,7 @@
    "tier": 2,
    "fifa_rank": 20,
    "owner": "Spridge",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 2,
@@ -620,7 +620,7 @@
    "tier": 2,
    "fifa_rank": 22,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -637,7 +637,7 @@
    "tier": 2,
    "fifa_rank": 23,
    "owner": "Brando",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 1,
@@ -647,7 +647,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-25",
+     "date": "2026-06-21",
      "desc": "3rd in Group E (live)",
      "points": 1
     }
@@ -660,7 +660,7 @@
    "tier": 2,
    "fifa_rank": 24,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -683,7 +683,7 @@
    "tier": 2,
    "fifa_rank": 25,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 0,
@@ -706,7 +706,7 @@
    "tier": 2,
    "fifa_rank": 27,
    "owner": "Glancy",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -729,7 +729,7 @@
    "tier": 2,
    "fifa_rank": 28,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -752,7 +752,7 @@
    "tier": 2,
    "fifa_rank": 29,
    "owner": "Brando",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -775,7 +775,7 @@
    "tier": 2,
    "fifa_rank": 30,
    "owner": "Dipen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -798,7 +798,7 @@
    "tier": 2,
    "fifa_rank": 31,
    "owner": "Glancy",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 2,
    "drawn": 0,
@@ -821,7 +821,7 @@
    "tier": 2,
    "fifa_rank": 33,
    "owner": "Jen",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -831,7 +831,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-25",
+     "date": "2026-06-20",
      "desc": "2nd in Group E (live)",
      "points": 3
     }
@@ -844,7 +844,7 @@
    "tier": 2,
    "fifa_rank": 34,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -861,7 +861,7 @@
    "tier": 2,
    "fifa_rank": 38,
    "owner": "Spridge",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -884,7 +884,7 @@
    "tier": 2,
    "fifa_rank": 39,
    "owner": "Emily",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 1,
@@ -901,7 +901,7 @@
    "tier": 3,
    "fifa_rank": 40,
    "owner": "Fergs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -924,7 +924,7 @@
    "tier": 3,
    "fifa_rank": 42,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 0,
@@ -947,7 +947,7 @@
    "tier": 3,
    "fifa_rank": 45,
    "owner": "Willo",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 1,
@@ -970,7 +970,7 @@
    "tier": 3,
    "fifa_rank": 46,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -987,7 +987,7 @@
    "tier": 3,
    "fifa_rank": 48,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -1004,7 +1004,7 @@
    "tier": 3,
    "fifa_rank": 49,
    "owner": "Emily",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -1021,7 +1021,7 @@
    "tier": 3,
    "fifa_rank": 50,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 1,
@@ -1038,7 +1038,7 @@
    "tier": 3,
    "fifa_rank": 51,
    "owner": "Dipen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -1061,7 +1061,7 @@
    "tier": 3,
    "fifa_rank": 52,
    "owner": "Brando",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 1,
@@ -1078,7 +1078,7 @@
    "tier": 3,
    "fifa_rank": 53,
    "owner": "Glancy",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -1095,7 +1095,7 @@
    "tier": 3,
    "fifa_rank": 54,
    "owner": "Spridge",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -1118,7 +1118,7 @@
    "tier": 3,
    "fifa_rank": 55,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 2,
@@ -1141,7 +1141,7 @@
    "tier": 3,
    "fifa_rank": 56,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 1,
    "drawn": 1,
@@ -1164,7 +1164,7 @@
    "tier": 3,
    "fifa_rank": 57,
    "owner": "Fergs",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 1,
@@ -1181,7 +1181,7 @@
    "tier": 3,
    "fifa_rank": 58,
    "owner": "Jen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -1198,7 +1198,7 @@
    "tier": 3,
    "fifa_rank": 59,
    "owner": "Willo",
-   "status": "alive",
+   "status": "out",
    "played": 2,
    "won": 0,
    "drawn": 1,
@@ -1209,70 +1209,7 @@
    "events": []
   }
  },
- "live": [
-  {
-   "id": 760473,
-   "utc": "2026-06-25T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "clock": "15'",
-   "clock_sec": 900.0,
-   "status_detail": "15'",
-   "venue": "Lincoln Financial Field",
-   "odds": {
-    "home": 18.0,
-    "draw": 8.5,
-    "away": 1.15,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CUW",
-    "name": "Curaçao",
-    "flag": "🇨🇼",
-    "owner": "Fergs",
-    "goals": 0
-   },
-   "away": {
-    "code": "CIV",
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "goals": 1
-   }
-  },
-  {
-   "id": 760468,
-   "utc": "2026-06-25T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "clock": "16'",
-   "clock_sec": 960.0,
-   "status_detail": "16'",
-   "venue": "MetLife Stadium",
-   "odds": {
-    "home": 3.65,
-    "draw": 4.1,
-    "away": 1.91,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ECU",
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "owner": "Brando",
-    "goals": 1
-   },
-   "away": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "goals": 1
-   }
-  }
- ],
+ "live": [],
  "results": [
   {
    "id": 760467,
@@ -2877,433 +2814,7 @@
    "odds": null
   }
  ],
- "upcoming": [
-  {
-   "id": 760471,
-   "utc": "2026-06-25T23:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "odds": {
-    "home": 2.0,
-    "draw": 3.4,
-    "away": 4.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "form": "WDWWW"
-   },
-   "away": {
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "owner": "Spridge",
-    "form": "LWDLW"
-   }
-  },
-  {
-   "id": 760472,
-   "utc": "2026-06-25T23:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "odds": {
-    "home": 23.0,
-    "draw": 10.5,
-    "away": 1.11,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Tunisia",
-    "flag": "🇹🇳",
-    "owner": "Pari",
-    "form": "LLLLD"
-   },
-   "away": {
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "form": "WDWLD"
-   }
-  },
-  {
-   "id": 760469,
-   "utc": "2026-06-26T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 2.65,
-    "draw": 2.3,
-    "away": 4.4,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "form": "WLWLW"
-   },
-   "away": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": "LWDLW"
-   }
-  },
-  {
-   "id": 760470,
-   "utc": "2026-06-26T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 4.0,
-    "draw": 4.1,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "form": "LLWWW"
-   },
-   "away": {
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "form": "WWLWL"
-   }
-  },
-  {
-   "id": 760475,
-   "utc": "2026-06-26T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "odds": {
-    "home": 5.0,
-    "draw": 4.5,
-    "away": 1.61,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "form": "WWDWD"
-   },
-   "away": {
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "form": "WWWLW"
-   }
-  },
-  {
-   "id": 760474,
-   "utc": "2026-06-26T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "odds": {
-    "home": 1.22,
-    "draw": 7.0,
-    "away": 12.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Senegal",
-    "flag": "🇸🇳",
-    "owner": "Fergs",
-    "form": "LLDLW"
-   },
-   "away": {
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "owner": "Emily",
-    "form": "LLLDW"
-   }
-  },
-  {
-   "id": 760478,
-   "utc": "2026-06-27T00:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "odds": {
-    "home": 2.65,
-    "draw": 3.35,
-    "away": 2.7,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "form": "DDWWL"
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "owner": "Brando",
-    "form": "LDDWL"
-   }
-  },
-  {
-   "id": 760479,
-   "utc": "2026-06-27T00:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "odds": {
-    "home": 7.5,
-    "draw": 4.1,
-    "away": 1.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "owner": "Pari",
-    "form": "DDDDL"
-   },
-   "away": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WDWDD"
-   }
-  },
-  {
-   "id": 760476,
-   "utc": "2026-06-27T03:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "odds": {
-    "home": 2.45,
-    "draw": 2.65,
-    "away": 3.85,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "form": "WDLWD"
-   },
-   "away": {
-    "name": "Iran",
-    "flag": "🇮🇷",
-    "owner": "Spridge",
-    "form": "DDWWW"
-   }
-  },
-  {
-   "id": 760477,
-   "utc": "2026-06-27T03:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "odds": {
-    "home": 17.0,
-    "draw": 8.5,
-    "away": 1.17,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "owner": "Willo",
-    "form": "LDLLW"
-   },
-   "away": {
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "form": "DDWWD"
-   }
-  },
-  {
-   "id": 760480,
-   "utc": "2026-06-27T21:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "odds": {
-    "home": 1.77,
-    "draw": 3.4,
-    "away": 5.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "form": "WLWLL"
-   },
-   "away": {
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "form": "DWDLL"
-   }
-  },
-  {
-   "id": 760485,
-   "utc": "2026-06-27T21:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "odds": {
-    "home": 15.0,
-    "draw": 8.0,
-    "away": 1.17,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "owner": "Dubs",
-    "form": "LLDWL"
-   },
-   "away": {
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "form": "DWWWL"
-   }
-  },
-  {
-   "id": 760481,
-   "utc": "2026-06-27T23:30:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 4.2,
-    "draw": 3.8,
-    "away": 1.83,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "form": "WWWWL"
-   },
-   "away": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "WDWWW"
-   }
-  },
-  {
-   "id": 760482,
-   "utc": "2026-06-27T23:30:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 1.74,
-    "draw": 4.2,
-    "away": 4.3,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "form": "LDLDW"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "owner": "Pari",
-    "form": "LLLLW"
-   }
-  },
-  {
-   "id": 760484,
-   "utc": "2026-06-28T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "odds": {
-    "home": 3.95,
-    "draw": 2.25,
-    "away": 2.9,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "form": "WLWWD"
-   },
-   "away": {
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "form": "LWWWW"
-   }
-  },
-  {
-   "id": 760483,
-   "utc": "2026-06-28T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "odds": {
-    "home": 15.0,
-    "draw": 7.5,
-    "away": 1.19,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "owner": "Glancy",
-    "form": "LLLLD"
-   },
-   "away": {
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "form": "WWWWW"
-   }
-  },
-  {
-   "id": 760486,
-   "utc": "2026-06-28T19:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 5.5,
-    "draw": 3.7,
-    "away": 1.71,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen",
-    "form": "WDLWD"
-   },
-   "away": {
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "form": "LWDDW"
-   }
-  }
- ],
+ "upcoming": [],
  "groups": [
   {
    "name": "Group A",
@@ -3603,14 +3114,14 @@
     {
      "group": "Group E",
      "code": "GER",
-     "p": 3,
+     "p": 2,
      "w": 2,
-     "d": 1,
+     "d": 0,
      "l": 0,
-     "gf": 10,
-     "ga": 3,
-     "pts": 7,
-     "live": true,
+     "gf": 9,
+     "ga": 2,
+     "pts": 6,
+     "live": false,
      "gd": 7,
      "name": "Germany",
      "flag": "🇩🇪",
@@ -3620,15 +3131,15 @@
     {
      "group": "Group E",
      "code": "CIV",
-     "p": 3,
-     "w": 2,
+     "p": 2,
+     "w": 1,
      "d": 0,
      "l": 1,
-     "gf": 3,
+     "gf": 2,
      "ga": 2,
-     "pts": 6,
-     "live": true,
-     "gd": 1,
+     "pts": 3,
+     "live": false,
+     "gd": 0,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
      "tier": 2,
@@ -3637,14 +3148,14 @@
     {
      "group": "Group E",
      "code": "ECU",
-     "p": 3,
+     "p": 2,
      "w": 0,
-     "d": 2,
+     "d": 1,
      "l": 1,
-     "gf": 1,
-     "ga": 2,
-     "pts": 2,
-     "live": true,
+     "gf": 0,
+     "ga": 1,
+     "pts": 1,
+     "live": false,
      "gd": -1,
      "name": "Ecuador",
      "flag": "🇪🇨",
@@ -3654,15 +3165,15 @@
     {
      "group": "Group E",
      "code": "CUW",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 1,
-     "l": 2,
+     "l": 1,
      "gf": 1,
-     "ga": 8,
+     "ga": 7,
      "pts": 1,
-     "live": true,
-     "gd": -7,
+     "live": false,
+     "gd": -6,
      "name": "Curaçao",
      "flag": "🇨🇼",
      "tier": 3,
@@ -4183,236 +3694,6 @@
   }
  ],
  "bracket": [
-  {
-   "id": 760486,
-   "utc": "2026-06-28T19:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "SoFi Stadium",
-   "home": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen"
-   },
-   "away": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen"
-   }
-  },
-  {
-   "id": 760487,
-   "utc": "2026-06-29T17:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "NRG Stadium",
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George"
-   },
-   "away": {
-    "code": null,
-    "name": "Group F 2nd Place",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760489,
-   "utc": "2026-06-29T20:30:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Gillette Stadium",
-   "home": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy"
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group A/B/C/D/F",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760488,
-   "utc": "2026-06-30T01:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Estadio BBVA",
-   "home": {
-    "code": null,
-    "name": "Group F Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo"
-   }
-  },
-  {
-   "id": 760490,
-   "utc": "2026-06-30T17:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "AT&T Stadium",
-   "home": {
-    "code": null,
-    "name": "Group E 2nd Place",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Group I 2nd Place",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760492,
-   "utc": "2026-06-30T21:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "MetLife Stadium",
-   "home": {
-    "code": null,
-    "name": "Group I Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group C/D/F/G/H",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760491,
-   "utc": "2026-07-01T01:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Estadio Banorte",
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen"
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group C/E/F/H/I",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760495,
-   "utc": "2026-07-01T16:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Mercedes-Benz Stadium",
-   "home": {
-    "code": null,
-    "name": "Group L Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group E/H/I/J/K",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760493,
-   "utc": "2026-07-01T20:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Lumen Field",
-   "home": {
-    "code": null,
-    "name": "Group G Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group A/E/H/I/J",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760494,
-   "utc": "2026-07-02T00:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Levi's Stadium",
-   "home": {
-    "code": "USA",
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo"
-   },
-   "away": {
-    "code": null,
-    "name": "Third Place Group B/E/F/I/J",
-    "flag": "",
-    "owner": null
-   }
-  },
   {
    "id": 760497,
    "utc": "2026-07-02T19:00:00Z",
