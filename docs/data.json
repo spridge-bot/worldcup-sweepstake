@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T18:36:38+00:00",
+ "generated_at": "2026-06-25T18:41:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -5460,6 +5460,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Are Scotland 'not good enough' to impress at World Cup?",
+   "desc": "What is the mood among Scotland fans and pundits post-group stage at the World Cup?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crelxn895rro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T17:53:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/675c/live/40ca73f0-70b4-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How brands banned from the World Cup became the story",
    "desc": "When we try to suppress something, we often make it more visible - and Fifa is living that in real time with its sponsors.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdejrjpe8w3o?at_medium=RSS&at_campaign=rss",
@@ -5493,15 +5502,6 @@
    "published": "2026-06-25T00:58:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b723/live/74f09880-702d-11f1-86a5-c78e0086fe7e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What each team need to reach World Cup knockouts",
-   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T00:11:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
    "source": "BBC Sport"
   }
  ]
