@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T07:59:21+00:00",
+ "generated_at": "2026-06-25T08:05:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -2822,7 +2822,7 @@
    "group": "Group E",
    "odds": {
     "home": 18.0,
-    "draw": 8.0,
+    "draw": 8.5,
     "away": 1.15,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -2831,13 +2831,13 @@
     "name": "Curaçao",
     "flag": "🇨🇼",
     "owner": "Fergs",
-    "form": "DLWLL"
+    "form": null
    },
    "away": {
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "form": "LWWWW"
+    "form": null
    }
   },
   {
@@ -2846,9 +2846,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 5.5,
-    "draw": 4.9,
-    "away": 1.53,
+    "home": 3.65,
+    "draw": 4.1,
+    "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2856,13 +2856,13 @@
     "name": "Ecuador",
     "flag": "🇪🇨",
     "owner": "Brando",
-    "form": "DLWWD"
+    "form": null
    },
    "away": {
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "form": "WWWWW"
+    "form": null
    }
   },
   {
@@ -2873,7 +2873,7 @@
    "odds": {
     "home": 1.91,
     "draw": 3.5,
-    "away": 4.4,
+    "away": 4.3,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2881,13 +2881,13 @@
     "name": "Japan",
     "flag": "🇯🇵",
     "owner": "Jen",
-    "form": "WDWWW"
+    "form": null
    },
    "away": {
     "name": "Sweden",
     "flag": "🇸🇪",
     "owner": "Spridge",
-    "form": "LWDLW"
+    "form": null
    }
   },
   {
@@ -2896,9 +2896,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 26.0,
-    "draw": 11.0,
-    "away": 1.09,
+    "home": 20.0,
+    "draw": 9.0,
+    "away": 1.13,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -2906,13 +2906,13 @@
     "name": "Tunisia",
     "flag": "🇹🇳",
     "owner": "Pari",
-    "form": "LLLLD"
+    "form": null
    },
    "away": {
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "form": "WDWLD"
+    "form": null
    }
   },
   {
@@ -2921,8 +2921,8 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.8,
-    "draw": 2.25,
+    "home": 3.0,
+    "draw": 2.15,
     "away": 4.1,
     "over_under": 1.5,
     "provider": "DraftKings"
@@ -2931,13 +2931,13 @@
     "name": "Paraguay",
     "flag": "🇵🇾",
     "owner": "Fergs",
-    "form": "WLWLW"
+    "form": null
    },
    "away": {
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "form": "LWDLW"
+    "form": null
    }
   },
   {
@@ -2946,9 +2946,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 3.9,
-    "draw": 4.1,
-    "away": 1.87,
+    "home": 3.55,
+    "draw": 4.0,
+    "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2956,13 +2956,13 @@
     "name": "Türkiye",
     "flag": "🇹🇷",
     "owner": "Dubs",
-    "form": "LLWWW"
+    "form": null
    },
    "away": {
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "form": "WWLWL"
+    "form": null
    }
   },
   {
@@ -2971,8 +2971,8 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 5.0,
-    "draw": 4.4,
+    "home": 5.25,
+    "draw": 4.3,
     "away": 1.62,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -2981,13 +2981,13 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "form": "WWDWD"
+    "form": null
    },
    "away": {
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "form": "WWWLW"
+    "form": null
    }
   },
   {
@@ -3006,13 +3006,13 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "form": "LLDLW"
+    "form": null
    },
    "away": {
     "name": "Iraq",
     "flag": "🇮🇶",
     "owner": "Emily",
-    "form": "LLLDW"
+    "form": null
    }
   },
   {
@@ -3021,9 +3021,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.5,
-    "draw": 3.4,
-    "away": 2.9,
+    "home": 2.45,
+    "draw": 3.45,
+    "away": 2.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3031,13 +3031,13 @@
     "name": "Cabo Verde",
     "flag": "🇨🇻",
     "owner": "Dubs",
-    "form": "DDWWL"
+    "form": null
    },
    "away": {
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
     "owner": "Brando",
-    "form": "LDDWL"
+    "form": null
    }
   },
   {
@@ -3046,9 +3046,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 7.5,
+    "home": 7.0,
     "draw": 4.2,
-    "away": 1.49,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3056,13 +3056,13 @@
     "name": "Uruguay",
     "flag": "🇺🇾",
     "owner": "Pari",
-    "form": "DDDDL"
+    "form": null
    },
    "away": {
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": "WDWDD"
+    "form": null
    }
   },
   {
@@ -3081,13 +3081,13 @@
     "name": "Egypt",
     "flag": "🇪🇬",
     "owner": "Brando",
-    "form": "WDLWD"
+    "form": null
    },
    "away": {
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": "DDWWW"
+    "form": null
    }
   },
   {
@@ -3096,9 +3096,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 17.0,
-    "draw": 8.0,
-    "away": 1.17,
+    "home": 15.0,
+    "draw": 7.5,
+    "away": 1.19,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3106,13 +3106,13 @@
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "form": "LDLLW"
+    "form": null
    },
    "away": {
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "form": "DDWWD"
+    "form": null
    }
   },
   {
@@ -3121,9 +3121,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.77,
+    "home": 1.74,
     "draw": 3.4,
-    "away": 5.5,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3131,13 +3131,13 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "form": "WLWLL"
+    "form": null
    },
    "away": {
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": "DWDLL"
+    "form": null
    }
   },
   {
@@ -3146,9 +3146,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 15.0,
-    "draw": 8.0,
-    "away": 1.17,
+    "home": 13.0,
+    "draw": 7.5,
+    "away": 1.2,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3156,13 +3156,13 @@
     "name": "Panama",
     "flag": "🇵🇦",
     "owner": "Dubs",
-    "form": "LLDWL"
+    "form": null
    },
    "away": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": "DWWWL"
+    "form": null
    }
   },
   {
@@ -3171,9 +3171,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 4.2,
-    "draw": 3.8,
-    "away": 1.83,
+    "home": 3.85,
+    "draw": 3.75,
+    "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3181,13 +3181,13 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": "WWWWL"
+    "form": null
    },
    "away": {
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "form": "WDWWW"
+    "form": null
    }
   },
   {
@@ -3196,9 +3196,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.74,
-    "draw": 4.2,
-    "away": 4.3,
+    "home": 1.87,
+    "draw": 3.9,
+    "away": 3.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3206,13 +3206,13 @@
     "name": "DR Congo",
     "flag": "🇨🇩",
     "owner": "Willo",
-    "form": "LDLDW"
+    "form": null
    },
    "away": {
     "name": "Uzbekistan",
     "flag": "🇺🇿",
     "owner": "Pari",
-    "form": "LLLLW"
+    "form": null
    }
   },
   {
@@ -3221,8 +3221,8 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 3.95,
-    "draw": 2.25,
+    "home": 4.0,
+    "draw": 2.2,
     "away": 2.9,
     "over_under": 1.5,
     "provider": "DraftKings"
@@ -3231,13 +3231,13 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "WLWWD"
+    "form": null
    },
    "away": {
     "name": "Austria",
     "flag": "🇦🇹",
     "owner": "George",
-    "form": "LWWWW"
+    "form": null
    }
   },
   {
@@ -3246,9 +3246,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 15.0,
+    "home": 14.0,
     "draw": 7.5,
-    "away": 1.19,
+    "away": 1.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3256,13 +3256,13 @@
     "name": "Jordan",
     "flag": "🇯🇴",
     "owner": "Glancy",
-    "form": "LLLLD"
+    "form": null
    },
    "away": {
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "form": "WWWWW"
+    "form": null
    }
   },
   {
@@ -3271,9 +3271,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 5.0,
-    "draw": 3.8,
-    "away": 1.71,
+    "home": 5.75,
+    "draw": 3.45,
+    "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3281,13 +3281,13 @@
     "name": "South Africa",
     "flag": "🇿🇦",
     "owner": "Dipen",
-    "form": "WDLWD"
+    "form": null
    },
    "away": {
     "name": "Canada",
     "flag": "🇨🇦",
     "owner": "Dipen",
-    "form": "LWDDW"
+    "form": null
    }
   }
  ],
