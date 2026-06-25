@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T22:14:21+00:00",
+ "generated_at": "2026-06-25T22:19:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -2883,9 +2883,9 @@
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 2.25,
-    "draw": 3.4,
-    "away": 3.3,
+    "home": 2.2,
+    "draw": 3.45,
+    "away": 3.35,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2933,9 +2933,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.65,
-    "draw": 2.3,
-    "away": 4.4,
+    "home": 2.6,
+    "draw": 2.25,
+    "away": 4.6,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -2958,8 +2958,8 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 4.0,
-    "draw": 4.1,
+    "home": 4.1,
+    "draw": 4.2,
     "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3109,7 +3109,7 @@
    "group": "Group G",
    "odds": {
     "home": 16.0,
-    "draw": 8.0,
+    "draw": 8.5,
     "away": 1.17,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -5445,6 +5445,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-06T20:30:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why it's time for Saka and Rashford - Shearer",
    "desc": "Former England captain Alan Shearer explains why Thomas Tuchel needs to change some personnel as well as his team's mindset when they face Panama.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cwyl7dpnx1no?at_medium=RSS&at_campaign=rss",
@@ -5460,15 +5469,6 @@
    "published": "2026-06-25T11:39:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-06T20:30:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5517,12 +5517,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How brands banned from the World Cup became the story",
-   "desc": "When we try to suppress something, we often make it more visible - and Fifa is living that in real time with its sponsors.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdejrjpe8w3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T10:53:31Z",
+   "headline": "What each team need to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T00:11:51Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0a0e/live/63fb9050-6fe9-11f1-a9c4-37da5d161ee0.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
    "source": "BBC Sport"
   }
  ]
