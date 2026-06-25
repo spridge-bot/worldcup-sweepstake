@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T01:01:18+00:00",
+ "generated_at": "2026-06-25T01:02:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -29,7 +29,7 @@
    "total": 12,
    "today": 6,
    "rank": 1,
-   "movement": 6
+   "movement": 5
   },
   {
    "name": "Brando",
@@ -53,9 +53,9 @@
     "RSA"
    ],
    "total": 11,
-   "today": 3,
+   "today": 8,
    "rank": 2,
-   "movement": 3
+   "movement": 8
   },
   {
    "name": "Emily",
@@ -66,7 +66,7 @@
     "IRQ"
    ],
    "total": 11,
-   "today": 5,
+   "today": 6,
    "rank": 2,
    "movement": 5
   },
@@ -118,9 +118,9 @@
     "QAT"
    ],
    "total": 9,
-   "today": 5,
+   "today": 8,
    "rank": 8,
-   "movement": 2
+   "movement": 4
   },
   {
    "name": "Willo",
@@ -133,7 +133,7 @@
    "total": 9,
    "today": 4,
    "rank": 8,
-   "movement": 1
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 0,
    "rank": 10,
-   "movement": -4
+   "movement": -5
   },
   {
    "name": "Pari",
@@ -159,7 +159,7 @@
    "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Dubs",
@@ -172,7 +172,7 @@
    "total": 2,
    "today": 0,
    "rank": 12,
-   "movement": 0
+   "movement": -1
   }
  ],
  "teams": {
@@ -469,7 +469,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-19",
+     "date": "2026-06-25",
      "desc": "1st in Group A (live)",
      "points": 5
     }
@@ -693,7 +693,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-19",
+     "date": "2026-06-25",
      "desc": "2nd in Group A (live)",
      "points": 3
     }
@@ -894,7 +894,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-18",
+     "date": "2026-06-25",
      "desc": "3rd in Group A (live)",
      "points": 1
     }
@@ -1209,7 +1209,70 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760467,
+   "utc": "2026-06-25T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group A",
+   "clock": "2'",
+   "clock_sec": 120.0,
+   "status_detail": "2'",
+   "venue": "Estadio Banorte",
+   "odds": {
+    "home": 4.7,
+    "draw": 3.65,
+    "away": 1.8,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "CZE",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Dipen",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760466,
+   "utc": "2026-06-25T01:00:00Z",
+   "stage": "Group stage",
+   "group": "Group A",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Estadio BBVA",
+   "odds": {
+    "home": 5.75,
+    "draw": 4.1,
+    "away": 1.61,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "KOR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "owner": "Ruggy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760464,
@@ -2754,56 +2817,6 @@
  ],
  "upcoming": [
   {
-   "id": 760467,
-   "utc": "2026-06-25T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "odds": {
-    "home": 4.7,
-    "draw": 3.65,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "owner": "Emily",
-    "form": null
-   },
-   "away": {
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen",
-    "form": null
-   }
-  },
-  {
-   "id": 760466,
-   "utc": "2026-06-25T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "odds": {
-    "home": 5.75,
-    "draw": 4.1,
-    "away": 1.61,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen",
-    "form": null
-   },
-   "away": {
-    "name": "South Korea",
-    "flag": "🇰🇷",
-    "owner": "Ruggy",
-    "form": null
-   }
-  },
-  {
    "id": 760473,
    "utc": "2026-06-25T20:00:00Z",
    "stage": "Group stage",
@@ -3261,14 +3274,14 @@
     {
      "group": "Group A",
      "code": "MEX",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 3,
      "ga": 0,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 3,
      "name": "Mexico",
      "flag": "🇲🇽",
@@ -3278,14 +3291,14 @@
     {
      "group": "Group A",
      "code": "KOR",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 2,
      "ga": 2,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 0,
      "name": "South Korea",
      "flag": "🇰🇷",
@@ -3295,14 +3308,14 @@
     {
      "group": "Group A",
      "code": "CZE",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 2,
      "ga": 3,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -1,
      "name": "Czechia",
      "flag": "🇨🇿",
@@ -3312,14 +3325,14 @@
     {
      "group": "Group A",
      "code": "RSA",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 1,
      "ga": 3,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -2,
      "name": "South Africa",
      "flag": "🇿🇦",
