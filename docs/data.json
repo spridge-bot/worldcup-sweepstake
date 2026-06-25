@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T06:39:56+00:00",
+ "generated_at": "2026-06-25T06:45:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -2873,7 +2873,7 @@
    "odds": {
     "home": 1.87,
     "draw": 3.6,
-    "away": 4.5,
+    "away": 4.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5442,6 +5442,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Neymar - the return of Brazil's forgotten hero",
+   "desc": "BBC Scotland's Scott Mullen delves into the return of Brazil's Neymar against Scotland.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgl3gk52nz3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T06:38:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f178/live/b0fea8d0-7050-11f1-9b27-e9797242e9d5.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Mixed emotions' as Canada qualify but lose home advantage",
    "desc": "Losing their final group game to Switzerland means co-hosts Canada will play no further matches in their home country at this year's World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c621e3v1zxzo?at_medium=RSS&at_campaign=rss",
@@ -5493,15 +5502,6 @@
    "published": "2026-06-24T16:00:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f3d3/live/a6699ca0-6fe1-11f1-b763-7be8e457290d.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'I'm back' - record-breaking Ronaldo answers critics",
-   "desc": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-23T21:33:55Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3002/live/78536280-6f30-11f1-8453-3df0e929f7f2.jpg",
    "source": "BBC Sport"
   }
  ]
