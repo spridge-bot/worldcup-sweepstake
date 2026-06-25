@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T21:57:49+00:00",
+ "generated_at": "2026-06-25T21:58:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -822,11 +822,11 @@
    "fifa_rank": 33,
    "owner": "Jen",
    "status": "alive",
-   "played": 2,
-   "won": 1,
+   "played": 3,
+   "won": 2,
    "drawn": 0,
    "lost": 1,
-   "gf": 2,
+   "gf": 4,
    "ga": 2,
    "total": 3,
    "events": [
@@ -1165,12 +1165,12 @@
    "fifa_rank": 57,
    "owner": "Fergs",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 1,
-   "ga": 7,
+   "ga": 9,
    "total": 0,
    "events": []
   },
@@ -1211,37 +1211,6 @@
  },
  "live": [
   {
-   "id": 760473,
-   "utc": "2026-06-25T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Lincoln Financial Field",
-   "odds": {
-    "home": 15.0,
-    "draw": 8.0,
-    "away": 1.18,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CUW",
-    "name": "Curaçao",
-    "flag": "🇨🇼",
-    "owner": "Fergs",
-    "goals": 0
-   },
-   "away": {
-    "code": "CIV",
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "goals": 2
-   }
-  },
-  {
    "id": 760468,
    "utc": "2026-06-25T20:00:00Z",
    "stage": "Group stage",
@@ -1274,6 +1243,37 @@
   }
  ],
  "results": [
+  {
+   "id": 760473,
+   "date": "2026-06-25",
+   "utc": "2026-06-25T20:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "note": "",
+   "home": {
+    "code": "CUW",
+    "name": "Curaçao",
+    "flag": "🇨🇼",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "tier": 2,
+    "goals": 2,
+    "points": null
+   },
+   "odds": {
+    "home": 15.0,
+    "draw": 8.0,
+    "away": 1.18,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   }
+  },
   {
    "id": 760467,
    "date": "2026-06-25",
@@ -3627,7 +3627,7 @@
      "gf": 4,
      "ga": 2,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
@@ -3661,7 +3661,7 @@
      "gf": 1,
      "ga": 9,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -8,
      "name": "Curaçao",
      "flag": "🇨🇼",
@@ -5066,6 +5066,15 @@
    "pts": 7
   },
   {
+   "code": "CUW",
+   "name": "Curaçao",
+   "flag": "🇨🇼",
+   "owner": "Fergs",
+   "yellow": 7,
+   "red": 0,
+   "pts": 7
+  },
+  {
    "code": "HAI",
    "name": "Haiti",
    "flag": "🇭🇹",
@@ -5102,15 +5111,6 @@
    "pts": 5
   },
   {
-   "code": "CUW",
-   "name": "Curaçao",
-   "flag": "🇨🇼",
-   "owner": "Fergs",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -5124,6 +5124,15 @@
    "name": "Australia",
    "flag": "🇦🇺",
    "owner": "Glancy",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
+   "code": "CIV",
+   "name": "Ivory Coast",
+   "flag": "🇨🇮",
+   "owner": "Jen",
    "yellow": 4,
    "red": 0,
    "pts": 4
@@ -5187,15 +5196,6 @@
    "name": "Egypt",
    "flag": "🇪🇬",
    "owner": "Brando",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "CIV",
-   "name": "Ivory Coast",
-   "flag": "🇨🇮",
-   "owner": "Jen",
    "yellow": 3,
    "red": 0,
    "pts": 3
