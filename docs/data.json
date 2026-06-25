@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T01:47:35+00:00",
+ "generated_at": "2026-06-25T01:48:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "45'+1'",
+   "clock": "45'+2'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+1'",
+   "status_detail": "45'+2'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 4.7,
