@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T20:01:29+00:00",
+ "generated_at": "2026-06-25T20:01:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 1,
    "rank": 3,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -79,9 +79,9 @@
     "HAI"
    ],
    "total": 11,
-   "today": 0,
+   "today": 3,
    "rank": 3,
-   "movement": -1
+   "movement": 3
   },
   {
    "name": "Emily",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -3
+   "movement": -4
   },
   {
    "name": "Spridge",
@@ -107,7 +107,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -3
+   "movement": -4
   },
   {
    "name": "Willo",
@@ -120,7 +120,7 @@
    "total": 9,
    "today": 0,
    "rank": 8,
-   "movement": -2
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -831,7 +831,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-20",
+     "date": "2026-06-25",
      "desc": "2nd in Group E (live)",
      "points": 3
     }
@@ -1210,6 +1210,37 @@
   }
  },
  "live": [
+  {
+   "id": 760473,
+   "utc": "2026-06-25T20:00:00Z",
+   "stage": "Group stage",
+   "group": "Group E",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Lincoln Financial Field",
+   "odds": {
+    "home": 18.0,
+    "draw": 8.5,
+    "away": 1.15,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "CUW",
+    "name": "Curaçao",
+    "flag": "🇨🇼",
+    "owner": "Fergs",
+    "goals": 0
+   },
+   "away": {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "owner": "Jen",
+    "goals": 0
+   }
+  },
   {
    "id": 760468,
    "utc": "2026-06-25T20:00:00Z",
@@ -2848,31 +2879,6 @@
  ],
  "upcoming": [
   {
-   "id": 760473,
-   "utc": "2026-06-25T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "odds": {
-    "home": 18.0,
-    "draw": 8.5,
-    "away": 1.15,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Curaçao",
-    "flag": "🇨🇼",
-    "owner": "Fergs",
-    "form": "DLWLL"
-   },
-   "away": {
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "form": "LWWWW"
-   }
-  },
-  {
    "id": 760471,
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
@@ -3614,14 +3620,14 @@
     {
      "group": "Group E",
      "code": "CIV",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 2,
      "ga": 2,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 0,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
@@ -3648,14 +3654,14 @@
     {
      "group": "Group E",
      "code": "CUW",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 1,
      "ga": 7,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -6,
      "name": "Curaçao",
      "flag": "🇨🇼",
