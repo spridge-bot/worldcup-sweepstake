@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T12:16:10+00:00",
+ "generated_at": "2026-06-25T12:21:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -5397,12 +5397,12 @@
  ],
  "news": [
   {
-   "headline": "What do Scotland need to make World Cup knockouts?",
-   "desc": "After their 3-0 defeat by Brazil, BBC Sport looks at what Scotland require to reach the knockout phase.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T09:06:23Z",
+   "headline": "Stay or go home? Tartan Army in limbo as Scotland await fate",
+   "desc": "BBC Scotland examines options for the Tartan Army in Miami as Scotland wait to discover if their World Cup adventure will continue or not.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjdg05l2jngo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T11:39:39Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5415,21 +5415,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Selling cars & air miles conundrum - what now for Tartan Army?",
-   "desc": "BBC Scotland examines options for the Tartan Army in Miami as Scotland wait to discover if their World Cup adventure will continue or not.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjdg05l2jngo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T11:39:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "How Pochettino has US believing they can be World Cup winners",
    "desc": "Mauricio Pochettino has united the USA fans and players in a belief that they are capable of winning the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-25T10:34:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f6c5/live/942e3ab0-6ffe-11f1-b12f-f573f7cb1919.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What do Scotland need to make World Cup knockouts?",
+   "desc": "After their 3-0 defeat by Brazil, BBC Sport looks at what Scotland require to reach the knockout phase.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T09:06:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
    "source": "BBC Sport"
   },
   {
