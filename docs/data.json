@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T02:59:12+00:00",
+ "generated_at": "2026-06-25T03:04:43+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -2846,9 +2846,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 4.5,
-    "draw": 4.5,
-    "away": 1.69,
+    "home": 5.0,
+    "draw": 4.6,
+    "away": 1.61,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3263,6 +3263,25 @@
     "flag": "🇦🇷",
     "owner": "Fergs",
     "form": "WWWWW"
+   }
+  },
+  {
+   "id": 760486,
+   "utc": "2026-06-28T19:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "owner": "Dipen",
+    "form": "WDLWD"
+   },
+   "away": {
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "owner": "Dipen",
+    "form": "LWDDW"
    }
   }
  ],
@@ -4156,10 +4175,10 @@
    "winner": null,
    "venue": "SoFi Stadium",
    "home": {
-    "code": null,
-    "name": "Group A 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "owner": "Dipen"
    },
    "away": {
     "code": "CAN",
