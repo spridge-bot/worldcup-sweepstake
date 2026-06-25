@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T02:49:19+00:00",
+ "generated_at": "2026-06-25T02:50:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "87'",
-   "clock_sec": 5220.0,
-   "status_detail": "87'",
+   "clock": "89'",
+   "clock_sec": 5340.0,
+   "status_detail": "89'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 4.7,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T01:00:00Z",
    "stage": "Group stage",
    "group": "Group A",
-   "clock": "88'",
-   "clock_sec": 5280.0,
-   "status_detail": "88'",
+   "clock": "89'",
+   "clock_sec": 5340.0,
+   "status_detail": "89'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 5.75,
@@ -2847,9 +2847,9 @@
    "stage": "Group stage",
    "group": "Group E",
    "odds": {
-    "home": 4.4,
-    "draw": 4.4,
-    "away": 1.71,
+    "home": 4.5,
+    "draw": 4.5,
+    "away": 1.69,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
