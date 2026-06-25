@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T00:03:08+00:00",
+ "generated_at": "2026-06-25T00:08:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-24",
  "scoring": {
@@ -2909,9 +2909,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.85,
+    "home": 2.8,
     "draw": 2.25,
-    "away": 4.0,
+    "away": 4.1,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -4167,10 +4167,10 @@
    "winner": null,
    "venue": "NRG Stadium",
    "home": {
-    "code": null,
-    "name": "Group C Winner",
-    "flag": "",
-    "owner": null
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George"
    },
    "away": {
     "code": null,
@@ -4219,10 +4219,10 @@
     "owner": null
    },
    "away": {
-    "code": null,
-    "name": "Group C 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo"
    }
   },
   {
@@ -5360,10 +5360,10 @@
  ],
  "news": [
   {
-   "headline": "Rate the players as Scotland face Brazil",
+   "headline": "Who was the pick of Scotland's players again?",
    "desc": "Rate the Scotland and Brazil players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yen4pvmrvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T22:45:48Z",
+   "published": "2026-06-25T00:05:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f6d/live/494307f0-651e-11f1-8e1d-bbbb1017d210.png",
    "source": "BBC Sport"
