@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T21:59:03+00:00",
+ "generated_at": "2026-06-25T22:04:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -4285,10 +4285,10 @@
    "winner": null,
    "venue": "AT&T Stadium",
    "home": {
-    "code": null,
-    "name": "Group E 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "owner": "Jen"
    },
    "away": {
     "code": null,
