@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T23:00:45+00:00",
+ "generated_at": "2026-06-25T23:01:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -29,7 +29,20 @@
    "total": 14,
    "today": 8,
    "rank": 1,
-   "movement": 7
+   "movement": 6
+  },
+  {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 13,
+   "today": 8,
+   "rank": 2,
+   "movement": 8
   },
   {
    "name": "George",
@@ -41,8 +54,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 2,
-   "movement": -1
+   "rank": 3,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -54,8 +67,8 @@
    ],
    "total": 11,
    "today": 1,
-   "rank": 3,
-   "movement": -1
+   "rank": 4,
+   "movement": -2
   },
   {
    "name": "Glancy",
@@ -67,34 +80,8 @@
    ],
    "total": 11,
    "today": 5,
-   "rank": 3,
-   "movement": 5
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 11,
-   "today": 3,
-   "rank": 3,
+   "rank": 4,
    "movement": 3
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 10,
-   "today": 0,
-   "rank": 6,
-   "movement": -4
   },
   {
    "name": "Spridge",
@@ -105,9 +92,9 @@
     "BIH"
    ],
    "total": 10,
-   "today": 0,
+   "today": 1,
    "rank": 6,
-   "movement": -4
+   "movement": -3
   },
   {
    "name": "Willo",
@@ -118,6 +105,19 @@
     "NZL"
    ],
    "total": 9,
+   "today": 0,
+   "rank": 7,
+   "movement": -4
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 8,
    "today": 0,
    "rank": 8,
    "movement": -3
@@ -133,7 +133,7 @@
    "total": 7,
    "today": 0,
    "rank": 9,
-   "movement": -2
+   "movement": -3
   },
   {
    "name": "Ruggy",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 1,
    "rank": 9,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -351,12 +351,12 @@
    "lost": 0,
    "gf": 7,
    "ga": 3,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-20",
-     "desc": "1st in Group F (live)",
-     "points": 5
+     "desc": "2nd in Group F (live)",
+     "points": 3
     }
    ]
   },
@@ -558,12 +558,12 @@
    "lost": 0,
    "gf": 6,
    "ga": 2,
-   "total": 3,
+   "total": 5,
    "events": [
     {
-     "date": "2026-06-21",
-     "desc": "2nd in Group F (live)",
-     "points": 3
+     "date": "2026-06-25",
+     "desc": "1st in Group F (live)",
+     "points": 5
     }
    ]
   },
@@ -871,7 +871,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-20",
+     "date": "2026-06-25",
      "desc": "3rd in Group F (live)",
      "points": 1
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760471,
+   "utc": "2026-06-25T23:00:00Z",
+   "stage": "Group stage",
+   "group": "Group F",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 2.0,
+    "draw": 3.4,
+    "away": 4.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Jen",
+    "goals": 0
+   },
+   "away": {
+    "code": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "owner": "Spridge",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760473,
@@ -2878,39 +2910,14 @@
  ],
  "upcoming": [
   {
-   "id": 760471,
-   "utc": "2026-06-25T23:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "odds": {
-    "home": 2.4,
-    "draw": 3.4,
-    "away": 3.05,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "form": "WDWWW"
-   },
-   "away": {
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "owner": "Spridge",
-    "form": "LWDLW"
-   }
-  },
-  {
    "id": 760472,
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
    "odds": {
-    "home": 23.0,
-    "draw": 10.5,
-    "away": 1.11,
+    "home": 19.0,
+    "draw": 8.5,
+    "away": 1.14,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3674,6 +3681,23 @@
    "rows": [
     {
      "group": "Group F",
+     "code": "JPN",
+     "p": 3,
+     "w": 1,
+     "d": 2,
+     "l": 0,
+     "gf": 6,
+     "ga": 2,
+     "pts": 5,
+     "live": true,
+     "gd": 4,
+     "name": "Japan",
+     "flag": "🇯🇵",
+     "tier": 2,
+     "owner": "Jen"
+    },
+    {
+     "group": "Group F",
      "code": "NED",
      "p": 2,
      "w": 1,
@@ -3691,32 +3715,15 @@
     },
     {
      "group": "Group F",
-     "code": "JPN",
-     "p": 2,
+     "code": "SWE",
+     "p": 3,
      "w": 1,
      "d": 1,
-     "l": 0,
-     "gf": 6,
-     "ga": 2,
-     "pts": 4,
-     "live": false,
-     "gd": 4,
-     "name": "Japan",
-     "flag": "🇯🇵",
-     "tier": 2,
-     "owner": "Jen"
-    },
-    {
-     "group": "Group F",
-     "code": "SWE",
-     "p": 2,
-     "w": 1,
-     "d": 0,
      "l": 1,
      "gf": 6,
      "ga": 6,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 0,
      "name": "Sweden",
      "flag": "🇸🇪",
