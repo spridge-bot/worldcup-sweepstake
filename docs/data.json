@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T00:22:38+00:00",
+ "generated_at": "2026-06-26T00:23:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "63'",
-   "clock_sec": 3780.0,
-   "status_detail": "63'",
+   "clock": "64'",
+   "clock_sec": 3840.0,
+   "status_detail": "64'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 23.0,
@@ -4991,6 +4991,14 @@
    "owner": "George"
   },
   {
+   "player": "Anthony Elanga",
+   "team": "SWE",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇸🇪",
+   "owner": "Spridge"
+  },
+  {
    "player": "Ayase Ueda",
    "team": "JPN",
    "goals": 2,
@@ -5021,14 +5029,6 @@
    "assists": 0,
    "flag": "🇳🇱",
    "owner": "Emily"
-  },
-  {
-   "player": "Cyle Larin",
-   "team": "CAN",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇨🇦",
-   "owner": "Dipen"
   }
  ],
  "fairplay": [
