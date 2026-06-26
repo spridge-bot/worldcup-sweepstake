@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T23:23:17+00:00",
+ "generated_at": "2026-06-26T23:28:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3022,9 +3022,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 6.0,
+    "home": 5.75,
     "draw": 3.7,
-    "away": 1.65,
+    "away": 1.67,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5536,15 +5536,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Where has it gone wrong for Bielsa's struggling Uruguay?",
-   "desc": "With Uruguay possibly on the brink of elimination from the 2026 World Cup, BBC Sport looks at what has gone wrong for them under colourful coach Marcelo Bielsa.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T14:31:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c43c/live/a1c99eb0-7091-11f1-86cf-0fd142c2b6fb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Rainbow flags await Egypt and Iran at awkward Pride Match",
    "desc": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
@@ -5563,6 +5554,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
+   "desc": "Who should start for England against Panama in their final World Cup group game? It's time to put yourself in Thomas Tuchel's shoes.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T11:58:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Is a former England striker right about reasons for Scottish football's ills?",
    "desc": "From undervalued broadcasting deals to unfulfilled potential, Ian Wright says he feels sorry for Scottish football fans - but is the former England striker right?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz9nnp2p1o?at_medium=RSS&at_campaign=rss",
@@ -5578,15 +5578,6 @@
    "published": "2026-06-26T12:29:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b733/live/33694200-714e-11f1-8836-a15622d321c0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
-   "desc": "Who should start for England against Panama in their final World Cup group game? It's time to put yourself in Thomas Tuchel's shoes.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T11:58:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5623,6 +5614,15 @@
    "published": "2026-06-25T23:53:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What each team need to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T21:21:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
    "source": "BBC Sport"
   }
  ]
