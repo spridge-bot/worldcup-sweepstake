@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T21:04:58+00:00",
+ "generated_at": "2026-06-26T21:05:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -240,7 +240,7 @@
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "1st in Group I (live)",
+     "desc": "1st in Group I",
      "points": 5
     }
    ]
@@ -483,17 +483,17 @@
    "fifa_rank": 15,
    "owner": "Fergs",
    "status": "alive",
-   "played": 2,
-   "won": 0,
+   "played": 3,
+   "won": 1,
    "drawn": 0,
    "lost": 2,
-   "gf": 3,
+   "gf": 8,
    "ga": 6,
    "total": 1,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "3rd in Group I (live)",
+     "desc": "3rd in Group I",
      "points": 1
     }
    ]
@@ -809,7 +809,7 @@
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "2nd in Group I (live)",
+     "desc": "2nd in Group I",
      "points": 3
     }
    ]
@@ -1005,12 +1005,12 @@
    "fifa_rank": 49,
    "owner": "Emily",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 0,
-   "lost": 2,
+   "lost": 3,
    "gf": 1,
-   "ga": 7,
+   "ga": 12,
    "total": 0,
    "events": []
   },
@@ -1209,39 +1209,7 @@
    "events": []
   }
  },
- "live": [
-  {
-   "id": 760474,
-   "utc": "2026-06-26T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "BMO Field",
-   "odds": {
-    "home": 1.22,
-    "draw": 7.0,
-    "away": 12.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "SEN",
-    "name": "Senegal",
-    "flag": "🇸🇳",
-    "owner": "Fergs",
-    "goals": 5
-   },
-   "away": {
-    "code": "IRQ",
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "owner": "Emily",
-    "goals": 0
-   }
-  }
- ],
+ "live": [],
  "results": [
   {
    "id": 760475,
@@ -1271,6 +1239,37 @@
     "draw": 4.5,
     "away": 1.61,
     "over_under": 2.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
+   "id": 760474,
+   "date": "2026-06-26",
+   "utc": "2026-06-26T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group I",
+   "note": "",
+   "home": {
+    "code": "SEN",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "tier": 1,
+    "goals": 5,
+    "points": null
+   },
+   "away": {
+    "code": "IRQ",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "tier": 3,
+    "goals": 0,
+    "points": null
+   },
+   "odds": {
+    "home": 1.22,
+    "draw": 7.0,
+    "away": 12.0,
+    "over_under": 3.5,
     "provider": "DraftKings"
    }
   },
@@ -3975,7 +3974,7 @@
      "gf": 8,
      "ga": 6,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "Senegal",
      "flag": "🇸🇳",
@@ -3992,7 +3991,7 @@
      "gf": 1,
      "ga": 12,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -11,
      "name": "Iraq",
      "flag": "🇮🇶",
@@ -5096,6 +5095,15 @@
    "pts": 10
   },
   {
+   "code": "IRQ",
+   "name": "Iraq",
+   "flag": "🇮🇶",
+   "owner": "Emily",
+   "yellow": 4,
+   "red": 1,
+   "pts": 8
+  },
+  {
    "code": "BEL",
    "name": "Belgium",
    "flag": "🇧🇪",
@@ -5339,19 +5347,19 @@
    "pts": 2
   },
   {
-   "code": "IRQ",
-   "name": "Iraq",
-   "flag": "🇮🇶",
-   "owner": "Emily",
+   "code": "NZL",
+   "name": "New Zealand",
+   "flag": "🇳🇿",
+   "owner": "Willo",
    "yellow": 2,
    "red": 0,
    "pts": 2
   },
   {
-   "code": "NZL",
-   "name": "New Zealand",
-   "flag": "🇳🇿",
-   "owner": "Willo",
+   "code": "SEN",
+   "name": "Senegal",
+   "flag": "🇸🇳",
+   "owner": "Fergs",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5486,7 +5494,7 @@
  "news": [
   {
    "headline": "James injury concerns grow but Rice returns",
-   "desc": "Declan Rice returns but Reece James will miss England's match against Panama and could also be sidelined for a potential last-32 game with a hamstring injury.",
+   "desc": "Declan Rice returns but Reece James will miss England's final World Cup Group L match against Panama and could also be sidelined for a potential last-32 game with a hamstring injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4kv0kkgeo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-26T21:04:10Z",
    "type": "Story",
