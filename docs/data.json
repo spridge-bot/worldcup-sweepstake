@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T00:58:27+00:00",
+ "generated_at": "2026-06-26T00:58:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -355,7 +355,7 @@
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "1st in Group F (live)",
+     "desc": "1st in Group F",
      "points": 5
     }
    ]
@@ -552,17 +552,17 @@
    "fifa_rank": 18,
    "owner": "Jen",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 1,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
-   "gf": 6,
-   "ga": 2,
+   "gf": 7,
+   "ga": 3,
    "total": 3,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "2nd in Group F (live)",
+     "desc": "2nd in Group F",
      "points": 3
     }
    ]
@@ -862,17 +862,17 @@
    "fifa_rank": 38,
    "owner": "Spridge",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 1,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 6,
-   "ga": 6,
+   "gf": 7,
+   "ga": 7,
    "total": 1,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "3rd in Group F (live)",
+     "desc": "3rd in Group F",
      "points": 1
     }
    ]
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760471,
+   "date": "2026-06-25",
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 2.0,
     "draw": 3.4,
     "away": 4.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "goals": 1
-   },
-   "away": {
-    "code": "SWE",
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "owner": "Spridge",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760472,
    "date": "2026-06-25",
@@ -3712,7 +3711,7 @@
      "gf": 7,
      "ga": 3,
      "pts": 5,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "Japan",
      "flag": "🇯🇵",
@@ -3729,7 +3728,7 @@
      "gf": 7,
      "ga": 7,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Sweden",
      "flag": "🇸🇪",
@@ -5141,6 +5140,15 @@
    "pts": 5
   },
   {
+   "code": "SWE",
+   "name": "Sweden",
+   "flag": "🇸🇪",
+   "owner": "Spridge",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "AUS",
    "name": "Australia",
    "flag": "🇦🇺",
@@ -5244,15 +5252,6 @@
    "name": "Saudi Arabia",
    "flag": "🇸🇦",
    "owner": "Brando",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "SWE",
-   "name": "Sweden",
-   "flag": "🇸🇪",
-   "owner": "Spridge",
    "yellow": 3,
    "red": 0,
    "pts": 3
@@ -5388,6 +5387,15 @@
    "name": "Germany",
    "flag": "🇩🇪",
    "owner": "Glancy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "flag": "🇯🇵",
+   "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
