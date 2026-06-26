@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T16:30:40+00:00",
+ "generated_at": "2026-06-26T16:35:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3060,9 +3060,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 14.0,
+    "home": 13.0,
     "draw": 7.5,
-    "away": 1.19,
+    "away": 1.2,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -5490,7 +5490,7 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Rainbow flags await Egypt and Iran at awkward World Cup Pride Match",
+   "headline": "Rainbow flags await Egypt and Iran at awkward Pride Match",
    "desc": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-26T11:20:11Z",
