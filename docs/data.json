@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T05:14:43+00:00",
+ "generated_at": "2026-06-26T05:19:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3082,9 +3082,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 8.0,
+    "home": 7.5,
     "draw": 4.0,
-    "away": 1.5,
+    "away": 1.51,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3108,8 +3108,8 @@
    "group": "Group G",
    "odds": {
     "home": 2.5,
-    "draw": 2.55,
-    "away": 3.9,
+    "draw": 2.6,
+    "away": 3.8,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -3381,7 +3381,13 @@
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.54,
+    "draw": 4.2,
+    "away": 6.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "USA",
     "flag": "🇺🇸",
