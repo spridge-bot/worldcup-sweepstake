@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T00:58:51+00:00",
+ "generated_at": "2026-06-26T01:03:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -3313,6 +3313,63 @@
     "owner": "Dipen",
     "form": "LWDDW"
    }
+  },
+  {
+   "id": 760487,
+   "utc": "2026-06-29T17:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "form": "WWDWW"
+   },
+   "away": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Jen",
+    "form": "DWDWW"
+   }
+  },
+  {
+   "id": 760488,
+   "utc": "2026-06-30T01:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "owner": "Emily",
+    "form": "WWDWL"
+   },
+   "away": {
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "form": "WWDDW"
+   }
+  },
+  {
+   "id": 760494,
+   "utc": "2026-07-02T00:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo",
+    "form": "WWLWL"
+   },
+   "away": {
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "owner": "Spridge",
+    "form": "WLDDD"
+   }
   }
  ],
  "groups": [
@@ -4234,10 +4291,10 @@
     "owner": "George"
    },
    "away": {
-    "code": null,
-    "name": "Group F 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Jen"
    }
   },
   {
@@ -4274,10 +4331,10 @@
    "winner": null,
    "venue": "Estadio BBVA",
    "home": {
-    "code": null,
-    "name": "Group F Winner",
-    "flag": "",
-    "owner": null
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "owner": "Emily"
    },
    "away": {
     "code": "MAR",
@@ -4418,10 +4475,10 @@
     "owner": "Willo"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group B/E/F/I/J",
-    "flag": "",
-    "owner": null
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "owner": "Spridge"
    }
   },
   {
@@ -5523,7 +5580,7 @@
    "headline": "What do Scotland need to make World Cup knockouts?",
    "desc": "After their 3-0 defeat by Brazil, BBC Sport looks at what Scotland require to reach the knockout phase.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T22:05:33Z",
+   "published": "2026-06-26T01:01:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
    "source": "BBC Sport"
