@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T05:24:57+00:00",
+ "generated_at": "2026-06-26T05:30:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3057,8 +3057,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.65,
-    "draw": 3.35,
+    "home": 2.7,
+    "draw": 3.3,
     "away": 2.7,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5535,12 +5535,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Beccacece goes from brink to World Cup history with Ecuador",
-   "desc": "Sebastian Beccacece was on the verge of losing his job as Ecuador head coach as the clock ticked down against Germany - now he has a last-32 match to look forward to.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T00:34:29Z",
+   "headline": "What is SkyJo? The card game being played in the England camp",
+   "desc": "As England try to get their game right on the pitch, the games they play off the field are performing a key role in team bonding - as Morgan Rogers reveals to BBC Sport.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdryjj8vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T05:26:44Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6b0a/live/e2708ee0-70f2-11f1-b811-7dff86ad99ea.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/775f/live/6a4d3fb0-7117-11f1-b071-fbfa4a952290.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5559,6 +5559,15 @@
    "published": "2026-06-25T23:53:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Beccacece goes from brink to World Cup history with Ecuador",
+   "desc": "Sebastian Beccacece was on the verge of losing his job as Ecuador head coach as the clock ticked down against Germany - now he has a last-32 match to look forward to.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T00:34:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6b0a/live/e2708ee0-70f2-11f1-b811-7dff86ad99ea.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5622,15 +5631,6 @@
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Is the World Cup ball making it hard for goalkeepers?",
-   "desc": "While some goalkeepers have produced heroic performances in the World Cup, others have struggled with shots from outside the area, so is there a problem with the ball?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1jy8pr6k37o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T14:45:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eaf0/live/e9feb1d0-709f-11f1-86cf-0fd142c2b6fb.jpg",
    "source": "BBC Sport"
   }
  ]
