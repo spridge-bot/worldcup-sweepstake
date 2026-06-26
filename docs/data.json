@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T04:02:44+00:00",
+ "generated_at": "2026-06-26T04:03:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -529,17 +529,17 @@
    "fifa_rank": 17,
    "owner": "Willo",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 2,
    "drawn": 0,
-   "lost": 0,
-   "gf": 6,
-   "ga": 1,
+   "lost": 1,
+   "gf": 8,
+   "ga": 4,
    "total": 5,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "1st in Group D (live)",
+     "desc": "1st in Group D",
      "points": 5
     }
    ]
@@ -621,12 +621,12 @@
    "fifa_rank": 22,
    "owner": "Dubs",
    "status": "alive",
-   "played": 2,
-   "won": 0,
+   "played": 3,
+   "won": 1,
    "drawn": 0,
    "lost": 2,
-   "gf": 0,
-   "ga": 3,
+   "gf": 3,
+   "ga": 5,
    "total": 0,
    "events": []
   },
@@ -717,7 +717,7 @@
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "2nd in Group D (live)",
+     "desc": "2nd in Group D",
      "points": 3
     }
    ]
@@ -912,7 +912,7 @@
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "3rd in Group D (live)",
+     "desc": "3rd in Group D",
      "points": 1
     }
    ]
@@ -1209,39 +1209,7 @@
    "events": []
   }
  },
- "live": [
-  {
-   "id": 760470,
-   "utc": "2026-06-26T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "clock": "90'+9'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+9'",
-   "venue": "SoFi Stadium",
-   "odds": {
-    "home": 4.0,
-    "draw": 4.1,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "TUR",
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "goals": 3
-   },
-   "away": {
-    "code": "USA",
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "goals": 2
-   }
-  }
- ],
+ "live": [],
  "results": [
   {
    "id": 760469,
@@ -1271,6 +1239,37 @@
     "draw": 2.3,
     "away": 4.4,
     "over_under": 1.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
+   "id": 760470,
+   "date": "2026-06-26",
+   "utc": "2026-06-26T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "note": "",
+   "home": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "tier": 2,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "odds": {
+    "home": 4.0,
+    "draw": 4.1,
+    "away": 1.8,
+    "over_under": 2.5,
     "provider": "DraftKings"
    }
   },
@@ -3387,7 +3386,7 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "form": "WWLWL"
+    "form": "LWWLW"
    },
    "away": {
     "name": "Bosnia and Herzegovina",
@@ -3630,7 +3629,7 @@
      "gf": 8,
      "ga": 4,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "USA",
      "flag": "🇺🇸",
@@ -3681,7 +3680,7 @@
      "gf": 3,
      "ga": 5,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Türkiye",
      "flag": "🇹🇷",
@@ -5240,6 +5239,15 @@
    "pts": 5
   },
   {
+   "code": "USA",
+   "name": "USA",
+   "flag": "🇺🇸",
+   "owner": "Willo",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "CIV",
    "name": "Ivory Coast",
    "flag": "🇨🇮",
@@ -5262,15 +5270,6 @@
    "name": "South Korea",
    "flag": "🇰🇷",
    "owner": "Ruggy",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "USA",
-   "name": "USA",
-   "flag": "🇺🇸",
-   "owner": "Willo",
    "yellow": 4,
    "red": 0,
    "pts": 4
