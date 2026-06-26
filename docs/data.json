@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T07:27:46+00:00",
+ "generated_at": "2026-06-26T07:32:53+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -5535,6 +5535,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Mbappe v Haaland: Who is more important for their country?",
+   "desc": "Two of the greatest forwards in world football will go head-to-head at Boston Stadium on Friday, as France and Kylian Mbappe take on Norway and Erling Haaland.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c77yz87xdpno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T07:27:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4c27/live/57625f20-70cc-11f1-b217-6f3746be3039.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "What is SkyJo? The card game being played in the England camp",
    "desc": "As England try to get their game right on the pitch, the games they play off the field are performing a key role in team bonding - as Morgan Rogers reveals to BBC Sport.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdryjj8vo?at_medium=RSS&at_campaign=rss",
@@ -5598,15 +5607,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Why it's time for Saka and Rashford - Shearer",
-   "desc": "Former England captain Alan Shearer explains why Thomas Tuchel needs to change some personnel as well as his team's mindset when they face Panama.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwyl7dpnx1no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T16:53:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b505/live/0bd3f200-7075-11f1-8546-8f19e4fe30f4.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
@@ -5625,12 +5625,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Stay or go home? Tartan Army in limbo as Scotland await fate",
-   "desc": "BBC Scotland examines options for the Tartan Army in Miami as Scotland wait to discover if their World Cup adventure will continue or not.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjdg05l2jngo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T11:39:39Z",
+   "headline": "Why it's time for Saka and Rashford - Shearer",
+   "desc": "Former England captain Alan Shearer explains why Thomas Tuchel needs to change some personnel as well as his team's mindset when they face Panama.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwyl7dpnx1no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T16:53:18Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b505/live/0bd3f200-7075-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
   }
  ]
