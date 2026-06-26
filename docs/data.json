@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T19:22:05+00:00",
+ "generated_at": "2026-06-26T19:22:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "20'",
-   "clock_sec": 1200.0,
-   "status_detail": "20'",
+   "clock": "21'",
+   "clock_sec": 1260.0,
+   "status_detail": "21'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -1238,7 +1238,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 1
+    "goals": 2
    }
   },
   {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "19'",
-   "clock_sec": 1140.0,
-   "status_detail": "19'",
+   "clock": "20'",
+   "clock_sec": 1200.0,
+   "status_detail": "20'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.22,
@@ -3938,11 +3938,11 @@
      "w": 3,
      "d": 0,
      "l": 0,
-     "gf": 7,
+     "gf": 8,
      "ga": 1,
      "pts": 9,
      "live": true,
-     "gd": 6,
+     "gd": 7,
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
@@ -3956,10 +3956,10 @@
      "d": 0,
      "l": 1,
      "gf": 7,
-     "ga": 4,
+     "ga": 5,
      "pts": 6,
      "live": true,
-     "gd": 3,
+     "gd": 2,
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
@@ -5018,6 +5018,14 @@
    "owner": "George"
   },
   {
+   "player": "Ousmane Dembélé",
+   "team": "FRA",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Anthony Elanga",
    "team": "SWE",
    "goals": 2,
@@ -5048,14 +5056,6 @@
    "assists": 0,
    "flag": "🇵🇹",
    "owner": "Dipen"
-  },
-  {
-   "player": "Crysencio Summerville",
-   "team": "NED",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇱",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
