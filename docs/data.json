@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T03:20:50+00:00",
+ "generated_at": "2026-06-26T03:21:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "57'",
-   "clock_sec": 3420.0,
-   "status_detail": "57'",
+   "clock": "58'",
+   "clock_sec": 3480.0,
+   "status_detail": "58'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 2.65,
@@ -3258,9 +3258,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 4.0,
+    "home": 4.1,
     "draw": 2.2,
-    "away": 2.95,
+    "away": 2.9,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
