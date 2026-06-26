@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T22:47:34+00:00",
+ "generated_at": "2026-06-26T22:52:40+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3022,9 +3022,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 6.5,
-    "draw": 3.8,
-    "away": 1.61,
+    "home": 6.0,
+    "draw": 3.75,
+    "away": 1.62,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3225,7 +3225,7 @@
     "home": 15.0,
     "draw": 7.5,
     "away": 1.18,
-    "over_under": 2.5,
+    "over_under": 3.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -3321,7 +3321,13 @@
    "utc": "2026-06-30T17:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 3.85,
+    "draw": 3.65,
+    "away": 2.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Ivory Coast",
     "flag": "🇨🇮",
