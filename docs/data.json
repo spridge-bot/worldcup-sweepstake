@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T04:13:21+00:00",
+ "generated_at": "2026-06-26T04:18:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3083,8 +3083,8 @@
    "group": "Group H",
    "odds": {
     "home": 8.0,
-    "draw": 4.1,
-    "away": 1.49,
+    "draw": 4.0,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4585,10 +4585,10 @@
    "winner": null,
    "venue": "AT&T Stadium",
    "home": {
-    "code": null,
-    "name": "Group D 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy"
    },
    "away": {
     "code": null,
