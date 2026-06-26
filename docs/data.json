@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T02:23:07+00:00",
+ "generated_at": "2026-06-26T02:23:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "22'",
-   "clock_sec": 1320.0,
-   "status_detail": "22'",
+   "clock": "23'",
+   "clock_sec": 1380.0,
+   "status_detail": "23'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 2.65,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "22'",
-   "clock_sec": 1320.0,
-   "status_detail": "22'",
+   "clock": "23'",
+   "clock_sec": 1380.0,
+   "status_detail": "23'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 4.0,
