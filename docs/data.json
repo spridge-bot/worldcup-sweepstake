@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T23:38:36+00:00",
+ "generated_at": "2026-06-26T23:43:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3022,8 +3022,8 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 5.75,
-    "draw": 3.7,
+    "home": 6.0,
+    "draw": 3.65,
     "away": 1.67,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5518,6 +5518,15 @@
  ],
  "news": [
   {
+   "headline": "Rest your best or go strong? Norway face questions as Haaland left out",
+   "desc": "Sensible choice or wrong decision? Norway leave Erling Haaland out as they make 10 changes against France - and lose heavily.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp3xd37np9po?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T23:19:50Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0b54/live/a76fe620-71af-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "James injury concerns grow but Rice back in training",
    "desc": "Reece James could miss the start of the World Cup knockout stage if England progress as he recovers from injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4kv0kkgeo?at_medium=RSS&at_campaign=rss",
@@ -5596,15 +5605,6 @@
    "published": "2026-06-26T11:02:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How Pochettino has US believing they can be World Cup winners",
-   "desc": "Mauricio Pochettino has united the USA fans and players in a belief that they are capable of winning the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T10:34:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f6c5/live/942e3ab0-6ffe-11f1-b12f-f573f7cb1919.jpg",
    "source": "BBC Sport"
   },
   {
