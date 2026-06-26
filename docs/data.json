@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T19:02:25+00:00",
+ "generated_at": "2026-06-26T19:02:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -66,9 +66,9 @@
     "JOR"
    ],
    "total": 11,
-   "today": 3,
+   "today": 6,
    "rank": 3,
-   "movement": 4
+   "movement": 5
   },
   {
    "name": "Jen",
@@ -105,9 +105,9 @@
     "BIH"
    ],
    "total": 10,
-   "today": 0,
+   "today": 5,
    "rank": 6,
-   "movement": -1
+   "movement": 2
   },
   {
    "name": "Willo",
@@ -133,7 +133,7 @@
    "total": 7,
    "today": 1,
    "rank": 9,
-   "movement": 0
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 0,
    "rank": 9,
-   "movement": -1
+   "movement": -3
   },
   {
    "name": "Pari",
@@ -239,7 +239,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-22",
+     "date": "2026-06-26",
      "desc": "1st in Group I (live)",
      "points": 5
     }
@@ -808,7 +808,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-26",
      "desc": "2nd in Group I (live)",
      "points": 3
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760475,
+   "utc": "2026-06-26T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group I",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Gillette Stadium",
+   "odds": {
+    "home": 5.0,
+    "draw": 4.5,
+    "away": 1.61,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760469,
@@ -2930,31 +2962,6 @@
  ],
  "upcoming": [
   {
-   "id": 760475,
-   "utc": "2026-06-26T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "odds": {
-    "home": 5.0,
-    "draw": 4.5,
-    "away": 1.61,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "form": "WWDWD"
-   },
-   "away": {
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "form": "WWWLW"
-   }
-  },
-  {
    "id": 760474,
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
@@ -3921,14 +3928,14 @@
     {
      "group": "Group I",
      "code": "FRA",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 6,
      "ga": 1,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 5,
      "name": "France",
      "flag": "🇫🇷",
@@ -3938,14 +3945,14 @@
     {
      "group": "Group I",
      "code": "NOR",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 7,
      "ga": 3,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 4,
      "name": "Norway",
      "flag": "🇳🇴",
