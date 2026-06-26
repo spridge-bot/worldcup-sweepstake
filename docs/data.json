@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T19:03:06+00:00",
+ "generated_at": "2026-06-26T19:03:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 6,
    "rank": 3,
-   "movement": 5
+   "movement": 4
   },
   {
    "name": "Jen",
@@ -107,7 +107,7 @@
    "total": 10,
    "today": 5,
    "rank": 6,
-   "movement": 2
+   "movement": 1
   },
   {
    "name": "Willo",
@@ -131,7 +131,7 @@
     "CUW"
    ],
    "total": 7,
-   "today": 1,
+   "today": 2,
    "rank": 9,
    "movement": -2
   },
@@ -492,7 +492,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-26",
      "desc": "3rd in Group I (live)",
      "points": 1
     }
@@ -1238,6 +1238,37 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760474,
+   "utc": "2026-06-26T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group I",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BMO Field",
+   "odds": {
+    "home": 1.22,
+    "draw": 7.0,
+    "away": 12.0,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "SEN",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "owner": "Fergs",
+    "goals": 0
+   },
+   "away": {
+    "code": "IRQ",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "owner": "Emily",
     "goals": 0
    }
   }
@@ -2962,31 +2993,6 @@
  ],
  "upcoming": [
   {
-   "id": 760474,
-   "utc": "2026-06-26T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "odds": {
-    "home": 1.21,
-    "draw": 7.0,
-    "away": 12.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Senegal",
-    "flag": "🇸🇳",
-    "owner": "Fergs",
-    "form": "LLDLW"
-   },
-   "away": {
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "owner": "Emily",
-    "form": "LLLDW"
-   }
-  },
-  {
    "id": 760478,
    "utc": "2026-06-27T00:00:00Z",
    "stage": "Group stage",
@@ -3962,14 +3968,14 @@
     {
      "group": "Group I",
      "code": "SEN",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 3,
      "ga": 6,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -3,
      "name": "Senegal",
      "flag": "🇸🇳",
@@ -3979,14 +3985,14 @@
     {
      "group": "Group I",
      "code": "IRQ",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 1,
      "ga": 7,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -6,
      "name": "Iraq",
      "flag": "🇮🇶",
