@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T20:59:41+00:00",
+ "generated_at": "2026-06-26T21:00:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -230,12 +230,12 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 2,
-   "won": 2,
+   "played": 3,
+   "won": 3,
    "drawn": 0,
    "lost": 0,
-   "gf": 6,
-   "ga": 1,
+   "gf": 10,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -799,12 +799,12 @@
    "fifa_rank": 31,
    "owner": "Glancy",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 2,
    "drawn": 0,
-   "lost": 0,
-   "gf": 7,
-   "ga": 3,
+   "lost": 1,
+   "gf": 8,
+   "ga": 7,
    "total": 3,
    "events": [
     {
@@ -1211,44 +1211,13 @@
  },
  "live": [
   {
-   "id": 760475,
-   "utc": "2026-06-26T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "Gillette Stadium",
-   "odds": {
-    "home": 5.0,
-    "draw": 4.5,
-    "away": 1.61,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NOR",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "goals": 1
-   },
-   "away": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "goals": 4
-   }
-  },
-  {
    "id": 760474,
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "90'+1'",
+   "clock": "90'+2'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+1'",
+   "status_detail": "90'+2'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.22,
@@ -1274,6 +1243,37 @@
   }
  ],
  "results": [
+  {
+   "id": 760475,
+   "date": "2026-06-26",
+   "utc": "2026-06-26T19:00:00Z",
+   "stage": "Group stage",
+   "group": "Group I",
+   "note": "",
+   "home": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "tier": 1,
+    "goals": 4,
+    "points": null
+   },
+   "odds": {
+    "home": 5.0,
+    "draw": 4.5,
+    "away": 1.61,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   }
+  },
   {
    "id": 760469,
    "date": "2026-06-26",
@@ -3941,7 +3941,7 @@
      "gf": 10,
      "ga": 2,
      "pts": 9,
-     "live": true,
+     "live": false,
      "gd": 8,
      "name": "France",
      "flag": "🇫🇷",
@@ -3958,7 +3958,7 @@
      "gf": 8,
      "ga": 7,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 1,
      "name": "Norway",
      "flag": "🇳🇴",
@@ -5411,6 +5411,15 @@
    "pts": 1
   },
   {
+   "code": "FRA",
+   "name": "France",
+   "flag": "🇫🇷",
+   "owner": "Spridge",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
    "code": "GER",
    "name": "Germany",
    "flag": "🇩🇪",
@@ -5442,6 +5451,15 @@
    "name": "Morocco",
    "flag": "🇲🇦",
    "owner": "Willo",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "flag": "🇳🇴",
+   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
