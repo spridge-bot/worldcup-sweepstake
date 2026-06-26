@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T20:50:52+00:00",
+ "generated_at": "2026-06-26T20:51:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1262,7 +1262,7 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "goals": 4
+    "goals": 5
    },
    "away": {
     "code": "IRQ",
@@ -3125,7 +3125,7 @@
    "odds": {
     "home": 16.0,
     "draw": 8.5,
-    "away": 1.15,
+    "away": 1.17,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3972,11 +3972,11 @@
      "w": 1,
      "d": 0,
      "l": 2,
-     "gf": 7,
+     "gf": 8,
      "ga": 6,
      "pts": 3,
      "live": true,
-     "gd": 1,
+     "gd": 2,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
@@ -3990,10 +3990,10 @@
      "d": 0,
      "l": 3,
      "gf": 1,
-     "ga": 11,
+     "ga": 12,
      "pts": 0,
      "live": true,
-     "gd": -10,
+     "gd": -11,
      "name": "Iraq",
      "flag": "🇮🇶",
      "tier": 3,
