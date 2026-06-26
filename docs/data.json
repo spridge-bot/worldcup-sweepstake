@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T04:08:14+00:00",
+ "generated_at": "2026-06-26T04:13:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3009,7 +3009,7 @@
    "odds": {
     "home": 5.0,
     "draw": 4.6,
-    "away": 1.59,
+    "away": 1.61,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3035,7 +3035,7 @@
     "home": 1.24,
     "draw": 6.5,
     "away": 12.0,
-    "over_under": 2.5,
+    "over_under": 3.5,
     "provider": "DraftKings"
    },
    "home": {
@@ -3332,9 +3332,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.8,
+    "home": 1.77,
     "draw": 3.7,
-    "away": 4.6,
+    "away": 4.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5541,9 +5541,9 @@
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T01:12:47Z",
+   "published": "2026-06-26T04:08:59Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08f5/live/70c86700-70fb-11f1-b5ad-d5e31aa94c18.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5604,9 +5604,9 @@
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T01:12:47Z",
+   "published": "2026-06-26T04:08:59Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08f5/live/70c86700-70fb-11f1-b5ad-d5e31aa94c18.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
    "source": "BBC Sport"
   },
   {
