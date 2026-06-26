@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T00:36:51+00:00",
+ "generated_at": "2026-06-26T00:37:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "77'",
-   "clock_sec": 4620.0,
-   "status_detail": "77'",
+   "clock": "78'",
+   "clock_sec": 4680.0,
+   "status_detail": "78'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 23.0,
@@ -5431,6 +5431,15 @@
  ],
  "news": [
   {
+   "headline": "Beccacece goes from brink to World Cup history with Ecuador",
+   "desc": "Sebastian Beccacece was on the verge of losing his job as Ecuador head coach as the clock ticked down against Germany - now he has a last-32 match to look forward to.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T00:34:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6b0a/live/e2708ee0-70f2-11f1-b811-7dff86ad99ea.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "James and Rice miss training in preparation for Panama",
    "desc": "England's Reece James and Declan Rice miss England's penultimate training session before Panama with injury concerns.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo?at_medium=RSS&at_campaign=rss",
@@ -5449,12 +5458,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The games that show the flaws in a 48-team World Cup",
-   "desc": "Two matches in the final round of group games present the chance for two teams to simply play out a draw to qualify.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T13:38:00Z",
+   "headline": "'We could call it racist' - Ivory Coast boss sad at Schweinsteiger comments",
+   "desc": "Ivory Coast boss Emerse Fae says comments from ex-Germany midfielder Bastian Schweinsteiger about their \"wild\" playing style could be considered racist.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2x0ev2deqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T00:21:34Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c99c/live/1a0a5260-7098-11f1-86cf-0fd142c2b6fb.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/696d/live/48c136c0-70f0-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5527,15 +5536,6 @@
    "published": "2026-06-25T22:25:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a03/live/41854240-7021-11f1-a610-33bc570766fd.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
-   "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, but how well do you know his journey so far?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T02:21:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
