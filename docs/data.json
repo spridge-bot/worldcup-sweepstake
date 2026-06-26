@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T08:44:35+00:00",
+ "generated_at": "2026-06-26T08:49:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -5553,6 +5553,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "US interested in hosting 2038 World Cup - Giuliani",
+   "desc": "The United States could consider making a bid to host the men's 2038 World Cup, with Fifa considering expanding the tournament to 64 teams.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T08:42:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
@@ -5622,15 +5631,6 @@
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why it's time for Saka and Rashford - Shearer",
-   "desc": "Former England captain Alan Shearer explains why Thomas Tuchel needs to change some personnel as well as his team's mindset when they face Panama.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwyl7dpnx1no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T16:53:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b505/live/0bd3f200-7075-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
   }
  ]
