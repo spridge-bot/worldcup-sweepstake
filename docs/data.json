@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T21:20:41+00:00",
+ "generated_at": "2026-06-26T21:25:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2997,9 +2997,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.6,
-    "draw": 3.3,
-    "away": 2.8,
+    "home": 2.65,
+    "draw": 3.35,
+    "away": 2.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5521,6 +5521,33 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What each team need to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T21:21:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Where has it gone wrong for Bielsa's struggling Uruguay?",
+   "desc": "With Uruguay possibly on the brink of elimination from the 2026 World Cup, BBC Sport looks at what has gone wrong for them under colourful coach Marcelo Bielsa.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T14:31:33Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c43c/live/a1c99eb0-7091-11f1-86cf-0fd142c2b6fb.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rainbow flags await Egypt and Iran at awkward Pride Match",
+   "desc": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T11:20:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bef0/live/ea2a83e0-713b-11f1-be59-4b2938e11145.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why has Trump stayed away from the World Cup?",
    "desc": "Why has Donald Trump stayed away from the World Cup? And will he appear before the final?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0myxevn3emo?at_medium=RSS&at_campaign=rss",
@@ -5545,24 +5572,6 @@
    "published": "2026-06-26T12:29:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b733/live/33694200-714e-11f1-8836-a15622d321c0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where has it gone wrong for Bielsa's struggling Uruguay?",
-   "desc": "With Uruguay possibly on the brink of elimination from the 2026 World Cup, BBC Sport looks at what has gone wrong for them under colourful coach Marcelo Bielsa.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T14:31:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c43c/live/a1c99eb0-7091-11f1-86cf-0fd142c2b6fb.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rainbow flags await Egypt and Iran at awkward Pride Match",
-   "desc": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T11:20:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bef0/live/ea2a83e0-713b-11f1-be59-4b2938e11145.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5599,15 +5608,6 @@
    "published": "2026-06-26T11:02:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "US interested in hosting 2038 World Cup - Giuliani",
-   "desc": "The United States could consider making a bid to host the men's 2038 World Cup, with Fifa considering expanding the tournament to 64 teams.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T08:42:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg",
    "source": "BBC Sport"
   },
   {
