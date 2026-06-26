@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T02:25:38+00:00",
+ "generated_at": "2026-06-26T02:26:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "24'",
-   "clock_sec": 1440.0,
-   "status_detail": "24'",
+   "clock": "25'",
+   "clock_sec": 1500.0,
+   "status_detail": "25'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 2.65,
@@ -3357,7 +3357,13 @@
    "utc": "2026-06-30T01:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 2.1,
+    "draw": 3.35,
+    "away": 3.75,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Netherlands",
     "flag": "🇳🇱",
