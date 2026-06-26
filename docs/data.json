@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T17:57:39+00:00",
+ "generated_at": "2026-06-26T18:02:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2960,7 +2960,7 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.26,
+    "home": 1.25,
     "draw": 6.5,
     "away": 11.0,
     "over_under": 3.5,
@@ -5508,15 +5508,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
-   "desc": "Who should start for England against Panama in their final World Cup group game? It's time to put yourself in Thomas Tuchel's shoes.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T11:58:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5526,21 +5517,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
+   "desc": "Who should start for England against Panama in their final World Cup group game? It's time to put yourself in Thomas Tuchel's shoes.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T11:58:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "From 42% to 5.26% - how Scotland's World Cup hopes are fading",
    "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-26T04:33:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Mbappe v Haaland: Who is more important for their country?",
-   "desc": "Two of the greatest forwards in world football will go head-to-head at Boston Stadium on Friday, as France and Kylian Mbappe take on Norway and Erling Haaland.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c77yz87xdpno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T07:27:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7113/live/0ccc7300-714a-11f1-93ee-112d8afd7f99.png",
    "source": "BBC Sport"
   },
   {
@@ -5559,6 +5550,15 @@
    "published": "2026-06-26T11:02:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "US interested in hosting 2038 World Cup - Giuliani",
+   "desc": "The United States could consider making a bid to host the men's 2038 World Cup, with Fifa considering expanding the tournament to 64 teams.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T08:42:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg",
    "source": "BBC Sport"
   }
  ]
