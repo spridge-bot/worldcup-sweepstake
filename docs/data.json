@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T00:47:16+00:00",
+ "generated_at": "2026-06-26T00:47:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "85'",
-   "clock_sec": 5100.0,
-   "status_detail": "85'",
+   "clock": "86'",
+   "clock_sec": 5160.0,
+   "status_detail": "86'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "29'",
-   "clock_sec": 1740.0,
-   "status_detail": "29'",
+   "clock": "87'",
+   "clock_sec": 5220.0,
+   "status_detail": "87'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 23.0,
@@ -1262,14 +1262,14 @@
     "name": "Tunisia",
     "flag": "🇹🇳",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "NED",
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "goals": 2
+    "goals": 3
    }
   }
  ],
@@ -3692,8 +3692,8 @@
      "w": 2,
      "d": 1,
      "l": 0,
-     "gf": 9,
-     "ga": 3,
+     "gf": 10,
+     "ga": 4,
      "pts": 7,
      "live": true,
      "gd": 6,
@@ -3743,8 +3743,8 @@
      "w": 0,
      "d": 0,
      "l": 3,
-     "gf": 1,
-     "ga": 11,
+     "gf": 2,
+     "ga": 12,
      "pts": 0,
      "live": true,
      "gd": -10,
