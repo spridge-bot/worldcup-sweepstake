@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T21:05:21+00:00",
+ "generated_at": "2026-06-26T21:10:27+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2997,9 +2997,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.65,
+    "home": 2.6,
     "draw": 3.3,
-    "away": 2.75,
+    "away": 2.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3023,8 +3023,8 @@
    "group": "Group H",
    "odds": {
     "home": 6.0,
-    "draw": 3.55,
-    "away": 1.69,
+    "draw": 3.6,
+    "away": 1.67,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3147,9 +3147,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 4.1,
-    "draw": 3.75,
-    "away": 1.87,
+    "home": 4.0,
+    "draw": 3.8,
+    "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3314,6 +3314,25 @@
     "flag": "🇲🇦",
     "owner": "Willo",
     "form": "WWDDW"
+   }
+  },
+  {
+   "id": 760490,
+   "utc": "2026-06-30T17:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "owner": "Jen",
+    "form": "WLWWW"
+   },
+   "away": {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "form": "LWWDW"
    }
   },
   {
@@ -4330,10 +4349,10 @@
     "owner": "Jen"
    },
    "away": {
-    "code": null,
-    "name": "Group I 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy"
    }
   },
   {
@@ -4347,10 +4366,10 @@
    "winner": null,
    "venue": "MetLife Stadium",
    "home": {
-    "code": null,
-    "name": "Group I Winner",
-    "flag": "",
-    "owner": null
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge"
    },
    "away": {
     "code": null,
@@ -5494,7 +5513,7 @@
  "news": [
   {
    "headline": "James injury concerns grow but Rice returns",
-   "desc": "Declan Rice returns but Reece James will miss England's final World Cup Group L match against Panama and could also be sidelined for a potential last-32 game with a hamstring injury.",
+   "desc": "Declan Rice returns to training but Reece James will miss England's final World Cup Group L match against Panama and could also be sidelined for a potential last-32 game with a hamstring injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4kv0kkgeo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-26T21:04:10Z",
    "type": "Story",
