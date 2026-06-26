@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T02:00:59+00:00",
+ "generated_at": "2026-06-26T02:01:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -29,7 +29,7 @@
    "total": 14,
    "today": 8,
    "rank": 1,
-   "movement": 5
+   "movement": 3
   },
   {
    "name": "George",
@@ -66,9 +66,9 @@
     "JOR"
    ],
    "total": 11,
-   "today": 5,
+   "today": 8,
    "rank": 3,
-   "movement": 3
+   "movement": 8
   },
   {
    "name": "Jen",
@@ -81,7 +81,7 @@
    "total": 11,
    "today": 6,
    "rank": 3,
-   "movement": 6
+   "movement": 4
   },
   {
    "name": "Emily",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 5,
    "rank": 6,
-   "movement": 3
+   "movement": 1
   },
   {
    "name": "Spridge",
@@ -118,9 +118,9 @@
     "NZL"
    ],
    "total": 9,
-   "today": 0,
+   "today": 5,
    "rank": 8,
-   "movement": -5
+   "movement": 1
   },
   {
    "name": "Fergs",
@@ -131,9 +131,9 @@
     "CUW"
    ],
    "total": 7,
-   "today": 0,
+   "today": 1,
    "rank": 9,
-   "movement": -4
+   "movement": -5
   },
   {
    "name": "Ruggy",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 1,
    "rank": 9,
-   "movement": -3
+   "movement": -5
   },
   {
    "name": "Pari",
@@ -159,7 +159,7 @@
    "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": 0
+   "movement": -2
   },
   {
    "name": "Dubs",
@@ -538,7 +538,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-19",
+     "date": "2026-06-26",
      "desc": "1st in Group D (live)",
      "points": 5
     }
@@ -716,7 +716,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-19",
+     "date": "2026-06-26",
      "desc": "2nd in Group D (live)",
      "points": 3
     }
@@ -911,7 +911,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-20",
+     "date": "2026-06-26",
      "desc": "3rd in Group D (live)",
      "points": 1
     }
@@ -1209,7 +1209,70 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760469,
+   "utc": "2026-06-26T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Levi's Stadium",
+   "odds": {
+    "home": 2.65,
+    "draw": 2.3,
+    "away": 4.4,
+    "over_under": 1.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Fergs",
+    "goals": 0
+   },
+   "away": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760470,
+   "utc": "2026-06-26T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group D",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "SoFi Stadium",
+   "odds": {
+    "home": 4.0,
+    "draw": 4.1,
+    "away": 1.8,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "owner": "Dubs",
+    "goals": 0
+   },
+   "away": {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760471,
@@ -2940,56 +3003,6 @@
  ],
  "upcoming": [
   {
-   "id": 760469,
-   "utc": "2026-06-26T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 2.65,
-    "draw": 2.3,
-    "away": 4.4,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "form": null
-   },
-   "away": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": null
-   }
-  },
-  {
-   "id": 760470,
-   "utc": "2026-06-26T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "odds": {
-    "home": 4.0,
-    "draw": 4.1,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "owner": "Dubs",
-    "form": null
-   },
-   "away": {
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "form": null
-   }
-  },
-  {
    "id": 760475,
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
@@ -3598,14 +3611,14 @@
     {
      "group": "Group D",
      "code": "USA",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 6,
      "ga": 1,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 5,
      "name": "USA",
      "flag": "🇺🇸",
@@ -3615,14 +3628,14 @@
     {
      "group": "Group D",
      "code": "AUS",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 2,
      "ga": 2,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 0,
      "name": "Australia",
      "flag": "🇦🇺",
@@ -3632,14 +3645,14 @@
     {
      "group": "Group D",
      "code": "PAR",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 2,
      "ga": 4,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": -2,
      "name": "Paraguay",
      "flag": "🇵🇾",
@@ -3649,14 +3662,14 @@
     {
      "group": "Group D",
      "code": "TUR",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 0,
      "ga": 3,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -3,
      "name": "Türkiye",
      "flag": "🇹🇷",
