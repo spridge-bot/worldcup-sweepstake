@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T20:24:34+00:00",
+ "generated_at": "2026-06-26T20:25:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "56'",
-   "clock_sec": 3360.0,
-   "status_detail": "56'",
+   "clock": "57'",
+   "clock_sec": 3420.0,
+   "status_detail": "57'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.22,
@@ -1262,7 +1262,7 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "IRQ",
@@ -3972,11 +3972,11 @@
      "w": 1,
      "d": 0,
      "l": 2,
-     "gf": 4,
+     "gf": 5,
      "ga": 6,
      "pts": 3,
      "live": true,
-     "gd": -2,
+     "gd": -1,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
@@ -3990,10 +3990,10 @@
      "d": 0,
      "l": 3,
      "gf": 1,
-     "ga": 8,
+     "ga": 9,
      "pts": 0,
      "live": true,
-     "gd": -7,
+     "gd": -8,
      "name": "Iraq",
      "flag": "🇮🇶",
      "tier": 3,
@@ -5002,6 +5002,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Ismaïla Sarr",
+   "team": "SEN",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇸🇳",
+   "owner": "Fergs"
+  },
+  {
    "player": "Johan Manzambi",
    "team": "SUI",
    "goals": 3,
@@ -5048,14 +5056,6 @@
    "assists": 0,
    "flag": "🇳🇱",
    "owner": "Emily"
-  },
-  {
-   "player": "Cristiano Ronaldo",
-   "team": "POR",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇵🇹",
-   "owner": "Dipen"
   }
  ],
  "fairplay": [
