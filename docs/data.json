@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T20:51:17+00:00",
+ "generated_at": "2026-06-26T20:51:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "86'",
-   "clock_sec": 5160.0,
-   "status_detail": "86'",
+   "clock": "87'",
+   "clock_sec": 5220.0,
+   "status_detail": "87'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "83'",
-   "clock_sec": 4980.0,
-   "status_detail": "83'",
+   "clock": "84'",
+   "clock_sec": 5040.0,
+   "status_detail": "84'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.22,
