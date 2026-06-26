@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-25T23:59:56+00:00",
+ "generated_at": "2026-06-26T00:00:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -2946,9 +2946,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 2.6,
-    "draw": 2.25,
-    "away": 4.6,
+    "home": 2.65,
+    "draw": 2.3,
+    "away": 4.4,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -2956,13 +2956,13 @@
     "name": "Paraguay",
     "flag": "🇵🇾",
     "owner": "Fergs",
-    "form": "WLWLW"
+    "form": null
    },
    "away": {
     "name": "Australia",
     "flag": "🇦🇺",
     "owner": "Glancy",
-    "form": "LWDLW"
+    "form": null
    }
   },
   {
@@ -2971,9 +2971,9 @@
    "stage": "Group stage",
    "group": "Group D",
    "odds": {
-    "home": 4.2,
-    "draw": 4.2,
-    "away": 1.77,
+    "home": 4.0,
+    "draw": 4.1,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -2981,13 +2981,13 @@
     "name": "Türkiye",
     "flag": "🇹🇷",
     "owner": "Dubs",
-    "form": "LLWWW"
+    "form": null
    },
    "away": {
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "form": "WWLWL"
+    "form": null
    }
   },
   {
