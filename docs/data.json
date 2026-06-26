@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T13:01:02+00:00",
+ "generated_at": "2026-06-26T13:06:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -3037,7 +3037,7 @@
    "odds": {
     "home": 2.5,
     "draw": 2.6,
-    "away": 3.8,
+    "away": 3.9,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -5481,6 +5481,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What do numbers tell us about Scotland's World Cup attacking intent?",
+   "desc": "BBC Scotland crunches the numbers behind Steve Clarke's blunt attack and looks at the potential deeper issues.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czdere26vzro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T10:47:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4f5d/live/a30166e0-714b-11f1-93ee-112d8afd7f99.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How Oyarzabal shows Spain are more than just Yamal - Azpilicueta",
    "desc": "Former Spain captain Cesar Azpilicueta explains why La Roja head coach Luis de la Fuente has the team and squad he needs for success in the next month.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
@@ -5508,21 +5517,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What is SkyJo? The card game being played in the England camp",
-   "desc": "As England try to get their game right on the pitch, the games they play off the field are performing a key role in team bonding - as Morgan Rogers reveals to BBC Sport.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdryjj8vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T05:26:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/775f/live/6a4d3fb0-7117-11f1-b071-fbfa4a952290.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-25T23:53:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What is SkyJo? The card game being played in the England camp",
+   "desc": "As England try to get their game right on the pitch, the games they play off the field are performing a key role in team bonding - as Morgan Rogers reveals to BBC Sport.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdryjj8vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T05:26:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/775f/live/6a4d3fb0-7117-11f1-b071-fbfa4a952290.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5550,15 +5559,6 @@
    "published": "2026-06-26T04:08:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: How well do you know birthday boy Messi at World Cups?",
-   "desc": "Argentina great Lionel Messi turns 39 today and has been lighting up the World Cup this summer, but how well do you know his journey so far?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czdejv5z320o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-24T02:21:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   }
  ]
