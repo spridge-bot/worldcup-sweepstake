@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T00:55:12+00:00",
+ "generated_at": "2026-06-26T00:55:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -345,12 +345,12 @@
    "fifa_rank": 8,
    "owner": "Emily",
    "status": "alive",
-   "played": 2,
-   "won": 1,
+   "played": 3,
+   "won": 2,
    "drawn": 1,
    "lost": 0,
-   "gf": 7,
-   "ga": 3,
+   "gf": 10,
+   "ga": 4,
    "total": 5,
    "events": [
     {
@@ -971,12 +971,12 @@
    "fifa_rank": 46,
    "owner": "Pari",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 0,
-   "lost": 2,
-   "gf": 1,
-   "ga": 9,
+   "lost": 3,
+   "gf": 2,
+   "ga": 12,
    "total": 0,
    "events": []
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "90'+4'",
+   "clock": "90'+5'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+4'",
+   "status_detail": "90'+5'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.0,
@@ -1240,40 +1240,40 @@
     "owner": "Spridge",
     "goals": 1
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760472,
+   "date": "2026-06-25",
    "utc": "2026-06-25T23:00:00Z",
    "stage": "Group stage",
    "group": "Group F",
-   "clock": "90'+5'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
-   "venue": "GEHA Field at Arrowhead Stadium",
+   "note": "",
+   "home": {
+    "code": "TUN",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "tier": 1,
+    "goals": 3,
+    "points": null
+   },
    "odds": {
     "home": 23.0,
     "draw": 10.5,
     "away": 1.11,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "TUN",
-    "name": "Tunisia",
-    "flag": "🇹🇳",
-    "owner": "Pari",
-    "goals": 1
-   },
-   "away": {
-    "code": "NED",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "goals": 3
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760473,
    "date": "2026-06-25",
@@ -3695,7 +3695,7 @@
      "gf": 10,
      "ga": 4,
      "pts": 7,
-     "live": true,
+     "live": false,
      "gd": 6,
      "name": "Netherlands",
      "flag": "🇳🇱",
@@ -3746,7 +3746,7 @@
      "gf": 2,
      "ga": 12,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -10,
      "name": "Tunisia",
      "flag": "🇹🇳",
