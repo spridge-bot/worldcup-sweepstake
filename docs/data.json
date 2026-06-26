@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T12:30:22+00:00",
+ "generated_at": "2026-06-26T12:35:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -5454,6 +5454,15 @@
  ],
  "news": [
   {
+   "headline": "Has VAR become a lottery at the World Cup?",
+   "desc": "After a week of strange decisions many supporters have been left scratching their heads with VAR.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T12:29:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b733/live/33694200-714e-11f1-8836-a15622d321c0.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "From 42% to 5.26% - how Scotland's World Cup hopes are fading",
    "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
@@ -5469,6 +5478,15 @@
    "published": "2026-06-26T11:58:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "How Oyarzabal shows Spain are more than just Lamine Yamal - Azpilicueta",
+   "desc": "Former Spain captain Cesar Azpilicueta explains why La Roja head coach Luis de la Fuente has the team and squad he needs for success in the next month.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T12:27:43Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ce70/live/086e34f0-7079-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   },
   {
@@ -5523,24 +5541,6 @@
    "published": "2026-06-26T00:34:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6b0a/live/e2708ee0-70f2-11f1-b811-7dff86ad99ea.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "James doubtful for Panama but England hopeful on Rice",
-   "desc": "England's Reece James and Declan Rice miss England's penultimate training session before Panama with injury concerns.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T21:19:06Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3dd/live/93a982d0-70d9-11f1-8fd9-bbd9722885d9.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'We could call it racist' - Ivory Coast boss sad at Schweinsteiger comments",
-   "desc": "Ivory Coast boss Emerse Fae says comments from ex-Germany midfielder Bastian Schweinsteiger about their \"wild\" playing style could be considered racist.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2x0ev2deqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T00:21:34Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/696d/live/48c136c0-70f0-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
