@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T18:48:49+00:00",
+ "generated_at": "2026-06-26T18:53:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2960,7 +2960,7 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 1.22,
+    "home": 1.21,
     "draw": 7.0,
     "away": 12.0,
     "over_under": 3.5,
@@ -5508,15 +5508,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T23:53:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
    "desc": "Who should start for England against Panama in their final World Cup group game? It's time to put yourself in Thomas Tuchel's shoes.",
    "link": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
@@ -5559,6 +5550,15 @@
    "published": "2026-06-26T08:42:52Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T23:53:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
