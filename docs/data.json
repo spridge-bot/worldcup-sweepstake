@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T03:49:26+00:00",
+ "generated_at": "2026-06-26T03:49:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "86'",
-   "clock_sec": 5160.0,
-   "status_detail": "86'",
+   "clock": "87'",
+   "clock_sec": 5220.0,
+   "status_detail": "87'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 4.0,
@@ -3333,9 +3333,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.83,
-    "draw": 3.65,
-    "away": 4.5,
+    "home": 1.8,
+    "draw": 3.7,
+    "away": 4.6,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
