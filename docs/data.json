@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T19:34:19+00:00",
+ "generated_at": "2026-06-26T19:34:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1238,7 +1238,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 2
+    "goals": 3
    }
   },
   {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.22,
@@ -3938,11 +3938,11 @@
      "w": 3,
      "d": 0,
      "l": 0,
-     "gf": 8,
+     "gf": 9,
      "ga": 2,
      "pts": 9,
      "live": true,
-     "gd": 6,
+     "gd": 7,
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
@@ -3956,10 +3956,10 @@
      "d": 0,
      "l": 1,
      "gf": 8,
-     "ga": 5,
+     "ga": 6,
      "pts": 6,
      "live": true,
-     "gd": 3,
+     "gd": 2,
      "name": "Norway",
      "flag": "🇳🇴",
      "tier": 2,
@@ -4962,6 +4962,14 @@
    "owner": "Spridge"
   },
   {
+   "player": "Ousmane Dembélé",
+   "team": "FRA",
+   "goals": 4,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Vinícius Júnior",
    "team": "BRA",
    "goals": 4,
@@ -5016,14 +5024,6 @@
    "assists": 0,
    "flag": "🇧🇷",
    "owner": "George"
-  },
-  {
-   "player": "Ousmane Dembélé",
-   "team": "FRA",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
   },
   {
    "player": "Anthony Elanga",
