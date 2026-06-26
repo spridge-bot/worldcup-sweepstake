@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T02:48:41+00:00",
+ "generated_at": "2026-06-26T02:49:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T02:00:00Z",
    "stage": "Group stage",
    "group": "Group D",
-   "clock": "45'+3'",
+   "clock": "45'+4'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+3'",
+   "status_detail": "45'+4'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 2.65,
@@ -5530,7 +5530,7 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "James and Rice miss training in preparation for Panama",
+   "headline": "James doubtful for Panama but England hopeful on Rice",
    "desc": "England's Reece James and Declan Rice miss England's penultimate training session before Panama with injury concerns.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-25T21:19:06Z",
