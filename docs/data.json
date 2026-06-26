@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T19:52:32+00:00",
+ "generated_at": "2026-06-26T19:52:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1217,7 +1217,7 @@
    "group": "Group I",
    "clock": "45'+5'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+5'",
+   "status_detail": "HT",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
