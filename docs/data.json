@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T02:51:38+00:00",
+ "generated_at": "2026-06-26T02:52:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-25",
  "scoring": {
@@ -1217,7 +1217,7 @@
    "group": "Group D",
    "clock": "45'+6'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+6'",
+   "status_detail": "HT",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 2.65,
@@ -1248,7 +1248,7 @@
    "group": "Group D",
    "clock": "45'+6'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+6'",
+   "status_detail": "HT",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 4.0,
