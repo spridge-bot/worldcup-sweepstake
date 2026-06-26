@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T16:35:47+00:00",
+ "generated_at": "2026-06-26T16:40:54+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2935,8 +2935,8 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 5.5,
-    "draw": 5.0,
+    "home": 5.75,
+    "draw": 4.9,
     "away": 1.51,
     "over_under": 3.5,
     "provider": "DraftKings"
@@ -5463,6 +5463,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Is an outsider right about reasons for Scottish football's ills?",
+   "desc": "From undervalued broadcasting deals to unfulfilled potential, Ian Wright says he feels sorry for Scottish football fans - but is the former England striker right?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz9nnp2p1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T16:26:04Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a318/live/b25f0c60-7172-11f1-8e1d-bbbb1017d210.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Has VAR become a lottery at the World Cup?",
    "desc": "After a week of strange decisions many supporters have been left scratching their heads with VAR.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
@@ -5508,21 +5517,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Mbappe v Haaland: Who is more important for their country?",
-   "desc": "Two of the greatest forwards in world football will go head-to-head at Boston Stadium on Friday, as France and Kylian Mbappe take on Norway and Erling Haaland.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c77yz87xdpno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T07:27:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7113/live/0ccc7300-714a-11f1-93ee-112d8afd7f99.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-25T23:53:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Mbappe v Haaland: Who is more important for their country?",
+   "desc": "Two of the greatest forwards in world football will go head-to-head at Boston Stadium on Friday, as France and Kylian Mbappe take on Norway and Erling Haaland.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c77yz87xdpno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T07:27:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7113/live/0ccc7300-714a-11f1-93ee-112d8afd7f99.png",
    "source": "BBC Sport"
   },
   {
@@ -5550,15 +5559,6 @@
    "published": "2026-06-26T08:42:52Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What do numbers tell us about Scotland's World Cup attacking intent?",
-   "desc": "BBC Scotland crunches the numbers behind Steve Clarke's blunt attack and looks at the potential deeper issues.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czdere26vzro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T10:47:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4f5d/live/a30166e0-714b-11f1-93ee-112d8afd7f99.jpg",
    "source": "BBC Sport"
   }
  ]
