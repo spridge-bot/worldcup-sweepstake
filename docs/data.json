@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T05:55:38+00:00",
+ "generated_at": "2026-06-26T06:00:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -5607,15 +5607,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Stay or go home? Tartan Army in limbo as Scotland await fate",
-   "desc": "BBC Scotland examines options for the Tartan Army in Miami as Scotland wait to discover if their World Cup adventure will continue or not.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjdg05l2jngo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T11:39:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
@@ -5631,6 +5622,15 @@
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Stay or go home? Tartan Army in limbo as Scotland await fate",
+   "desc": "BBC Scotland examines options for the Tartan Army in Miami as Scotland wait to discover if their World Cup adventure will continue or not.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjdg05l2jngo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T11:39:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a1a3/live/a3d53380-704c-11f1-a361-118ef4c7eea7.jpg",
    "source": "BBC Sport"
   }
  ]
