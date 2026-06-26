@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T20:39:56+00:00",
+ "generated_at": "2026-06-26T20:40:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "75'",
-   "clock_sec": 4500.0,
-   "status_detail": "75'",
+   "clock": "76'",
+   "clock_sec": 4560.0,
+   "status_detail": "76'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 5.0,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-26T19:00:00Z",
    "stage": "Group stage",
    "group": "Group I",
-   "clock": "71'",
-   "clock_sec": 4260.0,
-   "status_detail": "71'",
+   "clock": "72'",
+   "clock_sec": 4320.0,
+   "status_detail": "72'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.22,
@@ -1262,7 +1262,7 @@
     "name": "Senegal",
     "flag": "🇸🇳",
     "owner": "Fergs",
-    "goals": 3
+    "goals": 4
    },
    "away": {
     "code": "IRQ",
@@ -3972,11 +3972,11 @@
      "w": 1,
      "d": 0,
      "l": 2,
-     "gf": 6,
+     "gf": 7,
      "ga": 6,
      "pts": 3,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
@@ -3990,10 +3990,10 @@
      "d": 0,
      "l": 3,
      "gf": 1,
-     "ga": 10,
+     "ga": 11,
      "pts": 0,
      "live": true,
-     "gd": -9,
+     "gd": -10,
      "name": "Iraq",
      "flag": "🇮🇶",
      "tier": 3,
