@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T16:56:15+00:00",
+ "generated_at": "2026-06-26T17:01:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2935,9 +2935,9 @@
    "stage": "Group stage",
    "group": "Group I",
    "odds": {
-    "home": 6.0,
-    "draw": 5.0,
-    "away": 1.45,
+    "home": 6.5,
+    "draw": 5.25,
+    "away": 1.43,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -5454,6 +5454,15 @@
  ],
  "news": [
   {
+   "headline": "Rice back in England training but James misses out again",
+   "desc": "Declan Rice returns to England training on Friday, but Reece James again misses out and remains a doubt to face Panama.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4kv0kkgeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T16:54:34Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/501e/live/afe77120-717c-11f1-a417-dfae8167aae6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why has Trump stayed away from the World Cup?",
    "desc": "Why has Donald Trump stayed away from the World Cup? And will he appear before the final?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0myxevn3emo?at_medium=RSS&at_campaign=rss",
@@ -5478,15 +5487,6 @@
    "published": "2026-06-26T12:29:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b733/live/33694200-714e-11f1-8836-a15622d321c0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "From 42% to 5.26% - how Scotland's World Cup hopes are fading",
-   "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T04:33:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5526,6 +5526,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "From 42% to 5.26% - how Scotland's World Cup hopes are fading",
+   "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T04:33:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Mbappe v Haaland: Who is more important for their country?",
    "desc": "Two of the greatest forwards in world football will go head-to-head at Boston Stadium on Friday, as France and Kylian Mbappe take on Norway and Erling Haaland.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c77yz87xdpno?at_medium=RSS&at_campaign=rss",
@@ -5550,15 +5559,6 @@
    "published": "2026-06-26T11:02:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "US interested in hosting 2038 World Cup - Giuliani",
-   "desc": "The United States could consider making a bid to host the men's 2038 World Cup, with Fifa considering expanding the tournament to 64 teams.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T08:42:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg",
    "source": "BBC Sport"
   }
  ]
