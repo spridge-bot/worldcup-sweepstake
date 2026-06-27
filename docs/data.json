@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T04:57:23+00:00",
+ "generated_at": "2026-06-27T04:57:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "90'+2'",
+   "clock": "90'+3'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+2'",
+   "status_detail": "90'+3'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.45,
@@ -1269,7 +1269,7 @@
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "goals": 4
+    "goals": 5
    }
   }
  ],
@@ -3904,11 +3904,11 @@
      "w": 1,
      "d": 2,
      "l": 0,
-     "gf": 5,
+     "gf": 6,
      "ga": 2,
      "pts": 5,
      "live": true,
-     "gd": 3,
+     "gd": 4,
      "name": "Belgium",
      "flag": "🇧🇪",
      "tier": 1,
@@ -3956,10 +3956,10 @@
      "d": 1,
      "l": 2,
      "gf": 4,
-     "ga": 9,
+     "ga": 10,
      "pts": 1,
      "live": true,
-     "gd": -5,
+     "gd": -6,
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
