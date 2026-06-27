@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T02:12:27+00:00",
+ "generated_at": "2026-06-27T02:17:33+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3304,6 +3304,25 @@
    }
   },
   {
+   "id": 760489,
+   "utc": "2026-06-29T20:30:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "owner": "Glancy",
+    "form": "LWWWW"
+   },
+   "away": {
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Fergs",
+    "form": "DWLWL"
+   }
+  },
+  {
    "id": 760488,
    "utc": "2026-06-30T01:00:00Z",
    "stage": "Round of 32",
@@ -3351,6 +3370,25 @@
     "flag": "🇳🇴",
     "owner": "Glancy",
     "form": "LWWDW"
+   }
+  },
+  {
+   "id": 760492,
+   "utc": "2026-06-30T21:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge",
+    "form": "WWWWL"
+   },
+   "away": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "owner": "Spridge",
+    "form": "DLWDL"
    }
   },
   {
@@ -4340,10 +4378,10 @@
     "owner": "Glancy"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group A/B/C/D/F",
-    "flag": "",
-    "owner": null
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Fergs"
    }
   },
   {
@@ -4409,10 +4447,10 @@
     "owner": "Spridge"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group C/D/F/G/H",
-    "flag": "",
-    "owner": null
+    "code": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "owner": "Spridge"
    }
   },
   {
@@ -5561,7 +5599,7 @@
    "headline": "Tuchel defends full-back selection after James injury",
    "desc": "Thomas Tuchel defends his full-back selections after confirming Reece James will miss the match against Panama through injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly70v1n22eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T23:46:38Z",
+   "published": "2026-06-27T02:12:58Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5fa9/live/1cb87300-71b7-11f1-90a3-353a1a876450.jpg",
    "source": "BBC Sport"
