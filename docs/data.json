@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T03:47:45+00:00",
+ "generated_at": "2026-06-27T03:48:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "45'+1'",
+   "clock": "45'+2'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+1'",
+   "status_detail": "45'+2'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.45,
@@ -5600,6 +5600,15 @@
  ],
  "news": [
   {
+   "headline": "How Cape Verde stunned World Cup to set up Argentina tie",
+   "desc": "How has a group of islands with just 525,000 inhabitants made it to the knockout rounds of the World Cup?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0mypzl7v2xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T03:41:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f88/live/e73f2050-71d6-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England qualify for World Cup knockout stage",
    "desc": "England's place in the knockout stages of the World Cup is confirmed by other results before they face Panama in their final group game on Saturday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
@@ -5654,15 +5663,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How are the TV picks decided for the World Cup's round of 32?",
-   "desc": "BBC Sport's Ask Me Anything team explains the complexities behind television selections for the 2026 World Cup's round of 32 fixtures",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T11:02:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5690,21 +5690,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How are the TV picks decided for the World Cup's round of 32?",
+   "desc": "BBC Sport's Ask Me Anything team explains the complexities behind television selections for the 2026 World Cup's round of 32 fixtures",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T11:02:14Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
    "desc": "Former Spain captain Cesar Azpilicueta explains why La Roja head coach Luis de la Fuente has the team and squad he needs for success in the next month.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-26T12:27:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b558/live/587c3de0-716c-11f1-a4f8-ed826651ef10.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Has VAR become a lottery at the World Cup?",
-   "desc": "After a week of strange decisions many supporters have been left scratching their heads with VAR.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T12:29:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b733/live/33694200-714e-11f1-8836-a15622d321c0.jpg",
    "source": "BBC Sport"
   }
  ]
