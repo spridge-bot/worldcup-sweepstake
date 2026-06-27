@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T01:42:22+00:00",
+ "generated_at": "2026-06-27T01:42:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T00:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "78'",
-   "clock_sec": 4680.0,
-   "status_detail": "78'",
+   "clock": "79'",
+   "clock_sec": 4740.0,
+   "status_detail": "79'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 2.65,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T00:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "77'",
-   "clock_sec": 4620.0,
-   "status_detail": "77'",
+   "clock": "78'",
+   "clock_sec": 4680.0,
+   "status_detail": "78'",
    "venue": "Estadio Akron",
    "odds": {
     "home": 7.5,
