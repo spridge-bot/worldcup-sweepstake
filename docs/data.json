@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T23:32:04+00:00",
+ "generated_at": "2026-06-27T23:32:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -27,7 +27,7 @@
     "RSA"
    ],
    "total": 14,
-   "today": 0,
+   "today": 3,
    "rank": 1,
    "movement": 0
   },
@@ -42,7 +42,7 @@
    "total": 11,
    "today": 0,
    "rank": 2,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 5,
    "rank": 2,
-   "movement": 7
+   "movement": 6
   },
   {
    "name": "Emily",
@@ -105,9 +105,9 @@
     "NZL"
    ],
    "total": 9,
-   "today": 0,
+   "today": 1,
    "rank": 6,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -144,9 +144,9 @@
     "QAT"
    ],
    "total": 7,
-   "today": 0,
+   "today": 5,
    "rank": 9,
-   "movement": -3
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -285,7 +285,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-27",
      "desc": "2nd in Group K (live)",
      "points": 3
     }
@@ -446,7 +446,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-24",
+     "date": "2026-06-27",
      "desc": "1st in Group K (live)",
      "points": 5
     }
@@ -957,7 +957,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-24",
+     "date": "2026-06-27",
      "desc": "3rd in Group K (live)",
      "points": 1
     }
@@ -1209,7 +1209,70 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760481,
+   "utc": "2026-06-27T23:30:00Z",
+   "stage": "Group stage",
+   "group": "Group K",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Hard Rock Stadium",
+   "odds": {
+    "home": 3.45,
+    "draw": 3.8,
+    "away": 2.05,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy",
+    "goals": 0
+   },
+   "away": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760482,
+   "utc": "2026-06-27T23:30:00Z",
+   "stage": "Group stage",
+   "group": "Group K",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Mercedes-Benz Stadium",
+   "odds": {
+    "home": 1.71,
+    "draw": 3.8,
+    "away": 5.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "owner": "Willo",
+    "goals": 0
+   },
+   "away": {
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "owner": "Pari",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760480,
@@ -3106,56 +3169,6 @@
  ],
  "upcoming": [
   {
-   "id": 760481,
-   "utc": "2026-06-27T23:30:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 4.2,
-    "draw": 4.0,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "form": "WWWWL"
-   },
-   "away": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "WDWWW"
-   }
-  },
-  {
-   "id": 760482,
-   "utc": "2026-06-27T23:30:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "odds": {
-    "home": 1.69,
-    "draw": 3.9,
-    "away": 5.25,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "form": "LDLDW"
-   },
-   "away": {
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "owner": "Pari",
-    "form": "LLLLW"
-   }
-  },
-  {
    "id": 760484,
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
@@ -4187,14 +4200,14 @@
     {
      "group": "Group K",
      "code": "COL",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 4,
      "ga": 1,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 3,
      "name": "Colombia",
      "flag": "🇨🇴",
@@ -4204,14 +4217,14 @@
     {
      "group": "Group K",
      "code": "POR",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 6,
      "ga": 1,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 5,
      "name": "Portugal",
      "flag": "🇵🇹",
@@ -4221,14 +4234,14 @@
     {
      "group": "Group K",
      "code": "COD",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 1,
      "ga": 2,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -1,
      "name": "DR Congo",
      "flag": "🇨🇩",
@@ -4238,14 +4251,14 @@
     {
      "group": "Group K",
      "code": "UZB",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 1,
      "ga": 8,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -7,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
