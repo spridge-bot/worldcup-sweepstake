@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T02:53:21+00:00",
+ "generated_at": "2026-06-27T02:58:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3234,9 +3234,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 15.0,
-    "draw": 7.5,
-    "away": 1.18,
+    "home": 16.0,
+    "draw": 8.0,
+    "away": 1.17,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -5587,6 +5587,15 @@
  ],
  "news": [
   {
+   "headline": "England qualify for World Cup knockout stage",
+   "desc": "England's place in the knockout stages of the World Cup is confirmed by other results before they face Panama in their final group game on Saturday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T02:47:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/867c/live/668f4290-70f1-11f1-be4e-5da6babab635.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rest your best or go strong? Norway face questions as Haaland left out",
    "desc": "Sensible choice or wrong decision? Norway leave Erling Haaland out as they make 10 changes against France - and lose heavily.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp3xd37np9po?at_medium=RSS&at_campaign=rss",
@@ -5629,15 +5638,6 @@
    "published": "2026-06-26T11:58:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Is a former England striker right about reasons for Scottish football's ills?",
-   "desc": "From undervalued broadcasting deals to unfulfilled potential, Ian Wright says he feels sorry for Scottish football fans - but is the former England striker right?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz9nnp2p1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T16:26:04Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a318/live/b25f0c60-7172-11f1-8e1d-bbbb1017d210.png",
    "source": "BBC Sport"
   },
   {
