@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T04:46:39+00:00",
+ "generated_at": "2026-06-27T04:47:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -45,6 +45,19 @@
    "movement": 0
   },
   {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 11,
+   "today": 5,
+   "rank": 3,
+   "movement": 6
+  },
+  {
    "name": "Glancy",
    "teams": [
     "GER",
@@ -80,21 +93,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 5,
-   "movement": -1
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 9,
-   "today": 3,
    "rank": 6,
-   "movement": 3
+   "movement": -2
   },
   {
    "name": "Willo",
@@ -106,8 +106,8 @@
    ],
    "total": 9,
    "today": 0,
-   "rank": 6,
-   "movement": -1
+   "rank": 7,
+   "movement": -2
   },
   {
    "name": "Spridge",
@@ -149,19 +149,6 @@
    "movement": -3
   },
   {
-   "name": "Pari",
-   "teams": [
-    "BEL",
-    "URU",
-    "TUN",
-    "UZB"
-   ],
-   "total": 6,
-   "today": 6,
-   "rank": 11,
-   "movement": 1
-  },
-  {
    "name": "Dubs",
    "teams": [
     "CRO",
@@ -171,8 +158,21 @@
    ],
    "total": 4,
    "today": 3,
-   "rank": 12,
-   "movement": -1
+   "rank": 11,
+   "movement": 0
+  },
+  {
+   "name": "Pari",
+   "teams": [
+    "BEL",
+    "URU",
+    "TUN",
+    "UZB"
+   ],
+   "total": 4,
+   "today": 4,
+   "rank": 11,
+   "movement": 1
   }
  ],
  "teams": {
@@ -374,12 +374,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group G (live)",
-     "points": 5
+     "desc": "2nd in Group G (live)",
+     "points": 3
     }
    ]
   },
@@ -759,12 +759,12 @@
    "lost": 0,
    "gf": 4,
    "ga": 2,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group G (live)",
-     "points": 3
+     "desc": "1st in Group G (live)",
+     "points": 5
     }
    ]
   },
@@ -1262,7 +1262,7 @@
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "BEL",
@@ -3899,23 +3899,6 @@
    "rows": [
     {
      "group": "Group G",
-     "code": "BEL",
-     "p": 3,
-     "w": 1,
-     "d": 2,
-     "l": 0,
-     "gf": 4,
-     "ga": 1,
-     "pts": 5,
-     "live": true,
-     "gd": 3,
-     "name": "Belgium",
-     "flag": "🇧🇪",
-     "tier": 1,
-     "owner": "Pari"
-    },
-    {
-     "group": "Group G",
      "code": "EGY",
      "p": 3,
      "w": 1,
@@ -3930,6 +3913,23 @@
      "flag": "🇪🇬",
      "tier": 2,
      "owner": "Brando"
+    },
+    {
+     "group": "Group G",
+     "code": "BEL",
+     "p": 3,
+     "w": 1,
+     "d": 2,
+     "l": 0,
+     "gf": 4,
+     "ga": 2,
+     "pts": 5,
+     "live": true,
+     "gd": 2,
+     "name": "Belgium",
+     "flag": "🇧🇪",
+     "tier": 1,
+     "owner": "Pari"
     },
     {
      "group": "Group G",
@@ -3955,11 +3955,11 @@
      "w": 0,
      "d": 1,
      "l": 2,
-     "gf": 3,
+     "gf": 4,
      "ga": 8,
      "pts": 1,
      "live": true,
-     "gd": -5,
+     "gd": -4,
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
@@ -5106,6 +5106,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Elijah Just",
+   "team": "NZL",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇳🇿",
+   "owner": "Willo"
+  },
+  {
    "player": "Ismael Saibari",
    "team": "MAR",
    "goals": 3,
@@ -5160,14 +5168,6 @@
    "assists": 0,
    "flag": "🇯🇵",
    "owner": "Jen"
-  },
-  {
-   "player": "Cody Gakpo",
-   "team": "NED",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇳🇱",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
