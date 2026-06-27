@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T21:51:25+00:00",
+ "generated_at": "2026-06-27T21:51:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -5592,6 +5592,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Rate the players in Panama v England",
+   "desc": "Rate the Panama and England players out of 10 below and come back after full-time to see the final ratings.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8r2l8y7ygko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T21:49:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4734/live/82b64810-7245-11f1-8e1d-bbbb1017d210.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Gakpo asks for privacy after loss of unborn son",
    "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
@@ -5679,15 +5688,6 @@
    "published": "2026-06-27T07:04:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cec1/live/3efbf500-71f2-11f1-9e90-3ff6dfd27be0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How Cape Verde stunned World Cup to set up Argentina tie",
-   "desc": "How has a group of islands with just 525,000 inhabitants made it to the knockout rounds of the World Cup?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0mypzl7v2xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T03:41:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f88/live/e73f2050-71d6-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
