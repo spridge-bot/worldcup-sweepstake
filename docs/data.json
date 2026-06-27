@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:09:57+00:00",
+ "generated_at": "2026-06-27T22:10:22+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "48'",
-   "clock_sec": 2880.0,
-   "status_detail": "48'",
+   "clock": "49'",
+   "clock_sec": 2940.0,
+   "status_detail": "49'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.8,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "50'",
-   "clock_sec": 3000.0,
-   "status_detail": "50'",
+   "clock": "51'",
+   "clock_sec": 3060.0,
+   "status_detail": "51'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 16.0,
