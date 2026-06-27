@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T05:04:42+00:00",
+ "generated_at": "2026-06-27T05:09:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3121,9 +3121,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.8,
-    "draw": 3.3,
-    "away": 5.5,
+    "home": 1.83,
+    "draw": 3.25,
+    "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3426,6 +3426,25 @@
     "flag": "🇧🇦",
     "owner": "Spridge",
     "form": "WLDDD"
+   }
+  },
+  {
+   "id": 760499,
+   "utc": "2026-07-03T18:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy",
+    "form": "DLWDL"
+   },
+   "away": {
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "owner": "Brando",
+    "form": "DWDLW"
    }
   },
   {
@@ -4528,10 +4547,10 @@
    "winner": null,
    "venue": "Lumen Field",
    "home": {
-    "code": null,
-    "name": "Group G Winner",
-    "flag": "",
-    "owner": null
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari"
    },
    "away": {
     "code": null,
@@ -4649,10 +4668,10 @@
     "owner": "Glancy"
    },
    "away": {
-    "code": null,
-    "name": "Group G 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "owner": "Brando"
    }
   },
   {
