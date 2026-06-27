@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T12:50:43+00:00",
+ "generated_at": "2026-06-27T12:55:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -4918,6 +4918,144 @@
    "away": {
     "code": null,
     "name": "Round of 32 15 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760510,
+   "utc": "2026-07-09T20:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Gillette Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 2 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760511,
+   "utc": "2026-07-10T19:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "SoFi Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 5 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 6 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760512,
+   "utc": "2026-07-11T21:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Hard Rock Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 3 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 4 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760513,
+   "utc": "2026-07-12T01:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "GEHA Field at Arrowhead Stadium",
+   "home": {
+    "code": null,
+    "name": "Round of 16 7 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Round of 16 8 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760514,
+   "utc": "2026-07-14T19:00:00Z",
+   "stage": "SEMI_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "AT&T Stadium",
+   "home": {
+    "code": null,
+    "name": "Quarterfinal 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Quarterfinal 2 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760515,
+   "utc": "2026-07-15T19:00:00Z",
+   "stage": "SEMI_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Mercedes-Benz Stadium",
+   "home": {
+    "code": null,
+    "name": "Quarterfinal 3 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Quarterfinal 4 Winner",
     "flag": "",
     "owner": null
    }
