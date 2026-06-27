@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:39:42+00:00",
+ "generated_at": "2026-06-27T22:40:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "80'",
-   "clock_sec": 4800.0,
-   "status_detail": "80'",
+   "clock": "81'",
+   "clock_sec": 4860.0,
+   "status_detail": "81'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 16.0,
@@ -3137,8 +3137,8 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.69,
-    "draw": 3.8,
+    "home": 1.67,
+    "draw": 3.9,
     "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
