@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T05:04:17+00:00",
+ "generated_at": "2026-06-27T05:04:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -378,7 +378,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group G (live)",
+     "desc": "1st in Group G",
      "points": 5
     }
    ]
@@ -598,17 +598,17 @@
    "fifa_rank": 20,
    "owner": "Spridge",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
-   "drawn": 2,
+   "drawn": 3,
    "lost": 0,
-   "gf": 2,
-   "ga": 2,
+   "gf": 3,
+   "ga": 3,
    "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group G (live)",
+     "desc": "3rd in Group G",
      "points": 1
     }
    ]
@@ -753,17 +753,17 @@
    "fifa_rank": 29,
    "owner": "Brando",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 1,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
-   "gf": 4,
-   "ga": 2,
+   "gf": 5,
+   "ga": 3,
    "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group G (live)",
+     "desc": "2nd in Group G",
      "points": 3
     }
    ]
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760476,
+   "date": "2026-06-27",
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "90'+9'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+9'",
-   "venue": "Lumen Field",
+   "note": "",
+   "home": {
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "IRN",
+    "name": "Iran",
+    "flag": "🇮🇷",
+    "tier": 2,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 2.45,
     "draw": 2.65,
     "away": 3.85,
     "over_under": 1.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "EGY",
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "goals": 1
-   },
-   "away": {
-    "code": "IRN",
-    "name": "Iran",
-    "flag": "🇮🇷",
-    "owner": "Spridge",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760477,
    "date": "2026-06-27",
@@ -3172,9 +3171,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 3.85,
-    "draw": 3.8,
-    "away": 1.91,
+    "home": 3.7,
+    "draw": 3.75,
+    "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3924,7 +3923,7 @@
      "gf": 5,
      "ga": 3,
      "pts": 5,
-     "live": true,
+     "live": false,
      "gd": 2,
      "name": "Egypt",
      "flag": "🇪🇬",
@@ -3941,7 +3940,7 @@
      "gf": 3,
      "ga": 3,
      "pts": 3,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Iran",
      "flag": "🇮🇷",
@@ -5262,6 +5261,24 @@
    "pts": 6
   },
   {
+   "code": "EGY",
+   "name": "Egypt",
+   "flag": "🇪🇬",
+   "owner": "Brando",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "flag": "🇮🇷",
+   "owner": "Spridge",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
    "code": "KSA",
    "name": "Saudi Arabia",
    "flag": "🇸🇦",
@@ -5397,15 +5414,6 @@
    "pts": 3
   },
   {
-   "code": "EGY",
-   "name": "Egypt",
-   "flag": "🇪🇬",
-   "owner": "Brando",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
    "code": "NED",
    "name": "Netherlands",
    "flag": "🇳🇱",
@@ -5464,15 +5472,6 @@
    "name": "Ghana",
    "flag": "🇬🇭",
    "owner": "George",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "IRN",
-   "name": "Iran",
-   "flag": "🇮🇷",
-   "owner": "Spridge",
    "yellow": 2,
    "red": 0,
    "pts": 2
