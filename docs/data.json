@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T08:49:23+00:00",
+ "generated_at": "2026-06-27T08:54:29+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -5642,6 +5642,15 @@
  ],
  "news": [
   {
+   "headline": "One night in Miami: The Scotsmen of the apocalypse",
+   "desc": "BBC Scotland's Scott Mullen paints the scene from Miami as Scotland's World Cup hopes fade.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c872lpl4e0do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T08:34:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6177/live/b1221490-71eb-11f1-9e90-3ff6dfd27be0.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How Cape Verde stunned World Cup to set up Argentina tie",
    "desc": "How has a group of islands with just 525,000 inhabitants made it to the knockout rounds of the World Cup?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0mypzl7v2xo?at_medium=RSS&at_campaign=rss",
@@ -5669,21 +5678,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Scotland's World Cup hopes at 0.07% - these are results they need",
-   "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T05:38:01Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Messi to start final Argentina group match on bench",
    "desc": "World Cup top scorer Lionel Messi will start Argentina's final group match against Jordan on the bench, manager Lionel Scaloni confirms.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-27T07:04:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cec1/live/3efbf500-71f2-11f1-9e90-3ff6dfd27be0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Scotland's World Cup hopes at 0.07% - these are results they need",
+   "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T05:38:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5738,15 +5747,6 @@
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How are the TV picks decided for the World Cup's round of 32?",
-   "desc": "BBC Sport's Ask Me Anything team explains the complexities behind television selections for the 2026 World Cup's round of 32 fixtures",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T11:02:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
