@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T02:01:49+00:00",
+ "generated_at": "2026-06-27T02:02:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -207,17 +207,17 @@
    "fifa_rank": 2,
    "owner": "Jen",
    "status": "alive",
-   "played": 2,
-   "won": 1,
+   "played": 3,
+   "won": 2,
    "drawn": 1,
    "lost": 0,
-   "gf": 4,
+   "gf": 5,
    "ga": 0,
    "total": 5,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group H (live)",
+     "desc": "1st in Group H",
      "points": 5
     }
    ]
@@ -506,17 +506,17 @@
    "fifa_rank": 16,
    "owner": "Pari",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 2,
-   "lost": 0,
+   "lost": 1,
    "gf": 3,
-   "ga": 3,
+   "ga": 4,
    "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group H (live)",
+     "desc": "3rd in Group H",
      "points": 1
     }
    ]
@@ -1129,7 +1129,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group H (live)",
+     "desc": "2nd in Group H",
      "points": 3
     }
    ]
@@ -1209,39 +1209,7 @@
    "events": []
   }
  },
- "live": [
-  {
-   "id": 760479,
-   "utc": "2026-06-27T00:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Estadio Akron",
-   "odds": {
-    "home": 7.5,
-    "draw": 4.1,
-    "away": 1.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "URU",
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "owner": "Pari",
-    "goals": 0
-   },
-   "away": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "goals": 1
-   }
-  }
- ],
+ "live": [],
  "results": [
   {
    "id": 760478,
@@ -1270,6 +1238,37 @@
     "home": 2.65,
     "draw": 3.35,
     "away": 2.7,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
+   "id": 760479,
+   "date": "2026-06-27",
+   "utc": "2026-06-27T00:00:00Z",
+   "stage": "Group stage",
+   "group": "Group H",
+   "note": "",
+   "home": {
+    "code": "URU",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "tier": 1,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "tier": 1,
+    "goals": 1,
+    "points": null
+   },
+   "odds": {
+    "home": 7.5,
+    "draw": 4.1,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    }
@@ -3905,7 +3904,7 @@
      "gf": 5,
      "ga": 0,
      "pts": 7,
-     "live": true,
+     "live": false,
      "gd": 5,
      "name": "Spain",
      "flag": "🇪🇸",
@@ -3939,7 +3938,7 @@
      "gf": 3,
      "ga": 4,
      "pts": 2,
-     "live": true,
+     "live": false,
      "gd": -1,
      "name": "Uruguay",
      "flag": "🇺🇾",
@@ -5133,6 +5132,15 @@
    "pts": 10
   },
   {
+   "code": "URU",
+   "name": "Uruguay",
+   "flag": "🇺🇾",
+   "owner": "Pari",
+   "yellow": 5,
+   "red": 1,
+   "pts": 9
+  },
+  {
    "code": "IRQ",
    "name": "Iraq",
    "flag": "🇮🇶",
@@ -5403,10 +5411,10 @@
    "pts": 2
   },
   {
-   "code": "URU",
-   "name": "Uruguay",
-   "flag": "🇺🇾",
-   "owner": "Pari",
+   "code": "ESP",
+   "name": "Spain",
+   "flag": "🇪🇸",
+   "owner": "Jen",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5506,15 +5514,6 @@
    "name": "Norway",
    "flag": "🇳🇴",
    "owner": "Glancy",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "ESP",
-   "name": "Spain",
-   "flag": "🇪🇸",
-   "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
