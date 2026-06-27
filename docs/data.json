@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T02:02:13+00:00",
+ "generated_at": "2026-06-27T02:07:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3377,6 +3377,25 @@
     "owner": "Spridge",
     "form": "WLDDD"
    }
+  },
+  {
+   "id": 760500,
+   "utc": "2026-07-03T22:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "owner": "Dubs",
+    "form": "DDDWW"
+   }
   }
  ],
  "groups": [
@@ -4499,10 +4518,10 @@
    "winner": null,
    "venue": "SoFi Stadium",
    "home": {
-    "code": null,
-    "name": "Group H Winner",
-    "flag": "",
-    "owner": null
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen"
    },
    "away": {
     "code": null,
@@ -4597,10 +4616,10 @@
     "owner": "Fergs"
    },
    "away": {
-    "code": null,
-    "name": "Group H 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "owner": "Dubs"
    }
   },
   {
