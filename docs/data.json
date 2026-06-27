@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:59:30+00:00",
+ "generated_at": "2026-06-27T22:59:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -263,7 +263,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group L (live)",
+     "desc": "1st in Group L",
      "points": 5
     }
    ]
@@ -414,17 +414,17 @@
    "fifa_rank": 11,
    "owner": "Dubs",
    "status": "alive",
-   "played": 2,
-   "won": 1,
+   "played": 3,
+   "won": 2,
    "drawn": 0,
    "lost": 1,
-   "gf": 3,
-   "ga": 4,
+   "gf": 5,
+   "ga": 5,
    "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group L (live)",
+     "desc": "2nd in Group L",
      "points": 3
     }
    ]
@@ -1142,17 +1142,17 @@
    "fifa_rank": 56,
    "owner": "George",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 1,
    "drawn": 1,
-   "lost": 0,
-   "gf": 1,
-   "ga": 0,
+   "lost": 1,
+   "gf": 2,
+   "ga": 2,
    "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group L (live)",
+     "desc": "3rd in Group L",
      "points": 1
     }
    ]
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760480,
+   "date": "2026-06-27",
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "Lincoln Financial Field",
+   "note": "",
+   "home": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
+   "away": {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
    "odds": {
     "home": 1.8,
     "draw": 3.3,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CRO",
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "goals": 2
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760485,
    "date": "2026-06-27",
@@ -4266,7 +4265,7 @@
      "gf": 5,
      "ga": 5,
      "pts": 6,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Croatia",
      "flag": "🇭🇷",
@@ -4283,7 +4282,7 @@
      "gf": 2,
      "ga": 2,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Ghana",
      "flag": "🇬🇭",
@@ -5401,6 +5400,15 @@
    "pts": 3
   },
   {
+   "code": "GHA",
+   "name": "Ghana",
+   "flag": "🇬🇭",
+   "owner": "George",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "NED",
    "name": "Netherlands",
    "flag": "🇳🇱",
@@ -5437,6 +5445,15 @@
    "pts": 2
   },
   {
+   "code": "CRO",
+   "name": "Croatia",
+   "flag": "🇭🇷",
+   "owner": "Dubs",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "COD",
    "name": "DR Congo",
    "flag": "🇨🇩",
@@ -5450,15 +5467,6 @@
    "name": "England",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "owner": "Brando",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "GHA",
-   "name": "Ghana",
-   "flag": "🇬🇭",
-   "owner": "George",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5495,15 +5503,6 @@
    "name": "Algeria",
    "flag": "🇩🇿",
    "owner": "Ruggy",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "CRO",
-   "name": "Croatia",
-   "flag": "🇭🇷",
-   "owner": "Dubs",
    "yellow": 1,
    "red": 0,
    "pts": 1
@@ -5611,7 +5610,7 @@
   },
   {
    "headline": "Where does Scotland's World Cup campaign leave Clarke?",
-   "desc": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they face group-stage exit?",
+   "desc": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they exit at the group stage?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-27T15:50:25Z",
    "type": "Story",
