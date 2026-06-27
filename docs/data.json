@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:55:47+00:00",
+ "generated_at": "2026-06-27T22:56:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -253,11 +253,11 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 2,
-   "won": 1,
+   "played": 3,
+   "won": 2,
    "drawn": 1,
    "lost": 0,
-   "gf": 4,
+   "gf": 6,
    "ga": 2,
    "total": 5,
    "events": [
@@ -845,12 +845,12 @@
    "fifa_rank": 34,
    "owner": "Dubs",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 0,
-   "lost": 2,
+   "lost": 3,
    "gf": 0,
-   "ga": 2,
+   "ga": 4,
    "total": 0,
    "events": []
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+3'",
+   "clock": "90'+5'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+3'",
+   "status_detail": "90'+5'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.8,
@@ -1240,40 +1240,40 @@
     "owner": "George",
     "goals": 1
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760485,
+   "date": "2026-06-27",
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "MetLife Stadium",
+   "note": "",
+   "home": {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "tier": 2,
+    "goals": 0,
+    "points": null
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 2,
+    "points": null
+   },
    "odds": {
     "home": 16.0,
     "draw": 8.5,
     "away": 1.15,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "PAN",
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "owner": "Dubs",
-    "goals": 0
-   },
-   "away": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760476,
    "date": "2026-06-27",
@@ -4249,7 +4249,7 @@
      "gf": 6,
      "ga": 2,
      "pts": 7,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -4300,7 +4300,7 @@
      "gf": 0,
      "ga": 4,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -4,
      "name": "Panama",
      "flag": "🇵🇦",
@@ -5302,6 +5302,15 @@
    "pts": 5
   },
   {
+   "code": "PAN",
+   "name": "Panama",
+   "flag": "🇵🇦",
+   "owner": "Dubs",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -5401,15 +5410,6 @@
    "pts": 3
   },
   {
-   "code": "PAN",
-   "name": "Panama",
-   "flag": "🇵🇦",
-   "owner": "Dubs",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
    "code": "SUI",
    "name": "Switzerland",
    "flag": "🇨🇭",
@@ -5441,6 +5441,15 @@
    "name": "DR Congo",
    "flag": "🇨🇩",
    "owner": "Willo",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "ENG",
+   "name": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5504,15 +5513,6 @@
    "name": "Czechia",
    "flag": "🇨🇿",
    "owner": "Emily",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "ENG",
-   "name": "England",
-   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "owner": "Brando",
    "yellow": 1,
    "red": 0,
    "pts": 1
