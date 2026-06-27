@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T21:01:35+00:00",
+ "generated_at": "2026-06-27T21:01:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -92,9 +92,9 @@
     "KSA"
    ],
    "total": 9,
-   "today": 3,
+   "today": 8,
    "rank": 6,
-   "movement": 3
+   "movement": 4
   },
   {
    "name": "Willo",
@@ -172,7 +172,7 @@
    "total": 4,
    "today": 3,
    "rank": 12,
-   "movement": -1
+   "movement": -2
   }
  ],
  "teams": {
@@ -262,7 +262,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-27",
      "desc": "1st in Group L (live)",
      "points": 5
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760485,
+   "utc": "2026-06-27T21:00:00Z",
+   "stage": "Group stage",
+   "group": "Group L",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "MetLife Stadium",
+   "odds": {
+    "home": 16.0,
+    "draw": 8.5,
+    "away": 1.15,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "owner": "Dubs",
+    "goals": 0
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760476,
@@ -3069,31 +3101,6 @@
    }
   },
   {
-   "id": 760485,
-   "utc": "2026-06-27T21:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "odds": {
-    "home": 16.0,
-    "draw": 8.5,
-    "away": 1.15,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "owner": "Dubs",
-    "form": "LLDWL"
-   },
-   "away": {
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "form": "DWWWL"
-   }
-  },
-  {
    "id": 760481,
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
@@ -4229,14 +4236,14 @@
     {
      "group": "Group L",
      "code": "ENG",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 4,
      "ga": 2,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 2,
      "name": "England",
      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -4280,14 +4287,14 @@
     {
      "group": "Group L",
      "code": "PAN",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 0,
      "ga": 2,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -2,
      "name": "Panama",
      "flag": "🇵🇦",
