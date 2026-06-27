@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T18:02:45+00:00",
+ "generated_at": "2026-06-27T18:07:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3121,9 +3121,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.87,
-    "draw": 3.2,
-    "away": 5.25,
+    "home": 1.8,
+    "draw": 3.25,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5651,6 +5651,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Gakpo asks for privacy after loss of unborn son",
+   "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T18:02:46Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/780e/live/bcc915b0-7249-11f1-a6b1-e743cbb66042.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Who are the Panama players England need to look out for?",
    "desc": "BBC Sport analyses the key players for Panama who will be aiming to cause a World Cup upset against England in their final Group L fixture.",
    "link": "https://www.bbc.co.uk/sport/articles/cr47wd2d3ero?at_medium=RSS&at_campaign=rss",
@@ -5738,15 +5747,6 @@
    "published": "2026-06-27T03:41:58Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f88/live/e73f2050-71d6-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-25T23:53:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
