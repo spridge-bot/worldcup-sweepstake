@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T04:58:38+00:00",
+ "generated_at": "2026-06-27T04:59:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -368,12 +368,12 @@
    "fifa_rank": 9,
    "owner": "Pari",
    "status": "alive",
-   "played": 2,
-   "won": 0,
+   "played": 3,
+   "won": 1,
    "drawn": 2,
    "lost": 0,
-   "gf": 1,
-   "ga": 1,
+   "gf": 6,
+   "ga": 2,
    "total": 5,
    "events": [
     {
@@ -1199,12 +1199,12 @@
    "fifa_rank": 59,
    "owner": "Willo",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 1,
-   "lost": 1,
-   "gf": 3,
-   "ga": 5,
+   "lost": 2,
+   "gf": 4,
+   "ga": 10,
    "total": 0,
    "events": []
   }
@@ -1240,40 +1240,40 @@
     "owner": "Spridge",
     "goals": 2
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760477,
+   "date": "2026-06-27",
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "BC Place",
+   "note": "",
+   "home": {
+    "code": "NZL",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "tier": 1,
+    "goals": 5,
+    "points": null
+   },
    "odds": {
     "home": 17.0,
     "draw": 8.5,
     "away": 1.17,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NZL",
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "owner": "Willo",
-    "goals": 1
-   },
-   "away": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "goals": 5
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760478,
    "date": "2026-06-27",
@@ -3907,7 +3907,7 @@
      "gf": 6,
      "ga": 2,
      "pts": 5,
-     "live": true,
+     "live": false,
      "gd": 4,
      "name": "Belgium",
      "flag": "🇧🇪",
@@ -3958,7 +3958,7 @@
      "gf": 4,
      "ga": 10,
      "pts": 1,
-     "live": true,
+     "live": false,
      "gd": -6,
      "name": "New Zealand",
      "flag": "🇳🇿",
@@ -5352,6 +5352,15 @@
    "pts": 4
   },
   {
+   "code": "NZL",
+   "name": "New Zealand",
+   "flag": "🇳🇿",
+   "owner": "Willo",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "POR",
    "name": "Portugal",
    "flag": "🇵🇹",
@@ -5464,15 +5473,6 @@
    "name": "Iran",
    "flag": "🇮🇷",
    "owner": "Spridge",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "NZL",
-   "name": "New Zealand",
-   "flag": "🇳🇿",
-   "owner": "Willo",
    "yellow": 2,
    "red": 0,
    "pts": 2
