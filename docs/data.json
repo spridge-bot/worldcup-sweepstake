@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:47:19+00:00",
+ "generated_at": "2026-06-27T22:47:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "87'",
-   "clock_sec": 5220.0,
-   "status_detail": "87'",
+   "clock": "88'",
+   "clock_sec": 5280.0,
+   "status_detail": "88'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 16.0,
@@ -5610,15 +5610,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who are the Panama players England need to look out for?",
-   "desc": "BBC Sport analyses the key players for Panama who will be aiming to cause a World Cup upset against England in their final Group L fixture.",
-   "link": "https://www.bbc.co.uk/sport/articles/cr47wd2d3ero?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T13:37:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/40c1/live/f0420f10-722a-11f1-b6b6-39a51194ddf9.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where does Scotland's World Cup campaign leave Clarke?",
    "desc": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they face group-stage exit?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
@@ -5688,6 +5679,15 @@
    "published": "2026-06-27T07:04:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cec1/live/3efbf500-71f2-11f1-9e90-3ff6dfd27be0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-25T23:53:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
