@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T02:38:02+00:00",
+ "generated_at": "2026-06-27T02:43:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3160,8 +3160,8 @@
    "group": "Group K",
    "odds": {
     "home": 4.0,
-    "draw": 3.8,
-    "away": 1.91,
+    "draw": 3.9,
+    "away": 1.87,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5605,15 +5605,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Rainbow flags await Egypt and Iran at awkward Pride Match",
-   "desc": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T11:20:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bef0/live/ea2a83e0-713b-11f1-be59-4b2938e11145.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
@@ -5650,15 +5641,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
-   "desc": "Former Spain captain Cesar Azpilicueta explains why La Roja head coach Luis de la Fuente has the team and squad he needs for success in the next month.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T12:27:43Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b558/live/587c3de0-716c-11f1-a4f8-ed826651ef10.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "How are the TV picks decided for the World Cup's round of 32?",
    "desc": "BBC Sport's Ask Me Anything team explains the complexities behind television selections for the 2026 World Cup's round of 32 fixtures",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss",
@@ -5692,6 +5674,24 @@
    "published": "2026-06-24T02:21:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/363f/live/3639d9d0-6f6f-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
+   "desc": "Former Spain captain Cesar Azpilicueta explains why La Roja head coach Luis de la Fuente has the team and squad he needs for success in the next month.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T12:27:43Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b558/live/587c3de0-716c-11f1-a4f8-ed826651ef10.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Has VAR become a lottery at the World Cup?",
+   "desc": "After a week of strange decisions many supporters have been left scratching their heads with VAR.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-26T12:29:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b733/live/33694200-714e-11f1-8836-a15622d321c0.jpg",
    "source": "BBC Sport"
   }
  ]
