@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T08:34:03+00:00",
+ "generated_at": "2026-06-27T08:39:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3121,9 +3121,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.87,
-    "draw": 3.2,
-    "away": 5.0,
+    "home": 1.91,
+    "draw": 3.15,
+    "away": 4.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3320,7 +3320,13 @@
    "utc": "2026-06-29T20:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.41,
+    "draw": 4.9,
+    "away": 8.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Germany",
     "flag": "🇩🇪",
@@ -3433,7 +3439,13 @@
    "utc": "2026-07-03T18:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 3.25,
+    "draw": 3.0,
+    "away": 2.5,
+    "over_under": 1.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Australia",
     "flag": "🇦🇺",
