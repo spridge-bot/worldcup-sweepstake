@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T21:01:52+00:00",
+ "generated_at": "2026-06-27T21:02:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -40,9 +40,9 @@
     "GHA"
    ],
    "total": 12,
-   "today": 0,
+   "today": 3,
    "rank": 2,
-   "movement": 0
+   "movement": 2
   },
   {
    "name": "Glancy",
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 0,
    "rank": 3,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -81,7 +81,7 @@
    "total": 10,
    "today": 0,
    "rank": 5,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -107,7 +107,7 @@
    "total": 9,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Spridge",
@@ -159,7 +159,7 @@
    "total": 6,
    "today": 6,
    "rank": 11,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -170,9 +170,9 @@
     "CPV"
    ],
    "total": 4,
-   "today": 3,
+   "today": 4,
    "rank": 12,
-   "movement": -2
+   "movement": -1
   }
  ],
  "teams": {
@@ -423,7 +423,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-27",
      "desc": "3rd in Group L (live)",
      "points": 1
     }
@@ -1151,7 +1151,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-27",
      "desc": "2nd in Group L (live)",
      "points": 3
     }
@@ -1210,6 +1210,37 @@
   }
  },
  "live": [
+  {
+   "id": 760480,
+   "utc": "2026-06-27T21:00:00Z",
+   "stage": "Group stage",
+   "group": "Group L",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Lincoln Financial Field",
+   "odds": {
+    "home": 1.8,
+    "draw": 3.3,
+    "away": 5.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "owner": "Dubs",
+    "goals": 0
+   },
+   "away": {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "owner": "George",
+    "goals": 0
+   }
+  },
   {
    "id": 760485,
    "utc": "2026-06-27T21:00:00Z",
@@ -3076,31 +3107,6 @@
  ],
  "upcoming": [
   {
-   "id": 760480,
-   "utc": "2026-06-27T21:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "odds": {
-    "home": 1.8,
-    "draw": 3.3,
-    "away": 5.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "form": "WLWLL"
-   },
-   "away": {
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "form": "DWDLL"
-   }
-  },
-  {
    "id": 760481,
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
@@ -4253,14 +4259,14 @@
     {
      "group": "Group L",
      "code": "GHA",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 1,
+     "d": 2,
      "l": 0,
      "gf": 1,
      "ga": 0,
-     "pts": 4,
-     "live": false,
+     "pts": 5,
+     "live": true,
      "gd": 1,
      "name": "Ghana",
      "flag": "🇬🇭",
@@ -4270,14 +4276,14 @@
     {
      "group": "Group L",
      "code": "CRO",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 3,
      "ga": 4,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": -1,
      "name": "Croatia",
      "flag": "🇭🇷",
