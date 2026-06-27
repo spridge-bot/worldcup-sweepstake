@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T04:03:56+00:00",
+ "generated_at": "2026-06-27T04:04:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3434,7 +3434,13 @@
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.15,
+    "draw": 8.0,
+    "away": 17.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Argentina",
     "flag": "🇦🇷",
