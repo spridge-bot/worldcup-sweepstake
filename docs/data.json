@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T23:57:07+00:00",
+ "generated_at": "2026-06-27T23:57:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "25'",
-   "clock_sec": 1500.0,
-   "status_detail": "25'",
+   "clock": "26'",
+   "clock_sec": 1560.0,
+   "status_detail": "26'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 3.45,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "25'",
-   "clock_sec": 1500.0,
-   "status_detail": "25'",
+   "clock": "26'",
+   "clock_sec": 1560.0,
+   "status_detail": "26'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.71,
@@ -5619,7 +5619,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-27T23:37:18Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/281f/live/cb817fe0-7283-11f1-ad8e-b511163b3cf4.jpg",
    "source": "BBC Sport"
   },
   {
