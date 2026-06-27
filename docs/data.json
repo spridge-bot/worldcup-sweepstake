@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T03:06:21+00:00",
+ "generated_at": "2026-06-27T03:06:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -97,19 +97,6 @@
    "movement": -2
   },
   {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 10,
-   "today": 3,
-   "rank": 6,
-   "movement": 0
-  },
-  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -119,8 +106,21 @@
    ],
    "total": 9,
    "today": 0,
+   "rank": 7,
+   "movement": -2
+  },
+  {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 8,
+   "today": 1,
    "rank": 8,
-   "movement": -3
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -169,10 +169,10 @@
     "TUN",
     "UZB"
    ],
-   "total": 2,
-   "today": 2,
-   "rank": 12,
-   "movement": 0
+   "total": 4,
+   "today": 4,
+   "rank": 11,
+   "movement": 1
   }
  ],
  "teams": {
@@ -374,12 +374,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 1,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group G (live)",
-     "points": 1
+     "desc": "2nd in Group G (live)",
+     "points": 3
     }
    ]
   },
@@ -604,12 +604,12 @@
    "lost": 0,
    "gf": 2,
    "ga": 2,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group G (live)",
-     "points": 3
+     "desc": "3rd in Group G (live)",
+     "points": 1
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "5'",
-   "clock_sec": 300.0,
-   "status_detail": "5'",
+   "clock": "6'",
+   "clock_sec": 360.0,
+   "status_detail": "6'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.45,
@@ -1231,7 +1231,7 @@
     "name": "Egypt",
     "flag": "🇪🇬",
     "owner": "Brando",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "IRN",
@@ -3895,35 +3895,18 @@
      "group": "Group G",
      "code": "EGY",
      "p": 3,
-     "w": 1,
-     "d": 2,
+     "w": 2,
+     "d": 1,
      "l": 0,
-     "gf": 4,
+     "gf": 5,
      "ga": 2,
-     "pts": 5,
+     "pts": 7,
      "live": true,
-     "gd": 2,
+     "gd": 3,
      "name": "Egypt",
      "flag": "🇪🇬",
      "tier": 2,
      "owner": "Brando"
-    },
-    {
-     "group": "Group G",
-     "code": "IRN",
-     "p": 3,
-     "w": 0,
-     "d": 3,
-     "l": 0,
-     "gf": 2,
-     "ga": 2,
-     "pts": 3,
-     "live": true,
-     "gd": 0,
-     "name": "Iran",
-     "flag": "🇮🇷",
-     "tier": 2,
-     "owner": "Spridge"
     },
     {
      "group": "Group G",
@@ -3941,6 +3924,23 @@
      "flag": "🇧🇪",
      "tier": 1,
      "owner": "Pari"
+    },
+    {
+     "group": "Group G",
+     "code": "IRN",
+     "p": 3,
+     "w": 0,
+     "d": 2,
+     "l": 1,
+     "gf": 2,
+     "ga": 3,
+     "pts": 2,
+     "live": true,
+     "gd": -1,
+     "name": "Iran",
+     "flag": "🇮🇷",
+     "tier": 2,
+     "owner": "Spridge"
     },
     {
      "group": "Group G",
