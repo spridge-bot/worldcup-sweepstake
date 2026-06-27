@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T23:45:48+00:00",
+ "generated_at": "2026-06-27T23:46:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -5614,6 +5614,15 @@
  ],
  "news": [
   {
+   "headline": "Clarke steps down as Scotland manager after World Cup exit",
+   "desc": "Steve Clarke resigns as Scotland head coach moments after their exit from the World Cup is confirmed.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T23:37:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Scotland's elimination from World Cup confirmed",
    "desc": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
@@ -5641,21 +5650,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Gakpo asks for privacy after loss of unborn son",
-   "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T18:02:46Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/780e/live/bcc915b0-7249-11f1-a6b1-e743cbb66042.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where does Scotland's World Cup campaign leave Clarke?",
    "desc": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they exit at the group stage?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-27T15:50:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0d91/live/ff84fe40-721d-11f1-8078-cdcf6dd43d3c.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Gakpo asks for privacy after loss of unborn son",
+   "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T18:02:46Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/780e/live/bcc915b0-7249-11f1-a6b1-e743cbb66042.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5692,15 +5701,6 @@
    "published": "2026-06-27T04:04:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/146c/live/3a4596b0-71e3-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Messi to start final Argentina group match on bench",
-   "desc": "World Cup top scorer Lionel Messi will start Argentina's final group match against Jordan on the bench, manager Lionel Scaloni confirms.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T07:04:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cec1/live/3efbf500-71f2-11f1-9e90-3ff6dfd27be0.jpg",
    "source": "BBC Sport"
   },
   {
