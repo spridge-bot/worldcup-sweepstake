@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T00:47:56+00:00",
+ "generated_at": "2026-06-27T00:48:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T00:00:00Z",
    "stage": "Group stage",
    "group": "Group H",
-   "clock": "45'+1'",
+   "clock": "45'+2'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+1'",
+   "status_detail": "45'+2'",
    "venue": "Estadio Akron",
    "odds": {
     "home": 7.5,
@@ -3135,9 +3135,9 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 14.0,
+    "home": 15.0,
     "draw": 7.5,
-    "away": 1.19,
+    "away": 1.18,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3185,9 +3185,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.74,
-    "draw": 4.0,
-    "away": 4.5,
+    "home": 1.71,
+    "draw": 4.1,
+    "away": 4.6,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
