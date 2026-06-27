@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T05:14:55+00:00",
+ "generated_at": "2026-06-27T05:20:01+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3121,8 +3121,8 @@
    "stage": "Group stage",
    "group": "Group L",
    "odds": {
-    "home": 1.83,
-    "draw": 3.25,
+    "home": 1.87,
+    "draw": 3.2,
     "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3147,8 +3147,8 @@
    "group": "Group L",
    "odds": {
     "home": 16.0,
-    "draw": 8.0,
-    "away": 1.17,
+    "draw": 8.5,
+    "away": 1.15,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -5672,7 +5672,7 @@
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T21:21:52Z",
+   "published": "2026-06-27T05:15:01Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
    "source": "BBC Sport"
@@ -5699,7 +5699,7 @@
    "headline": "What each team need to reach World Cup knockouts",
    "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-26T21:21:52Z",
+   "published": "2026-06-27T05:15:01Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
    "source": "BBC Sport"
