@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T00:02:16+00:00",
+ "generated_at": "2026-06-27T00:02:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -159,7 +159,7 @@
    "total": 4,
    "today": 3,
    "rank": 11,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -170,7 +170,7 @@
     "CPV"
    ],
    "total": 2,
-   "today": 0,
+   "today": 1,
    "rank": 12,
    "movement": -1
   }
@@ -1128,7 +1128,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-21",
+     "date": "2026-06-27",
      "desc": "3rd in Group H (live)",
      "points": 1
     }
@@ -1210,6 +1210,37 @@
   }
  },
  "live": [
+  {
+   "id": 760478,
+   "utc": "2026-06-27T00:00:00Z",
+   "stage": "Group stage",
+   "group": "Group H",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "NRG Stadium",
+   "odds": {
+    "home": 2.65,
+    "draw": 3.35,
+    "away": 2.7,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "owner": "Dubs",
+    "goals": 0
+   },
+   "away": {
+    "code": "KSA",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "owner": "Brando",
+    "goals": 0
+   }
+  },
   {
    "id": 760479,
    "utc": "2026-06-27T00:00:00Z",
@@ -3024,31 +3055,6 @@
  ],
  "upcoming": [
   {
-   "id": 760478,
-   "utc": "2026-06-27T00:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "odds": {
-    "home": 2.65,
-    "draw": 3.35,
-    "away": 2.7,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "form": null
-   },
-   "away": {
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "owner": "Brando",
-    "form": null
-   }
-  },
-  {
    "id": 760476,
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
@@ -3926,14 +3932,14 @@
     {
      "group": "Group H",
      "code": "CPV",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 2,
+     "d": 3,
      "l": 0,
      "gf": 2,
      "ga": 2,
-     "pts": 2,
-     "live": false,
+     "pts": 3,
+     "live": true,
      "gd": 0,
      "name": "Cabo Verde",
      "flag": "🇨🇻",
@@ -3943,14 +3949,14 @@
     {
      "group": "Group H",
      "code": "KSA",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 1,
      "ga": 5,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -4,
      "name": "Saudi Arabia",
      "flag": "🇸🇦",
