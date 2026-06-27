@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T07:02:12+00:00",
+ "generated_at": "2026-06-27T07:07:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3196,8 +3196,8 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 1.65,
-    "draw": 4.1,
+    "home": 1.62,
+    "draw": 4.2,
     "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5651,15 +5651,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Spain's Pino may miss rest of World Cup",
-   "desc": "Spain winger Yeremy Pino may miss the rest of the World Cup with a suspected broken collarbone.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c77y384r670o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T04:43:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/915c/live/b5b24180-71df-11f1-8105-a94310744a25.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Scotland's World Cup hopes at 0.07% - these are results they need",
    "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
@@ -5669,12 +5660,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What each team need to reach World Cup knockouts",
-   "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T05:15:01Z",
+   "headline": "Messi to start final Argentina group match on bench",
+   "desc": "World Cup top scorer Lionel Messi will start Argentina's final group match against Jordan on the bench, manager Lionel Scaloni confirms.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T07:04:02Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ee0/live/79527380-7113-11f1-b168-6bdcc3cc7b1b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cec1/live/3efbf500-71f2-11f1-9e90-3ff6dfd27be0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Spain's Pino may miss rest of World Cup",
+   "desc": "Spain winger Yeremy Pino may miss the rest of the World Cup with a suspected broken collarbone.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c77y384r670o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T04:43:03Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/915c/live/b5b24180-71df-11f1-8105-a94310744a25.jpg",
    "source": "BBC Sport"
   },
   {
