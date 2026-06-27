@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:21:16+00:00",
+ "generated_at": "2026-06-27T22:21:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -84,6 +84,19 @@
    "movement": 0
   },
   {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 9,
+   "today": 8,
+   "rank": 6,
+   "movement": 4
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -97,19 +110,6 @@
    "movement": -2
   },
   {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 8,
-   "today": 8,
-   "rank": 7,
-   "movement": 4
-  },
-  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -119,21 +119,8 @@
    ],
    "total": 8,
    "today": 1,
-   "rank": 7,
-   "movement": -1
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 7,
-   "today": 6,
-   "rank": 9,
-   "movement": 1
+   "rank": 8,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -162,6 +149,19 @@
    "movement": -3
   },
   {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 6,
+   "today": 6,
+   "rank": 11,
+   "movement": 0
+  },
+  {
    "name": "Pari",
    "teams": [
     "BEL",
@@ -171,8 +171,8 @@
    ],
    "total": 6,
    "today": 6,
-   "rank": 12,
-   "movement": -1
+   "rank": 11,
+   "movement": 0
   }
  ],
  "teams": {
@@ -259,12 +259,12 @@
    "lost": 0,
    "gf": 4,
    "ga": 2,
-   "total": 3,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group L (live)",
-     "points": 3
+     "desc": "1st in Group L (live)",
+     "points": 5
     }
    ]
   },
@@ -420,12 +420,12 @@
    "lost": 1,
    "gf": 3,
    "ga": 4,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group L (live)",
-     "points": 5
+     "desc": "2nd in Group L (live)",
+     "points": 3
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "59'",
-   "clock_sec": 3540.0,
-   "status_detail": "59'",
+   "clock": "60'",
+   "clock_sec": 3600.0,
+   "status_detail": "60'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.8,
@@ -1269,7 +1269,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -4241,6 +4241,23 @@
    "rows": [
     {
      "group": "Group L",
+     "code": "ENG",
+     "p": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gf": 5,
+     "ga": 2,
+     "pts": 7,
+     "live": true,
+     "gd": 3,
+     "name": "England",
+     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "tier": 1,
+     "owner": "Brando"
+    },
+    {
+     "group": "Group L",
      "code": "CRO",
      "p": 3,
      "w": 2,
@@ -4255,23 +4272,6 @@
      "flag": "🇭🇷",
      "tier": 1,
      "owner": "Dubs"
-    },
-    {
-     "group": "Group L",
-     "code": "ENG",
-     "p": 3,
-     "w": 1,
-     "d": 2,
-     "l": 0,
-     "gf": 4,
-     "ga": 2,
-     "pts": 5,
-     "live": true,
-     "gd": 2,
-     "name": "England",
-     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "tier": 1,
-     "owner": "Brando"
     },
     {
      "group": "Group L",
@@ -4295,13 +4295,13 @@
      "code": "PAN",
      "p": 3,
      "w": 0,
-     "d": 1,
-     "l": 2,
+     "d": 0,
+     "l": 3,
      "gf": 0,
-     "ga": 2,
-     "pts": 1,
+     "ga": 3,
+     "pts": 0,
      "live": true,
-     "gd": -2,
+     "gd": -3,
      "name": "Panama",
      "flag": "🇵🇦",
      "tier": 2,
