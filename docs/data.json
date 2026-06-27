@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T23:05:02+00:00",
+ "generated_at": "2026-06-27T23:10:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3111,9 +3111,9 @@
    "stage": "Group stage",
    "group": "Group K",
    "odds": {
-    "home": 4.1,
-    "draw": 3.95,
-    "away": 1.83,
+    "home": 4.2,
+    "draw": 4.0,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3161,9 +3161,9 @@
    "stage": "Group stage",
    "group": "Group J",
    "odds": {
-    "home": 3.65,
-    "draw": 2.0,
-    "away": 3.75,
+    "home": 3.55,
+    "draw": 2.05,
+    "away": 3.7,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -4599,10 +4599,10 @@
     "owner": null
    },
    "away": {
-    "code": null,
-    "name": "Group L 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "owner": "Dubs"
    }
   },
   {
@@ -4691,10 +4691,10 @@
     "owner": null
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group D/E/I/J/L",
-    "flag": "",
-    "owner": null
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "owner": "George"
    }
   },
   {
