@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T04:47:53+00:00",
+ "generated_at": "2026-06-27T04:48:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "83'",
-   "clock_sec": 4980.0,
-   "status_detail": "83'",
+   "clock": "84'",
+   "clock_sec": 5040.0,
+   "status_detail": "84'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.45,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T03:00:00Z",
    "stage": "Group stage",
    "group": "Group G",
-   "clock": "85'",
-   "clock_sec": 5100.0,
-   "status_detail": "85'",
+   "clock": "86'",
+   "clock_sec": 5160.0,
+   "status_detail": "86'",
    "venue": "BC Place",
    "odds": {
     "home": 17.0,
@@ -5620,7 +5620,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-27T04:04:40Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/358a/live/a6707380-71db-11f1-8769-bb5e27e95538.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/146c/live/3a4596b0-71e3-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
