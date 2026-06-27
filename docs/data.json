@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T03:02:11+00:00",
+ "generated_at": "2026-06-27T03:02:36+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -170,9 +170,9 @@
     "UZB"
    ],
    "total": 2,
-   "today": 1,
+   "today": 2,
    "rank": 12,
-   "movement": -1
+   "movement": 0
   }
  ],
  "teams": {
@@ -377,7 +377,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-21",
+     "date": "2026-06-27",
      "desc": "3rd in Group G (live)",
      "points": 1
     }
@@ -1238,6 +1238,37 @@
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
+    "goals": 0
+   }
+  },
+  {
+   "id": 760477,
+   "utc": "2026-06-27T03:00:00Z",
+   "stage": "Group stage",
+   "group": "Group G",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 17.0,
+    "draw": 8.5,
+    "away": 1.17,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "NZL",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "owner": "Willo",
+    "goals": 0
+   },
+   "away": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
     "goals": 0
    }
   }
@@ -3086,31 +3117,6 @@
  ],
  "upcoming": [
   {
-   "id": 760477,
-   "utc": "2026-06-27T03:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "odds": {
-    "home": 17.0,
-    "draw": 8.5,
-    "away": 1.17,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "owner": "Willo",
-    "form": null
-   },
-   "away": {
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "form": null
-   }
-  },
-  {
    "id": 760480,
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
@@ -3922,14 +3928,14 @@
     {
      "group": "Group G",
      "code": "BEL",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 2,
+     "d": 3,
      "l": 0,
      "gf": 1,
      "ga": 1,
-     "pts": 2,
-     "live": false,
+     "pts": 3,
+     "live": true,
      "gd": 0,
      "name": "Belgium",
      "flag": "🇧🇪",
@@ -3939,14 +3945,14 @@
     {
      "group": "Group G",
      "code": "NZL",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
      "gf": 3,
      "ga": 5,
-     "pts": 1,
-     "live": false,
+     "pts": 2,
+     "live": true,
      "gd": -2,
      "name": "New Zealand",
      "flag": "🇳🇿",
