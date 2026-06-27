@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:26:43+00:00",
+ "generated_at": "2026-06-27T22:27:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "67'",
-   "clock_sec": 4020.0,
-   "status_detail": "67'",
+   "clock": "68'",
+   "clock_sec": 4080.0,
+   "status_detail": "68'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 16.0,
@@ -5091,6 +5091,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Harry Kane",
+   "team": "ENG",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
+  },
+  {
    "player": "Ismael Saibari",
    "team": "MAR",
    "goals": 3,
@@ -5137,14 +5145,6 @@
    "assists": 0,
    "flag": "🇸🇪",
    "owner": "Spridge"
-  },
-  {
-   "player": "Ayase Ueda",
-   "team": "JPN",
-   "goals": 2,
-   "assists": 0,
-   "flag": "🇯🇵",
-   "owner": "Jen"
   }
  ],
  "fairplay": [
