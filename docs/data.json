@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T23:43:42+00:00",
+ "generated_at": "2026-06-27T23:44:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "11'",
-   "clock_sec": 660.0,
-   "status_detail": "11'",
+   "clock": "12'",
+   "clock_sec": 720.0,
+   "status_detail": "12'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.71,
@@ -5617,7 +5617,7 @@
    "headline": "Scotland's elimination from World Cup confirmed",
    "desc": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T22:58:57Z",
+   "published": "2026-06-27T23:43:07Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84b9/live/16c604b0-71c8-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
