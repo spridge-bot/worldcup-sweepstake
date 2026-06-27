@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:34:37+00:00",
+ "generated_at": "2026-06-27T22:35:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 12,
+   "today": 3,
+   "rank": 2,
+   "movement": 2
+  },
+  {
    "name": "Glancy",
    "teams": [
     "GER",
@@ -41,8 +54,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -54,8 +67,8 @@
    ],
    "total": 11,
    "today": 5,
-   "rank": 2,
-   "movement": 7
+   "rank": 3,
+   "movement": 6
   },
   {
    "name": "Emily",
@@ -67,21 +80,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 4,
-   "movement": -1
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 10,
-   "today": 1,
-   "rank": 4,
-   "movement": 0
+   "rank": 5,
+   "movement": -2
   },
   {
    "name": "Brando",
@@ -149,19 +149,6 @@
    "movement": -3
   },
   {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 6,
-   "today": 6,
-   "rank": 11,
-   "movement": 0
-  },
-  {
    "name": "Pari",
    "teams": [
     "BEL",
@@ -173,6 +160,19 @@
    "today": 6,
    "rank": 11,
    "movement": 0
+  },
+  {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 4,
+   "today": 4,
+   "rank": 12,
+   "movement": -1
   }
  ],
  "teams": {
@@ -420,12 +420,12 @@
    "lost": 1,
    "gf": 3,
    "ga": 4,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group L (live)",
-     "points": 3
+     "desc": "3rd in Group L (live)",
+     "points": 1
     }
    ]
   },
@@ -1148,12 +1148,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 0,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group L (live)",
-     "points": 1
+     "desc": "2nd in Group L (live)",
+     "points": 3
     }
    ]
   },
@@ -1238,7 +1238,7 @@
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "goals": 0
+    "goals": 1
    }
   },
   {
@@ -4258,37 +4258,37 @@
     },
     {
      "group": "Group L",
-     "code": "CRO",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 4,
-     "ga": 4,
-     "pts": 6,
-     "live": true,
-     "gd": 0,
-     "name": "Croatia",
-     "flag": "🇭🇷",
-     "tier": 1,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group L",
      "code": "GHA",
      "p": 3,
      "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 1,
+     "d": 2,
+     "l": 0,
+     "gf": 2,
      "ga": 1,
-     "pts": 4,
+     "pts": 5,
      "live": true,
-     "gd": 0,
+     "gd": 1,
      "name": "Ghana",
      "flag": "🇬🇭",
      "tier": 3,
      "owner": "George"
+    },
+    {
+     "group": "Group L",
+     "code": "CRO",
+     "p": 3,
+     "w": 1,
+     "d": 1,
+     "l": 1,
+     "gf": 4,
+     "ga": 5,
+     "pts": 4,
+     "live": true,
+     "gd": -1,
+     "name": "Croatia",
+     "flag": "🇭🇷",
+     "tier": 1,
+     "owner": "Dubs"
     },
     {
      "group": "Group L",
