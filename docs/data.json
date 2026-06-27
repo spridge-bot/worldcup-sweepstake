@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T22:59:55+00:00",
+ "generated_at": "2026-06-27T23:05:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3356,6 +3356,25 @@
    }
   },
   {
+   "id": 760491,
+   "utc": "2026-07-01T01:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Dipen",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "owner": "Brando",
+    "form": "WDLWW"
+   }
+  },
+  {
    "id": 760494,
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
@@ -4465,10 +4484,10 @@
     "owner": "Dipen"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group C/E/F/H/I",
-    "flag": "",
-    "owner": null
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "owner": "Brando"
    }
   },
   {
@@ -4482,10 +4501,10 @@
    "winner": null,
    "venue": "Mercedes-Benz Stadium",
    "home": {
-    "code": null,
-    "name": "Group L Winner",
-    "flag": "",
-    "owner": null
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando"
    },
    "away": {
     "code": null,
@@ -5582,10 +5601,19 @@
  ],
  "news": [
   {
+   "headline": "Scotland's elimination from World Cup confirmed",
+   "desc": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T22:58:57Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84b9/live/16c604b0-71c8-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Who could England face in last 32 after qualifying for next round?",
-   "desc": "England's place in the knockout stages of the World Cup is confirmed by other results before they face Panama in their final group game on Saturday.",
+   "desc": "England secure top spot in group L and a World Cup last 32 tie against a third-placed team with a 2-0 win over Panama on Saturday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T02:47:52Z",
+   "published": "2026-06-27T23:03:28Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/867c/live/668f4290-70f1-11f1-be4e-5da6babab635.jpg",
    "source": "BBC Sport"
@@ -5618,15 +5646,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Why England should be wary of Panama's hybrid tactics",
-   "desc": "Panama's results do not paint a true picture of their performances in the World Cup so far - so what can England expect from them?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly02gv3yd8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T09:22:57Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f5e/live/a4825700-714a-11f1-93ee-112d8afd7f99.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "One night in Miami: The Scotsmen of the apocalypse",
    "desc": "BBC Scotland's Scott Mullen paints the scene from Miami as Scotland's World Cup hopes fade.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c872lpl4e0do?at_medium=RSS&at_campaign=rss",
@@ -5654,15 +5673,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Scotland's World Cup hopes at 0.07% - these are results they need",
-   "desc": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T05:38:01Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f84/live/c27ea300-7080-11f1-a866-abbad6b6b076.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "'I leave nothing' - the end of 'toxic' Bielsa's Uruguay reign",
    "desc": "With Uruguay eliminated from the 2026 World Cup, BBC Sport looks at what has gone wrong for them under colourful coach Marcelo Bielsa.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
@@ -5687,6 +5697,15 @@
    "published": "2026-06-25T23:53:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What each team needs to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T05:15:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3c3f/live/d4adc1a0-7260-11f1-9f4b-39f3276a2716.jpg",
    "source": "BBC Sport"
   }
  ]
