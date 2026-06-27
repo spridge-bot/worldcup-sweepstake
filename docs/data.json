@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-27T21:32:58+00:00",
+ "generated_at": "2026-06-27T21:33:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -32,19 +32,6 @@
    "movement": 0
   },
   {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 12,
-   "today": 3,
-   "rank": 2,
-   "movement": 2
-  },
-  {
    "name": "Glancy",
    "teams": [
     "GER",
@@ -54,8 +41,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 3,
-   "movement": -1
+   "rank": 2,
+   "movement": 0
   },
   {
    "name": "Jen",
@@ -67,8 +54,8 @@
    ],
    "total": 11,
    "today": 5,
-   "rank": 3,
-   "movement": 6
+   "rank": 2,
+   "movement": 7
   },
   {
    "name": "Emily",
@@ -80,21 +67,21 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 5,
-   "movement": -2
+   "rank": 4,
+   "movement": -1
   },
   {
-   "name": "Brando",
+   "name": "George",
    "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
    ],
-   "total": 9,
-   "today": 8,
-   "rank": 6,
-   "movement": 4
+   "total": 10,
+   "today": 1,
+   "rank": 4,
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -110,6 +97,19 @@
    "movement": -2
   },
   {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 8,
+   "today": 8,
+   "rank": 7,
+   "movement": 4
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -119,8 +119,21 @@
    ],
    "total": 8,
    "today": 1,
-   "rank": 8,
-   "movement": -2
+   "rank": 7,
+   "movement": -1
+  },
+  {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 7,
+   "today": 6,
+   "rank": 9,
+   "movement": 1
   },
   {
    "name": "Fergs",
@@ -158,19 +171,6 @@
    ],
    "total": 6,
    "today": 6,
-   "rank": 11,
-   "movement": 0
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 4,
-   "today": 4,
    "rank": 12,
    "movement": -1
   }
@@ -259,12 +259,12 @@
    "lost": 0,
    "gf": 4,
    "ga": 2,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group L (live)",
-     "points": 5
+     "desc": "2nd in Group L (live)",
+     "points": 3
     }
    ]
   },
@@ -420,12 +420,12 @@
    "lost": 1,
    "gf": 3,
    "ga": 4,
-   "total": 1,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group L (live)",
-     "points": 1
+     "desc": "1st in Group L (live)",
+     "points": 5
     }
    ]
   },
@@ -1148,12 +1148,12 @@
    "lost": 0,
    "gf": 1,
    "ga": 0,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group L (live)",
-     "points": 3
+     "desc": "3rd in Group L (live)",
+     "points": 1
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 1.8,
@@ -1231,7 +1231,7 @@
     "name": "Croatia",
     "flag": "🇭🇷",
     "owner": "Dubs",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "GHA",
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T21:00:00Z",
    "stage": "Group stage",
    "group": "Group L",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 16.0,
@@ -4241,6 +4241,23 @@
    "rows": [
     {
      "group": "Group L",
+     "code": "CRO",
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 4,
+     "ga": 4,
+     "pts": 6,
+     "live": true,
+     "gd": 0,
+     "name": "Croatia",
+     "flag": "🇭🇷",
+     "tier": 1,
+     "owner": "Dubs"
+    },
+    {
+     "group": "Group L",
      "code": "ENG",
      "p": 3,
      "w": 1,
@@ -4261,34 +4278,17 @@
      "code": "GHA",
      "p": 3,
      "w": 1,
-     "d": 2,
-     "l": 0,
+     "d": 1,
+     "l": 1,
      "gf": 1,
-     "ga": 0,
-     "pts": 5,
+     "ga": 1,
+     "pts": 4,
      "live": true,
-     "gd": 1,
+     "gd": 0,
      "name": "Ghana",
      "flag": "🇬🇭",
      "tier": 3,
      "owner": "George"
-    },
-    {
-     "group": "Group L",
-     "code": "CRO",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 3,
-     "ga": 4,
-     "pts": 4,
-     "live": true,
-     "gd": -1,
-     "name": "Croatia",
-     "flag": "🇭🇷",
-     "tier": 1,
-     "owner": "Dubs"
     },
     {
      "group": "Group L",
