@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-26T23:59:52+00:00",
+ "generated_at": "2026-06-27T00:00:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-26",
  "scoring": {
@@ -2997,9 +2997,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 2.5,
-    "draw": 3.5,
-    "away": 2.8,
+    "home": 2.65,
+    "draw": 3.35,
+    "away": 2.7,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3007,13 +3007,13 @@
     "name": "Cabo Verde",
     "flag": "🇨🇻",
     "owner": "Dubs",
-    "form": "DDWWL"
+    "form": null
    },
    "away": {
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
     "owner": "Brando",
-    "form": "LDDWL"
+    "form": null
    }
   },
   {
@@ -3022,9 +3022,9 @@
    "stage": "Group stage",
    "group": "Group H",
    "odds": {
-    "home": 5.75,
-    "draw": 3.6,
-    "away": 1.69,
+    "home": 7.5,
+    "draw": 4.1,
+    "away": 1.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3032,13 +3032,13 @@
     "name": "Uruguay",
     "flag": "🇺🇾",
     "owner": "Pari",
-    "form": "DDDDL"
+    "form": null
    },
    "away": {
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": "WDWDD"
+    "form": null
    }
   },
   {
@@ -3047,9 +3047,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 2.65,
+    "home": 2.45,
     "draw": 2.65,
-    "away": 3.45,
+    "away": 3.85,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -3057,13 +3057,13 @@
     "name": "Egypt",
     "flag": "🇪🇬",
     "owner": "Brando",
-    "form": "WDLWD"
+    "form": null
    },
    "away": {
     "name": "Iran",
     "flag": "🇮🇷",
     "owner": "Spridge",
-    "form": "DDWWW"
+    "form": null
    }
   },
   {
@@ -3072,9 +3072,9 @@
    "stage": "Group stage",
    "group": "Group G",
    "odds": {
-    "home": 13.0,
-    "draw": 8.0,
-    "away": 1.19,
+    "home": 17.0,
+    "draw": 8.5,
+    "away": 1.17,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -3082,13 +3082,13 @@
     "name": "New Zealand",
     "flag": "🇳🇿",
     "owner": "Willo",
-    "form": "LDLLW"
+    "form": null
    },
    "away": {
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "form": "DDWWD"
+    "form": null
    }
   },
   {
