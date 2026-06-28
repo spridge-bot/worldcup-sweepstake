@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T20:57:31+00:00",
+ "generated_at": "2026-06-28T20:57:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -26,8 +26,8 @@
     "CAN",
     "RSA"
    ],
-   "total": 14,
-   "today": 0,
+   "total": 16,
+   "today": 2,
    "rank": 1,
    "movement": 0
   },
@@ -776,14 +776,19 @@
    "fifa_rank": 30,
    "owner": "Dipen",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 4,
+   "won": 2,
    "drawn": 1,
    "lost": 1,
-   "gf": 8,
+   "gf": 9,
    "ga": 3,
-   "total": 3,
+   "total": 5,
    "events": [
+    {
+     "date": "2026-06-28",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-24",
      "desc": "2nd in Group B",
@@ -1038,13 +1043,13 @@
    "tier": 3,
    "fifa_rank": 51,
    "owner": "Dipen",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 2,
-   "ga": 3,
+   "ga": 4,
    "total": 3,
    "events": [
     {
@@ -1209,40 +1214,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760486,
+   "date": "2026-06-28",
    "utc": "2026-06-28T19:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "SoFi Stadium",
+   "note": "",
+   "home": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "tier": 3,
+    "goals": 0,
+    "points": 0
+   },
+   "away": {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "tier": 2,
+    "goals": 1,
+    "points": 2
+   },
    "odds": {
     "home": 5.25,
     "draw": 3.55,
     "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen",
-    "goals": 0
-   },
-   "away": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760484,
    "date": "2026-06-28",
@@ -4520,11 +4524,11 @@
    "id": 760486,
    "utc": "2026-06-28T19:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 0,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "CAN",
    "venue": "SoFi Stadium",
    "home": {
     "code": "RSA",
@@ -5417,6 +5421,15 @@
    "pts": 7
   },
   {
+   "code": "CAN",
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "owner": "Dipen",
+   "yellow": 7,
+   "red": 0,
+   "pts": 7
+  },
+  {
    "code": "CUW",
    "name": "Curaçao",
    "flag": "🇨🇼",
@@ -5484,15 +5497,6 @@
    "name": "Brazil",
    "flag": "🇧🇷",
    "owner": "George",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "CAN",
-   "name": "Canada",
-   "flag": "🇨🇦",
-   "owner": "Dipen",
    "yellow": 5,
    "red": 0,
    "pts": 5
