@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T04:00:14+00:00",
+ "generated_at": "2026-06-28T04:05:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -660,7 +660,7 @@
    "tier": 2,
    "fifa_rank": 24,
    "owner": "George",
-   "status": "out",
+   "status": "alive",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -729,7 +729,7 @@
    "tier": 2,
    "fifa_rank": 28,
    "owner": "Ruggy",
-   "status": "out",
+   "status": "alive",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -3480,6 +3480,25 @@
    }
   },
   {
+   "id": 760497,
+   "utc": "2026-07-02T19:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "form": "WWDWD"
+   },
+   "away": {
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "owner": "George",
+    "form": "DLWWW"
+   }
+  },
+  {
    "id": 760496,
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
@@ -3502,6 +3521,25 @@
     "flag": "🇭🇷",
     "owner": "Dubs",
     "form": "WWLWL"
+   }
+  },
+  {
+   "id": 760498,
+   "utc": "2026-07-03T03:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "form": "WWDDW"
+   },
+   "away": {
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "owner": "Ruggy",
+    "form": "DWLWW"
    }
   },
   {
@@ -4706,10 +4744,10 @@
     "owner": "Jen"
    },
    "away": {
-    "code": null,
-    "name": "Group J 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "owner": "George"
    }
   },
   {
@@ -4752,10 +4790,10 @@
     "owner": "Emily"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group E/F/G/I/J",
-    "flag": "",
-    "owner": null
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "owner": "Ruggy"
    }
   },
   {
