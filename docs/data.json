@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T02:01:32+00:00",
+ "generated_at": "2026-06-28T02:01:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 5,
    "rank": 2,
-   "movement": 5
+   "movement": 4
   },
   {
    "name": "Emily",
@@ -79,9 +79,9 @@
     "GHA"
    ],
    "total": 10,
-   "today": 1,
+   "today": 4,
    "rank": 4,
-   "movement": 0
+   "movement": 2
   },
   {
    "name": "Brando",
@@ -94,7 +94,7 @@
    "total": 9,
    "today": 8,
    "rank": 6,
-   "movement": 4
+   "movement": 3
   },
   {
    "name": "Willo",
@@ -107,7 +107,7 @@
    "total": 9,
    "today": 1,
    "rank": 6,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "Spridge",
@@ -120,7 +120,7 @@
    "total": 8,
    "today": 1,
    "rank": 8,
-   "movement": -2
+   "movement": -3
   },
   {
    "name": "Fergs",
@@ -144,9 +144,9 @@
     "QAT"
    ],
    "total": 7,
-   "today": 5,
+   "today": 6,
    "rank": 9,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -670,7 +670,7 @@
    "total": 3,
    "events": [
     {
-     "date": "2026-06-22",
+     "date": "2026-06-28",
      "desc": "2nd in Group J (live)",
      "points": 3
     }
@@ -739,7 +739,7 @@
    "total": 1,
    "events": [
     {
-     "date": "2026-06-23",
+     "date": "2026-06-28",
      "desc": "3rd in Group J (live)",
      "points": 1
     }
@@ -1210,6 +1210,37 @@
   }
  },
  "live": [
+  {
+   "id": 760484,
+   "utc": "2026-06-28T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group J",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "GEHA Field at Arrowhead Stadium",
+   "odds": {
+    "home": 3.65,
+    "draw": 2.0,
+    "away": 3.75,
+    "over_under": 1.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "owner": "Ruggy",
+    "goals": 0
+   },
+   "away": {
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "owner": "George",
+    "goals": 0
+   }
+  },
   {
    "id": 760483,
    "utc": "2026-06-28T02:00:00Z",
@@ -3200,31 +3231,6 @@
  ],
  "upcoming": [
   {
-   "id": 760484,
-   "utc": "2026-06-28T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "odds": {
-    "home": 3.65,
-    "draw": 2.0,
-    "away": 3.75,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "form": null
-   },
-   "away": {
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "form": null
-   }
-  },
-  {
    "id": 760486,
    "utc": "2026-06-28T19:00:00Z",
    "stage": "Round of 32",
@@ -4226,14 +4232,14 @@
     {
      "group": "Group J",
      "code": "AUT",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 3,
      "ga": 3,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": 0,
      "name": "Austria",
      "flag": "🇦🇹",
@@ -4243,14 +4249,14 @@
     {
      "group": "Group J",
      "code": "ALG",
-     "p": 2,
+     "p": 3,
      "w": 1,
-     "d": 0,
+     "d": 1,
      "l": 1,
      "gf": 2,
      "ga": 4,
-     "pts": 3,
-     "live": false,
+     "pts": 4,
+     "live": true,
      "gd": -2,
      "name": "Algeria",
      "flag": "🇩🇿",
