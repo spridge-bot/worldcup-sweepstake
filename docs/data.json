@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-28T03:58:11+00:00",
+ "generated_at": "2026-06-28T03:58:36+00:00",
  "mode": "live",
- "latest_day": "2026-06-27",
+ "latest_day": "2026-06-28",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,7 +27,7 @@
     "RSA"
    ],
    "total": 14,
-   "today": 3,
+   "today": 0,
    "rank": 1,
    "movement": 0
   },
@@ -42,7 +42,7 @@
    "total": 11,
    "today": 0,
    "rank": 2,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Jen",
@@ -53,9 +53,9 @@
     "HAI"
    ],
    "total": 11,
-   "today": 5,
+   "today": 0,
    "rank": 2,
-   "movement": 4
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -68,7 +68,20 @@
    "total": 10,
    "today": 0,
    "rank": 4,
-   "movement": -1
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 10,
+   "today": 3,
+   "rank": 4,
+   "movement": 4
   },
   {
    "name": "Brando",
@@ -79,22 +92,9 @@
     "KSA"
    ],
    "total": 9,
-   "today": 8,
-   "rank": 5,
-   "movement": 4
-  },
-  {
-   "name": "Ruggy",
-   "teams": [
-    "COL",
-    "KOR",
-    "ALG",
-    "QAT"
-   ],
-   "total": 9,
-   "today": 8,
-   "rank": 5,
-   "movement": 4
+   "today": 0,
+   "rank": 6,
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -105,22 +105,9 @@
     "NZL"
    ],
    "total": 9,
-   "today": 1,
-   "rank": 5,
+   "today": 0,
+   "rank": 6,
    "movement": -1
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 8,
-   "today": 2,
-   "rank": 8,
-   "movement": -2
   },
   {
    "name": "Spridge",
@@ -131,9 +118,9 @@
     "BIH"
    ],
    "total": 8,
-   "today": 1,
+   "today": 0,
    "rank": 8,
-   "movement": -3
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -145,8 +132,21 @@
    ],
    "total": 7,
    "today": 5,
-   "rank": 10,
-   "movement": -2
+   "rank": 9,
+   "movement": 3
+  },
+  {
+   "name": "Ruggy",
+   "teams": [
+    "COL",
+    "KOR",
+    "ALG",
+    "QAT"
+   ],
+   "total": 7,
+   "today": 1,
+   "rank": 9,
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -157,9 +157,9 @@
     "CPV"
    ],
    "total": 6,
-   "today": 6,
+   "today": 0,
    "rank": 11,
-   "movement": 0
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -170,9 +170,9 @@
     "UZB"
    ],
    "total": 6,
-   "today": 6,
+   "today": 0,
    "rank": 11,
-   "movement": 0
+   "movement": -2
   }
  ],
  "teams": {
@@ -184,12 +184,12 @@
    "fifa_rank": 1,
    "owner": "Fergs",
    "status": "alive",
-   "played": 2,
-   "won": 2,
+   "played": 3,
+   "won": 3,
    "drawn": 0,
    "lost": 0,
-   "gf": 5,
-   "ga": 0,
+   "gf": 8,
+   "ga": 1,
    "total": 5,
    "events": [
     {
@@ -667,12 +667,12 @@
    "lost": 1,
    "gf": 3,
    "ga": 3,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "3rd in Group J (live)",
-     "points": 1
+     "desc": "2nd in Group J (live)",
+     "points": 3
     }
    ]
   },
@@ -736,12 +736,12 @@
    "lost": 1,
    "gf": 2,
    "ga": 4,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "2nd in Group J (live)",
-     "points": 3
+     "desc": "3rd in Group J (live)",
+     "points": 1
     }
    ]
   },
@@ -1079,12 +1079,12 @@
    "fifa_rank": 53,
    "owner": "Glancy",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 0,
-   "lost": 2,
-   "gf": 2,
-   "ga": 5,
+   "lost": 3,
+   "gf": 3,
+   "ga": 8,
    "total": 0,
    "events": []
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+5'",
+   "clock": "90'+7'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+5'",
+   "status_detail": "90'+7'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 3.65,
@@ -1238,42 +1238,42 @@
     "name": "Austria",
     "flag": "🇦🇹",
     "owner": "George",
-    "goals": 2
+    "goals": 3
    }
-  },
+  }
+ ],
+ "results": [
   {
    "id": 760483,
+   "date": "2026-06-28",
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "JOR",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "away": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "tier": 1,
+    "goals": 3,
+    "points": null
+   },
    "odds": {
     "home": 19.0,
     "draw": 9.0,
     "away": 1.14,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "JOR",
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "owner": "Glancy",
-    "goals": 1
-   },
-   "away": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "goals": 3
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760481,
    "date": "2026-06-27",
@@ -4252,7 +4252,7 @@
      "gf": 8,
      "ga": 1,
      "pts": 9,
-     "live": true,
+     "live": false,
      "gd": 7,
      "name": "Argentina",
      "flag": "🇦🇷",
@@ -4261,37 +4261,37 @@
     },
     {
      "group": "Group J",
-     "code": "ALG",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 5,
-     "ga": 6,
-     "pts": 6,
-     "live": true,
-     "gd": -1,
-     "name": "Algeria",
-     "flag": "🇩🇿",
-     "tier": 2,
-     "owner": "Ruggy"
-    },
-    {
-     "group": "Group J",
      "code": "AUT",
      "p": 3,
      "w": 1,
-     "d": 0,
-     "l": 2,
-     "gf": 5,
+     "d": 1,
+     "l": 1,
+     "gf": 6,
      "ga": 6,
-     "pts": 3,
+     "pts": 4,
      "live": true,
-     "gd": -1,
+     "gd": 0,
      "name": "Austria",
      "flag": "🇦🇹",
      "tier": 2,
      "owner": "George"
+    },
+    {
+     "group": "Group J",
+     "code": "ALG",
+     "p": 3,
+     "w": 1,
+     "d": 1,
+     "l": 1,
+     "gf": 5,
+     "ga": 7,
+     "pts": 4,
+     "live": true,
+     "gd": -2,
+     "name": "Algeria",
+     "flag": "🇩🇿",
+     "tier": 2,
+     "owner": "Ruggy"
     },
     {
      "group": "Group J",
@@ -4303,7 +4303,7 @@
      "gf": 3,
      "ga": 8,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -5,
      "name": "Jordan",
      "flag": "🇯🇴",
@@ -5523,6 +5523,15 @@
    "pts": 4
   },
   {
+   "code": "JOR",
+   "name": "Jordan",
+   "flag": "🇯🇴",
+   "owner": "Glancy",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "NZL",
    "name": "New Zealand",
    "flag": "🇳🇿",
@@ -5689,15 +5698,6 @@
    "name": "Japan",
    "flag": "🇯🇵",
    "owner": "Jen",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "JOR",
-   "name": "Jordan",
-   "flag": "🇯🇴",
-   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
