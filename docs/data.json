@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T21:18:24+00:00",
+ "generated_at": "2026-06-28T21:23:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3498,7 +3498,7 @@
    "odds": {
     "home": 1.29,
     "draw": 5.5,
-    "away": 12.0,
+    "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5810,6 +5810,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
+   "desc": "The 'Disgrace of Gijon' - an infamous match at the 1982 World Cup in Spain - has followed Austria and Algeria for 44 years. Did history repeat itself in Algeria's 3-3 draw with Austria on Sunday?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T21:16:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Knockouts are here - what is England's path to the final?",
    "desc": "BBC Sport takes a look at what England will need to do to reach the final after qualifying for the knockout stages.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
@@ -5828,21 +5837,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Ugarte has 'most serious injury footballer can face'",
-   "desc": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T17:42:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "27 flights, 24 matches: The carbon cost of Fifa president's World Cup tour",
    "desc": "Gianni Infantino has clocked up thousands of air miles across North America so far.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T09:20:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b957/live/04a174d0-7192-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Ugarte has 'most serious injury footballer can face'",
+   "desc": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T17:42:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5888,15 +5897,6 @@
    "published": "2026-06-28T06:52:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England last-32 tie on BBC - see full schedule",
-   "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T05:00:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
