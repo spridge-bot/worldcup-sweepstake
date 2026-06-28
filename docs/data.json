@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T03:59:49+00:00",
+ "generated_at": "2026-06-28T04:00:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -194,7 +194,7 @@
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "1st in Group J (live)",
+     "desc": "1st in Group J",
      "points": 5
     }
    ]
@@ -505,7 +505,7 @@
    "tier": 1,
    "fifa_rank": 16,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 2,
@@ -597,7 +597,7 @@
    "tier": 2,
    "fifa_rank": 20,
    "owner": "Spridge",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 3,
@@ -620,7 +620,7 @@
    "tier": 2,
    "fifa_rank": 22,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 0,
@@ -660,18 +660,18 @@
    "tier": 2,
    "fifa_rank": 24,
    "owner": "George",
-   "status": "alive",
-   "played": 2,
+   "status": "out",
+   "played": 3,
    "won": 1,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 3,
-   "ga": 3,
+   "gf": 6,
+   "ga": 6,
    "total": 3,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "2nd in Group J (live)",
+     "desc": "2nd in Group J",
      "points": 3
     }
    ]
@@ -683,7 +683,7 @@
    "tier": 2,
    "fifa_rank": 25,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 0,
@@ -729,18 +729,18 @@
    "tier": 2,
    "fifa_rank": 28,
    "owner": "Ruggy",
-   "status": "alive",
-   "played": 2,
+   "status": "out",
+   "played": 3,
    "won": 1,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 2,
-   "ga": 4,
+   "gf": 5,
+   "ga": 7,
    "total": 1,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "3rd in Group J (live)",
+     "desc": "3rd in Group J",
      "points": 1
     }
    ]
@@ -844,7 +844,7 @@
    "tier": 2,
    "fifa_rank": 34,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -884,7 +884,7 @@
    "tier": 2,
    "fifa_rank": 39,
    "owner": "Emily",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 1,
@@ -924,7 +924,7 @@
    "tier": 3,
    "fifa_rank": 42,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 0,
@@ -970,7 +970,7 @@
    "tier": 3,
    "fifa_rank": 46,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -987,7 +987,7 @@
    "tier": 3,
    "fifa_rank": 48,
    "owner": "Pari",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -1004,7 +1004,7 @@
    "tier": 3,
    "fifa_rank": 49,
    "owner": "Emily",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -1021,7 +1021,7 @@
    "tier": 3,
    "fifa_rank": 50,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 1,
@@ -1061,7 +1061,7 @@
    "tier": 3,
    "fifa_rank": 52,
    "owner": "Brando",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 2,
@@ -1078,7 +1078,7 @@
    "tier": 3,
    "fifa_rank": 53,
    "owner": "Glancy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -1164,7 +1164,7 @@
    "tier": 3,
    "fifa_rank": 57,
    "owner": "Fergs",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 1,
@@ -1181,7 +1181,7 @@
    "tier": 3,
    "fifa_rank": 58,
    "owner": "Jen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 0,
@@ -1198,7 +1198,7 @@
    "tier": 3,
    "fifa_rank": 59,
    "owner": "Willo",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 1,
@@ -1209,40 +1209,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760484,
+   "date": "2026-06-28",
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "GEHA Field at Arrowhead Stadium",
+   "note": "",
+   "home": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "tier": 2,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "tier": 2,
+    "goals": 3,
+    "points": null
+   },
    "odds": {
     "home": 3.65,
     "draw": 2.0,
     "away": 3.75,
     "over_under": 1.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ALG",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "goals": 3
-   },
-   "away": {
-    "code": "AUT",
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "goals": 3
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760483,
    "date": "2026-06-28",
@@ -4269,7 +4268,7 @@
      "gf": 6,
      "ga": 6,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 0,
      "name": "Austria",
      "flag": "🇦🇹",
@@ -4286,7 +4285,7 @@
      "gf": 5,
      "ga": 7,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": -2,
      "name": "Algeria",
      "flag": "🇩🇿",
@@ -5496,6 +5495,15 @@
    "pts": 5
   },
   {
+   "code": "AUT",
+   "name": "Austria",
+   "flag": "🇦🇹",
+   "owner": "George",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "CPV",
    "name": "Cabo Verde",
    "flag": "🇨🇻",
@@ -5566,15 +5574,6 @@
    "yellow": 4,
    "red": 0,
    "pts": 4
-  },
-  {
-   "code": "AUT",
-   "name": "Austria",
-   "flag": "🇦🇹",
-   "owner": "George",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
   },
   {
    "code": "GHA",
