@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T01:25:25+00:00",
+ "generated_at": "2026-06-28T01:25:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "90'+1'",
+   "clock": "90'+2'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+1'",
+   "status_detail": "90'+2'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.71,
@@ -5170,12 +5170,12 @@
    "owner": "George"
   },
   {
-   "player": "Anthony Elanga",
-   "team": "SWE",
-   "goals": 2,
+   "player": "Yoane Wissa",
+   "team": "COD",
+   "goals": 3,
    "assists": 0,
-   "flag": "🇸🇪",
-   "owner": "Spridge"
+   "flag": "🇨🇩",
+   "owner": "Willo"
   }
  ],
  "fairplay": [
