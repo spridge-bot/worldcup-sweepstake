@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T02:01:15+00:00",
+ "generated_at": "2026-06-28T02:01:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -55,7 +55,7 @@
    "total": 11,
    "today": 5,
    "rank": 2,
-   "movement": 6
+   "movement": 5
   },
   {
    "name": "Emily",
@@ -131,9 +131,9 @@
     "CUW"
    ],
    "total": 7,
-   "today": 0,
+   "today": 5,
    "rank": 9,
-   "movement": -3
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -146,7 +146,7 @@
    "total": 7,
    "today": 5,
    "rank": 9,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -193,7 +193,7 @@
    "total": 5,
    "events": [
     {
-     "date": "2026-06-22",
+     "date": "2026-06-28",
      "desc": "1st in Group J (live)",
      "points": 5
     }
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760483,
+   "utc": "2026-06-28T02:00:00Z",
+   "stage": "Group stage",
+   "group": "Group J",
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 19.0,
+    "draw": 9.0,
+    "away": 1.14,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "JOR",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760481,
@@ -3193,31 +3225,6 @@
    }
   },
   {
-   "id": 760483,
-   "utc": "2026-06-28T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "odds": {
-    "home": 19.0,
-    "draw": 9.0,
-    "away": 1.14,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "owner": "Glancy",
-    "form": null
-   },
-   "away": {
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "form": null
-   }
-  },
-  {
    "id": 760486,
    "utc": "2026-06-28T19:00:00Z",
    "stage": "Round of 32",
@@ -4202,14 +4209,14 @@
     {
      "group": "Group J",
      "code": "ARG",
-     "p": 2,
+     "p": 3,
      "w": 2,
-     "d": 0,
+     "d": 1,
      "l": 0,
      "gf": 5,
      "ga": 0,
-     "pts": 6,
-     "live": false,
+     "pts": 7,
+     "live": true,
      "gd": 5,
      "name": "Argentina",
      "flag": "🇦🇷",
@@ -4253,14 +4260,14 @@
     {
      "group": "Group J",
      "code": "JOR",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 0,
+     "d": 1,
      "l": 2,
      "gf": 2,
      "ga": 5,
-     "pts": 0,
-     "live": false,
+     "pts": 1,
+     "live": true,
      "gd": -3,
      "name": "Jordan",
      "flag": "🇯🇴",
