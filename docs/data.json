@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T02:14:51+00:00",
+ "generated_at": "2026-06-28T02:15:15+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "13'",
-   "clock_sec": 780.0,
-   "status_detail": "13'",
+   "clock": "14'",
+   "clock_sec": 840.0,
+   "status_detail": "14'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 3.65,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "13'",
-   "clock_sec": 780.0,
-   "status_detail": "13'",
+   "clock": "14'",
+   "clock_sec": 840.0,
+   "status_detail": "14'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 19.0,
@@ -5729,6 +5729,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Salah an injury doubt for Egypt's last-32 tie",
+   "desc": "Egypt captain Mohamed Salah is a doubt for Friday's World Cup last-32 tie against Australia after suffering a hamstring injury.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T02:04:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/35fd/live/60c04860-728f-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Bye-bye, Scotland!' - Clarke's leaving letter to the Tartan Army",
    "desc": "Steve Clarke's letter to the Scotland fans in full following his departure as head coach.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c74yxdq1ky0o?at_medium=RSS&at_campaign=rss",
@@ -5765,15 +5774,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Gakpo asks for privacy after loss of unborn son",
-   "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T18:02:46Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/780e/live/bcc915b0-7249-11f1-a6b1-e743cbb66042.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup group games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5801,12 +5801,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "One night in Miami: The Scotsmen of the apocalypse",
-   "desc": "BBC Scotland's Scott Mullen paints the scene from Miami as Scotland's World Cup hopes fade.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c872lpl4e0do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T08:34:12Z",
+   "headline": "Gakpo asks for privacy after loss of unborn son",
+   "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T18:02:46Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6177/live/b1221490-71eb-11f1-9e90-3ff6dfd27be0.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/780e/live/bcc915b0-7249-11f1-a6b1-e743cbb66042.jpg",
    "source": "BBC Sport"
   }
  ]
