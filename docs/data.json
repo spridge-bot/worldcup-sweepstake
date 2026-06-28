@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T17:00:23+00:00",
+ "generated_at": "2026-06-28T17:05:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3235,7 +3235,7 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 5.75,
+    "home": 5.5,
     "draw": 3.55,
     "away": 1.71,
     "over_under": 2.5,
@@ -5808,6 +5808,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Man Utd confirm Ugarte knee ligament damage",
+   "desc": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T17:01:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "27 flights, 24 matches: The carbon cost of Fifa president's World Cup tour",
    "desc": "Gianni Infantino has clocked up thousands of air miles across North America so far.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss",
@@ -5835,21 +5844,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Are Iran the unluckiest side in World Cup history?",
-   "desc": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T06:52:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Derided by Leeds, snubbed by USA - but Marsch becoming Canada hero",
    "desc": "Derided by Leeds fans and snubbed by the USA, Jesse Marsch has faced difficult moments in his career - but appears to have found his home with Canada as they look to reach the World Cup last 16.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd95071lvvqo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T11:28:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afb4/live/d2290d30-724d-11f1-b46f-17a6b71f4bc4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Are Iran the unluckiest side in World Cup history?",
+   "desc": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T06:52:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5877,15 +5886,6 @@
    "published": "2026-06-28T09:38:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Best team, moments, matches and players of World Cup group stage",
-   "desc": "As the World Cup group stages come to an end, BBC Sport reporters pick their highlights so far.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce3e256752qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T08:07:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dcc9/live/e6810200-723a-11f1-930d-75324f3b4c6e.jpg",
    "source": "BBC Sport"
   }
  ]
