@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T01:10:19+00:00",
+ "generated_at": "2026-06-28T01:10:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "78'",
-   "clock_sec": 4680.0,
-   "status_detail": "78'",
+   "clock": "79'",
+   "clock_sec": 4740.0,
+   "status_detail": "79'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 3.45,
@@ -5623,21 +5623,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Job done - but England will not win World Cup unless they improve",
+   "desc": "England did their job topping the group - but they can forget winning the World Cup if they do not improve, writes Phil McNulty.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg4wnp592z1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T01:05:27Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7f6f/live/7f115920-728b-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Scotland's ill-fated World Cup story finally at a sorry end",
    "desc": "BBC Sport Scotland's chief sportswriter Tom English sums up his verdict on the nation's World Cup exit.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdwz890go?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-27T23:21:55Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3ee/live/5422d250-727e-11f1-96bd-63be35c265e8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who could England face in last 32 after qualifying for next round?",
-   "desc": "England secure top spot in Group L and a World Cup last-32 tie against a third-placed team with a 2-0 win over Panama on Saturday.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T23:03:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed58/live/5bd5bde0-7284-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   },
   {
