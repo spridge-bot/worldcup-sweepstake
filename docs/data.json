@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T19:19:46+00:00",
+ "generated_at": "2026-06-28T19:20:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T19:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "19'",
-   "clock_sec": 1140.0,
-   "status_detail": "19'",
+   "clock": "20'",
+   "clock_sec": 1200.0,
+   "status_detail": "20'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 5.25,
@@ -5815,6 +5815,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T19:14:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Ugarte has 'most serious injury footballer can face'",
    "desc": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
@@ -5884,15 +5893,6 @@
    "published": "2026-06-28T05:00:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How to win a World Cup penalty shootout",
-   "desc": "We have a look at what can be learned from every World Cup penalty taken in a shootout ever.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd9px47g8jlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T09:38:42Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg",
    "source": "BBC Sport"
   }
  ]
