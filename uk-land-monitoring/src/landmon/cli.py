@@ -76,6 +76,34 @@ def _write_activity_geojson(scored, timelines_norm, out: Path):
     out.write_text(json.dumps({"type": "FeatureCollection", "features": feats}))
 
 
+def _write_opportunity_geojson(flagged, out: Path):
+    """Wide-scan output: rank candidates by an opportunity score with no satellite.
+    opportunity = storage-likeness + size + rural isolation (0..1, higher=better).
+    We store activity_index = 1 - opportunity so the viewer sorts best-first and
+    colours good candidates blue; rank_mode flags the honest 'fit' wording."""
+    import json
+
+    from shapely.geometry import mapping
+    g = flagged.to_crs("EPSG:4326")
+    areas = [r.get("area_m2") or 0 for _, r in g.iterrows()]
+    amin, amax = (min(areas), max(areas)) if areas else (0, 1)
+    span = (amax - amin) or 1.0
+    feats = []
+    for _, row in g.iterrows():
+        ss = float(row.get("storage_score") or 0)
+        narea = (float(row.get("area_m2") or 0) - amin) / span
+        isolation = 1.0 if row.get("is_rural") else 0.3
+        opp = round(0.45 * ss + 0.30 * narea + 0.25 * isolation, 3)
+        props = {k: _py(v) for k, v in row.items() if k != "geometry"}
+        props["opportunity_score"] = opp
+        props["rank_mode"] = "opportunity"
+        props["activity_index"] = round(1 - opp, 3)
+        feats.append({"type": "Feature", "properties": props,
+                      "geometry": mapping(row.geometry)})
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"type": "FeatureCollection", "features": feats}))
+
+
 def _py(v):
     """Coerce numpy scalars / NaN to JSON-friendly native Python."""
     import math
@@ -157,6 +185,8 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--outdir", default="outputs")
     s.add_argument("--chips", action="store_true", help="Also render dated image chips")
     s.add_argument("--chip-mode", choices=["rgb", "ndvi", "sar"], default="rgb")
+    s.add_argument("--no-activity", action="store_true",
+                   help="Wide scan: skip satellite, rank by opportunity score (fast)")
     s.set_defaults(func=_cmd_pipeline)
 
     s = sub.add_parser("enrich", help="Add location/farm names + lookup links (needs internet)")
@@ -226,6 +256,15 @@ def _cmd_pipeline(args):
     storage_path = outdir / "storage.geojson"
     flagged.to_file(storage_path, driver="GeoJSON")
     print(f"      {len(flagged)} flagged -> {storage_path}")
+
+    if args.no_activity:
+        # Wide-area scan: skip satellite/chips, rank by an opportunity score
+        # (storage-like + large + rural/isolated). No usage/quiet signal here.
+        _write_opportunity_geojson(flagged, outdir / "activity.geojson")
+        shutil.rmtree(outdir / "chips", ignore_errors=True)
+        print(f"\nWide scan done ({len(flagged)} candidates, no satellite). "
+              f"View, then deep-analyse a shortlist with area.sh on a small box.")
+        return
 
     print(f"[3/4] Building {args.sensor} activity time series + timelines…")
     series = _build_series(a, args.sensor, args.start, args.end)

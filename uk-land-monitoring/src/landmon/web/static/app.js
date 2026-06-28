@@ -121,6 +121,12 @@ function labelFor(p) {
 // Relative availability from the overall activity index (lower = quieter = more
 // likely to have spare/available space). A screening signal, not a guarantee.
 function availability(p) {
+  if (p.rank_mode === "opportunity") {     // wide scan: no usage signal measured
+    const o = p.opportunity_score ?? 0;
+    if (o >= 0.66) return { label: "Strong candidate", color: "#2c7bb6" };
+    if (o >= 0.40) return { label: "Moderate fit", color: "#e8a33d" };
+    return { label: "Weak fit", color: "#9aa4b2" };
+  }
   const a = p.activity_index ?? 0;
   if (a < 0.34) return { label: "Quiet · likely available", color: "#2c7bb6" };
   if (a < 0.67) return { label: "Some use", color: "#e8a33d" };
