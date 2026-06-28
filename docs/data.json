@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T06:38:44+00:00",
+ "generated_at": "2026-06-28T06:43:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3510,9 +3510,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.8,
+    "home": 1.83,
     "draw": 3.6,
-    "away": 4.8,
+    "away": 4.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3610,9 +3610,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.62,
-    "draw": 3.8,
-    "away": 6.0,
+    "home": 1.59,
+    "draw": 3.85,
+    "away": 6.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5799,21 +5799,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Why you should watch every last 32 tie",
+   "desc": "BBC Sport shows why you should be interested in all of the World Cup's last-32 ties.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cn59l9y636go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T06:35:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d36d/live/56901940-72b4-11f1-8546-8f19e4fe30f4.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
    "desc": "BBC Scotland charts the trajectory of Steve Clarke's last month as Scotland head coach.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8mqmg327vo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T04:48:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d081/live/2fc61c90-72ac-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England last-32 tie on BBC - see full schedule",
-   "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T05:00:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5844,21 +5844,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England last-32 tie on BBC - see full schedule",
+   "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T05:00:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Kane becomes England's top World Cup scorer - and now chases other greats",
    "desc": "Harry Kane became England's all-time leading World Cup scorer with his 12th goal in the win against Panama on Saturday, but how does he compare to other country's greats?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly9kp827ndo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T01:54:33Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7e92/live/1ca94e60-7294-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Salah an injury doubt for Egypt's last-32 tie",
-   "desc": "Egypt captain Mohamed Salah is a doubt for Friday's World Cup last-32 tie against Australia after suffering a hamstring injury.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T02:04:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/35fd/live/60c04860-728f-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
