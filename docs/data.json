@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T11:31:41+00:00",
+ "generated_at": "2026-06-28T11:36:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3485,9 +3485,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.28,
+    "home": 1.29,
     "draw": 5.5,
-    "away": 12.0,
+    "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5826,12 +5826,39 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Are Iran the unluckiest side in World Cup history?",
+   "desc": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T06:52:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Derided by Leeds, snubbed by USA - but Marsch becoming Canada hero",
+   "desc": "Derided by Leeds fans and snubbed by the USA, Jesse Marsch has faced difficult moments in his career - but appears to have found his home with Canada as they look to reach the World Cup last 16.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd95071lvvqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T11:28:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afb4/live/d2290d30-724d-11f1-b46f-17a6b71f4bc4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England last-32 tie on BBC - see full schedule",
    "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T05:00:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "South Africa look to lay ghosts of 2010 to rest",
+   "desc": "South Africa play their first ever World Cup knockout game against Canada, 16 years after Bafana Bafana passed up the chance to progress at a tournament held on home soil.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2dpwpv1ypo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T08:00:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7a5f/live/8ff27bc0-717d-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
   },
   {
@@ -5859,33 +5886,6 @@
    "published": "2026-06-28T01:05:27Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7f6f/live/7f115920-728b-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "South Africa look to lay ghosts of 2010 to rest",
-   "desc": "South Africa play their first ever World Cup knockout game against Canada, 16 years after Bafana Bafana passed up the chance to progress at a tournament held on home soil.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2dpwpv1ypo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T08:00:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7a5f/live/8ff27bc0-717d-11f1-8546-8f19e4fe30f4.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Big names, dark horses and subplots - reasons to watch each last 32 tie",
-   "desc": "BBC Sport shows why you should be interested in all of the World Cup's last-32 ties.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cn59l9y636go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T06:35:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d36d/live/56901940-72b4-11f1-8546-8f19e4fe30f4.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Are Iran the unluckiest side in World Cup history?",
-   "desc": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T06:52:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
