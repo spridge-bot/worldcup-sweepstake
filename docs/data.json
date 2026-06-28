@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T00:02:39+00:00",
+ "generated_at": "2026-06-28T00:03:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "31'",
-   "clock_sec": 1860.0,
-   "status_detail": "31'",
+   "clock": "32'",
+   "clock_sec": 1920.0,
+   "status_detail": "32'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 3.45,
