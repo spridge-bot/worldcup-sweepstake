@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T17:41:28+00:00",
+ "generated_at": "2026-06-28T17:47:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -183,7 +183,7 @@
    "tier": 1,
    "fifa_rank": 1,
    "owner": "Fergs",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 3,
    "drawn": 0,
@@ -206,7 +206,7 @@
    "tier": 1,
    "fifa_rank": 2,
    "owner": "Jen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 2,
    "drawn": 1,
@@ -275,7 +275,7 @@
    "tier": 1,
    "fifa_rank": 5,
    "owner": "Dipen",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 2,
@@ -413,7 +413,7 @@
    "tier": 1,
    "fifa_rank": 11,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 2,
    "drawn": 0,
@@ -436,7 +436,7 @@
    "tier": 1,
    "fifa_rank": 13,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 2,
    "drawn": 1,
@@ -574,7 +574,7 @@
    "tier": 2,
    "fifa_rank": 19,
    "owner": "Emily",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 2,
    "drawn": 1,
@@ -660,7 +660,7 @@
    "tier": 2,
    "fifa_rank": 24,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -706,7 +706,7 @@
    "tier": 2,
    "fifa_rank": 27,
    "owner": "Glancy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -729,7 +729,7 @@
    "tier": 2,
    "fifa_rank": 28,
    "owner": "Ruggy",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -752,7 +752,7 @@
    "tier": 2,
    "fifa_rank": 29,
    "owner": "Brando",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 2,
@@ -1118,7 +1118,7 @@
    "tier": 3,
    "fifa_rank": 55,
    "owner": "Dubs",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 0,
    "drawn": 3,
@@ -1141,7 +1141,7 @@
    "tier": 3,
    "fifa_rank": 56,
    "owner": "George",
-   "status": "alive",
+   "status": "out",
    "played": 3,
    "won": 1,
    "drawn": 1,
@@ -3478,156 +3478,6 @@
     "owner": "Spridge",
     "form": "WLDDD"
    }
-  },
-  {
-   "id": 760497,
-   "utc": "2026-07-02T19:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.29,
-    "draw": 5.5,
-    "away": 12.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WWDWD"
-   },
-   "away": {
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "form": "DLWWW"
-   }
-  },
-  {
-   "id": 760496,
-   "utc": "2026-07-02T23:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.8,
-    "draw": 3.65,
-    "away": 4.7,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "DWDWW"
-   },
-   "away": {
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "form": "WWLWL"
-   }
-  },
-  {
-   "id": 760498,
-   "utc": "2026-07-03T03:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.91,
-    "draw": 3.5,
-    "away": 4.3,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "form": "WWDDW"
-   },
-   "away": {
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "form": "DWLWW"
-   }
-  },
-  {
-   "id": 760499,
-   "utc": "2026-07-03T18:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 3.3,
-    "draw": 2.95,
-    "away": 2.5,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": "DLWDL"
-   },
-   "away": {
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "form": "DWDLW"
-   }
-  },
-  {
-   "id": 760500,
-   "utc": "2026-07-03T22:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.15,
-    "draw": 8.0,
-    "away": 19.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "form": "WWWWW"
-   },
-   "away": {
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "form": "DDDWW"
-   }
-  },
-  {
-   "id": 760501,
-   "utc": "2026-07-04T01:30:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.56,
-    "draw": 4.0,
-    "away": 6.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "form": "DWWWW"
-   },
-   "away": {
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "form": "LDWDL"
-   }
   }
  ],
  "groups": [
@@ -4740,328 +4590,6 @@
    }
   },
   {
-   "id": 760497,
-   "utc": "2026-07-02T19:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "SoFi Stadium",
-   "home": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen"
-   },
-   "away": {
-    "code": "AUT",
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George"
-   }
-  },
-  {
-   "id": 760496,
-   "utc": "2026-07-02T23:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "BMO Field",
-   "home": {
-    "code": "POR",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen"
-   },
-   "away": {
-    "code": "CRO",
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs"
-   }
-  },
-  {
-   "id": 760498,
-   "utc": "2026-07-03T03:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "BC Place",
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily"
-   },
-   "away": {
-    "code": "ALG",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy"
-   }
-  },
-  {
-   "id": 760499,
-   "utc": "2026-07-03T18:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "AT&T Stadium",
-   "home": {
-    "code": "AUS",
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy"
-   },
-   "away": {
-    "code": "EGY",
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando"
-   }
-  },
-  {
-   "id": 760500,
-   "utc": "2026-07-03T22:00:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Hard Rock Stadium",
-   "home": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs"
-   },
-   "away": {
-    "code": "CPV",
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs"
-   }
-  },
-  {
-   "id": 760501,
-   "utc": "2026-07-04T01:30:00Z",
-   "stage": "LAST_32",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "GEHA Field at Arrowhead Stadium",
-   "home": {
-    "code": "COL",
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy"
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George"
-   }
-  },
-  {
-   "id": 760502,
-   "utc": "2026-07-04T17:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "NRG Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 1 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 3 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760503,
-   "utc": "2026-07-04T21:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Lincoln Financial Field",
-   "home": {
-    "code": null,
-    "name": "Round of 32 2 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 5 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760504,
-   "utc": "2026-07-05T20:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "MetLife Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 4 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 6 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760505,
-   "utc": "2026-07-06T00:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Estadio Banorte",
-   "home": {
-    "code": null,
-    "name": "Round of 32 7 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 8 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760506,
-   "utc": "2026-07-06T19:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "AT&T Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 11 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 12 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760507,
-   "utc": "2026-07-07T00:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Lumen Field",
-   "home": {
-    "code": null,
-    "name": "Round of 32 9 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 10 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760509,
-   "utc": "2026-07-07T16:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "Mercedes-Benz Stadium",
-   "home": {
-    "code": null,
-    "name": "Round of 32 14 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 16 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760508,
-   "utc": "2026-07-07T20:00:00Z",
-   "stage": "LAST_16",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "BC Place",
-   "home": {
-    "code": null,
-    "name": "Round of 32 13 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Round of 32 15 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
    "id": 760510,
    "utc": "2026-07-09T20:00:00Z",
    "stage": "QUARTER_FINALS",
@@ -5808,10 +5336,10 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Man Utd confirm Ugarte knee ligament damage",
+   "headline": "Ugarte has 'most serious injury footballer can face'",
    "desc": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T17:01:35Z",
+   "published": "2026-06-28T17:42:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
    "source": "BBC Sport"
