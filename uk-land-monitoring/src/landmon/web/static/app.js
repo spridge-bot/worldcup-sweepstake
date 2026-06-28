@@ -118,10 +118,20 @@ function paddedBounds(layer) {
 function labelFor(p) {
   return p.farm || p.location || p.name || p.id;
 }
+// Relative availability from the overall activity index (lower = quieter = more
+// likely to have spare/available space). A screening signal, not a guarantee.
+function availability(p) {
+  const a = p.activity_index ?? 0;
+  if (a < 0.34) return { label: "Quiet · likely available", color: "#2c7bb6" };
+  if (a < 0.67) return { label: "Some use", color: "#e8a33d" };
+  return { label: "Busy", color: "#d7191c" };
+}
 function popupHtml(p) {
   const pct = Math.round((p.activity_index ?? 0) * 100);
+  const av = availability(p);
   const rows = [
-    ["Activity (avg)", `<b>${pct}%</b>`],
+    ["Availability", `<b style="color:${av.color}">${av.label}</b>`],
+    ["Activity (avg)", `${pct}%`],
     ["Class", (p.storage_class || "").replace(/_/g, " ")],
     ["Storage score", p.storage_score?.toFixed?.(2) ?? "–"],
     ["Footprint", p.area_m2 ? `${Math.round(p.area_m2)} m²` : "–"],
@@ -197,7 +207,10 @@ function styleFor(props, date) {
 
 function render() {
   if (geojson) map.removeLayer(geojson);
-  const feats = allFeatures.filter(f => activeClasses.has(f.properties.storage_class));
+  const quietOnly = document.getElementById("quietonly")?.checked;
+  const feats = allFeatures.filter(f =>
+    activeClasses.has(f.properties.storage_class) &&
+    (!quietOnly || (f.properties.activity_index ?? 0) < 0.34));
   geojson = L.geoJSON({ type: "FeatureCollection", features: feats }, {
     style: f => styleFor(f.properties, curDate), onEachFeature: onEach,
   }).addTo(map);
@@ -207,16 +220,18 @@ function render() {
 
 function buildList(feats, date) {
   const list = document.getElementById("list");
+  // Quietest first — the most likely "available" candidates at the top.
   const sorted = [...feats].sort((a, b) =>
-    activityAt(b.properties, date) - activityAt(a.properties, date));
+    (a.properties.activity_index ?? 0) - (b.properties.activity_index ?? 0));
   list.innerHTML = sorted.map(f => {
     const p = f.properties, a = activityAt(p, date), pct = Math.round(a * 100);
+    const av = availability(p);
     return `<div class="card" data-id="${p.id}">
       <div class="row1">
         <span class="name"><span class="dot" style="background:${activityColor(a)}"></span>${labelFor(p)}</span>
         <span class="pct" style="color:${activityColor(a)}">${pct}%</span>
       </div>
-      <div class="meta">${p.location ? p.location + " · " : ""}${(p.storage_class || "").replace(/_/g, " ")}${p.area_m2 ? " · " + Math.round(p.area_m2) + " m²" : ""}</div>
+      <div class="meta"><span class="avail" style="color:${av.color}">${av.label}</span>${p.location ? " · " + p.location : ""}</div>
     </div>`;
   }).join("");
   list.querySelectorAll(".card").forEach(card => {
@@ -290,6 +305,7 @@ document.querySelectorAll(".cls").forEach(cb => cb.onchange = () => {
   cb.checked ? activeClasses.add(cb.value) : activeClasses.delete(cb.value);
   render();
 });
+document.getElementById("quietonly").onchange = render;
 
 // --- boot ---------------------------------------------------------------- //
 getJSON("/api/meta").then(m => {

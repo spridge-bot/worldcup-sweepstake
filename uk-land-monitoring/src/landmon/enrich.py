@@ -73,6 +73,9 @@ def _links(lat: float, lon: float, place: str | None, postcode: str | None) -> l
         {"label": "🏛️ Who owns it (Land Registry)",
          "url": (f"https://search-property-information.service.gov.uk/search/search-by-postcode?postcode={pc}"
                  if pc else "https://www.gov.uk/search-property-information-land-registry")},
+        {"label": "💷 Sold prices / when last sold",
+         "url": (f"https://www.rightmove.co.uk/house-prices/{postcode.replace(' ', '-')}.html"
+                 if postcode else "https://landregistry.data.gov.uk/app/ppd")},
         {"label": "📋 Planning history (Cherwell DC)", "url": "https://planningregister.cherwell.gov.uk/"},
     ]
     return out

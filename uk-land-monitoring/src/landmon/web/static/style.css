@@ -40,6 +40,8 @@ body.collapsed #sidebar { display: none; }
 
 .filters { display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; font-size: 13px; }
 .filters label { cursor: pointer; }
+.filters .quiet { margin-top: 4px; padding-top: 6px; border-top: 1px solid #2a313c; }
+.card .avail { font-weight: 600; }
 
 #list { display: flex; flex-direction: column; gap: 6px; }
 .card {

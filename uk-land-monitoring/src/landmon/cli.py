@@ -140,8 +140,16 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--out", default="outputs/chips")
     s.set_defaults(func=_cmd_chips)
 
+    s = sub.add_parser("aoi", help="Build an AOI box from a UK postcode (needs internet)")
+    s.add_argument("--postcode", required=True)
+    s.add_argument("--radius-km", type=float, default=2.0)
+    s.add_argument("--out", default="config/aoi.geojson")
+    s.set_defaults(func=_cmd_aoi)
+
     s = sub.add_parser("pipeline", help="End-to-end: buildings -> flag -> activity -> chips")
-    s.add_argument("--aoi", required=True)
+    s.add_argument("--aoi", help="AOI GeoJSON (or use --postcode)")
+    s.add_argument("--postcode", help="UK postcode to centre on (geocoded; needs internet)")
+    s.add_argument("--radius-km", type=float, default=2.0)
     s.add_argument("--start", required=True)
     s.add_argument("--end", required=True)
     s.add_argument("--sensor", choices=["s1", "s2"], default="s1")
@@ -165,6 +173,12 @@ def build_parser() -> argparse.ArgumentParser:
     return p
 
 
+def _cmd_aoi(args):
+    from . import geocode
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+    geocode.build(args.postcode, args.radius_km, args.out)
+
+
 def _cmd_enrich(args):
     from . import enrich as en
     en.enrich(args.inp, args.out)
@@ -172,12 +186,24 @@ def _cmd_enrich(args):
 
 def _cmd_pipeline(args):
     """Run the whole chain for an AOI so a single command produces viewer-ready data."""
+    import shutil
+
     import geopandas as gpd
 
     from . import change, chips
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
-    a = aoi_mod.load_aoi(args.aoi)
+
+    if args.postcode:
+        from . import geocode
+        Path("config").mkdir(exist_ok=True)
+        geocode.build(args.postcode, args.radius_km, "config/aoi.geojson")
+        aoi_path = "config/aoi.geojson"
+    elif args.aoi:
+        aoi_path = args.aoi
+    else:
+        raise SystemExit("Provide --postcode 'OX27 7JE' or --aoi <file>")
+    a = aoi_mod.load_aoi(aoi_path)
 
     print("[1/4] Fetching OS NGD buildings…")
     raw = os_data.buildings(aoi_mod.bbox(a), max_features=args.max)
@@ -199,6 +225,7 @@ def _cmd_pipeline(args):
 
     if args.chips:
         print(f"[4/4] Rendering dated image chips ({args.chip_mode})…")
+        shutil.rmtree(outdir / "chips", ignore_errors=True)  # clear stale/old-area chips
         cseries, cmap = _build_chip_series(a, args.chip_mode, args.start, args.end)
         flagged_wgs = gpd.read_file(activity_path)
         counts = chips.save_building_chips(cseries, flagged_wgs,
