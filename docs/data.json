@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T02:33:16+00:00",
+ "generated_at": "2026-06-28T02:33:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "32'",
-   "clock_sec": 1920.0,
-   "status_detail": "32'",
+   "clock": "33'",
+   "clock_sec": 1980.0,
+   "status_detail": "33'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 3.65,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "32'",
-   "clock_sec": 1920.0,
-   "status_detail": "32'",
+   "clock": "33'",
+   "clock_sec": 1980.0,
+   "status_detail": "33'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 19.0,
@@ -5756,21 +5756,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Spain's Williams criticises tackle that injured him",
+   "desc": "Nico Williams criticises Uruguay's Nicolas de la Cruz for a \"completely unnecessary\" tackle that injured the Spain winger.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T02:31:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31ba/live/6fa68180-7296-11f1-a011-254b2fabf81c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel worried about right-back situation",
    "desc": "Thomas Tuchel says he is \"worried\" about England's right-back crisis after Jarell Quansah became the latest in the position to suffer injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T00:52:32Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dbff/live/2e5add80-7290-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who had the X-factor and who had a tough game? England player ratings",
-   "desc": "BBC Sport's England reporter Alex Howell rates the players after the Three Lions'  win over Panama in the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8r2l8y7ygko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T22:57:08Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c52/live/68037670-727a-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5801,12 +5801,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Gakpo asks for privacy after loss of unborn son",
-   "desc": "Noa van der Bij, the partner of Liverpool and Netherlands forward Cody Gakpo, announces the pair have lost their unborn son.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce37zz21e98o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T18:02:46Z",
+   "headline": "Who had the X-factor and who had a tough game? England player ratings",
+   "desc": "BBC Sport's England reporter Alex Howell rates the players after the Three Lions'  win over Panama in the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8r2l8y7ygko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T22:57:08Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/780e/live/bcc915b0-7249-11f1-a6b1-e743cbb66042.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c52/live/68037670-727a-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
