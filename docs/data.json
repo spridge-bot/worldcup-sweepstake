@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T01:10:45+00:00",
+ "generated_at": "2026-06-28T01:11:10+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "76'",
-   "clock_sec": 4560.0,
-   "status_detail": "76'",
+   "clock": "77'",
+   "clock_sec": 4620.0,
+   "status_detail": "77'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.71,
@@ -5650,6 +5650,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Who could England face in last 32 after qualifying for next round?",
+   "desc": "England secure top spot in Group L and a World Cup last-32 tie against a third-placed team with a 2-0 win over Panama on Saturday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T23:03:28Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed58/live/5bd5bde0-7284-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel worried about right-back situation",
    "desc": "Thomas Tuchel says he is \"worried\" about England's right-back crisis after Jarell Quansah became the latest in the position to suffer injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
@@ -5683,15 +5692,6 @@
    "published": "2026-06-27T11:14:31Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aabf/live/a871f8f0-7214-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Scotland's elimination from World Cup confirmed",
-   "desc": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T23:43:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84b9/live/16c604b0-71c8-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
