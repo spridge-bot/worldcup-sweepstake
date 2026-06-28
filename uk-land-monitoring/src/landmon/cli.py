@@ -151,6 +151,11 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--chip-mode", choices=["rgb", "ndvi", "sar"], default="rgb")
     s.set_defaults(func=_cmd_pipeline)
 
+    s = sub.add_parser("enrich", help="Add location/farm names + lookup links (needs internet)")
+    s.add_argument("--in", dest="inp", default="outputs/activity.geojson")
+    s.add_argument("--out", default="outputs/activity.geojson")
+    s.set_defaults(func=_cmd_enrich)
+
     s = sub.add_parser("serve", help="Run the web map viewer (zero deps)")
     s.add_argument("--host", default="127.0.0.1",
                    help="Bind address. 127.0.0.1 is safest behind `tailscale serve`.")
@@ -158,6 +163,11 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--data", help="GeoJSON to display (defaults to outputs/ then demo).")
     s.set_defaults(func=_cmd_serve)
     return p
+
+
+def _cmd_enrich(args):
+    from . import enrich as en
+    en.enrich(args.inp, args.out)
 
 
 def _cmd_pipeline(args):

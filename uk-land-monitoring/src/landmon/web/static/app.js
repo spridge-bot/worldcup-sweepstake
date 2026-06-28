@@ -3,22 +3,28 @@
 const map = L.map("map", { zoomControl: true }).setView([51.849, -1.265], 14);
 
 // --- base layers --------------------------------------------------------- //
-const esriSat = L.tileLayer(
-  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-  { maxZoom: 19, attribution: "Imagery &copy; Esri, Maxar, Earthstar Geographics" }
-).addTo(map);
+const A = "https://server.arcgisonline.com/ArcGIS/rest/services";
+const esriSat = L.tileLayer(`${A}/World_Imagery/MapServer/tile/{z}/{y}/{x}`,
+  { maxZoom: 19, attribution: "Imagery &copy; Esri, Maxar, Earthstar Geographics" });
+// Transparent overlays of place labels + roads, to sit ON TOP of the imagery.
+const esriLabels = L.tileLayer(`${A}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`,
+  { maxZoom: 19 });
+const esriRoads = L.tileLayer(`${A}/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}`,
+  { maxZoom: 19 });
+// Hybrid = satellite with labels + roads drawn over it.
+const hybrid = L.layerGroup([esriSat, esriRoads, esriLabels]).addTo(map);
 
 const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19, attribution: "&copy; OpenStreetMap contributors",
 });
-
 const osMap = L.tileLayer("/tiles/os/Outdoor/{z}/{x}/{y}.png", {
   maxZoom: 20, attribution: "Contains OS data &copy; Crown copyright",
   errorTileUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
 });
 
 L.control.layers(
-  { "Satellite (Esri)": esriSat, "OpenStreetMap": osm, "OS map (needs key)": osMap },
+  { "Hybrid (satellite + labels)": hybrid, "Satellite only": esriSat,
+    "OpenStreetMap": osm, "OS map (needs key)": osMap },
   {}, { collapsed: false }
 ).addTo(map);
 
@@ -45,6 +51,33 @@ let geojson, allFeatures = [];
 let dates = [], curDate = null;           // global time axis
 const chipsById = {};                      // id -> [{date,url}]
 const overlays = {};                       // id -> L.imageOverlay
+const pinLayer = L.layerGroup().addTo(map); // always-visible location pins
+
+function pinIcon(color) {
+  return L.divIcon({
+    className: "loc-pin", iconSize: [22, 30], iconAnchor: [11, 30], popupAnchor: [0, -28],
+    html: `<svg width="22" height="30" viewBox="0 0 22 30">
+      <path d="M11 0C5 0 0 5 0 11c0 7.7 11 19 11 19s11-11.3 11-19C22 5 17 0 11 0z"
+            fill="${color}" stroke="#0b0e12" stroke-width="1.6"/>
+      <circle cx="11" cy="11" r="4" fill="#fff"/></svg>`,
+  });
+}
+function refreshPins(date) {
+  pinLayer.clearLayers();
+  if (!geojson) return;
+  geojson.eachLayer(layer => {
+    const p = layer.feature.properties;
+    const m = L.marker(layer.getBounds().getCenter(),
+      { icon: pinIcon(activityColor(activityAt(p, date))) });
+    m.bindPopup(popupHtml(p));
+    m.bindTooltip(labelFor(p), { direction: "top", offset: [0, -28] });
+    m.on("popupopen", e => {
+      fillFilmstrip(p.id, layer);
+      renderSpark(p.id, e.popup.getElement());
+    });
+    pinLayer.addLayer(m);
+  });
+}
 const activeClasses = new Set(["farm_storage", "industrial_storage", "possible_storage"]);
 
 // Data access: live server (fetch) OR a standalone static export (inlined globals).
@@ -82,6 +115,9 @@ function paddedBounds(layer) {
 }
 
 // --- popups & polygons --------------------------------------------------- //
+function labelFor(p) {
+  return p.farm || p.location || p.name || p.id;
+}
 function popupHtml(p) {
   const pct = Math.round((p.activity_index ?? 0) * 100);
   const rows = [
@@ -92,7 +128,13 @@ function popupHtml(p) {
     ["SAR mean (dB)", p.mean?.toFixed?.(1) ?? "–"],
     ["SAR range (dB)", p.range?.toFixed?.(1) ?? "–"],
   ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join("");
-  return `<div class="popup"><h3>${p.name || p.id}</h3><table>${rows}</table>
+  const links = (p.links || [])
+    .map(l => `<a href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`)
+    .join(" · ");
+  return `<div class="popup"><h3>${labelFor(p)}</h3>
+    ${p.location ? `<div class="loc">📍 ${p.location}</div>` : ""}
+    <table>${rows}</table>
+    ${links ? `<div class="links">${links}</div>` : ""}
     <div class="sparkwrap"><div class="sparklbl">Activity over time</div>
       <div class="spark" data-id="${p.id}"></div></div>
     <div class="filmstrip" data-id="${p.id}"></div></div>`;
@@ -171,10 +213,10 @@ function buildList(feats, date) {
     const p = f.properties, a = activityAt(p, date), pct = Math.round(a * 100);
     return `<div class="card" data-id="${p.id}">
       <div class="row1">
-        <span class="name"><span class="dot" style="background:${activityColor(a)}"></span>${p.name || p.id}</span>
+        <span class="name"><span class="dot" style="background:${activityColor(a)}"></span>${labelFor(p)}</span>
         <span class="pct" style="color:${activityColor(a)}">${pct}%</span>
       </div>
-      <div class="meta">${(p.storage_class || "").replace(/_/g, " ")} · ${p.area_m2 ? Math.round(p.area_m2) + " m²" : ""}</div>
+      <div class="meta">${p.location ? p.location + " · " : ""}${(p.storage_class || "").replace(/_/g, " ")}${p.area_m2 ? " · " + Math.round(p.area_m2) + " m²" : ""}</div>
     </div>`;
   }).join("");
   list.querySelectorAll(".card").forEach(card => {
@@ -208,6 +250,7 @@ function applyDate(date) {
   const lbl = document.getElementById("datelabel");
   if (lbl && date) lbl.textContent = date;
   updateOpenSpark();      // move the sparkline marker if a popup is open
+  refreshPins(date);      // keep the always-visible pins in sync with the date
 }
 
 let timer = null;
