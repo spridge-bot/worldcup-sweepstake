@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T20:52:13+00:00",
+ "generated_at": "2026-06-28T20:52:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T19:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+1'",
+   "clock": "90'+2'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+1'",
+   "status_detail": "90'+2'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 5.25,
@@ -1238,7 +1238,7 @@
     "name": "Canada",
     "flag": "🇨🇦",
     "owner": "Dipen",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
