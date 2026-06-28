@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T01:22:54+00:00",
+ "generated_at": "2026-06-28T01:23:19+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -5650,15 +5650,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who could England face in last 32 after qualifying for next round?",
-   "desc": "England secure top spot in Group L and a World Cup last-32 tie against a third-placed team with a 2-0 win over Panama on Saturday.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T23:03:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed58/live/5bd5bde0-7284-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Tuchel worried about right-back situation",
    "desc": "Thomas Tuchel says he is \"worried\" about England's right-back crisis after Jarell Quansah became the latest in the position to suffer injury.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
@@ -5719,6 +5710,15 @@
    "published": "2026-06-27T04:43:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/915c/live/b5b24180-71df-11f1-8105-a94310744a25.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "One night in Miami: The Scotsmen of the apocalypse",
+   "desc": "BBC Scotland's Scott Mullen paints the scene from Miami as Scotland's World Cup hopes fade.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c872lpl4e0do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T08:34:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6177/live/b1221490-71eb-11f1-9e90-3ff6dfd27be0.jpg",
    "source": "BBC Sport"
   }
  ]
