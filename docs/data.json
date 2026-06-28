@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T20:55:05+00:00",
+ "generated_at": "2026-06-28T20:55:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T19:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+4'",
+   "clock": "90'+5'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+4'",
+   "status_detail": "90'+5'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 5.25,
