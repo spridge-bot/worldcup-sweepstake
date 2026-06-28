@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T00:54:43+00:00",
+ "generated_at": "2026-06-28T00:55:08+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "62'",
-   "clock_sec": 3720.0,
-   "status_detail": "62'",
+   "clock": "63'",
+   "clock_sec": 3780.0,
+   "status_detail": "63'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 3.45,
@@ -1246,9 +1246,9 @@
    "utc": "2026-06-27T23:30:00Z",
    "stage": "Group stage",
    "group": "Group K",
-   "clock": "60'",
-   "clock_sec": 3600.0,
-   "status_detail": "60'",
+   "clock": "61'",
+   "clock_sec": 3660.0,
+   "status_detail": "61'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.71,
