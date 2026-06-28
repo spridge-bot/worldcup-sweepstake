@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T05:06:42+00:00",
+ "generated_at": "2026-06-28T05:11:49+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3505,8 +3505,8 @@
    "group": null,
    "odds": {
     "home": 1.83,
-    "draw": 3.6,
-    "away": 4.5,
+    "draw": 3.55,
+    "away": 4.7,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5796,6 +5796,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England last-32 tie on BBC - see full schedule",
+   "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T05:00:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "What you need to know about England's opponents DR Congo",
    "desc": "England will face DR Congo in the round of 32. Here is what you need to know about them.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c39ypw34gwjo?at_medium=RSS&at_campaign=rss",
@@ -5838,15 +5847,6 @@
    "published": "2026-06-28T00:52:22Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b297/live/02bb4770-7289-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Spain's Williams criticises tackle that injured him",
-   "desc": "Nico Williams criticises Uruguay's Nicolas de la Cruz for a \"completely unnecessary\" tackle that injured the Spain winger.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T02:31:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31ba/live/6fa68180-7296-11f1-a011-254b2fabf81c.jpg",
    "source": "BBC Sport"
   },
   {
