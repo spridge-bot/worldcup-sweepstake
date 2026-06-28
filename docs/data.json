@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T03:55:40+00:00",
+ "generated_at": "2026-06-28T03:56:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -71,19 +71,6 @@
    "movement": -1
   },
   {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 10,
-   "today": 4,
-   "rank": 4,
-   "movement": 2
-  },
-  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -93,8 +80,21 @@
    ],
    "total": 9,
    "today": 8,
-   "rank": 6,
-   "movement": 3
+   "rank": 5,
+   "movement": 4
+  },
+  {
+   "name": "Ruggy",
+   "teams": [
+    "COL",
+    "KOR",
+    "ALG",
+    "QAT"
+   ],
+   "total": 9,
+   "today": 8,
+   "rank": 5,
+   "movement": 4
   },
   {
    "name": "Willo",
@@ -106,7 +106,20 @@
    ],
    "total": 9,
    "today": 1,
-   "rank": 6,
+   "rank": 5,
+   "movement": -1
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 8,
+   "today": 2,
+   "rank": 8,
    "movement": -2
   },
   {
@@ -132,21 +145,8 @@
    ],
    "total": 7,
    "today": 5,
-   "rank": 9,
-   "movement": -1
-  },
-  {
-   "name": "Ruggy",
-   "teams": [
-    "COL",
-    "KOR",
-    "ALG",
-    "QAT"
-   ],
-   "total": 7,
-   "today": 6,
-   "rank": 9,
-   "movement": 0
+   "rank": 10,
+   "movement": -2
   },
   {
    "name": "Dubs",
@@ -667,12 +667,12 @@
    "lost": 1,
    "gf": 3,
    "ga": 3,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "2nd in Group J (live)",
-     "points": 3
+     "desc": "3rd in Group J (live)",
+     "points": 1
     }
    ]
   },
@@ -736,12 +736,12 @@
    "lost": 1,
    "gf": 2,
    "ga": 4,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "3rd in Group J (live)",
-     "points": 1
+     "desc": "2nd in Group J (live)",
+     "points": 3
     }
    ]
   },
@@ -1215,9 +1215,9 @@
    "utc": "2026-06-28T02:00:00Z",
    "stage": "Group stage",
    "group": "Group J",
-   "clock": "90'+3'",
+   "clock": "90'+4'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+3'",
+   "status_detail": "90'+4'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 3.65,
@@ -1231,7 +1231,7 @@
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "goals": 2
+    "goals": 3
    },
    "away": {
     "code": "AUT",
@@ -4261,37 +4261,37 @@
     },
     {
      "group": "Group J",
-     "code": "AUT",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 5,
-     "ga": 5,
-     "pts": 4,
-     "live": true,
-     "gd": 0,
-     "name": "Austria",
-     "flag": "🇦🇹",
-     "tier": 2,
-     "owner": "George"
-    },
-    {
-     "group": "Group J",
      "code": "ALG",
      "p": 3,
-     "w": 1,
-     "d": 1,
+     "w": 2,
+     "d": 0,
      "l": 1,
-     "gf": 4,
+     "gf": 5,
      "ga": 6,
-     "pts": 4,
+     "pts": 6,
      "live": true,
-     "gd": -2,
+     "gd": -1,
      "name": "Algeria",
      "flag": "🇩🇿",
      "tier": 2,
      "owner": "Ruggy"
+    },
+    {
+     "group": "Group J",
+     "code": "AUT",
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 5,
+     "ga": 6,
+     "pts": 3,
+     "live": true,
+     "gd": -1,
+     "name": "Austria",
+     "flag": "🇦🇹",
+     "tier": 2,
+     "owner": "George"
     },
     {
      "group": "Group J",
