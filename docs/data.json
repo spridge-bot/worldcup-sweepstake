@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T03:24:22+00:00",
+ "generated_at": "2026-06-28T03:24:47+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -5720,6 +5720,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What you need to know about England's opponents DR Congo",
+   "desc": "England will face DR Congo in the round of 32. Here is what you need to know about them.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c39ypw34gwjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T03:21:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7dca/live/0abc2490-7292-11f1-a4e1-453bbdc3eeb5.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Scotland's ill-fated World Cup story finally at a sorry end",
    "desc": "BBC Sport Scotland's chief sportswriter Tom English sums up his verdict on the nation's World Cup exit.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdwz890go?at_medium=RSS&at_campaign=rss",
@@ -5798,15 +5807,6 @@
    "published": "2026-06-27T04:43:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/915c/live/b5b24180-71df-11f1-8105-a94310744a25.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who had the X-factor and who had a tough game? England player ratings",
-   "desc": "BBC Sport's England reporter Alex Howell rates the players after the Three Lions'  win over Panama in the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8r2l8y7ygko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T22:57:08Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c52/live/68037670-727a-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   }
  ]
