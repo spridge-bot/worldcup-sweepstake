@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T18:02:25+00:00",
+ "generated_at": "2026-06-28T18:07:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3235,9 +3235,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 5.25,
-    "draw": 3.5,
-    "away": 1.77,
+    "home": 5.0,
+    "draw": 3.4,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5835,6 +5835,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'Bye-bye, Scotland' - Clarke's leaving letter to Tartan Army",
+   "desc": "Steve Clarke's letter to the Scotland fans in full following his departure as head coach.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c74yxdq1ky0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T00:52:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b297/live/02bb4770-7289-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
    "desc": "Crystal Palace and Sunderland lead the Premier League’s World Cup scoring charts after the 2026 group stage, ahead of Arsenal, Liverpool and Manchester City.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
@@ -5868,15 +5877,6 @@
    "published": "2026-06-28T05:00:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "South Africa look to lay ghosts of 2010 to rest",
-   "desc": "South Africa play their first ever World Cup knockout game against Canada, 16 years after Bafana Bafana passed up the chance to progress at a tournament held on home soil.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2dpwpv1ypo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T08:00:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7a5f/live/8ff27bc0-717d-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
   },
   {
