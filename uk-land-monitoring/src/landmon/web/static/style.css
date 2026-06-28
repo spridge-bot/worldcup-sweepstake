@@ -30,6 +30,17 @@ body.collapsed #sidebar { display: none; }
 .note { font-size: 11px; color: #8b94a3; line-height: 1.4; }
 .src { font-size: 10px; color: #5d6675; margin-top: 18px; word-break: break-all; }
 
+#stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 14px; }
+#stats .stat { background: #1d232c; border: 1px solid #2a313c; border-radius: 8px; padding: 6px 4px; text-align: center; }
+#stats .stat .v { font-size: 17px; font-weight: 700; color: #e6e9ee; }
+#stats .stat .k { font-size: 10px; color: #9aa4b2; text-transform: uppercase; letter-spacing: .03em; }
+
+.tabs { display: flex; gap: 6px; margin: 4px 0 10px; }
+.tabs .tab { flex: 1; background: #1d232c; color: #b8c0cc; border: 1px solid #2a313c;
+  border-radius: 7px; padding: 6px 0; font-size: 13px; cursor: pointer; }
+.tabs .tab.active { background: #4a90d9; color: #fff; border-color: #4a90d9; }
+.farm-lbl { background: rgba(20,24,31,0.85); color: #ffd24d; border: 0; font-weight: 600; }
+
 .legend { margin-bottom: 16px; }
 .legend-title { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
 .legend-bar {

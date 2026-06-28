@@ -150,6 +150,11 @@ class Handler(BaseHTTPRequestHandler):
             return self._serve_static(path[len("/static/"):])
         if path == "/api/buildings":
             return self._json(load_buildings(self.data_path))
+        if path == "/api/farms":
+            farms = self.data_path.parent / "farms.geojson"
+            if farms.exists():
+                return self._json(json.loads(farms.read_text()))
+            return self._json({"type": "FeatureCollection", "features": []})
         if path == "/api/meta":
             return self._json({
                 "os_tiles": bool(os.environ.get("OS_API_KEY")),

@@ -307,6 +307,71 @@ document.querySelectorAll(".cls").forEach(cb => cb.onchange = () => {
 });
 document.getElementById("quietonly").onchange = render;
 
+// --- farms layer + stats + tabs ------------------------------------------ //
+let farms = [];
+const farmLayer = L.geoJSON(null, {
+  style: { color: "#ffd24d", weight: 1.5, fillColor: "#ffd24d", fillOpacity: 0.08, dashArray: "4 3" },
+  onEachFeature: (f, l) => {
+    const p = f.properties;
+    l.bindTooltip(p.name, { permanent: false, direction: "center", className: "farm-lbl" });
+    l.bindPopup(farmPopup(p));
+  },
+}).addTo(map);
+document.getElementById("showfarms").onchange = e =>
+  e.target.checked ? farmLayer.addTo(map) : map.removeLayer(farmLayer);
+
+function farmPopup(p) {
+  const av = availability(p);
+  const rows = [
+    ["Availability", `<b style="color:${av.color}">${av.label}</b>`],
+    ["Buildings", p.n_buildings],
+    ["Storage footprint", `${Math.round(p.footprint_m2).toLocaleString()} m²`],
+    ["Yard extent", p.yard_ha != null ? `${p.yard_ha} ha` : "–"],
+    ["Surrounding farmland", p.land_ha != null ? `~${p.land_ha} ha` : "n/a"],
+    ["Avg activity", `${Math.round((p.activity_index ?? 0) * 100)}%`],
+  ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join("");
+  return `<div class="popup"><h3>${p.name}</h3><table>${rows}</table></div>`;
+}
+
+function renderStats() {
+  const total = allFeatures.length;
+  const quiet = allFeatures.filter(f => (f.properties.activity_index ?? 0) < 0.34).length;
+  const area = allFeatures.reduce((s, f) => s + (f.properties.area_m2 || 0), 0);
+  const cells = [
+    ["Sites", total], ["Quiet", quiet],
+    ["Farms", farms.length || "–"],
+    ["Storage", area ? `${Math.round(area / 1000) / 1}k m²`.replace("k m²", "k m²") : "–"],
+  ];
+  document.getElementById("stats").innerHTML = cells.map(([k, v]) =>
+    `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
+}
+
+function buildFarmList() {
+  const el = document.getElementById("farmlist");
+  const sorted = [...farms].sort((a, b) =>
+    (a.properties.activity_index ?? 0) - (b.properties.activity_index ?? 0));
+  el.innerHTML = sorted.map(f => {
+    const p = f.properties, av = availability(p);
+    return `<div class="card" data-farm="${p.farm_id}">
+      <div class="row1"><span class="name">${p.name}</span>
+        <span class="pct" style="color:${av.color}">${Math.round((p.activity_index ?? 0) * 100)}%</span></div>
+      <div class="meta"><span class="avail" style="color:${av.color}">${av.label}</span>
+        · ${p.n_buildings} bld · ${p.land_ha != null ? p.land_ha + " ha land" : Math.round(p.footprint_m2) + " m²"}</div>
+    </div>`;
+  }).join("") || `<p class="note">No farm grouping yet — run <code>landmon farms</code>.</p>`;
+  el.querySelectorAll(".card").forEach(card => card.onclick = () => {
+    const f = farms.find(x => String(x.properties.farm_id) === card.dataset.farm);
+    if (f) { const l = L.geoJSON(f); map.fitBounds(l.getBounds(), { maxZoom: 17 }); }
+  });
+}
+
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === t));
+  const sites = t.dataset.tab === "sites";
+  document.getElementById("list").hidden = !sites;
+  document.getElementById("farmlist").hidden = sites;
+});
+
 // --- boot ---------------------------------------------------------------- //
 getJSON("/api/meta").then(m => {
   document.getElementById("src").textContent = "source: " + m.data_source;
@@ -334,6 +399,15 @@ getJSON("/api/buildings").then(async fc => {
   setupTimebar();
   if (allFeatures.length) map.fitBounds(L.geoJSON(fc).getBounds().pad(0.3));
   setTimeout(() => map.invalidateSize(), 300);   // ensure correct map size on load
+
+  getJSON("/api/farms").then(ff => {
+    farms = ff.features || [];
+    farmLayer.clearLayers();
+    if (farms.length) farmLayer.addData(ff);
+    renderStats();
+    buildFarmList();
+  }).catch(() => renderStats());
+  renderStats();
 });
 
 // --- show/hide sidebar; keep the map sized correctly --------------------- //

@@ -164,6 +164,13 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--out", default="outputs/activity.geojson")
     s.set_defaults(func=_cmd_enrich)
 
+    s = sub.add_parser("farms", help="Group buildings into farm holdings + land (needs internet)")
+    s.add_argument("--in", dest="inp", default="outputs/activity.geojson")
+    s.add_argument("--out", default="outputs/farms.geojson")
+    s.add_argument("--cluster-m", type=float, default=250.0)
+    s.add_argument("--no-land", action="store_true", help="Skip OSM farmland area lookup")
+    s.set_defaults(func=_cmd_farms)
+
     s = sub.add_parser("serve", help="Run the web map viewer (zero deps)")
     s.add_argument("--host", default="127.0.0.1",
                    help="Bind address. 127.0.0.1 is safest behind `tailscale serve`.")
@@ -182,6 +189,11 @@ def _cmd_aoi(args):
 def _cmd_enrich(args):
     from . import enrich as en
     en.enrich(args.inp, args.out)
+
+
+def _cmd_farms(args):
+    from . import farms
+    farms.build(args.inp, args.out, cluster_m=args.cluster_m, land=not args.no_land)
 
 
 def _cmd_pipeline(args):

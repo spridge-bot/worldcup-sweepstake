@@ -11,7 +11,9 @@
   <button id="sidebar-toggle" title="Show / hide panel" aria-label="Show or hide panel">☰</button>
   <div id="sidebar">
     <h1>Land Monitor</h1>
-    <p class="sub">Tagged storage buildings, coloured by estimated activity.</p>
+    <p class="sub">Storage candidates near you — quietest (most likely available) first.</p>
+
+    <div id="stats"></div>
 
     <div class="legend">
       <div class="legend-title">Activity level</div>
@@ -25,9 +27,16 @@
       <label><input type="checkbox" class="cls" value="industrial_storage" checked> Industrial storage</label>
       <label><input type="checkbox" class="cls" value="possible_storage" checked> Possible storage</label>
       <label class="quiet"><input type="checkbox" id="quietonly"> Only quiet / likely available</label>
+      <label><input type="checkbox" id="showfarms" checked> Show farm areas on map</label>
     </div>
 
-    <div id="list"></div>
+    <div class="tabs">
+      <button class="tab active" data-tab="sites">Sites</button>
+      <button class="tab" data-tab="farms">Farms</button>
+    </div>
+
+    <div id="list" class="tabpane"></div>
+    <div id="farmlist" class="tabpane" hidden></div>
     <p class="src" id="src"></p>
   </div>
 
