@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T09:23:10+00:00",
+ "generated_at": "2026-06-28T09:28:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5781,30 +5781,21 @@
  ],
  "news": [
   {
-   "headline": "Best team, moments, matches and players of World Cup group stage",
-   "desc": "As the World Cup group stages come to an end, BBC Sport reporters pick their highlights so far.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce3e256752qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T08:07:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dcc9/live/e6810200-723a-11f1-930d-75324f3b4c6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Clarke steps down as Scotland boss after World Cup exit",
-   "desc": "Steve Clarke resigns as Scotland head coach following the nation's group exit from the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T23:37:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/281f/live/cb817fe0-7283-11f1-ad8e-b511163b3cf4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Knockouts are here - what is England's path to the final?",
    "desc": "BBC Sport takes a look at what England will need to do to reach the final after qualifying for the knockout stages.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T05:39:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c97/live/c9f97310-7140-11f1-a925-613255806d39.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
+   "desc": "Gianni Infantino has clocked up thousands of air miles across North America so far.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T09:20:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b957/live/04a174d0-7192-11f1-b1db-af71d47507d6.png",
    "source": "BBC Sport"
   },
   {
@@ -5817,12 +5808,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
-   "desc": "BBC Scotland charts the trajectory of Steve Clarke's last month as Scotland head coach.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8mqmg327vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T04:48:21Z",
+   "headline": "England last-32 tie on BBC - see full schedule",
+   "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T05:00:17Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d081/live/2fc61c90-72ac-11f1-8546-8f19e4fe30f4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Clarke steps down as Scotland boss after World Cup exit",
+   "desc": "Steve Clarke resigns as Scotland head coach following the nation's group exit from the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-27T23:37:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/281f/live/cb817fe0-7283-11f1-ad8e-b511163b3cf4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5832,6 +5832,24 @@
    "published": "2026-06-28T01:05:27Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7f6f/live/7f115920-728b-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Best team, moments, matches and players of World Cup group stage",
+   "desc": "As the World Cup group stages come to an end, BBC Sport reporters pick their highlights so far.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce3e256752qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T08:07:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dcc9/live/e6810200-723a-11f1-930d-75324f3b4c6e.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
+   "desc": "BBC Scotland charts the trajectory of Steve Clarke's last month as Scotland head coach.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8mqmg327vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T04:48:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d081/live/2fc61c90-72ac-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5859,24 +5877,6 @@
    "published": "2026-06-28T06:52:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Scotland's ill-fated World Cup story finally at a sorry end",
-   "desc": "BBC Sport Scotland's chief sportswriter Tom English sums up his verdict on the nation's World Cup exit.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdwz890go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T23:21:55Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3ee/live/5422d250-727e-11f1-96bd-63be35c265e8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England last-32 tie on BBC - see full schedule",
-   "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T05:00:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/28da/live/2c756160-72a0-11f1-b1db-af71d47507d6.jpg",
    "source": "BBC Sport"
   },
   {
