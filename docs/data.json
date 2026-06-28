@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T10:45:10+00:00",
+ "generated_at": "2026-06-28T10:50:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3536,8 +3536,8 @@
    "group": null,
    "odds": {
     "home": 1.91,
-    "draw": 3.7,
-    "away": 3.95,
+    "draw": 3.65,
+    "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5817,6 +5817,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
+   "desc": "Crystal Palace and Sunderland lead the Premier League’s World Cup scoring charts after the 2026 group stage, ahead of Arsenal, Liverpool and Manchester City.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T09:57:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6740/live/ee8ca130-72ca-11f1-8d28-af7129502366.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England last-32 tie on BBC - see full schedule",
    "desc": "England's World Cup last-32 game against DR Congo will be shown live on BBC One and BBC iPlayer, with all 16 first knockout round ties covered across BBC Sport.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
@@ -5832,15 +5841,6 @@
    "published": "2026-06-28T09:38:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Clarke steps down as Scotland boss after World Cup exit",
-   "desc": "Steve Clarke resigns as Scotland head coach following the nation's group exit from the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T23:37:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/281f/live/cb817fe0-7283-11f1-ad8e-b511163b3cf4.jpg",
    "source": "BBC Sport"
   },
   {
