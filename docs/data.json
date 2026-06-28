@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T01:32:48+00:00",
+ "generated_at": "2026-06-28T01:37:55+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3387,6 +3387,44 @@
    }
   },
   {
+   "id": 760495,
+   "utc": "2026-07-01T16:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "form": "WDWWW"
+   },
+   "away": {
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "owner": "Willo",
+    "form": "WLDLD"
+   }
+  },
+  {
+   "id": 760493,
+   "utc": "2026-07-01T20:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
+    "form": "WDDWW"
+   },
+   "away": {
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "owner": "Fergs",
+    "form": "WLLDL"
+   }
+  },
+  {
    "id": 760494,
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
@@ -3409,6 +3447,25 @@
     "flag": "🇧🇦",
     "owner": "Spridge",
     "form": "WLDDD"
+   }
+  },
+  {
+   "id": 760496,
+   "utc": "2026-07-02T23:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "form": "DWDWW"
+   },
+   "away": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "owner": "Dubs",
+    "form": "WWLWL"
    }
   },
   {
@@ -3459,6 +3516,25 @@
     "flag": "🇨🇻",
     "owner": "Dubs",
     "form": "DDDWW"
+   }
+  },
+  {
+   "id": 760501,
+   "utc": "2026-07-04T01:30:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy",
+    "form": "DWWWW"
+   },
+   "away": {
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "owner": "George",
+    "form": "LDWDL"
    }
   }
  ],
@@ -4519,10 +4595,10 @@
     "owner": "Brando"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group E/H/I/J/K",
-    "flag": "",
-    "owner": null
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "owner": "Willo"
    }
   },
   {
@@ -4542,10 +4618,10 @@
     "owner": "Pari"
    },
    "away": {
-    "code": null,
-    "name": "Third Place Group A/E/H/I/J",
-    "flag": "",
-    "owner": null
+    "code": "SEN",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "owner": "Fergs"
    }
   },
   {
@@ -4605,10 +4681,10 @@
    "winner": null,
    "venue": "BMO Field",
    "home": {
-    "code": null,
-    "name": "Group K 2nd Place",
-    "flag": "",
-    "owner": null
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen"
    },
    "away": {
     "code": "CRO",
@@ -4697,10 +4773,10 @@
    "winner": null,
    "venue": "GEHA Field at Arrowhead Stadium",
    "home": {
-    "code": null,
-    "name": "Group K Winner",
-    "flag": "",
-    "owner": null
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy"
    },
    "away": {
     "code": "GHA",
