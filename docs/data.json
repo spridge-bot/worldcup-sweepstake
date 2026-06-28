@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T06:54:05+00:00",
+ "generated_at": "2026-06-28T06:59:11+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3235,9 +3235,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 5.5,
-    "draw": 3.8,
-    "away": 1.67,
+    "home": 5.75,
+    "draw": 3.85,
+    "away": 1.65,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3485,9 +3485,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.29,
+    "home": 1.3,
     "draw": 5.5,
-    "away": 12.0,
+    "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3610,9 +3610,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.59,
+    "home": 1.61,
     "draw": 3.85,
-    "away": 6.5,
+    "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5826,6 +5826,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Are Iran the unluckiest side in World Cup history?",
+   "desc": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T06:52:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "What you need to know about England's opponents DR Congo",
    "desc": "England will face DR Congo in the round of 32. Here is what you need to know about them.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c39ypw34gwjo?at_medium=RSS&at_campaign=rss",
@@ -5877,15 +5886,6 @@
    "published": "2026-06-28T02:13:34Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3c3f/live/d4adc1a0-7260-11f1-9f4b-39f3276a2716.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Spain's Pino may miss rest of World Cup",
-   "desc": "Spain winger Yeremy Pino may miss the rest of the World Cup with a suspected broken collarbone.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c77y384r670o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-27T04:43:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/915c/live/b5b24180-71df-11f1-8105-a94310744a25.jpg",
    "source": "BBC Sport"
   }
  ]
