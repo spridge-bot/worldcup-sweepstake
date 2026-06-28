@@ -105,8 +105,11 @@ def load_buildings(data_path: Path) -> dict:
     # Guarantee a stable id per feature for chips/linking.
     for i, f in enumerate(fc.get("features", [])):
         props = f.setdefault("properties", {})
+        # Use the POSITIONAL index as the id so it matches the chip folders,
+        # which `landmon chips` writes by index (outputs/chips/0, /1, …).
+        # Demo data carries its own explicit id (demo-1, …) which we keep.
         if not props.get("id"):
-            props["id"] = props.get("osid") or props.get("name") or f"f{i}"
+            props["id"] = str(i)
     return with_activity_index(fc)
 
 
@@ -178,7 +181,10 @@ class Handler(BaseHTTPRequestHandler):
             ".png": "image/png",
             ".svg": "image/svg+xml",
         }.get(safe.suffix, "application/octet-stream")
-        self._file(safe, ctype)
+        # Don't cache the app code/markup so updates show on a normal refresh;
+        # the big vendored Leaflet lib can still cache.
+        cache = 0 if safe.suffix in (".html", ".js", ".css") and "vendor" not in rel else 86400
+        self._file(safe, ctype, cache)
 
     def _proxy_os_tile(self, layer, z, x, y):
         key = os.environ.get("OS_API_KEY")
