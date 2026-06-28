@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T01:32:24+00:00",
+ "generated_at": "2026-06-28T01:32:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -286,7 +286,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group K (live)",
+     "desc": "2nd in Group K",
      "points": 3
     }
    ]
@@ -447,7 +447,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group K (live)",
+     "desc": "1st in Group K",
      "points": 5
     }
    ]
@@ -948,17 +948,17 @@
    "fifa_rank": 45,
    "owner": "Willo",
    "status": "alive",
-   "played": 2,
-   "won": 0,
+   "played": 3,
+   "won": 1,
    "drawn": 1,
    "lost": 1,
-   "gf": 1,
-   "ga": 2,
+   "gf": 4,
+   "ga": 3,
    "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group K (live)",
+     "desc": "3rd in Group K",
      "points": 1
     }
    ]
@@ -988,12 +988,12 @@
    "fifa_rank": 48,
    "owner": "Pari",
    "status": "alive",
-   "played": 2,
+   "played": 3,
    "won": 0,
    "drawn": 0,
-   "lost": 2,
-   "gf": 1,
-   "ga": 8,
+   "lost": 3,
+   "gf": 2,
+   "ga": 11,
    "total": 0,
    "events": []
   },
@@ -1209,39 +1209,7 @@
    "events": []
   }
  },
- "live": [
-  {
-   "id": 760482,
-   "utc": "2026-06-27T23:30:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "Mercedes-Benz Stadium",
-   "odds": {
-    "home": 1.71,
-    "draw": 3.8,
-    "away": 5.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "code": "COD",
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "goals": 3
-   },
-   "away": {
-    "code": "UZB",
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "owner": "Pari",
-    "goals": 1
-   }
-  }
- ],
+ "live": [],
  "results": [
   {
    "id": 760481,
@@ -1270,6 +1238,37 @@
     "home": 3.45,
     "draw": 3.8,
     "away": 2.05,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   }
+  },
+  {
+   "id": 760482,
+   "date": "2026-06-27",
+   "utc": "2026-06-27T23:30:00Z",
+   "stage": "Group stage",
+   "group": "Group K",
+   "note": "",
+   "home": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "tier": 3,
+    "goals": 3,
+    "points": null
+   },
+   "away": {
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "tier": 3,
+    "goals": 1,
+    "points": null
+   },
+   "odds": {
+    "home": 1.71,
+    "draw": 3.8,
+    "away": 5.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    }
@@ -4241,7 +4240,7 @@
      "gf": 4,
      "ga": 3,
      "pts": 4,
-     "live": true,
+     "live": false,
      "gd": 1,
      "name": "DR Congo",
      "flag": "🇨🇩",
@@ -4258,7 +4257,7 @@
      "gf": 2,
      "ga": 11,
      "pts": 0,
-     "live": true,
+     "live": false,
      "gd": -9,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
@@ -5324,6 +5323,15 @@
    "pts": 5
   },
   {
+   "code": "COD",
+   "name": "DR Congo",
+   "flag": "🇨🇩",
+   "owner": "Willo",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "ECU",
    "name": "Ecuador",
    "flag": "🇪🇨",
@@ -5423,6 +5431,15 @@
    "pts": 4
   },
   {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "flag": "🇺🇿",
+   "owner": "Pari",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "AUT",
    "name": "Austria",
    "flag": "🇦🇹",
@@ -5486,15 +5503,6 @@
    "pts": 2
   },
   {
-   "code": "COD",
-   "name": "DR Congo",
-   "flag": "🇨🇩",
-   "owner": "Willo",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
    "code": "ENG",
    "name": "England",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -5517,15 +5525,6 @@
    "name": "Spain",
    "flag": "🇪🇸",
    "owner": "Jen",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "UZB",
-   "name": "Uzbekistan",
-   "flag": "🇺🇿",
-   "owner": "Pari",
    "yellow": 2,
    "red": 0,
    "pts": 2
