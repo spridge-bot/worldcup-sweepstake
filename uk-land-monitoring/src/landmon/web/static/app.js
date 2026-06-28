@@ -145,9 +145,8 @@ function popupHtml(p) {
     ${p.location ? `<div class="loc">📍 ${p.location}</div>` : ""}
     <table>${rows}</table>
     ${links ? `<div class="links">${links}</div>` : ""}
-    <div class="sparkwrap"><div class="sparklbl">Activity over time</div>
-      <div class="spark" data-id="${p.id}"></div></div>
-    <div class="filmstrip" data-id="${p.id}"></div></div>`;
+    <div class="sparkwrap"><div class="sparklbl">Activity over time (radar)</div>
+      <div class="spark" data-id="${p.id}"></div></div></div>`;
 }
 
 // Inline SVG sparkline of the per-date activity timeline, with a dot on curDate.
