@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T03:36:51+00:00",
+ "generated_at": "2026-06-28T03:37:17+00:00",
  "mode": "live",
  "latest_day": "2026-06-27",
  "scoring": {
@@ -3485,7 +3485,13 @@
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.91,
+    "draw": 3.5,
+    "away": 4.2,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Portugal",
     "flag": "🇵🇹",
@@ -3554,7 +3560,13 @@
    "utc": "2026-07-04T01:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.8,
+    "draw": 3.6,
+    "away": 4.9,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Colombia",
     "flag": "🇨🇴",
