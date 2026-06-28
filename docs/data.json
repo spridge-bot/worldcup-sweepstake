@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-28T19:00:41+00:00",
+ "generated_at": "2026-06-28T19:00:57+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1209,7 +1209,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760486,
+   "utc": "2026-06-28T19:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "SoFi Stadium",
+   "odds": {
+    "home": 5.25,
+    "draw": 3.55,
+    "away": 1.74,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "owner": "Dipen",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760484,
@@ -3230,31 +3262,6 @@
  ],
  "upcoming": [
   {
-   "id": 760486,
-   "utc": "2026-06-28T19:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 4.8,
-    "draw": 3.4,
-    "away": 1.87,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "owner": "Dipen",
-    "form": "WDLWD"
-   },
-   "away": {
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "form": "LWDDW"
-   }
-  },
-  {
    "id": 760487,
    "utc": "2026-06-29T17:00:00Z",
    "stage": "Round of 32",
@@ -4513,7 +4520,7 @@
    "id": 760486,
    "utc": "2026-06-28T19:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
