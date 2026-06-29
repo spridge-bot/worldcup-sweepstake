@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T12:20:06+00:00",
+ "generated_at": "2026-06-29T12:25:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5648,6 +5648,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Could a heatwave make World Cup matches 'unsafe' this week?",
+   "desc": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches.",
+   "link": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T11:36:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f22/live/887bd5c0-72ff-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why Netherlands v Morocco is more than just a match",
    "desc": "Morocco’s World Cup meeting with the Netherlands tells a story about migration, identity and the battle for Dutch-born talent.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clye1l3m9k4o?at_medium=RSS&at_campaign=rss",
@@ -5666,21 +5675,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
-   "desc": "The 'Disgrace of Gijon' - an infamous match at the 1982 World Cup in Spain - has followed Austria and Algeria for 44 years. Did history repeat itself in Algeria's 3-3 draw with Austria on Sunday?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T21:16:30Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Brazil going out? Chris Sutton predicts World Cup's last-32 matches",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T19:14:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
+   "desc": "The 'Disgrace of Gijon' - an infamous match at the 1982 World Cup in Spain - has followed Austria and Algeria for 44 years. Did history repeat itself in Algeria's 3-3 draw with Austria on Sunday?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T21:16:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5708,15 +5717,6 @@
    "published": "2026-06-29T05:26:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c921/live/7b315c70-7262-11f1-8c6f-abbbc508baf9.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Knockouts are here - what is England's path to the final?",
-   "desc": "BBC Sport takes a look at what England will need to do to reach the final after qualifying for the knockout stages.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T05:39:46Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c97/live/c9f97310-7140-11f1-a925-613255806d39.jpg",
    "source": "BBC Sport"
   }
  ]
