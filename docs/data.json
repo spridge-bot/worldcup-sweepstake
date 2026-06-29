@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T16:00:25+00:00",
+ "generated_at": "2026-06-29T16:05:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3091,9 +3091,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.77,
-    "draw": 3.6,
-    "away": 5.0,
+    "home": 1.8,
+    "draw": 3.55,
+    "away": 4.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5648,15 +5648,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Clarke says standing down 'easy' decision after World Cup exit",
-   "desc": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T09:25:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8499/live/4e314420-739c-11f1-a8fc-c51d60fec73b.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Could a heatwave make World Cup matches 'unsafe' this week?",
    "desc": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches.",
    "link": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
@@ -5672,6 +5663,15 @@
    "published": "2026-06-29T10:16:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cd35/live/eb4d3330-7302-11f1-8b3a-1977d6dee6ef.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Harsh reality behind Scotland fans' calls for Moyes & Postecoglou",
+   "desc": "Some Scotland fans are dreaming of David Moyes or Ange Postecoglou replacing Steve Clarke, but could either man be a realistic prospect?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8kew413jjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T14:31:43Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ce6d/live/4ffea9f0-73c4-11f1-aaa1-3f07d3ad2c35.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5693,6 +5693,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Clarke says standing down 'easy' decision after World Cup exit",
+   "desc": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T09:25:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8499/live/4e314420-739c-11f1-a8fc-c51d60fec73b.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
    "desc": "The 'Disgrace of Gijon' - an infamous match at the 1982 World Cup in Spain - has followed Austria and Algeria for 44 years. Did history repeat itself in Algeria's 3-3 draw with Austria on Sunday?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-29T12:03:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb67/live/64eb3a70-73ad-11f1-9da1-db101e3ae6ed.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
-   "desc": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T00:02:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2a6a/live/b6f81890-734b-11f1-8e1d-bbbb1017d210.jpg",
    "source": "BBC Sport"
   }
  ]
