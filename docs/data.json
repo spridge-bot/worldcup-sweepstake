@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T03:52:21+00:00",
+ "generated_at": "2026-06-29T03:57:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -19,6 +19,32 @@
  },
  "players": [
   {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 18,
+   "today": 0,
+   "rank": 1,
+   "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 14,
+   "today": 3,
+   "rank": 2,
+   "movement": 0
+  },
+  {
    "name": "Dipen",
    "teams": [
     "POR",
@@ -26,23 +52,10 @@
     "CAN",
     "RSA"
    ],
-   "total": 16,
-   "today": 2,
-   "rank": 1,
-   "movement": 0
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
    "total": 11,
-   "today": 0,
-   "rank": 2,
-   "movement": 0
+   "today": 2,
+   "rank": 3,
+   "movement": 2
   },
   {
    "name": "Jen",
@@ -54,34 +67,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 10,
-   "today": 0,
-   "rank": 4,
-   "movement": 0
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 10,
-   "today": 3,
-   "rank": 4,
-   "movement": 4
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -90,6 +77,19 @@
     "ECU",
     "EGY",
     "KSA"
+   ],
+   "total": 10,
+   "today": 0,
+   "rank": 5,
+   "movement": -1
+  },
+  {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
    ],
    "total": 9,
    "today": 0,
@@ -110,19 +110,6 @@
    "movement": -1
   },
   {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 8,
-   "today": 0,
-   "rank": 8,
-   "movement": -1
-  },
-  {
    "name": "Fergs",
    "teams": [
     "ARG",
@@ -130,9 +117,9 @@
     "PAR",
     "CUW"
    ],
-   "total": 7,
+   "total": 8,
    "today": 5,
-   "rank": 9,
+   "rank": 8,
    "movement": 3
   },
   {
@@ -143,23 +130,10 @@
     "ALG",
     "QAT"
    ],
-   "total": 7,
+   "total": 8,
    "today": 1,
-   "rank": 9,
+   "rank": 8,
    "movement": 0
-  },
-  {
-   "name": "Dubs",
-   "teams": [
-    "CRO",
-    "TUR",
-    "PAN",
-    "CPV"
-   ],
-   "total": 6,
-   "today": 0,
-   "rank": 11,
-   "movement": -2
   },
   {
    "name": "Pari",
@@ -169,10 +143,36 @@
     "TUN",
     "UZB"
    ],
-   "total": 6,
+   "total": 5,
+   "today": 0,
+   "rank": 10,
+   "movement": -1
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 4,
    "today": 0,
    "rank": 11,
-   "movement": -2
+   "movement": -1
+  },
+  {
+   "name": "Dubs",
+   "teams": [
+    "CRO",
+    "TUR",
+    "PAN",
+    "CPV"
+   ],
+   "total": 3,
+   "today": 0,
+   "rank": 12,
+   "movement": -1
   }
  ],
  "teams": {
@@ -184,17 +184,17 @@
    "fifa_rank": 1,
    "owner": "Fergs",
    "status": "alive",
-   "played": 3,
-   "won": 3,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 8,
+   "gf": 6,
    "ga": 1,
    "total": 5,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "1st in Group J",
+     "desc": "1st in Group J (live)",
      "points": 5
     }
    ]
@@ -207,17 +207,17 @@
    "fifa_rank": 2,
    "owner": "Jen",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 5,
+   "gf": 1,
    "ga": 0,
    "total": 5,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group H",
+     "desc": "1st in Group H (live)",
      "points": 5
     }
    ]
@@ -230,17 +230,17 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 3,
-   "won": 3,
+   "played": 2,
+   "won": 2,
    "drawn": 0,
    "lost": 0,
-   "gf": 10,
+   "gf": 7,
    "ga": 2,
    "total": 5,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "1st in Group I",
+     "desc": "1st in Group I (live)",
      "points": 5
     }
    ]
@@ -253,9 +253,9 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 2,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 0,
    "gf": 6,
    "ga": 2,
@@ -263,7 +263,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group L",
+     "desc": "1st in Group L (live)",
      "points": 5
     }
    ]
@@ -276,18 +276,18 @@
    "fifa_rank": 5,
    "owner": "Dipen",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 2,
+   "won": 0,
    "drawn": 2,
    "lost": 0,
-   "gf": 6,
+   "gf": 1,
    "ga": 1,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group K",
-     "points": 3
+     "desc": "3rd in Group K (live)",
+     "points": 1
     }
    ]
   },
@@ -299,18 +299,18 @@
    "fifa_rank": 6,
    "owner": "George",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 1,
+   "won": 0,
    "drawn": 1,
    "lost": 0,
-   "gf": 7,
+   "gf": 1,
    "ga": 1,
-   "total": 5,
+   "total": 3,
    "events": [
     {
-     "date": "2026-06-24",
-     "desc": "1st in Group C",
-     "points": 5
+     "date": "2026-06-13",
+     "desc": "2nd in Group C (live)",
+     "points": 3
     }
    ]
   },
@@ -322,18 +322,18 @@
    "fifa_rank": 7,
    "owner": "Willo",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 1,
+   "won": 0,
    "drawn": 1,
    "lost": 0,
-   "gf": 6,
-   "ga": 3,
-   "total": 3,
+   "gf": 1,
+   "ga": 1,
+   "total": 1,
    "events": [
     {
-     "date": "2026-06-24",
-     "desc": "2nd in Group C",
-     "points": 3
+     "date": "2026-06-13",
+     "desc": "3rd in Group C (live)",
+     "points": 1
     }
    ]
   },
@@ -345,18 +345,18 @@
    "fifa_rank": 8,
    "owner": "Emily",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 10,
-   "ga": 4,
-   "total": 5,
+   "gf": 5,
+   "ga": 3,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "1st in Group F",
-     "points": 5
+     "desc": "2nd in Group F (live)",
+     "points": 3
     }
    ]
   },
@@ -368,9 +368,9 @@
    "fifa_rank": 9,
    "owner": "Pari",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
-   "drawn": 2,
+   "drawn": 1,
    "lost": 0,
    "gf": 6,
    "ga": 2,
@@ -378,7 +378,7 @@
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group G",
+     "desc": "1st in Group G (live)",
      "points": 5
     }
    ]
@@ -391,18 +391,18 @@
    "fifa_rank": 10,
    "owner": "Glancy",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 10,
-   "ga": 4,
-   "total": 5,
+   "gf": 8,
+   "ga": 3,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "1st in Group E",
-     "points": 5
+     "desc": "2nd in Group E (live)",
+     "points": 3
     }
    ]
   },
@@ -414,18 +414,18 @@
    "fifa_rank": 11,
    "owner": "Dubs",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 5,
+   "gf": 4,
    "ga": 5,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group L",
-     "points": 3
+     "desc": "3rd in Group L (live)",
+     "points": 1
     }
    ]
   },
@@ -437,18 +437,18 @@
    "fifa_rank": 13,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
    "lost": 0,
-   "gf": 4,
+   "gf": 3,
    "ga": 1,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "1st in Group K",
-     "points": 5
+     "desc": "2nd in Group K (live)",
+     "points": 3
     }
    ]
   },
@@ -460,17 +460,17 @@
    "fifa_rank": 14,
    "owner": "Dipen",
    "status": "alive",
-   "played": 3,
-   "won": 3,
+   "played": 1,
+   "won": 1,
    "drawn": 0,
    "lost": 0,
-   "gf": 6,
+   "gf": 2,
    "ga": 0,
    "total": 5,
    "events": [
     {
-     "date": "2026-06-25",
-     "desc": "1st in Group A",
+     "date": "2026-06-11",
+     "desc": "1st in Group A (live)",
      "points": 5
     }
    ]
@@ -483,18 +483,18 @@
    "fifa_rank": 15,
    "owner": "Fergs",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 2,
-   "gf": 8,
-   "ga": 6,
-   "total": 1,
+   "lost": 1,
+   "gf": 6,
+   "ga": 3,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "3rd in Group I",
-     "points": 1
+     "desc": "2nd in Group I (live)",
+     "points": 3
     }
    ]
   },
@@ -506,20 +506,14 @@
    "fifa_rank": 16,
    "owner": "Pari",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
-   "drawn": 2,
+   "drawn": 1,
    "lost": 1,
-   "gf": 3,
-   "ga": 4,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-27",
-     "desc": "3rd in Group H",
-     "points": 1
-    }
-   ]
+   "gf": 1,
+   "ga": 2,
+   "total": 0,
+   "events": []
   },
   "USA": {
    "code": "USA",
@@ -529,18 +523,18 @@
    "fifa_rank": 17,
    "owner": "Willo",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 8,
+   "gf": 6,
    "ga": 4,
-   "total": 5,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "1st in Group D",
-     "points": 5
+     "desc": "2nd in Group D (live)",
+     "points": 3
     }
    ]
   },
@@ -552,18 +546,18 @@
    "fifa_rank": 18,
    "owner": "Jen",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 2,
+   "won": 0,
    "drawn": 2,
    "lost": 0,
-   "gf": 7,
+   "gf": 3,
    "ga": 3,
-   "total": 3,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "2nd in Group F",
-     "points": 3
+     "desc": "3rd in Group F (live)",
+     "points": 1
     }
    ]
   },
@@ -575,20 +569,14 @@
    "fifa_rank": 19,
    "owner": "Emily",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 1,
+   "won": 0,
    "drawn": 1,
    "lost": 0,
-   "gf": 7,
-   "ga": 3,
-   "total": 5,
-   "events": [
-    {
-     "date": "2026-06-24",
-     "desc": "1st in Group B",
-     "points": 5
-    }
-   ]
+   "gf": 1,
+   "ga": 1,
+   "total": 0,
+   "events": []
   },
   "IRN": {
    "code": "IRN",
@@ -598,18 +586,18 @@
    "fifa_rank": 20,
    "owner": "Spridge",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
-   "drawn": 3,
+   "drawn": 2,
    "lost": 0,
    "gf": 3,
    "ga": 3,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group G",
-     "points": 1
+     "desc": "2nd in Group G (live)",
+     "points": 3
     }
    ]
   },
@@ -621,14 +609,20 @@
    "fifa_rank": 22,
    "owner": "Dubs",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 2,
+   "lost": 1,
    "gf": 3,
-   "ga": 5,
-   "total": 0,
-   "events": []
+   "ga": 4,
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-26",
+     "desc": "3rd in Group D (live)",
+     "points": 1
+    }
+   ]
   },
   "ECU": {
    "code": "ECU",
@@ -638,9 +632,9 @@
    "fifa_rank": 23,
    "owner": "Brando",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 1,
    "gf": 2,
    "ga": 2,
@@ -648,7 +642,7 @@
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "3rd in Group E",
+     "desc": "3rd in Group E (live)",
      "points": 1
     }
    ]
@@ -661,17 +655,17 @@
    "fifa_rank": 24,
    "owner": "George",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 0,
    "gf": 6,
-   "ga": 6,
+   "ga": 4,
    "total": 3,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "2nd in Group J",
+     "desc": "2nd in Group J (live)",
      "points": 3
     }
    ]
@@ -684,18 +678,18 @@
    "fifa_rank": 25,
    "owner": "Ruggy",
    "status": "out",
-   "played": 3,
+   "played": 1,
    "won": 1,
    "drawn": 0,
-   "lost": 2,
+   "lost": 0,
    "gf": 2,
-   "ga": 3,
-   "total": 1,
+   "ga": 1,
+   "total": 3,
    "events": [
     {
-     "date": "2026-06-25",
-     "desc": "3rd in Group A",
-     "points": 1
+     "date": "2026-06-12",
+     "desc": "2nd in Group A (live)",
+     "points": 3
     }
    ]
   },
@@ -707,18 +701,18 @@
    "fifa_rank": 27,
    "owner": "Glancy",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 0,
    "gf": 2,
-   "ga": 2,
-   "total": 3,
+   "ga": 0,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "2nd in Group D",
-     "points": 3
+     "desc": "1st in Group D (live)",
+     "points": 5
     }
    ]
   },
@@ -730,17 +724,17 @@
    "fifa_rank": 28,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 2,
+   "won": 0,
    "drawn": 1,
    "lost": 1,
-   "gf": 5,
-   "ga": 7,
+   "gf": 3,
+   "ga": 6,
    "total": 1,
    "events": [
     {
      "date": "2026-06-28",
-     "desc": "3rd in Group J",
+     "desc": "3rd in Group J (live)",
      "points": 1
     }
    ]
@@ -753,18 +747,18 @@
    "fifa_rank": 29,
    "owner": "Brando",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 2,
+   "won": 0,
    "drawn": 2,
    "lost": 0,
-   "gf": 5,
-   "ga": 3,
-   "total": 3,
+   "gf": 2,
+   "ga": 2,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group G",
-     "points": 3
+     "desc": "3rd in Group G (live)",
+     "points": 1
     }
    ]
   },
@@ -776,12 +770,12 @@
    "fifa_rank": 30,
    "owner": "Dipen",
    "status": "alive",
-   "played": 4,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 1,
-   "lost": 1,
-   "gf": 9,
-   "ga": 3,
+   "lost": 0,
+   "gf": 2,
+   "ga": 1,
    "total": 5,
    "events": [
     {
@@ -790,8 +784,8 @@
      "points": 2
     },
     {
-     "date": "2026-06-24",
-     "desc": "2nd in Group B",
+     "date": "2026-06-12",
+     "desc": "2nd in Group B (live)",
      "points": 3
     }
    ]
@@ -804,18 +798,18 @@
    "fifa_rank": 31,
    "owner": "Glancy",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 2,
+   "won": 1,
    "drawn": 0,
    "lost": 1,
-   "gf": 8,
-   "ga": 7,
-   "total": 3,
+   "gf": 5,
+   "ga": 5,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-26",
-     "desc": "2nd in Group I",
-     "points": 3
+     "desc": "3rd in Group I (live)",
+     "points": 1
     }
    ]
   },
@@ -827,18 +821,18 @@
    "fifa_rank": 33,
    "owner": "Jen",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 2,
    "drawn": 0,
-   "lost": 1,
-   "gf": 4,
-   "ga": 2,
-   "total": 3,
+   "lost": 0,
+   "gf": 3,
+   "ga": 0,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "2nd in Group E",
-     "points": 3
+     "desc": "1st in Group E (live)",
+     "points": 5
     }
    ]
   },
@@ -850,12 +844,12 @@
    "fifa_rank": 34,
    "owner": "Dubs",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
+   "lost": 2,
    "gf": 0,
-   "ga": 4,
+   "ga": 3,
    "total": 0,
    "events": []
   },
@@ -867,18 +861,18 @@
    "fifa_rank": 38,
    "owner": "Spridge",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
-   "gf": 7,
-   "ga": 7,
-   "total": 1,
+   "lost": 0,
+   "gf": 6,
+   "ga": 2,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-25",
-     "desc": "3rd in Group F",
-     "points": 1
+     "desc": "1st in Group F (live)",
+     "points": 5
     }
    ]
   },
@@ -890,14 +884,20 @@
    "fifa_rank": 39,
    "owner": "Emily",
    "status": "out",
-   "played": 3,
+   "played": 1,
    "won": 0,
-   "drawn": 1,
-   "lost": 2,
-   "gf": 2,
-   "ga": 6,
-   "total": 0,
-   "events": []
+   "drawn": 0,
+   "lost": 1,
+   "gf": 1,
+   "ga": 2,
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-12",
+     "desc": "3rd in Group A (live)",
+     "points": 1
+    }
+   ]
   },
   "PAR": {
    "code": "PAR",
@@ -907,20 +907,14 @@
    "fifa_rank": 40,
    "owner": "Fergs",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 2,
+   "won": 0,
    "drawn": 1,
    "lost": 1,
-   "gf": 2,
+   "gf": 1,
    "ga": 4,
-   "total": 1,
-   "events": [
-    {
-     "date": "2026-06-26",
-     "desc": "3rd in Group D",
-     "points": 1
-    }
-   ]
+   "total": 0,
+   "events": []
   },
   "SCO": {
    "code": "SCO",
@@ -930,18 +924,18 @@
    "fifa_rank": 42,
    "owner": "George",
    "status": "out",
-   "played": 3,
+   "played": 1,
    "won": 1,
    "drawn": 0,
-   "lost": 2,
+   "lost": 0,
    "gf": 1,
-   "ga": 4,
-   "total": 1,
+   "ga": 0,
+   "total": 5,
    "events": [
     {
-     "date": "2026-06-24",
-     "desc": "3rd in Group C",
-     "points": 1
+     "date": "2026-06-14",
+     "desc": "1st in Group C (live)",
+     "points": 5
     }
    ]
   },
@@ -953,18 +947,18 @@
    "fifa_rank": 45,
    "owner": "Willo",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 0,
    "gf": 4,
-   "ga": 3,
-   "total": 1,
+   "ga": 2,
+   "total": 5,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group K",
-     "points": 1
+     "desc": "1st in Group K (live)",
+     "points": 5
     }
    ]
   },
@@ -976,12 +970,12 @@
    "fifa_rank": 46,
    "owner": "Pari",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
+   "lost": 2,
    "gf": 2,
-   "ga": 12,
+   "ga": 8,
    "total": 0,
    "events": []
   },
@@ -993,12 +987,12 @@
    "fifa_rank": 48,
    "owner": "Pari",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
+   "lost": 2,
    "gf": 2,
-   "ga": 11,
+   "ga": 6,
    "total": 0,
    "events": []
   },
@@ -1010,12 +1004,12 @@
    "fifa_rank": 49,
    "owner": "Emily",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
+   "lost": 2,
    "gf": 1,
-   "ga": 12,
+   "ga": 9,
    "total": 0,
    "events": []
   },
@@ -1027,14 +1021,20 @@
    "fifa_rank": 50,
    "owner": "Ruggy",
    "status": "out",
-   "played": 3,
+   "played": 1,
    "won": 0,
    "drawn": 1,
-   "lost": 2,
-   "gf": 2,
-   "ga": 10,
-   "total": 0,
-   "events": []
+   "lost": 0,
+   "gf": 1,
+   "ga": 1,
+   "total": 1,
+   "events": [
+    {
+     "date": "2026-06-13",
+     "desc": "3rd in Group B (live)",
+     "points": 1
+    }
+   ]
   },
   "RSA": {
    "code": "RSA",
@@ -1044,20 +1044,14 @@
    "fifa_rank": 51,
    "owner": "Dipen",
    "status": "out",
-   "played": 4,
-   "won": 1,
-   "drawn": 1,
+   "played": 2,
+   "won": 0,
+   "drawn": 0,
    "lost": 2,
-   "gf": 2,
-   "ga": 4,
-   "total": 3,
-   "events": [
-    {
-     "date": "2026-06-25",
-     "desc": "2nd in Group A",
-     "points": 3
-    }
-   ]
+   "gf": 0,
+   "ga": 3,
+   "total": 0,
+   "events": []
   },
   "KSA": {
    "code": "KSA",
@@ -1067,14 +1061,20 @@
    "fifa_rank": 52,
    "owner": "Brando",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 2,
-   "lost": 1,
+   "lost": 0,
    "gf": 1,
-   "ga": 5,
-   "total": 0,
-   "events": []
+   "ga": 1,
+   "total": 3,
+   "events": [
+    {
+     "date": "2026-06-27",
+     "desc": "2nd in Group H (live)",
+     "points": 3
+    }
+   ]
   },
   "JOR": {
    "code": "JOR",
@@ -1084,12 +1084,12 @@
    "fifa_rank": 53,
    "owner": "Glancy",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
-   "gf": 3,
-   "ga": 8,
+   "lost": 2,
+   "gf": 2,
+   "ga": 6,
    "total": 0,
    "events": []
   },
@@ -1101,18 +1101,18 @@
    "fifa_rank": 54,
    "owner": "Spridge",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 1,
+   "won": 0,
    "drawn": 1,
-   "lost": 1,
-   "gf": 5,
-   "ga": 6,
-   "total": 1,
+   "lost": 0,
+   "gf": 1,
+   "ga": 1,
+   "total": 5,
    "events": [
     {
-     "date": "2026-06-24",
-     "desc": "3rd in Group B",
-     "points": 1
+     "date": "2026-06-12",
+     "desc": "1st in Group B (live)",
+     "points": 5
     }
    ]
   },
@@ -1124,18 +1124,18 @@
    "fifa_rank": 55,
    "owner": "Dubs",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 0,
-   "drawn": 3,
+   "drawn": 2,
    "lost": 0,
-   "gf": 2,
-   "ga": 2,
-   "total": 3,
+   "gf": 0,
+   "ga": 0,
+   "total": 1,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "2nd in Group H",
-     "points": 3
+     "desc": "3rd in Group H (live)",
+     "points": 1
     }
    ]
   },
@@ -1147,18 +1147,18 @@
    "fifa_rank": 56,
    "owner": "George",
    "status": "alive",
-   "played": 3,
+   "played": 2,
    "won": 1,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 1,
    "gf": 2,
    "ga": 2,
-   "total": 1,
+   "total": 3,
    "events": [
     {
      "date": "2026-06-27",
-     "desc": "3rd in Group L",
-     "points": 1
+     "desc": "2nd in Group L (live)",
+     "points": 3
     }
    ]
   },
@@ -1170,9 +1170,9 @@
    "fifa_rank": 57,
    "owner": "Fergs",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
-   "drawn": 1,
+   "drawn": 0,
    "lost": 2,
    "gf": 1,
    "ga": 9,
@@ -1187,12 +1187,12 @@
    "fifa_rank": 58,
    "owner": "Jen",
    "status": "out",
-   "played": 3,
+   "played": 1,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
-   "gf": 2,
-   "ga": 8,
+   "lost": 1,
+   "gf": 0,
+   "ga": 1,
    "total": 0,
    "events": []
   },
@@ -1204,12 +1204,12 @@
    "fifa_rank": 59,
    "owner": "Willo",
    "status": "out",
-   "played": 3,
+   "played": 2,
    "won": 0,
    "drawn": 1,
-   "lost": 2,
-   "gf": 4,
-   "ga": 10,
+   "lost": 1,
+   "gf": 3,
+   "ga": 7,
    "total": 0,
    "events": []
   }
@@ -1732,936 +1732,6 @@
     "points": null
    },
    "odds": null
-  },
-  {
-   "id": 760467,
-   "date": "2026-06-25",
-   "utc": "2026-06-25T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "note": "",
-   "home": {
-    "code": "CZE",
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "tier": 1,
-    "goals": 3,
-    "points": null
-   },
-   "odds": {
-    "home": 4.7,
-    "draw": 3.65,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760466,
-   "date": "2026-06-25",
-   "utc": "2026-06-25T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "note": "",
-   "home": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "KOR",
-    "name": "South Korea",
-    "flag": "🇰🇷",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 5.75,
-    "draw": 4.1,
-    "away": 1.61,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760464,
-   "date": "2026-06-24",
-   "utc": "2026-06-24T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "tier": 1,
-    "goals": 4,
-    "points": null
-   },
-   "away": {
-    "code": "HAI",
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "tier": 3,
-    "goals": 2,
-    "points": null
-   },
-   "odds": {
-    "home": 1.29,
-    "draw": 5.75,
-    "away": 10.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760465,
-   "date": "2026-06-24",
-   "utc": "2026-06-24T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "SCO",
-    "name": "Scotland",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "tier": 1,
-    "goals": 3,
-    "points": null
-   },
-   "odds": {
-    "home": 6.5,
-    "draw": 5.0,
-    "away": 1.44,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760462,
-   "date": "2026-06-24",
-   "utc": "2026-06-24T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "note": "",
-   "home": {
-    "code": "BIH",
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "tier": 3,
-    "goals": 3,
-    "points": null
-   },
-   "away": {
-    "code": "QAT",
-    "name": "Qatar",
-    "flag": "🇶🇦",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 1.57,
-    "draw": 4.1,
-    "away": 6.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760463,
-   "date": "2026-06-24",
-   "utc": "2026-06-24T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "note": "",
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "tier": 2,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "tier": 2,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 2.15,
-    "draw": 3.45,
-    "away": 3.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760459,
-   "date": "2026-06-24",
-   "utc": "2026-06-24T02:00:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "note": "",
-   "home": {
-    "code": "COL",
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "COD",
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.45,
-    "draw": 4.4,
-    "away": 8.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760460,
-   "date": "2026-06-23",
-   "utc": "2026-06-23T23:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "note": "",
-   "home": {
-    "code": "PAN",
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "CRO",
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 7.0,
-    "draw": 4.0,
-    "away": 1.54,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760458,
-   "date": "2026-06-23",
-   "utc": "2026-06-23T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group L",
-   "note": "",
-   "home": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "tier": 1,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.32,
-    "draw": 5.5,
-    "away": 9.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760461,
-   "date": "2026-06-23",
-   "utc": "2026-06-23T17:00:00Z",
-   "stage": "Group stage",
-   "group": "Group K",
-   "note": "",
-   "home": {
-    "code": "POR",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "tier": 1,
-    "goals": 5,
-    "points": null
-   },
-   "away": {
-    "code": "UZB",
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.24,
-    "draw": 6.5,
-    "away": 12.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760455,
-   "date": "2026-06-23",
-   "utc": "2026-06-23T03:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "note": "",
-   "home": {
-    "code": "JOR",
-    "name": "Jordan",
-    "flag": "🇯🇴",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "ALG",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "tier": 2,
-    "goals": 2,
-    "points": null
-   },
-   "odds": {
-    "home": 7.0,
-    "draw": 4.4,
-    "away": 1.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760454,
-   "date": "2026-06-23",
-   "utc": "2026-06-23T00:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "note": "",
-   "home": {
-    "code": "NOR",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "tier": 2,
-    "goals": 3,
-    "points": null
-   },
-   "away": {
-    "code": "SEN",
-    "name": "Senegal",
-    "flag": "🇸🇳",
-    "tier": 1,
-    "goals": 2,
-    "points": null
-   },
-   "odds": {
-    "home": 2.15,
-    "draw": 3.6,
-    "away": 3.4,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760457,
-   "date": "2026-06-22",
-   "utc": "2026-06-22T21:00:00Z",
-   "stage": "Group stage",
-   "group": "Group I",
-   "note": "",
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "tier": 1,
-    "goals": 3,
-    "points": null
-   },
-   "away": {
-    "code": "IRQ",
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.11,
-    "draw": 9.5,
-    "away": 26.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760456,
-   "date": "2026-06-22",
-   "utc": "2026-06-22T17:00:00Z",
-   "stage": "Group stage",
-   "group": "Group J",
-   "note": "",
-   "home": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "tier": 1,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "AUT",
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.62,
-    "draw": 3.9,
-    "away": 5.75,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760452,
-   "date": "2026-06-22",
-   "utc": "2026-06-22T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "note": "",
-   "home": {
-    "code": "NZL",
-    "name": "New Zealand",
-    "flag": "🇳🇿",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "EGY",
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "tier": 2,
-    "goals": 3,
-    "points": null
-   },
-   "odds": {
-    "home": 5.25,
-    "draw": 4.2,
-    "away": 1.62,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760450,
-   "date": "2026-06-21",
-   "utc": "2026-06-21T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "note": "",
-   "home": {
-    "code": "URU",
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "tier": 1,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "CPV",
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "tier": 3,
-    "goals": 2,
-    "points": null
-   },
-   "odds": {
-    "home": 1.47,
-    "draw": 4.4,
-    "away": 8.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760451,
-   "date": "2026-06-21",
-   "utc": "2026-06-21T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group G",
-   "note": "",
-   "home": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "tier": 1,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "IRN",
-    "name": "Iran",
-    "flag": "🇮🇷",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.39,
-    "draw": 4.9,
-    "away": 8.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760453,
-   "date": "2026-06-21",
-   "utc": "2026-06-21T16:00:00Z",
-   "stage": "Group stage",
-   "group": "Group H",
-   "note": "",
-   "home": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "tier": 1,
-    "goals": 4,
-    "points": null
-   },
-   "away": {
-    "code": "KSA",
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.1,
-    "draw": 11.0,
-    "away": 23.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760449,
-   "date": "2026-06-21",
-   "utc": "2026-06-21T04:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "note": "",
-   "home": {
-    "code": "TUN",
-    "name": "Tunisia",
-    "flag": "🇹🇳",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "tier": 2,
-    "goals": 4,
-    "points": null
-   },
-   "odds": {
-    "home": 7.0,
-    "draw": 4.1,
-    "away": 1.53,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760446,
-   "date": "2026-06-21",
-   "utc": "2026-06-21T00:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "note": "",
-   "home": {
-    "code": "ECU",
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "CUW",
-    "name": "Curaçao",
-    "flag": "🇨🇼",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.1,
-    "draw": 11.0,
-    "away": 26.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760448,
-   "date": "2026-06-20",
-   "utc": "2026-06-20T20:00:00Z",
-   "stage": "Group stage",
-   "group": "Group E",
-   "note": "",
-   "home": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "tier": 1,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "CIV",
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "tier": 2,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 1.54,
-    "draw": 4.6,
-    "away": 5.75,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760447,
-   "date": "2026-06-20",
-   "utc": "2026-06-20T17:00:00Z",
-   "stage": "Group stage",
-   "group": "Group F",
-   "note": "",
-   "home": {
-    "code": "NED",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "tier": 1,
-    "goals": 5,
-    "points": null
-   },
-   "away": {
-    "code": "SWE",
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "tier": 2,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 1.71,
-    "draw": 4.1,
-    "away": 4.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760443,
-   "date": "2026-06-20",
-   "utc": "2026-06-20T03:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "note": "",
-   "home": {
-    "code": "TUR",
-    "name": "Türkiye",
-    "flag": "🇹🇷",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "PAR",
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 1.95,
-    "draw": 3.4,
-    "away": 4.2,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760444,
-   "date": "2026-06-20",
-   "utc": "2026-06-20T00:30:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "tier": 1,
-    "goals": 3,
-    "points": null
-   },
-   "away": {
-    "code": "HAI",
-    "name": "Haiti",
-    "flag": "🇭🇹",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.1,
-    "draw": 11.0,
-    "away": 23.0,
-    "over_under": 3.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760445,
-   "date": "2026-06-19",
-   "utc": "2026-06-19T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group C",
-   "note": "",
-   "home": {
-    "code": "SCO",
-    "name": "Scotland",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 5.0,
-    "draw": 3.65,
-    "away": 1.74,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760442,
-   "date": "2026-06-19",
-   "utc": "2026-06-19T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group D",
-   "note": "",
-   "home": {
-    "code": "USA",
-    "name": "USA",
-    "flag": "🇺🇸",
-    "tier": 1,
-    "goals": 2,
-    "points": null
-   },
-   "away": {
-    "code": "AUS",
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.61,
-    "draw": 4.2,
-    "away": 5.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760441,
-   "date": "2026-06-19",
-   "utc": "2026-06-19T01:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "note": "",
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "tier": 1,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "KOR",
-    "name": "South Korea",
-    "flag": "🇰🇷",
-    "tier": 2,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 2.0,
-    "draw": 3.35,
-    "away": 4.1,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760440,
-   "date": "2026-06-18",
-   "utc": "2026-06-18T22:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "note": "",
-   "home": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "tier": 2,
-    "goals": 6,
-    "points": null
-   },
-   "away": {
-    "code": "QAT",
-    "name": "Qatar",
-    "flag": "🇶🇦",
-    "tier": 3,
-    "goals": 0,
-    "points": null
-   },
-   "odds": {
-    "home": 1.28,
-    "draw": 5.75,
-    "away": 11.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760439,
-   "date": "2026-06-18",
-   "utc": "2026-06-18T19:00:00Z",
-   "stage": "Group stage",
-   "group": "Group B",
-   "note": "",
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "tier": 2,
-    "goals": 4,
-    "points": null
-   },
-   "away": {
-    "code": "BIH",
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 1.57,
-    "draw": 4.2,
-    "away": 6.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
-  },
-  {
-   "id": 760438,
-   "date": "2026-06-18",
-   "utc": "2026-06-18T16:00:00Z",
-   "stage": "Group stage",
-   "group": "Group A",
-   "note": "",
-   "home": {
-    "code": "CZE",
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "tier": 2,
-    "goals": 1,
-    "points": null
-   },
-   "away": {
-    "code": "RSA",
-    "name": "South Africa",
-    "flag": "🇿🇦",
-    "tier": 3,
-    "goals": 1,
-    "points": null
-   },
-   "odds": {
-    "home": 1.77,
-    "draw": 3.75,
-    "away": 4.9,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   }
   },
   {
    "id": 760436,
@@ -3648,15 +2718,15 @@
     {
      "group": "Group A",
      "code": "MEX",
-     "p": 3,
-     "w": 3,
+     "p": 1,
+     "w": 1,
      "d": 0,
      "l": 0,
-     "gf": 6,
+     "gf": 2,
      "ga": 0,
-     "pts": 9,
+     "pts": 3,
      "live": false,
-     "gd": 6,
+     "gd": 2,
      "name": "Mexico",
      "flag": "🇲🇽",
      "tier": 1,
@@ -3664,33 +2734,16 @@
     },
     {
      "group": "Group A",
-     "code": "RSA",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 2,
-     "ga": 3,
-     "pts": 4,
-     "live": false,
-     "gd": -1,
-     "name": "South Africa",
-     "flag": "🇿🇦",
-     "tier": 3,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group A",
      "code": "KOR",
-     "p": 3,
+     "p": 1,
      "w": 1,
      "d": 0,
-     "l": 2,
+     "l": 0,
      "gf": 2,
-     "ga": 3,
+     "ga": 1,
      "pts": 3,
      "live": false,
-     "gd": -1,
+     "gd": 1,
      "name": "South Korea",
      "flag": "🇰🇷",
      "tier": 2,
@@ -3699,19 +2752,36 @@
     {
      "group": "Group A",
      "code": "CZE",
-     "p": 3,
+     "p": 1,
      "w": 0,
-     "d": 1,
-     "l": 2,
-     "gf": 2,
-     "ga": 6,
-     "pts": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 2,
+     "pts": 0,
      "live": false,
-     "gd": -4,
+     "gd": -1,
      "name": "Czechia",
      "flag": "🇨🇿",
      "tier": 2,
      "owner": "Emily"
+    },
+    {
+     "group": "Group A",
+     "code": "RSA",
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 2,
+     "pts": 0,
+     "live": false,
+     "gd": -2,
+     "name": "South Africa",
+     "flag": "🇿🇦",
+     "tier": 3,
+     "owner": "Dipen"
     }
    ]
   },
@@ -3720,50 +2790,16 @@
    "rows": [
     {
      "group": "Group B",
-     "code": "SUI",
-     "p": 3,
-     "w": 2,
+     "code": "BIH",
+     "p": 1,
+     "w": 0,
      "d": 1,
      "l": 0,
-     "gf": 7,
-     "ga": 3,
-     "pts": 7,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
      "live": false,
-     "gd": 4,
-     "name": "Switzerland",
-     "flag": "🇨🇭",
-     "tier": 2,
-     "owner": "Emily"
-    },
-    {
-     "group": "Group B",
-     "code": "CAN",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 8,
-     "ga": 3,
-     "pts": 4,
-     "live": false,
-     "gd": 5,
-     "name": "Canada",
-     "flag": "🇨🇦",
-     "tier": 2,
-     "owner": "Dipen"
-    },
-    {
-     "group": "Group B",
-     "code": "BIH",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 5,
-     "ga": 6,
-     "pts": 4,
-     "live": false,
-     "gd": -1,
+     "gd": 0,
      "name": "Bosnia and Herzegovina",
      "flag": "🇧🇦",
      "tier": 3,
@@ -3771,20 +2807,54 @@
     },
     {
      "group": "Group B",
-     "code": "QAT",
-     "p": 3,
+     "code": "CAN",
+     "p": 1,
      "w": 0,
      "d": 1,
-     "l": 2,
-     "gf": 2,
-     "ga": 10,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
      "pts": 1,
      "live": false,
-     "gd": -8,
+     "gd": 0,
+     "name": "Canada",
+     "flag": "🇨🇦",
+     "tier": 2,
+     "owner": "Dipen"
+    },
+    {
+     "group": "Group B",
+     "code": "QAT",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
      "name": "Qatar",
      "flag": "🇶🇦",
      "tier": 3,
      "owner": "Ruggy"
+    },
+    {
+     "group": "Group B",
+     "code": "SUI",
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
+     "live": false,
+     "gd": 0,
+     "name": "Switzerland",
+     "flag": "🇨🇭",
+     "tier": 2,
+     "owner": "Emily"
     }
    ]
   },
@@ -3793,16 +2863,33 @@
    "rows": [
     {
      "group": "Group C",
+     "code": "SCO",
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 1,
+     "ga": 0,
+     "pts": 3,
+     "live": false,
+     "gd": 1,
+     "name": "Scotland",
+     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "tier": 3,
+     "owner": "George"
+    },
+    {
+     "group": "Group C",
      "code": "BRA",
-     "p": 3,
-     "w": 2,
+     "p": 1,
+     "w": 0,
      "d": 1,
      "l": 0,
-     "gf": 7,
+     "gf": 1,
      "ga": 1,
-     "pts": 7,
+     "pts": 1,
      "live": false,
-     "gd": 6,
+     "gd": 0,
      "name": "Brazil",
      "flag": "🇧🇷",
      "tier": 1,
@@ -3811,15 +2898,15 @@
     {
      "group": "Group C",
      "code": "MAR",
-     "p": 3,
-     "w": 2,
+     "p": 1,
+     "w": 0,
      "d": 1,
      "l": 0,
-     "gf": 6,
-     "ga": 3,
-     "pts": 7,
+     "gf": 1,
+     "ga": 1,
+     "pts": 1,
      "live": false,
-     "gd": 3,
+     "gd": 0,
      "name": "Morocco",
      "flag": "🇲🇦",
      "tier": 1,
@@ -3827,33 +2914,16 @@
     },
     {
      "group": "Group C",
-     "code": "SCO",
-     "p": 3,
-     "w": 1,
-     "d": 0,
-     "l": 2,
-     "gf": 1,
-     "ga": 4,
-     "pts": 3,
-     "live": false,
-     "gd": -3,
-     "name": "Scotland",
-     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-     "tier": 3,
-     "owner": "George"
-    },
-    {
-     "group": "Group C",
      "code": "HAI",
-     "p": 3,
+     "p": 1,
      "w": 0,
      "d": 0,
-     "l": 3,
-     "gf": 2,
-     "ga": 8,
+     "l": 1,
+     "gf": 0,
+     "ga": 1,
      "pts": 0,
      "live": false,
-     "gd": -6,
+     "gd": -1,
      "name": "Haiti",
      "flag": "🇭🇹",
      "tier": 3,
@@ -3866,33 +2936,16 @@
    "rows": [
     {
      "group": "Group D",
-     "code": "USA",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 8,
-     "ga": 4,
-     "pts": 6,
-     "live": false,
-     "gd": 4,
-     "name": "USA",
-     "flag": "🇺🇸",
-     "tier": 1,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group D",
      "code": "AUS",
-     "p": 3,
+     "p": 2,
      "w": 1,
      "d": 1,
-     "l": 1,
+     "l": 0,
      "gf": 2,
-     "ga": 2,
+     "ga": 0,
      "pts": 4,
      "live": false,
-     "gd": 0,
+     "gd": 2,
      "name": "Australia",
      "flag": "🇦🇺",
      "tier": 2,
@@ -3900,37 +2953,54 @@
     },
     {
      "group": "Group D",
-     "code": "PAR",
-     "p": 3,
+     "code": "USA",
+     "p": 2,
      "w": 1,
-     "d": 1,
+     "d": 0,
      "l": 1,
-     "gf": 2,
+     "gf": 6,
      "ga": 4,
-     "pts": 4,
+     "pts": 3,
      "live": false,
-     "gd": -2,
-     "name": "Paraguay",
-     "flag": "🇵🇾",
-     "tier": 3,
-     "owner": "Fergs"
+     "gd": 2,
+     "name": "USA",
+     "flag": "🇺🇸",
+     "tier": 1,
+     "owner": "Willo"
     },
     {
      "group": "Group D",
      "code": "TUR",
-     "p": 3,
+     "p": 2,
      "w": 1,
      "d": 0,
-     "l": 2,
+     "l": 1,
      "gf": 3,
-     "ga": 5,
+     "ga": 4,
      "pts": 3,
      "live": false,
-     "gd": -2,
+     "gd": -1,
      "name": "Türkiye",
      "flag": "🇹🇷",
      "tier": 2,
      "owner": "Dubs"
+    },
+    {
+     "group": "Group D",
+     "code": "PAR",
+     "p": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gf": 1,
+     "ga": 4,
+     "pts": 1,
+     "live": false,
+     "gd": -3,
+     "name": "Paraguay",
+     "flag": "🇵🇾",
+     "tier": 3,
+     "owner": "Fergs"
     }
    ]
   },
@@ -3939,33 +3009,16 @@
    "rows": [
     {
      "group": "Group E",
-     "code": "GER",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 10,
-     "ga": 4,
-     "pts": 6,
-     "live": false,
-     "gd": 6,
-     "name": "Germany",
-     "flag": "🇩🇪",
-     "tier": 1,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group E",
      "code": "CIV",
-     "p": 3,
+     "p": 2,
      "w": 2,
      "d": 0,
-     "l": 1,
-     "gf": 4,
-     "ga": 2,
+     "l": 0,
+     "gf": 3,
+     "ga": 0,
      "pts": 6,
      "live": false,
-     "gd": 2,
+     "gd": 3,
      "name": "Ivory Coast",
      "flag": "🇨🇮",
      "tier": 2,
@@ -3973,14 +3026,31 @@
     },
     {
      "group": "Group E",
-     "code": "ECU",
-     "p": 3,
+     "code": "GER",
+     "p": 2,
      "w": 1,
-     "d": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 8,
+     "ga": 3,
+     "pts": 3,
+     "live": false,
+     "gd": 5,
+     "name": "Germany",
+     "flag": "🇩🇪",
+     "tier": 1,
+     "owner": "Glancy"
+    },
+    {
+     "group": "Group E",
+     "code": "ECU",
+     "p": 2,
+     "w": 1,
+     "d": 0,
      "l": 1,
      "gf": 2,
      "ga": 2,
-     "pts": 4,
+     "pts": 3,
      "live": false,
      "gd": 0,
      "name": "Ecuador",
@@ -3991,13 +3061,13 @@
     {
      "group": "Group E",
      "code": "CUW",
-     "p": 3,
+     "p": 2,
      "w": 0,
-     "d": 1,
+     "d": 0,
      "l": 2,
      "gf": 1,
      "ga": 9,
-     "pts": 1,
+     "pts": 0,
      "live": false,
      "gd": -8,
      "name": "Curaçao",
@@ -4012,16 +3082,33 @@
    "rows": [
     {
      "group": "Group F",
-     "code": "NED",
-     "p": 3,
-     "w": 2,
+     "code": "SWE",
+     "p": 2,
+     "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 10,
-     "ga": 4,
-     "pts": 7,
+     "gf": 6,
+     "ga": 2,
+     "pts": 4,
      "live": false,
-     "gd": 6,
+     "gd": 4,
+     "name": "Sweden",
+     "flag": "🇸🇪",
+     "tier": 2,
+     "owner": "Spridge"
+    },
+    {
+     "group": "Group F",
+     "code": "NED",
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gf": 5,
+     "ga": 3,
+     "pts": 4,
+     "live": false,
+     "gd": 2,
      "name": "Netherlands",
      "flag": "🇳🇱",
      "tier": 1,
@@ -4030,15 +3117,15 @@
     {
      "group": "Group F",
      "code": "JPN",
-     "p": 3,
-     "w": 1,
+     "p": 2,
+     "w": 0,
      "d": 2,
      "l": 0,
-     "gf": 7,
+     "gf": 3,
      "ga": 3,
-     "pts": 5,
+     "pts": 2,
      "live": false,
-     "gd": 4,
+     "gd": 0,
      "name": "Japan",
      "flag": "🇯🇵",
      "tier": 2,
@@ -4046,33 +3133,16 @@
     },
     {
      "group": "Group F",
-     "code": "SWE",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 7,
-     "ga": 7,
-     "pts": 4,
-     "live": false,
-     "gd": 0,
-     "name": "Sweden",
-     "flag": "🇸🇪",
-     "tier": 2,
-     "owner": "Spridge"
-    },
-    {
-     "group": "Group F",
      "code": "TUN",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 0,
-     "l": 3,
+     "l": 2,
      "gf": 2,
-     "ga": 12,
+     "ga": 8,
      "pts": 0,
      "live": false,
-     "gd": -10,
+     "gd": -6,
      "name": "Tunisia",
      "flag": "🇹🇳",
      "tier": 3,
@@ -4086,13 +3156,13 @@
     {
      "group": "Group G",
      "code": "BEL",
-     "p": 3,
+     "p": 2,
      "w": 1,
-     "d": 2,
+     "d": 1,
      "l": 0,
      "gf": 6,
      "ga": 2,
-     "pts": 5,
+     "pts": 4,
      "live": false,
      "gd": 4,
      "name": "Belgium",
@@ -4102,31 +3172,14 @@
     },
     {
      "group": "Group G",
-     "code": "EGY",
-     "p": 3,
-     "w": 1,
-     "d": 2,
-     "l": 0,
-     "gf": 5,
-     "ga": 3,
-     "pts": 5,
-     "live": false,
-     "gd": 2,
-     "name": "Egypt",
-     "flag": "🇪🇬",
-     "tier": 2,
-     "owner": "Brando"
-    },
-    {
-     "group": "Group G",
      "code": "IRN",
-     "p": 3,
+     "p": 2,
      "w": 0,
-     "d": 3,
+     "d": 2,
      "l": 0,
      "gf": 3,
      "ga": 3,
-     "pts": 3,
+     "pts": 2,
      "live": false,
      "gd": 0,
      "name": "Iran",
@@ -4136,16 +3189,33 @@
     },
     {
      "group": "Group G",
+     "code": "EGY",
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gf": 2,
+     "ga": 2,
+     "pts": 2,
+     "live": false,
+     "gd": 0,
+     "name": "Egypt",
+     "flag": "🇪🇬",
+     "tier": 2,
+     "owner": "Brando"
+    },
+    {
+     "group": "Group G",
      "code": "NZL",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 1,
-     "l": 2,
-     "gf": 4,
-     "ga": 10,
+     "l": 1,
+     "gf": 3,
+     "ga": 7,
      "pts": 1,
      "live": false,
-     "gd": -6,
+     "gd": -4,
      "name": "New Zealand",
      "flag": "🇳🇿",
      "tier": 3,
@@ -4159,15 +3229,15 @@
     {
      "group": "Group H",
      "code": "ESP",
-     "p": 3,
-     "w": 2,
+     "p": 2,
+     "w": 1,
      "d": 1,
      "l": 0,
-     "gf": 5,
+     "gf": 1,
      "ga": 0,
-     "pts": 7,
+     "pts": 4,
      "live": false,
-     "gd": 5,
+     "gd": 1,
      "name": "Spain",
      "flag": "🇪🇸",
      "tier": 1,
@@ -4175,14 +3245,31 @@
     },
     {
      "group": "Group H",
-     "code": "CPV",
-     "p": 3,
+     "code": "KSA",
+     "p": 2,
      "w": 0,
-     "d": 3,
+     "d": 2,
      "l": 0,
-     "gf": 2,
-     "ga": 2,
-     "pts": 3,
+     "gf": 1,
+     "ga": 1,
+     "pts": 2,
+     "live": false,
+     "gd": 0,
+     "name": "Saudi Arabia",
+     "flag": "🇸🇦",
+     "tier": 3,
+     "owner": "Brando"
+    },
+    {
+     "group": "Group H",
+     "code": "CPV",
+     "p": 2,
+     "w": 0,
+     "d": 2,
+     "l": 0,
+     "gf": 0,
+     "ga": 0,
+     "pts": 2,
      "live": false,
      "gd": 0,
      "name": "Cabo Verde",
@@ -4193,36 +3280,19 @@
     {
      "group": "Group H",
      "code": "URU",
-     "p": 3,
+     "p": 2,
      "w": 0,
-     "d": 2,
+     "d": 1,
      "l": 1,
-     "gf": 3,
-     "ga": 4,
-     "pts": 2,
+     "gf": 1,
+     "ga": 2,
+     "pts": 1,
      "live": false,
      "gd": -1,
      "name": "Uruguay",
      "flag": "🇺🇾",
      "tier": 1,
      "owner": "Pari"
-    },
-    {
-     "group": "Group H",
-     "code": "KSA",
-     "p": 3,
-     "w": 0,
-     "d": 2,
-     "l": 1,
-     "gf": 1,
-     "ga": 5,
-     "pts": 2,
-     "live": false,
-     "gd": -4,
-     "name": "Saudi Arabia",
-     "flag": "🇸🇦",
-     "tier": 3,
-     "owner": "Brando"
     }
    ]
   },
@@ -4232,15 +3302,15 @@
     {
      "group": "Group I",
      "code": "FRA",
-     "p": 3,
-     "w": 3,
+     "p": 2,
+     "w": 2,
      "d": 0,
      "l": 0,
-     "gf": 10,
+     "gf": 7,
      "ga": 2,
-     "pts": 9,
+     "pts": 6,
      "live": false,
-     "gd": 8,
+     "gd": 5,
      "name": "France",
      "flag": "🇫🇷",
      "tier": 1,
@@ -4248,33 +3318,16 @@
     },
     {
      "group": "Group I",
-     "code": "NOR",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 8,
-     "ga": 7,
-     "pts": 6,
-     "live": false,
-     "gd": 1,
-     "name": "Norway",
-     "flag": "🇳🇴",
-     "tier": 2,
-     "owner": "Glancy"
-    },
-    {
-     "group": "Group I",
      "code": "SEN",
-     "p": 3,
+     "p": 2,
      "w": 1,
      "d": 0,
-     "l": 2,
-     "gf": 8,
-     "ga": 6,
+     "l": 1,
+     "gf": 6,
+     "ga": 3,
      "pts": 3,
      "live": false,
-     "gd": 2,
+     "gd": 3,
      "name": "Senegal",
      "flag": "🇸🇳",
      "tier": 1,
@@ -4282,16 +3335,33 @@
     },
     {
      "group": "Group I",
+     "code": "NOR",
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 5,
+     "ga": 5,
+     "pts": 3,
+     "live": false,
+     "gd": 0,
+     "name": "Norway",
+     "flag": "🇳🇴",
+     "tier": 2,
+     "owner": "Glancy"
+    },
+    {
+     "group": "Group I",
      "code": "IRQ",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 0,
-     "l": 3,
+     "l": 2,
      "gf": 1,
-     "ga": 12,
+     "ga": 9,
      "pts": 0,
      "live": false,
-     "gd": -11,
+     "gd": -8,
      "name": "Iraq",
      "flag": "🇮🇶",
      "tier": 3,
@@ -4305,15 +3375,15 @@
     {
      "group": "Group J",
      "code": "ARG",
-     "p": 3,
-     "w": 3,
+     "p": 2,
+     "w": 2,
      "d": 0,
      "l": 0,
-     "gf": 8,
+     "gf": 6,
      "ga": 1,
-     "pts": 9,
+     "pts": 6,
      "live": false,
-     "gd": 7,
+     "gd": 5,
      "name": "Argentina",
      "flag": "🇦🇷",
      "tier": 1,
@@ -4322,15 +3392,15 @@
     {
      "group": "Group J",
      "code": "AUT",
-     "p": 3,
+     "p": 2,
      "w": 1,
      "d": 1,
-     "l": 1,
+     "l": 0,
      "gf": 6,
-     "ga": 6,
+     "ga": 4,
      "pts": 4,
      "live": false,
-     "gd": 0,
+     "gd": 2,
      "name": "Austria",
      "flag": "🇦🇹",
      "tier": 2,
@@ -4339,15 +3409,15 @@
     {
      "group": "Group J",
      "code": "ALG",
-     "p": 3,
-     "w": 1,
+     "p": 2,
+     "w": 0,
      "d": 1,
      "l": 1,
-     "gf": 5,
-     "ga": 7,
-     "pts": 4,
+     "gf": 3,
+     "ga": 6,
+     "pts": 1,
      "live": false,
-     "gd": -2,
+     "gd": -3,
      "name": "Algeria",
      "flag": "🇩🇿",
      "tier": 2,
@@ -4356,15 +3426,15 @@
     {
      "group": "Group J",
      "code": "JOR",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 0,
-     "l": 3,
-     "gf": 3,
-     "ga": 8,
+     "l": 2,
+     "gf": 2,
+     "ga": 6,
      "pts": 0,
      "live": false,
-     "gd": -5,
+     "gd": -4,
      "name": "Jordan",
      "flag": "🇯🇴",
      "tier": 3,
@@ -4377,16 +3447,33 @@
    "rows": [
     {
      "group": "Group K",
-     "code": "COL",
-     "p": 3,
-     "w": 2,
+     "code": "COD",
+     "p": 2,
+     "w": 1,
      "d": 1,
      "l": 0,
      "gf": 4,
-     "ga": 1,
-     "pts": 7,
+     "ga": 2,
+     "pts": 4,
      "live": false,
-     "gd": 3,
+     "gd": 2,
+     "name": "DR Congo",
+     "flag": "🇨🇩",
+     "tier": 3,
+     "owner": "Willo"
+    },
+    {
+     "group": "Group K",
+     "code": "COL",
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gf": 3,
+     "ga": 1,
+     "pts": 4,
+     "live": false,
+     "gd": 2,
      "name": "Colombia",
      "flag": "🇨🇴",
      "tier": 1,
@@ -4395,15 +3482,15 @@
     {
      "group": "Group K",
      "code": "POR",
-     "p": 3,
-     "w": 1,
+     "p": 2,
+     "w": 0,
      "d": 2,
      "l": 0,
-     "gf": 6,
+     "gf": 1,
      "ga": 1,
-     "pts": 5,
+     "pts": 2,
      "live": false,
-     "gd": 5,
+     "gd": 0,
      "name": "Portugal",
      "flag": "🇵🇹",
      "tier": 1,
@@ -4411,33 +3498,16 @@
     },
     {
      "group": "Group K",
-     "code": "COD",
-     "p": 3,
-     "w": 1,
-     "d": 1,
-     "l": 1,
-     "gf": 4,
-     "ga": 3,
-     "pts": 4,
-     "live": false,
-     "gd": 1,
-     "name": "DR Congo",
-     "flag": "🇨🇩",
-     "tier": 3,
-     "owner": "Willo"
-    },
-    {
-     "group": "Group K",
      "code": "UZB",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 0,
-     "l": 3,
+     "l": 2,
      "gf": 2,
-     "ga": 11,
+     "ga": 6,
      "pts": 0,
      "live": false,
-     "gd": -9,
+     "gd": -4,
      "name": "Uzbekistan",
      "flag": "🇺🇿",
      "tier": 3,
@@ -4451,13 +3521,13 @@
     {
      "group": "Group L",
      "code": "ENG",
-     "p": 3,
+     "p": 2,
      "w": 2,
-     "d": 1,
+     "d": 0,
      "l": 0,
      "gf": 6,
      "ga": 2,
-     "pts": 7,
+     "pts": 6,
      "live": false,
      "gd": 4,
      "name": "England",
@@ -4467,31 +3537,14 @@
     },
     {
      "group": "Group L",
-     "code": "CRO",
-     "p": 3,
-     "w": 2,
-     "d": 0,
-     "l": 1,
-     "gf": 5,
-     "ga": 5,
-     "pts": 6,
-     "live": false,
-     "gd": 0,
-     "name": "Croatia",
-     "flag": "🇭🇷",
-     "tier": 1,
-     "owner": "Dubs"
-    },
-    {
-     "group": "Group L",
      "code": "GHA",
-     "p": 3,
+     "p": 2,
      "w": 1,
-     "d": 1,
+     "d": 0,
      "l": 1,
      "gf": 2,
      "ga": 2,
-     "pts": 4,
+     "pts": 3,
      "live": false,
      "gd": 0,
      "name": "Ghana",
@@ -4501,16 +3554,33 @@
     },
     {
      "group": "Group L",
+     "code": "CRO",
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 4,
+     "ga": 5,
+     "pts": 3,
+     "live": false,
+     "gd": -1,
+     "name": "Croatia",
+     "flag": "🇭🇷",
+     "tier": 1,
+     "owner": "Dubs"
+    },
+    {
+     "group": "Group L",
      "code": "PAN",
-     "p": 3,
+     "p": 2,
      "w": 0,
      "d": 0,
-     "l": 3,
+     "l": 2,
      "gf": 0,
-     "ga": 4,
+     "ga": 3,
      "pts": 0,
      "live": false,
-     "gd": -4,
+     "gd": -3,
      "name": "Panama",
      "flag": "🇵🇦",
      "tier": 2,
@@ -5238,58 +4308,10 @@
   {
    "player": "Lionel Messi",
    "team": "ARG",
-   "goals": 6,
+   "goals": 4,
    "assists": 0,
    "flag": "🇦🇷",
    "owner": "Fergs"
-  },
-  {
-   "player": "Erling Haaland",
-   "team": "NOR",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🇳🇴",
-   "owner": "Glancy"
-  },
-  {
-   "player": "Kylian Mbappé",
-   "team": "FRA",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
-  },
-  {
-   "player": "Ousmane Dembélé",
-   "team": "FRA",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
-  },
-  {
-   "player": "Vinícius Júnior",
-   "team": "BRA",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
-  },
-  {
-   "player": "Brian Brobbey",
-   "team": "NED",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇳🇱",
-   "owner": "Emily"
-  },
-  {
-   "player": "Deniz Undav",
-   "team": "GER",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇩🇪",
-   "owner": "Glancy"
   },
   {
    "player": "Elijah Just",
@@ -5308,44 +4330,12 @@
    "owner": "Brando"
   },
   {
-   "player": "Ismael Saibari",
-   "team": "MAR",
+   "player": "Ousmane Dembélé",
+   "team": "FRA",
    "goals": 3,
    "assists": 0,
-   "flag": "🇲🇦",
-   "owner": "Willo"
-  },
-  {
-   "player": "Ismaïla Sarr",
-   "team": "SEN",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇸🇳",
-   "owner": "Fergs"
-  },
-  {
-   "player": "Johan Manzambi",
-   "team": "SUI",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇨🇭",
-   "owner": "Emily"
-  },
-  {
-   "player": "Jonathan David",
-   "team": "CAN",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇨🇦",
-   "owner": "Dipen"
-  },
-  {
-   "player": "Matheus Cunha",
-   "team": "BRA",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
+   "flag": "🇫🇷",
+   "owner": "Spridge"
   },
   {
    "player": "Yoane Wissa",
@@ -5354,6 +4344,86 @@
    "assists": 0,
    "flag": "🇨🇩",
    "owner": "Willo"
+  },
+  {
+   "player": "Erling Haaland",
+   "team": "NOR",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇳🇴",
+   "owner": "Glancy"
+  },
+  {
+   "player": "Folarin Balogun",
+   "team": "USA",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇺🇸",
+   "owner": "Willo"
+  },
+  {
+   "player": "Jude Bellingham",
+   "team": "ENG",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
+  },
+  {
+   "player": "Kai Havertz",
+   "team": "GER",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
+   "player": "Kylian Mbappé",
+   "team": "FRA",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
+   "player": "Leandro Trossard",
+   "team": "BEL",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇧🇪",
+   "owner": "Pari"
+  },
+  {
+   "player": "Marko Arnautovic",
+   "team": "AUT",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇦🇹",
+   "owner": "George"
+  },
+  {
+   "player": "Nicolas Pépé",
+   "team": "CIV",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇨🇮",
+   "owner": "Jen"
+  },
+  {
+   "player": "Pape Gueye",
+   "team": "SEN",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇸🇳",
+   "owner": "Fergs"
+  },
+  {
+   "player": "Ramin Rezaeian",
+   "team": "IRN",
+   "goals": 2,
+   "assists": 0,
+   "flag": "🇮🇷",
+   "owner": "Spridge"
   }
  ],
  "fairplay": [
@@ -5362,222 +4432,87 @@
    "name": "South Africa",
    "flag": "🇿🇦",
    "owner": "Dipen",
-   "yellow": 5,
+   "yellow": 2,
    "red": 2,
-   "pts": 13
-  },
-  {
-   "code": "QAT",
-   "name": "Qatar",
-   "flag": "🇶🇦",
-   "owner": "Ruggy",
-   "yellow": 4,
-   "red": 2,
-   "pts": 12
-  },
-  {
-   "code": "PAR",
-   "name": "Paraguay",
-   "flag": "🇵🇾",
-   "owner": "Fergs",
-   "yellow": 7,
-   "red": 1,
-   "pts": 11
-  },
-  {
-   "code": "BIH",
-   "name": "Bosnia and Herzegovina",
-   "flag": "🇧🇦",
-   "owner": "Spridge",
-   "yellow": 6,
-   "red": 1,
    "pts": 10
-  },
-  {
-   "code": "URU",
-   "name": "Uruguay",
-   "flag": "🇺🇾",
-   "owner": "Pari",
-   "yellow": 5,
-   "red": 1,
-   "pts": 9
   },
   {
    "code": "IRQ",
    "name": "Iraq",
    "flag": "🇮🇶",
    "owner": "Emily",
-   "yellow": 4,
+   "yellow": 3,
    "red": 1,
-   "pts": 8
+   "pts": 7
   },
   {
-   "code": "BEL",
-   "name": "Belgium",
-   "flag": "🇧🇪",
+   "code": "URU",
+   "name": "Uruguay",
+   "flag": "🇺🇾",
    "owner": "Pari",
    "yellow": 3,
    "red": 1,
    "pts": 7
   },
   {
-   "code": "CAN",
-   "name": "Canada",
-   "flag": "🇨🇦",
-   "owner": "Dipen",
-   "yellow": 7,
-   "red": 0,
-   "pts": 7
-  },
-  {
-   "code": "CUW",
-   "name": "Curaçao",
-   "flag": "🇨🇼",
+   "code": "PAR",
+   "name": "Paraguay",
+   "flag": "🇵🇾",
    "owner": "Fergs",
-   "yellow": 7,
+   "yellow": 6,
    "red": 0,
-   "pts": 7
-  },
-  {
-   "code": "HAI",
-   "name": "Haiti",
-   "flag": "🇭🇹",
-   "owner": "Jen",
-   "yellow": 7,
-   "red": 0,
-   "pts": 7
+   "pts": 6
   },
   {
    "code": "MEX",
    "name": "Mexico",
    "flag": "🇲🇽",
    "owner": "Dipen",
-   "yellow": 2,
+   "yellow": 1,
    "red": 1,
-   "pts": 6
+   "pts": 5
   },
   {
    "code": "EGY",
    "name": "Egypt",
    "flag": "🇪🇬",
    "owner": "Brando",
-   "yellow": 6,
+   "yellow": 5,
    "red": 0,
-   "pts": 6
+   "pts": 5
   },
   {
    "code": "IRN",
    "name": "Iran",
    "flag": "🇮🇷",
    "owner": "Spridge",
-   "yellow": 6,
-   "red": 0,
-   "pts": 6
-  },
-  {
-   "code": "KSA",
-   "name": "Saudi Arabia",
-   "flag": "🇸🇦",
-   "owner": "Brando",
-   "yellow": 6,
-   "red": 0,
-   "pts": 6
-  },
-  {
-   "code": "AUS",
-   "name": "Australia",
-   "flag": "🇦🇺",
-   "owner": "Glancy",
    "yellow": 5,
    "red": 0,
    "pts": 5
   },
   {
-   "code": "BRA",
-   "name": "Brazil",
-   "flag": "🇧🇷",
-   "owner": "George",
-   "yellow": 5,
+   "code": "CAN",
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "owner": "Dipen",
+   "yellow": 4,
    "red": 0,
-   "pts": 5
+   "pts": 4
   },
   {
    "code": "COD",
    "name": "DR Congo",
    "flag": "🇨🇩",
    "owner": "Willo",
-   "yellow": 5,
+   "yellow": 4,
    "red": 0,
-   "pts": 5
+   "pts": 4
   },
   {
    "code": "ECU",
    "name": "Ecuador",
    "flag": "🇪🇨",
    "owner": "Brando",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "PAN",
-   "name": "Panama",
-   "flag": "🇵🇦",
-   "owner": "Dubs",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "SCO",
-   "name": "Scotland",
-   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-   "owner": "George",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "SWE",
-   "name": "Sweden",
-   "flag": "🇸🇪",
-   "owner": "Spridge",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "USA",
-   "name": "USA",
-   "flag": "🇺🇸",
-   "owner": "Willo",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "AUT",
-   "name": "Austria",
-   "flag": "🇦🇹",
-   "owner": "George",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "CPV",
-   "name": "Cabo Verde",
-   "flag": "🇨🇻",
-   "owner": "Dubs",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "COL",
-   "name": "Colombia",
-   "flag": "🇨🇴",
-   "owner": "Ruggy",
    "yellow": 4,
    "red": 0,
    "pts": 4
@@ -5592,55 +4527,37 @@
    "pts": 4
   },
   {
+   "code": "PAN",
+   "name": "Panama",
+   "flag": "🇵🇦",
+   "owner": "Dubs",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
+   "code": "KSA",
+   "name": "Saudi Arabia",
+   "flag": "🇸🇦",
+   "owner": "Brando",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
+   "code": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "flag": "🇧🇦",
+   "owner": "Spridge",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "JOR",
    "name": "Jordan",
    "flag": "🇯🇴",
    "owner": "Glancy",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "NZL",
-   "name": "New Zealand",
-   "flag": "🇳🇿",
-   "owner": "Willo",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "POR",
-   "name": "Portugal",
-   "flag": "🇵🇹",
-   "owner": "Dipen",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "KOR",
-   "name": "South Korea",
-   "flag": "🇰🇷",
-   "owner": "Ruggy",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "UZB",
-   "name": "Uzbekistan",
-   "flag": "🇺🇿",
-   "owner": "Pari",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "GHA",
-   "name": "Ghana",
-   "flag": "🇬🇭",
-   "owner": "George",
    "yellow": 3,
    "red": 0,
    "pts": 3
@@ -5655,46 +4572,109 @@
    "pts": 3
   },
   {
-   "code": "SUI",
-   "name": "Switzerland",
-   "flag": "🇨🇭",
-   "owner": "Emily",
+   "code": "POR",
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "owner": "Dipen",
    "yellow": 3,
    "red": 0,
    "pts": 3
   },
   {
-   "code": "TUR",
-   "name": "Türkiye",
-   "flag": "🇹🇷",
+   "code": "SCO",
+   "name": "Scotland",
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "owner": "George",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "flag": "🇺🇿",
+   "owner": "Pari",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
+   "code": "AUT",
+   "name": "Austria",
+   "flag": "🇦🇹",
+   "owner": "George",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "BEL",
+   "name": "Belgium",
+   "flag": "🇧🇪",
+   "owner": "Pari",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "BRA",
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "owner": "George",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "CPV",
+   "name": "Cabo Verde",
+   "flag": "🇨🇻",
    "owner": "Dubs",
-   "yellow": 3,
+   "yellow": 2,
    "red": 0,
-   "pts": 3
+   "pts": 2
   },
   {
-   "code": "ARG",
-   "name": "Argentina",
-   "flag": "🇦🇷",
+   "code": "COL",
+   "name": "Colombia",
+   "flag": "🇨🇴",
+   "owner": "Ruggy",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "CUW",
+   "name": "Curaçao",
+   "flag": "🇨🇼",
    "owner": "Fergs",
    "yellow": 2,
    "red": 0,
    "pts": 2
   },
   {
-   "code": "CRO",
-   "name": "Croatia",
-   "flag": "🇭🇷",
-   "owner": "Dubs",
+   "code": "GHA",
+   "name": "Ghana",
+   "flag": "🇬🇭",
+   "owner": "George",
    "yellow": 2,
    "red": 0,
    "pts": 2
   },
   {
-   "code": "ENG",
-   "name": "England",
-   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "owner": "Brando",
+   "code": "NZL",
+   "name": "New Zealand",
+   "flag": "🇳🇿",
+   "owner": "Willo",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "QAT",
+   "name": "Qatar",
+   "flag": "🇶🇦",
+   "owner": "Ruggy",
    "yellow": 2,
    "red": 0,
    "pts": 2
@@ -5718,19 +4698,46 @@
    "pts": 2
   },
   {
-   "code": "ALG",
-   "name": "Algeria",
-   "flag": "🇩🇿",
-   "owner": "Ruggy",
+   "code": "SWE",
+   "name": "Sweden",
+   "flag": "🇸🇪",
+   "owner": "Spridge",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "USA",
+   "name": "USA",
+   "flag": "🇺🇸",
+   "owner": "Willo",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
+   "code": "AUS",
+   "name": "Australia",
+   "flag": "🇦🇺",
+   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
   },
   {
-   "code": "CZE",
-   "name": "Czechia",
-   "flag": "🇨🇿",
-   "owner": "Emily",
+   "code": "CRO",
+   "name": "Croatia",
+   "flag": "🇭🇷",
+   "owner": "Dubs",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "ENG",
+   "name": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando",
    "yellow": 1,
    "red": 0,
    "pts": 1
@@ -5754,19 +4761,19 @@
    "pts": 1
   },
   {
-   "code": "JPN",
-   "name": "Japan",
-   "flag": "🇯🇵",
+   "code": "HAI",
+   "name": "Haiti",
+   "flag": "🇭🇹",
    "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
   },
   {
-   "code": "MAR",
-   "name": "Morocco",
-   "flag": "🇲🇦",
-   "owner": "Willo",
+   "code": "JPN",
+   "name": "Japan",
+   "flag": "🇯🇵",
+   "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
@@ -5781,10 +4788,37 @@
    "pts": 1
   },
   {
+   "code": "KOR",
+   "name": "South Korea",
+   "flag": "🇰🇷",
+   "owner": "Ruggy",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "SUI",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "owner": "Emily",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
    "code": "TUN",
    "name": "Tunisia",
    "flag": "🇹🇳",
    "owner": "Pari",
+   "yellow": 1,
+   "red": 0,
+   "pts": 1
+  },
+  {
+   "code": "TUR",
+   "name": "Türkiye",
+   "flag": "🇹🇷",
+   "owner": "Dubs",
    "yellow": 1,
    "red": 0,
    "pts": 1
