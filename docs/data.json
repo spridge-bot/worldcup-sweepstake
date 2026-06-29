@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T05:25:45+00:00",
+ "generated_at": "2026-06-29T05:30:52+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3116,7 +3116,7 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.33,
+    "home": 1.35,
     "draw": 5.25,
     "away": 9.5,
     "over_under": 2.5,
@@ -5621,6 +5621,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Great stories, little jeopardy - does the new World Cup format work?",
+   "desc": "New format, new teams and fascinating storylines. But did the new World Cup group stage really work?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T05:26:38Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c921/live/7b315c70-7262-11f1-8c6f-abbbc508baf9.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T19:14:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Clarke leaves strong Scotland legacy but exit brings sense of relief",
    "desc": "Steve Clarke took Scotland out of the wilderness - but not past the group stage of a tournament. Tom English's must-read analysis of his reign.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cn4d1eg5eqeo?at_medium=RSS&at_campaign=rss",
@@ -5645,15 +5663,6 @@
    "published": "2026-06-28T05:39:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c97/live/c9f97310-7140-11f1-a925-613255806d39.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T19:14:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5708,15 +5717,6 @@
    "published": "2026-06-28T09:57:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6740/live/ee8ca130-72ca-11f1-8d28-af7129502366.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Derided by Leeds, snubbed by USA - but Marsch becoming Canada hero",
-   "desc": "Derided by Leeds fans and snubbed by the USA, Jesse Marsch has faced difficult moments in his career - but appears to have found his home with Canada as they look to reach the World Cup last 16.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd95071lvvqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T11:28:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afb4/live/d2290d30-724d-11f1-b46f-17a6b71f4bc4.jpg",
    "source": "BBC Sport"
   }
  ]
