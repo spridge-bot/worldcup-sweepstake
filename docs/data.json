@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T00:17:22+00:00",
+ "generated_at": "2026-06-29T00:22:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5792,6 +5792,15 @@
  ],
  "news": [
   {
+   "headline": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
+   "desc": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T00:02:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2a6a/live/b6f81890-734b-11f1-8e1d-bbbb1017d210.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Clarke leaves strong Scotland legacy but exit brings sense of relief",
    "desc": "Steve Clarke took Scotland out of the wilderness - but not past the group stage of a tournament. Tom English's must-read analysis of his reign.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cn4d1eg5eqeo?at_medium=RSS&at_campaign=rss",
@@ -5807,15 +5816,6 @@
    "published": "2026-06-28T13:51:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad1f/live/d3232560-72e1-11f1-b28d-37d67ec29837.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
-   "desc": "The 'Disgrace of Gijon' - an infamous match at the 1982 World Cup in Spain - has followed Austria and Algeria for 44 years. Did history repeat itself in Algeria's 3-3 draw with Austria on Sunday?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T21:16:30Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5843,6 +5843,15 @@
    "published": "2026-06-28T09:20:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b957/live/04a174d0-7192-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
+   "desc": "The 'Disgrace of Gijon' - an infamous match at the 1982 World Cup in Spain - has followed Austria and Algeria for 44 years. Did history repeat itself in Algeria's 3-3 draw with Austria on Sunday?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T21:16:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5888,15 +5897,6 @@
    "published": "2026-06-28T11:28:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afb4/live/d2290d30-724d-11f1-b46f-17a6b71f4bc4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Are Iran the unluckiest side in World Cup history?",
-   "desc": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T06:52:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fea/live/ab599e60-72aa-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
