@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T19:04:01+00:00",
+ "generated_at": "2026-06-29T19:09:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -3127,7 +3127,7 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.36,
+    "home": 1.35,
     "draw": 5.0,
     "away": 9.5,
     "over_under": 2.5,
@@ -3177,9 +3177,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 3.5,
+    "home": 3.55,
     "draw": 3.45,
-    "away": 2.15,
+    "away": 2.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4776,10 +4776,10 @@
    "winner": null,
    "venue": "MetLife Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 32 4 Winner",
-    "flag": "",
-    "owner": null
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George"
    },
    "away": {
     "code": null,
