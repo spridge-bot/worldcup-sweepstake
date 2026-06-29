@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-06-29T19:03:36+00:00",
+ "generated_at": "2026-06-29T19:04:01+00:00",
  "mode": "live",
- "latest_day": "2026-06-28",
+ "latest_day": "2026-06-29",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,22 @@
     "RSA"
    ],
    "total": 16,
-   "today": 2,
+   "today": 0,
    "rank": 1,
    "movement": 0
+  },
+  {
+   "name": "George",
+   "teams": [
+    "BRA",
+    "AUT",
+    "SCO",
+    "GHA"
+   ],
+   "total": 12,
+   "today": 2,
+   "rank": 2,
+   "movement": 2
   },
   {
    "name": "Glancy",
@@ -41,8 +54,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -54,8 +67,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -67,21 +80,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 4,
-   "movement": 0
-  },
-  {
-   "name": "George",
-   "teams": [
-    "BRA",
-    "AUT",
-    "SCO",
-    "GHA"
-   ],
-   "total": 10,
-   "today": 3,
-   "rank": 4,
-   "movement": 4
+   "rank": 5,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -94,7 +94,7 @@
    "total": 9,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -107,7 +107,7 @@
    "total": 9,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -120,7 +120,7 @@
    "total": 8,
    "today": 0,
    "rank": 8,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -131,9 +131,9 @@
     "CUW"
    ],
    "total": 7,
-   "today": 5,
+   "today": 0,
    "rank": 9,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -144,7 +144,7 @@
     "QAT"
    ],
    "total": 7,
-   "today": 1,
+   "today": 0,
    "rank": 9,
    "movement": 0
   },
@@ -159,7 +159,7 @@
    "total": 6,
    "today": 0,
    "rank": 11,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -172,7 +172,7 @@
    "total": 6,
    "today": 0,
    "rank": 11,
-   "movement": -2
+   "movement": 0
   }
  ],
  "teams": {
@@ -299,14 +299,19 @@
    "fifa_rank": 6,
    "owner": "George",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 4,
+   "won": 3,
    "drawn": 1,
    "lost": 0,
-   "gf": 7,
-   "ga": 1,
-   "total": 5,
+   "gf": 9,
+   "ga": 2,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-06-29",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-24",
      "desc": "1st in Group C",
@@ -551,13 +556,13 @@
    "tier": 2,
    "fifa_rank": 18,
    "owner": "Jen",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 2,
-   "lost": 0,
-   "gf": 7,
-   "ga": 3,
+   "lost": 1,
+   "gf": 8,
+   "ga": 5,
    "total": 3,
    "events": [
     {
@@ -1214,40 +1219,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760487,
+   "date": "2026-06-29",
    "utc": "2026-06-29T17:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+11'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+11'",
-   "venue": "NRG Stadium",
+   "note": "",
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "tier": 1,
+    "goals": 2,
+    "points": 2
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "tier": 2,
+    "goals": 1,
+    "points": 0
+   },
    "odds": {
     "home": 1.71,
     "draw": 3.85,
     "away": 5.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "goals": 2
-   },
-   "away": {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760486,
    "date": "2026-06-28",
@@ -4374,11 +4378,11 @@
    "id": 760487,
    "utc": "2026-06-29T17:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "BRA",
    "venue": "NRG Stadium",
    "home": {
     "code": "BRA",
@@ -5248,6 +5252,15 @@
    "pts": 7
   },
   {
+   "code": "BRA",
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "owner": "George",
+   "yellow": 7,
+   "red": 0,
+   "pts": 7
+  },
+  {
    "code": "CAN",
    "name": "Canada",
    "flag": "🇨🇦",
@@ -5315,15 +5328,6 @@
    "name": "Australia",
    "flag": "🇦🇺",
    "owner": "Glancy",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "BRA",
-   "name": "Brazil",
-   "flag": "🇧🇷",
-   "owner": "George",
    "yellow": 5,
    "red": 0,
    "pts": 5
@@ -5413,6 +5417,15 @@
    "code": "CIV",
    "name": "Ivory Coast",
    "flag": "🇨🇮",
+   "owner": "Jen",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "flag": "🇯🇵",
    "owner": "Jen",
    "yellow": 4,
    "red": 0,
@@ -5576,15 +5589,6 @@
    "name": "Germany",
    "flag": "🇩🇪",
    "owner": "Glancy",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "JPN",
-   "name": "Japan",
-   "flag": "🇯🇵",
-   "owner": "Jen",
    "yellow": 1,
    "red": 0,
    "pts": 1
