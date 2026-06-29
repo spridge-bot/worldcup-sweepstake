@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T22:54:09+00:00",
+ "generated_at": "2026-06-29T22:54:33+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1227,7 +1227,7 @@
    "group": null,
    "clock": "105'+5'",
    "clock_sec": 6300.0,
-   "status_detail": "105'+5'",
+   "status_detail": "ET-HT",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.38,
