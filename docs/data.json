@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T20:31:19+00:00",
+ "generated_at": "2026-06-29T20:31:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1219,7 +1219,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760489,
+   "utc": "2026-06-29T20:30:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Gillette Stadium",
+   "odds": {
+    "home": 1.38,
+    "draw": 5.0,
+    "away": 8.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Fergs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760487,
@@ -3122,31 +3154,6 @@
  ],
  "upcoming": [
   {
-   "id": 760489,
-   "utc": "2026-06-29T20:30:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.33,
-    "draw": 5.0,
-    "away": 10.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "form": "LWWWW"
-   },
-   "away": {
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "form": "DWLWL"
-   }
-  },
-  {
    "id": 760488,
    "utc": "2026-06-30T01:00:00Z",
    "stage": "Round of 32",
@@ -4401,7 +4408,7 @@
    "id": 760489,
    "utc": "2026-06-29T20:30:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
