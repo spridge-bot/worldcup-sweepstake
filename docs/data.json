@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T09:56:53+00:00",
+ "generated_at": "2026-06-29T10:02:00+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -3241,8 +3241,8 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.28,
-    "draw": 5.75,
+    "home": 1.29,
+    "draw": 5.5,
     "away": 12.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5639,6 +5639,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Clarke says standing down 'easy' decision after World Cup exit",
+   "desc": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not qualify for the knock-out stages.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T09:25:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8499/live/4e314420-739c-11f1-a8fc-c51d60fec73b.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "South Korea football coach quits as president calls for probe into World Cup loss",
    "desc": "South Korea was eliminated after missing out on a spot among the eight best third-placed teams.",
    "link": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-28T17:42:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What you need to know about England's opponents DR Congo",
-   "desc": "England will face DR Congo in the round of 32. Here is what you need to know about them.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c39ypw34gwjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T03:21:56Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7dca/live/0abc2490-7292-11f1-a4e1-453bbdc3eeb5.jpg",
    "source": "BBC Sport"
   }
  ]
