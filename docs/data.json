@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T07:08:05+00:00",
+ "generated_at": "2026-06-29T07:13:12+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5612,6 +5612,15 @@
  ],
  "news": [
   {
+   "headline": "How the new Brazil is taking shape and why Cunha is key",
+   "desc": "Former Brazil midfielder Lucas Leiva explains why Manchester United striker Matheus Cunha is so important to Brazil's adaptable system under Carlo Ancelotti.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clywddlrykdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T07:03:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fdbf/live/974b8340-724e-11f1-b46f-17a6b71f4bc4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
    "desc": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-28T03:21:56Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7dca/live/0abc2490-7292-11f1-a4e1-453bbdc3eeb5.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Bye-bye, Scotland' - Clarke's leaving letter to Tartan Army",
-   "desc": "Steve Clarke's letter to the Scotland fans in full following his departure as head coach.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74yxdq1ky0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T00:52:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b297/live/02bb4770-7289-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
