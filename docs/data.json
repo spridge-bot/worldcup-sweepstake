@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T17:38:05+00:00",
+ "generated_at": "2026-06-29T17:38:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1220,9 +1220,9 @@
    "utc": "2026-06-29T17:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "37'",
-   "clock_sec": 2220.0,
-   "status_detail": "37'",
+   "clock": "38'",
+   "clock_sec": 2280.0,
+   "status_detail": "38'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 1.71,
