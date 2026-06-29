@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T23:29:26+00:00",
+ "generated_at": "2026-06-29T23:29:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -97,6 +97,19 @@
    "movement": 0
   },
   {
+   "name": "Fergs",
+   "teams": [
+    "ARG",
+    "SEN",
+    "PAR",
+    "CUW"
+   ],
+   "total": 9,
+   "today": 2,
+   "rank": 6,
+   "movement": 3
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -119,21 +132,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 8,
-   "movement": 0
-  },
-  {
-   "name": "Fergs",
-   "teams": [
-    "ARG",
-    "SEN",
-    "PAR",
-    "CUW"
-   ],
-   "total": 7,
-   "today": 0,
    "rank": 9,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -145,8 +145,8 @@
    ],
    "total": 7,
    "today": 0,
-   "rank": 9,
-   "movement": 0
+   "rank": 10,
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -395,13 +395,13 @@
    "tier": 1,
    "fifa_rank": 10,
    "owner": "Glancy",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 2,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "gf": 10,
-   "ga": 4,
+   "gf": 11,
+   "ga": 5,
    "total": 5,
    "events": [
     {
@@ -912,14 +912,19 @@
    "fifa_rank": 40,
    "owner": "Fergs",
    "status": "alive",
-   "played": 3,
+   "played": 4,
    "won": 1,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 1,
-   "gf": 2,
-   "ga": 4,
-   "total": 1,
+   "gf": 3,
+   "ga": 5,
+   "total": 3,
    "events": [
+    {
+     "date": "2026-06-29",
+     "desc": "Won Round of 32 tie (on penalties)",
+     "points": 2
+    },
     {
      "date": "2026-06-26",
      "desc": "3rd in Group D",
@@ -1219,40 +1224,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760489,
+   "date": "2026-06-29",
    "utc": "2026-06-29T20:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "120'",
-   "clock_sec": 7200.0,
-   "status_detail": "Pens",
-   "venue": "Gillette Stadium",
+   "note": " (3-4 pens)",
+   "home": {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "tier": 1,
+    "goals": 1,
+    "points": 0
+   },
+   "away": {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "tier": 3,
+    "goals": 1,
+    "points": 2
+   },
    "odds": {
     "home": 1.38,
     "draw": 5.0,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "GER",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "owner": "Glancy",
-    "goals": 1
-   },
-   "away": {
-    "code": "PAR",
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760487,
    "date": "2026-06-29",
@@ -4408,11 +4412,11 @@
    "id": 760489,
    "utc": "2026-06-29T20:30:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
+   "status": "FINISHED",
+   "hg": 1,
+   "ag": 1,
+   "note": "3-4 pens",
+   "winner": "PAR",
    "venue": "Gillette Stadium",
    "home": {
     "code": "GER",
@@ -5196,6 +5200,15 @@
  ],
  "fairplay": [
   {
+   "code": "PAR",
+   "name": "Paraguay",
+   "flag": "🇵🇾",
+   "owner": "Fergs",
+   "yellow": 10,
+   "red": 1,
+   "pts": 14
+  },
+  {
    "code": "RSA",
    "name": "South Africa",
    "flag": "🇿🇦",
@@ -5212,15 +5225,6 @@
    "yellow": 4,
    "red": 2,
    "pts": 12
-  },
-  {
-   "code": "PAR",
-   "name": "Paraguay",
-   "flag": "🇵🇾",
-   "owner": "Fergs",
-   "yellow": 7,
-   "red": 1,
-   "pts": 11
   },
   {
    "code": "BIH",
@@ -5421,6 +5425,15 @@
    "pts": 4
   },
   {
+   "code": "GER",
+   "name": "Germany",
+   "flag": "🇩🇪",
+   "owner": "Glancy",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "CIV",
    "name": "Ivory Coast",
    "flag": "🇨🇮",
@@ -5587,15 +5600,6 @@
    "name": "France",
    "flag": "🇫🇷",
    "owner": "Spridge",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "GER",
-   "name": "Germany",
-   "flag": "🇩🇪",
-   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
