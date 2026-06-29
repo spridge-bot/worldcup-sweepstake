@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T20:55:47+00:00",
+ "generated_at": "2026-06-29T20:56:11+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1225,9 +1225,9 @@
    "utc": "2026-06-29T20:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "25'",
-   "clock_sec": 1500.0,
-   "status_detail": "25'",
+   "clock": "26'",
+   "clock_sec": 1560.0,
+   "status_detail": "26'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.38,
