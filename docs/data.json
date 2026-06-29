@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T22:23:43+00:00",
+ "generated_at": "2026-06-29T22:24:07+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1225,9 +1225,9 @@
    "utc": "2026-06-29T20:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "89'",
-   "clock_sec": 5340.0,
-   "status_detail": "89'",
+   "clock": "90'",
+   "clock_sec": 5400.0,
+   "status_detail": "90'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.38,
@@ -5635,7 +5635,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c17yzyy8ldko?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-29T22:14:31Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1bd1/live/9a2b9f30-7403-11f1-9081-234994299405.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6c57/live/1ccd72b0-7409-11f1-b54a-af3c13912d65.jpg",
    "source": "BBC Sport"
   },
   {
