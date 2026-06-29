@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T11:28:53+00:00",
+ "generated_at": "2026-06-29T11:34:02+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5612,6 +5612,15 @@
  ],
  "news": [
   {
+   "headline": "How Tuchel is still searching for solutions out wide - Shearer",
+   "desc": "Former England captain Alan Shearer explains why there are lots of reasons to be positive about England so far at this World Cup, but having a settled side is not one of them.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqj1g9egd80o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T11:27:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4000/live/e23d0350-7385-11f1-9e21-8bd55db03589.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How the new Brazil is taking shape and why Cunha is key",
    "desc": "Former Brazil midfielder Lucas Leiva explains why Manchester United striker Matheus Cunha is so important to Brazil's adaptable system under Carlo Ancelotti.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clywddlrykdo?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-28T05:39:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c97/live/c9f97310-7140-11f1-a925-613255806d39.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Clarke leaves strong Scotland legacy but exit brings sense of relief",
-   "desc": "Steve Clarke took Scotland out of the wilderness - but not past the group stage of a tournament. Tom English's must-read analysis of his reign.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cn4d1eg5eqeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T09:16:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/96d1/live/41d6bf00-72d1-11f1-97a3-a56ea48fdaf0.jpg",
    "source": "BBC Sport"
   }
  ]
