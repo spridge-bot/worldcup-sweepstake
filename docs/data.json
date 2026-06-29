@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T21:47:39+00:00",
+ "generated_at": "2026-06-29T21:48:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1225,9 +1225,9 @@
    "utc": "2026-06-29T20:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "54'",
-   "clock_sec": 3240.0,
-   "status_detail": "54'",
+   "clock": "55'",
+   "clock_sec": 3300.0,
+   "status_detail": "55'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.38,
@@ -1241,7 +1241,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "PAR",
@@ -5178,20 +5178,20 @@
    "owner": "Dipen"
   },
   {
+   "player": "Kai Havertz",
+   "team": "GER",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇩🇪",
+   "owner": "Glancy"
+  },
+  {
    "player": "Matheus Cunha",
    "team": "BRA",
    "goals": 3,
    "assists": 0,
    "flag": "🇧🇷",
    "owner": "George"
-  },
-  {
-   "player": "Yoane Wissa",
-   "team": "COD",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇨🇩",
-   "owner": "Willo"
   }
  ],
  "fairplay": [
