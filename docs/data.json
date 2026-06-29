@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T22:46:26+00:00",
+ "generated_at": "2026-06-29T22:46:50+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1241,7 +1241,7 @@
     "name": "Germany",
     "flag": "🇩🇪",
     "owner": "Glancy",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "PAR",
