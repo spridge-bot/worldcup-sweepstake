@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T23:29:51+00:00",
+ "generated_at": "2026-06-29T23:34:58+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -4764,10 +4764,10 @@
    "winner": null,
    "venue": "Lincoln Financial Field",
    "home": {
-    "code": null,
-    "name": "Round of 32 2 Winner",
-    "flag": "",
-    "owner": null
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Fergs"
    },
    "away": {
     "code": null,
