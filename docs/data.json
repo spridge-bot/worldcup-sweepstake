@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T18:17:53+00:00",
+ "generated_at": "2026-06-29T18:18:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1236,7 +1236,7 @@
     "name": "Brazil",
     "flag": "🇧🇷",
     "owner": "George",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "JPN",
