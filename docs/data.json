@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T05:41:07+00:00",
+ "generated_at": "2026-06-29T05:46:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5630,6 +5630,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "South Korea football coach quits as president calls for probe into World Cup loss",
+   "desc": "South Korea was eliminated after missing out on a spot among the eight best third-placed teams.",
+   "link": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T03:34:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f003/live/9eb32360-7364-11f1-ad8b-652433387d33.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-28T00:52:22Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b297/live/02bb4770-7289-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
-   "desc": "Crystal Palace and Sunderland lead the Premier League’s World Cup scoring charts after the 2026 group stage, ahead of Arsenal, Liverpool and Manchester City.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T09:57:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6740/live/ee8ca130-72ca-11f1-8d28-af7129502366.jpg",
    "source": "BBC Sport"
   }
  ]
