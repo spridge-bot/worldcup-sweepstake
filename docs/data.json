@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T14:18:03+00:00",
+ "generated_at": "2026-06-29T14:23:09+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5639,6 +5639,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Africa's World Cup success leaves Asia looking for answers",
+   "desc": "The 2026 World Cup has been an amazing story for African football - while Asia has been left to reflect on failure.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2ey1pwkz3wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T14:17:14Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f15/live/23e6f750-73b5-11f1-a8ee-df4f88a2912f.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Clarke says standing down 'easy' decision after World Cup exit",
    "desc": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-29T00:02:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2a6a/live/b6f81890-734b-11f1-8e1d-bbbb1017d210.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Great stories, little jeopardy - does the new World Cup format work?",
-   "desc": "New format, new teams and fascinating storylines. But did the new World Cup group stage really work?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T05:26:38Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c921/live/7b315c70-7262-11f1-8c6f-abbbc508baf9.jpg",
    "source": "BBC Sport"
   }
  ]
