@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T23:28:14+00:00",
+ "generated_at": "2026-06-29T23:28:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1227,7 +1227,7 @@
    "group": null,
    "clock": "120'",
    "clock_sec": 7200.0,
-   "status_detail": "Pens",
+   "status_detail": "120'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.38,
