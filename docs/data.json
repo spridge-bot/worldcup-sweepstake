@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T17:01:04+00:00",
+ "generated_at": "2026-06-29T17:01:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -1214,7 +1214,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760487,
+   "utc": "2026-06-29T17:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "NRG Stadium",
+   "odds": {
+    "home": 1.71,
+    "draw": 3.85,
+    "away": 5.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "goals": 0
+   },
+   "away": {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "owner": "Jen",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760486,
@@ -3086,31 +3118,6 @@
  ],
  "upcoming": [
   {
-   "id": 760487,
-   "utc": "2026-06-29T17:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.74,
-    "draw": 3.6,
-    "away": 5.25,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "form": "WWDWW"
-   },
-   "away": {
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "owner": "Jen",
-    "form": "DWDWW"
-   }
-  },
-  {
    "id": 760489,
    "utc": "2026-06-29T20:30:00Z",
    "stage": "Round of 32",
@@ -4367,7 +4374,7 @@
    "id": 760487,
    "utc": "2026-06-29T17:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
