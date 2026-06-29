@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T10:27:32+00:00",
+ "generated_at": "2026-06-29T10:32:38+00:00",
  "mode": "live",
  "latest_day": "2026-06-28",
  "scoring": {
@@ -5639,6 +5639,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Why Netherlands v Morocco is more than just a match",
+   "desc": "Morocco’s World Cup meeting with the Netherlands tells a story about migration, identity and the battle for Dutch-born talent.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clye1l3m9k4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T10:16:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cd35/live/eb4d3330-7302-11f1-8b3a-1977d6dee6ef.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Clarke says standing down 'easy' decision after World Cup exit",
    "desc": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not qualify for the knock-out stages.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
@@ -5708,15 +5717,6 @@
    "published": "2026-06-28T21:16:30Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Ugarte has 'most serious injury footballer can face'",
-   "desc": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T17:42:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg",
    "source": "BBC Sport"
   }
  ]
