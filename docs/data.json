@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-29T23:55:24+00:00",
+ "generated_at": "2026-06-30T00:00:30+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -3163,9 +3163,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 2.45,
-    "draw": 3.1,
-    "away": 3.3,
+    "home": 2.1,
+    "draw": 3.25,
+    "away": 3.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3173,13 +3173,13 @@
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "form": "WWDWL"
+    "form": null
    },
    "away": {
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "form": "WWDDW"
+    "form": null
    }
   },
   {
