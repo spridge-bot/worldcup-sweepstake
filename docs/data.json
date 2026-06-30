@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T22:54:42+00:00",
+ "generated_at": "2026-06-30T22:59:48+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -3541,6 +3541,25 @@
    }
   },
   {
+   "id": 760503,
+   "utc": "2026-07-04T21:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "owner": "Fergs",
+    "form": "WDWLW"
+   },
+   "away": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge",
+    "form": "WWWWW"
+   }
+  },
+  {
    "id": 760504,
    "utc": "2026-07-05T20:00:00Z",
    "stage": "Round of 16",
@@ -4853,10 +4872,10 @@
     "owner": "Fergs"
    },
    "away": {
-    "code": null,
-    "name": "Round of 32 5 Winner",
-    "flag": "",
-    "owner": null
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge"
    }
   },
   {
