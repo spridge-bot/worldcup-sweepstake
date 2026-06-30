@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T22:30:39+00:00",
+ "generated_at": "2026-06-30T22:31:04+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1240,9 +1240,9 @@
    "utc": "2026-06-30T21:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "71'",
-   "clock_sec": 4260.0,
-   "status_detail": "71'",
+   "clock": "72'",
+   "clock_sec": 4320.0,
+   "status_detail": "72'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.3,
@@ -5725,7 +5725,7 @@
    "headline": "Koeman resigns, while Netherlands report racist abuse",
    "desc": "Ronald Koeman resigns as Netherlands manager after their World Cup exit, which led to \"appalling\" racist abuse aimed at players who missed penalties.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly0g1y3v00o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T21:42:42Z",
+   "published": "2026-06-30T22:30:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/52d3/live/6fd8e880-74cd-11f1-a83d-c354d9be0694.jpg",
    "source": "BBC Sport"
