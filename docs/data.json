@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T05:47:14+00:00",
+ "generated_at": "2026-06-30T05:52:21+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -3225,8 +3225,8 @@
    "group": null,
    "odds": {
     "home": 1.29,
-    "draw": 6.0,
-    "away": 9.5,
+    "draw": 5.75,
+    "away": 10.0,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -5679,6 +5679,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Inside Paraguay's tears of joy over their seismic World Cup shock",
+   "desc": "How Paraguay marked one of the biggest wins in their footballing history with euphoric celebrations.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy5v96vk1q9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T03:00:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2468/live/546d36f0-742d-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "45 minutes from Brazil 'humiliation' - but 'Crafty Carlo' does it again",
    "desc": "Half-time in Houston and Brazil's players trudged off facing another early World Cup exit. But we should have known better than to doubt Carlo Ancelotti.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c17yzyy8ldko?at_medium=RSS&at_campaign=rss",
@@ -5703,15 +5712,6 @@
    "published": "2026-06-30T05:10:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5b31/live/073aa660-743c-11f1-940a-cb60d9095f19.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Inside Paraguay's tears of joy over their seismic World Cup shock",
-   "desc": "How Paraguay marked one of the biggest wins in their footballing history with euphoric celebrations.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy5v96vk1q9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T03:00:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2468/live/546d36f0-742d-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5760,21 +5760,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Clarke says standing down 'easy' decision after World Cup exit",
-   "desc": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T09:25:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8499/live/4e314420-739c-11f1-a8fc-c51d60fec73b.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T05:00:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What each team needs to reach World Cup knockouts",
+   "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T02:13:34Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3c3f/live/d4adc1a0-7260-11f1-9f4b-39f3276a2716.jpg",
    "source": "BBC Sport"
   }
  ]
