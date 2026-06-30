@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T18:59:04+00:00",
+ "generated_at": "2026-06-30T18:59:28+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 13,
+   "today": 2,
+   "rank": 2,
+   "movement": 1
+  },
+  {
    "name": "George",
    "teams": [
     "BRA",
@@ -41,21 +54,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 11,
-   "today": 0,
    "rank": 3,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -67,8 +67,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 3,
-   "movement": 0
+   "rank": 4,
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -80,8 +80,8 @@
    ],
    "total": 11,
    "today": 2,
-   "rank": 3,
-   "movement": 3
+   "rank": 4,
+   "movement": 2
   },
   {
    "name": "Emily",
@@ -814,14 +814,19 @@
    "fifa_rank": 31,
    "owner": "Glancy",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 4,
+   "won": 3,
    "drawn": 0,
    "lost": 1,
-   "gf": 8,
-   "ga": 7,
-   "total": 3,
+   "gf": 10,
+   "ga": 8,
+   "total": 5,
    "events": [
+    {
+     "date": "2026-06-30",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-26",
      "desc": "2nd in Group I",
@@ -836,13 +841,13 @@
    "tier": 2,
    "fifa_rank": 33,
    "owner": "Jen",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 2,
    "drawn": 0,
-   "lost": 1,
-   "gf": 4,
-   "ga": 2,
+   "lost": 2,
+   "gf": 5,
+   "ga": 4,
    "total": 3,
    "events": [
     {
@@ -1229,40 +1234,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760490,
+   "date": "2026-06-30",
    "utc": "2026-06-30T17:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "tier": 2,
+    "goals": 1,
+    "points": 0
+   },
+   "away": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "tier": 2,
+    "goals": 2,
+    "points": 2
+   },
    "odds": {
     "home": 3.6,
     "draw": 3.5,
     "away": 2.1,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CIV",
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "goals": 1
-   },
-   "away": {
-    "code": "NOR",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760488,
    "date": "2026-06-30",
@@ -4501,11 +4505,11 @@
    "id": 760490,
    "utc": "2026-06-30T17:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 1,
+   "ag": 2,
    "note": "",
-   "winner": null,
+   "winner": "NOR",
    "venue": "AT&T Stadium",
    "home": {
     "code": "CIV",
@@ -5612,6 +5616,15 @@
    "pts": 2
   },
   {
+   "code": "NOR",
+   "name": "Norway",
+   "flag": "🇳🇴",
+   "owner": "Glancy",
+   "yellow": 2,
+   "red": 0,
+   "pts": 2
+  },
+  {
    "code": "SEN",
    "name": "Senegal",
    "flag": "🇸🇳",
@@ -5652,15 +5665,6 @@
    "name": "France",
    "flag": "🇫🇷",
    "owner": "Spridge",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "NOR",
-   "name": "Norway",
-   "flag": "🇳🇴",
-   "owner": "Glancy",
    "yellow": 1,
    "red": 0,
    "pts": 1
