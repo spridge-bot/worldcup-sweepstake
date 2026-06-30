@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T18:54:58+00:00",
+ "generated_at": "2026-06-30T18:55:23+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1235,9 +1235,9 @@
    "utc": "2026-06-30T17:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+4'",
+   "clock": "90'+5'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+4'",
+   "status_detail": "90'+5'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 3.6,
@@ -5677,12 +5677,12 @@
  ],
  "news": [
   {
-   "headline": "Pick Mainoo over Anderson against DR Congo - Rooney",
-   "desc": "Former England captain Wayne Rooney says he would start Manchester United midfielder Kobbie Mainoo instead of Elliot Anderson in Wednesday's World Cup last-32 tie with DR Congo.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T08:06:24Z",
+   "headline": "Quansah and James miss England training as right-back problems mount",
+   "desc": "Jarell Quansah and Reece James miss training as England's right-back issues mount before their World Cup last-32 match against DR Congo on Wednesday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c23yz02rrkgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T18:52:31Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0be4/live/d59dc6d0-73e8-11f1-bb9e-33cb2da512b5.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5ea5/live/b7af52f0-74b1-11f1-9c5b-41132a229f02.png",
    "source": "BBC Sport"
   },
   {
@@ -5692,6 +5692,15 @@
    "published": "2026-06-30T11:18:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/40cc/live/dafe9160-73b4-11f1-a8ee-df4f88a2912f.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Pick Mainoo over Anderson against DR Congo - Rooney",
+   "desc": "Former England captain Wayne Rooney says he would start Manchester United midfielder Kobbie Mainoo instead of Elliot Anderson in Wednesday's World Cup last-32 tie with DR Congo.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T08:06:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0be4/live/d59dc6d0-73e8-11f1-bb9e-33cb2da512b5.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5764,15 +5773,6 @@
    "published": "2026-06-30T05:10:38Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5b31/live/073aa660-743c-11f1-940a-cb60d9095f19.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Indescribably hurt' Son apologises for South Korea World Cup exit",
-   "desc": "Son Heung-min apologises for South Korea's early World Cup exit and says he will \"run to death\" for the nation's football fans.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20ylry6py1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T06:51:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6dbe/live/bdd44e20-744c-11f1-ad92-6340016f0592.jpg",
    "source": "BBC Sport"
   },
   {
