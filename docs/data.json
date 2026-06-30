@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T22:54:18+00:00",
+ "generated_at": "2026-06-30T22:54:42+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -97,6 +97,19 @@
    "movement": -1
   },
   {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 10,
+   "today": 2,
+   "rank": 6,
+   "movement": 3
+  },
+  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -106,8 +119,8 @@
    ],
    "total": 9,
    "today": 0,
-   "rank": 7,
-   "movement": -1
+   "rank": 8,
+   "movement": -2
   },
   {
    "name": "Fergs",
@@ -119,21 +132,8 @@
    ],
    "total": 9,
    "today": 0,
-   "rank": 7,
-   "movement": -1
-  },
-  {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 8,
-   "today": 0,
-   "rank": 9,
-   "movement": 0
+   "rank": 8,
+   "movement": -2
   },
   {
    "name": "Ruggy",
@@ -230,14 +230,19 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 3,
-   "won": 3,
+   "played": 4,
+   "won": 4,
    "drawn": 0,
    "lost": 0,
-   "gf": 10,
+   "gf": 13,
    "ga": 2,
-   "total": 5,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-06-30",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-26",
      "desc": "1st in Group I",
@@ -881,13 +886,13 @@
    "tier": 2,
    "fifa_rank": 38,
    "owner": "Spridge",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 7,
-   "ga": 7,
+   "ga": 10,
    "total": 1,
    "events": [
     {
@@ -1234,40 +1239,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760492,
+   "date": "2026-06-30",
    "utc": "2026-06-30T21:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+4'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+4'",
-   "venue": "MetLife Stadium",
+   "note": "",
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "tier": 1,
+    "goals": 3,
+    "points": 2
+   },
+   "away": {
+    "code": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "tier": 2,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 1.3,
     "draw": 5.75,
     "away": 10.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "goals": 3
-   },
-   "away": {
-    "code": "SWE",
-    "name": "Sweden",
-    "flag": "🇸🇪",
-    "owner": "Spridge",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760490,
    "date": "2026-06-30",
@@ -4560,11 +4564,11 @@
    "id": 760492,
    "utc": "2026-06-30T21:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 3,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "FRA",
    "venue": "MetLife Stadium",
    "home": {
     "code": "FRA",
