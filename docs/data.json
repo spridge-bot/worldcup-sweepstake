@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T22:33:06+00:00",
+ "generated_at": "2026-06-30T22:33:31+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1256,7 +1256,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 2
+    "goals": 3
    },
    "away": {
     "code": "SWE",
@@ -5157,6 +5157,14 @@
  ],
  "scorers": [
   {
+   "player": "Kylian Mbappé",
+   "team": "FRA",
+   "goals": 6,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Lionel Messi",
    "team": "ARG",
    "goals": 6,
@@ -5171,14 +5179,6 @@
    "assists": 0,
    "flag": "🇳🇴",
    "owner": "Glancy"
-  },
-  {
-   "player": "Kylian Mbappé",
-   "team": "FRA",
-   "goals": 5,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
   },
   {
    "player": "Ousmane Dembélé",
