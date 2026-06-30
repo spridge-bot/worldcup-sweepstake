@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T18:59:28+00:00",
+ "generated_at": "2026-06-30T19:04:35+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -3528,6 +3528,25 @@
     "owner": "Willo",
     "form": "WWWDD"
    }
+  },
+  {
+   "id": 760504,
+   "utc": "2026-07-05T20:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "form": "WWWDW"
+   },
+   "away": {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "form": "WLWWD"
+   }
   }
  ],
  "groups": [
@@ -4840,10 +4859,10 @@
     "owner": "George"
    },
    "away": {
-    "code": null,
-    "name": "Round of 32 6 Winner",
-    "flag": "",
-    "owner": null
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy"
    }
   },
   {
