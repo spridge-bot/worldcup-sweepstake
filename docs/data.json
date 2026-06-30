@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T18:34:13+00:00",
+ "generated_at": "2026-06-30T18:34:37+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1251,7 +1251,7 @@
     "name": "Ivory Coast",
     "flag": "🇨🇮",
     "owner": "Jen",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "NOR",
