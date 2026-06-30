@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T21:09:16+00:00",
+ "generated_at": "2026-06-30T21:09:41+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1240,9 +1240,9 @@
    "utc": "2026-06-30T21:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "8'",
-   "clock_sec": 480.0,
-   "status_detail": "8'",
+   "clock": "9'",
+   "clock_sec": 540.0,
+   "status_detail": "9'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.3,
