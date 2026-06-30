@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T03:39:27+00:00",
+ "generated_at": "2026-06-30T03:39:51+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1230,9 +1230,9 @@
    "utc": "2026-06-30T01:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "120'+1'",
+   "clock": "120'+2'",
    "clock_sec": 7200.0,
-   "status_detail": "120'+1'",
+   "status_detail": "AET-pens",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 2.1,
