@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T21:44:42+00:00",
+ "generated_at": "2026-06-30T21:45:06+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -5713,6 +5713,15 @@
  ],
  "news": [
   {
+   "headline": "Koeman resigns, while Netherlands report racist abuse",
+   "desc": "Ronald Koeman resigns as Netherlands manager after their World Cup exit, which led to \"appalling\" racist abuse aimed at players who missed penalties.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly0g1y3v00o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T21:42:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/11c8/live/d8c2d8e0-74ca-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Quansah and James miss England training as right-back problems mount",
    "desc": "Jarell Quansah and Reece James miss training as England's right-back issues mount before their World Cup last-32 match against DR Congo on Wednesday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c23yz02rrkgo?at_medium=RSS&at_campaign=rss",
@@ -5746,15 +5755,6 @@
    "published": "2026-06-30T08:06:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0be4/live/d59dc6d0-73e8-11f1-bb9e-33cb2da512b5.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Germany fans in need of hope as prospect of Klopp looms",
-   "desc": "As Germany again fail to progress at a World Cup BBC Sport looks at the fallout from their defeat by Paraguay and what happens next.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz0jgr7vy5zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T11:35:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/35f7/live/06668fe0-7470-11f1-b8da-6d87dfdc4508.jpg",
    "source": "BBC Sport"
   },
   {
