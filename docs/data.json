@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T17:01:15+00:00",
+ "generated_at": "2026-06-30T17:01:32+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1229,7 +1229,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760490,
+   "utc": "2026-06-30T17:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 3.6,
+    "draw": 3.5,
+    "away": 2.1,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "owner": "Jen",
+    "goals": 0
+   },
+   "away": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760488,
@@ -3194,31 +3226,6 @@
  ],
  "upcoming": [
   {
-   "id": 760490,
-   "utc": "2026-06-30T17:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 3.6,
-    "draw": 3.3,
-    "away": 2.15,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Ivory Coast",
-    "flag": "🇨🇮",
-    "owner": "Jen",
-    "form": "WLWWW"
-   },
-   "away": {
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "form": "LWWDW"
-   }
-  },
-  {
    "id": 760492,
    "utc": "2026-06-30T21:00:00Z",
    "stage": "Round of 32",
@@ -4494,7 +4501,7 @@
    "id": 760490,
    "utc": "2026-06-30T17:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
