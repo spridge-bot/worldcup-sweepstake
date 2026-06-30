@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T02:59:49+00:00",
+ "generated_at": "2026-06-30T03:00:13+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1232,7 +1232,7 @@
    "group": null,
    "clock": "90'+7'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
+   "status_detail": "ET",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 2.1,
