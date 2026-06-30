@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T19:35:18+00:00",
+ "generated_at": "2026-06-30T19:40:25+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -3310,9 +3310,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 2.2,
+    "home": 2.25,
     "draw": 3.25,
-    "away": 3.6,
+    "away": 3.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3335,9 +3335,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.38,
-    "draw": 4.9,
-    "away": 9.0,
+    "home": 1.39,
+    "draw": 4.8,
+    "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5742,6 +5742,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Ecuador make Mexico fans hotel noise complaint",
+   "desc": "Ecuador make a complaint to World Cup organisers over noisy local fans outside their team hotel before their last-32 match against co-hosts Mexico.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyrgng719eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T19:30:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2058/live/5f9b81a0-74b7-11f1-8572-b986307331bd.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The Paraguay hero who sold his kit when his son was born",
    "desc": "Orlando Gill has become Paraguay's World Cup hero but was in football obscurity 18 months ago and had to sell his kit to support his family after the premature birth of his son.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c75yelwge25o?at_medium=RSS&at_campaign=rss",
@@ -5793,15 +5802,6 @@
    "published": "2026-06-30T01:42:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06c4/live/488e3970-741d-11f1-be1e-b3f1b22422b5.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Emotional Gakpo scores days after loss of unborn son",
-   "desc": "Liverpool forward Cody Gakpo scores for the Netherlands days after the loss of his unborn son, as they are knocked out on penalties by Morocco.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz3yjgp5yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T05:10:38Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5b31/live/073aa660-743c-11f1-940a-cb60d9095f19.jpg",
    "source": "BBC Sport"
   },
   {
