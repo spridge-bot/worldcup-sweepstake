@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T01:01:01+00:00",
+ "generated_at": "2026-06-30T01:01:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1224,7 +1224,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760488,
+   "utc": "2026-06-30T01:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Estadio BBVA",
+   "odds": {
+    "home": 2.1,
+    "draw": 3.25,
+    "away": 3.8,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760489,
@@ -3158,31 +3190,6 @@
  ],
  "upcoming": [
   {
-   "id": 760488,
-   "utc": "2026-06-30T01:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 2.1,
-    "draw": 3.25,
-    "away": 3.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "owner": "Emily",
-    "form": null
-   },
-   "away": {
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "form": null
-   }
-  },
-  {
    "id": 760490,
    "utc": "2026-06-30T17:00:00Z",
    "stage": "Round of 32",
@@ -4435,7 +4442,7 @@
    "id": 760488,
    "utc": "2026-06-30T01:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
