@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T21:45:31+00:00",
+ "generated_at": "2026-06-30T21:45:56+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1240,9 +1240,9 @@
    "utc": "2026-06-30T21:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "44'",
-   "clock_sec": 2640.0,
-   "status_detail": "44'",
+   "clock": "45'",
+   "clock_sec": 2700.0,
+   "status_detail": "45'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.3,
@@ -1256,7 +1256,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "SWE",
@@ -5175,7 +5175,7 @@
   {
    "player": "Kylian Mbappé",
    "team": "FRA",
-   "goals": 4,
+   "goals": 5,
    "assists": 0,
    "flag": "🇫🇷",
    "owner": "Spridge"
