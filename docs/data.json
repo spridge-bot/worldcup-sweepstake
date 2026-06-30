@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T11:30:26+00:00",
+ "generated_at": "2026-06-30T11:35:33+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -5697,6 +5697,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "The Paraguay hero who sold his kit when his son was born",
+   "desc": "Orlando Gill has become Paraguay's World Cup hero but was in football obscurity 18 months ago and had to sell his kit to support his family after the premature birth of his son.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c75yelwge25o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T11:28:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d132/live/e0569df0-7473-11f1-b8da-6d87dfdc4508.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "US security chief 'danced happy dance' after Iran exit",
    "desc": "The United States' head of homeland security says he \"danced a happy dance\" when Iran's elimination from the World Cup was confirmed.",
    "link": "https://www.bbc.co.uk/sport/football/articles/crr8x5qkly1o?at_medium=RSS&at_campaign=rss",
@@ -5766,15 +5775,6 @@
    "published": "2026-06-28T11:28:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afb4/live/d2290d30-724d-11f1-b46f-17a6b71f4bc4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Extreme heat in the US could make World Cup matches 'unsafe' this week",
-   "desc": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches.",
-   "link": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T10:47:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f22/live/887bd5c0-72ff-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
