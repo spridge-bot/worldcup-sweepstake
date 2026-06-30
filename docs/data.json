@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T02:33:52+00:00",
+ "generated_at": "2026-06-30T02:34:16+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1246,7 +1246,7 @@
     "name": "Netherlands",
     "flag": "🇳🇱",
     "owner": "Emily",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "MAR",
@@ -5133,6 +5133,14 @@
    "owner": "Emily"
   },
   {
+   "player": "Cody Gakpo",
+   "team": "NED",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇳🇱",
+   "owner": "Emily"
+  },
+  {
    "player": "Deniz Undav",
    "team": "GER",
    "goals": 3,
@@ -5195,14 +5203,6 @@
    "assists": 0,
    "flag": "🇩🇪",
    "owner": "Glancy"
-  },
-  {
-   "player": "Matheus Cunha",
-   "team": "BRA",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇧🇷",
-   "owner": "George"
   }
  ],
  "fairplay": [
