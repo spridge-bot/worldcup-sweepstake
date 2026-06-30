@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T01:43:50+00:00",
+ "generated_at": "2026-06-30T01:44:14+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -5677,6 +5677,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Could a heatwave make World Cup matches 'unsafe' this week?",
+   "desc": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches.",
+   "link": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T11:36:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f22/live/887bd5c0-72ff-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Move over Messi and Ronaldo - the new generation shining at World Cup",
    "desc": "BBC Sport looks at five young players who are making a big impression on the same World Cup stage as veterans Lionel Messi and Cristiano Ronaldo.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss",
@@ -5728,15 +5737,6 @@
    "published": "2026-06-29T12:03:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb67/live/64eb3a70-73ad-11f1-9da1-db101e3ae6ed.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Great stories, little jeopardy - does the new World Cup format work?",
-   "desc": "New format, new teams and fascinating storylines. But did the new World Cup group stage really work?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T05:26:38Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c921/live/7b315c70-7262-11f1-8c6f-abbbc508baf9.jpg",
    "source": "BBC Sport"
   },
   {
