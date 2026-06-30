@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T02:40:19+00:00",
+ "generated_at": "2026-06-30T02:40:43+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -5641,6 +5641,15 @@
  ],
  "news": [
   {
+   "headline": "The end for Nagelsmann? Germany suffer their 'next football nightmare'",
+   "desc": "Germany make a shock last-32 exit against Paraguay, losing a World Cup penalty shootout for the first time to pile pressure on boss Julian Nagelsmann.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c992kzk00kzo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T02:38:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c74/live/dcc7c3c0-7424-11f1-b7fc-e5e2b401ffce.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'A joke' - how a 'terrible' VAR disallowed goal cost Germany",
    "desc": "Alan Shearer, Jurgen Klopp, Pat Nevin and Darren Cann feel Germany were hard done by as a VAR call rules out a potential winning goal before they lose on penalties to Paraguay.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cm2dy359e8yo?at_medium=RSS&at_campaign=rss",
@@ -5728,15 +5737,6 @@
    "published": "2026-06-28T21:16:30Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Sackings, death threats and fury – World Cup exit leaves South Korean football in crisis",
-   "desc": "After crashing out of the World Cup, BBC Sport investigates the rise and fall of South Korean football.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy049pen9q5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T12:03:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb67/live/64eb3a70-73ad-11f1-9da1-db101e3ae6ed.jpg",
    "source": "BBC Sport"
   },
   {
