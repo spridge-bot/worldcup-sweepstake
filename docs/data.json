@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T18:46:21+00:00",
+ "generated_at": "2026-06-30T18:46:45+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -5131,7 +5131,7 @@
   {
    "player": "Erling Haaland",
    "team": "NOR",
-   "goals": 4,
+   "goals": 5,
    "assists": 0,
    "flag": "🇳🇴",
    "owner": "Glancy"
