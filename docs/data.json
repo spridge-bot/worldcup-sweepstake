@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T00:31:12+00:00",
+ "generated_at": "2026-06-30T00:36:18+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -5652,15 +5652,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'Big brother' Van Dijk key to Dutch World Cup dreams",
-   "desc": "France's World Cup winner Olivier Giroud explains why Netherlands defender Virgil van Dijk is still the main man for his national team.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-29T11:52:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c4a4/live/0cfd9da0-7225-11f1-a69f-29c4f147006f.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Africa's World Cup success leaves Asia looking for answers",
    "desc": "The 2026 World Cup has been an amazing story for African football - while Asia has been left to reflect on failure.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c2ey1pwkz3wo?at_medium=RSS&at_campaign=rss",
@@ -5685,6 +5676,15 @@
    "published": "2026-06-29T10:33:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/703e/live/b86d8070-715c-11f1-909a-0f95894a566f.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Big brother' Van Dijk key to Dutch World Cup dreams",
+   "desc": "France's World Cup winner Olivier Giroud explains why Netherlands defender Virgil van Dijk is still the main man for his national team.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-29T11:52:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c4a4/live/0cfd9da0-7225-11f1-a69f-29c4f147006f.jpg",
    "source": "BBC Sport"
   },
   {
