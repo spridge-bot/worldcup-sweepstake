@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T07:14:13+00:00",
+ "generated_at": "2026-06-30T07:19:20+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -3299,9 +3299,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 2.2,
-    "draw": 3.3,
-    "away": 3.55,
+    "home": 2.25,
+    "draw": 3.25,
+    "away": 3.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3451,7 +3451,7 @@
    "odds": {
     "home": 1.17,
     "draw": 7.5,
-    "away": 19.0,
+    "away": 18.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
