@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T02:08:47+00:00",
+ "generated_at": "2026-06-30T02:09:11+00:00",
  "mode": "live",
  "latest_day": "2026-06-29",
  "scoring": {
@@ -1230,9 +1230,9 @@
    "utc": "2026-06-30T01:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "46'",
-   "clock_sec": 2760.0,
-   "status_detail": "46'",
+   "clock": "47'",
+   "clock_sec": 2820.0,
+   "status_detail": "47'",
    "venue": "Estadio BBVA",
    "odds": {
     "home": 2.1,
