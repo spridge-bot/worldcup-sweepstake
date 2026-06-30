@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-30T10:08:37+00:00",
+ "generated_at": "2026-06-30T10:13:44+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -5760,21 +5760,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What each team needs to reach World Cup knockouts",
-   "desc": "With the final round of group fixtures nearing a conclusion the path to the World Cup final on 19 July is starting to take shape.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T02:13:34Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3c3f/live/d4adc1a0-7260-11f1-9f4b-39f3276a2716.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Derided by Leeds, snubbed by USA - but Marsch becoming Canada hero",
    "desc": "Derided by Leeds fans and snubbed by the USA, Jesse Marsch has faced difficult moments in his career - but appears to have found his home with Canada as they look to reach the World Cup last 16.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd95071lvvqo?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T11:28:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afb4/live/d2290d30-724d-11f1-b46f-17a6b71f4bc4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Extreme heat in the US could make World Cup matches 'unsafe' this week",
+   "desc": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches.",
+   "link": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T09:14:46Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f22/live/887bd5c0-72ff-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
