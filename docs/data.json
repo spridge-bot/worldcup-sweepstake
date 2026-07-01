@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T21:28:28+00:00",
+ "generated_at": "2026-07-01T21:28:52+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1255,9 +1255,9 @@
    "utc": "2026-07-01T20:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "65'",
-   "clock_sec": 3900.0,
-   "status_detail": "65'",
+   "clock": "66'",
+   "clock_sec": 3960.0,
+   "status_detail": "66'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.1,
@@ -5814,12 +5814,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Should England have had a penalty for challenge on Kane?",
-   "desc": "Should England have been awarded a penalty in their World Cup last-32 tie against DR Congo?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg53nlder6zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T17:48:24Z",
+   "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
+   "desc": "England came from behind to beat DR Congo and reach the last 16 of the World Cup, but did the momentum noticeably swing their way after the hydration breaks?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy8nrny19o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T21:23:18Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6344/live/fcaa12a0-756f-11f1-8eb5-8b4f46f6e33b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9819/live/a1b7d450-7587-11f1-92e5-efd489c4d444.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Has football fever taken hold in the US?",
+   "desc": "With the World Cup now three weeks old, BBC Sport's reporters in the US look at how their perceptions have changed.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyr0y37ndo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T11:57:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84db/live/2ba6f6d0-74ae-11f1-9c5b-41132a229f02.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5892,15 +5901,6 @@
    "published": "2026-07-01T12:30:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe6e/live/a314be00-681a-11f1-8546-8f19e4fe30f4.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T05:00:29Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
