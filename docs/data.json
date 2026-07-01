@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T01:08:17+00:00",
+ "generated_at": "2026-07-01T01:13:24+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -5742,6 +5742,15 @@
  ],
  "news": [
   {
+   "headline": "United, free and brilliant - can anyone stop France masterclass?",
+   "desc": "France boss Didier Deschamps urges caution despite watching his side dismantle Sweden to leave Les Bleus fans dreaming of winning the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T01:07:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc6d/live/b724c890-74e5-11f1-970c-3df9d79440a4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Defying logic - how Haaland could end up with 260 international goals",
    "desc": "Erling Haaland delivers on the biggest stage yet for Norway - but just how many goals could he end up with in international football?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvge3wkn1v7o?at_medium=RSS&at_campaign=rss",
@@ -5829,15 +5838,6 @@
    "published": "2026-06-30T07:47:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad92/live/662da110-7453-11f1-be8f-21fb848bc449.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Germany no longer first-class team ' - is this the end for Nagelsmann?",
-   "desc": "Germany make a shock last-32 exit against Paraguay, losing a World Cup penalty shootout for the first time to pile pressure on boss Julian Nagelsmann.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c992kzk00kzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T02:38:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c74/live/dcc7c3c0-7424-11f1-b7fc-e5e2b401ffce.jpg",
    "source": "BBC Sport"
   },
   {
