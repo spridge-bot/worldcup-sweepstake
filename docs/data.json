@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T22:56:10+00:00",
+ "generated_at": "2026-07-01T23:01:17+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5028,10 +5028,10 @@
     "owner": null
    },
    "away": {
-    "code": null,
-    "name": "Round of 32 10 Winner",
-    "flag": "",
-    "owner": null
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari"
    }
   },
   {
