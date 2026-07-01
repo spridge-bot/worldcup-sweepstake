@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T00:37:27+00:00",
+ "generated_at": "2026-07-01T00:43:03+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -5156,29 +5156,6 @@
    "away": {
     "code": null,
     "name": "Quarterfinal 4 Winner",
-    "flag": "",
-    "owner": null
-   }
-  },
-  {
-   "id": 760517,
-   "utc": "2026-07-19T19:00:00Z",
-   "stage": "FINAL",
-   "status": "TIMED",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
-   "venue": "MetLife Stadium",
-   "home": {
-    "code": null,
-    "name": "Semifinal 1 Winner",
-    "flag": "",
-    "owner": null
-   },
-   "away": {
-    "code": null,
-    "name": "Semifinal 2 Winner",
     "flag": "",
     "owner": null
    }
