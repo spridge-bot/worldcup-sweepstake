@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T18:21:48+00:00",
+ "generated_at": "2026-07-01T18:26:55+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5783,6 +5783,15 @@
  ],
  "news": [
   {
+   "headline": "England into last 16 - what is their path to the final?",
+   "desc": "BBC Sport takes a look at what England will need to do to reach the final after progressing the last 16",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T18:17:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fbaf/live/d94933c0-7576-11f1-afe7-df77d8cf5f2d.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Should England have had a penalty for challenge on Kane?",
    "desc": "Should England have been awarded a penalty in their World Cup last-32 tie against DR Congo?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg53nlder6zo?at_medium=RSS&at_campaign=rss",
@@ -5807,15 +5816,6 @@
    "published": "2026-07-01T09:10:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/25e5/live/2df5cf30-74b6-11f1-9c5b-41132a229f02.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Pick your England XI to face DR Congo at World Cup",
-   "desc": "Who should start for England against DR Congo in their last-32 tie? It's time to put yourself in Thomas Tuchel's shoes.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwy060e312no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T12:20:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4b5f/live/00dbee90-7546-11f1-9499-0d1c901927e6.jpg",
    "source": "BBC Sport"
   },
   {
