@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T04:02:57+00:00",
+ "generated_at": "2026-07-01T04:08:03+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -4929,10 +4929,10 @@
    "winner": null,
    "venue": "Estadio Banorte",
    "home": {
-    "code": null,
-    "name": "Round of 32 7 Winner",
-    "flag": "",
-    "owner": null
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Dipen"
    },
    "away": {
     "code": null,
