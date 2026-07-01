@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T22:00:07+00:00",
+ "generated_at": "2026-07-01T22:01:00+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1257,7 +1257,7 @@
    "group": null,
    "clock": "90'+8'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
+   "status_detail": "ET",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.1,
