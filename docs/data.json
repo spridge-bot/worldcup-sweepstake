@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T22:06:44+00:00",
+ "generated_at": "2026-07-01T22:07:09+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1255,9 +1255,9 @@
    "utc": "2026-07-01T20:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "91'",
-   "clock_sec": 5460.0,
-   "status_detail": "91'",
+   "clock": "92'",
+   "clock_sec": 5520.0,
+   "status_detail": "92'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.1,
@@ -3600,8 +3600,8 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 1.95,
-    "draw": 3.6,
+    "home": 1.91,
+    "draw": 3.7,
     "away": 4.0,
     "over_under": 2.5,
     "provider": "DraftKings"
