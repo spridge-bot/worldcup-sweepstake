@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T19:33:27+00:00",
+ "generated_at": "2026-07-01T19:38:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -3343,9 +3343,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 2.0,
-    "draw": 3.4,
-    "away": 4.0,
+    "home": 1.95,
+    "draw": 3.45,
+    "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5834,21 +5834,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "United, free and brilliant - can anyone stop France masterclass?",
-   "desc": "France boss Didier Deschamps urges caution despite watching his side dismantle Sweden to leave Les Bleus fans dreaming of winning the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T01:07:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc6d/live/b724c890-74e5-11f1-970c-3df9d79440a4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Concern over rise in online racist abuse at World Cup",
    "desc": "The Word Cup has suffered a 'significant increase' in the most serious examples of racist abuse online, Fifa's social media protection service (SMPS) has found.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1dy61921kko?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-01T15:16:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4075/live/85167360-755f-11f1-bd47-e1ebd62de3b7.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "United, free and brilliant - can anyone stop France masterclass?",
+   "desc": "France boss Didier Deschamps urges caution despite watching his side dismantle Sweden to leave Les Bleus fans dreaming of winning the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T01:07:39Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc6d/live/b724c890-74e5-11f1-970c-3df9d79440a4.jpg",
    "source": "BBC Sport"
   },
   {
