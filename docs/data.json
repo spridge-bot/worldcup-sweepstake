@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T17:37:20+00:00",
+ "generated_at": "2026-07-01T17:37:45+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1250,9 +1250,9 @@
    "utc": "2026-07-01T16:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "73'",
-   "clock_sec": 4380.0,
-   "status_detail": "73'",
+   "clock": "74'",
+   "clock_sec": 4440.0,
+   "status_detail": "74'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.29,
