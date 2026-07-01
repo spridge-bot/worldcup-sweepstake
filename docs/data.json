@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T22:15:44+00:00",
+ "generated_at": "2026-07-01T22:16:09+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1255,9 +1255,9 @@
    "utc": "2026-07-01T20:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "100'",
-   "clock_sec": 6000.0,
-   "status_detail": "100'",
+   "clock": "101'",
+   "clock_sec": 6060.0,
+   "status_detail": "101'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.1,
@@ -5814,6 +5814,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "No time for England to adapt to altitude - Tuchel",
+   "desc": "Mexico will have a \"huge advantage\" against England in the World Cup last-16 tie because of the altitude of the Azteca Stadium in Mexico City, says head coach Thomas Tuchel.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd95g9y8k24o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T22:11:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2496/live/92ee8fb0-7599-11f1-a627-714adb4eed6e.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
    "desc": "England came from behind to beat DR Congo and reach the last 16 of the World Cup, but did the momentum noticeably swing their way after the hydration breaks?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy8nrny19o?at_medium=RSS&at_campaign=rss",
@@ -5841,21 +5850,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Four die in Mexico City World Cup celebrations",
-   "desc": "More than one million people took to the streets of Mexico's capital on Tuesday to mark the country's win over Ecuador.",
-   "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T20:15:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "United, free and brilliant - can anyone stop France masterclass?",
    "desc": "France boss Didier Deschamps urges caution despite watching his side dismantle Sweden to leave Les Bleus fans dreaming of winning the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-01T01:07:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc6d/live/b724c890-74e5-11f1-970c-3df9d79440a4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Four die in Mexico City World Cup celebrations",
+   "desc": "More than one million people took to the streets of Mexico's capital on Tuesday to mark the country's win over Ecuador.",
+   "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T20:15:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5883,15 +5892,6 @@
    "published": "2026-07-01T05:17:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f1dc/live/dc263ea0-750b-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Defying logic - how Haaland could end up with 260 international goals",
-   "desc": "Erling Haaland delivers on the biggest stage yet for Norway - but just how many goals could he end up with in international football?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvge3wkn1v7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T21:18:45Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5089/live/7f3e5d60-74cc-11f1-a83d-c354d9be0694.jpg",
    "source": "BBC Sport"
   },
   {
