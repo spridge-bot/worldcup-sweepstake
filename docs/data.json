@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T22:31:05+00:00",
+ "generated_at": "2026-07-01T22:31:30+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1255,9 +1255,9 @@
    "utc": "2026-07-01T20:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "112'",
-   "clock_sec": 6720.0,
-   "status_detail": "112'",
+   "clock": "113'",
+   "clock_sec": 6780.0,
+   "status_detail": "113'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.1,
@@ -5801,7 +5801,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgd12vj79qo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-01T20:41:03Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2201/live/da89c0b0-758f-11f1-a627-714adb4eed6e.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a5f9/live/7090c5c0-759c-11f1-a4da-6bfef02f3f53.jpg",
    "source": "BBC Sport"
   },
   {
