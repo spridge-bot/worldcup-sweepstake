@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T14:06:53+00:00",
+ "generated_at": "2026-07-01T14:12:00+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5798,21 +5798,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Has football fever taken hold in the US?",
-   "desc": "With the World Cup now three weeks old, BBC Sport's reporters in the US look at how their perceptions have changed.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyr0y37ndo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T11:57:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84db/live/2ba6f6d0-74ae-11f1-9c5b-41132a229f02.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Mexico rampant at fortress Azteca - and England could be next",
    "desc": "Mexico have won all four games and not conceded a goal at this World Cup. Their last-16 opponents must also contend with playing at the Azteca Stadium.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cy9rg5n3380o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-01T05:38:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b9b5/live/db53d370-750b-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Has football fever taken hold in the US?",
+   "desc": "With the World Cup now three weeks old, BBC Sport's reporters in the US look at how their perceptions have changed.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyr0y37ndo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T11:57:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84db/live/2ba6f6d0-74ae-11f1-9c5b-41132a229f02.jpg",
    "source": "BBC Sport"
   },
   {
