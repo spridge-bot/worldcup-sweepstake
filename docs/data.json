@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T06:05:37+00:00",
+ "generated_at": "2026-07-01T06:10:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5834,15 +5834,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Pick Mainoo over Anderson against DR Congo - Rooney",
-   "desc": "Former England captain Wayne Rooney says he would start Manchester United midfielder Kobbie Mainoo instead of Elliot Anderson in Wednesday's World Cup last-32 tie with DR Congo.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T08:06:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0be4/live/d59dc6d0-73e8-11f1-bb9e-33cb2da512b5.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5858,6 +5849,15 @@
    "published": "2026-06-30T11:44:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Pick Mainoo over Anderson against DR Congo - Rooney",
+   "desc": "Former England captain Wayne Rooney says he would start Manchester United midfielder Kobbie Mainoo instead of Elliot Anderson in Wednesday's World Cup last-32 tie with DR Congo.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T08:06:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0be4/live/d59dc6d0-73e8-11f1-bb9e-33cb2da512b5.jpg",
    "source": "BBC Sport"
   }
  ]
