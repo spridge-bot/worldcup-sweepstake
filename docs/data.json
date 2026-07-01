@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T20:16:21+00:00",
+ "generated_at": "2026-07-01T20:16:52+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1255,9 +1255,9 @@
    "utc": "2026-07-01T20:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "15'",
-   "clock_sec": 900.0,
-   "status_detail": "15'",
+   "clock": "16'",
+   "clock_sec": 960.0,
+   "status_detail": "16'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.1,
@@ -5832,10 +5832,10 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Three die in Mexico City World Cup celebrations",
-   "desc": "More than one million people took to the streets of Mexico City on Tuesday to mark the country's win over Ecuador.",
+   "headline": "Four die in Mexico City World Cup celebrations",
+   "desc": "More than one million people took to the streets of Mexico's capital on Tuesday to mark the country's win over Ecuador.",
    "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T11:01:12Z",
+   "published": "2026-07-01T20:15:59Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
