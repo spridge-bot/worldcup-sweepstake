@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T02:01:49+00:00",
+ "generated_at": "2026-07-01T02:02:05+00:00",
  "mode": "live",
  "latest_day": "2026-06-30",
  "scoring": {
@@ -1239,7 +1239,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760491,
+   "utc": "2026-07-01T02:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Estadio Banorte",
+   "odds": {
+    "home": 2.15,
+    "draw": 3.1,
+    "away": 3.95,
+    "over_under": 1.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760492,
@@ -3266,31 +3298,6 @@
  ],
  "upcoming": [
   {
-   "id": 760491,
-   "utc": "2026-07-01T02:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 2.15,
-    "draw": 3.1,
-    "away": 3.95,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen",
-    "form": null
-   },
-   "away": {
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "owner": "Brando",
-    "form": null
-   }
-  },
-  {
    "id": 760495,
    "utc": "2026-07-01T16:00:00Z",
    "stage": "Round of 32",
@@ -4612,7 +4619,7 @@
    "id": 760491,
    "utc": "2026-07-01T02:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
