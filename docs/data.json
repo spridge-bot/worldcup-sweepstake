@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-01T04:02:32+00:00",
+ "generated_at": "2026-07-01T04:02:57+00:00",
  "mode": "live",
- "latest_day": "2026-06-30",
+ "latest_day": "2026-07-01",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -26,8 +26,8 @@
     "CAN",
     "RSA"
    ],
-   "total": 16,
-   "today": 0,
+   "total": 18,
+   "today": 2,
    "rank": 1,
    "movement": 0
   },
@@ -40,9 +40,9 @@
     "JOR"
    ],
    "total": 13,
-   "today": 2,
+   "today": 0,
    "rank": 2,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "George",
@@ -55,7 +55,7 @@
    "total": 12,
    "today": 0,
    "rank": 3,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Jen",
@@ -68,7 +68,7 @@
    "total": 11,
    "today": 0,
    "rank": 4,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -79,9 +79,9 @@
     "NZL"
    ],
    "total": 11,
-   "today": 2,
+   "today": 0,
    "rank": 4,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Emily",
@@ -94,7 +94,7 @@
    "total": 10,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -105,9 +105,9 @@
     "BIH"
    ],
    "total": 10,
-   "today": 2,
+   "today": 0,
    "rank": 6,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Brando",
@@ -120,7 +120,7 @@
    "total": 9,
    "today": 0,
    "rank": 8,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -133,7 +133,7 @@
    "total": 9,
    "today": 0,
    "rank": 8,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -475,14 +475,19 @@
    "fifa_rank": 14,
    "owner": "Dipen",
    "status": "alive",
-   "played": 3,
-   "won": 3,
+   "played": 4,
+   "won": 4,
    "drawn": 0,
    "lost": 0,
-   "gf": 6,
+   "gf": 8,
    "ga": 0,
-   "total": 5,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-07-01",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-25",
      "desc": "1st in Group A",
@@ -652,13 +657,13 @@
    "tier": 2,
    "fifa_rank": 23,
    "owner": "Brando",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 2,
-   "ga": 2,
+   "ga": 4,
    "total": 1,
    "events": [
     {
@@ -1239,40 +1244,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760491,
+   "date": "2026-07-01",
    "utc": "2026-07-01T02:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+9'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+9'",
-   "venue": "Estadio Banorte",
+   "note": "",
+   "home": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "tier": 1,
+    "goals": 2,
+    "points": 2
+   },
+   "away": {
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "tier": 2,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 2.15,
     "draw": 3.1,
     "away": 3.95,
     "over_under": 1.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen",
-    "goals": 2
-   },
-   "away": {
-    "code": "ECU",
-    "name": "Ecuador",
-    "flag": "🇪🇨",
-    "owner": "Brando",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760492,
    "date": "2026-06-30",
@@ -4619,11 +4623,11 @@
    "id": 760491,
    "utc": "2026-07-01T02:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "MEX",
    "venue": "Estadio Banorte",
    "home": {
     "code": "MEX",
@@ -5342,6 +5346,15 @@
    "pts": 12
   },
   {
+   "code": "ECU",
+   "name": "Ecuador",
+   "flag": "🇪🇨",
+   "owner": "Brando",
+   "yellow": 8,
+   "red": 1,
+   "pts": 12
+  },
+  {
    "code": "BIH",
    "name": "Bosnia and Herzegovina",
    "flag": "🇧🇦",
@@ -5463,15 +5476,6 @@
    "name": "DR Congo",
    "flag": "🇨🇩",
    "owner": "Willo",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "ECU",
-   "name": "Ecuador",
-   "flag": "🇪🇨",
-   "owner": "Brando",
    "yellow": 5,
    "red": 0,
    "pts": 5
