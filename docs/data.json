@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T21:48:40+00:00",
+ "generated_at": "2026-07-01T21:49:05+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1271,7 +1271,7 @@
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "SEN",
