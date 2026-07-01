@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T20:59:52+00:00",
+ "generated_at": "2026-07-01T21:00:17+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5801,7 +5801,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgd12vj79qo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-01T20:41:03Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7768/live/26078a70-7583-11f1-b1b0-0d044d289b5c.jpg",
+   "image": null,
    "source": "BBC Sport"
   },
   {
@@ -5829,15 +5829,6 @@
    "published": "2026-07-01T18:00:16Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/50d5/live/ba14fdb0-7574-11f1-8cb9-93182970858a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Time for Tuchel to show hand as England enter World Cup danger zone",
-   "desc": "England coach Thomas Tuchel must now play his strongest hand as he enters the danger zone in a World Cup of shocks, says chief football writer Phil McNulty.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c17y8r90082o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T09:10:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/25e5/live/2df5cf30-74b6-11f1-9c5b-41132a229f02.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5901,6 +5892,15 @@
    "published": "2026-07-01T12:30:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe6e/live/a314be00-681a-11f1-8546-8f19e4fe30f4.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Tuchel will stick to Southgate's penalty plan",
+   "desc": "England manager Thomas Tuchel had revealed that his team will follow his predecessor Sir Gareth Southgate's penalty shootout blueprint at the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz9lq5y9pj2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T01:49:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ebbd/live/c4762920-74a5-11f1-9c5b-41132a229f02.jpg",
    "source": "BBC Sport"
   }
  ]
