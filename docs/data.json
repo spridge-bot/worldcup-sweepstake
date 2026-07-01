@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T18:00:57+00:00",
+ "generated_at": "2026-07-01T18:01:21+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -58,6 +58,19 @@
    "movement": 0
   },
   {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 11,
+   "today": 2,
+   "rank": 4,
+   "movement": 4
+  },
+  {
    "name": "Jen",
    "teams": [
     "ESP",
@@ -93,8 +106,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 6,
-   "movement": 0
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -106,21 +119,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 6,
-   "movement": 0
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 9,
-   "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -132,8 +132,8 @@
    ],
    "total": 9,
    "today": 0,
-   "rank": 8,
-   "movement": 0
+   "rank": 9,
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -258,14 +258,19 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 4,
+   "won": 3,
    "drawn": 1,
    "lost": 0,
-   "gf": 6,
-   "ga": 2,
-   "total": 5,
+   "gf": 8,
+   "ga": 3,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-07-01",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-27",
      "desc": "1st in Group L",
@@ -982,13 +987,13 @@
    "tier": 3,
    "fifa_rank": 45,
    "owner": "Willo",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
-   "gf": 4,
-   "ga": 3,
+   "lost": 2,
+   "gf": 5,
+   "ga": 5,
    "total": 1,
    "events": [
     {
@@ -1244,40 +1249,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760495,
+   "date": "2026-07-01",
    "utc": "2026-07-01T16:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "Mercedes-Benz Stadium",
+   "note": "",
+   "home": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 2,
+    "points": 2
+   },
+   "away": {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "tier": 3,
+    "goals": 1,
+    "points": 0
+   },
    "odds": {
     "home": 1.29,
     "draw": 5.5,
     "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 2
-   },
-   "away": {
-    "code": "COD",
-    "name": "DR Congo",
-    "flag": "🇨🇩",
-    "owner": "Willo",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760491,
    "date": "2026-07-01",
@@ -4653,11 +4657,11 @@
    "id": 760495,
    "utc": "2026-07-01T16:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "ENG",
    "venue": "Mercedes-Benz Stadium",
    "home": {
     "code": "ENG",
@@ -5443,6 +5447,15 @@
    "pts": 6
   },
   {
+   "code": "COD",
+   "name": "DR Congo",
+   "flag": "🇨🇩",
+   "owner": "Willo",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
    "code": "EGY",
    "name": "Egypt",
    "flag": "🇪🇬",
@@ -5474,15 +5487,6 @@
    "name": "Australia",
    "flag": "🇦🇺",
    "owner": "Glancy",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "COD",
-   "name": "DR Congo",
-   "flag": "🇨🇩",
-   "owner": "Willo",
    "yellow": 5,
    "red": 0,
    "pts": 5
@@ -5623,6 +5627,15 @@
    "pts": 4
   },
   {
+   "code": "ENG",
+   "name": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "GHA",
    "name": "Ghana",
    "flag": "🇬🇭",
@@ -5672,15 +5685,6 @@
    "name": "Croatia",
    "flag": "🇭🇷",
    "owner": "Dubs",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "ENG",
-   "name": "England",
-   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "owner": "Brando",
    "yellow": 2,
    "red": 0,
    "pts": 2
