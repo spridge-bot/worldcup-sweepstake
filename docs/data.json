@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T05:45:11+00:00",
+ "generated_at": "2026-07-01T05:50:17+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5843,21 +5843,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The Paraguay hero who sold his kit when his son was born",
-   "desc": "Orlando Gill has become Paraguay's World Cup hero but was in football obscurity 18 months ago and had to sell his kit to support his family after the premature birth of his son.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c75yelwge25o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T11:28:48Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d132/live/e0569df0-7473-11f1-b8da-6d87dfdc4508.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-06-28T05:00:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Ranking 10 stars who could be at their last World Cup",
+   "desc": "A number of the world's best players are likely playing in their last World Cup. Here's how I think they rank.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c04yvw3w1w6o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T11:44:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
    "source": "BBC Sport"
   }
  ]
