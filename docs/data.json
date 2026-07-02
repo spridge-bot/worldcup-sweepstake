@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T00:55:29+00:00",
+ "generated_at": "2026-07-02T00:55:53+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1262,7 +1262,7 @@
    "group": null,
    "clock": "45'+10'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+10'",
+   "status_detail": "HT",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.39,
