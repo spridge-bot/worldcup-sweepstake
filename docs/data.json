@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T01:44:08+00:00",
+ "generated_at": "2026-07-02T01:44:32+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1260,9 +1260,9 @@
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "77'",
-   "clock_sec": 4620.0,
-   "status_detail": "77'",
+   "clock": "78'",
+   "clock_sec": 4680.0,
+   "status_detail": "78'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.39,
