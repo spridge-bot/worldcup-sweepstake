@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T00:01:20+00:00",
+ "generated_at": "2026-07-02T00:01:36+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1254,7 +1254,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760494,
+   "utc": "2026-07-02T00:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Levi's Stadium",
+   "odds": {
+    "home": 1.39,
+    "draw": 4.9,
+    "away": 8.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo",
+    "goals": 0
+   },
+   "away": {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "owner": "Spridge",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760493,
@@ -3374,31 +3406,6 @@
  ],
  "upcoming": [
   {
-   "id": 760494,
-   "utc": "2026-07-02T00:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.39,
-    "draw": 4.9,
-    "away": 8.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "form": null
-   },
-   "away": {
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "owner": "Spridge",
-    "form": null
-   }
-  },
-  {
    "id": 760497,
    "utc": "2026-07-02T19:00:00Z",
    "stage": "Round of 32",
@@ -4739,7 +4746,7 @@
    "id": 760494,
    "utc": "2026-07-02T00:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
