@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T12:47:26+00:00",
+ "generated_at": "2026-07-02T12:52:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -3415,9 +3415,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.31,
-    "draw": 5.25,
-    "away": 10.5,
+    "home": 1.29,
+    "draw": 5.5,
+    "away": 11.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5872,6 +5872,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "The World Cup's free agents looking for their next move",
+   "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T12:44:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "USA march on but will Balogun red card prove costly?",
    "desc": "Mauricio Pochettino's USA side set up a World Cup last-16 meeting with Belgium, but how costly will forward Folarin Balogun's red card prove?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgjx07ql6v0o?at_medium=RSS&at_campaign=rss",
@@ -5923,15 +5932,6 @@
    "published": "2026-07-01T20:41:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/43ec/live/5b4fe1a0-75dd-11f1-b2ef-f150187f763a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England into last 16 - what is their path to the final?",
-   "desc": "BBC Sport takes a look at what England will need to do to reach the final after progressing the last 16",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T18:17:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fbaf/live/d94933c0-7576-11f1-afe7-df77d8cf5f2d.jpg",
    "source": "BBC Sport"
   },
   {
