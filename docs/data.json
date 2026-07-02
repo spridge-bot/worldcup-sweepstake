@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T23:00:48+00:00",
+ "generated_at": "2026-07-02T23:01:04+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1264,7 +1264,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760496,
+   "utc": "2026-07-02T23:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BMO Field",
+   "odds": {
+    "home": 1.8,
+    "draw": 3.6,
+    "away": 4.8,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "owner": "Dubs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760497,
@@ -3446,31 +3478,6 @@
  ],
  "upcoming": [
   {
-   "id": 760496,
-   "utc": "2026-07-02T23:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.69,
-    "draw": 3.7,
-    "away": 5.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "DWDWW"
-   },
-   "away": {
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "form": "WWLWL"
-   }
-  },
-  {
    "id": 760498,
    "utc": "2026-07-03T03:00:00Z",
    "stage": "Round of 32",
@@ -4832,7 +4839,7 @@
    "id": 760496,
    "utc": "2026-07-02T23:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
