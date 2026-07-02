@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T23:09:14+00:00",
+ "generated_at": "2026-07-02T23:09:38+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1270,9 +1270,9 @@
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "9'",
-   "clock_sec": 540.0,
-   "status_detail": "9'",
+   "clock": "10'",
+   "clock_sec": 600.0,
+   "status_detail": "10'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.8,
@@ -5854,7 +5854,7 @@
  ],
  "news": [
   {
-   "headline": "From 'invisible man' to Spain's 'most decisive player'",
+   "headline": "The one club man who is Spain's under-the-radar hero",
    "desc": "Mikel Oyarzabal is perhaps not the biggest name in Spain's World Cup squad, but the one who has so far shone brightest.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgd0jz1xq7o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-02T22:49:15Z",
