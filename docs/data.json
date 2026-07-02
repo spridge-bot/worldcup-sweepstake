@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T19:01:20+00:00",
+ "generated_at": "2026-07-02T19:01:37+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1259,7 +1259,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760497,
+   "utc": "2026-07-02T19:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "SoFi Stadium",
+   "odds": {
+    "home": 1.33,
+    "draw": 5.25,
+    "away": 10.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "goals": 0
+   },
+   "away": {
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "owner": "George",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760494,
@@ -3410,31 +3442,6 @@
  ],
  "upcoming": [
   {
-   "id": 760497,
-   "utc": "2026-07-02T19:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.35,
-    "draw": 5.0,
-    "away": 9.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WWDWD"
-   },
-   "away": {
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "owner": "George",
-    "form": "DLWWW"
-   }
-  },
-  {
    "id": 760496,
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
@@ -4798,7 +4805,7 @@
    "id": 760497,
    "utc": "2026-07-02T19:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
