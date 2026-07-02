@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T23:08:25+00:00",
+ "generated_at": "2026-07-02T23:08:49+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1270,9 +1270,9 @@
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "8'",
-   "clock_sec": 480.0,
-   "status_detail": "8'",
+   "clock": "9'",
+   "clock_sec": 540.0,
+   "status_detail": "9'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.8,
@@ -5890,21 +5890,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England were 15 minutes from humiliation - the issues Tuchel must solve",
-   "desc": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czx59l1knv0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T10:37:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2e5b/live/31d97ee0-75af-11f1-ad58-1b9b2309c3b3.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The World Cup's free agents looking for their next move",
    "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-02T12:44:02Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England were 15 minutes from humiliation - the issues Tuchel must solve",
+   "desc": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czx59l1knv0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T10:37:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2e5b/live/31d97ee0-75af-11f1-ad58-1b9b2309c3b3.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5953,12 +5953,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "16.3m tune in to watch England beat DR Congo",
-   "desc": "England's dramatic win over DR Congo in the World Cup last 16 attracts an audience of 16.3m on the BBC.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvg40883026o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T12:15:18Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9d99/live/e7b45390-75f8-11f1-8c3f-e37c76e39331.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
