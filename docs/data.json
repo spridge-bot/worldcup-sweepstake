@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T01:48:10+00:00",
+ "generated_at": "2026-07-02T01:48:34+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1260,9 +1260,9 @@
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "81'",
-   "clock_sec": 4860.0,
-   "status_detail": "81'",
+   "clock": "82'",
+   "clock_sec": 4920.0,
+   "status_detail": "82'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.39,
@@ -1276,7 +1276,7 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "BIH",
