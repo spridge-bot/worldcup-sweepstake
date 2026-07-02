@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T00:09:42+00:00",
+ "generated_at": "2026-07-02T00:10:08+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1260,9 +1260,9 @@
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "9'",
-   "clock_sec": 540.0,
-   "status_detail": "9'",
+   "clock": "10'",
+   "clock_sec": 600.0,
+   "status_detail": "10'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.39,
@@ -5870,6 +5870,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England sneak through - but who had a nightmare start? Player ratings",
+   "desc": "BBC Sport England reporter Alex Howell rates the players after the World Cup comeback win over DR Congo - plus have your say.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg5x35zx04o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-01T18:00:16Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/50d5/live/ba14fdb0-7574-11f1-8cb9-93182970858a.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "United, free and brilliant - can anyone stop France masterclass?",
    "desc": "France boss Didier Deschamps urges caution despite watching his side dismantle Sweden to leave Les Bleus fans dreaming of winning the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss",
@@ -5903,15 +5912,6 @@
    "published": "2026-07-01T17:48:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6344/live/fcaa12a0-756f-11f1-8eb5-8b4f46f6e33b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: Name every team England have played in World Cup knockouts",
-   "desc": "England and Thomas Tuchel will want to match the achievements of the nation's famous side that lifted the World Cup trophy in 1966. Can you name every side they have ever faced in the knockouts?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyp4eprn22o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T21:37:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fe6e/live/a314be00-681a-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
   }
  ]
