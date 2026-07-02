@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T01:29:57+00:00",
+ "generated_at": "2026-07-02T01:30:21+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -5816,6 +5816,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Latest ever winner, comeback and controversy - Senegal's remarkable exit",
+   "desc": "Late drama, controversy, history and heartbreak - the World Cup last-32 tie between Belgium and Senegal had everything.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg8e2ezvzyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T01:28:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/99ca/live/ab2d91a0-75a5-11f1-8672-df1a6610885c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England into last 16 - what is their path to the final?",
    "desc": "BBC Sport takes a look at what England will need to do to reach the final after progressing the last 16",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
@@ -5903,15 +5912,6 @@
    "published": "2026-07-01T15:16:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4075/live/85167360-755f-11f1-bd47-e1ebd62de3b7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Should England have had a penalty for challenge on Kane?",
-   "desc": "Should England have been awarded a penalty in their World Cup last-32 tie against DR Congo?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg53nlder6zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T17:48:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6344/live/fcaa12a0-756f-11f1-8eb5-8b4f46f6e33b.jpg",
    "source": "BBC Sport"
   }
  ]
