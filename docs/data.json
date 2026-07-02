@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T23:11:41+00:00",
+ "generated_at": "2026-07-02T23:12:06+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1270,9 +1270,9 @@
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "11'",
-   "clock_sec": 660.0,
-   "status_detail": "11'",
+   "clock": "12'",
+   "clock_sec": 720.0,
+   "status_detail": "12'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.8,
