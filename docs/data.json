@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T08:21:23+00:00",
+ "generated_at": "2026-07-02T08:26:30+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -5863,6 +5863,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'You can't catch your breath' - how will Azteca altitude impact England?",
+   "desc": "BBC Sport explores how playing football at high altitude affects the body and mind as England prepare to visit Mexico and their fortress Azteca Stadium.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy0v05qyro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T08:21:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0010/live/08736230-73f4-11f1-bb7f-e5226e63ffb3.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England into last 16 - what is their path to the final?",
    "desc": "BBC Sport takes a look at what England will need to do to reach the final after progressing the last 16",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
@@ -5932,15 +5941,6 @@
    "published": "2026-07-02T07:02:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "United, free and brilliant - can anyone stop France masterclass?",
-   "desc": "France boss Didier Deschamps urges caution despite watching his side dismantle Sweden to leave Les Bleus fans dreaming of winning the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T01:07:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc6d/live/b724c890-74e5-11f1-970c-3df9d79440a4.jpg",
    "source": "BBC Sport"
   }
  ]
