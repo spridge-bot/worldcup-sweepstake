@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T00:45:21+00:00",
+ "generated_at": "2026-07-02T00:45:46+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -1260,9 +1260,9 @@
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "45'",
+   "clock": "45'+1'",
    "clock_sec": 2700.0,
-   "status_detail": "45'",
+   "status_detail": "45'+1'",
    "venue": "Levi's Stadium",
    "odds": {
     "home": 1.39,
@@ -1276,7 +1276,7 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "BIH",
@@ -5339,6 +5339,14 @@
    "owner": "Willo"
   },
   {
+   "player": "Folarin Balogun",
+   "team": "USA",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇺🇸",
+   "owner": "Willo"
+  },
+  {
    "player": "Ismael Saibari",
    "team": "MAR",
    "goals": 3,
@@ -5360,14 +5368,6 @@
    "goals": 3,
    "assists": 0,
    "flag": "🇨🇦",
-   "owner": "Dipen"
-  },
-  {
-   "player": "Julián Quiñones",
-   "team": "MEX",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇲🇽",
    "owner": "Dipen"
   }
  ],
