@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T02:07:16+00:00",
+ "generated_at": "2026-07-02T02:12:23+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -3658,6 +3658,25 @@
     "owner": "Brando",
     "form": "WWDWW"
    }
+  },
+  {
+   "id": 760507,
+   "utc": "2026-07-07T00:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo",
+    "form": "WLWWL"
+   },
+   "away": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
+    "form": "WWDDW"
+   }
   }
  ],
  "groups": [
@@ -5033,10 +5052,10 @@
    "winner": null,
    "venue": "Lumen Field",
    "home": {
-    "code": null,
-    "name": "Round of 32 9 Winner",
-    "flag": "",
-    "owner": null
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "owner": "Willo"
    },
    "away": {
     "code": "BEL",
