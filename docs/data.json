@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T00:00:00+00:00",
+ "generated_at": "2026-07-02T00:00:16+00:00",
  "mode": "live",
  "latest_day": "2026-07-01",
  "scoring": {
@@ -3379,8 +3379,8 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.37,
-    "draw": 5.0,
+    "home": 1.39,
+    "draw": 4.9,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3389,13 +3389,13 @@
     "name": "USA",
     "flag": "🇺🇸",
     "owner": "Willo",
-    "form": "LWWLW"
+    "form": null
    },
    "away": {
     "name": "Bosnia and Herzegovina",
     "flag": "🇧🇦",
     "owner": "Spridge",
-    "form": "WLDDD"
+    "form": null
    }
   },
   {
