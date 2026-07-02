@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T21:19:49+00:00",
+ "generated_at": "2026-07-02T21:24:56+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -3451,8 +3451,8 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.67,
-    "draw": 3.8,
+    "home": 1.69,
+    "draw": 3.7,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5865,6 +5865,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "The World Cup's free agents looking for their next move",
+   "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T12:44:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Gueye quits Senegal until coaching staff replaced",
    "desc": "Senegal midfielder Pape Gueye says he will be \"taking a break\" from playing for his country while the current management is in charge.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqj18d7q2vwo?at_medium=RSS&at_campaign=rss",
@@ -5892,12 +5901,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The World Cup's free agents looking for their next move",
-   "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T12:44:02Z",
+   "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
+   "desc": "The prospect of facing World Cup record goalscorer Lionel Messi in a knockout game would strike fear into most defenders, but not Roberto Lopes, according to the Cape Verde defender's mother.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c07yjj5j299o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T07:02:26Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5943,15 +5952,6 @@
    "published": "2026-07-02T01:28:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/99ca/live/ab2d91a0-75a5-11f1-8672-df1a6610885c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-28T05:00:29Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
