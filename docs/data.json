@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T11:05:06+00:00",
+ "generated_at": "2026-07-02T11:10:12+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -5845,15 +5845,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England fans face resale prices of at least £2.6k for Mexico tickets",
-   "desc": "England fans hoping to attend the World Cup last-16 showdown with Mexico face paying a minimum of £2,600 for one ticket on Fifa's resale site.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdxdg73n911o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T10:18:29Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/855d/live/b9fbc3d0-7589-11f1-92e5-efd489c4d444.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Gueye quits Senegal until coaching staff replaced",
    "desc": "Senegal midfielder Pape Gueye says he will be \"taking a break\" from playing for his country while the current management is in charge.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqj18d7q2vwo?at_medium=RSS&at_campaign=rss",
@@ -5869,6 +5860,15 @@
    "published": "2026-07-02T03:53:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/16d4/live/a81240e0-75f2-11f1-9510-1546718f668b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England fans face resale prices of at least £2.6k for Mexico tickets",
+   "desc": "England fans hoping to attend the World Cup last-16 showdown with Mexico face paying a minimum of £2,600 for one ticket on Fifa's resale site.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cdxdg73n911o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T10:18:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/855d/live/b9fbc3d0-7589-11f1-92e5-efd489c4d444.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5935,12 +5935,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Has football fever taken hold in the US?",
-   "desc": "With the World Cup now three weeks old, BBC Sport's reporters in the US look at how their perceptions have changed.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyr0y37ndo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-01T11:57:37Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-28T05:00:29Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/84db/live/2ba6f6d0-74ae-11f1-9c5b-41132a229f02.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
