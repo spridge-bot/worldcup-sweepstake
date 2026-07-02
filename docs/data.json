@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-02T02:06:52+00:00",
+ "generated_at": "2026-07-02T02:07:16+00:00",
  "mode": "live",
- "latest_day": "2026-07-01",
+ "latest_day": "2026-07-02",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,7 +27,7 @@
     "RSA"
    ],
    "total": 18,
-   "today": 2,
+   "today": 0,
    "rank": 1,
    "movement": 0
   },
@@ -45,6 +45,19 @@
    "movement": 0
   },
   {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 13,
+   "today": 2,
+   "rank": 2,
+   "movement": 2
+  },
+  {
    "name": "George",
    "teams": [
     "BRA",
@@ -54,8 +67,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 3,
-   "movement": 0
+   "rank": 4,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -66,9 +79,9 @@
     "KSA"
    ],
    "total": 11,
-   "today": 2,
-   "rank": 4,
-   "movement": 4
+   "today": 0,
+   "rank": 5,
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -80,21 +93,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 4,
-   "movement": 0
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 11,
-   "today": 0,
-   "rank": 4,
-   "movement": 0
+   "rank": 5,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -107,7 +107,7 @@
    "total": 10,
    "today": 0,
    "rank": 7,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -120,7 +120,7 @@
    "total": 10,
    "today": 0,
    "rank": 7,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -133,7 +133,7 @@
    "total": 9,
    "today": 0,
    "rank": 9,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -144,9 +144,9 @@
     "UZB"
    ],
    "total": 8,
-   "today": 2,
+   "today": 0,
    "rank": 10,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -159,7 +159,7 @@
    "total": 7,
    "today": 0,
    "rank": 11,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -172,7 +172,7 @@
    "total": 6,
    "today": 0,
    "rank": 12,
-   "movement": -1
+   "movement": 0
   }
  ],
  "teams": {
@@ -559,14 +559,19 @@
    "fifa_rank": 17,
    "owner": "Willo",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 4,
+   "won": 3,
    "drawn": 0,
    "lost": 1,
-   "gf": 8,
+   "gf": 10,
    "ga": 4,
-   "total": 5,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-07-02",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-26",
      "desc": "1st in Group D",
@@ -1140,13 +1145,13 @@
    "tier": 3,
    "fifa_rank": 54,
    "owner": "Spridge",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 5,
-   "ga": 6,
+   "ga": 8,
    "total": 1,
    "events": [
     {
@@ -1254,40 +1259,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760494,
+   "date": "2026-07-02",
    "utc": "2026-07-02T00:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+10'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+10'",
-   "venue": "Levi's Stadium",
+   "note": "",
+   "home": {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "tier": 1,
+    "goals": 2,
+    "points": 2
+   },
+   "away": {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "tier": 3,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 1.39,
     "draw": 4.9,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "USA",
-    "name": "USA",
-    "flag": "🇺🇸",
-    "owner": "Willo",
-    "goals": 2
-   },
-   "away": {
-    "code": "BIH",
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "owner": "Spridge",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760493,
    "date": "2026-07-01",
@@ -4746,11 +4750,11 @@
    "id": 760494,
    "utc": "2026-07-02T00:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "USA",
    "venue": "Levi's Stadium",
    "home": {
     "code": "USA",
@@ -5400,6 +5404,15 @@
    "pts": 12
   },
   {
+   "code": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "flag": "🇧🇦",
+   "owner": "Spridge",
+   "yellow": 8,
+   "red": 1,
+   "pts": 12
+  },
+  {
    "code": "ECU",
    "name": "Ecuador",
    "flag": "🇪🇨",
@@ -5409,19 +5422,19 @@
    "pts": 12
   },
   {
-   "code": "BIH",
-   "name": "Bosnia and Herzegovina",
-   "flag": "🇧🇦",
-   "owner": "Spridge",
-   "yellow": 6,
-   "red": 1,
-   "pts": 10
-  },
-  {
    "code": "BEL",
    "name": "Belgium",
    "flag": "🇧🇪",
    "owner": "Pari",
+   "yellow": 5,
+   "red": 1,
+   "pts": 9
+  },
+  {
+   "code": "USA",
+   "name": "USA",
+   "flag": "🇺🇸",
+   "owner": "Willo",
    "yellow": 5,
    "red": 1,
    "pts": 9
@@ -5557,15 +5570,6 @@
    "name": "Sweden",
    "flag": "🇸🇪",
    "owner": "Spridge",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "USA",
-   "name": "USA",
-   "flag": "🇺🇸",
-   "owner": "Willo",
    "yellow": 5,
    "red": 0,
    "pts": 5
