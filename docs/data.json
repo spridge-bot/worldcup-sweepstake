@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T23:59:39+00:00",
+ "generated_at": "2026-07-03T00:00:04+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -3487,13 +3487,13 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": "WWDDW"
+    "form": null
    },
    "away": {
     "name": "Algeria",
     "flag": "🇩🇿",
     "owner": "Ruggy",
-    "form": "DWLWW"
+    "form": null
    }
   },
   {
