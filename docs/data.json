@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T00:28:17+00:00",
+ "generated_at": "2026-07-03T00:28:41+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1270,9 +1270,9 @@
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "67'",
-   "clock_sec": 4020.0,
-   "status_detail": "67'",
+   "clock": "69'",
+   "clock_sec": 4140.0,
+   "status_detail": "69'",
    "venue": "BMO Field",
    "odds": {
     "home": 1.69,
@@ -1286,7 +1286,7 @@
     "name": "Portugal",
     "flag": "🇵🇹",
     "owner": "Dipen",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "CRO",
@@ -5372,6 +5372,14 @@
    "owner": "Emily"
   },
   {
+   "player": "Cristiano Ronaldo",
+   "team": "POR",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇵🇹",
+   "owner": "Dipen"
+  },
+  {
    "player": "Deniz Undav",
    "team": "GER",
    "goals": 3,
@@ -5402,14 +5410,6 @@
    "assists": 0,
    "flag": "🇲🇦",
    "owner": "Willo"
-  },
-  {
-   "player": "Johan Manzambi",
-   "team": "SUI",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇨🇭",
-   "owner": "Emily"
   }
  ],
  "fairplay": [
