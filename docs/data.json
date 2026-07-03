@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T19:13:57+00:00",
+ "generated_at": "2026-07-03T19:14:22+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1280,9 +1280,9 @@
    "utc": "2026-07-03T18:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "51'",
-   "clock_sec": 3060.0,
-   "status_detail": "51'",
+   "clock": "52'",
+   "clock_sec": 3120.0,
+   "status_detail": "52'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 3.3,
@@ -5949,15 +5949,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Huge 'Snicko' VAR call prolongs Ronaldo's last dance but ends Modric's",
-   "desc": "Veteran forward Cristiano Ronaldo gets another day on the World Cup stage after Croatia are denied a late equaliser by a huge VAR call.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz0jee3vy39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T04:42:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/352c/live/7ded63e0-76af-11f1-af69-5108783f4681.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "After World Cup goals are last year's signings finally set to deliver for Newcastle?",
    "desc": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cy8dg9nry4xo?at_medium=RSS&at_campaign=rss",
@@ -5973,6 +5964,15 @@
    "published": "2026-07-03T08:41:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aaf7/live/060d9e70-76b5-11f1-925a-557464d48d36.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Secret location & sleep devices: England bid to combat noisy Mexico fans",
+   "desc": "England are taking precautions to ensure boisterous locals do not disrupt their preparations in Mexico.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c74y7jwj30eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T19:26:15Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e17/live/e9353cb0-7644-11f1-80e8-6762ba9fc358.jpg",
    "source": "BBC Sport"
   },
   {
