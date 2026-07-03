@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T01:10:25+00:00",
+ "generated_at": "2026-07-03T01:15:31+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -3676,6 +3676,25 @@
    }
   },
   {
+   "id": 760506,
+   "utc": "2026-07-06T19:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "form": "WDWDW"
+   },
+   "away": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "form": "WWWDW"
+   }
+  },
+  {
    "id": 760507,
    "utc": "2026-07-07T00:00:00Z",
    "stage": "Round of 16",
@@ -5051,10 +5070,10 @@
    "winner": null,
    "venue": "AT&T Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 32 11 Winner",
-    "flag": "",
-    "owner": null
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen"
    },
    "away": {
     "code": "ESP",
