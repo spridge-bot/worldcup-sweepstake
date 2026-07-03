@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T05:58:47+00:00",
+ "generated_at": "2026-07-03T06:03:55+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -5969,15 +5969,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
-   "desc": "The prospect of facing World Cup record goalscorer Lionel Messi in a knockout game would strike fear into most defenders, but not Roberto Lopes, according to the Cape Verde defender's mother.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c07yjj5j299o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T07:02:26Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5993,6 +5984,15 @@
    "published": "2026-06-30T11:44:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
+   "desc": "The prospect of facing World Cup record goalscorer Lionel Messi in a knockout game would strike fear into most defenders, but not Roberto Lopes, according to the Cape Verde defender's mother.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c07yjj5j299o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T07:02:26Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg",
    "source": "BBC Sport"
   }
  ]
