@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T04:57:18+00:00",
+ "generated_at": "2026-07-03T05:02:25+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -5156,10 +5156,10 @@
    "winner": null,
    "venue": "BC Place",
    "home": {
-    "code": null,
-    "name": "Round of 32 13 Winner",
-    "flag": "",
-    "owner": null
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily"
    },
    "away": {
     "code": null,
