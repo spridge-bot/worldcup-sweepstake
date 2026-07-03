@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T23:10:07+00:00",
+ "generated_at": "2026-07-03T23:10:31+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1285,9 +1285,9 @@
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "49'",
-   "clock_sec": 2940.0,
-   "status_detail": "49'",
+   "clock": "50'",
+   "clock_sec": 3000.0,
+   "status_detail": "50'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
