@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T11:00:42+00:00",
+ "generated_at": "2026-07-03T11:05:48+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -5888,6 +5888,15 @@
  ],
  "news": [
   {
+   "headline": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
+   "desc": "Lionel Messi versus Vozinha. It is the World Cup battle no-one knew they wanted, but which fans now cannot wait to see.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c17y82qyjj4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T11:01:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/10da/live/a100d9c0-761e-11f1-8c8c-f987daa96c22.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Germany want Klopp talks as Nagelsmann resigns",
    "desc": "The German football association is seeking talks with Jurgen Klopp about becoming their men's national team coach after Julian Nagelsmann resigned.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8x272kyp4wo?at_medium=RSS&at_campaign=rss",
@@ -5960,15 +5969,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The World Cup's free agents looking for their next move",
-   "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T12:44:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5987,12 +5987,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England were 15 minutes from humiliation - the issues Tuchel must solve",
-   "desc": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czx59l1knv0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T10:37:10Z",
+   "headline": "The World Cup's free agents looking for their next move",
+   "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T12:44:02Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2e5b/live/31d97ee0-75af-11f1-ad58-1b9b2309c3b3.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
    "source": "BBC Sport"
   }
  ]
