@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T04:17:58+00:00",
+ "generated_at": "2026-07-03T04:18:23+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1275,9 +1275,9 @@
    "utc": "2026-07-03T03:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "57'",
-   "clock_sec": 3420.0,
-   "status_detail": "57'",
+   "clock": "58'",
+   "clock_sec": 3480.0,
+   "status_detail": "58'",
    "venue": "BC Place",
    "odds": {
     "home": 2.0,
