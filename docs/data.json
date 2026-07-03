@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T22:01:00+00:00",
+ "generated_at": "2026-07-03T22:01:16+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1279,7 +1279,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760500,
+   "utc": "2026-07-03T22:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Hard Rock Stadium",
+   "odds": {
+    "home": 1.15,
+    "draw": 8.0,
+    "away": 20.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "goals": 0
+   },
+   "away": {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "owner": "Dubs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760499,
@@ -3548,31 +3580,6 @@
  ],
  "upcoming": [
   {
-   "id": 760500,
-   "utc": "2026-07-03T22:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.15,
-    "draw": 8.0,
-    "away": 20.0,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "form": "WWWWW"
-   },
-   "away": {
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "owner": "Dubs",
-    "form": "DDDWW"
-   }
-  },
-  {
    "id": 760501,
    "utc": "2026-07-04T01:30:00Z",
    "stage": "Round of 32",
@@ -4953,7 +4960,7 @@
    "id": 760500,
    "utc": "2026-07-03T22:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
