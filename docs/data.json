@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T16:59:44+00:00",
+ "generated_at": "2026-07-03T17:04:50+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -3517,9 +3517,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 3.6,
-    "draw": 2.9,
-    "away": 2.4,
+    "home": 3.55,
+    "draw": 2.85,
+    "away": 2.35,
     "over_under": 1.5,
     "provider": "DraftKings"
    },
@@ -3542,9 +3542,9 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.15,
+    "home": 1.14,
     "draw": 8.0,
-    "away": 19.0,
+    "away": 18.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3568,7 +3568,7 @@
    "group": null,
    "odds": {
     "home": 1.43,
-    "draw": 4.4,
+    "draw": 4.3,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3592,9 +3592,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 5.0,
-    "draw": 3.5,
-    "away": 1.8,
+    "home": 4.9,
+    "draw": 3.45,
+    "away": 1.77,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3617,9 +3617,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 19.0,
-    "draw": 7.0,
-    "away": 1.19,
+    "home": 18.0,
+    "draw": 6.5,
+    "away": 1.18,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3643,8 +3643,8 @@
    "group": null,
    "odds": {
     "home": 1.83,
-    "draw": 3.8,
-    "away": 4.2,
+    "draw": 3.75,
+    "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3667,8 +3667,8 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 3.2,
-    "draw": 3.15,
+    "home": 3.15,
+    "draw": 3.1,
     "away": 2.4,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3692,9 +3692,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 4.0,
-    "draw": 3.6,
-    "away": 1.95,
+    "home": 3.95,
+    "draw": 3.55,
+    "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3717,7 +3717,7 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.55,
+    "home": 2.5,
     "draw": 3.4,
     "away": 2.8,
     "over_under": 2.5,
