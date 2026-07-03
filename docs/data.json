@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T19:10:16+00:00",
+ "generated_at": "2026-07-03T19:10:40+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1280,9 +1280,9 @@
    "utc": "2026-07-03T18:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "48'",
-   "clock_sec": 2880.0,
-   "status_detail": "48'",
+   "clock": "49'",
+   "clock_sec": 2940.0,
+   "status_detail": "49'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 3.3,
@@ -5898,7 +5898,7 @@
    "headline": "England v Mexico set to move to earlier kick-off time",
    "desc": "England's World Cup last-16 tie with Mexico could be moved to earlier on Sunday because of the threat of storms.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T18:59:32Z",
+   "published": "2026-07-03T19:10:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
    "source": "BBC Sport"
