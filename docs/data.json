@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T18:01:01+00:00",
+ "generated_at": "2026-07-03T18:01:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1274,7 +1274,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760499,
+   "utc": "2026-07-03T18:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 3.3,
+    "draw": 2.9,
+    "away": 2.5,
+    "over_under": 1.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760498,
@@ -3512,31 +3544,6 @@
  ],
  "upcoming": [
   {
-   "id": 760499,
-   "utc": "2026-07-03T18:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 3.55,
-    "draw": 2.75,
-    "away": 2.5,
-    "over_under": 1.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "owner": "Glancy",
-    "form": "DLWDL"
-   },
-   "away": {
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "owner": "Brando",
-    "form": "DWDLW"
-   }
-  },
-  {
    "id": 760500,
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
@@ -3592,9 +3599,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 4.7,
+    "home": 4.5,
     "draw": 3.45,
-    "away": 1.8,
+    "away": 1.83,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -4919,7 +4926,7 @@
    "id": 760499,
    "utc": "2026-07-03T18:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
