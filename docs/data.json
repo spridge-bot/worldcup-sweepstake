@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T23:42:02+00:00",
+ "generated_at": "2026-07-03T23:42:26+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1285,9 +1285,9 @@
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "80'",
-   "clock_sec": 4800.0,
-   "status_detail": "80'",
+   "clock": "81'",
+   "clock_sec": 4860.0,
+   "status_detail": "81'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
@@ -5956,7 +5956,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-03T10:39:10Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8c34/live/3ca70a10-7738-11f1-adee-871cc76e040e.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eff2/live/aa7d0530-7738-11f1-86a5-f1785a468aa8.jpg",
    "source": "BBC Sport"
   },
   {
