@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T19:20:29+00:00",
+ "generated_at": "2026-07-03T19:20:59+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1280,9 +1280,9 @@
    "utc": "2026-07-03T18:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "57'",
-   "clock_sec": 3420.0,
-   "status_detail": "57'",
+   "clock": "58'",
+   "clock_sec": 3480.0,
+   "status_detail": "58'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 3.3,
