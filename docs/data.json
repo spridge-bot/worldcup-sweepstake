@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T03:12:04+00:00",
+ "generated_at": "2026-07-03T03:12:28+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1275,9 +1275,9 @@
    "utc": "2026-07-03T03:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "11'",
-   "clock_sec": 660.0,
-   "status_detail": "11'",
+   "clock": "12'",
+   "clock_sec": 720.0,
+   "status_detail": "12'",
    "venue": "BC Place",
    "odds": {
     "home": 2.0,
@@ -1291,7 +1291,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "ALG",
