@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T01:10:01+00:00",
+ "generated_at": "2026-07-03T01:10:25+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -26,8 +26,8 @@
     "CAN",
     "RSA"
    ],
-   "total": 18,
-   "today": 0,
+   "total": 20,
+   "today": 2,
    "rank": 1,
    "movement": 0
   },
@@ -291,14 +291,19 @@
    "fifa_rank": 5,
    "owner": "Dipen",
    "status": "alive",
-   "played": 3,
-   "won": 1,
+   "played": 4,
+   "won": 2,
    "drawn": 2,
    "lost": 0,
-   "gf": 6,
-   "ga": 1,
-   "total": 3,
+   "gf": 8,
+   "ga": 2,
+   "total": 5,
    "events": [
+    {
+     "date": "2026-07-02",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-27",
      "desc": "2nd in Group K",
@@ -443,13 +448,13 @@
    "tier": 1,
    "fifa_rank": 11,
    "owner": "Dubs",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 2,
    "drawn": 0,
-   "lost": 1,
-   "gf": 5,
-   "ga": 5,
+   "lost": 2,
+   "gf": 6,
+   "ga": 7,
    "total": 3,
    "events": [
     {
@@ -1264,40 +1269,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760496,
+   "date": "2026-07-02",
    "utc": "2026-07-02T23:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+19'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+19'",
-   "venue": "BMO Field",
+   "note": "",
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "tier": 1,
+    "goals": 2,
+    "points": 2
+   },
+   "away": {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "tier": 1,
+    "goals": 1,
+    "points": 0
+   },
    "odds": {
     "home": 1.69,
     "draw": 3.7,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "POR",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "goals": 2
-   },
-   "away": {
-    "code": "CRO",
-    "name": "Croatia",
-    "flag": "🇭🇷",
-    "owner": "Dubs",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760497,
    "date": "2026-07-02",
@@ -4833,11 +4837,11 @@
    "id": 760496,
    "utc": "2026-07-02T23:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "POR",
    "venue": "BMO Field",
    "home": {
     "code": "POR",
@@ -5603,6 +5607,15 @@
    "pts": 5
   },
   {
+   "code": "POR",
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "owner": "Dipen",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "SCO",
    "name": "Scotland",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -5634,6 +5647,15 @@
    "name": "Colombia",
    "flag": "🇨🇴",
    "owner": "Ruggy",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
+   "code": "CRO",
+   "name": "Croatia",
+   "flag": "🇭🇷",
+   "owner": "Dubs",
    "yellow": 4,
    "red": 0,
    "pts": 4
@@ -5679,15 +5701,6 @@
    "name": "New Zealand",
    "flag": "🇳🇿",
    "owner": "Willo",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
-  },
-  {
-   "code": "POR",
-   "name": "Portugal",
-   "flag": "🇵🇹",
-   "owner": "Dipen",
    "yellow": 4,
    "red": 0,
    "pts": 4
@@ -5769,15 +5782,6 @@
    "name": "Argentina",
    "flag": "🇦🇷",
    "owner": "Fergs",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "CRO",
-   "name": "Croatia",
-   "flag": "🇭🇷",
-   "owner": "Dubs",
    "yellow": 2,
    "red": 0,
    "pts": 2
