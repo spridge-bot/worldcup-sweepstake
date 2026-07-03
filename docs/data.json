@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T11:36:30+00:00",
+ "generated_at": "2026-07-03T11:41:38+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -5906,6 +5906,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England fan tickets for Mexico on resale for up to £26k",
+   "desc": "Tickets originally bought by England fans for Monday's last 16 game against Mexico are relisted for thousands of pounds on Fifa's official resale portal.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj3g7dxlvexo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T11:36:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/73f5/live/f12e8d60-76c9-11f1-bd3f-0f791277aaa0.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
    "desc": "The BBC will be launching a special 'Stay Up or Catch Up' offer for its live coverage of England's game against Mexico at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss",
@@ -5984,15 +5993,6 @@
    "published": "2026-06-30T11:44:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The World Cup's free agents looking for their next move",
-   "desc": "Fourteen players still at the World Cup have no club to return to once the tournament is over.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T12:44:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png",
    "source": "BBC Sport"
   }
  ]
