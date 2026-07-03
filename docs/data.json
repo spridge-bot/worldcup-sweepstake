@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T10:30:02+00:00",
+ "generated_at": "2026-07-03T10:35:08+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -5888,6 +5888,24 @@
  ],
  "news": [
   {
+   "headline": "Germany want Klopp talks as Nagelsmann resigns",
+   "desc": "The German football association is seeking talks with Jurgen Klopp about becoming their men's national team coach after Julian Nagelsmann resigned.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8x272kyp4wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T10:17:01Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d9a2/live/b242fca0-76c7-11f1-a627-714adb4eed6e.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "After World Cup goals are last year's signings finally set to deliver for Newcastle?",
+   "desc": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy8dg9nry4xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T10:23:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7178/live/040fe180-7527-11f1-b8b8-e187759eae96.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Huge Snicko VAR call prolongs Ronaldo's last dance but ends Modric's",
    "desc": "Veteran forward Cristiano Ronaldo gets another day on the World Cup stage after Croatia are denied a late equaliser by a huge VAR call.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cz0jee3vy39o?at_medium=RSS&at_campaign=rss",
@@ -5915,21 +5933,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Victorious Portugal pay emotional tribute to Jota",
-   "desc": "One year after his death, Portugal are using Diogo Jota's memory to help inspire them at the 2026 World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1kyl71wxw9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T02:27:04Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0362/live/72fadd80-7684-11f1-8a83-e73d0b3edc51.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "England, France & Spain v Portugal on BBC in last 16",
    "desc": "England's meeting with Mexico is one of four World Cup last-16 matches to be broadcast live on BBC One, BBC iPlayer and across BBC Sport.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg4wvn1ke9o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-02T22:15:53Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c6d/live/daceb080-7661-11f1-81dc-457c16554056.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Victorious Portugal pay emotional tribute to Jota",
+   "desc": "One year after his death, Portugal are using Diogo Jota's memory to help inspire them at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1kyl71wxw9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T02:27:04Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0362/live/72fadd80-7684-11f1-8a83-e73d0b3edc51.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5951,24 +5969,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England were 15 minutes from humiliation - the issues Tuchel must solve",
-   "desc": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czx59l1knv0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T10:37:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2e5b/live/31d97ee0-75af-11f1-ad58-1b9b2309c3b3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Gueye quits Senegal until coaching staff replaced",
-   "desc": "Senegal midfielder Pape Gueye says he will be \"taking a break\" from playing for his country while the current management is in charge.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqj18d7q2vwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T09:02:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/88e1/live/621dc690-75f2-11f1-8c3f-e37c76e39331.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -5987,12 +5987,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
-   "desc": "The prospect of facing World Cup record goalscorer Lionel Messi in a knockout game would strike fear into most defenders, but not Roberto Lopes, according to the Cape Verde defender's mother.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c07yjj5j299o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T07:02:26Z",
+   "headline": "England were 15 minutes from humiliation - the issues Tuchel must solve",
+   "desc": "Before England's World Cup last-16 tie against Mexico, BBC Sport's Phil McNulty looks at the issues that remain for Thomas Tuchel.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czx59l1knv0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T10:37:10Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2e5b/live/31d97ee0-75af-11f1-ad58-1b9b2309c3b3.jpg",
    "source": "BBC Sport"
   }
  ]
