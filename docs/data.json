@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T23:17:25+00:00",
+ "generated_at": "2026-07-03T23:17:49+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1285,9 +1285,9 @@
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "56'",
-   "clock_sec": 3360.0,
-   "status_detail": "56'",
+   "clock": "57'",
+   "clock_sec": 3420.0,
+   "status_detail": "57'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
@@ -5951,6 +5951,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
+   "desc": "The BBC will be launching a special 'Stay Up or Catch Up' offer for its live coverage of England's game against Mexico at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T10:39:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6337/live/ca28d220-76bf-11f1-925a-557464d48d36.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "After World Cup goals are last year's signings finally set to deliver for Newcastle?",
    "desc": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cy8dg9nry4xo?at_medium=RSS&at_campaign=rss",
@@ -6002,15 +6011,6 @@
    "published": "2026-07-03T02:27:04Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0362/live/72fadd80-7684-11f1-8a83-e73d0b3edc51.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
