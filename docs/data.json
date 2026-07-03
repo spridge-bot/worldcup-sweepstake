@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T18:47:20+00:00",
+ "generated_at": "2026-07-03T18:47:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -5895,6 +5895,15 @@
  ],
  "news": [
   {
+   "headline": "England v Mexico could move because of storm threat",
+   "desc": "England's World Cup last-16 tie with Mexico could be moved to earlier on Sunday because of the threat of storms.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T18:45:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
    "desc": "Lionel Messi versus Vozinha. It is the World Cup battle no-one knew they wanted, but which fans now cannot wait to see.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c17y82qyjj4o?at_medium=RSS&at_campaign=rss",
@@ -5937,15 +5946,6 @@
    "published": "2026-07-03T10:39:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6337/live/ca28d220-76bf-11f1-925a-557464d48d36.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Huge 'Snicko' VAR call prolongs Ronaldo's last dance but ends Modric's",
-   "desc": "Veteran forward Cristiano Ronaldo gets another day on the World Cup stage after Croatia are denied a late equaliser by a huge VAR call.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz0jee3vy39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T04:42:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/352c/live/7ded63e0-76af-11f1-af69-5108783f4681.png",
    "source": "BBC Sport"
   },
   {
