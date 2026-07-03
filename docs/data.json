@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T04:48:14+00:00",
+ "generated_at": "2026-07-03T04:48:39+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1275,9 +1275,9 @@
    "utc": "2026-07-03T03:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "87'",
-   "clock_sec": 5220.0,
-   "status_detail": "87'",
+   "clock": "88'",
+   "clock_sec": 5280.0,
+   "status_detail": "88'",
    "venue": "BC Place",
    "odds": {
     "home": 2.0,
@@ -5884,6 +5884,15 @@
  ],
  "news": [
   {
+   "headline": "Huge VAR call prolongs Ronaldo's last dance but ends Modric's",
+   "desc": "Veteran forward Cristiano Ronaldo gets another day on the World Cup stage after Croatia are denied a late equaliser by a huge VAR call.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz0jee3vy39o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T04:42:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d02f/live/35fe3790-769a-11f1-a627-714adb4eed6e.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The one club man who is Spain's under-the-radar hero",
    "desc": "Mikel Oyarzabal is perhaps not the biggest name in Spain's World Cup squad, but the one who has so far shone brightest.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgd0jz1xq7o?at_medium=RSS&at_campaign=rss",
@@ -5980,15 +5989,6 @@
    "published": "2026-07-02T21:33:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Ranking 10 stars who could be at their last World Cup",
-   "desc": "A number of the world's best players are likely playing in their last World Cup. Here's how I think they rank.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c04yvw3w1w6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T11:44:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
    "source": "BBC Sport"
   }
  ]
