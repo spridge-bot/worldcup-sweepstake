@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T23:12:33+00:00",
+ "generated_at": "2026-07-03T23:12:58+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1285,9 +1285,9 @@
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "51'",
-   "clock_sec": 3060.0,
-   "status_detail": "51'",
+   "clock": "52'",
+   "clock_sec": 3120.0,
+   "status_detail": "52'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
@@ -5906,10 +5906,10 @@
  ],
  "news": [
   {
-   "headline": "England, Mexico & Fifa locked in kick-off time talks",
-   "desc": "England's World Cup last-16 tie with Mexico is set to be moved to 19:00 BST on Sunday.",
+   "headline": "England-Mexico kick-off unchanged after Fifa U-turn",
+   "desc": "Fifa u-turn on plans to bring forward England's fixture against Mexico following consultation with both nations' football associations.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T22:45:55Z",
+   "published": "2026-07-03T23:12:04Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
    "source": "BBC Sport"
