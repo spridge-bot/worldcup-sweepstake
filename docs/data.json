@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T03:00:50+00:00",
+ "generated_at": "2026-07-03T03:01:07+00:00",
  "mode": "live",
  "latest_day": "2026-07-02",
  "scoring": {
@@ -1269,7 +1269,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760498,
+   "utc": "2026-07-03T03:00:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 2.0,
+    "draw": 3.25,
+    "away": 4.3,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "owner": "Ruggy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760496,
@@ -3476,31 +3508,6 @@
  ],
  "upcoming": [
   {
-   "id": 760498,
-   "utc": "2026-07-03T03:00:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 2.0,
-    "draw": 3.25,
-    "away": 4.3,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "form": null
-   },
-   "away": {
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "form": null
-   }
-  },
-  {
    "id": 760499,
    "utc": "2026-07-03T18:00:00Z",
    "stage": "Round of 32",
@@ -4885,7 +4892,7 @@
    "id": 760498,
    "utc": "2026-07-03T03:00:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
