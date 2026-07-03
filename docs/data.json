@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T18:51:01+00:00",
+ "generated_at": "2026-07-03T18:51:26+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1282,7 +1282,7 @@
    "group": null,
    "clock": "45'+5'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+5'",
+   "status_detail": "HT",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 3.3,
