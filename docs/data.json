@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T19:32:52+00:00",
+ "generated_at": "2026-07-03T19:33:16+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1280,9 +1280,9 @@
    "utc": "2026-07-03T18:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "70'",
-   "clock_sec": 4200.0,
-   "status_detail": "70'",
+   "clock": "71'",
+   "clock_sec": 4260.0,
+   "status_detail": "71'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 3.3,
@@ -3724,9 +3724,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.6,
+    "home": 2.65,
     "draw": 3.4,
-    "away": 2.7,
+    "away": 2.65,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
