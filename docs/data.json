@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-03T04:56:54+00:00",
+ "generated_at": "2026-07-03T04:57:18+00:00",
  "mode": "live",
- "latest_day": "2026-07-02",
+ "latest_day": "2026-07-03",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,7 +27,7 @@
     "RSA"
    ],
    "total": 20,
-   "today": 2,
+   "today": 0,
    "rank": 1,
    "movement": 0
   },
@@ -53,9 +53,9 @@
     "HAI"
    ],
    "total": 13,
-   "today": 2,
+   "today": 0,
    "rank": 2,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -66,8 +66,21 @@
     "NZL"
    ],
    "total": 13,
-   "today": 2,
+   "today": 0,
    "rank": 2,
+   "movement": 0
+  },
+  {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 12,
+   "today": 2,
+   "rank": 5,
    "movement": 2
   },
   {
@@ -81,7 +94,7 @@
    "total": 12,
    "today": 0,
    "rank": 5,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Brando",
@@ -93,21 +106,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 6,
-   "movement": -2
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 10,
-   "today": 0,
    "rank": 7,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Spridge",
@@ -119,8 +119,8 @@
    ],
    "total": 10,
    "today": 0,
-   "rank": 7,
-   "movement": 0
+   "rank": 8,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -620,14 +620,19 @@
    "fifa_rank": 19,
    "owner": "Emily",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 4,
+   "won": 3,
    "drawn": 1,
    "lost": 0,
-   "gf": 7,
+   "gf": 9,
    "ga": 3,
-   "total": 5,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-07-03",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-24",
      "desc": "1st in Group B",
@@ -774,13 +779,13 @@
    "tier": 2,
    "fifa_rank": 28,
    "owner": "Ruggy",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 5,
-   "ga": 7,
+   "ga": 9,
    "total": 1,
    "events": [
     {
@@ -1269,40 +1274,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760498,
+   "date": "2026-07-03",
    "utc": "2026-07-03T03:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "BC Place",
+   "note": "",
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "tier": 2,
+    "goals": 2,
+    "points": 2
+   },
+   "away": {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "tier": 2,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 2.0,
     "draw": 3.25,
     "away": 4.3,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "goals": 2
-   },
-   "away": {
-    "code": "ALG",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "owner": "Ruggy",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760496,
    "date": "2026-07-02",
@@ -4892,11 +4896,11 @@
    "id": 760498,
    "utc": "2026-07-03T03:00:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "SUI",
    "venue": "BC Place",
    "home": {
     "code": "SUI",
@@ -5756,6 +5760,15 @@
    "pts": 4
   },
   {
+   "code": "ALG",
+   "name": "Algeria",
+   "flag": "🇩🇿",
+   "owner": "Ruggy",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "ENG",
    "name": "England",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -5844,15 +5857,6 @@
    "yellow": 2,
    "red": 0,
    "pts": 2
-  },
-  {
-   "code": "ALG",
-   "name": "Algeria",
-   "flag": "🇩🇿",
-   "owner": "Ruggy",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
   },
   {
    "code": "CZE",
