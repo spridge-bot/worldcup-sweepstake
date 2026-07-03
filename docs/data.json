@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T22:28:53+00:00",
+ "generated_at": "2026-07-03T22:29:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1301,7 +1301,7 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "CPV",
@@ -5350,20 +5350,20 @@
  ],
  "scorers": [
   {
+   "player": "Lionel Messi",
+   "team": "ARG",
+   "goals": 7,
+   "assists": 0,
+   "flag": "🇦🇷",
+   "owner": "Fergs"
+  },
+  {
    "player": "Kylian Mbappé",
    "team": "FRA",
    "goals": 6,
    "assists": 0,
    "flag": "🇫🇷",
    "owner": "Spridge"
-  },
-  {
-   "player": "Lionel Messi",
-   "team": "ARG",
-   "goals": 6,
-   "assists": 0,
-   "flag": "🇦🇷",
-   "owner": "Fergs"
   },
   {
    "player": "Erling Haaland",
