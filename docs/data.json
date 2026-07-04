@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T18:51:54+00:00",
+ "generated_at": "2026-07-04T18:52:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1295,9 +1295,9 @@
    "utc": "2026-07-04T17:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "87'",
-   "clock_sec": 5220.0,
-   "status_detail": "87'",
+   "clock": "88'",
+   "clock_sec": 5280.0,
+   "status_detail": "88'",
    "venue": "NRG Stadium",
    "odds": {
     "home": 5.0,
