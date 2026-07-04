@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T03:32:48+00:00",
+ "generated_at": "2026-07-04T03:37:55+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3650,8 +3650,8 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 19.0,
-    "draw": 7.0,
+    "home": 18.0,
+    "draw": 6.5,
     "away": 1.17,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3792,6 +3792,25 @@
     "flag": "🇪🇬",
     "owner": "Brando",
     "form": "WDWDL"
+   }
+  },
+  {
+   "id": 760508,
+   "utc": "2026-07-07T20:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "form": "WWWDD"
+   },
+   "away": {
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy",
+    "form": "WDWWW"
    }
   }
  ],
@@ -5220,10 +5239,10 @@
     "owner": "Emily"
    },
    "away": {
-    "code": null,
-    "name": "Round of 32 15 Winner",
-    "flag": "",
-    "owner": null
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy"
    }
   },
   {
