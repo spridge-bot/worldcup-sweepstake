@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T23:04:46+00:00",
+ "generated_at": "2026-07-04T23:05:11+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -84,6 +84,19 @@
    "movement": -1
   },
   {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 13,
+   "today": 3,
+   "rank": 3,
+   "movement": 6
+  },
+  {
    "name": "Emily",
    "teams": [
     "NED",
@@ -93,8 +106,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 6,
-   "movement": 0
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "George",
@@ -106,8 +119,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 6,
-   "movement": 0
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -119,21 +132,8 @@
    ],
    "total": 11,
    "today": 0,
-   "rank": 8,
-   "movement": 0
-  },
-  {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 10,
-   "today": 0,
    "rank": 9,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Ruggy",
@@ -240,14 +240,19 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 4,
-   "won": 4,
+   "played": 5,
+   "won": 5,
    "drawn": 0,
    "lost": 0,
-   "gf": 13,
+   "gf": 14,
    "ga": 2,
-   "total": 7,
+   "total": 10,
    "events": [
+    {
+     "date": "2026-07-04",
+     "desc": "Won Round of 16 tie",
+     "points": 3
+    },
     {
      "date": "2026-06-30",
      "desc": "Won Round of 32 tie",
@@ -981,13 +986,13 @@
    "tier": 3,
    "fifa_rank": 40,
    "owner": "Fergs",
-   "status": "alive",
-   "played": 4,
+   "status": "out",
+   "played": 5,
    "won": 1,
    "drawn": 2,
-   "lost": 1,
+   "lost": 2,
    "gf": 3,
-   "ga": 5,
+   "ga": 6,
    "total": 3,
    "events": [
     {
@@ -1294,40 +1299,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760503,
+   "date": "2026-07-04",
    "utc": "2026-07-04T21:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "90'+10'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+10'",
-   "venue": "Lincoln Financial Field",
+   "note": "",
+   "home": {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "tier": 3,
+    "goals": 0,
+    "points": 0
+   },
+   "away": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "tier": 1,
+    "goals": 1,
+    "points": 3
+   },
    "odds": {
     "home": 19.0,
     "draw": 7.0,
     "away": 1.17,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "PAR",
-    "name": "Paraguay",
-    "flag": "🇵🇾",
-    "owner": "Fergs",
-    "goals": 0
-   },
-   "away": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760502,
    "date": "2026-07-04",
@@ -5112,11 +5116,11 @@
    "id": 760503,
    "utc": "2026-07-04T21:00:00Z",
    "stage": "LAST_16",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 0,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "FRA",
    "venue": "Lincoln Financial Field",
    "home": {
     "code": "PAR",
@@ -5816,6 +5820,15 @@
    "pts": 4
   },
   {
+   "code": "FRA",
+   "name": "France",
+   "flag": "🇫🇷",
+   "owner": "Spridge",
+   "yellow": 4,
+   "red": 0,
+   "pts": 4
+  },
+  {
    "code": "GER",
    "name": "Germany",
    "flag": "🇩🇪",
@@ -5964,15 +5977,6 @@
    "name": "Czechia",
    "flag": "🇨🇿",
    "owner": "Emily",
-   "yellow": 1,
-   "red": 0,
-   "pts": 1
-  },
-  {
-   "code": "FRA",
-   "name": "France",
-   "flag": "🇫🇷",
-   "owner": "Spridge",
    "yellow": 1,
    "red": 0,
    "pts": 1
