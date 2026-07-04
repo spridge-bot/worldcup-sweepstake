@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T01:34:28+00:00",
+ "generated_at": "2026-07-04T01:34:52+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1290,9 +1290,9 @@
    "utc": "2026-07-04T01:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "3'",
-   "clock_sec": 180.0,
-   "status_detail": "3'",
+   "clock": "4'",
+   "clock_sec": 240.0,
+   "status_detail": "4'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.44,
@@ -3771,9 +3771,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 1.33,
-    "draw": 4.6,
-    "away": 11.0,
+    "home": 1.37,
+    "draw": 4.7,
+    "away": 9.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
