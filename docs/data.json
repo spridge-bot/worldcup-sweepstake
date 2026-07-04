@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-04T03:32:23+00:00",
+ "generated_at": "2026-07-04T03:32:48+00:00",
  "mode": "live",
- "latest_day": "2026-07-03",
+ "latest_day": "2026-07-04",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -40,9 +40,9 @@
     "KSA"
    ],
    "total": 13,
-   "today": 2,
+   "today": 0,
    "rank": 2,
-   "movement": 4
+   "movement": 0
   },
   {
    "name": "Glancy",
@@ -92,9 +92,9 @@
     "IRQ"
    ],
    "total": 12,
-   "today": 2,
+   "today": 0,
    "rank": 6,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "George",
@@ -107,7 +107,7 @@
    "total": 12,
    "today": 0,
    "rank": 6,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -118,9 +118,9 @@
     "CUW"
    ],
    "total": 11,
-   "today": 2,
+   "today": 0,
    "rank": 8,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -133,7 +133,20 @@
    "total": 10,
    "today": 0,
    "rank": 9,
-   "movement": -2
+   "movement": 0
+  },
+  {
+   "name": "Ruggy",
+   "teams": [
+    "COL",
+    "KOR",
+    "ALG",
+    "QAT"
+   ],
+   "total": 9,
+   "today": 2,
+   "rank": 10,
+   "movement": 1
   },
   {
    "name": "Pari",
@@ -145,21 +158,8 @@
    ],
    "total": 8,
    "today": 0,
-   "rank": 10,
-   "movement": 0
-  },
-  {
-   "name": "Ruggy",
-   "teams": [
-    "COL",
-    "KOR",
-    "ALG",
-    "QAT"
-   ],
-   "total": 7,
-   "today": 0,
    "rank": 11,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "Dubs",
@@ -477,14 +477,19 @@
    "fifa_rank": 13,
    "owner": "Ruggy",
    "status": "alive",
-   "played": 3,
-   "won": 2,
+   "played": 4,
+   "won": 3,
    "drawn": 1,
    "lost": 0,
-   "gf": 4,
+   "gf": 5,
    "ga": 1,
-   "total": 5,
+   "total": 7,
    "events": [
+    {
+     "date": "2026-07-04",
+     "desc": "Won Round of 32 tie",
+     "points": 2
+    },
     {
      "date": "2026-06-27",
      "desc": "1st in Group K",
@@ -1216,13 +1221,13 @@
    "tier": 3,
    "fifa_rank": 56,
    "owner": "George",
-   "status": "alive",
-   "played": 3,
+   "status": "out",
+   "played": 4,
    "won": 1,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 2,
-   "ga": 2,
+   "ga": 3,
    "total": 1,
    "events": [
     {
@@ -1284,40 +1289,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760501,
+   "date": "2026-07-04",
    "utc": "2026-07-04T01:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "90'+8'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
-   "venue": "GEHA Field at Arrowhead Stadium",
+   "note": "",
+   "home": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "tier": 1,
+    "goals": 1,
+    "points": 2
+   },
+   "away": {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "tier": 3,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 1.44,
     "draw": 4.3,
     "away": 8.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "COL",
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "goals": 1
-   },
-   "away": {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760500,
    "date": "2026-07-03",
@@ -5019,11 +5023,11 @@
    "id": 760501,
    "utc": "2026-07-04T01:30:00Z",
    "stage": "LAST_32",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 1,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "COL",
    "venue": "GEHA Field at Arrowhead Stadium",
    "home": {
     "code": "COL",
@@ -5643,10 +5647,28 @@
    "pts": 6
   },
   {
+   "code": "COL",
+   "name": "Colombia",
+   "flag": "🇨🇴",
+   "owner": "Ruggy",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
    "code": "COD",
    "name": "DR Congo",
    "flag": "🇨🇩",
    "owner": "Willo",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
+   "code": "GHA",
+   "name": "Ghana",
+   "flag": "🇬🇭",
+   "owner": "George",
    "yellow": 6,
    "red": 0,
    "pts": 6
@@ -5731,15 +5753,6 @@
    "yellow": 5,
    "red": 0,
    "pts": 5
-  },
-  {
-   "code": "COL",
-   "name": "Colombia",
-   "flag": "🇨🇴",
-   "owner": "Ruggy",
-   "yellow": 4,
-   "red": 0,
-   "pts": 4
   },
   {
    "code": "CRO",
@@ -5836,15 +5849,6 @@
    "name": "England",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "owner": "Brando",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "GHA",
-   "name": "Ghana",
-   "flag": "🇬🇭",
-   "owner": "George",
    "yellow": 3,
    "red": 0,
    "pts": 3
