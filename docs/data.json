@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T11:23:06+00:00",
+ "generated_at": "2026-07-04T11:28:13+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3625,9 +3625,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 5.0,
+    "home": 5.25,
     "draw": 3.45,
-    "away": 1.77,
+    "away": 1.74,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -5971,6 +5971,15 @@
  ],
  "news": [
   {
+   "headline": "Lightning, hotel security and spying - issues England face in Mexico",
+   "desc": "England are booed as they arrive at their Mexico City hotel to prepare for their World Cup last-16 game against Mexico - and it's not the only issue they face.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2x1gwwjego?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T11:23:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/90b1/live/6108c870-7784-11f1-a146-99f41269c606.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
@@ -5995,15 +6004,6 @@
    "published": "2026-07-04T03:09:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d7b4/live/b7fee070-774c-11f1-8e4e-2dc6898b0152.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England team booed on arrival at Mexico City hotel",
-   "desc": "England are booed as they arrive at their Mexico City hotel to prepare for their World Cup last-16 game against Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2x1gwwjego?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T08:33:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/410b/live/f32d1b40-7773-11f1-bfcd-0551ebb03f4c.png",
    "source": "BBC Sport"
   },
   {
