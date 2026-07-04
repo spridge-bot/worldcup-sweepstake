@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T00:16:35+00:00",
+ "generated_at": "2026-07-04T00:16:59+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1285,9 +1285,9 @@
    "utc": "2026-07-03T22:00:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "101'",
-   "clock_sec": 6060.0,
-   "status_detail": "101'",
+   "clock": "102'",
+   "clock_sec": 6120.0,
+   "status_detail": "102'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
@@ -5909,7 +5909,7 @@
    "headline": "England-Mexico kick-off unchanged after Fifa U-turn",
    "desc": "England's World Cup last-16 tie against Mexico will kick off as scheduled at 01:00 BST on Monday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T00:10:26Z",
+   "published": "2026-07-04T00:16:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
    "source": "BBC Sport"
