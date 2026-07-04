@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T00:23:35+00:00",
+ "generated_at": "2026-07-04T00:23:59+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1287,7 +1287,7 @@
    "group": null,
    "clock": "105'+3'",
    "clock_sec": 6300.0,
-   "status_detail": "105'+3'",
+   "status_detail": "ET-HT",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
