@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T03:09:57+00:00",
+ "generated_at": "2026-07-04T03:10:22+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1290,9 +1290,9 @@
    "utc": "2026-07-04T01:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "75'",
-   "clock_sec": 4500.0,
-   "status_detail": "75'",
+   "clock": "76'",
+   "clock_sec": 4560.0,
+   "status_detail": "76'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.44,
@@ -5954,7 +5954,7 @@
    "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
    "desc": "Cape Verde may have been the World Cup's smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T03:00:43Z",
+   "published": "2026-07-04T03:09:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d7b4/live/b7fee070-774c-11f1-8e4e-2dc6898b0152.jpg",
    "source": "BBC Sport"
