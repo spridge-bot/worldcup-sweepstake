@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T01:30:58+00:00",
+ "generated_at": "2026-07-04T01:31:14+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1284,7 +1284,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760501,
+   "utc": "2026-07-04T01:30:00Z",
+   "stage": "Round of 32",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "GEHA Field at Arrowhead Stadium",
+   "odds": {
+    "home": 1.44,
+    "draw": 4.3,
+    "away": 8.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy",
+    "goals": 0
+   },
+   "away": {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "owner": "George",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760500,
@@ -3584,31 +3616,6 @@
  ],
  "upcoming": [
   {
-   "id": 760501,
-   "utc": "2026-07-04T01:30:00Z",
-   "stage": "Round of 32",
-   "group": null,
-   "odds": {
-    "home": 1.44,
-    "draw": 4.3,
-    "away": 8.5,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "form": null
-   },
-   "away": {
-    "name": "Ghana",
-    "flag": "🇬🇭",
-    "owner": "George",
-    "form": null
-   }
-  },
-  {
    "id": 760502,
    "utc": "2026-07-04T17:00:00Z",
    "stage": "Round of 16",
@@ -5006,7 +5013,7 @@
    "id": 760501,
    "utc": "2026-07-04T01:30:00Z",
    "stage": "LAST_32",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
