@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T00:45:26+00:00",
+ "generated_at": "2026-07-04T00:50:32+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -3757,6 +3757,25 @@
     "owner": "Pari",
     "form": "WWDDW"
    }
+  },
+  {
+   "id": 760509,
+   "utc": "2026-07-07T16:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "owner": "Brando",
+    "form": "WDWDL"
+   }
   }
  ],
  "groups": [
@@ -5155,10 +5174,10 @@
    "winner": null,
    "venue": "Mercedes-Benz Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 32 14 Winner",
-    "flag": "",
-    "owner": null
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs"
    },
    "away": {
     "code": "EGY",
@@ -5946,21 +5965,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Mexico's unlikely hero who England could fear most",
-   "desc": "Julian Quinones' path to being a Mexican hero has been unorthodox - and he will hope to become a legend against England on Monday morning.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqx1l3n9dj5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T12:02:36Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f33/live/0f1ebf40-765f-11f1-b953-0b29fdbd957b.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
    "desc": "The BBC will be launching a special 'Stay Up or Catch Up' offer for its live coverage of England's game against Mexico at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-03T10:39:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eff2/live/aa7d0530-7738-11f1-86a5-f1785a468aa8.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Mexico's unlikely hero who England could fear most",
+   "desc": "Julian Quinones' path to being a Mexican hero has been unorthodox - and he will hope to become a legend against England on Monday morning.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx1l3n9dj5o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T12:02:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f33/live/0f1ebf40-765f-11f1-b953-0b29fdbd957b.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6009,12 +6028,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Victorious Portugal pay emotional tribute to Jota",
-   "desc": "One year after his death, Portugal are using Diogo Jota's memory to help inspire them at the 2026 World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1kyl71wxw9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T02:27:04Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0362/live/72fadd80-7684-11f1-8a83-e73d0b3edc51.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
