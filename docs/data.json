@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-03T23:59:52+00:00",
+ "generated_at": "2026-07-04T00:00:16+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1287,7 +1287,7 @@
    "group": null,
    "clock": "90'+8'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
+   "status_detail": "ET",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.15,
@@ -3585,7 +3585,7 @@
    "stage": "Round of 32",
    "group": null,
    "odds": {
-    "home": 1.43,
+    "home": 1.44,
     "draw": 4.3,
     "away": 8.5,
     "over_under": 2.5,
@@ -3595,13 +3595,13 @@
     "name": "Colombia",
     "flag": "🇨🇴",
     "owner": "Ruggy",
-    "form": "DWWWW"
+    "form": null
    },
    "away": {
     "name": "Ghana",
     "flag": "🇬🇭",
     "owner": "George",
-    "form": "LDWDL"
+    "form": null
    }
   },
   {
