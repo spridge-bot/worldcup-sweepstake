@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T21:24:35+00:00",
+ "generated_at": "2026-07-04T21:24:59+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1300,9 +1300,9 @@
    "utc": "2026-07-04T21:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "20'",
-   "clock_sec": 1200.0,
-   "status_detail": "20'",
+   "clock": "21'",
+   "clock_sec": 1260.0,
+   "status_detail": "21'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 19.0,
@@ -5989,6 +5989,15 @@
  ],
  "news": [
   {
+   "headline": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
+   "desc": "As  Morocco beat Canada to book their place in the last-8, their World Cup campaign can no longer be seen as a fairytale.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T21:20:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9140/live/2df0c2e0-77e7-11f1-b24a-2dac1f24311d.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why England won't fear Mexico or the Azteca - Shearer",
    "desc": "Former England captain Alan Shearer explains why Thomas Tuchel's team will not be worried about the difficult conditions when they play Mexico at the Azteca Stadium.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
@@ -6004,15 +6013,6 @@
    "published": "2026-07-02T13:00:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0e3/live/a2756110-760d-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "In spotlight but shunning limelight - Olise's unique rise to top",
-   "desc": "A footballer who dislikes too much media attention, but Michael Olise might not have much choice if he carries on his World Cup heroics.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzr42943lo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T11:02:02Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec37/live/30515480-77ad-11f1-b21a-9d51504ec77b.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6043,6 +6043,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "In spotlight but shunning limelight - Olise's unique rise to top",
+   "desc": "A footballer who dislikes too much media attention, but Michael Olise might not have much choice if he carries on his World Cup heroics.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzr42943lo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T11:02:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ec37/live/30515480-77ad-11f1-b21a-9d51504ec77b.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
    "desc": "Cape Verde may have been the World Cup's second-smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
@@ -6058,15 +6067,6 @@
    "published": "2026-07-04T01:36:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a110/live/5dd8ea40-774d-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
-   "desc": "Lionel Messi's World Cup goals roadshow continued with his seventh of the tournament for Argentina against Cape Verde - and delighted the fans who were in Miami to see their hero.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm2jpkkdld4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T05:37:08Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00f5/live/caa8a4b0-7768-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
