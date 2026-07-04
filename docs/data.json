@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T08:54:49+00:00",
+ "generated_at": "2026-07-04T08:59:56+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3650,9 +3650,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 18.0,
+    "home": 19.0,
     "draw": 6.5,
-    "away": 1.18,
+    "away": 1.17,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
