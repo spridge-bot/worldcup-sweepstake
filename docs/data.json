@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T19:04:42+00:00",
+ "generated_at": "2026-07-04T19:05:07+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Willo",
+   "teams": [
+    "MAR",
+    "USA",
+    "COD",
+    "NZL"
+   ],
+   "total": 16,
+   "today": 3,
+   "rank": 2,
+   "movement": 0
+  },
+  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -41,8 +54,8 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -54,8 +67,8 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -67,21 +80,8 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 2,
-   "movement": 0
-  },
-  {
-   "name": "Willo",
-   "teams": [
-    "MAR",
-    "USA",
-    "COD",
-    "NZL"
-   ],
-   "total": 13,
-   "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -352,14 +352,19 @@
    "fifa_rank": 7,
    "owner": "Willo",
    "status": "alive",
-   "played": 4,
-   "won": 2,
+   "played": 5,
+   "won": 3,
    "drawn": 2,
    "lost": 0,
-   "gf": 7,
+   "gf": 10,
    "ga": 4,
-   "total": 5,
+   "total": 8,
    "events": [
+    {
+     "date": "2026-07-04",
+     "desc": "Won Round of 16 tie",
+     "points": 3
+    },
     {
      "date": "2026-06-30",
      "desc": "Won Round of 32 tie (on penalties)",
@@ -840,13 +845,13 @@
    "tier": 2,
    "fifa_rank": 30,
    "owner": "Dipen",
-   "status": "alive",
-   "played": 4,
+   "status": "out",
+   "played": 5,
    "won": 2,
    "drawn": 1,
-   "lost": 1,
+   "lost": 2,
    "gf": 9,
-   "ga": 3,
+   "ga": 6,
    "total": 5,
    "events": [
     {
@@ -1289,40 +1294,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760502,
+   "date": "2026-07-04",
    "utc": "2026-07-04T17:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "90'+9'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+9'",
-   "venue": "NRG Stadium",
+   "note": "",
+   "home": {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "tier": 2,
+    "goals": 0,
+    "points": 0
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "tier": 1,
+    "goals": 3,
+    "points": 3
+   },
    "odds": {
     "home": 5.0,
     "draw": 3.5,
     "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "CAN",
-    "name": "Canada",
-    "flag": "🇨🇦",
-    "owner": "Dipen",
-    "goals": 0
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "goals": 3
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760501,
    "date": "2026-07-04",
@@ -5078,11 +5082,11 @@
    "id": 760502,
    "utc": "2026-07-04T17:00:00Z",
    "stage": "LAST_16",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 0,
+   "ag": 3,
    "note": "",
-   "winner": null,
+   "winner": "MAR",
    "venue": "NRG Stadium",
    "home": {
     "code": "CAN",
@@ -5589,6 +5593,15 @@
    "pts": 12
   },
   {
+   "code": "CAN",
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "owner": "Dipen",
+   "yellow": 11,
+   "red": 0,
+   "pts": 11
+  },
+  {
    "code": "BEL",
    "name": "Belgium",
    "flag": "🇧🇪",
@@ -5638,15 +5651,6 @@
    "name": "Brazil",
    "flag": "🇧🇷",
    "owner": "George",
-   "yellow": 7,
-   "red": 0,
-   "pts": 7
-  },
-  {
-   "code": "CAN",
-   "name": "Canada",
-   "flag": "🇨🇦",
-   "owner": "Dipen",
    "yellow": 7,
    "red": 0,
    "pts": 7
@@ -5710,6 +5714,15 @@
    "name": "Iran",
    "flag": "🇮🇷",
    "owner": "Spridge",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
+   "code": "MAR",
+   "name": "Morocco",
+   "flag": "🇲🇦",
+   "owner": "Willo",
    "yellow": 6,
    "red": 0,
    "pts": 6
@@ -5920,15 +5933,6 @@
    "yellow": 3,
    "red": 0,
    "pts": 3
-  },
-  {
-   "code": "MAR",
-   "name": "Morocco",
-   "flag": "🇲🇦",
-   "owner": "Willo",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
   },
   {
    "code": "NOR",
