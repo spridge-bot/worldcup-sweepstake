@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T23:05:11+00:00",
+ "generated_at": "2026-07-04T23:10:17+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3697,9 +3697,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 1.83,
+    "home": 1.8,
     "draw": 3.75,
-    "away": 4.1,
+    "away": 4.3,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3839,6 +3839,25 @@
     "flag": "🇨🇴",
     "owner": "Ruggy",
     "form": "WDWWW"
+   }
+  },
+  {
+   "id": 760510,
+   "utc": "2026-07-09T20:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "form": "WWWWD"
    }
   }
  ],
@@ -5284,10 +5303,10 @@
    "winner": null,
    "venue": "Gillette Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 16 1 Winner",
-    "flag": "",
-    "owner": null
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge"
    },
    "away": {
     "code": "MAR",
