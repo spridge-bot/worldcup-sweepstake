@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T03:03:42+00:00",
+ "generated_at": "2026-07-04T03:04:07+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1290,9 +1290,9 @@
    "utc": "2026-07-04T01:30:00Z",
    "stage": "Round of 32",
    "group": null,
-   "clock": "69'",
-   "clock_sec": 4140.0,
-   "status_detail": "69'",
+   "clock": "70'",
+   "clock_sec": 4200.0,
+   "status_detail": "70'",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.44,
@@ -5951,21 +5951,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+   "desc": "Cape Verde may have been the World Cup's smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T03:00:43Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d7b4/live/b7fee070-774c-11f1-8e4e-2dc6898b0152.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England-Mexico kick-off unchanged after Fifa U-turn",
    "desc": "England's World Cup last-16 tie against Mexico will kick off as scheduled at 01:00 BST on Monday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-04T00:16:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rice likely to be available for England v Mexico",
-   "desc": "Declan Rice is likely to be available to start England's World Cup tie against Mexico despite an ongoing injury issue.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crm0pnnldeyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-03T22:02:50Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9adf/live/6055bf00-772a-11f1-a627-714adb4eed6e.jpg",
    "source": "BBC Sport"
   },
   {
@@ -5984,6 +5984,15 @@
    "published": "2026-07-03T10:39:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eff2/live/aa7d0530-7738-11f1-86a5-f1785a468aa8.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rice likely to be available for England v Mexico",
+   "desc": "Declan Rice is likely to be available to start England's World Cup tie against Mexico despite an ongoing injury issue.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crm0pnnldeyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-03T22:02:50Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9adf/live/6055bf00-772a-11f1-a627-714adb4eed6e.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6029,15 +6038,6 @@
    "published": "2026-07-03T08:41:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aaf7/live/060d9e70-76b5-11f1-925a-557464d48d36.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Secret location & sleep devices: England bid to combat noisy Mexico fans",
-   "desc": "England are taking precautions to ensure boisterous locals do not disrupt their preparations in Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74y7jwj30eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T19:26:15Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4e17/live/e9353cb0-7644-11f1-80e8-6762ba9fc358.jpg",
    "source": "BBC Sport"
   },
   {
