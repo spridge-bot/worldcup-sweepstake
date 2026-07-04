@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T22:13:54+00:00",
+ "generated_at": "2026-07-04T22:14:19+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1300,9 +1300,9 @@
    "utc": "2026-07-04T21:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "49'",
-   "clock_sec": 2940.0,
-   "status_detail": "49'",
+   "clock": "50'",
+   "clock_sec": 3000.0,
+   "status_detail": "50'",
    "venue": "Lincoln Financial Field",
    "odds": {
     "home": 19.0,
