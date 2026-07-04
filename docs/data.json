@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T19:04:18+00:00",
+ "generated_at": "2026-07-04T19:04:42+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -5275,10 +5275,10 @@
     "owner": null
    },
    "away": {
-    "code": null,
-    "name": "Round of 16 2 Winner",
-    "flag": "",
-    "owner": null
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo"
    }
   },
   {
