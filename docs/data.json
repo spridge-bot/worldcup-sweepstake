@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-04T02:23:13+00:00",
+ "generated_at": "2026-07-04T02:23:37+00:00",
  "mode": "live",
  "latest_day": "2026-07-03",
  "scoring": {
@@ -1292,7 +1292,7 @@
    "group": null,
    "clock": "45'+7'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+7'",
+   "status_detail": "HT",
    "venue": "GEHA Field at Arrowhead Stadium",
    "odds": {
     "home": 1.44,
