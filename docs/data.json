@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T22:04:56+00:00",
+ "generated_at": "2026-07-05T22:10:03+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -5366,10 +5366,10 @@
    "winner": null,
    "venue": "Hard Rock Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 16 3 Winner",
-    "flag": "",
-    "owner": null
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy"
    },
    "away": {
     "code": null,
