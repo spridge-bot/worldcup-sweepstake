@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T23:11:25+00:00",
+ "generated_at": "2026-07-05T23:16:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -6029,6 +6029,15 @@
  ],
  "news": [
   {
+   "headline": "England's match with Mexico delayed by an hour",
+   "desc": "England's World Cup last-16 match with Mexico in Mexico City is delayed by one hour because of severe weather and is set to kick off at 02:00 BST (19:00 local time).",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c78yy4x7n5jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T23:12:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Shelter-in-place order amid storm at Azteca before Mexico-England",
    "desc": "Supporters are told to stay in their seats as an electrical storm approaches Azteca Stadium before Mexico v England in the last 16 of the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss",
@@ -6062,15 +6071,6 @@
    "published": "2026-07-05T14:47:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ceb1/live/c46f6020-787b-11f1-8dd2-155623f15064.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England have struggled against low block - could they use it to beat Mexico?",
-   "desc": "England face Mexico in the last 16 of the World Cup in Mexico City - Thomas Tuchel could change tactics to combat the hosts and the altitude to book a place in the quarter-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq51p6787jlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T14:08:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3c67/live/7b6b01a0-7816-11f1-a76a-9924e1ee4969.jpg",
    "source": "BBC Sport"
   },
   {
