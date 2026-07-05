@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T19:32:35+00:00",
+ "generated_at": "2026-07-05T19:37:42+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3772,9 +3772,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.65,
+    "home": 2.6,
     "draw": 3.4,
-    "away": 2.65,
+    "away": 2.7,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6018,10 +6018,19 @@
  ],
  "news": [
   {
+   "headline": "Spence muscle problem adds to England right-back concerns",
+   "desc": "Djed Spence complains of a muscular niggle before the last-16 World Cup tie against Mexico, adding to England's concerns at right-back.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T19:32:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8c96/live/6ee04ed0-788a-11f1-8f2d-ffc475ec1126.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Trump thanks Fifa after USA striker Balogun's ban suspended",
    "desc": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T17:15:30Z",
+   "published": "2026-07-05T19:36:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0bf1/live/3ab6d9e0-7898-11f1-9510-1546718f668b.jpg",
    "source": "BBC Sport"
@@ -6063,21 +6072,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
-   "desc": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
-   "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T14:59:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why England won't fear Mexico or the Azteca - Shearer",
    "desc": "Former England captain Alan Shearer explains why Thomas Tuchel's team will not be worried about the difficult conditions when they play Mexico at the Azteca Stadium.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-04T18:51:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/10d3/live/a37c2e80-77d5-11f1-9510-1546718f668b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
+   "desc": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
+   "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T14:59:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6114,15 +6123,6 @@
    "published": "2026-07-02T13:00:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0e3/live/a2756110-760d-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T09:33:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
