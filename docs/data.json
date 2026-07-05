@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T20:35:40+00:00",
+ "generated_at": "2026-07-05T20:36:06+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1305,9 +1305,9 @@
    "utc": "2026-07-05T20:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "35'",
-   "clock_sec": 2100.0,
-   "status_detail": "35'",
+   "clock": "36'",
+   "clock_sec": 2160.0,
+   "status_detail": "36'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.87,
@@ -6026,7 +6026,7 @@
  "news": [
   {
    "headline": "Quansah set to start at right-back for England",
-   "desc": "Jarell Quansah is set to start at right back for England against Mexico in the World Cup round-of-16 tie at the Azteca stadium.",
+   "desc": "Jarell Quansah is set to start at right-back for England against Mexico in the World Cup last-16 tie at the Azteca stadium.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-05T20:31:31Z",
    "type": "Story",
