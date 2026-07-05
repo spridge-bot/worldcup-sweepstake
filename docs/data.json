@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T17:14:24+00:00",
+ "generated_at": "2026-07-05T17:19:31+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3722,9 +3722,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 3.1,
-    "draw": 3.15,
-    "away": 2.45,
+    "home": 3.05,
+    "draw": 3.1,
+    "away": 2.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6018,6 +6018,15 @@
  ],
  "news": [
   {
+   "headline": "USA striker Balogun's one-game ban suspended by Fifa",
+   "desc": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T17:15:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England battling history as well as Mexican nation in Azteca cauldron",
    "desc": "England will be battling against history as well as entire nation when the face Mexico in the World Cup last 16 at The Azteca, says chief football writer Phil McNulty.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvg7z7zxkw9o?at_medium=RSS&at_campaign=rss",
@@ -6114,15 +6123,6 @@
    "published": "2026-07-02T13:00:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0e3/live/a2756110-760d-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T09:33:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
