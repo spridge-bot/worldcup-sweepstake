@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-05T22:04:32+00:00",
+ "generated_at": "2026-07-05T22:04:56+00:00",
  "mode": "live",
- "latest_day": "2026-07-04",
+ "latest_day": "2026-07-05",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Glancy",
+   "teams": [
+    "GER",
+    "AUS",
+    "NOR",
+    "JOR"
+   ],
+   "total": 16,
+   "today": 3,
+   "rank": 2,
+   "movement": 1
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -40,7 +53,7 @@
     "NZL"
    ],
    "total": 16,
-   "today": 3,
+   "today": 0,
    "rank": 2,
    "movement": 0
   },
@@ -54,20 +67,7 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Glancy",
-   "teams": [
-    "GER",
-    "AUS",
-    "NOR",
-    "JOR"
-   ],
-   "total": 13,
-   "today": 0,
-   "rank": 3,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -80,7 +80,7 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 3,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -92,9 +92,9 @@
     "BIH"
    ],
    "total": 13,
-   "today": 3,
-   "rank": 3,
-   "movement": 6
+   "today": 0,
+   "rank": 4,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -107,7 +107,7 @@
    "total": 12,
    "today": 0,
    "rank": 7,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "George",
@@ -120,7 +120,7 @@
    "total": 12,
    "today": 0,
    "rank": 7,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -133,7 +133,7 @@
    "total": 11,
    "today": 0,
    "rank": 9,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -144,9 +144,9 @@
     "QAT"
    ],
    "total": 9,
-   "today": 2,
+   "today": 0,
    "rank": 10,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -159,7 +159,7 @@
    "total": 8,
    "today": 0,
    "rank": 11,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -328,13 +328,13 @@
    "tier": 1,
    "fifa_rank": 6,
    "owner": "George",
-   "status": "alive",
-   "played": 4,
+   "status": "out",
+   "played": 5,
    "won": 3,
    "drawn": 1,
-   "lost": 0,
-   "gf": 9,
-   "ga": 2,
+   "lost": 1,
+   "gf": 10,
+   "ga": 4,
    "total": 7,
    "events": [
     {
@@ -879,14 +879,19 @@
    "fifa_rank": 31,
    "owner": "Glancy",
    "status": "alive",
-   "played": 4,
-   "won": 3,
+   "played": 5,
+   "won": 4,
    "drawn": 0,
    "lost": 1,
-   "gf": 10,
-   "ga": 8,
-   "total": 5,
+   "gf": 12,
+   "ga": 9,
+   "total": 8,
    "events": [
+    {
+     "date": "2026-07-05",
+     "desc": "Won Round of 16 tie",
+     "points": 3
+    },
     {
      "date": "2026-06-30",
      "desc": "Won Round of 32 tie",
@@ -1299,40 +1304,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760504,
+   "date": "2026-07-05",
    "utc": "2026-07-05T20:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "90'+11'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+11'",
-   "venue": "MetLife Stadium",
+   "note": "",
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "tier": 1,
+    "goals": 1,
+    "points": 0
+   },
+   "away": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "tier": 2,
+    "goals": 2,
+    "points": 3
+   },
    "odds": {
     "home": 1.87,
     "draw": 3.8,
     "away": 4.1,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "goals": 1
-   },
-   "away": {
-    "code": "NOR",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "goals": 2
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760503,
    "date": "2026-07-04",
@@ -5171,11 +5175,11 @@
    "id": 760504,
    "utc": "2026-07-05T20:00:00Z",
    "stage": "LAST_16",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 1,
+   "ag": 2,
    "note": "",
-   "winner": null,
+   "winner": "NOR",
    "venue": "MetLife Stadium",
    "home": {
     "code": "BRA",
@@ -5681,6 +5685,15 @@
    "pts": 8
   },
   {
+   "code": "BRA",
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "owner": "George",
+   "yellow": 8,
+   "red": 0,
+   "pts": 8
+  },
+  {
    "code": "EGY",
    "name": "Egypt",
    "flag": "🇪🇬",
@@ -5688,15 +5701,6 @@
    "yellow": 8,
    "red": 0,
    "pts": 8
-  },
-  {
-   "code": "BRA",
-   "name": "Brazil",
-   "flag": "🇧🇷",
-   "owner": "George",
-   "yellow": 7,
-   "red": 0,
-   "pts": 7
   },
   {
    "code": "CUW",
