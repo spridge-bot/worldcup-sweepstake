@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T18:56:42+00:00",
+ "generated_at": "2026-07-05T19:01:49+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -3772,9 +3772,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.55,
-    "draw": 3.35,
-    "away": 2.75,
+    "home": 2.6,
+    "draw": 3.4,
+    "away": 2.7,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6054,15 +6054,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Stay humble - the Premier League feud about to hit world stage",
-   "desc": "The Premier League feud between Manchester City's Erling Haaland and Arsenal defender Gabriel goes global as Norway meet Brazil at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c2ky2x52kwlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T09:25:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7962/live/81b353d0-7723-11f1-aaf8-ff8f387d83a0.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "England enter the Azteca - where football kings are crowned",
    "desc": "BBC Sport explores the history and cultural power of the Azteca, one of the great cathedrals of world football, as England prepare to face Mexico there in the last 16 of the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss",
@@ -6123,6 +6114,15 @@
    "published": "2026-07-02T13:00:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0e3/live/a2756110-760d-11f1-a627-714adb4eed6e.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T09:33:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
