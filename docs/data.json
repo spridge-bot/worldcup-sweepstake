@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T09:28:46+00:00",
+ "generated_at": "2026-07-05T09:33:53+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -6018,8 +6018,17 @@
  ],
  "news": [
   {
+   "headline": "Stay humble - the Premier League feud about to hit world stage",
+   "desc": "The Premier League between Manchester City's Erling Haaland and Arsenal defender Erling Haaland goes global as Norway meet Brazil at the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2ky2x52kwlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T09:25:03Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7962/live/81b353d0-7723-11f1-aaf8-ff8f387d83a0.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England enter the Azteca - where football kings are crowned",
-   "desc": "BBC sport explores the history and cultural power of the Azteca, one of the great cathedrals of world football, as England prepare to face Mexico there in the last 16 of the World Cup.",
+   "desc": "BBC Sport explores the history and cultural power of the Azteca, one of the great cathedrals of world football, as England prepare to face Mexico there in the last 16 of the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-05T08:26:39Z",
    "type": "Story",
@@ -6054,15 +6063,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T09:33:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "France survive Paraguay's 'disgraceful' and 'embarrassing' dark arts",
    "desc": "After dismantling all before them at this World Cup, France had to find a new way to win against a Paraguay side whose use of the dark arts angered many of those watching.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cn4dpd11v1eo?at_medium=RSS&at_campaign=rss",
@@ -6078,6 +6078,15 @@
    "published": "2026-07-05T07:57:34Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/67be/live/95c1a080-7844-11f1-b976-0b9c15b0ccfc.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T09:33:37Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6114,15 +6123,6 @@
    "published": "2026-07-04T14:22:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9b80/live/0589a750-74c6-11f1-b3a4-17c48cb4ee82.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Lightning, hotel security and spying - issues England face in Mexico",
-   "desc": "England are booed as they arrive at their Mexico City hotel to prepare for their World Cup last-16 game against Mexico - and it's not the only issue they face.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2x1gwwjego?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T11:23:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/90b1/live/6108c870-7784-11f1-a146-99f41269c606.png",
    "source": "BBC Sport"
   }
  ]
