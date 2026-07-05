@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T22:01:42+00:00",
+ "generated_at": "2026-07-05T22:02:06+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1305,9 +1305,9 @@
    "utc": "2026-07-05T20:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "90'+8'",
+   "clock": "90'+9'",
    "clock_sec": 5400.0,
-   "status_detail": "90'+8'",
+   "status_detail": "90'+9'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.87,
