@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T21:16:41+00:00",
+ "generated_at": "2026-07-05T21:17:04+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1305,9 +1305,9 @@
    "utc": "2026-07-05T20:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "54'",
-   "clock_sec": 3240.0,
-   "status_detail": "54'",
+   "clock": "55'",
+   "clock_sec": 3300.0,
+   "status_detail": "55'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 1.87,
@@ -6025,6 +6025,15 @@
  ],
  "news": [
   {
+   "headline": "Shelter-in-place order at Azteca before Mexico-England",
+   "desc": "The Azteca Stadium issues a shelter-in-place order because of severe weather before the last-16 World Cup tie between Mexico and England.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T21:14:15Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Quansah set to start at right-back for England",
    "desc": "Jarell Quansah is set to start at right-back for England against Mexico in the World Cup last-16 tie at the Azteca stadium.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss",
@@ -6121,15 +6130,6 @@
    "published": "2026-07-05T07:57:34Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/67be/live/95c1a080-7844-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England have 'big concerns' - so who would you pick to face Mexico?",
-   "desc": "Who should play at right-back? Does Anthony Gordon deserve to start? Select and share your England team to face Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr7x18r0z59o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T13:00:15Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f0e3/live/a2756110-760d-11f1-a627-714adb4eed6e.jpg",
    "source": "BBC Sport"
   }
  ]
