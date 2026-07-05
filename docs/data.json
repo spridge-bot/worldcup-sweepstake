@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T21:52:21+00:00",
+ "generated_at": "2026-07-05T21:52:45+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1328,7 +1328,7 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -5469,6 +5469,14 @@
  ],
  "scorers": [
   {
+   "player": "Erling Haaland",
+   "team": "NOR",
+   "goals": 7,
+   "assists": 0,
+   "flag": "🇳🇴",
+   "owner": "Glancy"
+  },
+  {
    "player": "Kylian Mbappé",
    "team": "FRA",
    "goals": 7,
@@ -5483,14 +5491,6 @@
    "assists": 0,
    "flag": "🇦🇷",
    "owner": "Fergs"
-  },
-  {
-   "player": "Erling Haaland",
-   "team": "NOR",
-   "goals": 6,
-   "assists": 0,
-   "flag": "🇳🇴",
-   "owner": "Glancy"
   },
   {
    "player": "Harry Kane",
@@ -6026,9 +6026,9 @@
  "news": [
   {
    "headline": "Shelter-in-place order at Azteca before Mexico-England because of weather",
-   "desc": "The Azteca Stadium issues a shelter-in-place order because of severe weather before the last-16 World Cup tie between Mexico and England.",
+   "desc": "Supporters are told to stay in their seats as an electrical storm approaches the Azteca Stadium before Mexico v England in the last 16 of the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T21:28:10Z",
+   "published": "2026-07-05T21:52:07Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2117/live/8c88b0c0-78b8-11f1-a153-7f64e09767e4.jpg",
    "source": "BBC Sport"
