@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T20:01:02+00:00",
+ "generated_at": "2026-07-05T20:01:19+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -1299,7 +1299,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760504,
+   "utc": "2026-07-05T20:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "MetLife Stadium",
+   "odds": {
+    "home": 1.87,
+    "draw": 3.8,
+    "away": 4.1,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "owner": "George",
+    "goals": 0
+   },
+   "away": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760503,
@@ -3692,31 +3724,6 @@
  ],
  "upcoming": [
   {
-   "id": 760504,
-   "utc": "2026-07-05T20:00:00Z",
-   "stage": "Round of 16",
-   "group": null,
-   "odds": {
-    "home": 1.74,
-    "draw": 3.7,
-    "away": 4.7,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "owner": "George",
-    "form": "WWWDW"
-   },
-   "away": {
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "form": "WLWWD"
-   }
-  },
-  {
    "id": 760505,
    "utc": "2026-07-06T00:00:00Z",
    "stage": "Round of 16",
@@ -5164,7 +5171,7 @@
    "id": 760504,
    "utc": "2026-07-05T20:00:00Z",
    "stage": "LAST_16",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
