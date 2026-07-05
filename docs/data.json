@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T15:11:32+00:00",
+ "generated_at": "2026-07-05T15:16:38+00:00",
  "mode": "live",
  "latest_day": "2026-07-04",
  "scoring": {
@@ -6081,6 +6081,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
+   "desc": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
+   "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T14:59:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
    "desc": "The BBC will be launching a special 'Stay Up or Catch Up' offer for its live coverage of England's game against Mexico at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss",
@@ -6114,15 +6123,6 @@
    "published": "2026-07-04T09:33:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
-   "desc": "As  Morocco beat Canada to book their place in the last-8, their World Cup campaign can no longer be seen as a fairytale.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T21:20:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9140/live/2df0c2e0-77e7-11f1-b24a-2dac1f24311d.jpg",
    "source": "BBC Sport"
   }
  ]
