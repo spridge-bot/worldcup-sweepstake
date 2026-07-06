@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T19:49:54+00:00",
+ "generated_at": "2026-07-06T19:50:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -1315,9 +1315,9 @@
    "utc": "2026-07-06T19:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "45'+4'",
+   "clock": "45'+5'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+4'",
+   "status_detail": "45'+5'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 4.1,
