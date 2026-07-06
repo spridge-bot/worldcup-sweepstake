@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T10:10:02+00:00",
+ "generated_at": "2026-07-06T10:15:08+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3794,9 +3794,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.4,
-    "draw": 3.15,
-    "away": 2.55,
+    "home": 2.35,
+    "draw": 3.1,
+    "away": 2.6,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3894,9 +3894,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 3.6,
+    "home": 3.7,
     "draw": 3.3,
-    "away": 1.83,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
