@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T01:51:00+00:00",
+ "generated_at": "2026-07-06T01:51:25+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -1312,7 +1312,7 @@
    "group": null,
    "clock": "45'+6'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+6'",
+   "status_detail": "HT",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 3.2,
