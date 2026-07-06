@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T04:37:46+00:00",
+ "generated_at": "2026-07-06T04:42:53+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3894,9 +3894,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 3.8,
-    "draw": 3.5,
-    "away": 1.95,
+    "home": 3.7,
+    "draw": 3.55,
+    "away": 2.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6097,16 +6097,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c9822ez0zdwo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-06T04:19:26Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/124a/live/4a952040-78ef-11f1-b5ef-67aee6df60e2.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who produced another iconic performance? England player ratings",
-   "desc": "BBC Sport England reporter Alex Howell rates how the Three Lions players performed in the last-16 win over Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8r40y5r9eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T03:09:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/634b/live/58c54310-78e6-11f1-9510-1546718f668b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/559c/live/a9bf5cc0-78f4-11f1-8e46-6db52e15aebd.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6128,6 +6119,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Who produced another iconic performance? England player ratings",
+   "desc": "BBC Sport England reporter Alex Howell rates how the Three Lions players performed in the last-16 win over Mexico.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8r40y5r9eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T03:09:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/634b/live/58c54310-78e6-11f1-9510-1546718f668b.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Red card system in disarray over Trump, Fifa and Balogun decision",
    "desc": "The decision to effectively overturn the red card shown to United States forward Folarin Balogun leaves many unanswered questions.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
@@ -6146,15 +6146,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Queiroz leaves Ghana following World Cup exit",
-   "desc": "Carlos Queiroz steps down as Ghana head coach after three months in charge following their World Cup exit.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyxx288yr6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T22:55:27Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1442/live/b8f4c1c0-78c3-11f1-ac00-0d885db30249.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
    "desc": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
    "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
@@ -6170,6 +6161,15 @@
    "published": "2026-07-02T21:33:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Ranking 10 stars who could be at their last World Cup",
+   "desc": "A number of the world's best players are likely playing in their last World Cup. Here's how I think they rank.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c04yvw3w1w6o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-30T11:44:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
    "source": "BBC Sport"
   }
  ]
