@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T19:00:46+00:00",
+ "generated_at": "2026-07-06T19:01:02+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -1309,7 +1309,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760506,
+   "utc": "2026-07-06T19:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 4.1,
+    "draw": 3.6,
+    "away": 1.91,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760505,
@@ -3764,31 +3796,6 @@
  ],
  "upcoming": [
   {
-   "id": 760506,
-   "utc": "2026-07-06T19:00:00Z",
-   "stage": "Round of 16",
-   "group": null,
-   "odds": {
-    "home": 3.9,
-    "draw": 3.55,
-    "away": 1.95,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "form": "WDWDW"
-   },
-   "away": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WWWDW"
-   }
-  },
-  {
    "id": 760507,
    "utc": "2026-07-07T00:00:00Z",
    "stage": "Round of 16",
@@ -5257,7 +5264,7 @@
    "id": 760506,
    "utc": "2026-07-06T19:00:00Z",
    "stage": "LAST_16",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
@@ -6083,6 +6090,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Mbappe condemns racist posts from Paraguay senator",
+   "desc": "France forward Kylian Mbappe condemns a Paraguayan senator as \"despicable\" and unworthy of her position after she made a number of racist remarks mocking his origin and education.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg557wxrzro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T18:58:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/475d/live/55601310-796a-11f1-9ade-614b823fa1e3.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "An incredible night when England heroes were made",
    "desc": "On a spine-tingling night of drama, emotion and pure theatre in one of sport's most atmospheric arenas, England delivered one of their greatest performances.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjrgg07p8dlo?at_medium=RSS&at_campaign=rss",
@@ -6098,15 +6114,6 @@
    "published": "2026-07-06T13:58:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/09db/live/3f792730-7938-11f1-a8cf-13bdb1aa2cdd.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'You've been trying to kill me for 23 years' - should Ronaldo start?",
-   "desc": "Appearing at his sixth World Cup, will Cristiano Ronaldo lift the famous trophy for the first time before he retires?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz7523l9rdvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T11:21:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/18a2/live/5c5dfe00-7895-11f1-b200-7987f6593f8c.jpg",
    "source": "BBC Sport"
   },
   {
