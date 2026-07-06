@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T01:42:31+00:00",
+ "generated_at": "2026-07-06T01:42:54+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -1310,9 +1310,9 @@
    "utc": "2026-07-06T01:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "42'",
-   "clock_sec": 2520.0,
-   "status_detail": "42'",
+   "clock": "43'",
+   "clock_sec": 2580.0,
+   "status_detail": "43'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 3.2,
@@ -1326,7 +1326,7 @@
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Dipen",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "ENG",
@@ -5528,6 +5528,14 @@
    "owner": "Brando"
   },
   {
+   "player": "Julián Quiñones",
+   "team": "MEX",
+   "goals": 4,
+   "assists": 0,
+   "flag": "🇲🇽",
+   "owner": "Dipen"
+  },
+  {
    "player": "Mikel Oyarzabal",
    "team": "ESP",
    "goals": 4,
@@ -5589,14 +5597,6 @@
    "goals": 3,
    "assists": 0,
    "flag": "🇳🇿",
-   "owner": "Willo"
-  },
-  {
-   "player": "Folarin Balogun",
-   "team": "USA",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇺🇸",
    "owner": "Willo"
   }
  ],
