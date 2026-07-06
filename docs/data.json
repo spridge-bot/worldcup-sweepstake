@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T01:00:58+00:00",
+ "generated_at": "2026-07-06T01:01:15+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -1304,7 +1304,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760505,
+   "utc": "2026-07-06T01:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "Estadio Banorte",
+   "odds": {
+    "home": 3.2,
+    "draw": 3.15,
+    "away": 2.4,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "owner": "Dipen",
+    "goals": 0
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760504,
@@ -3728,31 +3760,6 @@
  ],
  "upcoming": [
   {
-   "id": 760505,
-   "utc": "2026-07-06T01:00:00Z",
-   "stage": "Round of 16",
-   "group": null,
-   "odds": {
-    "home": 3.2,
-    "draw": 3.15,
-    "away": 2.4,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen",
-    "form": null
-   },
-   "away": {
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "form": null
-   }
-  },
-  {
    "id": 760506,
    "utc": "2026-07-06T19:00:00Z",
    "stage": "Round of 16",
@@ -5198,7 +5205,7 @@
    "id": 760505,
    "utc": "2026-07-06T01:00:00Z",
    "stage": "LAST_16",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
