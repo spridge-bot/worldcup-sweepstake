@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T11:22:24+00:00",
+ "generated_at": "2026-07-06T11:27:30+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -6083,6 +6083,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'You've been trying to kill me for 23 years' - should Ronaldo start?",
+   "desc": "Appearing at his sixth World Cup, will Cristiano Ronaldo lift the famous trophy for the first time before he retires?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz7523l9rdvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T11:21:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/18a2/live/5c5dfe00-7895-11f1-b200-7987f6593f8c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The man England will fear most - Haaland fires Norway to history",
    "desc": "Erling Haaland has scored seven goals in four World Cup games and he is the striker that nobody wants to face as he fires Norway into an historic quarter-final.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss",
@@ -6161,15 +6170,6 @@
    "published": "2026-07-06T02:50:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9551/live/e107a9a0-7901-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England into quarter-finals - what is their path to the final?",
-   "desc": "BBC Sport takes a look at what England will need to do to reach the final after progressing the quarter-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T03:27:53Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1b84/live/85f4ebd0-78e9-11f1-a627-714adb4eed6e.png",
    "source": "BBC Sport"
   }
  ]
