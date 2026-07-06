@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T11:58:23+00:00",
+ "generated_at": "2026-07-06T12:03:30+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -6128,6 +6128,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How England used five mini games to beat Mexico",
+   "desc": "The tactical breakdown of how Thomas Tuchel's 10-man England pulled off a remarkable World Cup win in a hostile Mexico City.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx113327eyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T11:57:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46e3/live/455e11e0-7930-11f1-84e1-059650f3613e.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Where does Mexico win rank among England's best results?",
    "desc": "BBC Sport looks at some of England's most famous away victories after their epic win against Mexico at the Azteca - plus you can have your say.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgevv1r30w1o?at_medium=RSS&at_campaign=rss",
@@ -6161,15 +6170,6 @@
    "published": "2026-07-06T05:51:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f140/live/fa774280-78f0-11f1-8999-a1de4af6aa67.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "World Cup referees are just not good enough - Tuchel",
-   "desc": "England head coach Thomas Tuchel says referees at the World Cup \"are just not good enough\" after the dramatic last-16 win over Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T02:50:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9551/live/e107a9a0-7901-11f1-9510-1546718f668b.jpg",
    "source": "BBC Sport"
   }
  ]
