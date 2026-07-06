@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T14:42:13+00:00",
+ "generated_at": "2026-07-06T14:47:20+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -6065,6 +6065,15 @@
  ],
  "news": [
   {
+   "headline": "Trump confirms he asked Fifa to review Balogun ban",
+   "desc": "United States President Donald Trump says Fifa \"made the right decision\" to suspend Folarin Balogun's one-match ban, adding that otherwise, it would have left a \"big stain\" on the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T14:39:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "An incredible night when England heroes were made",
    "desc": "On a spine-tingling night of drama, emotion and pure theatre in one of sport's most atmospheric arenas, England delivered one of their greatest performances.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjrgg07p8dlo?at_medium=RSS&at_campaign=rss",
@@ -6110,21 +6119,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Neymar says Brazil career over after Norway defeat",
-   "desc": "An emotional Neymar says his international career for Brazil is \"over\" following his side's exit at the 2026 World Cup at the hands of Norway.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyww4w1rl8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T06:29:41Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2aeb/live/3efef320-7901-11f1-a747-b74b596ba83c.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "How England used five mini games to beat Mexico",
    "desc": "The tactical breakdown of how Thomas Tuchel's 10-man England pulled off a remarkable World Cup win in a hostile Mexico City.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqx113327eyo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-06T11:57:53Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46e3/live/455e11e0-7930-11f1-84e1-059650f3613e.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Neymar says Brazil career over after Norway defeat",
+   "desc": "An emotional Neymar says his international career for Brazil is \"over\" following his side's exit at the 2026 World Cup at the hands of Norway.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyww4w1rl8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T06:29:41Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2aeb/live/3efef320-7901-11f1-a747-b74b596ba83c.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6161,15 +6170,6 @@
    "published": "2026-07-06T05:29:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c186/live/7e7d27f0-78f8-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Iconic match at iconic stadium' - England win down to 'pure will'",
-   "desc": "England are praised for showing \"heart and belief\" as they beat Mexico in an \"iconic match at an iconic stadium\" to reach the World Cup quarter-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly00xq39n1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T05:51:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f140/live/fa774280-78f0-11f1-8999-a1de4af6aa67.jpg",
    "source": "BBC Sport"
   }
  ]
