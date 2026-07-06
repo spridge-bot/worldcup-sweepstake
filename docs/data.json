@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-06T03:05:18+00:00",
+ "generated_at": "2026-07-06T03:05:42+00:00",
  "mode": "live",
- "latest_day": "2026-07-05",
+ "latest_day": "2026-07-06",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 16,
+   "today": 3,
+   "rank": 2,
+   "movement": 2
+  },
+  {
    "name": "Glancy",
    "teams": [
     "GER",
@@ -40,9 +53,9 @@
     "JOR"
    ],
    "total": 16,
-   "today": 3,
+   "today": 0,
    "rank": 2,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Willo",
@@ -58,19 +71,6 @@
    "movement": 0
   },
   {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 13,
-   "today": 0,
-   "rank": 4,
-   "movement": -1
-  },
-  {
    "name": "Jen",
    "teams": [
     "ESP",
@@ -80,7 +80,7 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 4,
+   "rank": 5,
    "movement": -1
   },
   {
@@ -93,7 +93,7 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 4,
+   "rank": 5,
    "movement": -1
   },
   {
@@ -273,14 +273,19 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 4,
-   "won": 3,
+   "played": 5,
+   "won": 4,
    "drawn": 1,
    "lost": 0,
-   "gf": 8,
-   "ga": 3,
-   "total": 7,
+   "gf": 11,
+   "ga": 5,
+   "total": 10,
    "events": [
+    {
+     "date": "2026-07-06",
+     "desc": "Won Round of 16 tie",
+     "points": 3
+    },
     {
      "date": "2026-07-01",
      "desc": "Won Round of 32 tie",
@@ -514,13 +519,13 @@
    "tier": 1,
    "fifa_rank": 14,
    "owner": "Dipen",
-   "status": "alive",
-   "played": 4,
+   "status": "out",
+   "played": 5,
    "won": 4,
    "drawn": 0,
-   "lost": 0,
-   "gf": 8,
-   "ga": 0,
+   "lost": 1,
+   "gf": 10,
+   "ga": 3,
    "total": 7,
    "events": [
     {
@@ -1304,40 +1309,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760505,
+   "date": "2026-07-06",
    "utc": "2026-07-06T01:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "90'+12'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+12'",
-   "venue": "Estadio Banorte",
+   "note": "",
+   "home": {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "tier": 1,
+    "goals": 2,
+    "points": 0
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 3,
+    "points": 3
+   },
    "odds": {
     "home": 3.2,
     "draw": 3.15,
     "away": 2.4,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "owner": "Dipen",
-    "goals": 2
-   },
-   "away": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 3
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760504,
    "date": "2026-07-05",
@@ -5205,11 +5209,11 @@
    "id": 760505,
    "utc": "2026-07-06T01:00:00Z",
    "stage": "LAST_16",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 3,
    "note": "",
-   "winner": null,
+   "winner": "ENG",
    "venue": "Estadio Banorte",
    "home": {
     "code": "MEX",
@@ -5647,6 +5651,15 @@
    "pts": 12
   },
   {
+   "code": "ENG",
+   "name": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando",
+   "yellow": 7,
+   "red": 1,
+   "pts": 11
+  },
+  {
    "code": "CAN",
    "name": "Canada",
    "flag": "🇨🇦",
@@ -5692,6 +5705,15 @@
    "pts": 8
   },
   {
+   "code": "MEX",
+   "name": "Mexico",
+   "flag": "🇲🇽",
+   "owner": "Dipen",
+   "yellow": 4,
+   "red": 1,
+   "pts": 8
+  },
+  {
    "code": "BRA",
    "name": "Brazil",
    "flag": "🇧🇷",
@@ -5726,15 +5748,6 @@
    "yellow": 7,
    "red": 0,
    "pts": 7
-  },
-  {
-   "code": "MEX",
-   "name": "Mexico",
-   "flag": "🇲🇽",
-   "owner": "Dipen",
-   "yellow": 2,
-   "red": 1,
-   "pts": 6
   },
   {
    "code": "COL",
@@ -5948,15 +5961,6 @@
    "name": "Argentina",
    "flag": "🇦🇷",
    "owner": "Fergs",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "ENG",
-   "name": "England",
-   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "owner": "Brando",
    "yellow": 3,
    "red": 0,
    "pts": 3
