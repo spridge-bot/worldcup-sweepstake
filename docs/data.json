@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T04:22:25+00:00",
+ "generated_at": "2026-07-06T04:27:32+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3794,9 +3794,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.6,
+    "home": 2.55,
     "draw": 3.4,
-    "away": 2.65,
+    "away": 2.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6092,6 +6092,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England's Henderson injures wrist in World Cup celebrations",
+   "desc": "England midfielder Jordan Henderson suffered a \"really bad\" while celebrating his side's World Cup win over Mexico, head coach Thomas Tuchel says.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9822ez0zdwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T04:19:26Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/124a/live/4a952040-78ef-11f1-b5ef-67aee6df60e2.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Who produced another iconic performance? England player ratings",
    "desc": "BBC Sport England reporter Alex Howell rates how the Three Lions players performed in the last-16 win over Mexico.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8r40y5r9eo?at_medium=RSS&at_campaign=rss",
@@ -6110,21 +6119,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Red card system in disarray over Trump, Fifa and Balogun decision",
-   "desc": "The decision to effectively overturn the red card shown to United States forward Folarin Balogun leaves many unanswered questions.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T23:57:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4bd9/live/bba5b650-78d6-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Trump thanks Fifa after USA striker Balogun's ban suspended",
    "desc": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-05T19:36:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0bf1/live/3ab6d9e0-7898-11f1-9510-1546718f668b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Red card system in disarray over Trump, Fifa and Balogun decision",
+   "desc": "The decision to effectively overturn the red card shown to United States forward Folarin Balogun leaves many unanswered questions.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T23:57:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4bd9/live/bba5b650-78d6-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6152,15 +6161,6 @@
    "published": "2026-07-05T14:59:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "France survive Paraguay's 'disgraceful' and 'embarrassing' dark arts",
-   "desc": "After dismantling all before them at this World Cup, France had to find a new way to win against a Paraguay side whose use of the dark arts angered many of those watching.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cn4dpd11v1eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T01:53:01Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/391f/live/bd051c20-780e-11f1-b37e-11764f8e5983.jpg",
    "source": "BBC Sport"
   },
   {
