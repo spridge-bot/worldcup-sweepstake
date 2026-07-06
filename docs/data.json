@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T01:38:49+00:00",
+ "generated_at": "2026-07-06T01:39:13+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -1310,9 +1310,9 @@
    "utc": "2026-07-06T01:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "38'",
-   "clock_sec": 2280.0,
-   "status_detail": "38'",
+   "clock": "39'",
+   "clock_sec": 2340.0,
+   "status_detail": "39'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 3.2,
@@ -1333,7 +1333,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -5520,6 +5520,14 @@
    "owner": "Fergs"
   },
   {
+   "player": "Jude Bellingham",
+   "team": "ENG",
+   "goals": 4,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
+  },
+  {
    "player": "Mikel Oyarzabal",
    "team": "ESP",
    "goals": 4,
@@ -5589,14 +5597,6 @@
    "goals": 3,
    "assists": 0,
    "flag": "🇺🇸",
-   "owner": "Willo"
-  },
-  {
-   "player": "Ismael Saibari",
-   "team": "MAR",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇲🇦",
    "owner": "Willo"
   }
  ],
