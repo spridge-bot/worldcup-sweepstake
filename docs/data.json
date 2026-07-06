@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T02:13:21+00:00",
+ "generated_at": "2026-07-06T02:13:45+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -1310,9 +1310,9 @@
    "utc": "2026-07-06T01:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "50'",
-   "clock_sec": 3000.0,
-   "status_detail": "50'",
+   "clock": "51'",
+   "clock_sec": 3060.0,
+   "status_detail": "51'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 3.2,
