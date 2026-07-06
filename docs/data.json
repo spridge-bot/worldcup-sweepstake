@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T01:08:06+00:00",
+ "generated_at": "2026-07-06T01:08:30+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -1310,9 +1310,9 @@
    "utc": "2026-07-06T01:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "7'",
-   "clock_sec": 420.0,
-   "status_detail": "7'",
+   "clock": "8'",
+   "clock_sec": 480.0,
+   "status_detail": "8'",
    "venue": "Estadio Banorte",
    "odds": {
     "home": 3.2,
@@ -6081,15 +6081,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Why England won't fear Mexico or the Azteca - Shearer",
-   "desc": "Former England captain Alan Shearer explains why Thomas Tuchel's team will not be worried about the difficult conditions when they play Mexico at the Azteca Stadium.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-04T18:51:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/10d3/live/a37c2e80-77d5-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Mexico fans fail in bid to wake up England players",
    "desc": "England players feel little to no impact of Mexico fans attempting to disturb their sleep by letting off fireworks outside their hotel.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx244m0mzr7o?at_medium=RSS&at_campaign=rss",
@@ -6141,6 +6132,15 @@
    "published": "2026-07-04T09:33:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
