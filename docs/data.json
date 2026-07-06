@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T03:05:42+00:00",
+ "generated_at": "2026-07-06T03:10:49+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3794,9 +3794,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.65,
-    "draw": 3.45,
-    "away": 2.6,
+    "home": 2.6,
+    "draw": 3.4,
+    "away": 2.65,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3886,6 +3886,25 @@
     "flag": "🇲🇦",
     "owner": "Willo",
     "form": "WWWWD"
+   }
+  },
+  {
+   "id": 760512,
+   "utc": "2026-07-11T21:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "form": "WWLWW"
+   },
+   "away": {
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "form": "WWWDW"
    }
   }
  ],
@@ -5383,10 +5402,10 @@
     "owner": "Glancy"
    },
    "away": {
-    "code": null,
-    "name": "Round of 16 4 Winner",
-    "flag": "",
-    "owner": null
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando"
    }
   },
   {
@@ -6058,12 +6077,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Rate the players in Mexico v England",
-   "desc": "Rate the Mexico and England players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+   "headline": "Who produced another iconic performance? England player ratings",
+   "desc": "BBC Sport England reporter Alex Howell rates how the Three Lions players performed in the last-16 win over Mexico.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8r40y5r9eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T01:50:53Z",
+   "published": "2026-07-06T03:09:44Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5f4c/live/928ee9d0-7665-11f1-b976-0b9c15b0ccfc.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/634b/live/58c54310-78e6-11f1-9510-1546718f668b.jpg",
    "source": "BBC Sport"
   },
   {
