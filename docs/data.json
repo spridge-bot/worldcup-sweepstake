@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T21:02:23+00:00",
+ "generated_at": "2026-07-06T21:02:48+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -58,6 +58,19 @@
    "movement": 0
   },
   {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 16,
+   "today": 3,
+   "rank": 2,
+   "movement": 2
+  },
+  {
    "name": "Willo",
    "teams": [
     "MAR",
@@ -71,19 +84,6 @@
    "movement": 0
   },
   {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 13,
-   "today": 0,
-   "rank": 5,
-   "movement": -1
-  },
-  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -93,8 +93,8 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 5,
-   "movement": -1
+   "rank": 6,
+   "movement": -2
   },
   {
    "name": "Emily",
@@ -212,14 +212,19 @@
    "fifa_rank": 2,
    "owner": "Jen",
    "status": "alive",
-   "played": 4,
-   "won": 3,
+   "played": 5,
+   "won": 4,
    "drawn": 1,
    "lost": 0,
-   "gf": 8,
+   "gf": 9,
    "ga": 0,
-   "total": 7,
+   "total": 10,
    "events": [
+    {
+     "date": "2026-07-06",
+     "desc": "Won Round of 16 tie",
+     "points": 3
+    },
     {
      "date": "2026-07-02",
      "desc": "Won Round of 32 tie",
@@ -305,13 +310,13 @@
    "tier": 1,
    "fifa_rank": 5,
    "owner": "Dipen",
-   "status": "alive",
-   "played": 4,
+   "status": "out",
+   "played": 5,
    "won": 2,
    "drawn": 2,
-   "lost": 0,
+   "lost": 1,
    "gf": 8,
-   "ga": 2,
+   "ga": 3,
    "total": 5,
    "events": [
     {
@@ -1309,40 +1314,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760506,
+   "date": "2026-07-06",
    "utc": "2026-07-06T19:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "90'+9'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+9'",
-   "venue": "AT&T Stadium",
+   "note": "",
+   "home": {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "tier": 1,
+    "goals": 0,
+    "points": 0
+   },
+   "away": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "tier": 1,
+    "goals": 1,
+    "points": 3
+   },
    "odds": {
     "home": 4.1,
     "draw": 3.6,
     "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "POR",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "owner": "Dipen",
-    "goals": 0
-   },
-   "away": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760505,
    "date": "2026-07-06",
@@ -5264,11 +5268,11 @@
    "id": 760506,
    "utc": "2026-07-06T19:00:00Z",
    "stage": "LAST_16",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 0,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "ESP",
    "venue": "AT&T Stadium",
    "home": {
     "code": "POR",
@@ -5782,6 +5786,15 @@
    "pts": 7
   },
   {
+   "code": "POR",
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "owner": "Dipen",
+   "yellow": 7,
+   "red": 0,
+   "pts": 7
+  },
+  {
    "code": "COL",
    "name": "Colombia",
    "flag": "🇨🇴",
@@ -5867,15 +5880,6 @@
    "name": "Panama",
    "flag": "🇵🇦",
    "owner": "Dubs",
-   "yellow": 5,
-   "red": 0,
-   "pts": 5
-  },
-  {
-   "code": "POR",
-   "name": "Portugal",
-   "flag": "🇵🇹",
-   "owner": "Dipen",
    "yellow": 5,
    "red": 0,
    "pts": 5
@@ -6016,6 +6020,15 @@
    "pts": 3
   },
   {
+   "code": "ESP",
+   "name": "Spain",
+   "flag": "🇪🇸",
+   "owner": "Jen",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "SUI",
    "name": "Switzerland",
    "flag": "🇨🇭",
@@ -6038,15 +6051,6 @@
    "name": "Norway",
    "flag": "🇳🇴",
    "owner": "Glancy",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
-  },
-  {
-   "code": "ESP",
-   "name": "Spain",
-   "flag": "🇪🇸",
-   "owner": "Jen",
    "yellow": 2,
    "red": 0,
    "pts": 2
