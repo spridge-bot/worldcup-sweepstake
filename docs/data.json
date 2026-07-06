@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T03:51:44+00:00",
+ "generated_at": "2026-07-06T03:56:51+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3893,7 +3893,13 @@
    "utc": "2026-07-11T21:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 3.8,
+    "draw": 3.5,
+    "away": 1.95,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Norway",
     "flag": "🇳🇴",
