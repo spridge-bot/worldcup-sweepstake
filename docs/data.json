@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T21:02:48+00:00",
+ "generated_at": "2026-07-06T21:07:55+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -5390,10 +5390,10 @@
    "winner": null,
    "venue": "SoFi Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 16 5 Winner",
-    "flag": "",
-    "owner": null
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen"
    },
    "away": {
     "code": null,
