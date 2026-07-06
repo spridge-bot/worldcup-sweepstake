@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T17:36:11+00:00",
+ "generated_at": "2026-07-06T17:41:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3769,9 +3769,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 3.95,
+    "home": 4.1,
     "draw": 3.55,
-    "away": 1.95,
+    "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6074,6 +6074,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "James expected to return for England-Norway tie",
+   "desc": "England manager Thomas Tuchel expects Reece James to be available for the World Cup quarter-final against Norway on Saturday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2xxl6772no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T17:37:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6cb9/live/e685e4d0-795d-11f1-b461-8fc790ffbac8.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "An incredible night when England heroes were made",
    "desc": "On a spine-tingling night of drama, emotion and pure theatre in one of sport's most atmospheric arenas, England delivered one of their greatest performances.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjrgg07p8dlo?at_medium=RSS&at_campaign=rss",
@@ -6161,15 +6170,6 @@
    "published": "2026-07-06T11:07:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3e05/live/70ff3900-784f-11f1-9cc3-8d218550015b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How Mexico's World Cup run brought joy after a year of fear",
-   "desc": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside Mexico.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T05:29:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c186/live/7e7d27f0-78f8-11f1-9510-1546718f668b.jpg",
    "source": "BBC Sport"
   }
  ]
