@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T23:57:30+00:00",
+ "generated_at": "2026-07-06T00:02:36+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -3733,9 +3733,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 3.05,
-    "draw": 3.0,
-    "away": 2.55,
+    "home": 3.2,
+    "draw": 3.15,
+    "away": 2.4,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3743,13 +3743,13 @@
     "name": "Mexico",
     "flag": "🇲🇽",
     "owner": "Dipen",
-    "form": "WWWWW"
+    "form": null
    },
    "away": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": "WWDWW"
+    "form": null
    }
   },
   {
@@ -6038,6 +6038,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Balogun decision leaves red card system in disarray",
+   "desc": "The decision to effectively overturn the red card shown to United States forward Florian Balogun's leaves many unanswered questions.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T23:57:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bf06/live/665b5a80-78b6-11f1-a153-7f64e09767e4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Need to stay awake for England v Mexico? Try this quiz",
    "desc": "England and Thomas Tuchel will want to match the achievements of the nation's famous side that lifted the World Cup trophy in 1966. Can you name every side they have ever faced in the knockouts?",
    "link": "https://www.bbc.co.uk/sport/football/articles/clyp4eprn22o?at_medium=RSS&at_campaign=rss",
@@ -6065,30 +6074,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Mexico fans fail in bid to wake up England players",
-   "desc": "England players feel little to no impact of Mexico fans attempting to disturb their sleep by letting off fireworks outside their hotel.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx244m0mzr7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T14:47:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ceb1/live/c46f6020-787b-11f1-8dd2-155623f15064.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England enter the Azteca - where football kings are crowned",
-   "desc": "BBC Sport explores the history and cultural power of the Azteca, one of the great cathedrals of world football, as England prepare to face Mexico there in the last 16 of the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T08:26:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/edb6/live/70f0d6f0-7627-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why England won't fear Mexico or the Azteca - Shearer",
    "desc": "Former England captain Alan Shearer explains why Thomas Tuchel's team will not be worried about the difficult conditions when they play Mexico at the Azteca Stadium.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-04T18:51:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/10d3/live/a37c2e80-77d5-11f1-9510-1546718f668b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Mexico fans fail in bid to wake up England players",
+   "desc": "England players feel little to no impact of Mexico fans attempting to disturb their sleep by letting off fireworks outside their hotel.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx244m0mzr7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-05T14:47:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ceb1/live/c46f6020-787b-11f1-8dd2-155623f15064.jpg",
    "source": "BBC Sport"
   },
   {
