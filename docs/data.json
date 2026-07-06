@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T22:40:28+00:00",
+ "generated_at": "2026-07-06T22:45:34+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3805,9 +3805,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 2.55,
-    "draw": 3.4,
-    "away": 2.75,
+    "home": 2.5,
+    "draw": 3.35,
+    "away": 2.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6175,12 +6175,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The numbers behind Spain defence chasing World Cup history",
-   "desc": "With Spain yet to concede at the 2026 World Cup and on the brink of another tournament record, BBC Sport examines the numbers behind the shutouts.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwy00jx3y91o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T11:07:49Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3e05/live/70ff3900-784f-11f1-9cc3-8d218550015b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
