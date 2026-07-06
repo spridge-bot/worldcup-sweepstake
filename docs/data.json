@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T02:51:52+00:00",
+ "generated_at": "2026-07-06T02:52:16+00:00",
  "mode": "live",
  "latest_day": "2026-07-05",
  "scoring": {
@@ -6045,6 +6045,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Penalty? Red card? Why were they given against England?",
+   "desc": "Why did England have Jarell Quansah sent off and a penalty awarded against them in their thrilling World Cup last-16 match with Mexico?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T02:50:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/27a0/live/bd0bf4b0-78e4-11f1-97ae-b59a76778e79.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Rate the players in Mexico v England",
    "desc": "Rate the Mexico and England players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8r40y5r9eo?at_medium=RSS&at_campaign=rss",
@@ -6132,15 +6141,6 @@
    "published": "2026-07-04T09:33:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
