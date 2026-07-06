@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T05:54:22+00:00",
+ "generated_at": "2026-07-06T05:59:28+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -3769,9 +3769,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 4.0,
-    "draw": 3.7,
-    "away": 1.87,
+    "home": 3.95,
+    "draw": 3.65,
+    "away": 1.91,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6065,6 +6065,15 @@
  ],
  "news": [
   {
+   "headline": "An incredible night when England heroes were made",
+   "desc": "On a spine-tingling night of drama, emotion and pure theatre in one of sport's most atmospheric arenas, England delivered one of their greatest performances.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjrgg07p8dlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T05:51:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/121a/live/cc626180-78fb-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The man England will fear most - Haaland fires Norway to history",
    "desc": "Erling Haaland has scored seven goals in four World Cup games and he is the striker that nobody wants to face as he fires Norway into an historic quarter-final.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss",
@@ -6095,9 +6104,18 @@
    "headline": "England's Henderson injures wrist in World Cup celebrations",
    "desc": "England midfielder Jordan Henderson suffered a \"really bad\" while celebrating his side's World Cup win over Mexico, head coach Thomas Tuchel says.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c9822ez0zdwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T04:19:26Z",
+   "published": "2026-07-06T05:56:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/559c/live/a9bf5cc0-78f4-11f1-8e46-6db52e15aebd.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Iconic match at iconic stadium' - England win down to 'pure will'",
+   "desc": "England are praised for showing \"heart and belief\" as they beat Mexico in an \"iconic match at an iconic stadium\" to reach the World Cup quarter-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly00xq39n1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-06T05:51:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f140/live/fa774280-78f0-11f1-8999-a1de4af6aa67.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6146,30 +6164,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
-   "desc": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
-   "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-05T14:59:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-02T21:33:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Ranking 10 stars who could be at their last World Cup",
-   "desc": "A number of the world's best players are likely playing in their last World Cup. Here's how I think they rank.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c04yvw3w1w6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-30T11:44:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg",
    "source": "BBC Sport"
   }
  ]
