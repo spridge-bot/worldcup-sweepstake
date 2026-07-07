@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T01:09:52+00:00",
+ "generated_at": "2026-07-07T01:10:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -1320,9 +1320,9 @@
    "utc": "2026-07-07T00:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "45'+6'",
-   "clock_sec": 2700.0,
-   "status_detail": "HT",
+   "clock": "46'",
+   "clock_sec": 2760.0,
+   "status_detail": "46'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.6,
