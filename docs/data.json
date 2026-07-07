@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T22:52:00+00:00",
+ "generated_at": "2026-07-07T22:52:24+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1332,7 +1332,7 @@
    "group": null,
    "clock": "120'",
    "clock_sec": 7200.0,
-   "status_detail": "Pens",
+   "status_detail": "120'",
    "venue": "BC Place",
    "odds": {
     "home": 3.35,
@@ -3898,7 +3898,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": "DWWWD"
+    "form": "WWWDD"
    }
   }
  ],
