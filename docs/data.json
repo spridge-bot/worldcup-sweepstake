@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T17:47:59+00:00",
+ "generated_at": "2026-07-07T17:48:24+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1325,9 +1325,9 @@
    "utc": "2026-07-07T16:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "83'",
-   "clock_sec": 4980.0,
-   "status_detail": "83'",
+   "clock": "84'",
+   "clock_sec": 5040.0,
+   "status_detail": "84'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 1.33,
@@ -1341,7 +1341,7 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "goals": 1
+    "goals": 2
    },
    "away": {
     "code": "EGY",
@@ -5467,6 +5467,14 @@
  ],
  "scorers": [
   {
+   "player": "Lionel Messi",
+   "team": "ARG",
+   "goals": 8,
+   "assists": 0,
+   "flag": "🇦🇷",
+   "owner": "Fergs"
+  },
+  {
    "player": "Erling Haaland",
    "team": "NOR",
    "goals": 7,
@@ -5481,14 +5489,6 @@
    "assists": 0,
    "flag": "🇫🇷",
    "owner": "Spridge"
-  },
-  {
-   "player": "Lionel Messi",
-   "team": "ARG",
-   "goals": 7,
-   "assists": 0,
-   "flag": "🇦🇷",
-   "owner": "Fergs"
   },
   {
    "player": "Harry Kane",
