@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T00:10:26+00:00",
+ "generated_at": "2026-07-07T00:10:50+00:00",
  "mode": "live",
  "latest_day": "2026-07-06",
  "scoring": {
@@ -1320,9 +1320,9 @@
    "utc": "2026-07-07T00:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "9'",
-   "clock_sec": 540.0,
-   "status_detail": "9'",
+   "clock": "10'",
+   "clock_sec": 600.0,
+   "status_detail": "10'",
    "venue": "Lumen Field",
    "odds": {
     "home": 2.6,
@@ -1343,7 +1343,7 @@
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
