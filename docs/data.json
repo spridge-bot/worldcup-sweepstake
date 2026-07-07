@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T17:59:08+00:00",
+ "generated_at": "2026-07-07T17:59:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6023,21 +6023,21 @@
  ],
  "news": [
   {
+   "headline": "England players to be told not to jump hoardings",
+   "desc": "England players will be advised not to jump over advertising hoardings after Jordan Henderson suffered a freak injury.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-07T17:49:34Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2bfc/live/1da570c0-7a2b-11f1-bee8-53ce494e1abc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "The superstar double act that became England's Wonderwall",
    "desc": "With 10 of England's 11 goals at the World Cup scored by either Harry Kane or Jude Bellingham, BBC Sport looks at how dependent on them the team is.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c24yym25rgjo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-07T11:11:58Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6895/live/a64d4ec0-7968-11f1-9ade-614b823fa1e3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Can Scotland learn from history-making Norway?",
-   "desc": "Norway, a nation of a similar size to Scotland, are through to the World Cup quarter-finals, so can lessons be learned from their neighbours from across the North Sea?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr7xk8r9xl4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-07T15:54:46Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f83c/live/344a3460-7a1b-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6074,6 +6074,15 @@
    "published": "2026-07-06T23:51:04Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a83e/live/3391e580-799a-11f1-a284-630313c9a0fe.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Can Scotland learn from history-making Norway?",
+   "desc": "Norway, a nation of a similar size to Scotland, are through to the World Cup quarter-finals, so can lessons be learned from their neighbours from across the North Sea?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr7xk8r9xl4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-07T15:54:46Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f83c/live/344a3460-7a1b-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6119,15 +6128,6 @@
    "published": "2026-07-02T21:33:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: Name every team England have played in a World Cup quarter-final",
-   "desc": "Norway will be the 11th team England will have faced in a World Cup quarter-final - so can you name the other 10?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8j22mvdgp4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T08:12:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/74ec/live/983410c0-78ec-11f1-a627-714adb4eed6e.png",
    "source": "BBC Sport"
   }
  ]
