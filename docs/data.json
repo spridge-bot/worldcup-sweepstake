@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T22:51:35+00:00",
+ "generated_at": "2026-07-07T22:52:00+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -3881,6 +3881,25 @@
     "owner": "Brando",
     "form": "WWWDW"
    }
+  },
+  {
+   "id": 760513,
+   "utc": "2026-07-12T01:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "form": "DWWWD"
+   }
   }
  ],
  "groups": [
@@ -5400,10 +5419,10 @@
     "owner": "Fergs"
    },
    "away": {
-    "code": null,
-    "name": "Round of 16 8 Winner",
-    "flag": "",
-    "owner": null
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily"
    }
   },
   {
