@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T20:48:59+00:00",
+ "generated_at": "2026-07-07T20:49:24+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1332,7 +1332,7 @@
    "group": null,
    "clock": "45'+3'",
    "clock_sec": 2700.0,
-   "status_detail": "45'+3'",
+   "status_detail": "HT",
    "venue": "BC Place",
    "odds": {
     "home": 3.35,
