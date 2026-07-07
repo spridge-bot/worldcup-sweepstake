@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T20:12:59+00:00",
+ "generated_at": "2026-07-07T20:13:24+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1330,9 +1330,9 @@
    "utc": "2026-07-07T20:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "12'",
-   "clock_sec": 720.0,
-   "status_detail": "12'",
+   "clock": "13'",
+   "clock_sec": 780.0,
+   "status_detail": "13'",
    "venue": "BC Place",
    "odds": {
     "home": 3.35,
