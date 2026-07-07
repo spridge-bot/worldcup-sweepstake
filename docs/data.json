@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T02:14:48+00:00",
+ "generated_at": "2026-07-07T02:19:54+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -3915,7 +3915,13 @@
    "utc": "2026-07-10T19:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.62,
+    "draw": 3.9,
+    "away": 5.5,
+    "over_under": null,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "Spain",
     "flag": "🇪🇸",
