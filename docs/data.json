@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T18:06:07+00:00",
+ "generated_at": "2026-07-07T18:11:14+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -3831,8 +3831,8 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 1.62,
-    "draw": 3.9,
+    "home": 1.61,
+    "draw": 3.95,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -5611,6 +5611,15 @@
    "pts": 13
   },
   {
+   "code": "EGY",
+   "name": "Egypt",
+   "flag": "🇪🇬",
+   "owner": "Brando",
+   "yellow": 13,
+   "red": 0,
+   "pts": 13
+  },
+  {
    "code": "QAT",
    "name": "Qatar",
    "flag": "🇶🇦",
@@ -5635,15 +5644,6 @@
    "owner": "Brando",
    "yellow": 8,
    "red": 1,
-   "pts": 12
-  },
-  {
-   "code": "EGY",
-   "name": "Egypt",
-   "flag": "🇪🇬",
-   "owner": "Brando",
-   "yellow": 12,
-   "red": 0,
    "pts": 12
   },
   {
