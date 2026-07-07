@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T18:26:35+00:00",
+ "generated_at": "2026-07-07T18:31:41+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -5387,10 +5387,10 @@
    "winner": null,
    "venue": "GEHA Field at Arrowhead Stadium",
    "home": {
-    "code": null,
-    "name": "Round of 16 7 Winner",
-    "flag": "",
-    "owner": null
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs"
    },
    "away": {
     "code": null,
