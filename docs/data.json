@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T01:59:30+00:00",
+ "generated_at": "2026-07-07T02:04:36+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -3866,9 +3866,9 @@
    "stage": "Round of 16",
    "group": null,
    "odds": {
-    "home": 3.4,
+    "home": 3.45,
     "draw": 3.1,
-    "away": 2.3,
+    "away": 2.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3908,6 +3908,25 @@
     "flag": "🇲🇦",
     "owner": "Willo",
     "form": "WWWWD"
+   }
+  },
+  {
+   "id": 760511,
+   "utc": "2026-07-10T19:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": null,
+   "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "form": "WWWWD"
+   },
+   "away": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
+    "form": "WWWDD"
    }
   },
   {
@@ -5407,10 +5426,10 @@
     "owner": "Jen"
    },
    "away": {
-    "code": null,
-    "name": "Round of 16 6 Winner",
-    "flag": "",
-    "owner": null
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari"
    }
   },
   {
