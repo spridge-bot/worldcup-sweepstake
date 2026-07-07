@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T20:00:43+00:00",
+ "generated_at": "2026-07-07T20:01:00+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1324,7 +1324,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760508,
+   "utc": "2026-07-07T20:00:00Z",
+   "stage": "Round of 16",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "BC Place",
+   "odds": {
+    "home": 3.35,
+    "draw": 3.25,
+    "away": 2.25,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "goals": 0
+   },
+   "away": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "owner": "Ruggy",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760509,
@@ -3776,31 +3808,6 @@
  ],
  "upcoming": [
   {
-   "id": 760508,
-   "utc": "2026-07-07T20:00:00Z",
-   "stage": "Round of 16",
-   "group": null,
-   "odds": {
-    "home": 3.35,
-    "draw": 3.25,
-    "away": 2.25,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "form": "WWWDD"
-   },
-   "away": {
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "form": "WDWWW"
-   }
-  },
-  {
    "id": 760510,
    "utc": "2026-07-09T20:00:00Z",
    "stage": "Quarter-final",
@@ -5288,7 +5295,7 @@
    "id": 760508,
    "utc": "2026-07-07T20:00:00Z",
    "stage": "LAST_16",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
