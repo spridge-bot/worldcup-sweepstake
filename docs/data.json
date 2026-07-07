@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-07T22:57:25+00:00",
+ "generated_at": "2026-07-07T22:57:50+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -84,6 +84,19 @@
    "movement": 0
   },
   {
+   "name": "Emily",
+   "teams": [
+    "NED",
+    "SUI",
+    "CZE",
+    "IRQ"
+   ],
+   "total": 15,
+   "today": 3,
+   "rank": 6,
+   "movement": 1
+  },
+  {
    "name": "Fergs",
    "teams": [
     "ARG",
@@ -93,8 +106,8 @@
    ],
    "total": 14,
    "today": 3,
-   "rank": 6,
-   "movement": 3
+   "rank": 7,
+   "movement": 2
   },
   {
    "name": "Spridge",
@@ -106,21 +119,8 @@
    ],
    "total": 13,
    "today": 0,
-   "rank": 7,
-   "movement": -1
-  },
-  {
-   "name": "Emily",
-   "teams": [
-    "NED",
-    "SUI",
-    "CZE",
-    "IRQ"
-   ],
-   "total": 12,
-   "today": 0,
    "rank": 8,
-   "movement": -1
+   "movement": -2
   },
   {
    "name": "George",
@@ -132,8 +132,8 @@
    ],
    "total": 12,
    "today": 0,
-   "rank": 8,
-   "movement": -1
+   "rank": 9,
+   "movement": -2
   },
   {
    "name": "Pari",
@@ -506,10 +506,10 @@
    "tier": 1,
    "fifa_rank": 13,
    "owner": "Ruggy",
-   "status": "alive",
-   "played": 4,
+   "status": "out",
+   "played": 5,
    "won": 3,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
    "gf": 5,
    "ga": 1,
@@ -660,14 +660,19 @@
    "fifa_rank": 19,
    "owner": "Emily",
    "status": "alive",
-   "played": 4,
+   "played": 5,
    "won": 3,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
    "gf": 9,
    "ga": 3,
-   "total": 7,
+   "total": 10,
    "events": [
+    {
+     "date": "2026-07-07",
+     "desc": "Won Round of 16 tie (on penalties)",
+     "points": 3
+    },
     {
      "date": "2026-07-03",
      "desc": "Won Round of 32 tie",
@@ -1324,40 +1329,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760508,
+   "date": "2026-07-07",
    "utc": "2026-07-07T20:00:00Z",
    "stage": "Round of 16",
    "group": null,
-   "clock": "120'",
-   "clock_sec": 7200.0,
-   "status_detail": "Pens",
-   "venue": "BC Place",
+   "note": " (4-3 pens)",
+   "home": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "tier": 2,
+    "goals": 0,
+    "points": 3
+   },
+   "away": {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "tier": 1,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 3.35,
     "draw": 3.25,
     "away": 2.25,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "goals": 0
-   },
-   "away": {
-    "code": "COL",
-    "name": "Colombia",
-    "flag": "🇨🇴",
-    "owner": "Ruggy",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760509,
    "date": "2026-07-07",
@@ -3898,7 +3902,7 @@
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": "WWWDD"
+    "form": "WWWWD"
    }
   }
  ],
@@ -5314,11 +5318,11 @@
    "id": 760508,
    "utc": "2026-07-07T20:00:00Z",
    "stage": "LAST_16",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
-   "note": "",
-   "winner": null,
+   "status": "FINISHED",
+   "hg": 0,
+   "ag": 0,
+   "note": "4-3 pens",
+   "winner": "SUI",
    "venue": "BC Place",
    "home": {
     "code": "SUI",
@@ -5745,6 +5749,15 @@
    "pts": 8
   },
   {
+   "code": "COL",
+   "name": "Colombia",
+   "flag": "🇨🇴",
+   "owner": "Ruggy",
+   "yellow": 8,
+   "red": 0,
+   "pts": 8
+  },
+  {
    "code": "CUW",
    "name": "Curaçao",
    "flag": "🇨🇼",
@@ -5770,15 +5783,6 @@
    "yellow": 7,
    "red": 0,
    "pts": 7
-  },
-  {
-   "code": "COL",
-   "name": "Colombia",
-   "flag": "🇨🇴",
-   "owner": "Ruggy",
-   "yellow": 6,
-   "red": 0,
-   "pts": 6
   },
   {
    "code": "COD",
@@ -5821,6 +5825,15 @@
    "name": "Saudi Arabia",
    "flag": "🇸🇦",
    "owner": "Brando",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
+   "code": "SUI",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "owner": "Emily",
    "yellow": 6,
    "red": 0,
    "pts": 6
@@ -6001,15 +6014,6 @@
    "name": "Spain",
    "flag": "🇪🇸",
    "owner": "Jen",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "SUI",
-   "name": "Switzerland",
-   "flag": "🇨🇭",
-   "owner": "Emily",
    "yellow": 3,
    "red": 0,
    "pts": 3
