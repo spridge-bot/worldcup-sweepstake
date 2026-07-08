@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T15:05:18+00:00",
+ "generated_at": "2026-07-08T15:10:25+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6072,6 +6072,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "The key players walking disciplinary tightrope",
+   "desc": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T15:07:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Portugal confirm departure of coach Martinez",
    "desc": "The Portuguese football federation (FPF) confirm the departure of national team coach Roberto Martinez following Portugal's last-16 loss to Spain.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
@@ -6159,15 +6168,6 @@
    "published": "2026-07-08T11:51:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e7d7/live/7bacd6f0-7a16-11f1-8233-417a25d303da.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Unusual or predictable? How Europe is dominating the World Cup",
-   "desc": "Six of the eight quarter-finalists at the World Cup in North America are from Europe, so why are they doing so well and what does history tell us about the chances of one of them winning it all?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr479drd159o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T05:02:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1355/live/d7a0b940-7a6b-11f1-b3a0-9d60633dee75.jpg",
    "source": "BBC Sport"
   }
  ]
