@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T15:31:27+00:00",
+ "generated_at": "2026-07-08T15:36:34+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6081,6 +6081,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Henderson has surgery in USA after breaking arm",
+   "desc": "Jordan Henderson has had surgery after breaking his arm during the celebrations of England's win over Mexico on Sunday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T15:28:28Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87ec/live/386bf190-7adf-11f1-bee8-53ce494e1abc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Portugal confirm departure of coach Martinez",
    "desc": "The Portuguese football federation (FPF) confirm the departure of national team coach Roberto Martinez following Portugal's last-16 loss to Spain.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
@@ -6159,15 +6168,6 @@
    "published": "2026-07-07T20:28:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e029/live/36107270-7a3c-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Meet the duo visiting all 16 World Cup venues in a London cab",
-   "desc": "Meet Ollie Jenks and Seth Scott, who are attempting to visit all 16 World Cup stadiums in a traditional London taxi.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crlw73llp3jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T11:51:49Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e7d7/live/7bacd6f0-7a16-11f1-8233-417a25d303da.jpg",
    "source": "BBC Sport"
   }
  ]
