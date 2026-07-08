@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T18:00:05+00:00",
+ "generated_at": "2026-07-08T18:05:11+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -3892,7 +3892,7 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 1.71,
+    "home": 1.69,
     "draw": 3.55,
     "away": 5.5,
     "over_under": 2.5,
