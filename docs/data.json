@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T12:46:57+00:00",
+ "generated_at": "2026-07-08T12:52:03+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6090,15 +6090,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tears of relief? Messi adds another incredible chapter to World Cup career",
-   "desc": "Argentina great Lionel Messi sheds tears as they fight back to beat Egypt and reach the World Cup quarter-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz6v407y3qjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-07T20:28:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e029/live/36107270-7a3c-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The World Cup stars who could have played for England",
    "desc": "While there is no shortage of talent in the England squad, a number of World Cup stars from other nations could have featured for the Three Lions if things had worked out differently.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0lyj77w9z7o?at_medium=RSS&at_campaign=rss",
@@ -6108,12 +6099,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Meet the duo visiting all 16 World Cup venues in a London cab",
-   "desc": "Meet Ollie Jenks and Seth Scott, who are attempting to visit all 16 World Cup stadiums in a traditional London taxi.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crlw73llp3jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T11:51:49Z",
+   "headline": "How to take a World Cup shootout penalty",
+   "desc": "We have a look at what can be learned from every World Cup penalty taken in a shootout ever.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c04yk2rzv2wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T12:46:23Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e7d7/live/7bacd6f0-7a16-11f1-8233-417a25d303da.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6126,30 +6117,30 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Tears of relief? Messi adds another incredible chapter to World Cup career",
+   "desc": "Argentina great Lionel Messi sheds tears as they fight back to beat Egypt and reach the World Cup quarter-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz6v407y3qjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-07T20:28:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e029/live/36107270-7a3c-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Meet the duo visiting all 16 World Cup venues in a London cab",
+   "desc": "Meet Ollie Jenks and Seth Scott, who are attempting to visit all 16 World Cup stadiums in a traditional London taxi.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crlw73llp3jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T11:51:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e7d7/live/7bacd6f0-7a16-11f1-8233-417a25d303da.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Unusual or predictable? How Europe is dominating the World Cup",
    "desc": "Six of the eight quarter-finalists at the World Cup in North America are from Europe, so why are they doing so well and what does history tell us about the chances of one of them winning it all?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cr479drd159o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-08T05:02:22Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1355/live/d7a0b940-7a6b-11f1-b3a0-9d60633dee75.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
-   "desc": "BBC Sport unpicks a game that will go down in World Cup history for featuring a team who were two goals down so late on, but who went on to win without needing extra time.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzd23jll5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-07T21:33:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9b40/live/396b6f30-7a3a-11f1-ab76-d75965dea4d1.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A shambolic end for the American dream - did Balogun saga play a part?",
-   "desc": "Mauricio Pochettino says he feels \"disappointed with too many people\" who brought \"politics and manipulation\" into the game as the US exit World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyxdeql5eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-07T05:00:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c767/live/d72f45f0-79bf-11f1-b078-9b61a92fb8b3.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6162,12 +6153,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
+   "headline": "A shambolic end for the American dream - did Balogun saga play a part?",
+   "desc": "Mauricio Pochettino says he feels \"disappointed with too many people\" who brought \"politics and manipulation\" into the game as the US exit World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyxdeql5eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-07T05:00:10Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c767/live/d72f45f0-79bf-11f1-b078-9b61a92fb8b3.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
+   "desc": "BBC Sport unpicks a game that will go down in World Cup history for featuring a team who were two goals down so late on, but who went on to win without needing extra time.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzd23jll5o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-07T21:33:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9b40/live/396b6f30-7a3a-11f1-ab76-d75965dea4d1.jpg",
    "source": "BBC Sport"
   }
  ]
