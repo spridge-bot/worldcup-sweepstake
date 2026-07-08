@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T09:22:15+00:00",
+ "generated_at": "2026-07-08T09:27:22+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6072,6 +6072,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "'Your boys took a hell of a beating' - England and Norway's football rivalry",
+   "desc": "England's meeting with Norway in the World Cup quarter-final revives memories a commentary more famous than their rivalry.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz9l74k031do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T09:22:41Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/518a/live/a2f90f70-7a80-11f1-b8ef-0ded546eca19.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tears of relief? Messi adds another incredible chapter to World Cup career",
    "desc": "Argentina great Lionel Messi sheds tears as they fight back to beat Egypt and reach the World Cup quarter-finals.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cz6v407y3qjo?at_medium=RSS&at_campaign=rss",
@@ -6159,15 +6168,6 @@
    "published": "2026-07-02T21:33:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: Name every team England have played in a World Cup quarter-final",
-   "desc": "Norway will be the 11th team England will have faced in a World Cup quarter-final - so can you name the other 10?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8j22mvdgp4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-06T08:12:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/74ec/live/983410c0-78ec-11f1-a627-714adb4eed6e.png",
    "source": "BBC Sport"
   }
  ]
