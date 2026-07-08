@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T22:46:41+00:00",
+ "generated_at": "2026-07-08T22:51:49+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6063,24 +6063,6 @@
  ],
  "news": [
   {
-   "headline": "Are Argentina being treated favourably at World Cup?",
-   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T15:37:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The key World Cup players walking disciplinary tightrope",
-   "desc": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T15:07:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "A Golden Boot race for the ages - but who will come out on top?",
    "desc": "It's fast becoming a World Cup Golden Boot for the ages. But who will win it?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8m526mjmeo?at_medium=RSS&at_campaign=rss",
@@ -6090,12 +6072,30 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Are Argentina being treated favourably at World Cup?",
+   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T15:37:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Chris Sutton's World Cup quarter-final predictions",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-08T22:34:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The key World Cup players walking disciplinary tightrope",
+   "desc": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T15:07:12Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg",
    "source": "BBC Sport"
   },
   {
