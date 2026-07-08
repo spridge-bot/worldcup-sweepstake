@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T16:33:01+00:00",
+ "generated_at": "2026-07-08T16:38:11+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6072,6 +6072,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "A Golden Boot race for the ages - but who will come out on top?",
+   "desc": "It's fast becoming a World Cup Golden Boot for the ages. But who will win it?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8m526mjmeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T16:31:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England players granted day off after Mexico win",
    "desc": "England manager Thomas Tuchel gave his players permission for an offsite family day on Tuesday as the squad recharged after their euphoric win over Mexico.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx24re32r4lo?at_medium=RSS&at_campaign=rss",
@@ -6108,21 +6117,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Portugal confirm departure of coach Martinez",
-   "desc": "The Portuguese football federation (FPF) confirm the departure of national team coach Roberto Martinez following Portugal's last-16 loss to Spain.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T14:31:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5c3/live/4dced040-7ad8-11f1-81e2-67653cf46e84.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "A striker duel for the ages & Qatar revenge - what to expect in quarter-finals",
    "desc": "Setting the scene for each of the four intriguing World Cup quarter-finals that begin on Thursday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gyyvn1yn7o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-08T10:56:31Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/94b9/live/d921c210-7aba-11f1-b976-0b9c15b0ccfc.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Portugal confirm departure of coach Martinez",
+   "desc": "The Portuguese football federation (FPF) confirm the departure of national team coach Roberto Martinez following Portugal's last-16 loss to Spain.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T14:31:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5c3/live/4dced040-7ad8-11f1-81e2-67653cf46e84.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6159,15 +6168,6 @@
    "published": "2026-07-08T12:27:04Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/24cf/live/2aa5f020-7ac5-11f1-b541-536d253827b8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How to take a World Cup shootout penalty",
-   "desc": "We have a look at what can be learned from every World Cup penalty taken in a shootout ever.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c04yk2rzv2wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T12:46:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg",
    "source": "BBC Sport"
   }
  ]
