@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T15:36:34+00:00",
+ "generated_at": "2026-07-08T15:41:42+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6063,12 +6063,12 @@
  ],
  "news": [
   {
-   "headline": "Egypt want officials kicked out of World Cup",
-   "desc": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T13:45:24Z",
+   "headline": "Are claims Argentina are being treated favourably at World Cup fair?",
+   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T15:37:07Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3cee/live/998e4d00-7ac2-11f1-8918-eb9b5adcff36.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6078,6 +6078,15 @@
    "published": "2026-07-08T15:07:12Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Egypt want officials kicked out of World Cup",
+   "desc": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T13:45:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3cee/live/998e4d00-7ac2-11f1-8918-eb9b5adcff36.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6159,15 +6168,6 @@
    "published": "2026-07-08T10:52:26Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e6aa/live/5b8b71d0-7a00-11f1-8329-119e86ad1936.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tears of relief? Messi adds another incredible chapter to World Cup career",
-   "desc": "Argentina great Lionel Messi sheds tears as they fight back to beat Egypt and reach the World Cup quarter-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz6v407y3qjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-07T20:28:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e029/live/36107270-7a3c-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   }
  ]
