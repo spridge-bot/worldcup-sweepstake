@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T21:55:04+00:00",
+ "generated_at": "2026-07-09T22:00:10+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1329,7 +1329,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760510,
+   "utc": "2026-07-09T20:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "clock": "90'+5'",
+   "clock_sec": 5400.0,
+   "status_detail": "90'+5'",
+   "venue": "Gillette Stadium",
+   "odds": {
+    "home": 1.59,
+    "draw": 3.8,
+    "away": 6.0,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge",
+    "goals": 2
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760508,
@@ -3810,7 +3842,83 @@
    "odds": null
   }
  ],
- "upcoming": [],
+ "upcoming": [
+  {
+   "id": 760511,
+   "utc": "2026-07-10T19:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": {
+    "home": 1.65,
+    "draw": 3.9,
+    "away": 5.25,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "form": "WWWWD"
+   },
+   "away": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
+    "form": "WWWDD"
+   }
+  },
+  {
+   "id": 760512,
+   "utc": "2026-07-11T21:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": {
+    "home": 4.1,
+    "draw": 3.7,
+    "away": 1.87,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "form": "WWLWW"
+   },
+   "away": {
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "form": "WWWDW"
+   }
+  },
+  {
+   "id": 760513,
+   "utc": "2026-07-12T01:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "odds": {
+    "home": 1.69,
+    "draw": 3.55,
+    "away": 5.5,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "form": "WWWWW"
+   },
+   "away": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily",
+    "form": "WWWWD"
+   }
+  }
+ ],
  "groups": [
   {
    "name": "Group A",
@@ -5243,6 +5351,144 @@
    }
   },
   {
+   "id": 760510,
+   "utc": "2026-07-09T20:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "IN_PLAY",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Gillette Stadium",
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge"
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "owner": "Willo"
+   }
+  },
+  {
+   "id": 760511,
+   "utc": "2026-07-10T19:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "SoFi Stadium",
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen"
+   },
+   "away": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari"
+   }
+  },
+  {
+   "id": 760512,
+   "utc": "2026-07-11T21:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Hard Rock Stadium",
+   "home": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy"
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando"
+   }
+  },
+  {
+   "id": 760513,
+   "utc": "2026-07-12T01:00:00Z",
+   "stage": "QUARTER_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "GEHA Field at Arrowhead Stadium",
+   "home": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs"
+   },
+   "away": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "owner": "Emily"
+   }
+  },
+  {
+   "id": 760514,
+   "utc": "2026-07-14T19:00:00Z",
+   "stage": "SEMI_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "AT&T Stadium",
+   "home": {
+    "code": null,
+    "name": "Quarterfinal 1 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Quarterfinal 2 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
+   "id": 760515,
+   "utc": "2026-07-15T19:00:00Z",
+   "stage": "SEMI_FINALS",
+   "status": "TIMED",
+   "hg": null,
+   "ag": null,
+   "note": "",
+   "winner": null,
+   "venue": "Mercedes-Benz Stadium",
+   "home": {
+    "code": null,
+    "name": "Quarterfinal 3 Winner",
+    "flag": "",
+    "owner": null
+   },
+   "away": {
+    "code": null,
+    "name": "Quarterfinal 4 Winner",
+    "flag": "",
+    "owner": null
+   }
+  },
+  {
    "id": 760517,
    "utc": "2026-07-19T19:00:00Z",
    "stage": "FINAL",
@@ -5268,6 +5514,14 @@
  ],
  "scorers": [
   {
+   "player": "Kylian Mbappé",
+   "team": "FRA",
+   "goals": 8,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Lionel Messi",
    "team": "ARG",
    "goals": 8,
@@ -5284,20 +5538,20 @@
    "owner": "Glancy"
   },
   {
-   "player": "Kylian Mbappé",
-   "team": "FRA",
-   "goals": 7,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
-  },
-  {
    "player": "Harry Kane",
    "team": "ENG",
    "goals": 6,
    "assists": 0,
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "owner": "Brando"
+  },
+  {
+   "player": "Ousmane Dembélé",
+   "team": "FRA",
+   "goals": 5,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
   },
   {
    "player": "Ismaïla Sarr",
@@ -5330,14 +5584,6 @@
    "assists": 0,
    "flag": "🇪🇸",
    "owner": "Jen"
-  },
-  {
-   "player": "Ousmane Dembélé",
-   "team": "FRA",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
   },
   {
    "player": "Vinícius Júnior",
