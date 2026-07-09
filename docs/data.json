@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-09T22:01:50+00:00",
+ "generated_at": "2026-07-09T22:02:15+00:00",
  "mode": "live",
- "latest_day": "2026-07-07",
+ "latest_day": "2026-07-09",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Spridge",
+   "teams": [
+    "FRA",
+    "IRN",
+    "SWE",
+    "BIH"
+   ],
+   "total": 17,
+   "today": 4,
+   "rank": 2,
+   "movement": 6
+  },
+  {
    "name": "Brando",
    "teams": [
     "ENG",
@@ -41,8 +54,8 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Glancy",
@@ -54,8 +67,8 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Jen",
@@ -67,8 +80,8 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Willo",
@@ -80,8 +93,8 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 2,
-   "movement": 0
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Emily",
@@ -92,9 +105,9 @@
     "IRQ"
    ],
    "total": 15,
-   "today": 3,
-   "rank": 6,
-   "movement": 1
+   "today": 0,
+   "rank": 7,
+   "movement": -1
   },
   {
    "name": "Fergs",
@@ -105,22 +118,9 @@
     "CUW"
    ],
    "total": 14,
-   "today": 3,
-   "rank": 7,
-   "movement": 2
-  },
-  {
-   "name": "Spridge",
-   "teams": [
-    "FRA",
-    "IRN",
-    "SWE",
-    "BIH"
-   ],
-   "total": 13,
    "today": 0,
    "rank": 8,
-   "movement": -2
+   "movement": -1
   },
   {
    "name": "George",
@@ -133,7 +133,7 @@
    "total": 12,
    "today": 0,
    "rank": 9,
-   "movement": -2
+   "movement": 0
   },
   {
    "name": "Pari",
@@ -144,9 +144,9 @@
     "UZB"
    ],
    "total": 11,
-   "today": 3,
+   "today": 0,
    "rank": 10,
-   "movement": 1
+   "movement": 0
   },
   {
    "name": "Ruggy",
@@ -159,7 +159,7 @@
    "total": 9,
    "today": 0,
    "rank": 11,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dubs",
@@ -250,14 +250,19 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 5,
-   "won": 5,
+   "played": 6,
+   "won": 6,
    "drawn": 0,
    "lost": 0,
-   "gf": 14,
+   "gf": 16,
    "ga": 2,
-   "total": 10,
+   "total": 14,
    "events": [
+    {
+     "date": "2026-07-09",
+     "desc": "Won Quarter-final tie",
+     "points": 4
+    },
     {
      "date": "2026-07-04",
      "desc": "Won Round of 16 tie",
@@ -371,13 +376,13 @@
    "tier": 1,
    "fifa_rank": 7,
    "owner": "Willo",
-   "status": "alive",
-   "played": 5,
+   "status": "out",
+   "played": 6,
    "won": 3,
    "drawn": 2,
-   "lost": 0,
+   "lost": 1,
    "gf": 10,
-   "ga": 4,
+   "ga": 6,
    "total": 8,
    "events": [
     {
@@ -1329,40 +1334,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760510,
+   "date": "2026-07-09",
    "utc": "2026-07-09T20:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Gillette Stadium",
+   "note": "",
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "tier": 1,
+    "goals": 2,
+    "points": 4
+   },
+   "away": {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "tier": 1,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 1.59,
     "draw": 3.8,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "goals": 2
-   },
-   "away": {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "owner": "Willo",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760508,
    "date": "2026-07-07",
@@ -5354,11 +5358,11 @@
    "id": 760510,
    "utc": "2026-07-09T20:00:00Z",
    "stage": "QUARTER_FINALS",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "FRA",
    "venue": "Gillette Stadium",
    "home": {
     "code": "FRA",
@@ -5789,6 +5793,15 @@
    "pts": 7
   },
   {
+   "code": "MAR",
+   "name": "Morocco",
+   "flag": "🇲🇦",
+   "owner": "Willo",
+   "yellow": 7,
+   "red": 0,
+   "pts": 7
+  },
+  {
    "code": "POR",
    "name": "Portugal",
    "flag": "🇵🇹",
@@ -5820,15 +5833,6 @@
    "name": "Iran",
    "flag": "🇮🇷",
    "owner": "Spridge",
-   "yellow": 6,
-   "red": 0,
-   "pts": 6
-  },
-  {
-   "code": "MAR",
-   "name": "Morocco",
-   "flag": "🇲🇦",
-   "owner": "Willo",
    "yellow": 6,
    "red": 0,
    "pts": 6
@@ -6073,9 +6077,9 @@
    "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
    "desc": "Norway striker Erling Haaland says all the pressure is on England before the two sides' World Cup quarter-final on Saturday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T20:51:13Z",
+   "published": "2026-07-09T22:01:51Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/85d6/live/3db2fd70-7bba-11f1-bada-857505afa282.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg",
    "source": "BBC Sport"
   },
   {
