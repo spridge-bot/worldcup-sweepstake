@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T05:20:34+00:00",
+ "generated_at": "2026-07-09T05:25:39+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6063,21 +6063,21 @@
  ],
  "news": [
   {
+   "headline": "How Kane and Haaland compare - who would you pick?",
+   "desc": "Two of the world's best strikers Harry Kane and Erling Haaland play each other for a place in the World Cup semi-finals - but who would you rather have?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzzz54kllo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T05:18:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eeb9/live/28acba60-7ad4-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A Golden Boot race for the ages - but who will come out on top?",
    "desc": "It's fast becoming a World Cup Golden Boot for the ages. But who will win it?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8m526mjmeo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-08T16:31:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Are Argentina being treated favourably at World Cup?",
-   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T15:37:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6114,6 +6114,15 @@
    "published": "2026-07-08T20:13:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87ec/live/386bf190-7adf-11f1-bee8-53ce494e1abc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Are Argentina being treated favourably at World Cup?",
+   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T15:37:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6159,15 +6168,6 @@
    "published": "2026-07-08T09:49:22Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c5a2/live/34f82370-7a22-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Has World Cup signalled end of chaos at corners?",
-   "desc": "Can the Premier League learn anything from the refereeing of corners at the World Cup?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74y723g7eno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T12:50:16Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4ef1/live/093fc450-7a12-11f1-9a04-4dc3c0eb4aeb.jpg",
    "source": "BBC Sport"
   }
  ]
