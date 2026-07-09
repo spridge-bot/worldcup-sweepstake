@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T10:54:54+00:00",
+ "generated_at": "2026-07-09T11:00:00+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6063,6 +6063,15 @@
  ],
  "news": [
   {
+   "headline": "'It was good vibes in there' - Stones on viral prank",
+   "desc": "John Stones talks about the viral dressing-room injury prank that left England boss Thomas Tuchel briefly stunned.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cdej0znl156o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T10:53:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6be8/live/2e2d8df0-68b6-11f1-a887-c513fdcee6e6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How Kane and Haaland compare - who would you pick?",
    "desc": "Two of the world's best strikers - Harry Kane and Erling Haaland - meet in the World Cup quarter-finals - but who would you rather have?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yzzz54kllo?at_medium=RSS&at_campaign=rss",
@@ -6108,15 +6117,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Henderson not ruled out of World Cup despite breaking arm",
-   "desc": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T20:13:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c25/live/c2507320-7b6d-11f1-936a-038dbfe02d14.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
    "desc": "What a World Cup it has been with great goals, thrilling comebacks, late drama, shock results. But how will this tournament be remembered?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx2dzy11epeo?at_medium=RSS&at_campaign=rss",
@@ -6153,21 +6153,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Henderson not ruled out of World Cup despite breaking arm",
+   "desc": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T20:13:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c25/live/c2507320-7b6d-11f1-936a-038dbfe02d14.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Are Argentina being treated favourably at World Cup?",
    "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-08T15:37:07Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A striker duel for the ages & Qatar revenge - what to expect in quarter-finals",
-   "desc": "Setting the scene for each of the four intriguing World Cup quarter-finals that begin on Thursday.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyyvn1yn7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T10:56:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/94b9/live/d921c210-7aba-11f1-b976-0b9c15b0ccfc.png",
    "source": "BBC Sport"
   }
  ]
