@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T15:57:41+00:00",
+ "generated_at": "2026-07-09T16:02:48+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -3818,7 +3818,7 @@
    "group": null,
    "odds": {
     "home": 1.59,
-    "draw": 3.85,
+    "draw": 3.8,
     "away": 6.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -3827,13 +3827,13 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "form": null
+    "form": "WWWWW"
    },
    "away": {
     "name": "Morocco",
     "flag": "🇲🇦",
     "owner": "Willo",
-    "form": null
+    "form": "WWWWD"
    }
   },
   {
@@ -3842,9 +3842,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 1.62,
+    "home": 1.65,
     "draw": 3.9,
-    "away": 5.5,
+    "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3852,13 +3852,13 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": null
+    "form": "WWWWD"
    },
    "away": {
     "name": "Belgium",
     "flag": "🇧🇪",
     "owner": "Pari",
-    "form": null
+    "form": "WWWDD"
    }
   },
   {
@@ -3867,7 +3867,7 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 3.95,
+    "home": 4.1,
     "draw": 3.7,
     "away": 1.87,
     "over_under": 2.5,
@@ -3877,13 +3877,13 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "form": null
+    "form": "WWLWW"
    },
    "away": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": null
+    "form": "WWWDW"
    }
   },
   {
@@ -3892,9 +3892,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 1.71,
-    "draw": 3.5,
-    "away": 5.25,
+    "home": 1.69,
+    "draw": 3.55,
+    "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3902,13 +3902,13 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "form": null
+    "form": "WWWWW"
    },
    "away": {
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": null
+    "form": "WWWWD"
    }
   }
  ],
