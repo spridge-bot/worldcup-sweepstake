@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T13:48:46+00:00",
+ "generated_at": "2026-07-09T13:53:53+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6135,6 +6135,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Has your area gone football mad? We've mapped World Cup viewing",
+   "desc": "We've analysed BBC iPlayer viewing across the UK to see where the tournament has been most popular.",
+   "link": "https://www.bbc.co.uk/news/articles/cj9gxwynrlwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T13:34:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6f17/live/5a4c81b0-7b8b-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Henderson not ruled out of World Cup despite breaking arm",
+   "desc": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T20:13:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c25/live/c2507320-7b6d-11f1-936a-038dbfe02d14.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
    "desc": "What a World Cup it has been with great goals, thrilling comebacks, late drama, shock results. But how will this tournament be remembered?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx2dzy11epeo?at_medium=RSS&at_campaign=rss",
@@ -6144,30 +6162,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "A Golden Boot race for the ages - but who will come out on top?",
-   "desc": "It's fast becoming a World Cup Golden Boot for the ages. But who will win it?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8m526mjmeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T16:31:05Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The key World Cup players walking disciplinary tightrope",
    "desc": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-08T15:07:12Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Egypt want officials kicked out of World Cup",
-   "desc": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T13:45:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3cee/live/998e4d00-7ac2-11f1-8918-eb9b5adcff36.jpg",
    "source": "BBC Sport"
   }
  ]
