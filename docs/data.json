@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T21:24:36+00:00",
+ "generated_at": "2026-07-09T21:25:01+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1351,7 +1351,7 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "MAR",
@@ -5514,6 +5514,14 @@
  ],
  "scorers": [
   {
+   "player": "Kylian Mbappé",
+   "team": "FRA",
+   "goals": 8,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Lionel Messi",
    "team": "ARG",
    "goals": 8,
@@ -5528,14 +5536,6 @@
    "assists": 0,
    "flag": "🇳🇴",
    "owner": "Glancy"
-  },
-  {
-   "player": "Kylian Mbappé",
-   "team": "FRA",
-   "goals": 7,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
   },
   {
    "player": "Harry Kane",
