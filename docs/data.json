@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T07:50:51+00:00",
+ "generated_at": "2026-07-09T07:55:59+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6090,6 +6090,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Could Morocco become a football powerhouse?",
+   "desc": "Morocco face France in the 2026 World Cup quarter-finals on Thursday as the Atlas Lions look to reach the last four once again.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cewqqxz4ye9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T07:50:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8253/live/ce9ef630-7acb-11f1-a130-2b898c796aa9.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Noboody can question integrity of World Cup referees - Collina",
    "desc": "World Cup officials are not \"influenced by anyone\" and \"nobody can question the integrity\" when it comes to decision-making, says Fifa chief refereeing officer Pierluigi Collina.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cze9z1307p2o?at_medium=RSS&at_campaign=rss",
@@ -6159,15 +6168,6 @@
    "published": "2026-07-08T10:56:31Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/94b9/live/d921c210-7aba-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Portugal confirm departure of coach Martinez",
-   "desc": "The Portuguese football federation confirm the departure of national team coach Roberto Martinez, while Rafael Marquez replaces Javier Aguirre as Mexico coach.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T14:31:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5c3/live/4dced040-7ad8-11f1-81e2-67653cf46e84.jpg",
    "source": "BBC Sport"
   }
  ]
