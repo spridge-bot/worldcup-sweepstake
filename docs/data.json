@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T14:24:36+00:00",
+ "generated_at": "2026-07-09T14:29:43+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6063,6 +6063,15 @@
  ],
  "news": [
   {
+   "headline": "I've changed my mind, we might actually be able to win this thing - Shearer",
+   "desc": "Alan Shearer explains why he now has belief and confidence that England can go further in this World Cup than he thought.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz6vz34yv82o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T14:19:13Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/41a3/live/130cd9d0-7b77-11f1-9af8-1139253a4180.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Are France beatable? - BBC experts have their say",
    "desc": "France are the overwhelming favourites to win the World Cup. BBC Sport's reporters in America look for chinks in their armour.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4d7g1dvo?at_medium=RSS&at_campaign=rss",
@@ -6099,21 +6108,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Chris Sutton's World Cup quarter-final predictions",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T22:34:48Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Morocco's unfinished business with France",
    "desc": "Morocco are set to play in another World Cup quarter-final, but are they football's dreamers or is this where they belong?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8rd56dk1go?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-09T12:40:13Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/76d8/live/4e2f0020-7b71-11f1-9af8-1139253a4180.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Chris Sutton's World Cup quarter-final predictions",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T22:34:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6159,15 +6168,6 @@
    "published": "2026-07-09T05:48:18Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/becd/live/c9bf1210-7b18-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The key World Cup players walking disciplinary tightrope",
-   "desc": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T15:07:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg",
    "source": "BBC Sport"
   }
  ]
