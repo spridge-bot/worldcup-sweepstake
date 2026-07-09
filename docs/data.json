@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T21:20:30+00:00",
+ "generated_at": "2026-07-09T21:20:55+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -1335,9 +1335,9 @@
    "utc": "2026-07-09T20:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "55'",
-   "clock_sec": 3300.0,
-   "status_detail": "55'",
+   "clock": "56'",
+   "clock_sec": 3360.0,
+   "status_detail": "56'",
    "venue": "Gillette Stadium",
    "odds": {
     "home": 1.59,
