@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T11:35:46+00:00",
+ "generated_at": "2026-07-09T11:40:52+00:00",
  "mode": "live",
  "latest_day": "2026-07-07",
  "scoring": {
@@ -6063,12 +6063,21 @@
  ],
  "news": [
   {
+   "headline": "Are France beatable? - BBC experts have their say",
+   "desc": "France are the overwhelming favourites to win the World Cup. BBC Sport asks some of its reporters in America what they think?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4d7g1dvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T11:36:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/01e7/live/bfa9a080-7a85-11f1-8fe6-3170c9816b23.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'It was good vibes in there' - Stones on viral prank",
    "desc": "John Stones talks about the viral dressing-room injury prank that left England boss Thomas Tuchel briefly stunned.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdej0znl156o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-09T10:53:47Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6be8/live/2e2d8df0-68b6-11f1-a887-c513fdcee6e6.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/21a7/live/9b5135d0-7b8a-11f1-881d-8fcf7e2296a7.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6159,15 +6168,6 @@
    "published": "2026-07-08T20:13:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5c25/live/c2507320-7b6d-11f1-936a-038dbfe02d14.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Are Argentina being treated favourably at World Cup?",
-   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T15:37:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
    "source": "BBC Sport"
   }
  ]
