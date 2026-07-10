@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T05:22:09+00:00",
+ "generated_at": "2026-07-10T05:27:15+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -6074,15 +6074,6 @@
  ],
  "news": [
   {
-   "headline": "Guehi a doubt for Norway game and Rice ill with bug",
-   "desc": "England defender Marc Guehi is managing a slight hamstring injury and could miss Saturday's Norway quarter-final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T22:33:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f8e/live/c5a06860-7be4-11f1-9e76-bb53cc291deb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "France cruise into semi-finals - could this be the best Les Bleus ever?",
    "desc": "World Cup winners in 1998 and 2018, France have created another special team and in beating Morocco showed why they are favourites to win the 2026 competition.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy74978myo?at_medium=RSS&at_campaign=rss",
@@ -6092,12 +6083,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
-   "desc": "Norway striker Erling Haaland says all the pressure is on England before the two sides' World Cup quarter-final on Saturday.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T22:01:51Z",
+   "headline": "Guehi a doubt for Norway game and Rice ill with bug",
+   "desc": "England defender Marc Guehi is managing a slight hamstring injury and could miss Saturday's Norway quarter-final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T22:33:14Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f8e/live/c5a06860-7be4-11f1-9e76-bb53cc291deb.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Born in Leeds, crafted in Norway - Haaland's worlds about to collide",
+   "desc": "Erling Haaland has guided Norway to their first World Cup since 1998. So what is it like being a global name from a nation with a population of just 5.5 million?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-07T05:52:13Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6dc4/live/366a8e30-7add-11f1-9510-1546718f668b.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6128,12 +6128,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How Kane and Haaland compare - who would you pick?",
-   "desc": "Two of the world's best strikers - Harry Kane and Erling Haaland - meet in the World Cup quarter-finals - but who would you rather have?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzzz54kllo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T05:18:59Z",
+   "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
+   "desc": "Norway striker Erling Haaland says all the pressure is on England before the two sides' World Cup quarter-final on Saturday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T22:01:51Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cd53/live/75aa4c70-7b6e-11f1-bee8-53ce494e1abc.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6173,12 +6173,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Are Argentina being treated favourably at World Cup?",
-   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T15:37:07Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
