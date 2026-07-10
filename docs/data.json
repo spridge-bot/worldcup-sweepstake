@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T19:40:54+00:00",
+ "generated_at": "2026-07-10T19:41:19+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -1340,9 +1340,9 @@
    "utc": "2026-07-10T19:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "39'",
-   "clock_sec": 2340.0,
-   "status_detail": "39'",
+   "clock": "40'",
+   "clock_sec": 2400.0,
+   "status_detail": "40'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.65,
