@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T11:38:14+00:00",
+ "generated_at": "2026-07-10T11:43:21+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -5996,12 +5996,21 @@
  ],
  "news": [
   {
-   "headline": "France cruise into semi-finals - could this be the best Les Bleus ever?",
-   "desc": "World Cup winners in 1998 and 2018, France have created another special team and in beating Morocco showed why they are favourites to win the 2026 competition.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy74978myo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-10T00:43:10Z",
+   "headline": "Guehi a doubt for Norway game and Rice ill with bug",
+   "desc": "England defender Marc Guehi is managing a slight hamstring injury and could miss Saturday's Norway quarter-final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-09T22:33:14Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c39b/live/5e1ef190-7bfb-11f1-b60b-a55b51f89291.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f8e/live/c5a06860-7be4-11f1-9e76-bb53cc291deb.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'What old timers can do' - the evolution of Belgium's golden generation",
+   "desc": "BBC Sport explores what is behind Belgium's progress to the last eight of the World Cup, and whether they were too easily discounted among the contenders.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0g0mg4no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T11:38:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/91c9/live/30d0d4d0-7a0a-11f1-92a1-2dcee5cd2863.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6014,21 +6023,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Guehi a doubt for Norway game and Rice ill with bug",
-   "desc": "England defender Marc Guehi is managing a slight hamstring injury and could miss Saturday's Norway quarter-final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T22:33:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f8e/live/c5a06860-7be4-11f1-9e76-bb53cc291deb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "How De la Fuente's Spain are closing in on greatness",
    "desc": "Before Spain's World Cup quarter-final against Belgium, Guillem Balague talks to Spain boss Luis de la Fuente about their identity and Lamine Yamal.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cwyez8r7ve8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-10T06:47:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08d5/live/bfc4f4f0-7c2b-11f1-b3bb-a3d4161295ad.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "France cruise into semi-finals - could this be the best Les Bleus ever?",
+   "desc": "World Cup winners in 1998 and 2018, France have created another special team and in beating Morocco showed why they are favourites to win the 2026 competition.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy74978myo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T00:43:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c39b/live/5e1ef190-7bfb-11f1-b60b-a55b51f89291.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6092,15 +6101,6 @@
    "published": "2026-07-10T00:02:46Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad78/live/3963b200-7c32-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "US confirm Pulisic leg fracture in defeat by Belgium",
-   "desc": "The United States confirm that forward Christian Pulisic fractured his leg during his side's 4-1 defeat by Belgium in the World Cup last 16.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq613v53emlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T19:28:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7e3e/live/3aea09b0-7bcb-11f1-b543-9988255dfa81.jpg",
    "source": "BBC Sport"
   }
  ]
