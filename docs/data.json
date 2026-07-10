@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T22:12:16+00:00",
+ "generated_at": "2026-07-10T22:17:22+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -3861,9 +3861,9 @@
    "stage": "Semi-final",
    "group": null,
    "odds": {
-    "home": 2.35,
-    "draw": 3.2,
-    "away": 3.15,
+    "home": 2.3,
+    "draw": 3.25,
+    "away": 3.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6086,6 +6086,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Football's best bromance: Why Bellingham and Haaland break the mould",
+   "desc": "The two players have won an army of admirers from social media clips for their honesty in interviews.",
+   "link": "https://www.bbc.co.uk/news/articles/cz9l8pzxv7vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T19:53:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1a9a/live/329b22d0-7ca2-11f1-bc75-67a16fbc54d2.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Mexico boss' explicit heckle a bit of fun - Gordon",
    "desc": "England winger Anthony Gordon says being sworn at by Mexico boss Javier Aguirre in a viral moment of their World Cup match was \"just a bit of fun\".",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gyvv9w9n9o?at_medium=RSS&at_campaign=rss",
@@ -6110,15 +6119,6 @@
    "published": "2026-07-10T00:43:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c39b/live/5e1ef190-7bfb-11f1-b60b-a55b51f89291.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The wild hip-hop parties that started Tuchel's journey to England boss",
-   "desc": "Thomas Tuchel is bidding to become the first foreign manager to win the World Cup. BBC Sport charts the start of his journey to becoming England boss.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvgqevklyx1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-06-10T05:45:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/209c/live/ffdf5360-61ef-11f1-bf09-39079df8e064.jpg",
    "source": "BBC Sport"
   },
   {
