@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T00:05:01+00:00",
+ "generated_at": "2026-07-10T00:10:08+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -6128,6 +6128,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What's going on with penalties - is it time to end the 'stutter'?",
+   "desc": "Kylian Mbappe's penalty miss in France's win against Morocco is the latest example of a player missing a penalty after stuttering in the run-up.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cg74k39rp4vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T00:02:46Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6d06/live/1b7972a0-7be4-11f1-9e76-bb53cc291deb.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "US confirm Pulisic leg fracture in defeat by Belgium",
    "desc": "The United States confirm that forward Christian Pulisic fractured his leg during his side's 4-1 defeat by Belgium in the World Cup last 16.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cq613v53emlo?at_medium=RSS&at_campaign=rss",
@@ -6170,15 +6179,6 @@
    "published": "2026-07-09T18:57:33Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/10dc/live/32304f90-7b90-11f1-bee8-53ce494e1abc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Egypt want officials kicked out of World Cup",
-   "desc": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T13:45:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3cee/live/998e4d00-7ac2-11f1-8918-eb9b5adcff36.jpg",
    "source": "BBC Sport"
   }
  ]
