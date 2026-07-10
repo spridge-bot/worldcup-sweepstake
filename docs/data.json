@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T12:39:51+00:00",
+ "generated_at": "2026-07-10T12:44:58+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -5996,6 +5996,15 @@
  ],
  "news": [
   {
+   "headline": "How do England stop Norway - and Haaland?",
+   "desc": "As England prepare to face Norway in a World Cup quarter-final on Satuday how do Thomas Tuchel's side prepare for their main threat - star striker Erling Haaland?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c621jyxkvzko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T12:39:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c92d/live/c1618f20-7c45-11f1-8ccc-df652c9169a7.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Guehi a doubt for Norway game and Rice ill with bug",
    "desc": "England defender Marc Guehi is managing a slight hamstring injury and could miss Saturday's Norway quarter-final.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
@@ -6041,21 +6050,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Born in Leeds, crafted in Norway - Haaland's worlds about to collide",
-   "desc": "Erling Haaland has guided Norway to their first World Cup since 1998. So what is it like being a global name from a nation with a population of just 5.5 million?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-10T05:47:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6dc4/live/366a8e30-7add-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Michael Olise: Origins",
    "desc": "The origin story of France's newest superstar begins closer to home than you might think.",
    "link": "https://www.bbc.co.uk/iplayer/episode/m002z090?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-04T17:00:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nwxlr4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Born in Leeds, crafted in Norway - Haaland's worlds about to collide",
+   "desc": "Erling Haaland has guided Norway to their first World Cup since 1998. So what is it like being a global name from a nation with a population of just 5.5 million?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T05:47:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6dc4/live/366a8e30-7add-11f1-9510-1546718f668b.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6092,15 +6101,6 @@
    "published": "2026-07-09T22:01:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What's going on with penalties - is it time to end the stutter?",
-   "desc": "Kylian Mbappe's penalty miss in France's win against Morocco is the latest example of a player missing a penalty after stuttering in the run-up.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cg74k39rp4vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-10T00:02:46Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad78/live/3963b200-7c32-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   }
  ]
