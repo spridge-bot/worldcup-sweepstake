@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T09:02:37+00:00",
+ "generated_at": "2026-07-10T09:07:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -6119,6 +6119,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "FIFA World Cup 2026",
+   "desc": "The origin story of France's newest superstar begins closer to home than you might think.",
+   "link": "https://www.bbc.co.uk/iplayer/episode/m002z090?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-04T17:00:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nwxlr4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "I've changed my mind, we might actually be able to win this thing - Shearer",
    "desc": "Alan Shearer explains why he now has belief and confidence that England can go further in this World Cup than he thought.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cz6vz34yv82o?at_medium=RSS&at_campaign=rss",
@@ -6170,15 +6179,6 @@
    "published": "2026-07-09T19:28:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7e3e/live/3aea09b0-7bcb-11f1-b543-9988255dfa81.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
