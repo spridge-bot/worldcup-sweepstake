@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T19:01:38+00:00",
+ "generated_at": "2026-07-10T19:01:55+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -1334,7 +1334,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760511,
+   "utc": "2026-07-10T19:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "clock": "1'",
+   "clock_sec": 60.0,
+   "status_detail": "1'",
+   "venue": "SoFi Stadium",
+   "odds": {
+    "home": 1.65,
+    "draw": 3.9,
+    "away": 5.25,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "goals": 0
+   },
+   "away": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "owner": "Pari",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760510,
@@ -3770,31 +3802,6 @@
  ],
  "upcoming": [
   {
-   "id": 760511,
-   "utc": "2026-07-10T19:00:00Z",
-   "stage": "Quarter-final",
-   "group": null,
-   "odds": {
-    "home": 1.61,
-    "draw": 3.9,
-    "away": 5.75,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WWWWD"
-   },
-   "away": {
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "form": "WWWDD"
-   }
-  },
-  {
    "id": 760512,
    "utc": "2026-07-11T21:00:00Z",
    "stage": "Quarter-final",
@@ -5303,7 +5310,7 @@
    "id": 760511,
    "utc": "2026-07-10T19:00:00Z",
    "stage": "QUARTER_FINALS",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
