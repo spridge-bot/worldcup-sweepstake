@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-10T21:00:18+00:00",
+ "generated_at": "2026-07-10T21:00:43+00:00",
  "mode": "live",
- "latest_day": "2026-07-09",
+ "latest_day": "2026-07-10",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -32,6 +32,19 @@
    "movement": 0
   },
   {
+   "name": "Jen",
+   "teams": [
+    "ESP",
+    "JPN",
+    "CIV",
+    "HAI"
+   ],
+   "total": 20,
+   "today": 4,
+   "rank": 1,
+   "movement": 2
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -40,9 +53,9 @@
     "BIH"
    ],
    "total": 17,
-   "today": 4,
-   "rank": 2,
-   "movement": 6
+   "today": 0,
+   "rank": 3,
+   "movement": -1
   },
   {
    "name": "Brando",
@@ -54,7 +67,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 3,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -67,20 +80,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Jen",
-   "teams": [
-    "ESP",
-    "JPN",
-    "CIV",
-    "HAI"
-   ],
-   "total": 16,
-   "today": 0,
-   "rank": 3,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -93,7 +93,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 3,
+   "rank": 4,
    "movement": -1
   },
   {
@@ -107,7 +107,7 @@
    "total": 15,
    "today": 0,
    "rank": 7,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Fergs",
@@ -120,7 +120,7 @@
    "total": 14,
    "today": 0,
    "rank": 8,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "George",
@@ -217,14 +217,19 @@
    "fifa_rank": 2,
    "owner": "Jen",
    "status": "alive",
-   "played": 5,
-   "won": 4,
+   "played": 6,
+   "won": 5,
    "drawn": 1,
    "lost": 0,
-   "gf": 9,
-   "ga": 0,
-   "total": 10,
+   "gf": 11,
+   "ga": 1,
+   "total": 14,
    "events": [
+    {
+     "date": "2026-07-10",
+     "desc": "Won Quarter-final tie",
+     "points": 4
+    },
     {
      "date": "2026-07-06",
      "desc": "Won Round of 16 tie",
@@ -432,13 +437,13 @@
    "tier": 1,
    "fifa_rank": 9,
    "owner": "Pari",
-   "status": "alive",
-   "played": 5,
+   "status": "out",
+   "played": 6,
    "won": 3,
    "drawn": 2,
-   "lost": 0,
-   "gf": 13,
-   "ga": 5,
+   "lost": 1,
+   "gf": 14,
+   "ga": 7,
    "total": 10,
    "events": [
     {
@@ -1334,40 +1339,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760511,
+   "date": "2026-07-10",
    "utc": "2026-07-10T19:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "90'+7'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+7'",
-   "venue": "SoFi Stadium",
+   "note": "",
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "tier": 1,
+    "goals": 2,
+    "points": 4
+   },
+   "away": {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "tier": 1,
+    "goals": 1,
+    "points": 0
+   },
    "odds": {
     "home": 1.65,
     "draw": 3.9,
     "away": 5.25,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "goals": 2
-   },
-   "away": {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
-    "owner": "Pari",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760510,
    "date": "2026-07-09",
@@ -5310,11 +5314,11 @@
    "id": 760511,
    "utc": "2026-07-10T19:00:00Z",
    "stage": "QUARTER_FINALS",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 2,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "ESP",
    "venue": "SoFi Stadium",
    "home": {
     "code": "ESP",
@@ -5623,6 +5627,15 @@
    "pts": 12
   },
   {
+   "code": "BEL",
+   "name": "Belgium",
+   "flag": "🇧🇪",
+   "owner": "Pari",
+   "yellow": 7,
+   "red": 1,
+   "pts": 11
+  },
+  {
    "code": "ENG",
    "name": "England",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -5648,15 +5661,6 @@
    "yellow": 11,
    "red": 0,
    "pts": 11
-  },
-  {
-   "code": "BEL",
-   "name": "Belgium",
-   "flag": "🇧🇪",
-   "owner": "Pari",
-   "yellow": 5,
-   "red": 1,
-   "pts": 9
   },
   {
    "code": "URU",
@@ -5830,6 +5834,15 @@
    "pts": 5
   },
   {
+   "code": "ESP",
+   "name": "Spain",
+   "flag": "🇪🇸",
+   "owner": "Jen",
+   "yellow": 5,
+   "red": 0,
+   "pts": 5
+  },
+  {
    "code": "SWE",
    "name": "Sweden",
    "flag": "🇸🇪",
@@ -5951,15 +5964,6 @@
    "name": "Senegal",
    "flag": "🇸🇳",
    "owner": "Fergs",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
-   "code": "ESP",
-   "name": "Spain",
-   "flag": "🇪🇸",
-   "owner": "Jen",
    "yellow": 3,
    "red": 0,
    "pts": 3
