@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T20:14:46+00:00",
+ "generated_at": "2026-07-10T20:15:10+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -1340,9 +1340,9 @@
    "utc": "2026-07-10T19:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "52'",
-   "clock_sec": 3120.0,
-   "status_detail": "52'",
+   "clock": "53'",
+   "clock_sec": 3180.0,
+   "status_detail": "53'",
    "venue": "SoFi Stadium",
    "odds": {
     "home": 1.65,
@@ -6066,21 +6066,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Mexico boss' explicit heckle a bit of fun - Gordon",
+   "desc": "England winger Anthony Gordon says being sworn at by Mexico boss Javier Aguirre in a viral moment of their World Cup match was \"just a bit of fun\".",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyvv9w9n9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T06:36:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6f5f/live/d8cfcd00-7c24-11f1-a4f7-e1c223785e11.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How De la Fuente's Spain are closing in on greatness",
    "desc": "Before Spain's World Cup quarter-final against Belgium, Guillem Balague talks to Spain boss Luis de la Fuente about their identity and Lamine Yamal.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cwyez8r7ve8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-10T06:47:29Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/08d5/live/bfc4f4f0-7c2b-11f1-b3bb-a3d4161295ad.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "New species named after Cape Verde keeper Vozinha",
-   "desc": "A new species of sea slug has been named after Cape Verde goalkeeper Vozinha to mark his performance against Spain at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cn8kdxgxlkeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-10T19:30:06Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1c0c/live/adb97d00-7c92-11f1-b9b6-03aa1610fbc2.jpg",
    "source": "BBC Sport"
   },
   {
