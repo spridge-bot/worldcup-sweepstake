@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T15:38:56+00:00",
+ "generated_at": "2026-07-10T15:44:02+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -6014,12 +6014,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'What old timers can do' - the evolution of Belgium's golden generation",
+   "headline": "'What old-timers can do' - the evolution of Belgium's golden generation",
    "desc": "BBC Sport explores what is behind Belgium's progress to the last eight of the World Cup, and whether they were too easily discounted among the contenders.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0g0mg4no?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-10T11:38:58Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/91c9/live/30d0d4d0-7a0a-11f1-92a1-2dcee5cd2863.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Jesus reunites with Ronaldo as new Portugal head coach",
+   "desc": "Jorge Jesus is named Portugal's new head coach on a four-year contract to run through to the 2030 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T15:41:59Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46d5/live/7f3638b0-7c6f-11f1-98fd-6b03daaf8a77.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6092,15 +6101,6 @@
    "published": "2026-07-09T21:16:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/876a/live/f06d7130-7bb4-11f1-8b3b-4de03d5aab17.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Chris Sutton's World Cup quarter-final predictions",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T22:34:48Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
