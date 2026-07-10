@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T13:46:20+00:00",
+ "generated_at": "2026-07-10T13:51:26+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -6059,6 +6059,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "The wild hip-hop parties that started Tuchel's journey to England boss",
+   "desc": "Thomas Tuchel is bidding to become the first foreign manager to win the World Cup. BBC Sport charts the start of his journey to becoming England boss.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgqevklyx1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-06-10T05:45:28Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/209c/live/ffdf5360-61ef-11f1-bf09-39079df8e064.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Born in Leeds, crafted in Norway - Haaland's worlds about to collide",
    "desc": "Erling Haaland has guided Norway to their first World Cup since 1998. So what is it like being a global name from a nation with a population of just 5.5 million?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss",
@@ -6092,15 +6101,6 @@
    "published": "2026-07-08T22:34:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
-   "desc": "Norway striker Erling Haaland says all the pressure is on England before the two sides' World Cup quarter-final on Saturday.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-09T22:01:51Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg",
    "source": "BBC Sport"
   }
  ]
