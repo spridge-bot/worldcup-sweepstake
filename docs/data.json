@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T19:35:35+00:00",
+ "generated_at": "2026-07-10T19:35:59+00:00",
  "mode": "live",
  "latest_day": "2026-07-09",
  "scoring": {
@@ -6075,6 +6075,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "New species named after Cape Verde keeper Vozinha",
+   "desc": "A new species of sea snail has been named after Cape Verde goalkeeper Vozinha to mark his performance against Spain at the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cn8kdxgxlkeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T19:30:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1c0c/live/adb97d00-7c92-11f1-b9b6-03aa1610fbc2.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "France cruise into semi-finals - could this be the best Les Bleus ever?",
    "desc": "World Cup winners in 1998 and 2018, France have created another special team and in beating Morocco showed why they are favourites to win the 2026 competition.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy74978myo?at_medium=RSS&at_campaign=rss",
@@ -6099,15 +6108,6 @@
    "published": "2026-07-10T05:47:23Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6dc4/live/366a8e30-7add-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Chris Sutton's World Cup quarter-final predictions",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-08T22:34:48Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   }
  ]
