@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T12:36:40+00:00",
+ "generated_at": "2026-07-11T14:06:45+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -3836,9 +3836,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 1.69,
-    "draw": 3.55,
-    "away": 5.5,
+    "home": 1.67,
+    "draw": 3.6,
+    "away": 5.75,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6033,7 +6033,7 @@
  "news": [
   {
    "headline": "Hey Jude: Bellingham's return to England indispensability",
-   "desc": "Senior football correspondent Sami Mokbel charts Jude Bellingham's remarkable  resurgence with England at the World Cup.",
+   "desc": "Senior football correspondent Sami Mokbel charts Jude Bellingham's remarkable resurgence with England at the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-11T07:54:32Z",
    "type": "Story",
@@ -6047,6 +6047,15 @@
    "published": "2026-07-11T05:08:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0cda/live/d0939c10-7d01-11f1-b6e3-7521a4959d1c.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "South Africa World Cup midfielder Adams dies aged 25",
+   "desc": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T13:29:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bee7/live/695fd8a0-7d2f-11f1-8f06-e145dd803033.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6128,15 +6137,6 @@
    "published": "2026-07-10T12:39:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c92d/live/c1618f20-7c45-11f1-8ccc-df652c9169a7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
