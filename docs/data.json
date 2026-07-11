@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T05:57:55+00:00",
+ "generated_at": "2026-07-11T06:03:01+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -3811,9 +3811,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 3.9,
+    "home": 3.8,
     "draw": 3.65,
-    "away": 1.91,
+    "away": 1.95,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
