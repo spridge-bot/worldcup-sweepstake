@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T21:06:33+00:00",
+ "generated_at": "2026-07-11T22:02:14+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -1345,9 +1345,9 @@
    "utc": "2026-07-11T21:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "5'",
-   "clock_sec": 300.0,
-   "status_detail": "5'",
+   "clock": "45'+5'",
+   "clock_sec": 2700.0,
+   "status_detail": "HT",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 4.1,
@@ -1361,14 +1361,14 @@
     "name": "Norway",
     "flag": "🇳🇴",
     "owner": "Glancy",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "ENG",
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
@@ -5515,6 +5515,14 @@
    "owner": "Brando"
   },
   {
+   "player": "Jude Bellingham",
+   "team": "ENG",
+   "goals": 5,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
+  },
+  {
    "player": "Ousmane Dembélé",
    "team": "FRA",
    "goals": 5,
@@ -5529,14 +5537,6 @@
    "assists": 0,
    "flag": "🇸🇳",
    "owner": "Fergs"
-  },
-  {
-   "player": "Jude Bellingham",
-   "team": "ENG",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "owner": "Brando"
   },
   {
    "player": "Julián Quiñones",
@@ -6039,8 +6039,26 @@
  ],
  "news": [
   {
+   "headline": "Fifa official refuses to answer BBC's ban questions",
+   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to England's Jarell Quansah being banned for two World Cup games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T21:42:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a419/live/1f3f4cc0-7d6f-11f1-b530-e535926b564c.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rate the players as England face Norway",
+   "desc": "Rate the Norway and England players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T21:50:51Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3ca1/live/3d6deef0-7d4b-11f1-926f-c90d1bcfbc84.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Hey Jude: Bellingham's return to England indispensability",
-   "desc": "Before tonight's quarter-final against Norway, senior football correspondent Sami Mokbel charts Jude Bellingham's remarkable resurgence with England at the World Cup.",
+   "desc": "Senior football correspondent Sami Mokbel charts Jude Bellingham's remarkable resurgence with England at the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-11T07:54:32Z",
    "type": "Story",
@@ -6075,15 +6093,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "From Arsenal jeers to Swiss tears: Xhaka's redemption",
-   "desc": "Granit Xhaka has battled back from being booed by his own fans at Arsenal to being one of the most influential players for club and country as he looks to help Switzerland make history at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy06zgdz728o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T11:58:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2a2c/live/ce3cf2b0-7b10-11f1-994a-0f37fa57a855.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Playing golf with Trump surreal - Kane",
    "desc": "England captain Harry Kane says he once played golf with United States President Donald Trump, describing the experience as \"surreal\".",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8e2z97rp4xo?at_medium=RSS&at_campaign=rss",
@@ -6099,6 +6108,15 @@
    "published": "2026-07-11T05:55:32Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9325/live/9e569ad0-7c80-11f1-a046-0508c8c5d104.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "From Arsenal jeers to Swiss tears: Xhaka's redemption",
+   "desc": "Granit Xhaka has battled back from being booed by his own fans at Arsenal to being one of the most influential players for club and country as he looks to help Switzerland make history at the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy06zgdz728o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T11:58:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2a2c/live/ce3cf2b0-7b10-11f1-994a-0f37fa57a855.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6126,24 +6144,6 @@
    "published": "2026-07-08T22:34:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Artificial turf & coaching revolution - how Norway shaped golden generation",
-   "desc": "Artificial turf, investment from gambling and a coaching revolution based on collaboration over egos help Norway build a golden generation of players.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvge7299ygwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T05:31:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cb0a/live/8fb32000-7bc9-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Pubs can stay open for full Norway game - even if kick-off delayed",
-   "desc": "The extended hours means fans can watch the entire game, even if the start is delayed.",
-   "link": "https://www.bbc.co.uk/news/articles/cm204lgrv10o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T12:26:08Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5fe/live/a2e69d40-7d0f-11f1-923a-a7d66f37fd92.jpg",
    "source": "BBC Sport"
   }
  ]
