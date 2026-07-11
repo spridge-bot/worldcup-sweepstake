@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T20:12:50+00:00",
+ "generated_at": "2026-07-11T21:06:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -1339,7 +1339,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760512,
+   "utc": "2026-07-11T21:00:00Z",
+   "stage": "Quarter-final",
+   "group": null,
+   "clock": "5'",
+   "clock_sec": 300.0,
+   "status_detail": "5'",
+   "venue": "Hard Rock Stadium",
+   "odds": {
+    "home": 4.1,
+    "draw": 3.7,
+    "away": 1.87,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "owner": "Glancy",
+    "goals": 0
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760511,
@@ -3806,31 +3838,6 @@
  ],
  "upcoming": [
   {
-   "id": 760512,
-   "utc": "2026-07-11T21:00:00Z",
-   "stage": "Quarter-final",
-   "group": null,
-   "odds": {
-    "home": 4.1,
-    "draw": 3.9,
-    "away": 1.8,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "form": "WWLWW"
-   },
-   "away": {
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "form": "WWWDW"
-   }
-  },
-  {
    "id": 760513,
    "utc": "2026-07-12T01:00:00Z",
    "stage": "Quarter-final",
@@ -5362,7 +5369,7 @@
    "id": 760512,
    "utc": "2026-07-11T21:00:00Z",
    "stage": "QUARTER_FINALS",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
@@ -6041,15 +6048,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Risk of thunderstorms before England face Norway in Miami heat",
-   "desc": "Alongside high temperatures as England face Norway in Miami, there is a risk of thunderstorms, especially near the start of their World Cup quarter-final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T05:08:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0cda/live/d0939c10-7d01-11f1-b6e3-7521a4959d1c.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "South Africa World Cup midfielder Adams dies aged 25",
    "desc": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
@@ -6086,21 +6084,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Is it time to give record-breaker Pickford the credit he deserves?",
-   "desc": "Is it time to finally give England keeper Jordan Pickford the credit he deserves as he enters the World Cup history books, asks chief football writer Phil McNulty.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T05:55:32Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9325/live/9e569ad0-7c80-11f1-a046-0508c8c5d104.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Playing golf with Trump surreal - Kane",
    "desc": "England captain Harry Kane says he once played golf with United States President Donald Trump, describing the experience as \"surreal\".",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8e2z97rp4xo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-11T10:34:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0975/live/46755780-7d10-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Is it time to give record-breaker Pickford the credit he deserves?",
+   "desc": "Is it time to finally give England keeper Jordan Pickford the credit he deserves as he enters the World Cup history books, asks chief football writer Phil McNulty.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T05:55:32Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9325/live/9e569ad0-7c80-11f1-a046-0508c8c5d104.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6119,6 +6117,15 @@
    "published": "2026-07-10T23:29:52Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6c4d/live/36c6f360-7cbc-11f1-b6c2-a71c5c448f77.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Chris Sutton's World Cup quarter-final predictions",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-08T22:34:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
    "source": "BBC Sport"
   },
   {
