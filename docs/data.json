@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T22:02:14+00:00",
+ "generated_at": "2026-07-11T22:59:35+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -1345,9 +1345,9 @@
    "utc": "2026-07-11T21:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "45'+5'",
-   "clock_sec": 2700.0,
-   "status_detail": "HT",
+   "clock": "90'+6'",
+   "clock_sec": 5400.0,
+   "status_detail": "90'+6'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 4.1,
@@ -6039,12 +6039,12 @@
  ],
  "news": [
   {
-   "headline": "Fifa official refuses to answer BBC's ban questions",
-   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to England's Jarell Quansah being banned for two World Cup games.",
+   "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
+   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T21:42:56Z",
+   "published": "2026-07-11T22:45:41Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a419/live/1f3f4cc0-7d6f-11f1-b530-e535926b564c.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a994/live/4a0fa490-7d79-11f1-b86f-176a142dfd6c.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6081,6 +6081,15 @@
    "published": "2026-07-11T14:48:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ddab/live/df173670-7860-11f1-ab53-3dbca6ef5ee1.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Argentina midfield great Rattin dies aged 89",
+   "desc": "Argentina great Antonio Rattin, whose sending-off at the 1966 World Cup led to the introduction of red and yellow cards, dies aged 89.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T22:24:27Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ccd/live/68cc4860-7d75-11f1-98dd-61279ae4cdce.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6126,15 +6135,6 @@
    "published": "2026-07-10T23:14:51Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3f93/live/b02ba7f0-7cb2-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-   "desc": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-10T23:29:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6c4d/live/36c6f360-7cbc-11f1-b6c2-a71c5c448f77.jpg",
    "source": "BBC Sport"
   },
   {
