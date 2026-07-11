@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T19:21:29+00:00",
+ "generated_at": "2026-07-11T20:12:50+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -3811,9 +3811,9 @@
    "stage": "Quarter-final",
    "group": null,
    "odds": {
-    "home": 3.9,
-    "draw": 3.75,
-    "away": 1.91,
+    "home": 4.1,
+    "draw": 3.9,
+    "away": 1.8,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6032,15 +6032,6 @@
  ],
  "news": [
   {
-   "headline": "Guehi and Stones set to start for England in World Cup quarter-final",
-   "desc": "Marc Guehi has won his fitness race and is expected to be fit for England's World Cup quarter-final against Norway, with John Stones set to play alongside the central defender.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c7vyp994jjgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T18:46:16Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/117c/live/326c1390-7d52-11f1-8dd5-cdcf1477b2dd.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Hey Jude: Bellingham's return to England indispensability",
    "desc": "Before tonight's quarter-final against Norway, senior football correspondent Sami Mokbel charts Jude Bellingham's remarkable resurgence with England at the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
@@ -6137,6 +6128,15 @@
    "published": "2026-07-11T05:31:12Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cb0a/live/8fb32000-7bc9-11f1-9510-1546718f668b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Pubs can stay open for full Norway game - even if kick-off delayed",
+   "desc": "The extended hours means fans can watch the entire game, even if the start is delayed.",
+   "link": "https://www.bbc.co.uk/news/articles/cm204lgrv10o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T12:26:08Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5fe/live/a2e69d40-7d0f-11f1-923a-a7d66f37fd92.jpg",
    "source": "BBC Sport"
   }
  ]
