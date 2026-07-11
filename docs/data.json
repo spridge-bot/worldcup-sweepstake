@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T02:23:21+00:00",
+ "generated_at": "2026-07-11T02:28:27+00:00",
  "mode": "live",
  "latest_day": "2026-07-10",
  "scoring": {
@@ -6032,6 +6032,15 @@
  ],
  "news": [
   {
+   "headline": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
+   "desc": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-10T23:29:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6c4d/live/36c6f360-7cbc-11f1-b6c2-a71c5c448f77.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Lammens' error spells end for Belgium's golden generation",
    "desc": "Belgium's World Cup campaign ends after Senne Lammens' error against Spain - could it all be over for their golden generation too?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
@@ -6128,15 +6137,6 @@
    "published": "2026-07-10T05:47:23Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6dc4/live/366a8e30-7add-11f1-9510-1546718f668b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
