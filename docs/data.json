@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T12:12:37+00:00",
+ "generated_at": "2026-07-12T13:55:43+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "'Not happy with the performance' - so why do England keep winning?",
+   "desc": "Football tactics correspondent Umir Irfan examines why England are still winning games despite Thomas Tuchel insisting performances are not good.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c7vy25lqll6o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T12:19:03Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5df9/live/b19562e0-7deb-11f1-a5de-97ad6e22e20a.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel angry at 'lucky' England - but Bellingham defends players",
    "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
@@ -6112,6 +6121,24 @@
    "published": "2026-07-12T11:15:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e5d2/live/1ef90aa0-7de0-11f1-91f9-abeb669686c2.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Big stars and old rivals - what to expect in semi-finals",
+   "desc": "France face Spain and England take on Argentina in heavyweight World Cup semi-final meetings - here's what to expect from the last four.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd6ed5x95ygo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T12:29:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c316/live/83dd8b10-7dab-11f1-926f-c90d1bcfbc84.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
+   "desc": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T13:29:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06d1/live/fffe9600-7cdc-11f1-bee8-53ce494e1abc.png",
    "source": "BBC Sport"
   },
   {
@@ -6157,33 +6184,6 @@
    "published": "2026-07-12T04:22:57Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ec5/live/7f45e610-7da1-11f1-a049-155ea2296701.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-02T21:33:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England into semi-finals - what is their path to the final?",
-   "desc": "BBC Sport takes a look at what England will need to do to reach the World Cup final after progressing to the semi-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T03:57:53Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ea1/live/95bd6a10-7d8f-11f1-926f-c90d1bcfbc84.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Top four ranked teams make semi-finals for first time",
-   "desc": "For the first time since there have been Fifa rankings the top four ranked teams have made the semi-final of the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c2ey9l3yl4vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T04:26:44Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/730c/live/259b3630-7da9-11f1-b8b7-61bca8be7527.jpg",
    "source": "BBC Sport"
   }
  ]
