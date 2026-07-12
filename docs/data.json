@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-12T03:31:17+00:00",
+ "generated_at": "2026-07-12T06:18:35+00:00",
  "mode": "live",
- "latest_day": "2026-07-11",
+ "latest_day": "2026-07-12",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -27,9 +27,9 @@
     "KSA"
    ],
    "total": 20,
-   "today": 4,
+   "today": 0,
    "rank": 1,
-   "movement": 3
+   "movement": 0
   },
   {
    "name": "Dipen",
@@ -58,6 +58,19 @@
    "movement": 0
   },
   {
+   "name": "Fergs",
+   "teams": [
+    "ARG",
+    "SEN",
+    "PAR",
+    "CUW"
+   ],
+   "total": 18,
+   "today": 4,
+   "rank": 4,
+   "movement": 4
+  },
+  {
    "name": "Spridge",
    "teams": [
     "FRA",
@@ -67,7 +80,7 @@
    ],
    "total": 17,
    "today": 0,
-   "rank": 4,
+   "rank": 5,
    "movement": -1
   },
   {
@@ -80,7 +93,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 5,
+   "rank": 6,
    "movement": -1
   },
   {
@@ -93,7 +106,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 5,
+   "rank": 6,
    "movement": -1
   },
   {
@@ -106,21 +119,8 @@
    ],
    "total": 15,
    "today": 0,
-   "rank": 7,
-   "movement": 0
-  },
-  {
-   "name": "Fergs",
-   "teams": [
-    "ARG",
-    "SEN",
-    "PAR",
-    "CUW"
-   ],
-   "total": 14,
-   "today": 0,
    "rank": 8,
-   "movement": 0
+   "movement": -1
   },
   {
    "name": "George",
@@ -184,14 +184,19 @@
    "fifa_rank": 1,
    "owner": "Fergs",
    "status": "alive",
-   "played": 5,
-   "won": 5,
+   "played": 6,
+   "won": 6,
    "drawn": 0,
    "lost": 0,
-   "gf": 14,
-   "ga": 5,
-   "total": 10,
+   "gf": 17,
+   "ga": 6,
+   "total": 14,
    "events": [
+    {
+     "date": "2026-07-12",
+     "desc": "Won Quarter-final tie",
+     "points": 4
+    },
     {
      "date": "2026-07-07",
      "desc": "Won Round of 16 tie",
@@ -674,13 +679,13 @@
    "tier": 2,
    "fifa_rank": 19,
    "owner": "Emily",
-   "status": "alive",
-   "played": 5,
+   "status": "out",
+   "played": 6,
    "won": 3,
    "drawn": 2,
-   "lost": 0,
-   "gf": 9,
-   "ga": 3,
+   "lost": 1,
+   "gf": 10,
+   "ga": 6,
    "total": 10,
    "events": [
     {
@@ -1344,40 +1349,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760513,
+   "date": "2026-07-12",
    "utc": "2026-07-12T01:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "110'",
-   "clock_sec": 6600.0,
-   "status_detail": "110'",
-   "venue": "GEHA Field at Arrowhead Stadium",
+   "note": "",
+   "home": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "tier": 1,
+    "goals": 3,
+    "points": 4
+   },
+   "away": {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "tier": 2,
+    "goals": 1,
+    "points": 0
+   },
    "odds": {
     "home": 1.69,
     "draw": 3.55,
     "away": 5.5,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "goals": 1
-   },
-   "away": {
-    "code": "SUI",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
-    "owner": "Emily",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760512,
    "date": "2026-07-11",
@@ -3897,6 +3901,31 @@
     "owner": "Jen",
     "form": "WWWWW"
    }
+  },
+  {
+   "id": 760515,
+   "utc": "2026-07-15T19:00:00Z",
+   "stage": "Semi-final",
+   "group": null,
+   "odds": {
+    "home": 2.55,
+    "draw": 3.0,
+    "away": 3.05,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "form": "WWWWD"
+   },
+   "away": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "form": "WWWWW"
+   }
   }
  ],
  "groups": [
@@ -5403,11 +5432,11 @@
    "id": 760513,
    "utc": "2026-07-12T01:00:00Z",
    "stage": "QUARTER_FINALS",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 3,
+   "ag": 1,
    "note": "",
-   "winner": null,
+   "winner": "ARG",
    "venue": "GEHA Field at Arrowhead Stadium",
    "home": {
     "code": "ARG",
@@ -5462,10 +5491,10 @@
     "owner": "Brando"
    },
    "away": {
-    "code": null,
-    "name": "Quarterfinal 4 Winner",
-    "flag": "",
-    "owner": null
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs"
    }
   },
   {
@@ -5688,6 +5717,15 @@
    "pts": 11
   },
   {
+   "code": "SUI",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "owner": "Emily",
+   "yellow": 7,
+   "red": 1,
+   "pts": 11
+  },
+  {
    "code": "USA",
    "name": "USA",
    "flag": "🇺🇸",
@@ -5787,6 +5825,15 @@
    "pts": 7
   },
   {
+   "code": "ARG",
+   "name": "Argentina",
+   "flag": "🇦🇷",
+   "owner": "Fergs",
+   "yellow": 6,
+   "red": 0,
+   "pts": 6
+  },
+  {
    "code": "COD",
    "name": "DR Congo",
    "flag": "🇨🇩",
@@ -5818,15 +5865,6 @@
    "name": "Saudi Arabia",
    "flag": "🇸🇦",
    "owner": "Brando",
-   "yellow": 6,
-   "red": 0,
-   "pts": 6
-  },
-  {
-   "code": "SUI",
-   "name": "Switzerland",
-   "flag": "🇨🇭",
-   "owner": "Emily",
    "yellow": 6,
    "red": 0,
    "pts": 6
@@ -5985,15 +6023,6 @@
    "pts": 3
   },
   {
-   "code": "ARG",
-   "name": "Argentina",
-   "flag": "🇦🇷",
-   "owner": "Fergs",
-   "yellow": 3,
-   "red": 0,
-   "pts": 3
-  },
-  {
    "code": "NED",
    "name": "Netherlands",
    "flag": "🇳🇱",
@@ -6050,8 +6079,17 @@
  ],
  "news": [
   {
-   "headline": "Tuchel angry at 'lucky' and 'sloppy' England – can 'mentality' be enough?",
-   "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway – but match-winner Jude Bellingham disagrees.",
+   "headline": "Bellingham reaching heights of World Cup legends with Messi next",
+   "desc": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T04:35:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b3aa/live/66ff3770-7d9f-11f1-a998-878927a5819d.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Tuchel angry at 'lucky' and 'sloppy' England - can 'mentality' be enough?",
+   "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-12T03:08:42Z",
    "type": "Story",
@@ -6078,11 +6116,29 @@
   },
   {
    "headline": "BBC to show England's World Cup semi-final",
-   "desc": "England's World Cup semi-final against Argentina or Switzerland will be broadcast live on BBC One and BBC iPlayer.",
+   "desc": "England's World Cup semi-final against Argentina will be broadcast live on BBC One and BBC iPlayer.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-11T23:47:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46cf/live/9e53f650-7d7e-11f1-9493-592225228524.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Embolo sent off as result of mistaken identity rule",
+   "desc": "Switzerland's Breel Embolo becomes first player to be sent off as a result of a new law for mistaken identity at the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T04:22:57Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ec5/live/7f45e610-7da1-11f1-a049-155ea2296701.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Top four ranked teams make semi-finals for first time",
+   "desc": "For the first time since there have been Fifa rankings the top four ranked teams have made the semi-final of the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2ey9l3yl4vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T04:26:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/730c/live/259b3630-7da9-11f1-b8b7-61bca8be7527.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6095,39 +6151,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who else? How Bellingham became indispensable again",
-   "desc": "Senior football correspondent Sami Mokbel charts Jude Bellingham's remarkable resurgence with England at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T00:06:50Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/30d5/live/fd1276c0-7cd5-11f1-96b0-c159ef728dbe.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "South Africa World Cup midfielder Adams dies aged 25",
-   "desc": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T14:47:47Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bee7/live/695fd8a0-7d2f-11f1-8f06-e145dd803033.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "England into semi-finals - what is their path to the final?",
    "desc": "BBC Sport takes a look at what England will need to do to reach the World Cup final after progressing to the semi-finals.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T01:24:43Z",
+   "published": "2026-07-12T03:57:53Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ea1/live/95bd6a10-7d8f-11f1-926f-c90d1bcfbc84.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
-   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T22:45:41Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a994/live/4a0fa490-7d79-11f1-b86f-176a142dfd6c.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6140,21 +6169,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Should Argentina take Messi off penalties?",
-   "desc": "Lionel Messi keeps rewriting World Cup history, but after his latest miss from the spot, should Argentina hand penalty duties to someone else?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6214y2dlgno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T10:51:33Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ba55/live/87d35590-7d17-11f1-b61e-1b6852ddc42f.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   },
   {
-   "headline": "Playing golf with Trump surreal - Kane",
-   "desc": "England captain Harry Kane says he once played golf with United States President Donald Trump, describing the experience as \"surreal\".",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8e2z97rp4xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T10:34:09Z",
+   "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
+   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T22:45:41Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0975/live/46755780-7d10-11f1-bee8-53ce494e1abc.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a994/live/4a0fa490-7d79-11f1-b86f-176a142dfd6c.jpg",
    "source": "BBC Sport"
   }
  ]
