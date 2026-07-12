@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T17:39:14+00:00",
+ "generated_at": "2026-07-12T18:33:53+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "England have another level we can reach - Kane",
+   "desc": "Captain Harry Kane says England \"have another level we can reach\" as they bid to win the World Cup for the first time since 1966.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T18:18:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc69/live/bdd18370-7e1a-11f1-9b4a-473830aebee3.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Not happy with the performance' - so why do England keep winning?",
    "desc": "Football tactics correspondent Umir Irfan examines why England are still winning games despite Thomas Tuchel insisting performances are not good.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c7vy25lqll6o?at_medium=RSS&at_campaign=rss",
@@ -6124,21 +6133,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
-   "desc": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T13:29:06Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06d1/live/fffe9600-7cdc-11f1-bee8-53ce494e1abc.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Tuchel angry at 'lucky' England - but Bellingham defends players",
    "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-12T03:08:42Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e625/live/812ffc70-7d99-11f1-9750-97a471ba3018.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
+   "desc": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T13:29:06Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06d1/live/fffe9600-7cdc-11f1-bee8-53ce494e1abc.png",
    "source": "BBC Sport"
   },
   {
@@ -6175,15 +6184,6 @@
    "published": "2026-07-12T04:26:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/730c/live/259b3630-7da9-11f1-b8b7-61bca8be7527.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rice in bed for nearly three days before Norway game - Tuchel",
-   "desc": "England boss Thomas Tuchel says Declan Rice was in bed for most of the three days prior to the World Cup quarter-final win against Norway because of a sickness bug.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cpd3wv3v1eeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T11:15:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e5d2/live/1ef90aa0-7de0-11f1-91f9-abeb669686c2.jpg",
    "source": "BBC Sport"
   }
  ]
