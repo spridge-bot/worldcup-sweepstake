@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T06:18:35+00:00",
+ "generated_at": "2026-07-12T08:33:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "Tuchel angry at 'lucky' England - but Bellingham defends players",
+   "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T03:08:42Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e625/live/812ffc70-7d99-11f1-9750-97a471ba3018.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Bellingham reaching heights of World Cup legends with Messi next",
    "desc": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
@@ -6088,12 +6097,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tuchel angry at 'lucky' and 'sloppy' England - can 'mentality' be enough?",
-   "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T03:08:42Z",
+   "headline": "'We should all be excited' - Messi set for first England meeting",
+   "desc": "Lionel Messi is set for his first match against England after Argentina beat Switzerland in the World Cup quarter-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T04:48:18Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e625/live/812ffc70-7d99-11f1-9750-97a471ba3018.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/522e/live/003c3b60-7dc6-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6160,15 +6169,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Klopp agrees to replace Nagelsmann as Germany coach",
-   "desc": "Jurgen Klopp agrees a deal in principle to become the new head coach of Germany's men's national team after the resignation of Julian Nagelsmann.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ced44061g8qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T14:48:39Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ddab/live/df173670-7860-11f1-ab53-3dbca6ef5ee1.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -6178,12 +6178,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
-   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T22:45:41Z",
+   "headline": "Klopp agrees to replace Nagelsmann as Germany coach",
+   "desc": "Jurgen Klopp agrees a deal in principle to become the new head coach of Germany's men's national team after the resignation of Julian Nagelsmann.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ced44061g8qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T14:48:39Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a994/live/4a0fa490-7d79-11f1-b86f-176a142dfd6c.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ddab/live/df173670-7860-11f1-ab53-3dbca6ef5ee1.jpg",
    "source": "BBC Sport"
   }
  ]
