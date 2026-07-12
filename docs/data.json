@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-11T22:59:35+00:00",
+ "generated_at": "2026-07-12T00:00:06+00:00",
  "mode": "live",
- "latest_day": "2026-07-10",
+ "latest_day": "2026-07-11",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -18,6 +18,19 @@
   }
  },
  "players": [
+  {
+   "name": "Brando",
+   "teams": [
+    "ENG",
+    "ECU",
+    "EGY",
+    "KSA"
+   ],
+   "total": 20,
+   "today": 4,
+   "rank": 1,
+   "movement": 3
+  },
   {
    "name": "Dipen",
    "teams": [
@@ -40,9 +53,9 @@
     "HAI"
    ],
    "total": 20,
-   "today": 4,
+   "today": 0,
    "rank": 1,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -53,19 +66,6 @@
     "BIH"
    ],
    "total": 17,
-   "today": 0,
-   "rank": 3,
-   "movement": -1
-  },
-  {
-   "name": "Brando",
-   "teams": [
-    "ENG",
-    "ECU",
-    "EGY",
-    "KSA"
-   ],
-   "total": 16,
    "today": 0,
    "rank": 4,
    "movement": -1
@@ -80,7 +80,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 4,
+   "rank": 5,
    "movement": -1
   },
   {
@@ -93,7 +93,7 @@
    ],
    "total": 16,
    "today": 0,
-   "rank": 4,
+   "rank": 5,
    "movement": -1
   },
   {
@@ -293,14 +293,19 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 5,
-   "won": 4,
+   "played": 6,
+   "won": 5,
    "drawn": 1,
    "lost": 0,
-   "gf": 11,
-   "ga": 5,
-   "total": 10,
+   "gf": 13,
+   "ga": 6,
+   "total": 14,
    "events": [
+    {
+     "date": "2026-07-11",
+     "desc": "Won Quarter-final tie",
+     "points": 4
+    },
     {
      "date": "2026-07-06",
      "desc": "Won Round of 16 tie",
@@ -913,13 +918,13 @@
    "tier": 2,
    "fifa_rank": 31,
    "owner": "Glancy",
-   "status": "alive",
-   "played": 5,
+   "status": "out",
+   "played": 6,
    "won": 4,
    "drawn": 0,
-   "lost": 1,
-   "gf": 12,
-   "ga": 9,
+   "lost": 2,
+   "gf": 13,
+   "ga": 11,
    "total": 8,
    "events": [
     {
@@ -1339,40 +1344,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760512,
+   "date": "2026-07-11",
    "utc": "2026-07-11T21:00:00Z",
    "stage": "Quarter-final",
    "group": null,
-   "clock": "90'+6'",
-   "clock_sec": 5400.0,
-   "status_detail": "90'+6'",
-   "venue": "Hard Rock Stadium",
+   "note": "",
+   "home": {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "tier": 2,
+    "goals": 1,
+    "points": 0
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 2,
+    "points": 4
+   },
    "odds": {
     "home": 4.1,
     "draw": 3.7,
     "away": 1.87,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "NOR",
-    "name": "Norway",
-    "flag": "🇳🇴",
-    "owner": "Glancy",
-    "goals": 1
-   },
-   "away": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 1
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760511,
    "date": "2026-07-10",
@@ -3853,13 +3857,13 @@
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "form": "WWWWW"
+    "form": null
    },
    "away": {
     "name": "Switzerland",
     "flag": "🇨🇭",
     "owner": "Emily",
-    "form": "WWWWD"
+    "form": null
    }
   },
   {
@@ -5369,11 +5373,11 @@
    "id": 760512,
    "utc": "2026-07-11T21:00:00Z",
    "stage": "QUARTER_FINALS",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 1,
+   "ag": 2,
    "note": "",
-   "winner": null,
+   "winner": "ENG",
    "venue": "Hard Rock Stadium",
    "home": {
     "code": "NOR",
@@ -5445,10 +5449,10 @@
    "winner": null,
    "venue": "Mercedes-Benz Stadium",
    "home": {
-    "code": null,
-    "name": "Quarterfinal 3 Winner",
-    "flag": "",
-    "owner": null
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando"
    },
    "away": {
     "code": null,
@@ -5517,7 +5521,7 @@
   {
    "player": "Jude Bellingham",
    "team": "ENG",
-   "goals": 5,
+   "goals": 6,
    "assists": 0,
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "owner": "Brando"
@@ -5992,6 +5996,15 @@
    "pts": 3
   },
   {
+   "code": "NOR",
+   "name": "Norway",
+   "flag": "🇳🇴",
+   "owner": "Glancy",
+   "yellow": 3,
+   "red": 0,
+   "pts": 3
+  },
+  {
    "code": "SEN",
    "name": "Senegal",
    "flag": "🇸🇳",
@@ -6008,15 +6021,6 @@
    "yellow": 3,
    "red": 0,
    "pts": 3
-  },
-  {
-   "code": "NOR",
-   "name": "Norway",
-   "flag": "🇳🇴",
-   "owner": "Glancy",
-   "yellow": 2,
-   "red": 0,
-   "pts": 2
   },
   {
    "code": "CZE",
@@ -6039,21 +6043,21 @@
  ],
  "news": [
   {
-   "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
-   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T22:45:41Z",
+   "headline": "'He has dragged them through all tournament' - England player ratings",
+   "desc": "BBC Sport's England reporter Alex Howell rates the players after the Three Lions beat Norway to reach the World Cup semi-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T23:51:39Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a994/live/4a0fa490-7d79-11f1-b86f-176a142dfd6c.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5a71/live/4d950120-7d81-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   },
   {
-   "headline": "Rate the players as England face Norway",
-   "desc": "Rate the Norway and England players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T21:50:51Z",
+   "headline": "BBC to show England's World Cup semi-final",
+   "desc": "England's World Cup semi-final against Argentina or Switzerland will be broadcast live on BBC One and BBC iPlayer.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T23:47:11Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3ca1/live/3d6deef0-7d4b-11f1-926f-c90d1bcfbc84.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46cf/live/9e53f650-7d7e-11f1-9493-592225228524.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6063,6 +6067,15 @@
    "published": "2026-07-11T07:54:32Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/30d5/live/fd1276c0-7cd5-11f1-96b0-c159ef728dbe.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
+   "desc": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-11T22:45:41Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a994/live/4a0fa490-7d79-11f1-b86f-176a142dfd6c.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6081,15 +6094,6 @@
    "published": "2026-07-11T14:48:39Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ddab/live/df173670-7860-11f1-ab53-3dbca6ef5ee1.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Argentina midfield great Rattin dies aged 89",
-   "desc": "Argentina great Antonio Rattin, whose sending-off at the 1966 World Cup led to the introduction of red and yellow cards, dies aged 89.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T22:24:27Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1ccd/live/68cc4860-7d75-11f1-98dd-61279ae4cdce.jpg",
    "source": "BBC Sport"
   },
   {
