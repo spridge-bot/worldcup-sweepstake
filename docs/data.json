@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T08:33:44+00:00",
+ "generated_at": "2026-07-12T10:09:52+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6160,21 +6160,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England into semi-finals - what is their path to the final?",
-   "desc": "BBC Sport takes a look at what England will need to do to reach the World Cup final after progressing to the semi-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T03:57:53Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ea1/live/95bd6a10-7d8f-11f1-926f-c90d1bcfbc84.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-02T21:33:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England into semi-finals - what is their path to the final?",
+   "desc": "BBC Sport takes a look at what England will need to do to reach the World Cup final after progressing to the semi-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T03:57:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8ea1/live/95bd6a10-7d8f-11f1-926f-c90d1bcfbc84.png",
    "source": "BBC Sport"
   },
   {
