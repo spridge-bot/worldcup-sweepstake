@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T06:43:56+00:00",
+ "generated_at": "2026-07-13T09:59:56+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,7 +6079,7 @@
  ],
  "news": [
   {
-   "headline": "These are unprecedented times for England - enjoy them",
+   "headline": "These are unprecedented times - England should enjoy them",
    "desc": "A record of four semi-finals in the past five international tournaments for England is outstanding. It is time to accept that this is where England belong.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-13T05:25:22Z",
@@ -6088,12 +6088,39 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'We have another level we can reach' - Kane defends frustrated Tuchel",
-   "desc": "Captain Harry Kane says England \"have another level we can reach\" as they bid to win the World Cup for the first time since 1966.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T18:18:22Z",
+   "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
+   "desc": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T06:57:04Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc69/live/bdd18370-7e1a-11f1-9b4a-473830aebee3.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3075/live/1e1b5410-7adb-11f1-9c5e-418249f4ce83.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Chris Sutton's World Cup semi-final predictions",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T09:55:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England top air miles among semi-finalists - does it matter?",
+   "desc": "England have travelled far more than rivals France and Argentina as World Cup 2026 tests teams across North America.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T07:30:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2ca7/live/8825fcb0-7d07-11f1-923a-a7d66f37fd92.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
+   "desc": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T09:05:27Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6103,6 +6130,24 @@
    "published": "2026-07-12T19:18:56Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/451c/live/d63516a0-7e21-11f1-a1b8-3d436696a874.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'We should all be excited' - Messi set for first England meeting",
+   "desc": "Lionel Messi is set for his first match against England after Argentina beat Switzerland in the World Cup quarter-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T04:48:18Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/522e/live/003c3b60-7dc6-11f1-bee8-53ce494e1abc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'We have another level we can reach' - Kane defends frustrated Tuchel",
+   "desc": "Captain Harry Kane says England \"have another level we can reach\" as they bid to win the World Cup for the first time since 1966.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T18:18:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc69/live/bdd18370-7e1a-11f1-9b4a-473830aebee3.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6124,15 +6169,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'We should all be excited' - Messi set for first England meeting",
-   "desc": "Lionel Messi is set for his first match against England after Argentina beat Switzerland in the World Cup quarter-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T04:48:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/522e/live/003c3b60-7dc6-11f1-bee8-53ce494e1abc.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Big stars and old rivals - what to expect in semi-finals",
    "desc": "France face Spain and England take on Argentina in heavyweight World Cup semi-final meetings - here's what to expect from the last four.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd6ed5x95ygo?at_medium=RSS&at_campaign=rss",
@@ -6148,42 +6184,6 @@
    "published": "2026-07-12T10:10:33Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c2/live/c0979910-7ced-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tuchel angry at 'lucky' England - but Bellingham defends players",
-   "desc": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T03:08:42Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e625/live/812ffc70-7d99-11f1-9750-97a471ba3018.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
-   "desc": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T13:29:06Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06d1/live/fffe9600-7cdc-11f1-bee8-53ce494e1abc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
-   "desc": "Norway's World Cup campaign ends in a quarter-final defeat by England, but they leave frustrated, arguing that Jude Bellingham's equaliser should not have counted.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T02:20:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d256/live/cce243b0-7d8c-11f1-bc93-cb7def7b7e6e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "BBC to show England's World Cup semi-final",
-   "desc": "England's World Cup semi-final against Argentina will be broadcast live on BBC One and BBC iPlayer.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-11T23:47:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46cf/live/9e53f650-7d7e-11f1-9493-592225228524.jpg",
    "source": "BBC Sport"
   }
  ]
