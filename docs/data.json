@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T12:34:43+00:00",
+ "generated_at": "2026-07-13T15:31:29+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -3884,8 +3884,8 @@
    "group": null,
    "odds": {
     "home": 2.35,
-    "draw": 3.15,
-    "away": 3.25,
+    "draw": 3.2,
+    "away": 3.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6115,6 +6115,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Police chief makes plea to England fans in UK",
+   "desc": "Police urge England fans at home to follow the example of supporters in the United States after several incidents over the weekend.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz1zeyk8ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T14:02:45Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e01/live/f80daac0-7ebd-11f1-8439-ebc9c5f19300.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England top air miles among semi-finalists - does it matter?",
    "desc": "England have travelled far more than rivals France and Argentina as World Cup 2026 tests teams across North America.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss",
@@ -6133,6 +6142,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Which Premier League clubs have been hit hardest by World Cup?",
+   "desc": "Which Premier League clubs have carried the biggest World Cup workload?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8d2v40r472o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T13:27:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6913/live/65a58b70-7ebe-11f1-926f-c90d1bcfbc84.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Infantino opens door to 64-team World Cup",
    "desc": "Plans for a 64-team men's world cup are set to be picked up and assessed in detail after the 2026 tournament with Fifa boss Gianni Infantino saying football needs to be \"for the whole world\".",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj9gm31jwg8o?at_medium=RSS&at_campaign=rss",
@@ -6142,8 +6160,8 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England to wear all-white kit against Argentina",
-   "desc": "England will wear their all-white home kit and Argentina their navy blue away strip when the two sides face each other in the semi-finals of the World Cup on Wednesday.",
+   "headline": "Argentina to wear 'lucky' blue away kit against England",
+   "desc": "Argentina will wear their navy blue away strip and England their all-white home strip when the two sides face each other in the World Cup semi-finals on Wednesday.",
    "link": "https://www.bbc.co.uk/sport/football/articles/czx5v2p7qkgo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-13T12:14:11Z",
    "type": "Story",
@@ -6166,24 +6184,6 @@
    "published": "2026-07-12T18:18:22Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc69/live/bdd18370-7e1a-11f1-9b4a-473830aebee3.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tuchel unhappy with England display - so why do they keep winning?",
-   "desc": "Football tactics correspondent Umir Irfan examines why England are still winning games despite Thomas Tuchel insisting performances are not good.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c7vy25lqll6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T12:19:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5df9/live/b19562e0-7deb-11f1-a5de-97ad6e22e20a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Bellingham reaching heights of World Cup legends with Messi next",
-   "desc": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T04:35:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b3aa/live/66ff3770-7d9f-11f1-a998-878927a5819d.jpg",
    "source": "BBC Sport"
   }
  ]
