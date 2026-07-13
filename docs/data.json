@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T03:53:56+00:00",
+ "generated_at": "2026-07-13T06:43:56+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "These are unprecedented times for England - enjoy them",
+   "desc": "A record of four semi-finals in the past five international tournaments for England is outstanding. It is time to accept that this is where England belong.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T05:25:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f13f/live/994b5c40-7e12-11f1-8e47-a72d6eeabcac.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'We have another level we can reach' - Kane defends frustrated Tuchel",
    "desc": "Captain Harry Kane says England \"have another level we can reach\" as they bid to win the World Cup for the first time since 1966.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
@@ -6124,21 +6133,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
-   "desc": "As England and Argentina prepare to go head-to-head in Wednesday's World Cup semi-final, BBC Sport looks at their footballing rivalry.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c621y75w2x2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T10:10:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c2/live/c0979910-7ced-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Big stars and old rivals - what to expect in semi-finals",
    "desc": "France face Spain and England take on Argentina in heavyweight World Cup semi-final meetings - here's what to expect from the last four.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cd6ed5x95ygo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-12T12:29:10Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+   "desc": "As England and Argentina prepare to go head-to-head in Wednesday's World Cup semi-final, BBC Sport looks at their footballing rivalry.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c621y75w2x2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-12T10:10:33Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c2/live/c0979910-7ced-11f1-b976-0b9c15b0ccfc.png",
    "source": "BBC Sport"
   },
   {
@@ -6175,15 +6184,6 @@
    "published": "2026-07-11T23:47:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/46cf/live/9e53f650-7d7e-11f1-9493-592225228524.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Embolo sent off as result of mistaken identity rule",
-   "desc": "Switzerland's Breel Embolo becomes first player to be sent off as a result of a new law for mistaken identity at the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T04:22:57Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6ec5/live/7f45e610-7da1-11f1-a049-155ea2296701.jpg",
    "source": "BBC Sport"
   }
  ]
