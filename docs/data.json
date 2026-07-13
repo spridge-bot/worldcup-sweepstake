@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T21:13:44+00:00",
+ "generated_at": "2026-07-13T22:10:21+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,12 +6079,21 @@
  ],
  "news": [
   {
-   "headline": "Chance to face Messi once in a lifetime - O'Reilly",
-   "desc": "England left-back Nico O'Reilly is relishing the opportunity to face Lionel Messi in Wednesday's World Cup semi-final against Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T20:33:07Z",
+   "headline": "England to make late call on Rice for World Cup semi-final",
+   "desc": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T21:30:05Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6f72/live/7741d120-7ef7-11f1-83a7-0959f8cc10cc.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f306/live/3f85fdc0-7ef1-11f1-83a7-0959f8cc10cc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
+   "desc": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T22:08:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bf8c/live/ba810e20-7f05-11f1-bf9d-c5939b8ebb1d.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6115,15 +6124,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
-   "desc": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T06:57:04Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3075/live/1e1b5410-7adb-11f1-9c5e-418249f4ce83.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Chris Sutton's World Cup semi-final predictions",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
@@ -6139,6 +6139,15 @@
    "published": "2026-07-13T09:05:27Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
+   "desc": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T06:57:04Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3075/live/1e1b5410-7adb-11f1-9c5e-418249f4ce83.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6175,15 +6184,6 @@
    "published": "2026-07-12T19:18:56Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/451c/live/d63516a0-7e21-11f1-a1b8-3d436696a874.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Argentina to wear 'lucky' blue away kit against England",
-   "desc": "Argentina will wear their navy blue away strip and England their all-white home strip when the two sides face each other in the World Cup semi-finals on Wednesday.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czx5v2p7qkgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T12:14:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3dd7/live/614fce40-7eb0-11f1-bee8-53ce494e1abc.png",
    "source": "BBC Sport"
   }
  ]
