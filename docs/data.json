@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T09:59:56+00:00",
+ "generated_at": "2026-07-13T12:34:43+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "Most clinical? Least creative? Best in the air? Comparing the last four",
+   "desc": "BBC Sport compares statistics for France, Spain, Argentina and England in the World Cup so far as the semi-finalists prepare to meet.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2k9qj2nyvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T11:05:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9070/live/35b6c750-7e3a-11f1-9abb-e3440c15eda8.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "These are unprecedented times - England should enjoy them",
    "desc": "A record of four semi-finals in the past five international tournaments for England is outstanding. It is time to accept that this is where England belong.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
@@ -6133,6 +6142,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England to wear all-white kit against Argentina",
+   "desc": "England will wear their all-white home kit and Argentina their navy blue away strip when the two sides face each other in the semi-finals of the World Cup on Wednesday.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czx5v2p7qkgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T12:14:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3dd7/live/614fce40-7eb0-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'We should all be excited' - Messi set for first England meeting",
    "desc": "Lionel Messi is set for his first match against England after Argentina beat Switzerland in the World Cup quarter-finals.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
@@ -6166,24 +6184,6 @@
    "published": "2026-07-12T04:35:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b3aa/live/66ff3770-7d9f-11f1-a998-878927a5819d.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Big stars and old rivals - what to expect in semi-finals",
-   "desc": "France face Spain and England take on Argentina in heavyweight World Cup semi-final meetings - here's what to expect from the last four.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cd6ed5x95ygo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T12:29:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
-   "desc": "As England and Argentina prepare to go head-to-head in Wednesday's World Cup semi-final, BBC Sport looks at their footballing rivalry.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c621y75w2x2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-12T10:10:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/14c2/live/c0979910-7ced-11f1-b976-0b9c15b0ccfc.png",
    "source": "BBC Sport"
   }
  ]
