@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T03:27:14+00:00",
+ "generated_at": "2026-07-14T05:51:32+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,12 +6079,30 @@
  ],
  "news": [
   {
+   "headline": "Time for Lamine Yamal to ignite? Or another Mbappe World Cup masterclass?",
+   "desc": "France face Spain for a place in the World Cup final on Tuesday, meaning a showdown between Kylian Mbappe and Lamine Yamal. Who comes out on top?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T05:13:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9774/live/90e1a0c0-7ef1-11f1-926f-c90d1bcfbc84.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England to make late call on Rice for World Cup semi-final",
    "desc": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina.",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-13T21:30:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f306/live/3f85fdc0-7ef1-11f1-83a7-0959f8cc10cc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Who will win the World Cup? The view from the semi-finalists",
+   "desc": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T05:43:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png",
    "source": "BBC Sport"
   },
   {
@@ -6106,6 +6124,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Chris Sutton's World Cup semi-final predictions",
+   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T09:55:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Most clinical? Least creative? Best in the air? Comparing the last four",
    "desc": "BBC Sport compares statistics for France, Spain, Argentina and England in the World Cup so far as the semi-finalists prepare to meet.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx2k9qj2nyvo?at_medium=RSS&at_campaign=rss",
@@ -6124,30 +6151,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Dutch referee dies weeks after being dropped from World Cup",
-   "desc": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T19:25:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/077d/live/81119c50-7ec8-11f1-af40-3101fe5a127d.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Chris Sutton's World Cup semi-final predictions",
-   "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T09:55:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
    "desc": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-13T09:05:27Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Dutch referee dies weeks after being dropped from World Cup",
+   "desc": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T19:25:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/077d/live/81119c50-7ec8-11f1-af40-3101fe5a127d.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6166,24 +6184,6 @@
    "published": "2026-07-13T13:27:30Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6913/live/65a58b70-7ebe-11f1-926f-c90d1bcfbc84.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Police chief makes plea to England fans in UK",
-   "desc": "Police urge England fans at home to follow the example of supporters in the United States after several incidents over the weekend.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yz1zeyk8ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T14:02:45Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e01/live/f80daac0-7ebd-11f1-8439-ebc9c5f19300.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "England top air miles among semi-finalists - does it matter?",
-   "desc": "England have travelled far more than rivals France and Argentina as World Cup 2026 tests teams across North America.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T07:30:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2ca7/live/8825fcb0-7d07-11f1-923a-a7d66f37fd92.jpg",
    "source": "BBC Sport"
   }
  ]
