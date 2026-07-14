@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T12:20:33+00:00",
+ "generated_at": "2026-07-14T14:18:17+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -3884,8 +3884,8 @@
    "group": null,
    "odds": {
     "home": 2.4,
-    "draw": 3.15,
-    "away": 3.15,
+    "draw": 3.05,
+    "away": 3.2,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6097,15 +6097,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "A winner and true friend - Bartoli on France boss Deschamps",
-   "desc": "Former Wimbledon champion Marion Bartoli speaks about her friendship with France boss Didier Deschamps.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c77y2151e4go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T09:03:14Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8e53/live/e7c7ac30-7f06-11f1-bee8-53ce494e1abc.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Lamine Yamal v Mbappe: La Liga stars set for World Cup showdown",
    "desc": "France face Spain for a place in the World Cup final on Tuesday, meaning a showdown between Kylian Mbappe and Lamine Yamal. Who comes out on top?",
    "link": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss",
@@ -6130,6 +6121,24 @@
    "published": "2026-07-13T21:30:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f306/live/3f85fdc0-7ef1-11f1-83a7-0959f8cc10cc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "American Elfath to referee England v Argentina",
+   "desc": "Fifa announce American referee Ismail Elfath will take charge of England's World Cup semi-final against Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2lylenekjpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T12:42:41Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/749d/live/3fdf29c0-7f7f-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "A winner and true friend - Bartoli on France boss Deschamps",
+   "desc": "Former Wimbledon champion Marion Bartoli speaks about her friendship with France boss Didier Deschamps.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c77y2151e4go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T09:03:14Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8e53/live/e7c7ac30-7f06-11f1-bee8-53ce494e1abc.png",
    "source": "BBC Sport"
   },
   {
@@ -6160,30 +6169,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What age gives a squad best chance to win World Cup?",
+   "desc": "BBC Sport's Ask Me Anything team looks into the typical age of a World Cup-winning team",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l8y5451vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T13:12:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/898f/live/5c655070-7f79-11f1-926f-c90d1bcfbc84.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
    "desc": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-13T22:08:56Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bf8c/live/ba810e20-7f05-11f1-bf9d-c5939b8ebb1d.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Most clinical? Least creative? Best in the air? Comparing the last four",
-   "desc": "BBC Sport compares statistics for France, Spain, Argentina and England in the World Cup so far as the semi-finalists prepare to meet.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2k9qj2nyvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T11:05:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9070/live/35b6c750-7e3a-11f1-9abb-e3440c15eda8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
-   "desc": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T09:05:27Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg",
    "source": "BBC Sport"
   }
  ]
