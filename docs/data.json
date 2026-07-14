@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T19:23:11+00:00",
+ "generated_at": "2026-07-14T20:33:50+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -1355,9 +1355,9 @@
    "utc": "2026-07-14T19:00:00Z",
    "stage": "Semi-final",
    "group": null,
-   "clock": "23'",
-   "clock_sec": 1380.0,
-   "status_detail": "23'",
+   "clock": "71'",
+   "clock_sec": 4260.0,
+   "status_detail": "71'",
    "venue": "AT&T Stadium",
    "odds": {
     "home": 2.35,
@@ -1378,7 +1378,7 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "goals": 1
+    "goals": 2
    }
   }
  ],
@@ -3915,9 +3915,9 @@
    "stage": "Semi-final",
    "group": null,
    "odds": {
-    "home": 2.65,
-    "draw": 2.9,
-    "away": 3.0,
+    "home": 2.75,
+    "draw": 2.85,
+    "away": 2.9,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6086,6 +6086,15 @@
  ],
  "news": [
   {
+   "headline": "Henderson & Quansah only England absentees for Argentina",
+   "desc": "Jordan Henderson and Jarell Quansah are set to be the only players unavailable for England's World Cup semi-final against Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y0gp3p70o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T20:16:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/21d5/live/1b3dcc10-7fbc-11f1-9c5f-190f51e64b46.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Barry's journey from Accrington Stanley to World Cup semi-final",
    "desc": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
@@ -6173,15 +6182,6 @@
    "published": "2026-07-14T07:14:16Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5b03/live/85c525f0-7f4f-11f1-a97a-9b1029617ccb.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Messi's lucky charm? Elfath to ref England v Argentina",
-   "desc": "Fifa announce American referee Ismail Elfath will take charge of England's World Cup semi-final against Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c2lylenekjpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T15:32:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/749d/live/3fdf29c0-7f7f-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
