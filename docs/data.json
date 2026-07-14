@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T17:58:55+00:00",
+ "generated_at": "2026-07-14T19:23:11+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -1349,7 +1349,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760514,
+   "utc": "2026-07-14T19:00:00Z",
+   "stage": "Semi-final",
+   "group": null,
+   "clock": "23'",
+   "clock_sec": 1380.0,
+   "status_detail": "23'",
+   "venue": "AT&T Stadium",
+   "odds": {
+    "home": 2.35,
+    "draw": 3.15,
+    "away": 3.25,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "owner": "Spridge",
+    "goals": 0
+   },
+   "away": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "owner": "Jen",
+    "goals": 1
+   }
+  }
+ ],
  "results": [
   {
    "id": 760513,
@@ -3878,31 +3910,6 @@
  ],
  "upcoming": [
   {
-   "id": 760514,
-   "utc": "2026-07-14T19:00:00Z",
-   "stage": "Semi-final",
-   "group": null,
-   "odds": {
-    "home": 2.55,
-    "draw": 3.0,
-    "away": 3.1,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "form": "WWWWW"
-   },
-   "away": {
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "form": "WWWWW"
-   }
-  },
-  {
    "id": 760515,
    "utc": "2026-07-15T19:00:00Z",
    "stage": "Semi-final",
@@ -5455,7 +5462,7 @@
    "id": 760514,
    "utc": "2026-07-14T19:00:00Z",
    "stage": "SEMI_FINALS",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
@@ -5563,6 +5570,14 @@
    "owner": "Brando"
   },
   {
+   "player": "Mikel Oyarzabal",
+   "team": "ESP",
+   "goals": 5,
+   "assists": 0,
+   "flag": "🇪🇸",
+   "owner": "Jen"
+  },
+  {
    "player": "Ousmane Dembélé",
    "team": "FRA",
    "goals": 5,
@@ -5585,14 +5600,6 @@
    "assists": 0,
    "flag": "🇲🇽",
    "owner": "Dipen"
-  },
-  {
-   "player": "Mikel Oyarzabal",
-   "team": "ESP",
-   "goals": 4,
-   "assists": 0,
-   "flag": "🇪🇸",
-   "owner": "Jen"
   },
   {
    "player": "Vinícius Júnior",
