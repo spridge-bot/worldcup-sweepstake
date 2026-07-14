@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T05:51:32+00:00",
+ "generated_at": "2026-07-14T07:30:21+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -3908,9 +3908,9 @@
    "stage": "Semi-final",
    "group": null,
    "odds": {
-    "home": 2.6,
-    "draw": 2.95,
-    "away": 3.05,
+    "home": 2.65,
+    "draw": 2.9,
+    "away": 3.0,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "Who will win the World Cup? The view from the semi-finalists",
+   "desc": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T05:43:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Time for Lamine Yamal to ignite? Or another Mbappe World Cup masterclass?",
    "desc": "France face Spain for a place in the World Cup final on Tuesday, meaning a showdown between Kylian Mbappe and Lamine Yamal. Who comes out on top?",
    "link": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss",
@@ -6097,12 +6106,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who will win the World Cup? The view from the semi-finalists",
-   "desc": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T05:43:53Z",
+   "headline": "Increased security for England and Argentina tie",
+   "desc": "Authorities say there will be increased security measures in place for Wednesday's World Cup semi-final between England and Argentina in Atlanta.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyey5glv4ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T07:14:16Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5b03/live/85c525f0-7f4f-11f1-a97a-9b1029617ccb.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6115,21 +6124,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
-   "desc": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T22:08:56Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bf8c/live/ba810e20-7f05-11f1-bf9d-c5939b8ebb1d.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Chris Sutton's World Cup semi-final predictions",
    "desc": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-13T09:55:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
+   "desc": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T22:08:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bf8c/live/ba810e20-7f05-11f1-bf9d-c5939b8ebb1d.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6160,15 +6169,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Dutch referee dies weeks after being dropped from World Cup",
-   "desc": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T19:25:25Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/077d/live/81119c50-7ec8-11f1-af40-3101fe5a127d.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
    "desc": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
@@ -6178,12 +6178,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Which Premier League clubs have been hit hardest by World Cup?",
-   "desc": "Which Premier League clubs have carried the biggest World Cup workload?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8d2v40r472o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T13:27:30Z",
+   "headline": "Where to watch the World Cup on the BBC and ITV",
+   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-02T21:33:35Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6913/live/65a58b70-7ebe-11f1-926f-c90d1bcfbc84.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
