@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T11:05:49+00:00",
+ "generated_at": "2026-07-14T12:20:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-12",
  "scoring": {
@@ -6079,6 +6079,15 @@
  ],
  "news": [
   {
+   "headline": "Barry's journey from Accrington Stanley to World Cup semi-final",
+   "desc": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T11:35:08Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2f27/live/327e1630-7f19-11f1-9f54-5bf21a68a8c4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Who will win the World Cup? The view from the semi-finalists",
    "desc": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss",
@@ -6166,15 +6175,6 @@
    "published": "2026-07-13T11:05:25Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9070/live/35b6c750-7e3a-11f1-9abb-e3440c15eda8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "These are unprecedented times - England should enjoy them",
-   "desc": "A record of four semi-finals in the past five international tournaments for England is outstanding. It is time to accept that this is where England belong.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T05:25:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f13f/live/994b5c40-7e12-11f1-8e47-a72d6eeabcac.jpg",
    "source": "BBC Sport"
   },
   {
