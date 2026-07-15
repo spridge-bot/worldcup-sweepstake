@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T19:55:08+00:00",
+ "generated_at": "2026-07-15T20:51:31+00:00",
  "mode": "live",
  "latest_day": "2026-07-14",
  "scoring": {
@@ -1360,9 +1360,9 @@
    "utc": "2026-07-15T19:00:00Z",
    "stage": "Semi-final",
    "group": null,
-   "clock": "45'+4'",
-   "clock_sec": 2700.0,
-   "status_detail": "HT",
+   "clock": "89'",
+   "clock_sec": 5340.0,
+   "status_detail": "89'",
    "venue": "Mercedes-Benz Stadium",
    "odds": {
     "home": 2.55,
@@ -1376,14 +1376,14 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 0
+    "goals": 1
    },
    "away": {
     "code": "ARG",
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "goals": 0
+    "goals": 1
    }
   }
  ],
