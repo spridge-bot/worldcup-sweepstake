@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T14:59:33+00:00",
+ "generated_at": "2026-07-15T16:26:36+00:00",
  "mode": "live",
  "latest_day": "2026-07-14",
  "scoring": {
@@ -3919,8 +3919,8 @@
    "stage": "Semi-final",
    "group": null,
    "odds": {
-    "home": 2.75,
-    "draw": 2.85,
+    "home": 2.65,
+    "draw": 2.9,
     "away": 3.0,
     "over_under": 2.5,
     "provider": "DraftKings"
