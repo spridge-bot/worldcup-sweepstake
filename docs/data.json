@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T16:26:36+00:00",
+ "generated_at": "2026-07-15T17:45:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-14",
  "scoring": {
@@ -3920,8 +3920,8 @@
    "group": null,
    "odds": {
     "home": 2.65,
-    "draw": 2.9,
-    "away": 3.0,
+    "draw": 2.85,
+    "away": 3.05,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6126,6 +6126,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
+   "desc": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T05:59:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
    "desc": "Spain have rather flown under the radar at the 2026 World Cup - but will they go all the way and win it?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cpv3v0gkw9vo?at_medium=RSS&at_campaign=rss",
@@ -6141,15 +6150,6 @@
    "published": "2026-07-15T05:32:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b4c8/live/a5485300-7fd8-11f1-ad55-ebd3bf8ee1a7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
-   "desc": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:59:56Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
    "source": "BBC Sport"
   },
   {
