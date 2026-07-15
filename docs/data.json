@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T06:01:48+00:00",
+ "generated_at": "2026-07-15T08:29:07+00:00",
  "mode": "live",
  "latest_day": "2026-07-14",
  "scoring": {
@@ -3919,8 +3919,8 @@
    "stage": "Semi-final",
    "group": null,
    "odds": {
-    "home": 2.65,
-    "draw": 2.9,
+    "home": 2.75,
+    "draw": 2.85,
     "away": 3.0,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -6099,6 +6099,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
+   "desc": "Guillem Balague examines how the Argentina squad is built around Lionel Messi as they prepare to play against England in the World Cup semi-finals.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T05:02:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0ff8/live/4bab3450-7fb7-11f1-9c5f-190f51e64b46.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+   "desc": "England face Argentina in the World Cup semi-finals on Wednesday - and BBC Sport's Phil McNulty explains why it is the Three Lions' biggest match since 1966.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T05:02:16Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
    "desc": "Spain have rather flown under the radar at the 2026 World Cup - but will they go all the way and win it?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cpv3v0gkw9vo?at_medium=RSS&at_campaign=rss",
@@ -6117,30 +6135,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-   "desc": "England face Argentina in the World Cup semi-finals on Wednesday - and BBC Sport's Phil McNulty explains why it is the Three Lions' biggest match since 1966.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:02:16Z",
+   "headline": "We shouldn't confuse politics and football - Scaloni",
+   "desc": "Argentina manager Lionel Scaloni says he is \"not going to mix\" football and politics before his side's World Cup semi-final against England.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cn8q8n6973xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T08:05:16Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d531/live/46db08d0-801e-11f1-9317-f3c8d3f68726.jpg",
    "source": "BBC Sport"
   },
   {
-   "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
-   "desc": "Guillem Balague examines how the Argentina squad is built around Lionel Messi as they prepare to play against England in the World Cup semi-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:02:40Z",
+   "headline": "The 91-year-old Argentine journalist covering his 18th World Cup",
+   "desc": "Enrique Macaya Marquez has covered every World Cup since 1958, where a 17-year-old Pele featured.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqj1j0x8811o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T06:43:53Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0ff8/live/4bab3450-7fb7-11f1-9c5f-190f51e64b46.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Bellingham best player at World Cup - Rooney",
-   "desc": "Jude Bellingham has been the best player at the World Cup so far, says former England striker Wayne Rooney.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:40:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9c79/live/56ccdda0-7fb9-11f1-9c5f-190f51e64b46.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6686/live/da6db360-7f36-11f1-86c3-8fbb02fac701.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6153,6 +6162,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
+   "desc": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T05:59:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Bellingham best player at World Cup - Rooney",
+   "desc": "Jude Bellingham has been the best player at the World Cup so far, says former England striker Wayne Rooney.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T05:40:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9c79/live/56ccdda0-7fb9-11f1-9c5f-190f51e64b46.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Pressure is on Argentina, they're world champions - Guehi",
    "desc": "England defender Marc Guehi insists the pressure is on Argentina as the Three Lions prepare to face the reigning champions in the World Cup semi-finals.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8l87vevj2o?at_medium=RSS&at_campaign=rss",
@@ -6162,39 +6189,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Balogun expected controversy after World Cup ban waived",
-   "desc": "United States striker Folarin Balogun knew the decision by Fifa to suspend his one-game ban at the World Cup was going to bring \"a lot of controversy\" and said it brought \"nerves\" on his team-mates.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx262x3rmx2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T17:02:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a43a/live/ed4fc610-7f9c-11f1-a5f4-433bb9aa2e5a.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Barry's journey from Accrington Stanley to World Cup semi-final",
    "desc": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-14T11:35:08Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2f27/live/327e1630-7f19-11f1-9f54-5bf21a68a8c4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Henderson & Quansah only England absentees for Argentina",
-   "desc": "Jordan Henderson and Jarell Quansah are set to be the only players unavailable for England's World Cup semi-final against Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y0gp3p70o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T20:16:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/21d5/live/1b3dcc10-7fbc-11f1-9c5f-190f51e64b46.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Premier League rules World Cup defences - but not attacks",
-   "desc": "Do the World Cup semi-final line-ups show the world’s best attacking talent plays outside the Premier League?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzy9g501vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T15:19:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/48f2/live/dfc295a0-7f87-11f1-bee8-53ce494e1abc.png",
    "source": "BBC Sport"
   }
  ]
