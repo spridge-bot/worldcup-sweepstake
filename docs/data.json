@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T18:46:39+00:00",
+ "generated_at": "2026-07-15T19:55:08+00:00",
  "mode": "live",
  "latest_day": "2026-07-14",
  "scoring": {
@@ -1354,7 +1354,39 @@
    "events": []
   }
  },
- "live": [],
+ "live": [
+  {
+   "id": 760515,
+   "utc": "2026-07-15T19:00:00Z",
+   "stage": "Semi-final",
+   "group": null,
+   "clock": "45'+4'",
+   "clock_sec": 2700.0,
+   "status_detail": "HT",
+   "venue": "Mercedes-Benz Stadium",
+   "odds": {
+    "home": 2.55,
+    "draw": 3.0,
+    "away": 3.05,
+    "over_under": 2.5,
+    "provider": "DraftKings"
+   },
+   "home": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "owner": "Brando",
+    "goals": 0
+   },
+   "away": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "owner": "Fergs",
+    "goals": 0
+   }
+  }
+ ],
  "results": [
   {
    "id": 760514,
@@ -3912,33 +3944,7 @@
    "odds": null
   }
  ],
- "upcoming": [
-  {
-   "id": 760515,
-   "utc": "2026-07-15T19:00:00Z",
-   "stage": "Semi-final",
-   "group": null,
-   "odds": {
-    "home": 2.65,
-    "draw": 2.85,
-    "away": 3.05,
-    "over_under": 2.5,
-    "provider": "DraftKings"
-   },
-   "home": {
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "form": "WWWWD"
-   },
-   "away": {
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "form": "WWWWW"
-   }
-  }
- ],
+ "upcoming": [],
  "groups": [
   {
    "name": "Group A",
@@ -5489,7 +5495,7 @@
    "id": 760515,
    "utc": "2026-07-15T19:00:00Z",
    "stage": "SEMI_FINALS",
-   "status": "TIMED",
+   "status": "IN_PLAY",
    "hg": null,
    "ag": null,
    "note": "",
@@ -6090,6 +6096,15 @@
  ],
  "news": [
   {
+   "headline": "Rate the players as England face Argentina",
+   "desc": "Rate the England and Argentina players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2w3rqp6w1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T19:49:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eef3/live/0eb51980-7f8a-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
    "desc": "England face Argentina in the World Cup semi-finals on Wednesday - and BBC Sport's Phil McNulty explains why it is the Three Lions' biggest match since 1966.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss",
@@ -6186,15 +6201,6 @@
    "published": "2026-07-15T00:18:30Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e33/live/dc2a4880-7fdb-11f1-9a75-99d0152ee48b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Barry's journey from Accrington Stanley to World Cup semi-final",
-   "desc": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T11:35:08Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2f27/live/327e1630-7f19-11f1-9f54-5bf21a68a8c4.jpg",
    "source": "BBC Sport"
   }
  ]
