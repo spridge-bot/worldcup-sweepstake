@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T21:43:33+00:00",
+ "generated_at": "2026-07-15T22:40:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3954,18 +3954,24 @@
    "utc": "2026-07-18T21:00:00Z",
    "stage": "3RD_PLACE_MATCH",
    "group": null,
-   "odds": null,
+   "odds": {
+    "home": 1.95,
+    "draw": 3.65,
+    "away": 3.65,
+    "over_under": 3.5,
+    "provider": "DraftKings"
+   },
    "home": {
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "form": null
+    "form": "LWWWW"
    },
    "away": {
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "form": null
+    "form": "LWWWW"
    }
   },
   {
@@ -3974,9 +3980,9 @@
    "stage": "Final",
    "group": null,
    "odds": {
-    "home": 2.25,
-    "draw": 3.0,
-    "away": 3.6,
+    "home": 2.3,
+    "draw": 2.95,
+    "away": 3.55,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -3984,13 +3990,13 @@
     "name": "Spain",
     "flag": "🇪🇸",
     "owner": "Jen",
-    "form": null
+    "form": "WWWWW"
    },
    "away": {
     "name": "Argentina",
     "flag": "🇦🇷",
     "owner": "Fergs",
-    "form": null
+    "form": "WWWWW"
    }
   }
  ],
@@ -6154,48 +6160,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-   "desc": "England face Argentina in the World Cup semi-finals on Wednesday - and BBC Sport's Phil McNulty explains why it is the Three Lions' biggest match since 1966.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T11:19:50Z",
+   "headline": "Final two World Cup matches to be shown live on BBC",
+   "desc": "Saturday's World Cup third-place play-off between England and France and Sunday's World Cup final will both be  live on BBC TV.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T21:16:12Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
-   "desc": "Guillem Balague examines how the Argentina squad is built around Lionel Messi as they prepare to play against England in the World Cup semi-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:02:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0ff8/live/4bab3450-7fb7-11f1-9c5f-190f51e64b46.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "We shouldn't confuse politics and football - Scaloni",
-   "desc": "Argentina manager Lionel Scaloni says he is \"not going to mix\" football and politics before his side's World Cup semi-final against England.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cn8q8n6973xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T08:05:16Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d531/live/46db08d0-801e-11f1-9317-f3c8d3f68726.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "I still feel pain of '98 but this can be different for England - Shearer",
-   "desc": "England's defeat by Argentina at the 1998 World Cup still burns deep for Alan Shearer, but he explains why this team can take their chance to change their lives forever.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6212j5zw3ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:02:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/35b8/live/0c49d520-7fa6-11f1-a5f4-433bb9aa2e5a.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
-   "desc": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:59:56Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06e7/live/6be874e0-8088-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6226,6 +6196,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
+   "desc": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T05:59:56Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "World Cup final half-time to last up to 25 minutes",
    "desc": "The half-time break in Sunday's World Cup final is expected to last between 20 and 25 minutes.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1wyw9wx19yo?at_medium=RSS&at_campaign=rss",
@@ -6235,21 +6214,48 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Bellingham best player at World Cup - Rooney",
-   "desc": "Jude Bellingham has been the best player at the World Cup so far, says former England striker Wayne Rooney.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:40:35Z",
+   "headline": "Why do Argentina sing about England and the Falklands?",
+   "desc": "While England see Argentina as football rivals, for Argentina the rivalry is much more than that.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c17y75qd8e4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T14:57:59Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9c79/live/56ccdda0-7fb9-11f1-9c5f-190f51e64b46.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/86fa/live/40004650-7f7f-11f1-b1fb-a927e22d7e8b.jpg",
    "source": "BBC Sport"
   },
   {
-   "headline": "Pressure is on Argentina, they're world champions - Guehi",
-   "desc": "England defender Marc Guehi insists the pressure is on Argentina as the Three Lions prepare to face the reigning champions in the World Cup semi-finals.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l87vevj2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T00:18:30Z",
+   "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
+   "desc": "Spain produce a masterclass to see off France and reach their first World Cup final since 2010 - but who were the stars?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1dydqedp73o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T21:10:54Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9e33/live/dc2a4880-7fdb-11f1-9a75-99d0152ee48b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/80d9/live/e5c32230-7fcd-11f1-82bc-eb96a9eb8087.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "What is the perfect age to win the World Cup?",
+   "desc": "BBC Sport's Ask Me Anything team looks into the typical age of a World Cup-winning team",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp8l8y5451vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T13:12:48Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/898f/live/5c655070-7f79-11f1-926f-c90d1bcfbc84.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Walked for 47% of the World Cup - the evolution of Messi",
+   "desc": "Lionel Messi is looking to beat England and reach a third World Cup final with Argentina. Guillem Balague looks at the evolution of one of the game's all-time greats.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cy4e943j1j1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-14T11:00:53Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b1b2/live/46dc4fc0-7f0a-11f1-b84f-df00e7069bf1.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
+   "desc": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-13T06:57:04Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3075/live/1e1b5410-7adb-11f1-9c5e-418249f4ce83.jpg",
    "source": "BBC Sport"
   }
  ]
