@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T12:24:58+00:00",
+ "generated_at": "2026-07-16T14:30:44+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6151,6 +6151,15 @@
  ],
  "news": [
   {
+   "headline": "'A true miracle of destiny' - Messi and Lamine Yamal's incredible first meeting",
+   "desc": "BBC Sport explores a bond between two world-class footballers from different generations who appear bound by destiny",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9w0j104rvgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T12:52:08Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ba3/live/787f39f0-80f6-11f1-b983-cbe246fcd5da.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How coach-on-pitch Messi undid England's tactics on the fly",
    "desc": "England pride themselves on their physicality, so shouldn't it have suited them to face a 39-year-old who spends most of his time walking? Not this 39-year-old. BBC Sport football tactics correspondent Umir Irfan explores a Lionel Messi masterclass.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
@@ -6178,12 +6187,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
-   "desc": "England went 1-0 up against Argentina before slumping to a heartbreaking semi-final defeat. Did boss Thomas Tuchel's \"negative\" tactics cost them a place in the World Cup final?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T06:42:54Z",
+   "headline": "60 years of hurt - England's World Cup wait in numbers",
+   "desc": "England’s wait for another World Cup triumph wait told through the football, people and moments that have shaped the world since 1966.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czrjgpy48pgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T13:03:03Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c710/live/f0c66170-80a8-11f1-a6a9-eb791cdccb29.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2338/live/cd4db330-810f-11f1-bc2f-2bbab5acc9ff.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6193,6 +6202,15 @@
    "published": "2026-07-16T11:51:33Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a4a6/live/22302ca0-8108-11f1-b8b2-1fedac836136.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
+   "desc": "England went 1-0 up against Argentina before slumping to a heartbreaking semi-final defeat. Did boss Thomas Tuchel's \"negative\" tactics cost them a place in the World Cup final?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T13:14:32Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c710/live/f0c66170-80a8-11f1-a6a9-eb791cdccb29.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6238,24 +6256,6 @@
    "published": "2026-07-15T23:42:19Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/48d0/live/8eb95380-80a7-11f1-a71d-c716243bdc80.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Tuchel retains FA backing despite England defeat",
-   "desc": "Thomas Tuchel retains the backing of the Football Association despite England failing to reach the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly5ljl414xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T05:33:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/810b/live/67d96760-80ab-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'The change didn't work' - England player ratings",
-   "desc": "BBC Sport's England reporter Alex Howell rates the players after the Three Lions lost to Argentina in the World Cup semi-final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2w3rqp6w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T21:08:21Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/11f0/live/e6fab7c0-8091-11f1-9946-258bcfdcbe12.jpg",
    "source": "BBC Sport"
   }
  ]
