@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T14:30:44+00:00",
+ "generated_at": "2026-07-16T15:58:52+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 1.87,
+    "home": 1.91,
     "draw": 3.85,
-    "away": 3.85,
+    "away": 3.7,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -6160,6 +6160,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "What next for England? How does Tuchel fix key problems for Euro 2028?",
+   "desc": "The manner of England's World Cup exit was meek, and Thomas Tuchel must now find a way to fix those problems as focus will soon turn to qualifying for Euro 2028.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq56djw19z2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T15:49:15Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f614/live/92fa61b0-812d-11f1-b525-63787292c170.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "How coach-on-pitch Messi undid England's tactics on the fly",
    "desc": "England pride themselves on their physicality, so shouldn't it have suited them to face a 39-year-old who spends most of his time walking? Not this 39-year-old. BBC Sport football tactics correspondent Umir Irfan explores a Lionel Messi masterclass.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
@@ -6247,15 +6256,6 @@
    "published": "2026-07-16T12:01:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4aa5/live/ab442060-80e9-11f1-bee8-53ce494e1abc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'That's why he's the king' - Messi sets up third World Cup final",
-   "desc": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T23:42:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/48d0/live/8eb95380-80a7-11f1-a71d-c716243bdc80.jpg",
    "source": "BBC Sport"
   }
  ]
