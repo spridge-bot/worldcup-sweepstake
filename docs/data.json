@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T23:39:43+00:00",
+ "generated_at": "2026-07-16T01:05:41+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6151,12 +6151,48 @@
  ],
  "news": [
   {
+   "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
+   "desc": "England went 1-0 up against Argentina before slumping to a heart-breaking semi-final defeat. But did boss Thomas Tuchel's \"negative\" tactics cost the Three Lions a place in the World Cup final?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T00:57:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c710/live/f0c66170-80a8-11f1-a6a9-eb791cdccb29.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Defeat will 'haunt' England as history repeats itself",
+   "desc": "England defender Dan Burn says the World Cup semi-final defeat by Argentina will haunt him.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T00:43:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/15cd/live/5bf9dd90-80af-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Tuchel retains FA backing despite England defeat",
+   "desc": "Thomas Tuchel retains the backing of the Football Association despite England failing to reach the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly5ljl414xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T00:33:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/810b/live/67d96760-80ab-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Argentina face fine for displaying Falklands banner after semi-final",
-   "desc": "Argentina face the prospect of a Fifa fine after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
+   "desc": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-15T22:49:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b3c0/live/7f838280-809a-11f1-abcc-2d303f4b40e8.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'That's why he's the king' - Messi sets up third World Cup final",
+   "desc": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T23:42:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/48d0/live/8eb95380-80a7-11f1-a71d-c716243bdc80.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6169,21 +6205,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Prince William tells England to 'hold heads high'",
-   "desc": "The Prince of Wales says England has \"inspired us all\" as he offers his commiserations over the loss to Argentina.",
-   "link": "https://www.bbc.co.uk/news/articles/c5y68dgnylxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T22:33:43Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1492/live/3e0e63e0-809c-11f1-ab38-b3d1805d0663.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Final two World Cup matches to be shown live on BBC",
    "desc": "Saturday's World Cup third-place play-off between England and France and Sunday's World Cup final will both be  live on BBC TV.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-15T21:16:12Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/06e7/live/6be874e0-8088-11f1-b976-0b9c15b0ccfc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Prince William tells England to 'hold heads high'",
+   "desc": "The Prince of Wales says England has \"inspired us all\" as he offers his commiserations over the loss to Argentina.",
+   "link": "https://www.bbc.co.uk/news/articles/c5y68dgnylxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T00:07:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1492/live/3e0e63e0-809c-11f1-ab38-b3d1805d0663.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6220,42 +6256,6 @@
    "published": "2026-07-14T22:01:52Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87e7/live/ef389790-7fce-11f1-b100-ede08f115ddf.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
-   "desc": "Spain produce a masterclass to see off France and reach their first World Cup final since 2010 - but who were the stars?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1dydqedp73o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T21:10:54Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/80d9/live/e5c32230-7fcd-11f1-82bc-eb96a9eb8087.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
-   "desc": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T05:59:56Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why do Argentina sing about England and the Falklands?",
-   "desc": "While England see Argentina as football rivals, for Argentina the rivalry is much more than that.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c17y75qd8e4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-14T14:57:59Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/86fa/live/40004650-7f7f-11f1-b1fb-a927e22d7e8b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Where to watch the World Cup on the BBC and ITV",
-   "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T21:29:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
    "source": "BBC Sport"
   }
  ]
