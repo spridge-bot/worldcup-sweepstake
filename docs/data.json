@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T15:58:52+00:00",
+ "generated_at": "2026-07-16T17:19:48+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 1.91,
+    "home": 1.87,
     "draw": 3.85,
-    "away": 3.7,
+    "away": 3.85,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
