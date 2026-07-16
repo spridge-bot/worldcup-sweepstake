@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T21:40:00+00:00",
+ "generated_at": "2026-07-16T22:36:07+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6232,6 +6232,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Arsenal to assess Saliba back injury with surgery an option",
+   "desc": "Arsenal will assess William Saliba's back injury when he reports back to the club after World Cup duty.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp87np4282po?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T21:55:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7644/live/e5da6f10-815f-11f1-b220-2f707fe15ddf.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why you should care about World Cup third-place play-off",
    "desc": "It might feel like the last thing anyone wants right now - but here is why, actually, you do want to watch the World Cup's third-place play-off.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss",
@@ -6247,15 +6256,6 @@
    "published": "2026-07-16T13:03:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2338/live/cd4db330-810f-11f1-bc2f-2bbab5acc9ff.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "24m tune in to watch England-Argentina",
-   "desc": "England's defeat to Argentina in the World Cup semi-final attracts an audience of 24 million on the BBC.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwyjwdvq6dno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T11:51:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a4a6/live/22302ca0-8108-11f1-b8b2-1fedac836136.jpg",
    "source": "BBC Sport"
   }
  ]
