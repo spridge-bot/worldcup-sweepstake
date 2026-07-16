@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T17:19:48+00:00",
+ "generated_at": "2026-07-16T18:35:13+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 1.87,
+    "home": 1.91,
     "draw": 3.85,
-    "away": 3.85,
+    "away": 3.7,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -6151,6 +6151,15 @@
  ],
  "news": [
   {
+   "headline": "From Southgate to Tuchel - has anything changed?",
+   "desc": "Thomas Tuchel was meant to be the man whose fresh approach would win England major honours, but defeat by Argentina felt like a familiar story - has anything really changed from the Gareth Southgate era?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyxnz36x5go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T18:02:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/546a/live/163ab360-8118-11f1-8b8c-8f0447398806.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'A true miracle of destiny' - Messi and Lamine Yamal's incredible first meeting",
    "desc": "BBC Sport explores a bond between two world-class footballers from different generations who appear bound by destiny",
    "link": "https://www.bbc.co.uk/sport/football/articles/c9w0j104rvgo?at_medium=RSS&at_campaign=rss",
@@ -6166,6 +6175,15 @@
    "published": "2026-07-16T15:49:15Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f614/live/92fa61b0-812d-11f1-b525-63787292c170.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "UK says Falkland Islands 'definitely ours' after Argentina banner",
+   "desc": "Argentina could be disciplined by Fifa for the celebrations after the World Cup win over England.",
+   "link": "https://www.bbc.co.uk/news/articles/clyen1ned7no?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T14:12:25Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9541/live/9efa4af0-810c-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6229,24 +6247,6 @@
    "published": "2026-07-16T07:33:49Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3f8/live/18d65ff0-80e3-11f1-a5c2-db1656c1a0a8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Kane unsure if he will play at next World Cup",
-   "desc": "Harry Kane says it is \"too early\" to judge whether he could play on for England until the 2030 World Cup following the painful semi-final defeat by Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T06:35:15Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/654b/live/3fac84e0-80db-11f1-a5c2-db1656c1a0a8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why England's loss to Argentina felt like most painful in 60 years of hurt",
-   "desc": "England's years of hurt will now stretch beyond 60, but the late collapse to a World Cup semi-final defeat by Argentina may be the most painful wound of all.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cj365n05mgdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T01:35:24Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fd8c/live/edb06350-80b2-11f1-bc06-bdd2d07f7b58.jpg",
    "source": "BBC Sport"
   },
   {
