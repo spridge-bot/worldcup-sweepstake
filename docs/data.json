@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T06:36:09+00:00",
+ "generated_at": "2026-07-16T08:58:16+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 2.0,
-    "draw": 3.75,
-    "away": 3.6,
+    "home": 1.87,
+    "draw": 3.85,
+    "away": 3.85,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -6154,9 +6154,18 @@
    "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
    "desc": "England went 1-0 up against Argentina before slumping to a heartbreaking semi-final defeat. Did boss Thomas Tuchel's \"negative\" tactics cost them a place in the World Cup final?",
    "link": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T00:57:21Z",
+   "published": "2026-07-16T06:42:54Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c710/live/f0c66170-80a8-11f1-a6a9-eb791cdccb29.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Kane unsure if he will play at next World Cup",
+   "desc": "Harry Kane says it is \"too early\" to judge whether he could play on for England until the 2030 World Cup following the painful semi-final defeat by Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T06:35:15Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/654b/live/3fac84e0-80db-11f1-a5c2-db1656c1a0a8.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6166,6 +6175,33 @@
    "published": "2026-07-16T01:35:24Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fd8c/live/edb06350-80b2-11f1-bc06-bdd2d07f7b58.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Romero labels Neville 'stupid' over criticism",
+   "desc": "Argentina defender Cristian Romero says player-turned-pundit Gary Neville was \"stupid\" to criticise his centre-back partnership with Lisandro Martinez.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8l1zg37x8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T07:33:49Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a3f8/live/18d65ff0-80e3-11f1-a5c2-db1656c1a0a8.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Argentina face action over Falklands banner",
+   "desc": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T22:49:47Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4aa5/live/ab442060-80e9-11f1-bee8-53ce494e1abc.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Bellingham slapped Argentina substitute after England exit",
+   "desc": "Jude Bellingham sparks melee as he slaps Argentina substitute Valentin Barco on the back of the head following England's 2-1 World Cup semi-final defeat.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c74glwpv99yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T08:38:33Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd04/live/6ce52a20-80e5-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6187,21 +6223,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Argentina face fine for displaying Falklands banner after semi-final",
-   "desc": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T22:49:47Z",
+   "headline": "Does third place play-off count towards World Cup golden boot?",
+   "desc": "BBC Sport's Ask Me Anything team looks into the history of World Cup golden boot winners and the third-place play-off",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cn8nl41xr59o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T08:30:44Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b3c0/live/7f838280-809a-11f1-abcc-2d303f4b40e8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Kane unsure if he will play at next World Cup",
-   "desc": "Harry Kane says it is \"too early\" to judge whether he could play on for England until the 2030 World Cup following the painful semi-final defeat by Argentina.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T06:35:15Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/654b/live/3fac84e0-80db-11f1-a5c2-db1656c1a0a8.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ed00/live/bfa608d0-80ed-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6223,39 +6250,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Prince William tells England to 'hold heads high'",
-   "desc": "The Prince of Wales says England has \"inspired us all\" as he offers his commiserations over the loss to Argentina.",
-   "link": "https://www.bbc.co.uk/news/articles/c5y68dgnylxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T00:07:05Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1492/live/3e0e63e0-809c-11f1-ab38-b3d1805d0663.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
-   "desc": "Spain have rather flown under the radar at the 2026 World Cup - but will they go all the way and win it?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cpv3v0gkw9vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T00:28:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/29f5/live/d65d5e30-7fd9-11f1-b73c-6d5c8f5196f7.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Where to watch the World Cup on the BBC and ITV",
    "desc": "All the TV and radio details for each of the 2026 World Cup knockout games.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-15T21:29:00Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Families heartbroken by England's World Cup woes",
-   "desc": "Despite the pain, some youngsters cheer at being allowed to stay up late and watch the action.",
-   "link": "https://www.bbc.co.uk/news/articles/cnvnyyv58pzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T06:34:26Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4515/live/8c6b66e0-80de-11f1-a5c2-db1656c1a0a8.jpg",
    "source": "BBC Sport"
   }
  ]
