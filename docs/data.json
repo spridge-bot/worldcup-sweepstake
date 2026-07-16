@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T01:05:41+00:00",
+ "generated_at": "2026-07-16T04:19:56+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 1.95,
-    "draw": 3.65,
-    "away": 3.65,
+    "home": 2.0,
+    "draw": 3.75,
+    "away": 3.6,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -6160,7 +6160,25 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Defeat will 'haunt' England as history repeats itself",
+   "headline": "Why England's loss to Argentina felt like most painful in 60 years of hurt",
+   "desc": "England's years of hurt will now stretch beyond 60, but the late collapse to a World Cup semi-final defeat by Argentina may be the most painful wound of all.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj365n05mgdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T01:35:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fd8c/live/edb06350-80b2-11f1-bc06-bdd2d07f7b58.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'That's why he's the king' - Messi sets up third World Cup final",
+   "desc": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-15T23:42:19Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/48d0/live/8eb95380-80a7-11f1-a71d-c716243bdc80.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Defeat will haunt England for a long time, says Burn",
    "desc": "England defender Dan Burn says the World Cup semi-final defeat by Argentina will haunt him.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-16T00:43:58Z",
@@ -6184,15 +6202,6 @@
    "published": "2026-07-15T22:49:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b3c0/live/7f838280-809a-11f1-abcc-2d303f4b40e8.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "'That's why he's the king' - Messi sets up third World Cup final",
-   "desc": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T23:42:19Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/48d0/live/8eb95380-80a7-11f1-a71d-c716243bdc80.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6238,15 +6247,6 @@
    "published": "2026-07-15T05:32:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b4c8/live/a5485300-7fd8-11f1-ad55-ebd3bf8ee1a7.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The 91-year-old Argentine journalist covering his 18th World Cup",
-   "desc": "Enrique Macaya Marquez has covered every World Cup since 1958, where a 17-year-old Pele featured.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqj1j0x8811o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-15T06:43:53Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6686/live/da6db360-7f36-11f1-86c3-8fbb02fac701.jpg",
    "source": "BBC Sport"
   },
   {
