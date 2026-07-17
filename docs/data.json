@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T04:18:00+00:00",
+ "generated_at": "2026-07-17T06:30:48+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6151,12 +6151,30 @@
  ],
  "news": [
   {
-   "headline": "Some England players disappointed at tactics as Tuchel questions team's DNA",
+   "headline": "Effort, spirit and moments - but do England lack all-round quality?",
+   "desc": "As England reflect on their World Cup semi-final defeat by Argentina, BBC Sport's Phil McNulty looks at what Thomas Tuchel's team were lacking.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cz64xyn4vz2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T05:32:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31b8/live/dec4ce60-812c-11f1-b525-63787292c170.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Some England players disappointed by tactics as Tuchel questions team's DNA",
    "desc": "BBC Sport understands that Thomas Tuchel's defensive tactics in the World Cup semi-final defeat to Argentina are being hotly debated by the England squad.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqjxl90x27ro?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-16T19:54:48Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1fd0/live/9714bd30-8133-11f1-b525-63787292c170.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "New York issues air quality alert days before World Cup final",
+   "desc": "Officials in New York and New Jersey issue an air quality health alert because of wildfire smoke just days before the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9w0jen8x90o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T21:29:07Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31cd/live/14857bf0-815d-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6187,24 +6205,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "How coach-on-pitch Messi undid England's tactics on the fly",
-   "desc": "England pride themselves on their physicality, so shouldn't it have suited them to face a 39-year-old who spends most of his time walking? Not this 39-year-old. BBC Sport football tactics correspondent Umir Irfan explores a Lionel Messi masterclass.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T10:46:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8313/live/ba5428a0-80f0-11f1-8edb-6f86e45a0f45.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "New York issues air quality alert days before World Cup final",
-   "desc": "Officials in New York and New Jersey issue an air quality health alert because of wildfire smoke just days before the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c9w0jen8x90o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T21:29:07Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31cd/live/14857bf0-815d-11f1-bee8-53ce494e1abc.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "'A true miracle of destiny' - Messi and Lamine Yamal's incredible first meeting",
    "desc": "BBC Sport explores a bond between two world-class footballers from different generations who appear bound by destiny",
    "link": "https://www.bbc.co.uk/sport/football/articles/c9w0j104rvgo?at_medium=RSS&at_campaign=rss",
@@ -6223,6 +6223,24 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "How coach-on-pitch Messi undid England's tactics on the fly",
+   "desc": "England pride themselves on their physicality, so shouldn't it have suited them to face a 39-year-old who spends most of his time walking? Not this 39-year-old. BBC Sport football tactics correspondent Umir Irfan explores a Lionel Messi masterclass.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T10:46:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8313/live/ba5428a0-80f0-11f1-8edb-6f86e45a0f45.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The financial winners and losers from the World Cup",
+   "desc": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most?",
+   "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T23:16:14Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/99ff/live/e74f4460-8065-11f1-bf5f-a7a6eeea7412.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Bellingham slapped Argentina substitute after England exit",
    "desc": "Jude Bellingham sparks melee as he slaps Argentina substitute Valentin Barco on the back of the head following England's 2-1 World Cup semi-final defeat.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c74glwpv99yo?at_medium=RSS&at_campaign=rss",
@@ -6232,30 +6250,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Arsenal to assess Saliba back injury with surgery an option",
-   "desc": "Arsenal will assess William Saliba's back injury when he reports back to the club after World Cup duty.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cp87np4282po?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T21:55:52Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7644/live/e5da6f10-815f-11f1-b220-2f707fe15ddf.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why you should care about World Cup third-place play-off",
    "desc": "It might feel like the last thing anyone wants right now - but here is why, actually, you do want to watch the World Cup's third-place play-off.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-16T10:44:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3097/live/5acbca60-809a-11f1-926f-c90d1bcfbc84.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "60 years of hurt - England's World Cup wait in numbers",
-   "desc": "England’s wait for another World Cup triumph wait told through the football, people and moments that have shaped the world since 1966.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/czrjgpy48pgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T13:03:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2338/live/cd4db330-810f-11f1-bc2f-2bbab5acc9ff.jpg",
    "source": "BBC Sport"
   }
  ]
