@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T06:30:48+00:00",
+ "generated_at": "2026-07-17T08:36:49+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6160,6 +6160,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "England missing final piece of jigsaw - Kane",
+   "desc": "England captain Harry Kane says the team are \"missing that final piece of the jigsaw\" and need to \"find a way to get better\" following defeat to Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgv52dne1mo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T07:46:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7c5e/live/c466faf0-81ab-11f1-86e4-c5a5b374f2bc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Some England players disappointed by tactics as Tuchel questions team's DNA",
    "desc": "BBC Sport understands that Thomas Tuchel's defensive tactics in the World Cup semi-final defeat to Argentina are being hotly debated by the England squad.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqjxl90x27ro?at_medium=RSS&at_campaign=rss",
@@ -6187,21 +6196,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "From Southgate to Tuchel - has anything changed?",
-   "desc": "Thomas Tuchel was meant to be the man whose fresh approach would win England major honours, but defeat by Argentina felt like a familiar story - has anything really changed from the Gareth Southgate era?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyxnz36x5go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T18:02:35Z",
+   "headline": "World Cup stars who could move this summer",
+   "desc": "As the World Cup approaches its end, attentions are turning to the 2026-27 club season - and the players who could be on the move this summer.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c87ng4xq9nwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T06:30:34Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/546a/live/163ab360-8118-11f1-8b8c-8f0447398806.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fifa 'assessing match reports' over Falklands banner",
-   "desc": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T18:44:43Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c9e/live/4ef72380-8142-11f1-badc-afcab3cff8b6.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/72e4/live/81110410-810d-11f1-926f-c90d1bcfbc84.png",
    "source": "BBC Sport"
   },
   {
@@ -6214,12 +6214,30 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "What next for England? How does Tuchel fix key problems for Euro 2028?",
-   "desc": "The manner of England's World Cup exit was meek, and Thomas Tuchel must now find a way to fix those problems as focus will soon turn to qualifying for Euro 2028.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq56djw19z2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T15:49:15Z",
+   "headline": "The financial winners and losers from the World Cup",
+   "desc": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most?",
+   "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T23:16:14Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f614/live/92fa61b0-812d-11f1-b525-63787292c170.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/99ff/live/e74f4460-8065-11f1-bf5f-a7a6eeea7412.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Fifa 'assessing match reports' over Falklands banner",
+   "desc": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T18:44:43Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c9e/live/4ef72380-8142-11f1-badc-afcab3cff8b6.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "From Southgate to Tuchel - has anything changed?",
+   "desc": "Thomas Tuchel was meant to be the man whose fresh approach would win England major honours, but defeat by Argentina felt like a familiar story - has anything really changed from the Gareth Southgate era?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyxnz36x5go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T18:02:35Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/546a/live/163ab360-8118-11f1-8b8c-8f0447398806.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6232,30 +6250,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The financial winners and losers from the World Cup",
-   "desc": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most?",
-   "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T23:16:14Z",
+   "headline": "60 years of hurt - England's World Cup wait in numbers",
+   "desc": "England’s wait for another World Cup triumph wait told through the football, people and moments that have shaped the world since 1966.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czrjgpy48pgo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T13:03:03Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/99ff/live/e74f4460-8065-11f1-bf5f-a7a6eeea7412.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Bellingham slapped Argentina substitute after England exit",
-   "desc": "Jude Bellingham sparks melee as he slaps Argentina substitute Valentin Barco on the back of the head following England's 2-1 World Cup semi-final defeat.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c74glwpv99yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T08:38:33Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bd04/live/6ce52a20-80e5-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why you should care about World Cup third-place play-off",
-   "desc": "It might feel like the last thing anyone wants right now - but here is why, actually, you do want to watch the World Cup's third-place play-off.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T10:44:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3097/live/5acbca60-809a-11f1-926f-c90d1bcfbc84.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2338/live/cd4db330-810f-11f1-bc2f-2bbab5acc9ff.jpg",
    "source": "BBC Sport"
   }
  ]
