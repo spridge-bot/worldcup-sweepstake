@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T10:23:00+00:00",
+ "generated_at": "2026-07-17T11:46:50+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3980,8 +3980,8 @@
    "stage": "Final",
    "group": null,
    "odds": {
-    "home": 2.3,
-    "draw": 2.95,
+    "home": 2.25,
+    "draw": 3.0,
     "away": 3.55,
     "over_under": 2.5,
     "provider": "DraftKings"
@@ -6151,6 +6151,24 @@
  ],
  "news": [
   {
+   "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
+   "desc": "Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T11:00:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f7d1/live/ea5524f0-8163-11f1-a3a9-99558c035618.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Thousands of tickets still available for England v France",
+   "desc": "Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5yd5kv1e5ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T09:16:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d9ee/live/4be4bd80-81bd-11f1-851a-41b6200fdab4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Effort, spirit and moments - but do England lack all-round quality?",
    "desc": "As England reflect on their World Cup semi-final defeat by Argentina, BBC Sport's Phil McNulty looks at what Thomas Tuchel's team were lacking.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cz64xyn4vz2o?at_medium=RSS&at_campaign=rss",
@@ -6187,30 +6205,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Thousands of tickets still available for England v France",
-   "desc": "Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yd5kv1e5ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T09:16:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d9ee/live/4be4bd80-81bd-11f1-851a-41b6200fdab4.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "World Cup stars who could move this summer",
    "desc": "As the World Cup approaches its end, attentions are turning to the 2026-27 club season - and the players who could be on the move this summer.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c87ng4xq9nwo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-17T06:30:34Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/72e4/live/81110410-810d-11f1-926f-c90d1bcfbc84.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Pele's 1958 World Cup final shirt sells for $4.9m",
-   "desc": "A shirt worn by Pele during the 1958 World Cup final has sold for $4.9m (£3.6m) at a Sotheby's auction in New York.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cn8n7dejqy2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T20:42:30Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dcb1/live/ba8b9540-8151-11f1-badc-afcab3cff8b6.png",
    "source": "BBC Sport"
   },
   {
@@ -6232,6 +6232,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Underdogs, history and late goals - Africa's World Cup",
+   "desc": "The 2026 World Cup saw Africa send its largest ever contingent to the finals, but five sides were eliminated by late goals as underdogs Cape Verde impressed.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2d2w8gxpvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T10:18:57Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b344/live/5ffe8730-8102-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "'A true miracle of destiny' - Messi and Lamine Yamal's incredible first meeting",
    "desc": "BBC Sport explores a bond between two world-class footballers from different generations who appear bound by destiny",
    "link": "https://www.bbc.co.uk/sport/football/articles/c9w0j104rvgo?at_medium=RSS&at_campaign=rss",
@@ -6241,21 +6250,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The financial winners and losers from the World Cup",
-   "desc": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?",
-   "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T09:40:17Z",
+   "headline": "Pele's 1958 World Cup final shirt sells for $4.9m",
+   "desc": "A shirt worn by Pele during the 1958 World Cup final has sold for $4.9m (£3.6m) at a Sotheby's auction in New York.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cn8n7dejqy2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-16T20:42:30Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fifa 'assessing match reports' over Falklands banner",
-   "desc": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T18:44:43Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c9e/live/4ef72380-8142-11f1-badc-afcab3cff8b6.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dcb1/live/ba8b9540-8151-11f1-badc-afcab3cff8b6.png",
    "source": "BBC Sport"
   }
  ]
