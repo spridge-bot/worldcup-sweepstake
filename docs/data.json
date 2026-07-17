@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T20:00:52+00:00",
+ "generated_at": "2026-07-17T21:03:34+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6151,12 +6151,21 @@
  ],
  "news": [
   {
-   "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
-   "desc": "Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T11:00:24Z",
+   "headline": "Tuchel urges England to finish strongly in emotional address",
+   "desc": "England manager Thomas Tuchel has called on his players to end the World Cup strongly in an emotional address to the squad following their agonising semi-final defeat by Argentina.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c62ergl0py2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T20:39:45Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1271/live/fdb61be0-81da-11f1-b976-0b9c15b0ccfc.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/625d/live/bc13c990-821a-11f1-926f-c90d1bcfbc84.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Stick with Tuchel unless Guardiola is available - Rooney",
+   "desc": "Wayne Rooney thinks the Football Association should stick with Thomas Tuchel as England head coach unless a move for Pep Guardiola is possible.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c304ldrmmero?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T20:16:26Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1f6/live/cb3d80e0-820c-11f1-a389-0bd432a143c3.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6169,12 +6178,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Stick with Tuchel unless Guardiola is available - Rooney",
-   "desc": "Wayne Rooney thinks the Football Association should stick with Thomas Tuchel as England head coach unless a move for Pep Guardiola is possible.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c304ldrmmero?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T19:33:38Z",
+   "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
+   "desc": "Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T11:00:24Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1f6/live/cb3d80e0-820c-11f1-a389-0bd432a143c3.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1271/live/fdb61be0-81da-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6184,15 +6193,6 @@
    "published": "2026-07-17T16:26:43Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Five reasons for England to be cheerful despite World Cup exit",
-   "desc": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T13:45:13Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/341f/live/ddf955e0-81cd-11f1-b976-0b9c15b0ccfc.png",
    "source": "BBC Sport"
   },
   {
@@ -6214,21 +6214,21 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "Five reasons for England to be cheerful despite World Cup exit",
+   "desc": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T13:45:13Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/341f/live/ddf955e0-81cd-11f1-b976-0b9c15b0ccfc.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "World Cup rings for winners as Trump attendance confirmed",
    "desc": "Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgmk7mnnyjeo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-17T08:40:55Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b799/live/f014a550-81b3-11f1-bc34-d11e2a8fe857.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Thousands of tickets still available for England v France",
-   "desc": "Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5yd5kv1e5ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T09:16:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d9ee/live/4be4bd80-81bd-11f1-851a-41b6200fdab4.jpg",
    "source": "BBC Sport"
   },
   {
