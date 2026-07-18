@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-18T19:18:55+00:00",
+ "generated_at": "2026-07-18T20:08:47+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 1.83,
+    "home": 1.77,
     "draw": 4.0,
-    "away": 3.85,
+    "away": 4.2,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -6151,6 +6151,15 @@
  ],
  "news": [
   {
+   "headline": "Make your predictions for the last two games of World Cup 2026",
+   "desc": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football.",
+   "link": "https://www.bbc.co.uk/sport/football/predictor/mwc2026?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T18:59:30Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "False nines or firing forwards - England's potential life after Kane",
    "desc": "Are England facing the prospect of using a false nine up front once record scorer Harry Kane calls time on his international career?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp87llz7539o?at_medium=RSS&at_campaign=rss",
@@ -6196,24 +6205,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The Bronze Final - the unwanted tie or a match with a 'golden layer'?",
-   "desc": "Why does the Fifa World Cup Bronze Final still exist?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c4gk5jq2lj1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T13:23:13Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c0f6/live/a0eafba0-82b2-11f1-926f-c90d1bcfbc84.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Make your predictions for the last two games of World Cup 2026",
-   "desc": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football.",
-   "link": "https://www.bbc.co.uk/sport/football/predictor/mwc2026?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T18:59:30Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
    "desc": "Spain manager Luis de la Fuente and Argentina boss Lionel Scaloni will go head-to-head in the World Cup final on Sunday - and the two men know each other well.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss",
@@ -6256,6 +6247,15 @@
    "published": "2026-07-18T00:38:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a2cd/live/7ee7cab0-823a-11f1-8bc5-3d8d35efc8b1.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rooney, Hart and Richards row down Hudson River",
+   "desc": "Wayne Rooney rows down the Hudson River with fellow BBC pundits Joe Hart and Micah Richards.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3w0p810dj9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T07:30:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b71a/live/b21b0a10-827f-11f1-9ffb-b1fdb5e008f5.jpg",
    "source": "BBC Sport"
   }
  ]
