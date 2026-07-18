@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-18T22:51:33+00:00",
+ "generated_at": "2026-07-18T23:37:44+00:00",
  "mode": "live",
- "latest_day": "2026-07-15",
+ "latest_day": "2026-07-18",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -40,9 +40,9 @@
     "CUW"
    ],
    "total": 23,
-   "today": 5,
+   "today": 0,
    "rank": 2,
-   "movement": 2
+   "movement": 0
   },
   {
    "name": "Brando",
@@ -55,7 +55,7 @@
    "total": 20,
    "today": 0,
    "rank": 3,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Dipen",
@@ -68,7 +68,7 @@
    "total": 20,
    "today": 0,
    "rank": 3,
-   "movement": -1
+   "movement": 0
   },
   {
    "name": "Spridge",
@@ -270,12 +270,12 @@
    "fifa_rank": 3,
    "owner": "Spridge",
    "status": "alive",
-   "played": 7,
+   "played": 8,
    "won": 6,
    "drawn": 0,
-   "lost": 1,
-   "gf": 16,
-   "ga": 4,
+   "lost": 2,
+   "gf": 20,
+   "ga": 10,
    "total": 14,
    "events": [
     {
@@ -308,12 +308,12 @@
    "fifa_rank": 4,
    "owner": "Brando",
    "status": "alive",
-   "played": 7,
-   "won": 5,
+   "played": 8,
+   "won": 6,
    "drawn": 1,
    "lost": 1,
-   "gf": 14,
-   "ga": 8,
+   "gf": 20,
+   "ga": 12,
    "total": 14,
    "events": [
     {
@@ -1359,40 +1359,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760516,
+   "date": "2026-07-18",
    "utc": "2026-07-18T21:00:00Z",
    "stage": "3RD_PLACE_MATCH",
    "group": null,
-   "clock": "88'",
-   "clock_sec": 5280.0,
-   "status_detail": "88'",
-   "venue": "Hard Rock Stadium",
+   "note": "",
+   "home": {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "tier": 1,
+    "goals": 4,
+    "points": null
+   },
+   "away": {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tier": 1,
+    "goals": 6,
+    "points": null
+   },
    "odds": {
     "home": 1.95,
     "draw": 3.65,
     "away": 3.65,
     "over_under": 3.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "owner": "Spridge",
-    "goals": 3
-   },
-   "away": {
-    "code": "ENG",
-    "name": "England",
-    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "owner": "Brando",
-    "goals": 5
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760515,
    "date": "2026-07-15",
@@ -5626,6 +5625,14 @@
    "owner": "Glancy"
   },
   {
+   "player": "Jude Bellingham",
+   "team": "ENG",
+   "goals": 7,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
+  },
+  {
    "player": "Harry Kane",
    "team": "ENG",
    "goals": 6,
@@ -5634,12 +5641,12 @@
    "owner": "Brando"
   },
   {
-   "player": "Jude Bellingham",
-   "team": "ENG",
+   "player": "Ousmane Dembélé",
+   "team": "FRA",
    "goals": 6,
    "assists": 0,
-   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "owner": "Brando"
+   "flag": "🇫🇷",
+   "owner": "Spridge"
   },
   {
    "player": "Mikel Oyarzabal",
@@ -5648,14 +5655,6 @@
    "assists": 0,
    "flag": "🇪🇸",
    "owner": "Jen"
-  },
-  {
-   "player": "Ousmane Dembélé",
-   "team": "FRA",
-   "goals": 5,
-   "assists": 0,
-   "flag": "🇫🇷",
-   "owner": "Spridge"
   },
   {
    "player": "Ismaïla Sarr",
@@ -6158,12 +6157,12 @@
  ],
  "news": [
   {
-   "headline": "Rate England and France players in third-place play-off",
-   "desc": "Rate the England and France players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c2lylzk04npo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T22:40:22Z",
+   "headline": "How did England players rate during the World Cup?",
+   "desc": "BBC Sport England reporter Alex Howell assess how the Three Lions' players fared in North America.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2jljx84rwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T23:31:46Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c0ee/live/3e4a7290-82f9-11f1-b976-0b9c15b0ccfc.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/33a7/live/10d45980-82cb-11f1-adf9-c14531781464.jpg",
    "source": "BBC Sport"
   },
   {
