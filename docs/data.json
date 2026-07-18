@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-18T21:58:31+00:00",
+ "generated_at": "2026-07-18T22:51:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -1365,9 +1365,9 @@
    "utc": "2026-07-18T21:00:00Z",
    "stage": "3RD_PLACE_MATCH",
    "group": null,
-   "clock": "45'+5'",
-   "clock_sec": 2700.0,
-   "status_detail": "HT",
+   "clock": "88'",
+   "clock_sec": 5280.0,
+   "status_detail": "88'",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.95,
@@ -1381,14 +1381,14 @@
     "name": "France",
     "flag": "🇫🇷",
     "owner": "Spridge",
-    "goals": 0
+    "goals": 3
    },
    "away": {
     "code": "ENG",
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 4
+    "goals": 5
    }
   }
  ],
@@ -5604,7 +5604,7 @@
   {
    "player": "Kylian Mbappé",
    "team": "FRA",
-   "goals": 8,
+   "goals": 10,
    "assists": 0,
    "flag": "🇫🇷",
    "owner": "Spridge"
@@ -5682,12 +5682,28 @@
    "owner": "George"
   },
   {
+   "player": "Bradley Barcola",
+   "team": "FRA",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🇫🇷",
+   "owner": "Spridge"
+  },
+  {
    "player": "Brian Brobbey",
    "team": "NED",
    "goals": 3,
    "assists": 0,
    "flag": "🇳🇱",
    "owner": "Emily"
+  },
+  {
+   "player": "Bukayo Saka",
+   "team": "ENG",
+   "goals": 3,
+   "assists": 0,
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "owner": "Brando"
   },
   {
    "player": "Charles De Ketelaere",
@@ -5704,22 +5720,6 @@
    "assists": 0,
    "flag": "🇳🇱",
    "owner": "Emily"
-  },
-  {
-   "player": "Cristiano Ronaldo",
-   "team": "POR",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇵🇹",
-   "owner": "Dipen"
-  },
-  {
-   "player": "Deniz Undav",
-   "team": "GER",
-   "goals": 3,
-   "assists": 0,
-   "flag": "🇩🇪",
-   "owner": "Glancy"
   }
  ],
  "fairplay": [
@@ -6158,12 +6158,12 @@
  ],
  "news": [
   {
-   "headline": "Make your predictions for the last two games of World Cup 2026",
-   "desc": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football.",
-   "link": "https://www.bbc.co.uk/sport/football/predictor/mwc2026?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T18:59:30Z",
+   "headline": "Rate England and France players in third-place play-off",
+   "desc": "Rate the England and France players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c2lylzk04npo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T22:40:22Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c0ee/live/3e4a7290-82f9-11f1-b976-0b9c15b0ccfc.png",
    "source": "BBC Sport"
   },
   {
