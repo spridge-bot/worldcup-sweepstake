@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-18T21:02:54+00:00",
+ "generated_at": "2026-07-18T21:58:31+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -1365,9 +1365,9 @@
    "utc": "2026-07-18T21:00:00Z",
    "stage": "3RD_PLACE_MATCH",
    "group": null,
-   "clock": "3'",
-   "clock_sec": 180.0,
-   "status_detail": "3'",
+   "clock": "45'+5'",
+   "clock_sec": 2700.0,
+   "status_detail": "HT",
    "venue": "Hard Rock Stadium",
    "odds": {
     "home": 1.95,
@@ -1388,7 +1388,7 @@
     "name": "England",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "owner": "Brando",
-    "goals": 0
+    "goals": 4
    }
   }
  ],
@@ -6185,12 +6185,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Huge rise in harmful social media posts this World Cup",
-   "desc": "There have been 14 times more harmful social media posts and comments during this World Cup than in 2022, Fifa finds.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c7vg6q24e18o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T13:07:27Z",
+   "headline": "Hydration breaks not popular and Fifa will review - Wenger",
+   "desc": "Arsene Wenger says he accepts the hydration breaks introduced at the 2026 World Cup have not been popular and Fifa will review their impact after the tournament.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c24m30v0gy9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T21:42:23Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2497/live/0ffb6900-82a7-11f1-84ea-29e7008b1ad8.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e7e1/live/ac6e4090-82ee-11f1-a54c-d7b64e5e84c2.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6203,12 +6203,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "The harrowing dark side of England's World Cup exit",
-   "desc": "During a major football tournament such as the World Cup, some women and girls are constantly living in fear - because domestic abuse rises when England play, research shows.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwymljn8y10o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T09:59:34Z",
+   "headline": "Huge rise in harmful social media posts this World Cup",
+   "desc": "There have been 14 times more harmful social media posts and comments during this World Cup than in 2022, Fifa finds.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c7vg6q24e18o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T13:07:27Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a562/live/a1c11090-8213-11f1-be77-cd53d9589267.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2497/live/0ffb6900-82a7-11f1-84ea-29e7008b1ad8.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6227,6 +6227,15 @@
    "published": "2026-07-18T08:59:23Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1a8e/live/0e128af0-828a-11f1-a23b-f5a17a30f7d0.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "The harrowing dark side of England's World Cup exit",
+   "desc": "During a major football tournament such as the World Cup, some women and girls are constantly living in fear - because domestic abuse rises when England play, research shows.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwymljn8y10o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T09:59:34Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a562/live/a1c11090-8213-11f1-be77-cd53d9589267.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6254,15 +6263,6 @@
    "published": "2026-07-18T00:38:05Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a2cd/live/7ee7cab0-823a-11f1-8bc5-3d8d35efc8b1.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Rooney, Hart and Richards row down Hudson River",
-   "desc": "Wayne Rooney rows down the Hudson River with fellow BBC pundits Joe Hart and Micah Richards.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3w0p810dj9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T07:30:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b71a/live/b21b0a10-827f-11f1-9ffb-b1fdb5e008f5.jpg",
    "source": "BBC Sport"
   }
  ]
