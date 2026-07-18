@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T23:49:53+00:00",
+ "generated_at": "2026-07-18T01:07:48+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6151,6 +6151,15 @@
  ],
  "news": [
   {
+   "headline": "Argentina like to leave mark on opponents - Laporte",
+   "desc": "Spain defender Aymeric Laporte claims World Cup final opponents Argentina are a team that \"likes to leave a mark on their opponents\".",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj63e8l0kjjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T00:38:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a2cd/live/7ee7cab0-823a-11f1-8bc5-3d8d35efc8b1.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Tuchel urges England to finish strongly in emotional address",
    "desc": "England manager Thomas Tuchel urges his players to end the World Cup strongly in an emotional address after their agonising semi-final defeat by Argentina.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c62ergl0py2o?at_medium=RSS&at_campaign=rss",
@@ -6205,21 +6214,21 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Are Argentina being treated favourably at World Cup?",
-   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T16:26:43Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
    "desc": "Pele and Brazil at the Azteca in 1970? Lionel Messi's first World Cup? England winning it on home soil in 1966? BBC Sport attempts to rank the best finals.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-17T11:54:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1af7/live/ae47a880-814e-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Are Argentina being treated favourably at World Cup?",
+   "desc": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T16:26:43Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6247,15 +6256,6 @@
    "published": "2026-07-17T05:32:35Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31b8/live/dec4ce60-812c-11f1-b525-63787292c170.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How World Cup final could be pivotal in Ballon d'Or race",
-   "desc": "With the Ballon d'Or race tighter than ever before, BBC Sport looks at how the World Cup final could determine the 2026 winner.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c87ngl370p4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T12:56:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31b9/live/aa1483f0-813f-11f1-926f-c90d1bcfbc84.png",
    "source": "BBC Sport"
   }
  ]
