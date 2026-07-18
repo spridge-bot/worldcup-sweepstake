@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-18T04:11:58+00:00",
+ "generated_at": "2026-07-18T06:17:28+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -3955,9 +3955,9 @@
    "stage": "3RD_PLACE_MATCH",
    "group": null,
    "odds": {
-    "home": 1.91,
-    "draw": 3.85,
-    "away": 3.7,
+    "home": 1.87,
+    "draw": 3.95,
+    "away": 3.75,
     "over_under": 3.5,
     "provider": "DraftKings"
    },
@@ -6187,15 +6187,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Stick with Tuchel unless Guardiola is available - Rooney",
-   "desc": "Wayne Rooney thinks the Football Association should stick with Thomas Tuchel as England head coach unless a move for Pep Guardiola is possible.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c304ldrmmero?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T20:16:26Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1f6/live/cb3d80e0-820c-11f1-a389-0bd432a143c3.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
    "desc": "Former Spain captain Cesar Azpilicueta explains why Luis de la Fuente's side have confidence in the collective as they prepare for Sunday's World Cup final against Argentina.",
    "link": "https://www.bbc.co.uk/sport/football/articles/czxedvre7ryo?at_medium=RSS&at_campaign=rss",
@@ -6214,12 +6205,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
-   "desc": "Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T11:00:24Z",
+   "headline": "Stick with Tuchel unless Guardiola is available - Rooney",
+   "desc": "Wayne Rooney thinks the Football Association should stick with Thomas Tuchel as England head coach unless a move for Pep Guardiola is possible.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c304ldrmmero?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T20:16:26Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1271/live/fdb61be0-81da-11f1-b976-0b9c15b0ccfc.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1f6/live/cb3d80e0-820c-11f1-a389-0bd432a143c3.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6238,6 +6229,15 @@
    "published": "2026-07-17T11:54:14Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1af7/live/ae47a880-814e-11f1-bee8-53ce494e1abc.png",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
+   "desc": "Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-17T11:00:24Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1271/live/fdb61be0-81da-11f1-b976-0b9c15b0ccfc.jpg",
    "source": "BBC Sport"
   },
   {
