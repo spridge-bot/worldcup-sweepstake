@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-18T01:07:48+00:00",
+ "generated_at": "2026-07-18T04:11:58+00:00",
  "mode": "live",
  "latest_day": "2026-07-15",
  "scoring": {
@@ -6151,6 +6151,24 @@
  ],
  "news": [
   {
+   "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+   "desc": "England head coach Thomas Tuchel defends his tactical decisions during the World Cup semi-final defeat by Argentina in a tense news conference.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3r0l4zn9jpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T02:50:36Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/01e2/live/c8df0030-8248-11f1-8c83-d19dc49cf1a1.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "'They made him a defensive player' - Trump questions Kane role in semi",
+   "desc": "US President Donald Trump joins criticism of England's tactics in their World Cup semi-final loss to Argentina, by questioning Harry Kane's second-half \"defensive\" role.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjej3y1jgdpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T02:12:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1f0f/live/aed0a990-8249-11f1-8192-1d2d6928ff6e.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Argentina like to leave mark on opponents - Laporte",
    "desc": "Spain defender Aymeric Laporte claims World Cup final opponents Argentina are a team that \"likes to leave a mark on their opponents\".",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj63e8l0kjjo?at_medium=RSS&at_campaign=rss",
@@ -6238,24 +6256,6 @@
    "published": "2026-07-17T13:45:13Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/341f/live/ddf955e0-81cd-11f1-b976-0b9c15b0ccfc.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "World Cup rings for winners as Trump attendance confirmed",
-   "desc": "Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmk7mnnyjeo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T08:40:55Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b799/live/f014a550-81b3-11f1-bc34-d11e2a8fe857.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Effort, spirit and moments - but do England lack all-round quality?",
-   "desc": "As England reflect on their World Cup semi-final defeat by Argentina, BBC Sport's Phil McNulty looks at what Thomas Tuchel's team were lacking.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz64xyn4vz2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T05:32:35Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31b8/live/dec4ce60-812c-11f1-b525-63787292c170.jpg",
    "source": "BBC Sport"
   }
  ]
