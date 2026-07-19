@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-19T21:07:12+00:00",
+ "generated_at": "2026-07-19T22:05:17+00:00",
  "mode": "live",
- "latest_day": "2026-07-18",
+ "latest_day": "2026-07-19",
  "scoring": {
   "group_position": {
    "1": 5,
@@ -26,8 +26,8 @@
     "CIV",
     "HAI"
    ],
-   "total": 25,
-   "today": 0,
+   "total": 31,
+   "today": 6,
    "rank": 1,
    "movement": 0
   },
@@ -183,13 +183,13 @@
    "tier": 1,
    "fifa_rank": 1,
    "owner": "Fergs",
-   "status": "alive",
-   "played": 7,
+   "status": "out",
+   "played": 8,
    "won": 7,
    "drawn": 0,
-   "lost": 0,
+   "lost": 1,
    "gf": 19,
-   "ga": 7,
+   "ga": 8,
    "total": 19,
    "events": [
     {
@@ -226,15 +226,20 @@
    "tier": 1,
    "fifa_rank": 2,
    "owner": "Jen",
-   "status": "alive",
-   "played": 7,
-   "won": 6,
+   "status": "champion",
+   "played": 8,
+   "won": 7,
    "drawn": 1,
    "lost": 0,
-   "gf": 13,
+   "gf": 14,
    "ga": 1,
-   "total": 19,
+   "total": 25,
    "events": [
+    {
+     "date": "2026-07-19",
+     "desc": "WORLD CHAMPIONS",
+     "points": 6
+    },
     {
      "date": "2026-07-14",
      "desc": "Won Semi-final tie",
@@ -1359,40 +1364,39 @@
    "events": []
   }
  },
- "live": [
+ "live": [],
+ "results": [
   {
    "id": 760517,
+   "date": "2026-07-19",
    "utc": "2026-07-19T19:00:00Z",
    "stage": "Final",
    "group": null,
-   "clock": "89'",
-   "clock_sec": 5340.0,
-   "status_detail": "89'",
-   "venue": "MetLife Stadium",
+   "note": "",
+   "home": {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "tier": 1,
+    "goals": 1,
+    "points": 6
+   },
+   "away": {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "tier": 1,
+    "goals": 0,
+    "points": 0
+   },
    "odds": {
     "home": 2.25,
     "draw": 3.0,
     "away": 3.6,
     "over_under": 2.5,
     "provider": "DraftKings"
-   },
-   "home": {
-    "code": "ESP",
-    "name": "Spain",
-    "flag": "🇪🇸",
-    "owner": "Jen",
-    "goals": 0
-   },
-   "away": {
-    "code": "ARG",
-    "name": "Argentina",
-    "flag": "🇦🇷",
-    "owner": "Fergs",
-    "goals": 0
    }
-  }
- ],
- "results": [
+  },
   {
    "id": 760516,
    "date": "2026-07-18",
@@ -5585,11 +5589,11 @@
    "id": 760517,
    "utc": "2026-07-19T19:00:00Z",
    "stage": "FINAL",
-   "status": "IN_PLAY",
-   "hg": null,
-   "ag": null,
+   "status": "FINISHED",
+   "hg": 1,
+   "ag": 0,
    "note": "",
-   "winner": null,
+   "winner": "ESP",
    "venue": "MetLife Stadium",
    "home": {
     "code": "ESP",
@@ -5729,6 +5733,15 @@
  ],
  "fairplay": [
   {
+   "code": "ARG",
+   "name": "Argentina",
+   "flag": "🇦🇷",
+   "owner": "Fergs",
+   "yellow": 15,
+   "red": 1,
+   "pts": 19
+  },
+  {
    "code": "PAR",
    "name": "Paraguay",
    "flag": "🇵🇾",
@@ -5834,15 +5847,6 @@
    "owner": "Pari",
    "yellow": 5,
    "red": 1,
-   "pts": 9
-  },
-  {
-   "code": "ARG",
-   "name": "Argentina",
-   "flag": "🇦🇷",
-   "owner": "Fergs",
-   "yellow": 9,
-   "red": 0,
    "pts": 9
   },
   {
@@ -6181,10 +6185,10 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Madonna, Justin Bieber, Shakira and BTS perform at World Cup half-time show",
-   "desc": "Shakira, Robbie Wiliams and Jennifer Hudson were also part of the star-studded final, as Argentina took on Spain for the title.",
+   "headline": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
+   "desc": "Robbie Williams and Jennifer Hudson also performed, with Kylie Jenner and Timothee Chalamet among the celebrities in the crowds.",
    "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T20:48:48Z",
+   "published": "2026-07-19T21:29:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/467e/live/42b59d30-83af-11f1-ab77-f798412624b5.jpg",
    "source": "BBC Sport"
@@ -6208,10 +6212,10 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Madonna, Justin Bieber, Shakira and BTS perform at World Cup half-time show",
-   "desc": "Shakira, Robbie Wiliams and Jennifer Hudson were also part of the star-studded final, as Argentina took on Spain for the title.",
+   "headline": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
+   "desc": "Robbie Williams and Jennifer Hudson also performed, with Kylie Jenner and Timothee Chalamet among the celebrities in the crowds.",
    "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T20:48:48Z",
+   "published": "2026-07-19T21:29:21Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/467e/live/42b59d30-83af-11f1-ab77-f798412624b5.jpg",
    "source": "BBC Sport"
