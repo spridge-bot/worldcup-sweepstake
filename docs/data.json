@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T01:08:05+00:00",
+ "generated_at": "2026-07-19T04:31:23+00:00",
  "mode": "live",
  "latest_day": "2026-07-18",
  "scoring": {
@@ -6157,6 +6157,15 @@
  ],
  "news": [
   {
+   "headline": "Best England team for a long time? That's a fact, says Rice",
+   "desc": "Midfielder Declan Rice says \"this is the best England group for a very long time\" after the Three Lions secure a third-placed finish at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4g34gjmyl7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-19T02:29:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/477e/live/949c3070-8312-11f1-9b83-cd6592fb54b4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "England's best World Cup for 60 years - but how should it be judged?",
    "desc": "England have secured their best men's World Cup finish since winning the tournament 60 years ago. Is their performance at the 2026 edition being under-appreciated?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c78g1p05025o?at_medium=RSS&at_campaign=rss",
@@ -6181,15 +6190,6 @@
    "published": "2026-07-18T23:48:40Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/979d/live/d555aff0-82ff-11f1-9bcc-27488bb80d29.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Bellingham breaks England World Cup goals record",
-   "desc": "Jude Bellingham becomes the first Englishman to score seven goals at a single World Cup with a late strike against France.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0qvzqlp4pdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T00:47:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f870/live/334171a0-8308-11f1-b9cd-c9e5bc6349ad.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6220,12 +6220,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Huge rise in harmful social media posts this World Cup",
-   "desc": "There have been 14 times more harmful social media posts and comments during this World Cup than in 2022, Fifa finds.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c7vg6q24e18o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T13:07:27Z",
+   "headline": "Bellingham breaks England World Cup goals record",
+   "desc": "Jude Bellingham becomes the first Englishman to score seven goals at a single World Cup with a late strike against France.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0qvzqlp4pdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-19T00:47:11Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2497/live/0ffb6900-82a7-11f1-84ea-29e7008b1ad8.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f870/live/334171a0-8308-11f1-b9cd-c9e5bc6349ad.jpg",
    "source": "BBC Sport"
   },
   {
