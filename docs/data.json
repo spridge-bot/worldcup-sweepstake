@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T19:21:45+00:00",
+ "generated_at": "2026-07-19T20:13:05+00:00",
  "mode": "live",
  "latest_day": "2026-07-18",
  "scoring": {
@@ -1365,9 +1365,9 @@
    "utc": "2026-07-19T19:00:00Z",
    "stage": "Final",
    "group": null,
-   "clock": "15'",
-   "clock_sec": 900.0,
-   "status_detail": "15'",
+   "clock": "45'+4'",
+   "clock_sec": 2700.0,
+   "status_detail": "HT",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 2.25,
@@ -6163,6 +6163,15 @@
  ],
  "news": [
   {
+   "headline": "Rate the Spain and Argentina players in World Cup final",
+   "desc": "Rate the Spain and Argentina players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-19T19:55:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9cf2/live/ab89d8f0-837b-11f1-b976-0b9c15b0ccfc.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Experience this match in 3D",
    "desc": "Watch the World Cup final from every angle including through the eyes of every player.",
    "link": "https://www.3d-bbc.co.uk/?matchId=151710&at_medium=RSS&at_campaign=rss",
@@ -6172,12 +6181,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Tom Cruise, Jennifer Hudson among star appearances at World Cup closing ceremony",
+   "headline": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony",
    "desc": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS.",
    "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T19:21:29Z",
+   "published": "2026-07-19T19:59:36Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/252f/live/45582390-83a6-11f1-8175-0b71720eeb65.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1447/live/fc1348f0-83a9-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6217,12 +6226,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "World Cup final kicks-off with star-studded opening",
+   "headline": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony",
    "desc": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS.",
    "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T19:07:40Z",
+   "published": "2026-07-19T19:59:36Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/030c/live/5b9c41e0-839c-11f1-8c34-fb0b540950a3.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1447/live/fc1348f0-83a9-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6259,15 +6268,6 @@
    "published": "2026-07-19T09:52:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fef/live/4617b260-834b-11f1-9cc1-2be754602518.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
-   "desc": "Spain manager Luis de la Fuente and Argentina boss Lionel Scaloni will go head-to-head in the World Cup final on Sunday - and the two men know each other well.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T13:00:18Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c7b6/live/4be576d0-822b-11f1-bee8-53ce494e1abc.jpg",
    "source": "BBC Sport"
   }
  ]
