@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T14:08:31+00:00",
+ "generated_at": "2026-07-19T15:11:36+00:00",
  "mode": "live",
  "latest_day": "2026-07-18",
  "scoring": {
@@ -6220,6 +6220,15 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "World Cup set for longest half-time in tournament's history",
+   "desc": "Half-time at the World Cup final between Spain and Argentina is set to be the longest in the tournament's history.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c1wyw9wx19yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-19T01:43:45Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87e7/live/ef389790-7fce-11f1-b100-ede08f115ddf.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Over to you, Messi - Mbappe leads Golden Boot race for the ages",
    "desc": "Kylian Mbappe leads the Golden Boot race by two goals but Lionel Messi could yet overtake him in the World Cup final.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c89nl42dnpyo?at_medium=RSS&at_campaign=rss",
@@ -6253,15 +6262,6 @@
    "published": "2026-07-19T00:47:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f870/live/334171a0-8308-11f1-b9cd-c9e5bc6349ad.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Quiz: Name every men's World Cup final host city",
-   "desc": "The World Cup final is where heroes are made and dreams come true for players and fans alike. Can you name every city that has ever hosted the showpiece?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvgzp820y9xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T12:55:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0cb3/live/2e509b00-6821-11f1-8546-8f19e4fe30f4.png",
    "source": "BBC Sport"
   }
  ]
