@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T04:31:23+00:00",
+ "generated_at": "2026-07-19T07:07:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-18",
  "scoring": {
@@ -3986,9 +3986,9 @@
    "stage": "Final",
    "group": null,
    "odds": {
-    "home": 2.25,
-    "draw": 3.0,
-    "away": 3.55,
+    "home": 2.3,
+    "draw": 3.05,
+    "away": 3.45,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6158,7 +6158,7 @@
  "news": [
   {
    "headline": "Best England team for a long time? That's a fact, says Rice",
-   "desc": "Midfielder Declan Rice says \"this is the best England group for a very long time\" after the Three Lions secure a third-placed finish at the 2026 World Cup.",
+   "desc": "Midfielder Declan Rice says \"this is the best England group for a very long time\" after they secure a third-placed finish at the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4g34gjmyl7o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-19T02:29:00Z",
    "type": "Story",
