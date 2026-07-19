@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T07:07:18+00:00",
+ "generated_at": "2026-07-19T09:13:54+00:00",
  "mode": "live",
  "latest_day": "2026-07-18",
  "scoring": {
@@ -3986,9 +3986,9 @@
    "stage": "Final",
    "group": null,
    "odds": {
-    "home": 2.3,
-    "draw": 3.05,
-    "away": 3.45,
+    "home": 2.25,
+    "draw": 3.0,
+    "away": 3.6,
     "over_under": 2.5,
     "provider": "DraftKings"
    },
@@ -6202,15 +6202,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Hydration breaks not popular and Fifa will review - Wenger",
-   "desc": "Arsene Wenger says he accepts the hydration breaks introduced at the 2026 World Cup have not been popular and Fifa will review their impact after the tournament.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c24m30v0gy9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T21:42:23Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e7e1/live/ac6e4090-82ee-11f1-a54c-d7b64e5e84c2.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
    "desc": "Spain manager Luis de la Fuente and Argentina boss Lionel Scaloni will go head-to-head in the World Cup final on Sunday - and the two men know each other well.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss",
@@ -6262,6 +6253,15 @@
    "published": "2026-07-18T11:30:47Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5258/live/03609930-8221-11f1-b966-41edf3b346b4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Rooney, Hart and Richards row down Hudson River",
+   "desc": "Wayne Rooney rows down the Hudson River with fellow BBC pundits Joe Hart and Micah Richards.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c3w0p810dj9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T07:30:11Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b71a/live/b21b0a10-827f-11f1-9ffb-b1fdb5e008f5.jpg",
    "source": "BBC Sport"
   }
  ]
