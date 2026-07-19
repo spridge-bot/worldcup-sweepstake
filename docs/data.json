@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T20:13:05+00:00",
+ "generated_at": "2026-07-19T21:07:12+00:00",
  "mode": "live",
  "latest_day": "2026-07-18",
  "scoring": {
@@ -1365,9 +1365,9 @@
    "utc": "2026-07-19T19:00:00Z",
    "stage": "Final",
    "group": null,
-   "clock": "45'+4'",
-   "clock_sec": 2700.0,
-   "status_detail": "HT",
+   "clock": "89'",
+   "clock_sec": 5340.0,
+   "status_detail": "89'",
    "venue": "MetLife Stadium",
    "odds": {
     "home": 2.25,
@@ -6181,12 +6181,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony",
-   "desc": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS.",
+   "headline": "Madonna, Justin Bieber, Shakira and BTS perform at World Cup half-time show",
+   "desc": "Shakira, Robbie Wiliams and Jennifer Hudson were also part of the star-studded final, as Argentina took on Spain for the title.",
    "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T19:59:36Z",
+   "published": "2026-07-19T20:48:48Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1447/live/fc1348f0-83a9-11f1-bee8-53ce494e1abc.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/467e/live/42b59d30-83af-11f1-ab77-f798412624b5.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6199,15 +6199,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Messi on the brink of history - will it be his last World Cup game?",
-   "desc": "Argentina captain Lionel Messi will play his 34th World Cup match in Sunday's final, but will it be his last appearance?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T09:55:22Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b38e/live/91662510-7af6-11f1-94d8-c95634a95d3e.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "I've been a World Cup official - I promise you there is no favouritism",
    "desc": "Darren Cann speaks to BBC Sport about the conspiracy theories around the World Cup and what referees really think.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cm2g9g3v5gmo?at_medium=RSS&at_campaign=rss",
@@ -6217,21 +6208,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "'Legend' or 'regrets'? A final that will define Lamine Yamal's World Cup",
-   "desc": "Lamine Yamal may not have had a sparkling World Cup but victory for Spain in Sunday's World Cup final would write a very different narrative.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdx8r45w2gzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T10:11:29Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d02b/live/eb58a230-82d7-11f1-a7b7-31e12e116164.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony",
-   "desc": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS.",
+   "headline": "Madonna, Justin Bieber, Shakira and BTS perform at World Cup half-time show",
+   "desc": "Shakira, Robbie Wiliams and Jennifer Hudson were also part of the star-studded final, as Argentina took on Spain for the title.",
    "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T19:59:36Z",
+   "published": "2026-07-19T20:48:48Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1447/live/fc1348f0-83a9-11f1-bee8-53ce494e1abc.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/467e/live/42b59d30-83af-11f1-ab77-f798412624b5.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6244,15 +6226,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Over to you, Messi - Mbappe leads Golden Boot race for the ages",
-   "desc": "Kylian Mbappe leads the Golden Boot race by two goals but Lionel Messi could yet overtake him in the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c89nl42dnpyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T23:48:40Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/979d/live/d555aff0-82ff-11f1-9bcc-27488bb80d29.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Best England team for a long time - that's a fact, says Rice",
    "desc": "Midfielder Declan Rice says \"this is the best England group for a very long time\" after they secure a third-placed finish at the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c4g34gjmyl7o?at_medium=RSS&at_campaign=rss",
@@ -6262,12 +6235,39 @@
    "source": "BBC Sport"
   },
   {
+   "headline": "More games, more controversy - good and bad of biggest World Cup yet",
+   "desc": "From high ticket prices to hydration breaks, new laws and political interventions, there has rarely been a dull moment at the 2026 World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T09:16:54Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0e34/live/08465ca0-81c7-11f1-97b7-87871fc222bc.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Has Saka shown Tuchel he's too good to leave out?",
    "desc": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-19T09:52:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fef/live/4617b260-834b-11f1-9cc1-2be754602518.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Over to you, Messi - Mbappe leads Golden Boot race for the ages",
+   "desc": "Kylian Mbappe leads the Golden Boot race by two goals but Lionel Messi could yet overtake him in the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c89nl42dnpyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T23:48:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/979d/live/d555aff0-82ff-11f1-9bcc-27488bb80d29.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Messi on the brink of history - will it be his last World Cup game?",
+   "desc": "Argentina captain Lionel Messi will play his 34th World Cup match in Sunday's final, but will it be his last appearance?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-19T09:55:22Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b38e/live/91662510-7af6-11f1-94d8-c95634a95d3e.jpg",
    "source": "BBC Sport"
   }
  ]
