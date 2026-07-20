@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T21:12:52+00:00",
+ "generated_at": "2026-07-20T22:12:56+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6176,12 +6176,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Uefa president boycotts World Cup final in protest against Fifa",
-   "desc": "Uefa president Aleksander Ceferin did not attend the World Cup final between Argentina and Spain in protest against Fifa.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr59mg77ep2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T16:44:02Z",
+   "headline": "Gallery: Spain celebrate World Cup triumph in Madrid",
+   "desc": "Thousands of fans take to the streets of Madrid as the Spain squad enjoy a bus parade after winning the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cgje79d6q64o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T21:50:12Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/89fb/live/5f5ae690-8457-11f1-8cf4-43aed99842b4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/965b/live/9a484b00-8482-11f1-b4a3-ff90d93e1201.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6191,6 +6191,15 @@
    "published": "2026-07-20T19:32:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d24c/live/0a2e58b0-8447-11f1-878a-03d79d819c89.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Uefa president boycotts World Cup final in protest against Fifa",
+   "desc": "Uefa president Aleksander Ceferin did not attend the World Cup final between Argentina and Spain in protest against Fifa.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr59mg77ep2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T16:44:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/89fb/live/5f5ae690-8457-11f1-8cf4-43aed99842b4.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6248,15 +6257,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Lamine Yamal 'completes football' at 19 as Argentina betray Messi",
-   "desc": "Spain's Lamine Yamal takes the glory of World Cup victory as the great Lionel Messi's evening ends in tears.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0m7zx38v43o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T01:28:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3af6/live/b9aa30c0-83d4-11f1-ad7d-c7f9656ee7bb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Why Beckham was face of World Cup in the US",
    "desc": "After arriving in Los Angeles 19 years ago promising to grow the game, David Beckham is still helping sell football to America.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cwyq1ew4830o?at_medium=RSS&at_campaign=rss",
@@ -6266,12 +6266,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Sixteen titles in five years - why Spain are a dominant force",
-   "desc": "We look at what's behind Spain's dominance after they become the first nation to be men's and women's World Cup champions at the same time.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c39elvrye40o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T01:19:50Z",
+   "headline": "Lamine Yamal 'completes football' at 19 as Argentina betray Messi",
+   "desc": "Spain's Lamine Yamal takes the glory of World Cup victory as the great Lionel Messi's evening ends in tears.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c0m7zx38v43o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T01:28:28Z",
    "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/36cc/live/2813f680-83cc-11f1-abbb-e5eedb1cfb63.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3af6/live/b9aa30c0-83d4-11f1-ad7d-c7f9656ee7bb.jpg",
    "source": "BBC Sport"
   }
  ]
