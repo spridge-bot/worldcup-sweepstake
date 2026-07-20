@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T16:08:49+00:00",
+ "generated_at": "2026-07-20T18:16:22+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,33 @@
  ],
  "news": [
   {
+   "headline": "Could Argentina face action after post-final trouble?",
+   "desc": "Argentina are likely to face a Fifa investigation following the ugly scenes at the end of the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T16:44:00Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d24c/live/0a2e58b0-8447-11f1-878a-03d79d819c89.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Uefa president boycotts World Cup final in protest against Fifa",
+   "desc": "Uefa president Aleksander Ceferin did not attend the World Cup final between Argentina and Spain in protest against Fifa.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr59mg77ep2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T16:44:02Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/89fb/live/5f5ae690-8457-11f1-8cf4-43aed99842b4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Thank you for making this a World Cup to remember on the BBC",
+   "desc": "BBC Director of Sport Alex Kay-Jelski's message as BBC Sport delivers a record-breaking World Cup across TV, radio, online and social.",
+   "link": "https://www.bbc.co.uk/sport/articles/c1l1g3pjl3yo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T16:51:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f57c/live/2a89c2f0-8444-11f1-8075-ad45bd007d17.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Best goal, best player, best fans - BBC reporters' World Cup awards",
    "desc": "BBC Sport reporters pick their best moments of the tournament - and you can vote for yours.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdxd1pq4nrko?at_medium=RSS&at_campaign=rss",
@@ -6230,15 +6257,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Who are the World Cup record-holders?",
-   "desc": "BBC Sport's Ask Me Anything team looks at the record-holders in World Cup history ahead of the 2026 tournament.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx217277w8wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-13T15:09:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a78c/live/79573cd0-844b-11f1-926f-c90d1bcfbc84.png",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Scaloni leaves news conference in tears talking about his future",
    "desc": "Argentina manager Lionel Scaloni leaves his post-match news conference after Sunday's World Cup final defeat by Spain in tears.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cdew76g9d1zo?at_medium=RSS&at_campaign=rss",
@@ -6248,30 +6266,12 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Victory for football? Spain beat Argentina to win World Cup",
-   "desc": "It might seem like a trite cliche, but you won't find many neutrals disagreeing with that verdict on the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdx8veqllw7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T00:28:50Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8cc6/live/a8230270-83d7-11f1-ad7d-c7f9656ee7bb.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Sixteen titles in five years - why Spain are a dominant force",
    "desc": "We look at what's behind Spain's dominance after they become the first nation to be men's and women's World Cup champions at the same time.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c39elvrye40o?at_medium=RSS&at_campaign=rss",
    "published": "2026-07-20T01:19:50Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/36cc/live/2813f680-83cc-11f1-abbb-e5eedb1cfb63.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "How the World Cup has affected your Premier League team",
-   "desc": "Now Spain have been crowned world champions after victory over Argentina in New Jersey, attention will quickly shift to the new domestic season.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c3ek99pz1wgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T22:31:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/70f6/live/498fd010-8375-11f1-b976-0b9c15b0ccfc.png",
    "source": "BBC Sport"
   }
  ]
