@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T23:05:01+00:00",
+ "generated_at": "2026-07-20T00:06:32+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6194,15 +6194,6 @@
    "source": "BBC Sport"
   },
   {
-   "headline": "Rewatch the World Cup final in 3D",
-   "desc": "Watch the World Cup final from every angle including through the eyes of every player.",
-   "link": "https://www.3d-bbc.co.uk/?matchId=151710&at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T00:00:00Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9788/live/ba37b670-83a2-11f1-b976-0b9c15b0ccfc.jpg",
-   "source": "BBC Sport"
-  },
-  {
    "headline": "Mbappe first to win Golden Boot twice as Rodri named best player",
    "desc": "Kylian Mbappe has become the first player to win the World Cup Golden Boot twice after earning the award for top scorer at the 2026 tournament, while Spain's Rodri lands the Golden Ball as the best player.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cre4z58pzj9o?at_medium=RSS&at_campaign=rss",
@@ -6272,6 +6263,15 @@
    "published": "2026-07-19T09:52:44Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fef/live/4617b260-834b-11f1-9cc1-2be754602518.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Over to you, Messi - Mbappe leads Golden Boot race for the ages",
+   "desc": "Kylian Mbappe leads the Golden Boot race by two goals but Lionel Messi could yet overtake him in the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c89nl42dnpyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-18T23:48:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/979d/live/d555aff0-82ff-11f1-9bcc-27488bb80d29.jpg",
    "source": "BBC Sport"
   }
  ]
