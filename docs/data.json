@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T12:15:27+00:00",
+ "generated_at": "2026-07-21T14:25:19+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,33 @@
  ],
  "news": [
   {
+   "headline": "Infantino's 'time is up' with Fifa - La Liga boss",
+   "desc": "La Liga president Javier Tebas calls for Fifa president Gianni Infantino to quit, and claims the governing body is \"destroying the football industry\".",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqjxzy44l0vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T12:26:34Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00ac/live/8f7915c0-84f4-11f1-ae95-69a18db8092b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Keeper Martinez may 'step aside' from Argentina",
+   "desc": "Argentina goalkeeper Emi Martinez says he is considering whether it is \"time to step aside\" from international football after his side's 1-0 defeat to Spain in the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c62xzle86n4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T13:01:20Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f9d/live/f3bd3c10-8502-11f1-8b9b-a724b687bb3b.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Fernandez defends Argentina as Messi questions remain",
+   "desc": "Midfielder Enzo Fernandez claims Argentina represented their nation \"in the best possible way\" in the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8jn91e9mdyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T13:19:17Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f78a/live/68f61050-84f0-11f1-8a12-25ab4abfbe1c.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Why World Cup can be game-changer for ambitious MLS",
    "desc": "Can the success of the 2026 World Cup help MLS become one of the world's elite leagues?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c1418rm5p10o?at_medium=RSS&at_campaign=rss",
@@ -6182,15 +6209,6 @@
    "published": "2026-07-20T19:32:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d24c/live/0a2e58b0-8447-11f1-878a-03d79d819c89.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Messi says 'pain is immense' after losing World Cup final",
-   "desc": "Lionel Messi says \"the pain is immense\" and that it \"will take time to heal\" after Argentina lost 1-0 to Spain in the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz97gwpk01yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T19:13:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6c47/live/29917770-84cc-11f1-864b-a34563291577.jpg",
    "source": "BBC Sport"
   },
   {
@@ -6254,24 +6272,6 @@
    "published": "2026-07-20T15:52:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d950/live/857b38c0-843e-11f1-926f-c90d1bcfbc84.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why Beckham was face of World Cup in the US",
-   "desc": "After arriving in Los Angeles 19 years ago promising to grow the game, David Beckham is still helping sell football to America.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwyq1ew4830o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T10:45:58Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0f0d/live/50497ed0-838c-11f1-a4c3-dfd0ee4be073.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Thank you for making this a World Cup to remember on the BBC",
-   "desc": "BBC Director of Sport Alex Kay-Jelski's message as BBC Sport delivers a record-breaking World Cup across TV, radio, online and social.",
-   "link": "https://www.bbc.co.uk/sport/articles/c1l1g3pjl3yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T16:51:31Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f57c/live/2a89c2f0-8444-11f1-8075-ad45bd007d17.jpg",
    "source": "BBC Sport"
   }
  ]
