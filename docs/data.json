@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T14:45:48+00:00",
+ "generated_at": "2026-07-28T16:24:38+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,15 @@
  ],
  "news": [
   {
+   "headline": "Uefa says Fifa plan for private investment in World Cup 'crosses line'",
+   "desc": "European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-28T15:36:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/03c2/live/50869960-8a93-11f1-b8ee-9b3c26ad07bb.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Infantino tells Fifa critics to 'meditate, pray or watch football'",
    "desc": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cz0515973gpo?at_medium=RSS&at_campaign=rss",
@@ -6263,15 +6272,6 @@
    "published": "2026-07-21T05:12:13Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e88/live/17f1e9e0-84f5-11f1-ae95-69a18db8092b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Best goal, best player, best fans - BBC reporters' World Cup awards",
-   "desc": "BBC Sport reporters pick their best moments of the tournament - and you can vote for yours.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdxd1pq4nrko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T10:29:04Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/56d7/live/cae2fd50-7eb5-11f1-bee8-53ce494e1abc.png",
    "source": "BBC Sport"
   }
  ]
