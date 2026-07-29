@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T16:50:08+00:00",
+ "generated_at": "2026-07-29T17:59:08+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,15 @@
  ],
  "news": [
   {
+   "headline": "Fifa opens disciplinary proceedings against Argentina",
+   "desc": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-29T17:21:57Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa96/live/523cb650-8b6e-11f1-9c48-75e854e5573d.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Is World Cup sell-off plan a step too far by Infantino?",
    "desc": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
@@ -6263,15 +6272,6 @@
    "published": "2026-07-21T06:55:11Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f23/live/82543ab0-8287-11f1-a23b-f5a17a30f7d0.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fifa opens investigation into Argentina post-final trouble",
-   "desc": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T19:32:37Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d24c/live/0a2e58b0-8447-11f1-878a-03d79d819c89.jpg",
    "source": "BBC Sport"
   }
  ]
