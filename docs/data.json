@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T07:09:01+00:00",
+ "generated_at": "2026-07-29T09:47:21+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,24 @@
  ],
  "news": [
   {
+   "headline": "Uefa World Cup boycott may be raised over Fifa plan",
+   "desc": "The Football Association says it is concerned by Fifa's proposals to sell stakes in its major competitions as Uefa's 55 member associations hold an emergency meeting to discuss the issue.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cvg7vglq9wpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-29T09:26:15Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8597/live/49e2a200-8b2b-11f1-b8ee-9b3c26ad07bb.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Cucurella gets tattoo of Spain coach De la Fuente",
+   "desc": "Spain defender Marc Cucurella keeps his promise to get a tattoo of World Cup-winning coach Luis de la Fuente.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cdewdedl44go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-29T07:42:52Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4613/live/3131e090-8b21-11f1-b2ab-0dd01740f9f6.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Uefa says Fifa plan for private investment in World Cup 'crosses line'",
    "desc": "Uefa and Prime Minister Andy Burnham criticise proposals from Fifa to seek private investment in its competitions, including the World Cup.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
@@ -6254,24 +6272,6 @@
    "published": "2026-07-20T20:08:56Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8b77/live/d269b8a0-8475-11f1-ac57-abae38e66d9e.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Gallery: Spain celebrate World Cup triumph in Madrid",
-   "desc": "Thousands of fans take to the streets of Madrid as the Spain squad enjoy a bus parade after winning the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgje79d6q64o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T21:50:12Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/965b/live/9a484b00-8482-11f1-b4a3-ff90d93e1201.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fake kits worth £18m seized by police during World Cup",
-   "desc": "Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who wear them.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c0rdgrkx552o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-21T05:12:13Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1e88/live/17f1e9e0-84f5-11f1-ae95-69a18db8092b.jpg",
    "source": "BBC Sport"
   }
  ]
