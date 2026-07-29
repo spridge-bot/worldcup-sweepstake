@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T13:27:25+00:00",
+ "generated_at": "2026-07-29T15:28:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,10 +6167,19 @@
  ],
  "news": [
   {
+   "headline": "Is World Cup sell-off plan a step too far by Infantino?",
+   "desc": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-29T13:48:10Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/97ba/live/b13a4ae0-8b2e-11f1-bb9d-a754c466d213.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Fifa offers $40m if nations back controversial plan",
-   "desc": "Fifa has set a deadline of 19 September for member associations to access cash as FA voice disapproval of world governing body's funding plan ahead of emergency Uefa meeting.",
+   "desc": "Fifa has set a deadline of 19 September for member associations to access cash as FA voice disapproval of world governing body's funding plan before emergency Uefa meeting.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvg7vglq9wpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-29T11:33:45Z",
+   "published": "2026-07-29T14:56:22Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/21b3/live/ebfed720-8b44-11f1-a205-290436224ccc.jpg",
    "source": "BBC Sport"
@@ -6263,15 +6272,6 @@
    "published": "2026-07-20T19:32:37Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d24c/live/0a2e58b0-8447-11f1-878a-03d79d819c89.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Thousands of websites taken down for illegal World Cup streams",
-   "desc": "More than 1,000 illegal streaming sites were shut down in the US during the tournament, with a similar amount blocked in Colombia.",
-   "link": "https://www.bbc.co.uk/news/articles/cqx7wx4vqv1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-20T20:08:56Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8b77/live/d269b8a0-8475-11f1-ac57-abae38e66d9e.jpg",
    "source": "BBC Sport"
   }
  ]
