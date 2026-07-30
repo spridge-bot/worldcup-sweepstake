@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T21:37:18+00:00",
+ "generated_at": "2026-07-30T22:43:18+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,15 @@
  ],
  "news": [
   {
+   "headline": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
+   "desc": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-30T21:40:21Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad54/live/495f4a10-8c50-11f1-b8ee-9b3c26ad07bb.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Uefa to boycott World Cups if Fifa plans approved",
    "desc": "Uefa says \"the World Cup is not for sale\" after its 55 member associations vote to boycott future tournaments if Fifa and its president, Gianni Infantino, do not back down on their investment proposals.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
@@ -6263,15 +6272,6 @@
    "published": "2026-07-21T13:01:20Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f9d/live/f3bd3c10-8502-11f1-8b9b-a724b687bb3b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Fernandez defends Argentina as Messi questions remain",
-   "desc": "Midfielder Enzo Fernandez claims Argentina represented their nation \"in the best possible way\" in the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8jn91e9mdyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-21T13:19:17Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f78a/live/68f61050-84f0-11f1-8a12-25ab4abfbe1c.jpg",
    "source": "BBC Sport"
   }
  ]
