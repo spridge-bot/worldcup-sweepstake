@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T14:37:58+00:00",
+ "generated_at": "2026-07-30T16:12:33+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,15 @@
  ],
  "news": [
   {
+   "headline": "Uefa to boycott World Cups if Fifa plans approved",
+   "desc": "Uefa's 55 member associations vote to boycott the World Cup if Fifa proceeds with its plan to sell stakes in its competitions.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-30T16:05:40Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5aae/live/be7e8ec0-8c30-11f1-89bb-9b3e3c6f25f4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Alleged assaults and Falklands banner - Argentina face Fifa charges",
    "desc": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
@@ -6263,15 +6272,6 @@
    "published": "2026-07-21T13:19:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f78a/live/68f61050-84f0-11f1-8a12-25ab4abfbe1c.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Why World Cup can be game-changer for ambitious MLS",
-   "desc": "Can the success of the 2026 World Cup help MLS become one of the world's elite leagues?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c1418rm5p10o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-21T06:55:11Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f23/live/82543ab0-8287-11f1-a23b-f5a17a30f7d0.jpg",
    "source": "BBC Sport"
   }
  ]
