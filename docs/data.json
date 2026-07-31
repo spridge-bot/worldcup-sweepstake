@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T22:42:18+00:00",
+ "generated_at": "2026-07-31T23:41:37+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,6 +6167,15 @@
  ],
  "news": [
   {
+   "headline": "Fifa scraps controversial World Cup investment plan",
+   "desc": "Fifa scraps controversial plan to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's idea.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-31T23:35:29Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Fifa says 'nobody selling football' as plan continues",
    "desc": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss",
@@ -6263,15 +6272,6 @@
    "published": "2026-07-22T13:32:09Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e120/live/ebfd73a0-85ca-11f1-85d1-6b778e1e3096.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Infantino's 'time is up' with Fifa - La Liga boss",
-   "desc": "La Liga president Javier Tebas calls for Fifa president Gianni Infantino to quit, and claims the governing body is \"destroying the football industry\".",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqjxzy44l0vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-21T12:26:34Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00ac/live/8f7915c0-84f4-11f1-ae95-69a18db8092b.jpg",
    "source": "BBC Sport"
   }
  ]
