@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T04:41:31+00:00",
+ "generated_at": "2026-07-31T07:34:13+00:00",
  "mode": "live",
  "latest_day": "2026-07-19",
  "scoring": {
@@ -6167,10 +6167,19 @@
  ],
  "news": [
   {
+   "headline": "Fifa says 'nobody selling football' as plan continues",
+   "desc": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-31T06:31:44Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4f31/live/651cad70-8c95-11f1-b2ab-0dd01740f9f6.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
    "desc": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
    "link": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-30T21:40:21Z",
+   "published": "2026-07-31T05:14:17Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad54/live/495f4a10-8c50-11f1-b8ee-9b3c26ad07bb.jpg",
    "source": "BBC Sport"
@@ -6263,15 +6272,6 @@
    "published": "2026-07-21T12:26:34Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/00ac/live/8f7915c0-84f4-11f1-ae95-69a18db8092b.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Keeper Martinez may 'step aside' from Argentina",
-   "desc": "Argentina goalkeeper Emi Martinez says he is considering whether it is \"time to step aside\" from international football after his side's 1-0 defeat to Spain in the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c62xzle86n4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-21T13:01:20Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9f9d/live/f3bd3c10-8502-11f1-8b9b-a724b687bb3b.jpg",
    "source": "BBC Sport"
   }
  ]
