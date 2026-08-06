@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T04:13:07+00:00",
+ "generated_at": "2026-08-06T06:45:49+00:00",
  "mode": "live",
  "latest_day": null,
  "scoring": {
@@ -1123,6 +1123,15 @@
  "fairplay": [],
  "news": [
   {
+   "headline": "Players who turned World Cup heroics into big transfers",
+   "desc": "BBC Sport looks back at some of the players whose standout performances at the World Cup earned a big transfer.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj4kqdy4w4eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-08-06T06:16:58Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2165/live/4a6970e0-909f-11f1-a7ab-8b30adf0800a.png",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Fifa scraps controversial World Cup investment plan",
    "desc": "Football's world governing body Fifa abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal.",
    "link": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
@@ -1219,15 +1228,6 @@
    "published": "2026-07-23T07:54:03Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b526/live/da1a9c10-8662-11f1-93cb-95d7eb12ec49.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Paredes should not be suspended - Spain's Gavi",
-   "desc": "Spain midfielder Gavi does not think Argentina's Leandro Paredes should be suspended for his part in the fracas after the World Cup final.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c24m7prpq29o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-22T13:32:09Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e120/live/ebfd73a0-85ca-11f1-85d1-6b778e1e3096.png",
    "source": "BBC Sport"
   }
  ]
