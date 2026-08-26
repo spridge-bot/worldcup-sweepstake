@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T13:25:31+00:00",
+ "generated_at": "2026-08-26T14:09:34+00:00",
  "mode": "live",
  "latest_day": null,
  "scoring": {
@@ -1123,6 +1123,15 @@
  "fairplay": [],
  "news": [
   {
+   "headline": "Uefa set to drop Fifa tournament boycott threat",
+   "desc": "Uefa is set to drop its threat of boycotting Fifa competitions, having received assurances there will be no repeat of Gianni Infantino's plan to sell off stakes in the World Cup to private investors, BBC Sport has been told.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c5ye3j5n8vyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-08-26T13:31:31Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad8f/live/60372850-a14c-11f1-92f3-2381193e5eb4.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Players who turned World Cup heroics into big transfers",
    "desc": "BBC Sport looks back at some of the players whose standout performances at the World Cup earned a big transfer.",
    "link": "https://www.bbc.co.uk/sport/football/articles/cj4kqdy4w4eo?at_medium=RSS&at_campaign=rss",
@@ -1183,15 +1192,6 @@
    "published": "2026-07-29T17:21:57Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fa96/live/523cb650-8b6e-11f1-9c48-75e854e5573d.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Is World Cup sell-off plan a step too far by Infantino?",
-   "desc": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-29T13:48:10Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/97ba/live/b13a4ae0-8b2e-11f1-bb9d-a754c466d213.jpg",
    "source": "BBC Sport"
   },
   {
