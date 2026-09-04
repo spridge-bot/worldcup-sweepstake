@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T21:24:02+00:00",
+ "generated_at": "2026-09-04T23:06:33+00:00",
  "mode": "live",
  "latest_day": null,
  "scoring": {
@@ -1123,12 +1123,30 @@
  "fairplay": [],
  "news": [
   {
+   "headline": "FA to canvass England players in World Cup review",
+   "desc": "The Football Association's review into England's World Cup campaign will canvass the opinions of players involved in the tournament.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/clyr1ly8z4xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-09-04T21:28:23Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/1311/live/a28680b0-a8a5-11f1-9c70-ad33bdfbef33.jpg",
+   "source": "BBC Sport"
+  },
+  {
    "headline": "Uefa set to drop Fifa tournament boycott threat",
    "desc": "Uefa is set to drop its threat of boycotting Fifa competitions, having received assurances there will be no repeat of Gianni Infantino's plan to sell off stakes in the World Cup to private investors, BBC Sport has been told.",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5ye3j5n8vyo?at_medium=RSS&at_campaign=rss",
    "published": "2026-08-26T14:17:36Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ad8f/live/60372850-a14c-11f1-92f3-2381193e5eb4.jpg",
+   "source": "BBC Sport"
+  },
+  {
+   "headline": "Argentina's Paredes banned for 10 games",
+   "desc": "Fifa ban Argentina midfielder Leandro Paredes for 10 matches over his role in clashes with Spanish players after the World Cup final.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c98v7p1pr3eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-08-21T15:26:05Z",
+   "type": "Story",
+   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4619/live/4e75a6e0-9d6f-11f1-bdcc-8926c4a74c43.jpg",
    "source": "BBC Sport"
   },
   {
@@ -1210,24 +1228,6 @@
    "published": "2026-07-29T07:42:52Z",
    "type": "Story",
    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4613/live/3131e090-8b21-11f1-b2ab-0dd01740f9f6.png",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Infantino tells Fifa critics to 'meditate, pray or watch football'",
-   "desc": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cz0515973gpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-27T08:07:28Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d0be/live/28678820-8987-11f1-88b2-635548373e92.jpg",
-   "source": "BBC Sport"
-  },
-  {
-   "headline": "Ruiz & Gavi's reward for World Cup win... 150kg of tomatoes",
-   "desc": "Spain's Fabian Ruiz and Gavi receive their body weight in tomatoes when they return to their hometown Los Palacios y Villafranca.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvg840jye74o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-23T07:54:03Z",
-   "type": "Story",
-   "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b526/live/da1a9c10-8662-11f1-93cb-95d7eb12ec49.jpg",
    "source": "BBC Sport"
   }
  ]
